@@ -16,7 +16,7 @@ Unfortunately EJ widgets are provided without any form of localization,
 except for culture-based number and date formats, so all widgets are rendered 
 in plain, good, old English.
 
-Enter EJ Global...
+Enter EJ Global....
 
 How
 ===
@@ -78,9 +78,9 @@ language as shown below:
     }
     ...
 
-We capitalize on JavaScript nature and override these options at the prototype 
-level, without breaking any functionality and still allowing individual overrides 
-for specific keys or strings with passing individual options.      
+We can override these options at the prototype level, without breaking any 
+functionality and still allowing individual overrides for specific keys 
+or strings with passing individual options.      
 
 Contributions are welcome
 =========================
