@@ -45,8 +45,8 @@ EJ widgets use locale text options inside the source code to define the
 many text messages and labels that will be used to render their parts. These 
 options aren't available in the global context for easy overriding. These options
 can be passed on a per-widget manner to change the texts used for that specific 
-widget. This soon becomes cumbersome as every and each widget will require 
-a whole set of textual options to show them in a specific language as shown below:
+widget. Each widget will require a whole set of textual options in a specific 
+language as shown below:
 
     toolboxTooltipTexts: {
         addTool: "إضافة",
@@ -78,15 +78,14 @@ a whole set of textual options to show them in a specific language as shown belo
     }
     ...
 
-The solution employed by EJ Global is to capitalize on JavaScript nature and 
-override these options at the prototype level, without breaking any 
-functionality and still allowing individual overrides for specific messages or
-labels with the standard mechanism of passing individual options.      
+We capitalize on JavaScript nature and override these options at the prototype 
+level, without breaking any functionality and still allowing individual overrides 
+for specific keys or strings with passing individual options.      
 
 Contributions are welcome
 =========================
 
-Currently there are 27 language packs (and growing). I'll accept any and 
+Currently there are 27 language packs (and growing). We are accepting any and 
 all pull requests for corrections and new languages (and also email submissions)
 
 To get started just open any of the files and save a copy of it named after the 
