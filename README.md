@@ -21,7 +21,7 @@ Enter EJ Global...
 How
 ===
 
-Simply add a reference to the desired language file after including the Kendo UI
+Simply add a reference to the desired language file after including the EJ
 JavaScript files and all widgets will assume that file's language. Something
 like this: 
 
