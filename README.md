@@ -1,7 +1,7 @@
 EJ Global
 ============
 
-Complements Syncfusion's Essential Studio for JavaScript with language packs for 
+Syncfusion's Essential Studio for JavaScript with language packs for 
 the localization of all EJ widgets.
 
 Currently supported localization languages
