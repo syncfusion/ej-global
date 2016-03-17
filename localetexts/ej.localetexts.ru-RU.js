@@ -13,16 +13,13 @@ ej.Autocomplete.Locale["ru-RU"] = {
     emptyResultText: "Нет предложений",
     actionFailure: "Указанное поле не существует в данном источнике данных",
 };
-;
 ej.CurrencyTextbox.Locale["ru-RU"] = {
     watermarkText: "Введите значение",
 };
-;
 ej.DatePicker.Locale["ru-RU"] = {
     watermarkText: "Выбрать дату",
     buttonText: "сегодня",
 };
-;
 ej.DateTimePicker.Locale["ru-RU"] = {
     buttonText: {
         today: "сегодня",
@@ -31,7 +28,6 @@ ej.DateTimePicker.Locale["ru-RU"] = {
         timeTitle: "время"
     },
 };
-;
 ej.datavisualization.Diagram.Locale["ru-RU"] = {
     cut: "порез",
     copy: "копия",
@@ -48,7 +44,6 @@ ej.datavisualization.Diagram.Locale["ru-RU"] = {
     sendBackward: "Отправить назад",
     sendToBack: "SendToBack",
 };
-;
 ej.Dialog.Locale["ru-RU"] = {
     tooltip: {
         close: "близко",
@@ -62,7 +57,6 @@ ej.Dialog.Locale["ru-RU"] = {
     },
     closeIconTooltip: "близко",
 };
-;
 ej.ExcelFilter.Locale["ru-RU"] = {
     SortNoSmaller: "Сортировка меньших к большим",
     SortNoLarger: "Сортировка большего к меньшему",
@@ -101,7 +95,6 @@ ej.ExcelFilter.Locale["ru-RU"] = {
     True: "правда",
     False: "ложный",
 };
-;
 ej.FileExplorer.Locale["ru-RU"] = {
     Back: "назад",
     Forward: "вперед",
@@ -172,7 +165,6 @@ ej.FileExplorer.Locale["ru-RU"] = {
         closeToolTip: "близко"
     },
 };
-;
 ej.Gantt.Locale["ru-RU"] = {
     emptyRecord: "Нет записей для отображения",
     alertTexts: {
@@ -247,7 +239,6 @@ ej.Gantt.Locale["ru-RU"] = {
         toText: "к"
     },
 };
-;
 ej.Grid.Locale["ru-RU"] = {
     EmptyRecord: "Нет записей для отображения",
     GroupDropArea: "Перетащите сюда заголовок колонки для группировки его колонке",
@@ -344,7 +335,6 @@ if (ej.mobile !== undefined && ej.mobile.TimePicker !== undefined) {
 ej.NumericTextbox.Locale["ru-RU"] = {
     watermarkText: "Введите значение",
 };
-;
 ej.olap.OlapChart.Locale["ru-RU"] = {
     Measure: "Мера",
     Row: "строка",
@@ -353,7 +343,6 @@ ej.olap.OlapChart.Locale["ru-RU"] = {
     Collapse: "коллапс",
     Exit: "выход",
 };
-;
 ej.olap.OlapClient.Locale["ru-RU"] = {
     DeferUpdate: "Отложить обновление",
     MDXQuery: "MDX запросов",
@@ -416,12 +405,10 @@ ej.olap.OlapClient.Locale["ru-RU"] = {
     Polar: "полярный",
     Radar: "радар",
 };
-;
 ej.olap.OlapGauge.Locale["ru-RU"] = {
     RevenueGoal: "Выручка Гол",
     RevenueValue: "Доход Значение",
 };
-;
 ej.Pager.Locale["ru-RU"] = {
     pagerInfo: "{0} {1} страниц ({2} элементов)",
     firstPageTooltip: "Перейти к первой странице",
@@ -431,7 +418,6 @@ ej.Pager.Locale["ru-RU"] = {
     nextPagerTooltip: "Перейти к следующей странице",
     previousPagerTooltip: "Перейти к предыдущей странице",
 };
-;
 ej.PdfViewer.Locale["ru-RU"] = {
     toolbar: {
         print: {
@@ -478,11 +464,9 @@ ej.PdfViewer.Locale["ru-RU"] = {
         },
     },
 };
-;
 ej.PercentageTextbox.Locale["ru-RU"] = {
     watermarkText: "Введите значение",
 };
-;
 ej.PivotGrid.Locale["ru-RU"] = {
     ToolTipRow: "строка",
     ToolTipColumn: "колонка",
@@ -508,12 +492,10 @@ ej.PivotGrid.Locale["ru-RU"] = {
     Fontstyle: "Стиль шрифта",
     Bordercolor: "выделяющий цвет",
 };
-;
 ej.PivotPager.Locale["ru-RU"] = {
     SeriesPage: "Серия страницу",
     CategoricalPage: "Категорический страницу",
 };
-;
 ej.PivotSchemaDesigner.Locale["ru-RU"] = {
     PivotTableFieldList: "Сводная таблица Список поле",
     ChooseFieldsToAddToReport: "Выберите поля для добавления, чтобы сообщить:",
@@ -525,7 +507,6 @@ ej.PivotSchemaDesigner.Locale["ru-RU"] = {
     DeferLayoutUpdate: "Отложить листа Обновление",
     Update: "обновление",
 };
-;
 ej.datavisualization.RangeNavigator.Locale["ru-RU"] = {
     intervals: {
         quarter: {
@@ -538,7 +519,6 @@ ej.datavisualization.RangeNavigator.Locale["ru-RU"] = {
         },
     },
 };
-;
 ej.ReportViewer.Locale["ru-RU"] = {
     toolbar: {
         print: {
@@ -618,7 +598,6 @@ ej.ReportViewer.Locale["ru-RU"] = {
     },
     viewButton: "Просмотреть отчет",
 };
-;
 ej.Ribbon.Locale["ru-RU"] = {
     CustomizeQuickAccess: "Настройка панели быстрого доступа",
     RemovefromQuickAccessToolbar: "Удалить из панели быстрого доступа",
@@ -627,7 +606,6 @@ ej.Ribbon.Locale["ru-RU"] = {
     ShowBelowtheRibbon: "Показать под лентой",
     MoreCommands: "Дополнительные команды ...",
 };
-;
 ej.RTE.Locale["ru-RU"] = {
     bold: "жирный",
     italic: "курсив",
@@ -750,7 +728,6 @@ ej.RTE.Locale["ru-RU"] = {
     upperroman: "Верхний Роман",
     none: "ни",
 };
-;
 ej.Schedule.Locale["ru-RU"] = {
     ReminderWindowTitle: "окно Напоминание",
     CreateAppointmentTitle: "Создать назначение",
@@ -851,7 +828,6 @@ ej.Schedule.Locale["ru-RU"] = {
     Time: "время",
     EmptyResultText: "Нет предложений",
 };
-;
 ej.Spreadsheet.Locale["ru-RU"] = {
     Cut: "порез",
     Copy: "копия",
@@ -1491,7 +1467,6 @@ ej.Spreadsheet.Locale["ru-RU"] = {
     LockAlert: "Клеток вы пытаетесь изменить на защищенном листе. Чтобы внести изменения, нажмите снять защиту листа на вкладке Review.",
     InsertDeleteAlert: "Эта операция не разрешается. Операция пытается переложить клетки в таблице на листе.",
 };
-;
 ej.TreeGrid.Locale["ru-RU"] = {
     toolboxTooltipTexts: {
         addTool: "добавлять",
@@ -1526,7 +1501,6 @@ ej.TreeGrid.Locale["ru-RU"] = {
     falseText: "ложный",
     emptyRecord: "Нет записей для отображения",
 };
-;
 ej.Uploadbox.Locale["ru-RU"] = {
     buttonText: {
         upload: "Загрузить",

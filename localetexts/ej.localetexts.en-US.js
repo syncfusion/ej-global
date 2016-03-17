@@ -12,11 +12,11 @@ ej.Autocomplete.Locale['en-US'] = {
     addNewText: "Add New",
     emptyResultText: "No suggestions",
     actionFailure: "The specified field doesn't exist in given data source"
-};;
+};
 ej.DatePicker.Locale['en-US'] = {
     watermarkText: "Select date",
     buttonText: 'Today'
-};;
+};
 ej.DateTimePicker.Locale['en-US'] = {
     buttonText: {
         today: "Today",
@@ -24,7 +24,7 @@ ej.DateTimePicker.Locale['en-US'] = {
         done: "Done",
         timeTitle: "Time"
     }
-};;
+};
 ej.datavisualization.Diagram.Locale["en-US"] = {
     cut: "Cut",
     copy: "Copy",
@@ -54,7 +54,7 @@ ej.Dialog.Locale["en-US"] = {
     },
     //currently we have deprecated this API
     closeIconTooltip: "close"
-};;
+};
 ej.NumericTextbox.Locale['en-US'] = {
     watermarkText: "Enter value"
 };
@@ -63,7 +63,7 @@ ej.PercentageTextbox.Locale['en-US'] = {
 };
 ej.CurrencyTextbox.Locale['en-US'] = {
     watermarkText: "Enter value"
-};;
+};
 ej.ExcelFilter.Locale["en-US"] = {
     SortNoSmaller: "Sort Smallest to Largest",
     SortNoLarger: "Sort Largest to Smallest",
@@ -101,7 +101,7 @@ ej.ExcelFilter.Locale["en-US"] = {
     DatePickerWaterMark: "Select date",
     True: "true",
     False: "false"
-};;
+};
 ej.FileExplorer.Locale['en-US'] = {
     Back: "Backward",
     Forward: "Forward",
@@ -189,7 +189,7 @@ ej.FileExplorer.Locale['en-US'] = {
         failedToolTip: "Failed",
         closeToolTip: "Close"
     }
-};;
+};
 ej.Gantt.Locale["en-US"] = {
 
     //string to display with dataSource contains 0 objects
@@ -380,7 +380,7 @@ ej.olap.OlapChart.Locale["en-US"] = {
     Expand: "Expand",
     Collapse: "Collapse",
     Exit: "Exit"
-};;
+};
 ej.olap.OlapClient.Locale["en-US"] = {
     DeferUpdate: "Defer Update",
     MDXQuery: "MDX Query",
@@ -443,11 +443,11 @@ ej.olap.OlapClient.Locale["en-US"] = {
     Scatter: "scatter",
     Polar: "polar",
     Radar: "radar"
-};;
+};
 ej.olap.OlapGauge.Locale["en-US"] = {
     RevenueGoal: "Revenue Goal",
     RevenueValue: "Revenue Value"
-};;
+};
 ej.Pager.Locale["en-US"] = {
     pagerInfo: "{0} of {1} pages ({2} items)",
     firstPageTooltip: "Go to first page",
@@ -456,7 +456,7 @@ ej.Pager.Locale["en-US"] = {
     previousPageTooltip: "Go to previous page",
     nextPagerTooltip: "Go to next Pager",
     previousPagerTooltip: "Go to previous Pager"
-};;
+};
 ej.PdfViewer.Locale["en-US"] = {
     toolbar: {
         print: {
@@ -502,7 +502,7 @@ ej.PdfViewer.Locale["en-US"] = {
             pageHeight: 'Fit Page'
         },
     },
-};;
+};
 ej.PivotGrid.Locale["en-US"] = {
     ToolTipRow: "Row",
     ToolTipColumn: "Column",
@@ -527,11 +527,11 @@ ej.PivotGrid.Locale["en-US"] = {
     Fontsize: "Font Size",
     Fontstyle: "Font Style",
     Bordercolor: "Border Color"
-};;
+};
 ej.PivotPager.Locale["en-US"] = {
     SeriesPage: "Series Page",
     CategoricalPage: "Categorical Page"
-};;
+};
 ej.PivotSchemaDesigner.Locale["en-US"] = {
     PivotTableFieldList: "PivotTable Field List",
     ChooseFieldsToAddToReport: "Choose fields to add to report:",
@@ -542,7 +542,7 @@ ej.PivotSchemaDesigner.Locale["en-US"] = {
     Values: "Values",
     DeferLayoutUpdate: "Defer Layout Update",
     Update: "Update"
-};;
+};
 ej.datavisualization.RangeNavigator.Locale['en-US'] = {
     intervals: {
         quarter: {
@@ -554,7 +554,7 @@ ej.datavisualization.RangeNavigator.Locale['en-US'] = {
             shortWeeks: "W"
         }
     }
-};;
+};
 ej.ReportViewer.Locale["en-US"] = {
     toolbar: {
         print: {
@@ -633,7 +633,7 @@ ej.ReportViewer.Locale["en-US"] = {
         }
     },
     viewButton: 'View Report'
-};;
+};
 ej.Ribbon.Locale["en-US"] = {
     CustomizeQuickAccess: "Customize Quick Access Toolbar",
     RemovefromQuickAccessToolbar: "Remove from Quick Access Toolbar",
@@ -641,7 +641,7 @@ ej.Ribbon.Locale["en-US"] = {
     ShowAbovetheRibbon: "Show Above the Ribbon",
     ShowBelowtheRibbon: "Show Below the Ribbon",
     MoreCommands: "More Commands..."
-};;
+};
 ej.RTE.Locale["en-US"] = {
     bold: "Bold",
     italic: "Italic",
@@ -763,7 +763,7 @@ ej.RTE.Locale["en-US"] = {
     lowerroman: "Lower Roman",
     upperroman: "Upper Roman",
     none: "None"
-};;
+};
 ej.Schedule.Locale["en-US"] = {
     ReminderWindowTitle: "Reminder window",
     CreateAppointmentTitle: "Create Appointment",
@@ -1547,7 +1547,7 @@ ej.TreeGrid.Locale["en-US"] = {
     falseText: "False",
     emptyRecord: "No records to display",
 
-};;
+};
 ej.Uploadbox.Locale["en-US"] = {
     buttonText: {
         upload: "Upload",

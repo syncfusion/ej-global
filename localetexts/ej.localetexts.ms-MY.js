@@ -13,16 +13,13 @@ ej.Autocomplete.Locale["ms-MY"] = {
     emptyResultText: "Tiada cadangan",
     actionFailure: "bidang yang dinyatakan tidak wujud dalam sumber data yang dikemukakan",
 };
-;
 ej.CurrencyTextbox.Locale["ms-MY"] = {
     watermarkText: "Masukkan nilai",
 };
-;
 ej.DatePicker.Locale["ms-MY"] = {
     watermarkText: "Pilih tarikh",
     buttonText: "hari ini",
 };
-;
 ej.DateTimePicker.Locale["ms-MY"] = {
     buttonText: {
         today: "hari ini",
@@ -31,7 +28,6 @@ ej.DateTimePicker.Locale["ms-MY"] = {
         timeTitle: "masa"
     },
 };
-;
 ej.datavisualization.Diagram.Locale["ms-MY"] = {
     cut: "Cut",
     copy: "Salinan",
@@ -48,7 +44,6 @@ ej.datavisualization.Diagram.Locale["ms-MY"] = {
     sendBackward: "menghantar ke belakang",
     sendToBack: "SendToBack",
 };
-;
 ej.Dialog.Locale["ms-MY"] = {
     tooltip: {
         close: "Tutup",
@@ -62,7 +57,6 @@ ej.Dialog.Locale["ms-MY"] = {
     },
     closeIconTooltip: "rapat",
 };
-;
 ej.ExcelFilter.Locale["ms-MY"] = {
     SortNoSmaller: "Jenis terkecil ke terbesar",
     SortNoLarger: "Susun Terbesar untuk Terkecil",
@@ -101,7 +95,6 @@ ej.ExcelFilter.Locale["ms-MY"] = {
     True: "benar",
     False: "salah",
 };
-;
 ej.FileExplorer.Locale["ms-MY"] = {
     Back: "Ke belakang",
     Forward: "Forward",
@@ -172,7 +165,6 @@ ej.FileExplorer.Locale["ms-MY"] = {
         closeToolTip: "Tutup"
     },
 };
-;
 ej.Gantt.Locale["ms-MY"] = {
     emptyRecord: "Tiada rekod untuk dipaparkan",
     alertTexts: {
@@ -247,7 +239,6 @@ ej.Gantt.Locale["ms-MY"] = {
         toText: "untuk"
     },
 };
-;
 ej.Grid.Locale["ms-MY"] = {
     EmptyRecord: "Tiada rekod untuk dipaparkan",
     GroupDropArea: "Seret pengepala lajur di sini untuk kumpulan itu ruangan",
@@ -344,7 +335,6 @@ if (ej.mobile !== undefined && ej.mobile.TimePicker !== undefined) {
 ej.NumericTextbox.Locale["ms-MY"] = {
     watermarkText: "Masukkan nilai",
 };
-;
 ej.olap.OlapChart.Locale["ms-MY"] = {
     Measure: "langkah",
     Row: "Row",
@@ -353,7 +343,6 @@ ej.olap.OlapChart.Locale["ms-MY"] = {
     Collapse: "Ditweet",
     Exit: "keluar",
 };
-;
 ej.olap.OlapClient.Locale["ms-MY"] = {
     DeferUpdate: "Tangguh Update",
     MDXQuery: "MDX Pertanyaan",
@@ -416,12 +405,10 @@ ej.olap.OlapClient.Locale["ms-MY"] = {
     Polar: "kutub",
     Radar: "radar",
 };
-;
 ej.olap.OlapGauge.Locale["ms-MY"] = {
     RevenueGoal: "Matlamat hasil",
     RevenueValue: "Nilai hasil",
 };
-;
 ej.Pager.Locale["ms-MY"] = {
     pagerInfo: "{0} daripada {1} halaman ({2} item)",
     firstPageTooltip: "Pergi ke halaman pertama",
@@ -431,7 +418,6 @@ ej.Pager.Locale["ms-MY"] = {
     nextPagerTooltip: "Pergi ke Laman seterusnya",
     previousPagerTooltip: "Pergi ke halaman sebelumnya",
 };
-;
 ej.PdfViewer.Locale["ms-MY"] = {
     toolbar: {
         print: {
@@ -478,11 +464,9 @@ ej.PdfViewer.Locale["ms-MY"] = {
         },
     },
 };
-;
 ej.PercentageTextbox.Locale["ms-MY"] = {
     watermarkText: "Masukkan nilai",
 };
-;
 ej.PivotGrid.Locale["ms-MY"] = {
     ToolTipRow: "Row",
     ToolTipColumn: "Kolum",
@@ -508,12 +492,10 @@ ej.PivotGrid.Locale["ms-MY"] = {
     Fontstyle: "Style font",
     Bordercolor: "Warna sempadan",
 };
-;
 ej.PivotPager.Locale["ms-MY"] = {
     SeriesPage: "Siri Page",
     CategoricalPage: "Page mutlak",
 };
-;
 ej.PivotSchemaDesigner.Locale["ms-MY"] = {
     PivotTableFieldList: "Senarai Medan Jadual Pangsi",
     ChooseFieldsToAddToReport: "Pilih medan untuk menambah melaporkan:",
@@ -525,7 +507,6 @@ ej.PivotSchemaDesigner.Locale["ms-MY"] = {
     DeferLayoutUpdate: "Tangguh Layout Update",
     Update: "Update",
 };
-;
 ej.datavisualization.RangeNavigator.Locale["ms-MY"] = {
     intervals: {
         quarter: {
@@ -538,7 +519,6 @@ ej.datavisualization.RangeNavigator.Locale["ms-MY"] = {
         },
     },
 };
-;
 ej.ReportViewer.Locale["ms-MY"] = {
     toolbar: {
         print: {
@@ -618,7 +598,6 @@ ej.ReportViewer.Locale["ms-MY"] = {
     },
     viewButton: "Laporan Lihat",
 };
-;
 ej.Ribbon.Locale["ms-MY"] = {
     CustomizeQuickAccess: "Sesuaikan Bar Alat Capaian Segera",
     RemovefromQuickAccessToolbar: "Buang dari Bar Alat Capaian Segera",
@@ -627,7 +606,6 @@ ej.Ribbon.Locale["ms-MY"] = {
     ShowBelowtheRibbon: "Tunjukkan Di bawah Reben",
     MoreCommands: "Lebih Perintah ...",
 };
-;
 ej.RTE.Locale["ms-MY"] = {
     bold: "Bold",
     italic: "Italic",
@@ -750,7 +728,6 @@ ej.RTE.Locale["ms-MY"] = {
     upperroman: "Upper Roman",
     none: "Tiada",
 };
-;
 ej.Schedule.Locale["ms-MY"] = {
     ReminderWindowTitle: "tetingkap peringatan",
     CreateAppointmentTitle: "Buat Pelantikan",
@@ -851,7 +828,6 @@ ej.Schedule.Locale["ms-MY"] = {
     Time: "masa",
     EmptyResultText: "Tiada cadangan",
 };
-;
 ej.Spreadsheet.Locale["ms-MY"] = {
     Cut: "Cut",
     Copy: "Salinan",
@@ -1491,7 +1467,6 @@ ej.Spreadsheet.Locale["ms-MY"] = {
     LockAlert: "Sel anda cuba untuk berubah adalah pada helaian yang dilindungi. Untuk membuat perubahan, klik Lembaran Unprotect dalam tab kajian semula.",
     InsertDeleteAlert: "Operasi ini tidak dibenarkan. Operasi ini cuba mengalihkan sel dalam jadual pada lembaran kerja anda.",
 };
-;
 ej.TreeGrid.Locale["ms-MY"] = {
     toolboxTooltipTexts: {
         addTool: "Tambah",
@@ -1526,7 +1501,6 @@ ej.TreeGrid.Locale["ms-MY"] = {
     falseText: "Salah",
     emptyRecord: "Tiada rekod untuk dipaparkan",
 };
-;
 ej.Uploadbox.Locale["ms-MY"] = {
     buttonText: {
         upload: "Naik",

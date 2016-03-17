@@ -13,16 +13,13 @@ ej.Autocomplete.Locale["nl-NL"] = {
     emptyResultText: "geen suggesties",
     actionFailure: "Het opgegeven veld bestaat niet in bepaalde gegevensbron",
 };
-;
 ej.CurrencyTextbox.Locale["nl-NL"] = {
     watermarkText: "Voer waarde",
 };
-;
 ej.DatePicker.Locale["nl-NL"] = {
     watermarkText: "Selecteer een datum",
     buttonText: "Vandaag",
 };
-;
 ej.DateTimePicker.Locale["nl-NL"] = {
     buttonText: {
         today: "Vandaag",
@@ -31,7 +28,6 @@ ej.DateTimePicker.Locale["nl-NL"] = {
         timeTitle: "Tijd"
     },
 };
-;
 ej.datavisualization.Diagram.Locale["nl-NL"] = {
     cut: "Besnoeiing",
     copy: "Kopiëren",
@@ -48,7 +44,6 @@ ej.datavisualization.Diagram.Locale["nl-NL"] = {
     sendBackward: "Terug sturen",
     sendToBack: "SendToBack",
 };
-;
 ej.Dialog.Locale["nl-NL"] = {
     tooltip: {
         close: "Dichtbij",
@@ -62,7 +57,6 @@ ej.Dialog.Locale["nl-NL"] = {
     },
     closeIconTooltip: "dichtbij",
 };
-;
 ej.ExcelFilter.Locale["nl-NL"] = {
     SortNoSmaller: "Sorteer klein naar groot",
     SortNoLarger: "Sorteer grootste naar de kleinste",
@@ -101,7 +95,6 @@ ej.ExcelFilter.Locale["nl-NL"] = {
     True: "waar",
     False: "vals",
 };
-;
 ej.FileExplorer.Locale["nl-NL"] = {
     Back: "achterwaarts",
     Forward: "vooruit",
@@ -172,7 +165,6 @@ ej.FileExplorer.Locale["nl-NL"] = {
         closeToolTip: "Dichtbij"
     },
 };
-;
 ej.Gantt.Locale["nl-NL"] = {
     emptyRecord: "Geen records om te laten zien",
     alertTexts: {
@@ -247,7 +239,6 @@ ej.Gantt.Locale["nl-NL"] = {
         toText: "Naar"
     },
 };
-;
 ej.Grid.Locale["nl-NL"] = {
     EmptyRecord: "Geen records om te laten zien",
     GroupDropArea: "Sleep een kolomkop hier om de groep haar column",
@@ -344,7 +335,6 @@ if (ej.mobile !== undefined && ej.mobile.TimePicker !== undefined) {
 ej.NumericTextbox.Locale["nl-NL"] = {
     watermarkText: "Voer waarde",
 };
-;
 ej.olap.OlapChart.Locale["nl-NL"] = {
     Measure: "Maatregel",
     Row: "Rij",
@@ -353,7 +343,6 @@ ej.olap.OlapChart.Locale["nl-NL"] = {
     Collapse: "Ineenstorting",
     Exit: "afrit",
 };
-;
 ej.olap.OlapClient.Locale["nl-NL"] = {
     DeferUpdate: "uitstellen update",
     MDXQuery: "MDX-query",
@@ -416,12 +405,10 @@ ej.olap.OlapClient.Locale["nl-NL"] = {
     Polar: "polair",
     Radar: "radar",
 };
-;
 ej.olap.OlapGauge.Locale["nl-NL"] = {
     RevenueGoal: "inkomsten Goal",
     RevenueValue: "inkomsten Waarde",
 };
-;
 ej.Pager.Locale["nl-NL"] = {
     pagerInfo: "{0} van {1} pagina ({2} items)",
     firstPageTooltip: "Ga naar de eerste pagina",
@@ -431,7 +418,6 @@ ej.Pager.Locale["nl-NL"] = {
     nextPagerTooltip: "Ga naar de volgende pagina",
     previousPagerTooltip: "Ga naar vorige pagina",
 };
-;
 ej.PdfViewer.Locale["nl-NL"] = {
     toolbar: {
         print: {
@@ -478,11 +464,9 @@ ej.PdfViewer.Locale["nl-NL"] = {
         },
     },
 };
-;
 ej.PercentageTextbox.Locale["nl-NL"] = {
     watermarkText: "Voer waarde",
 };
-;
 ej.PivotGrid.Locale["nl-NL"] = {
     ToolTipRow: "Rij",
     ToolTipColumn: "Kolom",
@@ -508,12 +492,10 @@ ej.PivotGrid.Locale["nl-NL"] = {
     Fontstyle: "Lettertype",
     Bordercolor: "Rand kleur",
 };
-;
 ej.PivotPager.Locale["nl-NL"] = {
     SeriesPage: "serie Page",
     CategoricalPage: "categorische Pagina",
 };
-;
 ej.PivotSchemaDesigner.Locale["nl-NL"] = {
     PivotTableFieldList: "PivotTable Field List",
     ChooseFieldsToAddToReport: "Kies velden toe te voegen aan te melden:",
@@ -525,7 +507,6 @@ ej.PivotSchemaDesigner.Locale["nl-NL"] = {
     DeferLayoutUpdate: "Uitstellen Layout bijwerken",
     Update: "Bijwerken",
 };
-;
 ej.datavisualization.RangeNavigator.Locale["nl-NL"] = {
     intervals: {
         quarter: {
@@ -538,7 +519,6 @@ ej.datavisualization.RangeNavigator.Locale["nl-NL"] = {
         },
     },
 };
-;
 ej.ReportViewer.Locale["nl-NL"] = {
     toolbar: {
         print: {
@@ -618,7 +598,6 @@ ej.ReportViewer.Locale["nl-NL"] = {
     },
     viewButton: "Rapport weergeven",
 };
-;
 ej.Ribbon.Locale["nl-NL"] = {
     CustomizeQuickAccess: "Pas werkbalk Snelle toegang",
     RemovefromQuickAccessToolbar: "Verwijderen uit werkbalk Snelle toegang",
@@ -627,7 +606,6 @@ ej.Ribbon.Locale["nl-NL"] = {
     ShowBelowtheRibbon: "Onder het lint weergeven",
     MoreCommands: "Meer opdrachten ...",
 };
-;
 ej.RTE.Locale["nl-NL"] = {
     bold: "Stoutmoedig",
     italic: "Cursief",
@@ -750,7 +728,6 @@ ej.RTE.Locale["nl-NL"] = {
     upperroman: "Upper Roman",
     none: "Geen",
 };
-;
 ej.Schedule.Locale["nl-NL"] = {
     ReminderWindowTitle: "herinneringsvenster",
     CreateAppointmentTitle: "Maak een Afspraak",
@@ -851,7 +828,6 @@ ej.Schedule.Locale["nl-NL"] = {
     Time: "Tijd",
     EmptyResultText: "geen suggesties",
 };
-;
 ej.Spreadsheet.Locale["nl-NL"] = {
     Cut: "Besnoeiing",
     Copy: "Kopiëren",
@@ -1491,7 +1467,6 @@ ej.Spreadsheet.Locale["nl-NL"] = {
     LockAlert: "De cel die u probeert te veranderen is beschermd blad. Om wijzigingen aan te brengen, klikt u op Beveiliging blad in het tabblad.",
     InsertDeleteAlert: "Deze bewerking is niet toegestaan. De operatie is een poging om cellen te verplaatsen in een tabel op uw werkblad.",
 };
-;
 ej.TreeGrid.Locale["nl-NL"] = {
     toolboxTooltipTexts: {
         addTool: "Toevoegen",
@@ -1526,7 +1501,6 @@ ej.TreeGrid.Locale["nl-NL"] = {
     falseText: "vals",
     emptyRecord: "Geen records om te laten zien",
 };
-;
 ej.Uploadbox.Locale["nl-NL"] = {
     buttonText: {
         upload: "Uploaden",

@@ -13,16 +13,13 @@ ej.Autocomplete.Locale["vi-VN"] = {
     emptyResultText: "Chưa có đề xuất",
     actionFailure: "Các lĩnh vực được chỉ định không tồn tại trong nguồn dữ liệu cho",
 };
-;
 ej.CurrencyTextbox.Locale["vi-VN"] = {
     watermarkText: "nhập giá trị",
 };
-;
 ej.DatePicker.Locale["vi-VN"] = {
     watermarkText: "Chọn ngày",
     buttonText: "Hôm nay",
 };
-;
 ej.DateTimePicker.Locale["vi-VN"] = {
     buttonText: {
         today: "Hôm nay",
@@ -31,7 +28,6 @@ ej.DateTimePicker.Locale["vi-VN"] = {
         timeTitle: "Thời gian"
     },
 };
-;
 ej.datavisualization.Diagram.Locale["vi-VN"] = {
     cut: "Cắt tỉa",
     copy: "bản sao",
@@ -48,7 +44,6 @@ ej.datavisualization.Diagram.Locale["vi-VN"] = {
     sendBackward: "Gửi ngược",
     sendToBack: "SendToBack",
 };
-;
 ej.Dialog.Locale["vi-VN"] = {
     tooltip: {
         close: "Gần",
@@ -62,7 +57,6 @@ ej.Dialog.Locale["vi-VN"] = {
     },
     closeIconTooltip: "gần",
 };
-;
 ej.ExcelFilter.Locale["vi-VN"] = {
     SortNoSmaller: "Sắp xếp nhỏ nhất đến lớn nhất",
     SortNoLarger: "Sắp xếp lớn nhất đến nhỏ nhất",
@@ -101,7 +95,6 @@ ej.ExcelFilter.Locale["vi-VN"] = {
     True: "thật",
     False: "sai",
 };
-;
 ej.FileExplorer.Locale["vi-VN"] = {
     Back: "Lạc hậu",
     Forward: "Phía trước",
@@ -172,7 +165,6 @@ ej.FileExplorer.Locale["vi-VN"] = {
         closeToolTip: "Gần"
     },
 };
-;
 ej.Gantt.Locale["vi-VN"] = {
     emptyRecord: "Không có dữ liệu để hiển thị",
     alertTexts: {
@@ -247,7 +239,6 @@ ej.Gantt.Locale["vi-VN"] = {
         toText: "Đến"
     },
 };
-;
 ej.Grid.Locale["vi-VN"] = {
     EmptyRecord: "Không có dữ liệu để hiển thị",
     GroupDropArea: "Kéo một tiêu đề cột vào đây để nhóm cột của nó",
@@ -344,7 +335,6 @@ if (ej.mobile !== undefined && ej.mobile.TimePicker !== undefined) {
 ej.NumericTextbox.Locale["vi-VN"] = {
     watermarkText: "nhập giá trị",
 };
-;
 ej.olap.OlapChart.Locale["vi-VN"] = {
     Measure: "Đo",
     Row: "hàng",
@@ -353,7 +343,6 @@ ej.olap.OlapChart.Locale["vi-VN"] = {
     Collapse: "Sự sụp đổ",
     Exit: "Lối thoát",
 };
-;
 ej.olap.OlapClient.Locale["vi-VN"] = {
     DeferUpdate: "Hoãn cập nhật",
     MDXQuery: "MDX truy vấn",
@@ -416,12 +405,10 @@ ej.olap.OlapClient.Locale["vi-VN"] = {
     Polar: "cực",
     Radar: "radar",
 };
-;
 ej.olap.OlapGauge.Locale["vi-VN"] = {
     RevenueGoal: "Mục tiêu doanh thu",
     RevenueValue: "Giá trị doanh thu",
 };
-;
 ej.Pager.Locale["vi-VN"] = {
     pagerInfo: "{0} {1} trang ({2} bài)",
     firstPageTooltip: "Tới trang đầu tiên",
@@ -431,7 +418,6 @@ ej.Pager.Locale["vi-VN"] = {
     nextPagerTooltip: "Đến trang tiếp theo",
     previousPagerTooltip: "Tới trang trước",
 };
-;
 ej.PdfViewer.Locale["vi-VN"] = {
     toolbar: {
         print: {
@@ -478,11 +464,9 @@ ej.PdfViewer.Locale["vi-VN"] = {
         },
     },
 };
-;
 ej.PercentageTextbox.Locale["vi-VN"] = {
     watermarkText: "nhập giá trị",
 };
-;
 ej.PivotGrid.Locale["vi-VN"] = {
     ToolTipRow: "hàng",
     ToolTipColumn: "Cột",
@@ -508,12 +492,10 @@ ej.PivotGrid.Locale["vi-VN"] = {
     Fontstyle: "Font Style",
     Bordercolor: "Màu đường viền",
 };
-;
 ej.PivotPager.Locale["vi-VN"] = {
     SeriesPage: "series Page",
     CategoricalPage: "phân loại trang",
 };
-;
 ej.PivotSchemaDesigner.Locale["vi-VN"] = {
     PivotTableFieldList: "Field List PivotTable",
     ChooseFieldsToAddToReport: "Chọn lĩnh vực để bổ sung vào báo cáo:",
@@ -525,7 +507,6 @@ ej.PivotSchemaDesigner.Locale["vi-VN"] = {
     DeferLayoutUpdate: "Layout Update Hoãn",
     Update: "cập nhật",
 };
-;
 ej.datavisualization.RangeNavigator.Locale["vi-VN"] = {
     intervals: {
         quarter: {
@@ -538,7 +519,6 @@ ej.datavisualization.RangeNavigator.Locale["vi-VN"] = {
         },
     },
 };
-;
 ej.ReportViewer.Locale["vi-VN"] = {
     toolbar: {
         print: {
@@ -618,7 +598,6 @@ ej.ReportViewer.Locale["vi-VN"] = {
     },
     viewButton: "Xem báo cáo",
 };
-;
 ej.Ribbon.Locale["vi-VN"] = {
     CustomizeQuickAccess: "Tùy chỉnh Quick Access Toolbar",
     RemovefromQuickAccessToolbar: "Di chuyển từ Quick Access Toolbar",
@@ -627,7 +606,6 @@ ej.Ribbon.Locale["vi-VN"] = {
     ShowBelowtheRibbon: "Hiện Below the Ribbon",
     MoreCommands: "More Commands ...",
 };
-;
 ej.RTE.Locale["vi-VN"] = {
     bold: "Dũng cảm",
     italic: "nghiêng",
@@ -750,7 +728,6 @@ ej.RTE.Locale["vi-VN"] = {
     upperroman: "Upper La Mã",
     none: "Không ai",
 };
-;
 ej.Schedule.Locale["vi-VN"] = {
     ReminderWindowTitle: "cửa sổ nhắc nhở",
     CreateAppointmentTitle: "tạo Bổ nhiệm",
@@ -851,7 +828,6 @@ ej.Schedule.Locale["vi-VN"] = {
     Time: "Thời gian",
     EmptyResultText: "Chưa có đề xuất",
 };
-;
 ej.Spreadsheet.Locale["vi-VN"] = {
     Cut: "Cắt tỉa",
     Copy: "bản sao",
@@ -1491,7 +1467,6 @@ ej.Spreadsheet.Locale["vi-VN"] = {
     LockAlert: "Ô mà bạn đang cố gắng để thay đổi là trên tấm bảo vệ. Để thay đổi, nhấp vào Bảng Unprotect trong tab Review.",
     InsertDeleteAlert: "hoạt động này không được phép. Các hoạt động đang cố gắng để thay đổi các tế bào trong một bảng trên bảng tính của bạn.",
 };
-;
 ej.TreeGrid.Locale["vi-VN"] = {
     toolboxTooltipTexts: {
         addTool: "Thêm vào",
@@ -1526,7 +1501,6 @@ ej.TreeGrid.Locale["vi-VN"] = {
     falseText: "Sai",
     emptyRecord: "Không có dữ liệu để hiển thị",
 };
-;
 ej.Uploadbox.Locale["vi-VN"] = {
     buttonText: {
         upload: "Đăng tải",

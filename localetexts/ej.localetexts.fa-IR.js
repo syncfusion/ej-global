@@ -13,16 +13,13 @@ ej.Autocomplete.Locale["fa-IR"] = {
     emptyResultText: "هیچ پیشنهادی",
     actionFailure: "فیلد مشخص می کند در منبع داده داده وجود ندارد",
 };
-;
 ej.CurrencyTextbox.Locale["fa-IR"] = {
     watermarkText: "مقدار را وارد کنید",
 };
-;
 ej.DatePicker.Locale["fa-IR"] = {
     watermarkText: "انتخاب تاریخ",
     buttonText: "امروز",
 };
-;
 ej.DateTimePicker.Locale["fa-IR"] = {
     buttonText: {
         today: "امروز",
@@ -31,7 +28,6 @@ ej.DateTimePicker.Locale["fa-IR"] = {
         timeTitle: "زمان"
     },
 };
-;
 ej.datavisualization.Diagram.Locale["fa-IR"] = {
     cut: "برش",
     copy: "نسخه",
@@ -48,7 +44,6 @@ ej.datavisualization.Diagram.Locale["fa-IR"] = {
     sendBackward: "ارسال به سمت عقب",
     sendToBack: "SendToBack",
 };
-;
 ej.Dialog.Locale["fa-IR"] = {
     tooltip: {
         close: "نزدیک",
@@ -62,7 +57,6 @@ ej.Dialog.Locale["fa-IR"] = {
     },
     closeIconTooltip: "بستن",
 };
-;
 ej.ExcelFilter.Locale["fa-IR"] = {
     SortNoSmaller: "مرتب سازی بر کوچکترین تا بزرگترین",
     SortNoLarger: "مرتب سازی بر بزرگ به کوچک",
@@ -101,7 +95,6 @@ ej.ExcelFilter.Locale["fa-IR"] = {
     True: "درست",
     False: "غلط",
 };
-;
 ej.FileExplorer.Locale["fa-IR"] = {
     Back: "به عقب",
     Forward: "رو به جلو",
@@ -172,7 +165,6 @@ ej.FileExplorer.Locale["fa-IR"] = {
         closeToolTip: "نزدیک"
     },
 };
-;
 ej.Gantt.Locale["fa-IR"] = {
     emptyRecord: "هیچ پرونده برای نمایش نیست",
     alertTexts: {
@@ -247,7 +239,6 @@ ej.Gantt.Locale["fa-IR"] = {
         toText: "به"
     },
 };
-;
 ej.Grid.Locale["fa-IR"] = {
     EmptyRecord: "هیچ پرونده برای نمایش نیست",
     GroupDropArea: "کشیدن یک عنوان ستون در اینجا به گروه آن ستون",
@@ -344,7 +335,6 @@ if (ej.mobile !== undefined && ej.mobile.TimePicker !== undefined) {
 ej.NumericTextbox.Locale["fa-IR"] = {
     watermarkText: "مقدار را وارد کنید",
 };
-;
 ej.olap.OlapChart.Locale["fa-IR"] = {
     Measure: "اندازه گرفتن",
     Row: "ردیف",
@@ -353,7 +343,6 @@ ej.olap.OlapChart.Locale["fa-IR"] = {
     Collapse: "سقوط - فروپاشی - اضمحلال",
     Exit: "خروج",
 };
-;
 ej.olap.OlapClient.Locale["fa-IR"] = {
     DeferUpdate: "تاخیر به روز رسانی",
     MDXQuery: "MDX Query را",
@@ -416,12 +405,10 @@ ej.olap.OlapClient.Locale["fa-IR"] = {
     Polar: "قطبی",
     Radar: "رادار",
 };
-;
 ej.olap.OlapGauge.Locale["fa-IR"] = {
     RevenueGoal: "هدف درآمد",
     RevenueValue: "ارزش درآمد",
 };
-;
 ej.Pager.Locale["fa-IR"] = {
     pagerInfo: "{0} از {1} صفحات ({2} مورد)",
     firstPageTooltip: "برو به صفحه اول",
@@ -431,7 +418,6 @@ ej.Pager.Locale["fa-IR"] = {
     nextPagerTooltip: "برو به صفحه بعدی",
     previousPagerTooltip: "برو به صفحه قبلی",
 };
-;
 ej.PdfViewer.Locale["fa-IR"] = {
     toolbar: {
         print: {
@@ -478,11 +464,9 @@ ej.PdfViewer.Locale["fa-IR"] = {
         },
     },
 };
-;
 ej.PercentageTextbox.Locale["fa-IR"] = {
     watermarkText: "مقدار را وارد کنید",
 };
-;
 ej.PivotGrid.Locale["fa-IR"] = {
     ToolTipRow: "ردیف",
     ToolTipColumn: "ستون",
@@ -508,12 +492,10 @@ ej.PivotGrid.Locale["fa-IR"] = {
     Fontstyle: "نوع قلم",
     Bordercolor: "رنگ لبه",
 };
-;
 ej.PivotPager.Locale["fa-IR"] = {
     SeriesPage: "سری صفحه",
     CategoricalPage: "طبقه صفحه",
 };
-;
 ej.PivotSchemaDesigner.Locale["fa-IR"] = {
     PivotTableFieldList: "فهرست درست جداول محوری",
     ChooseFieldsToAddToReport: "انتخاب زمینه برای اضافه کردن به گزارش:",
@@ -525,7 +507,6 @@ ej.PivotSchemaDesigner.Locale["fa-IR"] = {
     DeferLayoutUpdate: "تاخیر به روز رسانی طرح",
     Update: "به روز رسانی",
 };
-;
 ej.datavisualization.RangeNavigator.Locale["fa-IR"] = {
     intervals: {
         quarter: {
@@ -538,7 +519,6 @@ ej.datavisualization.RangeNavigator.Locale["fa-IR"] = {
         },
     },
 };
-;
 ej.ReportViewer.Locale["fa-IR"] = {
     toolbar: {
         print: {
@@ -618,7 +598,6 @@ ej.ReportViewer.Locale["fa-IR"] = {
     },
     viewButton: "نمایش گزارش",
 };
-;
 ej.Ribbon.Locale["fa-IR"] = {
     CustomizeQuickAccess: "سفارشی کردن نوار ابزار دسترسی سریع",
     RemovefromQuickAccessToolbar: "حذف از نوار ابزار دسترسی سریع",
@@ -627,7 +606,6 @@ ej.Ribbon.Locale["fa-IR"] = {
     ShowBelowtheRibbon: "نمایش پائین روبان",
     MoreCommands: "دستورات بیشتر ...",
 };
-;
 ej.RTE.Locale["fa-IR"] = {
     bold: "جسور",
     italic: "حروف کج",
@@ -750,7 +728,6 @@ ej.RTE.Locale["fa-IR"] = {
     upperroman: "روم بالا",
     none: "هیچ",
 };
-;
 ej.Schedule.Locale["fa-IR"] = {
     ReminderWindowTitle: "پنجره یادآوری",
     CreateAppointmentTitle: "درست روزانه",
@@ -851,7 +828,6 @@ ej.Schedule.Locale["fa-IR"] = {
     Time: "زمان",
     EmptyResultText: "هیچ پیشنهادی",
 };
-;
 ej.Spreadsheet.Locale["fa-IR"] = {
     Cut: "برش",
     Copy: "نسخه",
@@ -1491,7 +1467,6 @@ ej.Spreadsheet.Locale["fa-IR"] = {
     LockAlert: "سلول شما در حال تلاش برای تغییر در برگه محافظت شده است. برای ایجاد تغییرات، کلیک کنید ورق محافظت صفحات به تب Review است.",
     InsertDeleteAlert: "این عملیات مجاز نیست. این عملیات به تغییر سلول ها در یک جدول را در کاربرگ خود را.",
 };
-;
 ej.TreeGrid.Locale["fa-IR"] = {
     toolboxTooltipTexts: {
         addTool: "اضافه کردن",
@@ -1526,7 +1501,6 @@ ej.TreeGrid.Locale["fa-IR"] = {
     falseText: "غلط",
     emptyRecord: "هیچ پرونده برای نمایش نیست",
 };
-;
 ej.Uploadbox.Locale["fa-IR"] = {
     buttonText: {
         upload: "بارگذاری",

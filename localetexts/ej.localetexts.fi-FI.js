@@ -13,16 +13,13 @@ ej.Autocomplete.Locale["fi-FI"] = {
     emptyResultText: "ei ehdotuksia",
     actionFailure: "Määritetty kenttä ei ole olemassa tietyn tietolähteen",
 };
-;
 ej.CurrencyTextbox.Locale["fi-FI"] = {
     watermarkText: "Anna arvo",
 };
-;
 ej.DatePicker.Locale["fi-FI"] = {
     watermarkText: "Valitse päivämäärä",
     buttonText: "Tänään",
 };
-;
 ej.DateTimePicker.Locale["fi-FI"] = {
     buttonText: {
         today: "Tänään",
@@ -31,7 +28,6 @@ ej.DateTimePicker.Locale["fi-FI"] = {
         timeTitle: "aika"
     },
 };
-;
 ej.datavisualization.Diagram.Locale["fi-FI"] = {
     cut: "Leikata",
     copy: "Kopioida",
@@ -48,7 +44,6 @@ ej.datavisualization.Diagram.Locale["fi-FI"] = {
     sendBackward: "Siirrä taaksepäin",
     sendToBack: "SendToBack",
 };
-;
 ej.Dialog.Locale["fi-FI"] = {
     tooltip: {
         close: "Lähellä",
@@ -62,7 +57,6 @@ ej.Dialog.Locale["fi-FI"] = {
     },
     closeIconTooltip: "lähellä",
 };
-;
 ej.ExcelFilter.Locale["fi-FI"] = {
     SortNoSmaller: "Lajittelu pienimmästä suurimpaan",
     SortNoLarger: "Lajittelu suurimmasta pienimpään",
@@ -101,7 +95,6 @@ ej.ExcelFilter.Locale["fi-FI"] = {
     True: "totta",
     False: "väärä",
 };
-;
 ej.FileExplorer.Locale["fi-FI"] = {
     Back: "Taaksepäin",
     Forward: "Eteenpäin",
@@ -172,7 +165,6 @@ ej.FileExplorer.Locale["fi-FI"] = {
         closeToolTip: "Lähellä"
     },
 };
-;
 ej.Gantt.Locale["fi-FI"] = {
     emptyRecord: "Ei näytettäviä tietueita",
     alertTexts: {
@@ -247,7 +239,6 @@ ej.Gantt.Locale["fi-FI"] = {
         toText: "jotta"
     },
 };
-;
 ej.Grid.Locale["fi-FI"] = {
     EmptyRecord: "Ei näytettäviä tietueita",
     GroupDropArea: "Vedä sarakeotsikkoa tästä ryhmään se sarake",
@@ -344,7 +335,6 @@ if (ej.mobile !== undefined && ej.mobile.TimePicker !== undefined) {
 ej.NumericTextbox.Locale["fi-FI"] = {
     watermarkText: "Anna arvo",
 };
-;
 ej.olap.OlapChart.Locale["fi-FI"] = {
     Measure: "Mitata",
     Row: "Rivi",
@@ -353,7 +343,6 @@ ej.olap.OlapChart.Locale["fi-FI"] = {
     Collapse: "Romahdus",
     Exit: "poistuminen",
 };
-;
 ej.olap.OlapClient.Locale["fi-FI"] = {
     DeferUpdate: "Lykkää Update",
     MDXQuery: "MDX Kyselyn",
@@ -416,12 +405,10 @@ ej.olap.OlapClient.Locale["fi-FI"] = {
     Polar: "polaarinen",
     Radar: "tutka",
 };
-;
 ej.olap.OlapGauge.Locale["fi-FI"] = {
     RevenueGoal: "tulot Tavoite",
     RevenueValue: "tulot Arvo",
 };
-;
 ej.Pager.Locale["fi-FI"] = {
     pagerInfo: "{0} on {1} sivua ({2} tuotetta)",
     firstPageTooltip: "Mene ensimmäiselle sivulle",
@@ -431,7 +418,6 @@ ej.Pager.Locale["fi-FI"] = {
     nextPagerTooltip: "Siirry seuraavalle sivulle",
     previousPagerTooltip: "Siirry edelliselle sivulle",
 };
-;
 ej.PdfViewer.Locale["fi-FI"] = {
     toolbar: {
         print: {
@@ -478,11 +464,9 @@ ej.PdfViewer.Locale["fi-FI"] = {
         },
     },
 };
-;
 ej.PercentageTextbox.Locale["fi-FI"] = {
     watermarkText: "Anna arvo",
 };
-;
 ej.PivotGrid.Locale["fi-FI"] = {
     ToolTipRow: "Rivi",
     ToolTipColumn: "sarake",
@@ -508,12 +492,10 @@ ej.PivotGrid.Locale["fi-FI"] = {
     Fontstyle: "Font Style",
     Bordercolor: "border Color",
 };
-;
 ej.PivotPager.Locale["fi-FI"] = {
     SeriesPage: "series Page",
     CategoricalPage: "kategorinen Page",
 };
-;
 ej.PivotSchemaDesigner.Locale["fi-FI"] = {
     PivotTableFieldList: "Pivot-taulukon kenttäluettelo",
     ChooseFieldsToAddToReport: "Valitse kentät lisätä raportoida:",
@@ -525,7 +507,6 @@ ej.PivotSchemaDesigner.Locale["fi-FI"] = {
     DeferLayoutUpdate: "Lykkää Layout Update",
     Update: "Päivittää",
 };
-;
 ej.datavisualization.RangeNavigator.Locale["fi-FI"] = {
     intervals: {
         quarter: {
@@ -538,7 +519,6 @@ ej.datavisualization.RangeNavigator.Locale["fi-FI"] = {
         },
     },
 };
-;
 ej.ReportViewer.Locale["fi-FI"] = {
     toolbar: {
         print: {
@@ -618,7 +598,6 @@ ej.ReportViewer.Locale["fi-FI"] = {
     },
     viewButton: "Näytä raportti",
 };
-;
 ej.Ribbon.Locale["fi-FI"] = {
     CustomizeQuickAccess: "Muokata Pikatyökalurivi",
     RemovefromQuickAccessToolbar: "Poista Pikatyökalurivi",
@@ -627,7 +606,6 @@ ej.Ribbon.Locale["fi-FI"] = {
     ShowBelowtheRibbon: "Mitä seuraavista Ribbon",
     MoreCommands: "Lisää komennot ...",
 };
-;
 ej.RTE.Locale["fi-FI"] = {
     bold: "rohkea",
     italic: "kursivoitu",
@@ -750,7 +728,6 @@ ej.RTE.Locale["fi-FI"] = {
     upperroman: "ylempi Roman",
     none: "Ei mitään",
 };
-;
 ej.Schedule.Locale["fi-FI"] = {
     ReminderWindowTitle: "muistutus ikkuna",
     CreateAppointmentTitle: "Luo nimittäminen",
@@ -851,7 +828,6 @@ ej.Schedule.Locale["fi-FI"] = {
     Time: "aika",
     EmptyResultText: "ei ehdotuksia",
 };
-;
 ej.Spreadsheet.Locale["fi-FI"] = {
     Cut: "Leikata",
     Copy: "Kopioida",
@@ -1491,7 +1467,6 @@ ej.Spreadsheet.Locale["fi-FI"] = {
     LockAlert: "Solu yrität muuttaa on suojattu levy. Jos haluat tehdä muutoksia, valitse Poista suojaus Sheet Review välilehden.",
     InsertDeleteAlert: "Tämä toiminto ei ole sallittu. Operaatio pyrkii siirtämään solut taulukossa laskentataulukon.",
 };
-;
 ej.TreeGrid.Locale["fi-FI"] = {
     toolboxTooltipTexts: {
         addTool: "Lisätä",
@@ -1526,7 +1501,6 @@ ej.TreeGrid.Locale["fi-FI"] = {
     falseText: "Väärä",
     emptyRecord: "Ei näytettäviä tietueita",
 };
-;
 ej.Uploadbox.Locale["fi-FI"] = {
     buttonText: {
         upload: "Lataa",

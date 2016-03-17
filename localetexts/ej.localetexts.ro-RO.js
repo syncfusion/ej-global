@@ -13,16 +13,13 @@ ej.Autocomplete.Locale["ro-RO"] = {
     emptyResultText: "Nu există sugestii",
     actionFailure: "Câmpul specificat nu există în anumită sursă de date",
 };
-;
 ej.CurrencyTextbox.Locale["ro-RO"] = {
     watermarkText: "Introdu o valoare",
 };
-;
 ej.DatePicker.Locale["ro-RO"] = {
     watermarkText: "Selectați data",
     buttonText: "Astăzi",
 };
-;
 ej.DateTimePicker.Locale["ro-RO"] = {
     buttonText: {
         today: "Astăzi",
@@ -31,7 +28,6 @@ ej.DateTimePicker.Locale["ro-RO"] = {
         timeTitle: "Timp"
     },
 };
-;
 ej.datavisualization.Diagram.Locale["ro-RO"] = {
     cut: "A taia",
     copy: "Copie",
@@ -48,7 +44,6 @@ ej.datavisualization.Diagram.Locale["ro-RO"] = {
     sendBackward: "trimiteţi în spate",
     sendToBack: "SendToBack",
 };
-;
 ej.Dialog.Locale["ro-RO"] = {
     tooltip: {
         close: "Închide",
@@ -62,7 +57,6 @@ ej.Dialog.Locale["ro-RO"] = {
     },
     closeIconTooltip: "închide",
 };
-;
 ej.ExcelFilter.Locale["ro-RO"] = {
     SortNoSmaller: "Sortare Cea mai mică la cea mai mare",
     SortNoLarger: "Sortare Cel mai mare la cea mai mica",
@@ -101,7 +95,6 @@ ej.ExcelFilter.Locale["ro-RO"] = {
     True: "Adevărat",
     False: "fals",
 };
-;
 ej.FileExplorer.Locale["ro-RO"] = {
     Back: "Înapoi",
     Forward: "Redirecţiona",
@@ -172,7 +165,6 @@ ej.FileExplorer.Locale["ro-RO"] = {
         closeToolTip: "Închide"
     },
 };
-;
 ej.Gantt.Locale["ro-RO"] = {
     emptyRecord: "Nu exista inregistrari pentru a afișa",
     alertTexts: {
@@ -247,7 +239,6 @@ ej.Gantt.Locale["ro-RO"] = {
         toText: "La"
     },
 };
-;
 ej.Grid.Locale["ro-RO"] = {
     EmptyRecord: "Nu exista inregistrari pentru a afișa",
     GroupDropArea: "Trageți o coloană antet aici pentru grup este o coloană",
@@ -344,7 +335,6 @@ if (ej.mobile !== undefined && ej.mobile.TimePicker !== undefined) {
 ej.NumericTextbox.Locale["ro-RO"] = {
     watermarkText: "Introdu o valoare",
 };
-;
 ej.olap.OlapChart.Locale["ro-RO"] = {
     Measure: "Măsura",
     Row: "Rând",
@@ -353,7 +343,6 @@ ej.olap.OlapChart.Locale["ro-RO"] = {
     Collapse: "Colaps",
     Exit: "Ieșire",
 };
-;
 ej.olap.OlapClient.Locale["ro-RO"] = {
     DeferUpdate: "Amânați Actualizare",
     MDXQuery: "MDX Solicitare",
@@ -416,12 +405,10 @@ ej.olap.OlapClient.Locale["ro-RO"] = {
     Polar: "polar",
     Radar: "radar",
 };
-;
 ej.olap.OlapGauge.Locale["ro-RO"] = {
     RevenueGoal: "venituri Obiectiv",
     RevenueValue: "Valoarea veniturilor",
 };
-;
 ej.Pager.Locale["ro-RO"] = {
     pagerInfo: "{0} din {1} pagini ({2} articole)",
     firstPageTooltip: "Du-te la prima pagină",
@@ -431,7 +418,6 @@ ej.Pager.Locale["ro-RO"] = {
     nextPagerTooltip: "Mergi la pagina următoare",
     previousPagerTooltip: "Du-te la pagina anterioară",
 };
-;
 ej.PdfViewer.Locale["ro-RO"] = {
     toolbar: {
         print: {
@@ -478,11 +464,9 @@ ej.PdfViewer.Locale["ro-RO"] = {
         },
     },
 };
-;
 ej.PercentageTextbox.Locale["ro-RO"] = {
     watermarkText: "Introdu o valoare",
 };
-;
 ej.PivotGrid.Locale["ro-RO"] = {
     ToolTipRow: "Rând",
     ToolTipColumn: "Coloană",
@@ -508,12 +492,10 @@ ej.PivotGrid.Locale["ro-RO"] = {
     Fontstyle: "Stilul fontului",
     Bordercolor: "Culoare chenar",
 };
-;
 ej.PivotPager.Locale["ro-RO"] = {
     SeriesPage: "seria Pagina",
     CategoricalPage: "categorială Pagina",
 };
-;
 ej.PivotSchemaDesigner.Locale["ro-RO"] = {
     PivotTableFieldList: "Listă de câmp PivotTable",
     ChooseFieldsToAddToReport: "Alege câmpuri pentru a adăuga un raport:",
@@ -525,7 +507,6 @@ ej.PivotSchemaDesigner.Locale["ro-RO"] = {
     DeferLayoutUpdate: "Amânați Aspect Actualizare",
     Update: "Actualizați",
 };
-;
 ej.datavisualization.RangeNavigator.Locale["ro-RO"] = {
     intervals: {
         quarter: {
@@ -538,7 +519,6 @@ ej.datavisualization.RangeNavigator.Locale["ro-RO"] = {
         },
     },
 };
-;
 ej.ReportViewer.Locale["ro-RO"] = {
     toolbar: {
         print: {
@@ -618,7 +598,6 @@ ej.ReportViewer.Locale["ro-RO"] = {
     },
     viewButton: "Vizualizează raportul",
 };
-;
 ej.Ribbon.Locale["ro-RO"] = {
     CustomizeQuickAccess: "Personalizați Bara de instrumente Acces rapid",
     RemovefromQuickAccessToolbar: "Eliminați din Bara de instrumente Acces Rapid",
@@ -627,7 +606,6 @@ ej.Ribbon.Locale["ro-RO"] = {
     ShowBelowtheRibbon: "Afișați sub panglica",
     MoreCommands: "Mai multe comenzi ...",
 };
-;
 ej.RTE.Locale["ro-RO"] = {
     bold: "Îndrăzneţ",
     italic: "Cursiv",
@@ -750,7 +728,6 @@ ej.RTE.Locale["ro-RO"] = {
     upperroman: "Roman superior",
     none: "Nici unul",
 };
-;
 ej.Schedule.Locale["ro-RO"] = {
     ReminderWindowTitle: "fereastră memento",
     CreateAppointmentTitle: "Creați Numirea",
@@ -851,7 +828,6 @@ ej.Schedule.Locale["ro-RO"] = {
     Time: "Timp",
     EmptyResultText: "Nu există sugestii",
 };
-;
 ej.Spreadsheet.Locale["ro-RO"] = {
     Cut: "A taia",
     Copy: "Copie",
@@ -1491,7 +1467,6 @@ ej.Spreadsheet.Locale["ro-RO"] = {
     LockAlert: "Celula pe care încercați să schimbați este pe foaia protejată. Pentru a efectua modificări, faceți clic pe Sheet Deprotejează în fila Revizuire.",
     InsertDeleteAlert: "Această operație nu este permisă. Operația este încercarea de a comuta celule într-un tabel de pe foaia de lucru.",
 };
-;
 ej.TreeGrid.Locale["ro-RO"] = {
     toolboxTooltipTexts: {
         addTool: "Adăuga",
@@ -1526,7 +1501,6 @@ ej.TreeGrid.Locale["ro-RO"] = {
     falseText: "Fals",
     emptyRecord: "Nu exista inregistrari pentru a afișa",
 };
-;
 ej.Uploadbox.Locale["ro-RO"] = {
     buttonText: {
         upload: "Încărcați",

@@ -13,16 +13,13 @@ ej.Autocomplete.Locale["sv-SE"] = {
     emptyResultText: "Inga förslag",
     actionFailure: "Den angivna fältet existerar inte i given datakälla",
 };
-;
 ej.CurrencyTextbox.Locale["sv-SE"] = {
     watermarkText: "Ange värde",
 };
-;
 ej.DatePicker.Locale["sv-SE"] = {
     watermarkText: "Välj datum",
     buttonText: "I dag",
 };
-;
 ej.DateTimePicker.Locale["sv-SE"] = {
     buttonText: {
         today: "I dag",
@@ -31,7 +28,6 @@ ej.DateTimePicker.Locale["sv-SE"] = {
         timeTitle: "Tid"
     },
 };
-;
 ej.datavisualization.Diagram.Locale["sv-SE"] = {
     cut: "Skära",
     copy: "Kopiera",
@@ -48,7 +44,6 @@ ej.datavisualization.Diagram.Locale["sv-SE"] = {
     sendBackward: "Skicka bakåt",
     sendToBack: "Skicka tillbaka",
 };
-;
 ej.Dialog.Locale["sv-SE"] = {
     tooltip: {
         close: "Stänga",
@@ -62,7 +57,6 @@ ej.Dialog.Locale["sv-SE"] = {
     },
     closeIconTooltip: "stänga",
 };
-;
 ej.ExcelFilter.Locale["sv-SE"] = {
     SortNoSmaller: "Sortera Minsta till största",
     SortNoLarger: "Sortera största till minsta",
@@ -101,7 +95,6 @@ ej.ExcelFilter.Locale["sv-SE"] = {
     True: "sann",
     False: "falsk",
 };
-;
 ej.FileExplorer.Locale["sv-SE"] = {
     Back: "Bakåt",
     Forward: "Fram",
@@ -172,7 +165,6 @@ ej.FileExplorer.Locale["sv-SE"] = {
         closeToolTip: "Stänga"
     },
 };
-;
 ej.Gantt.Locale["sv-SE"] = {
     emptyRecord: "Inga poster att visa",
     alertTexts: {
@@ -247,7 +239,6 @@ ej.Gantt.Locale["sv-SE"] = {
         toText: "Till"
     },
 };
-;
 ej.Grid.Locale["sv-SE"] = {
     EmptyRecord: "Inga poster att visa",
     GroupDropArea: "Dra en kolumnrubrik här till gruppen sin kolumn",
@@ -344,7 +335,6 @@ if (ej.mobile !== undefined && ej.mobile.TimePicker !== undefined) {
 ej.NumericTextbox.Locale["sv-SE"] = {
     watermarkText: "Ange värde",
 };
-;
 ej.olap.OlapChart.Locale["sv-SE"] = {
     Measure: "Mäta",
     Row: "Rad",
@@ -353,7 +343,6 @@ ej.olap.OlapChart.Locale["sv-SE"] = {
     Collapse: "Kollaps",
     Exit: "Utgång",
 };
-;
 ej.olap.OlapClient.Locale["sv-SE"] = {
     DeferUpdate: "Defer Update",
     MDXQuery: "MDX Query",
@@ -416,12 +405,10 @@ ej.olap.OlapClient.Locale["sv-SE"] = {
     Polar: "polär",
     Radar: "radar",
 };
-;
 ej.olap.OlapGauge.Locale["sv-SE"] = {
     RevenueGoal: "intäkts mål",
     RevenueValue: "intäktsvärde",
 };
-;
 ej.Pager.Locale["sv-SE"] = {
     pagerInfo: "{0} av {1} sidor ({2} objekt)",
     firstPageTooltip: "Gå till första sidan",
@@ -431,7 +418,6 @@ ej.Pager.Locale["sv-SE"] = {
     nextPagerTooltip: "Gå till nästa sida",
     previousPagerTooltip: "Gå till föregående sida",
 };
-;
 ej.PdfViewer.Locale["sv-SE"] = {
     toolbar: {
         print: {
@@ -478,11 +464,9 @@ ej.PdfViewer.Locale["sv-SE"] = {
         },
     },
 };
-;
 ej.PercentageTextbox.Locale["sv-SE"] = {
     watermarkText: "Ange värde",
 };
-;
 ej.PivotGrid.Locale["sv-SE"] = {
     ToolTipRow: "Rad",
     ToolTipColumn: "Kolumn",
@@ -508,12 +492,10 @@ ej.PivotGrid.Locale["sv-SE"] = {
     Fontstyle: "Typsnitt",
     Bordercolor: "Kantfärg",
 };
-;
 ej.PivotPager.Locale["sv-SE"] = {
     SeriesPage: "serien Page",
     CategoricalPage: "kategorisk Sida",
 };
-;
 ej.PivotSchemaDesigner.Locale["sv-SE"] = {
     PivotTableFieldList: "PivotTable Fältlista",
     ChooseFieldsToAddToReport: "Välj fält för att lägga rapportera:",
@@ -525,7 +507,6 @@ ej.PivotSchemaDesigner.Locale["sv-SE"] = {
     DeferLayoutUpdate: "Defer Layout Update",
     Update: "Uppdatering",
 };
-;
 ej.datavisualization.RangeNavigator.Locale["sv-SE"] = {
     intervals: {
         quarter: {
@@ -538,7 +519,6 @@ ej.datavisualization.RangeNavigator.Locale["sv-SE"] = {
         },
     },
 };
-;
 ej.ReportViewer.Locale["sv-SE"] = {
     toolbar: {
         print: {
@@ -618,7 +598,6 @@ ej.ReportViewer.Locale["sv-SE"] = {
     },
     viewButton: "Visa rapport",
 };
-;
 ej.Ribbon.Locale["sv-SE"] = {
     CustomizeQuickAccess: "Anpassa verktygsfältet Snabbåtkomst",
     RemovefromQuickAccessToolbar: "Ta bort från verktygsfältet Snabbåtkomst",
@@ -627,7 +606,6 @@ ej.Ribbon.Locale["sv-SE"] = {
     ShowBelowtheRibbon: "Visa under menyfliksområdet",
     MoreCommands: "Fler kommandon ...",
 };
-;
 ej.RTE.Locale["sv-SE"] = {
     bold: "Djärv",
     italic: "Kursiv",
@@ -750,7 +728,6 @@ ej.RTE.Locale["sv-SE"] = {
     upperroman: "övre Roman",
     none: "Ingen",
 };
-;
 ej.Schedule.Locale["sv-SE"] = {
     ReminderWindowTitle: "påminnelse fönster",
     CreateAppointmentTitle: "Skapa Utnämning",
@@ -851,7 +828,6 @@ ej.Schedule.Locale["sv-SE"] = {
     Time: "Tid",
     EmptyResultText: "Inga förslag",
 };
-;
 ej.Spreadsheet.Locale["sv-SE"] = {
     Cut: "Skära",
     Copy: "Kopiera",
@@ -1491,7 +1467,6 @@ ej.Spreadsheet.Locale["sv-SE"] = {
     LockAlert: "Cellen du försöker ändra är på skyddat ark. För att göra ändringar, klicka på Ta bort bladets på fliken Review.",
     InsertDeleteAlert: "Denna operation är inte tillåten. Operationen försöker flytta celler i en tabell i kalkylbladet .",
 };
-;
 ej.TreeGrid.Locale["sv-SE"] = {
     toolboxTooltipTexts: {
         addTool: "Lägg till",
@@ -1526,7 +1501,6 @@ ej.TreeGrid.Locale["sv-SE"] = {
     falseText: "Falsk",
     emptyRecord: "Inga poster att visa",
 };
-;
 ej.Uploadbox.Locale["sv-SE"] = {
     buttonText: {
         upload: "Ladda upp",

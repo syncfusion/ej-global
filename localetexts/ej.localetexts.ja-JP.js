@@ -13,16 +13,13 @@ ej.Autocomplete.Locale["ja-JP"] = {
     emptyResultText: "提案なし",
     actionFailure: "指定されたフィールドは、特定のデータ・ソースに存在しません。",
 };
-;
 ej.CurrencyTextbox.Locale["ja-JP"] = {
     watermarkText: "値を入力します。",
 };
-;
 ej.DatePicker.Locale["ja-JP"] = {
     watermarkText: "日付を選択",
     buttonText: "今日",
 };
-;
 ej.DateTimePicker.Locale["ja-JP"] = {
     buttonText: {
         today: "今日",
@@ -31,7 +28,6 @@ ej.DateTimePicker.Locale["ja-JP"] = {
         timeTitle: "時間"
     },
 };
-;
 ej.datavisualization.Diagram.Locale["ja-JP"] = {
     cut: "カット",
     copy: "コピー",
@@ -48,7 +44,6 @@ ej.datavisualization.Diagram.Locale["ja-JP"] = {
     sendBackward: "背面へ",
     sendToBack: "SendToBack",
 };
-;
 ej.Dialog.Locale["ja-JP"] = {
     tooltip: {
         close: "閉じる",
@@ -62,7 +57,6 @@ ej.Dialog.Locale["ja-JP"] = {
     },
     closeIconTooltip: "閉じる",
 };
-;
 ej.ExcelFilter.Locale["ja-JP"] = {
     SortNoSmaller: "ソート最小最大に",
     SortNoLarger: "並び替え最大最小に",
@@ -101,7 +95,6 @@ ej.ExcelFilter.Locale["ja-JP"] = {
     True: "真",
     False: "偽",
 };
-;
 ej.FileExplorer.Locale["ja-JP"] = {
     Back: "後方",
     Forward: "フォワード",
@@ -172,7 +165,6 @@ ej.FileExplorer.Locale["ja-JP"] = {
         closeToolTip: "閉じる"
     },
 };
-;
 ej.Gantt.Locale["ja-JP"] = {
     emptyRecord: "レコードは表示されませんします",
     alertTexts: {
@@ -247,7 +239,6 @@ ej.Gantt.Locale["ja-JP"] = {
         toText: "に"
     },
 };
-;
 ej.Grid.Locale["ja-JP"] = {
     EmptyRecord: "レコードは表示されませんします",
     GroupDropArea: "グループの列に、ここで列ヘッダをドラッグします",
@@ -344,7 +335,6 @@ if (ej.mobile !== undefined && ej.mobile.TimePicker !== undefined) {
 ej.NumericTextbox.Locale["ja-JP"] = {
     watermarkText: "値を入力します。",
 };
-;
 ej.olap.OlapChart.Locale["ja-JP"] = {
     Measure: "メジャー",
     Row: "行",
@@ -353,7 +343,6 @@ ej.olap.OlapChart.Locale["ja-JP"] = {
     Collapse: "崩壊",
     Exit: "出口",
 };
-;
 ej.olap.OlapClient.Locale["ja-JP"] = {
     DeferUpdate: "延期の更新",
     MDXQuery: "MDXクエリ",
@@ -416,12 +405,10 @@ ej.olap.OlapClient.Locale["ja-JP"] = {
     Polar: "極性の",
     Radar: "レーダー",
 };
-;
 ej.olap.OlapGauge.Locale["ja-JP"] = {
     RevenueGoal: "収益目標",
     RevenueValue: "収益値",
 };
-;
 ej.Pager.Locale["ja-JP"] = {
     pagerInfo: "{0}{1}ページ（{2}の項目）の",
     firstPageTooltip: "最初のページに移動します",
@@ -431,7 +418,6 @@ ej.Pager.Locale["ja-JP"] = {
     nextPagerTooltip: "次のページに移動します",
     previousPagerTooltip: "前のページに移動します",
 };
-;
 ej.PdfViewer.Locale["ja-JP"] = {
     toolbar: {
         print: {
@@ -478,11 +464,9 @@ ej.PdfViewer.Locale["ja-JP"] = {
         },
     },
 };
-;
 ej.PercentageTextbox.Locale["ja-JP"] = {
     watermarkText: "値を入力します。",
 };
-;
 ej.PivotGrid.Locale["ja-JP"] = {
     ToolTipRow: "行",
     ToolTipColumn: "カラム",
@@ -508,12 +492,10 @@ ej.PivotGrid.Locale["ja-JP"] = {
     Fontstyle: "フォントスタイル",
     Bordercolor: "境界線の色",
 };
-;
 ej.PivotPager.Locale["ja-JP"] = {
     SeriesPage: "シリーズページ",
     CategoricalPage: "カテゴリカルページ",
 };
-;
 ej.PivotSchemaDesigner.Locale["ja-JP"] = {
     PivotTableFieldList: "ピボットテーブルのフィールドリスト",
     ChooseFieldsToAddToReport: "レポートに追加するフィールドを選択します。",
@@ -525,7 +507,6 @@ ej.PivotSchemaDesigner.Locale["ja-JP"] = {
     DeferLayoutUpdate: "延期レイアウト更新",
     Update: "更新",
 };
-;
 ej.datavisualization.RangeNavigator.Locale["ja-JP"] = {
     intervals: {
         quarter: {
@@ -538,7 +519,6 @@ ej.datavisualization.RangeNavigator.Locale["ja-JP"] = {
         },
     },
 };
-;
 ej.ReportViewer.Locale["ja-JP"] = {
     toolbar: {
         print: {
@@ -618,7 +598,6 @@ ej.ReportViewer.Locale["ja-JP"] = {
     },
     viewButton: "[レポートの表示",
 };
-;
 ej.Ribbon.Locale["ja-JP"] = {
     CustomizeQuickAccess: "クイックアクセスツールバーをカスタマイズします",
     RemovefromQuickAccessToolbar: "クイックアクセスツールバーから削除",
@@ -627,7 +606,6 @@ ej.Ribbon.Locale["ja-JP"] = {
     ShowBelowtheRibbon: "リボンの下に表示します",
     MoreCommands: "複数のコマンド...",
 };
-;
 ej.RTE.Locale["ja-JP"] = {
     bold: "大胆な",
     italic: "イタリック",
@@ -750,7 +728,6 @@ ej.RTE.Locale["ja-JP"] = {
     upperroman: "アッパーローマ",
     none: "なし",
 };
-;
 ej.Schedule.Locale["ja-JP"] = {
     ReminderWindowTitle: "リマインダーウィンドウ",
     CreateAppointmentTitle: "予定を作成します。",
@@ -851,7 +828,6 @@ ej.Schedule.Locale["ja-JP"] = {
     Time: "時間",
     EmptyResultText: "提案なし",
 };
-;
 ej.Spreadsheet.Locale["ja-JP"] = {
     Cut: "カット",
     Copy: "コピー",
@@ -1491,7 +1467,6 @@ ej.Spreadsheet.Locale["ja-JP"] = {
     LockAlert: "変更しようとしているセルは、保護シートの上にあります。変更を行うには、[レビュー]タブでシート保護の解除]をクリックします。",
     InsertDeleteAlert: "この操作は許可されていません。操作は、ワークシートの表内のセルをシフトしようとしています。",
 };
-;
 ej.TreeGrid.Locale["ja-JP"] = {
     toolboxTooltipTexts: {
         addTool: "加えます",
@@ -1526,7 +1501,6 @@ ej.TreeGrid.Locale["ja-JP"] = {
     falseText: "偽",
     emptyRecord: "レコードは表示されませんします",
 };
-;
 ej.Uploadbox.Locale["ja-JP"] = {
     buttonText: {
         upload: "アップロード",

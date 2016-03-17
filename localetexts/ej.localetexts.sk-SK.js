@@ -13,16 +13,13 @@ ej.Autocomplete.Locale["sk-SK"] = {
     emptyResultText: "žiadne návrhy",
     actionFailure: "Zadaný pole neexistuje v danom zdroji údajov",
 };
-;
 ej.CurrencyTextbox.Locale["sk-SK"] = {
     watermarkText: "zadajte hodnotu",
 };
-;
 ej.DatePicker.Locale["sk-SK"] = {
     watermarkText: "vyberte dátum",
     buttonText: "dnes",
 };
-;
 ej.DateTimePicker.Locale["sk-SK"] = {
     buttonText: {
         today: "dnes",
@@ -31,7 +28,6 @@ ej.DateTimePicker.Locale["sk-SK"] = {
         timeTitle: "čas"
     },
 };
-;
 ej.datavisualization.Diagram.Locale["sk-SK"] = {
     cut: "rez",
     copy: "kópie",
@@ -48,7 +44,6 @@ ej.datavisualization.Diagram.Locale["sk-SK"] = {
     sendBackward: "preniesť ďalej",
     sendToBack: "SendToBack",
 };
-;
 ej.Dialog.Locale["sk-SK"] = {
     tooltip: {
         close: "Blízky",
@@ -62,7 +57,6 @@ ej.Dialog.Locale["sk-SK"] = {
     },
     closeIconTooltip: "blízky",
 };
-;
 ej.ExcelFilter.Locale["sk-SK"] = {
     SortNoSmaller: "Usporiadať najmenšie k najväčšej",
     SortNoLarger: "Usporiadať najväčšieho k najmenšiemu",
@@ -101,7 +95,6 @@ ej.ExcelFilter.Locale["sk-SK"] = {
     True: "pravdivý",
     False: "nepravdivý",
 };
-;
 ej.FileExplorer.Locale["sk-SK"] = {
     Back: "zaostalý",
     Forward: "vpred",
@@ -172,7 +165,6 @@ ej.FileExplorer.Locale["sk-SK"] = {
         closeToolTip: "Blízky"
     },
 };
-;
 ej.Gantt.Locale["sk-SK"] = {
     emptyRecord: "žiadne záznamy na zobrazenie",
     alertTexts: {
@@ -247,7 +239,6 @@ ej.Gantt.Locale["sk-SK"] = {
         toText: "na"
     },
 };
-;
 ej.Grid.Locale["sk-SK"] = {
     EmptyRecord: "žiadne záznamy na zobrazenie",
     GroupDropArea: "Pretiahnuť záhlavie stĺpca tu skupine je to stĺpec",
@@ -344,7 +335,6 @@ if (ej.mobile !== undefined && ej.mobile.TimePicker !== undefined) {
 ej.NumericTextbox.Locale["sk-SK"] = {
     watermarkText: "zadajte hodnotu",
 };
-;
 ej.olap.OlapChart.Locale["sk-SK"] = {
     Measure: "opatrenia",
     Row: "riadok",
@@ -353,7 +343,6 @@ ej.olap.OlapChart.Locale["sk-SK"] = {
     Collapse: "kolaps",
     Exit: "výjazd",
 };
-;
 ej.olap.OlapClient.Locale["sk-SK"] = {
     DeferUpdate: "odložiť aktualizácie",
     MDXQuery: "MDX Query",
@@ -416,12 +405,10 @@ ej.olap.OlapClient.Locale["sk-SK"] = {
     Polar: "polárne",
     Radar: "radar",
 };
-;
 ej.olap.OlapGauge.Locale["sk-SK"] = {
     RevenueGoal: "výnosy Cieľ",
     RevenueValue: "hodnota tržieb",
 };
-;
 ej.Pager.Locale["sk-SK"] = {
     pagerInfo: "{0} z {1} strán ({2} položiek)",
     firstPageTooltip: "Ísť na prvú stránku",
@@ -431,7 +418,6 @@ ej.Pager.Locale["sk-SK"] = {
     nextPagerTooltip: "Prejsť na ďalšiu stránku",
     previousPagerTooltip: "Prejsť na predchádzajúcu stránku",
 };
-;
 ej.PdfViewer.Locale["sk-SK"] = {
     toolbar: {
         print: {
@@ -478,11 +464,9 @@ ej.PdfViewer.Locale["sk-SK"] = {
         },
     },
 };
-;
 ej.PercentageTextbox.Locale["sk-SK"] = {
     watermarkText: "zadajte hodnotu",
 };
-;
 ej.PivotGrid.Locale["sk-SK"] = {
     ToolTipRow: "riadok",
     ToolTipColumn: "stĺpec",
@@ -508,12 +492,10 @@ ej.PivotGrid.Locale["sk-SK"] = {
     Fontstyle: "štýl písma",
     Bordercolor: "Farba rámčeku",
 };
-;
 ej.PivotPager.Locale["sk-SK"] = {
     SeriesPage: "series Page",
     CategoricalPage: "kategorický Page",
 };
-;
 ej.PivotSchemaDesigner.Locale["sk-SK"] = {
     PivotTableFieldList: "Kontingenčnej tabuľky Zoznam polí",
     ChooseFieldsToAddToReport: "Zvoľte pole pre pridanie do správy:",
@@ -525,7 +507,6 @@ ej.PivotSchemaDesigner.Locale["sk-SK"] = {
     DeferLayoutUpdate: "Odložiť Layout Aktualizovať",
     Update: "aktualizovať",
 };
-;
 ej.datavisualization.RangeNavigator.Locale["sk-SK"] = {
     intervals: {
         quarter: {
@@ -538,7 +519,6 @@ ej.datavisualization.RangeNavigator.Locale["sk-SK"] = {
         },
     },
 };
-;
 ej.ReportViewer.Locale["sk-SK"] = {
     toolbar: {
         print: {
@@ -618,7 +598,6 @@ ej.ReportViewer.Locale["sk-SK"] = {
     },
     viewButton: "view Report",
 };
-;
 ej.Ribbon.Locale["sk-SK"] = {
     CustomizeQuickAccess: "Prispôsobenie Panel s nástrojmi Rýchly prístup",
     RemovefromQuickAccessToolbar: "Odstrániť z panela nástrojov Rýchly prístup",
@@ -627,7 +606,6 @@ ej.Ribbon.Locale["sk-SK"] = {
     ShowBelowtheRibbon: "Ukázať pod pásom kariet",
     MoreCommands: "Ďalšie príkazy ...",
 };
-;
 ej.RTE.Locale["sk-SK"] = {
     bold: "tučný",
     italic: "kurzíva",
@@ -750,7 +728,6 @@ ej.RTE.Locale["sk-SK"] = {
     upperroman: "horný Roman",
     none: "nikto",
 };
-;
 ej.Schedule.Locale["sk-SK"] = {
     ReminderWindowTitle: "okno pripomienka",
     CreateAppointmentTitle: "Vytvoriť udalosť",
@@ -851,7 +828,6 @@ ej.Schedule.Locale["sk-SK"] = {
     Time: "čas",
     EmptyResultText: "žiadne návrhy",
 };
-;
 ej.Spreadsheet.Locale["sk-SK"] = {
     Cut: "rez",
     Copy: "kópie",
@@ -1491,7 +1467,6 @@ ej.Spreadsheet.Locale["sk-SK"] = {
     LockAlert: "Bunka sa snažíte zmeniť, je v chránenej liste. Ak chcete vykonať zmeny, kliknite na príkaz Odomknúť list na karte Review.",
     InsertDeleteAlert: "Táto operácia nie je povolená. Operácia sa pokúša posunúť bunky v tabuľke na liste.",
 };
-;
 ej.TreeGrid.Locale["sk-SK"] = {
     toolboxTooltipTexts: {
         addTool: "pridať",
@@ -1526,7 +1501,6 @@ ej.TreeGrid.Locale["sk-SK"] = {
     falseText: "nepravdivý",
     emptyRecord: "žiadne záznamy na zobrazenie",
 };
-;
 ej.Uploadbox.Locale["sk-SK"] = {
     buttonText: {
         upload: "nahrať",

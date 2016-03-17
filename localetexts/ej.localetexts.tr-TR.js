@@ -13,16 +13,13 @@ ej.Autocomplete.Locale["tr-TR"] = {
     emptyResultText: "hiçbir öneri",
     actionFailure: "Belirtilen alanı verilen veri kaynağında yok",
 };
-;
 ej.CurrencyTextbox.Locale["tr-TR"] = {
     watermarkText: "değeri girin",
 };
-;
 ej.DatePicker.Locale["tr-TR"] = {
     watermarkText: "seçin tarih",
     buttonText: "Bugün",
 };
-;
 ej.DateTimePicker.Locale["tr-TR"] = {
     buttonText: {
         today: "Bugün",
@@ -31,7 +28,6 @@ ej.DateTimePicker.Locale["tr-TR"] = {
         timeTitle: "Zaman"
     },
 };
-;
 ej.datavisualization.Diagram.Locale["tr-TR"] = {
     cut: "kesim",
     copy: "kopya",
@@ -48,7 +44,6 @@ ej.datavisualization.Diagram.Locale["tr-TR"] = {
     sendBackward: "Geri göndermek",
     sendToBack: "Geri gönder",
 };
-;
 ej.Dialog.Locale["tr-TR"] = {
     tooltip: {
         close: "Kapat",
@@ -62,7 +57,6 @@ ej.Dialog.Locale["tr-TR"] = {
     },
     closeIconTooltip: "kapat",
 };
-;
 ej.ExcelFilter.Locale["tr-TR"] = {
     SortNoSmaller: "Sıralama küçük büyük için",
     SortNoLarger: "Sıralama Büyük Küçük için",
@@ -101,7 +95,6 @@ ej.ExcelFilter.Locale["tr-TR"] = {
     True: "gerçek",
     False: "yanlış",
 };
-;
 ej.FileExplorer.Locale["tr-TR"] = {
     Back: "Geriye",
     Forward: "ileri",
@@ -172,7 +165,6 @@ ej.FileExplorer.Locale["tr-TR"] = {
         closeToolTip: "Kapat"
     },
 };
-;
 ej.Gantt.Locale["tr-TR"] = {
     emptyRecord: "Gösterilecek kayıt yok",
     alertTexts: {
@@ -247,7 +239,6 @@ ej.Gantt.Locale["tr-TR"] = {
         toText: "için"
     },
 };
-;
 ej.Grid.Locale["tr-TR"] = {
     EmptyRecord: "Gösterilecek kayıt yok",
     GroupDropArea: "grubuna kendi sütun burada bir sütun başlığını sürükleyin",
@@ -344,7 +335,6 @@ if (ej.mobile !== undefined && ej.mobile.TimePicker !== undefined) {
 ej.NumericTextbox.Locale["tr-TR"] = {
     watermarkText: "değeri girin",
 };
-;
 ej.olap.OlapChart.Locale["tr-TR"] = {
     Measure: "tedbir",
     Row: "sıra",
@@ -353,7 +343,6 @@ ej.olap.OlapChart.Locale["tr-TR"] = {
     Collapse: "çöküş",
     Exit: "çıkış",
 };
-;
 ej.olap.OlapClient.Locale["tr-TR"] = {
     DeferUpdate: "Erteleme Güncelleme",
     MDXQuery: "MDX Sorgu",
@@ -416,12 +405,10 @@ ej.olap.OlapClient.Locale["tr-TR"] = {
     Polar: "kutup",
     Radar: "radar",
 };
-;
 ej.olap.OlapGauge.Locale["tr-TR"] = {
     RevenueGoal: "Gelir Gol",
     RevenueValue: "Gelir Değeri",
 };
-;
 ej.Pager.Locale["tr-TR"] = {
     pagerInfo: "{0} {1} sayfalar ({2} öğeleri) arasında",
     firstPageTooltip: "İlk sayfaya gidin",
@@ -431,7 +418,6 @@ ej.Pager.Locale["tr-TR"] = {
     nextPagerTooltip: "Bir sonraki sayfaya gitmek",
     previousPagerTooltip: "Önceki Sayfaya Git",
 };
-;
 ej.PdfViewer.Locale["tr-TR"] = {
     toolbar: {
         print: {
@@ -478,11 +464,9 @@ ej.PdfViewer.Locale["tr-TR"] = {
         },
     },
 };
-;
 ej.PercentageTextbox.Locale["tr-TR"] = {
     watermarkText: "değeri girin",
 };
-;
 ej.PivotGrid.Locale["tr-TR"] = {
     ToolTipRow: "sıra",
     ToolTipColumn: "sütun",
@@ -508,12 +492,10 @@ ej.PivotGrid.Locale["tr-TR"] = {
     Fontstyle: "Yazı stili",
     Bordercolor: "Sınır rengi",
 };
-;
 ej.PivotPager.Locale["tr-TR"] = {
     SeriesPage: "Serisi Page",
     CategoricalPage: "kategorik Sayfa",
 };
-;
 ej.PivotSchemaDesigner.Locale["tr-TR"] = {
     PivotTableFieldList: "Özet Tablo Alan Listesi",
     ChooseFieldsToAddToReport: "rapor eklemek için alanları seçin:",
@@ -525,7 +507,6 @@ ej.PivotSchemaDesigner.Locale["tr-TR"] = {
     DeferLayoutUpdate: "Erteleme Düzeni Güncelleme",
     Update: "Güncelleştirme",
 };
-;
 ej.datavisualization.RangeNavigator.Locale["tr-TR"] = {
     intervals: {
         quarter: {
@@ -538,7 +519,6 @@ ej.datavisualization.RangeNavigator.Locale["tr-TR"] = {
         },
     },
 };
-;
 ej.ReportViewer.Locale["tr-TR"] = {
     toolbar: {
         print: {
@@ -618,7 +598,6 @@ ej.ReportViewer.Locale["tr-TR"] = {
     },
     viewButton: "Raporu görüntüle",
 };
-;
 ej.Ribbon.Locale["tr-TR"] = {
     CustomizeQuickAccess: "Hızlı Erişim Araç Çubuğu özelleştirme",
     RemovefromQuickAccessToolbar: "Hızlı Erişim Araç Çubuğu kaldırmak",
@@ -627,7 +606,6 @@ ej.Ribbon.Locale["tr-TR"] = {
     ShowBelowtheRibbon: "Şerit altında göster",
     MoreCommands: "Daha Komutları ...",
 };
-;
 ej.RTE.Locale["tr-TR"] = {
     bold: "cesur",
     italic: "İtalik",
@@ -750,7 +728,6 @@ ej.RTE.Locale["tr-TR"] = {
     upperroman: "üst Roman",
     none: "Hiçbiri",
 };
-;
 ej.Schedule.Locale["tr-TR"] = {
     ReminderWindowTitle: "hatırlatma penceresi",
     CreateAppointmentTitle: "Randevu oluşturma",
@@ -851,7 +828,6 @@ ej.Schedule.Locale["tr-TR"] = {
     Time: "Zaman",
     EmptyResultText: "hiçbir öneri",
 };
-;
 ej.Spreadsheet.Locale["tr-TR"] = {
     Cut: "kesim",
     Copy: "kopya",
@@ -1491,7 +1467,6 @@ ej.Spreadsheet.Locale["tr-TR"] = {
     LockAlert: "Değiştirmek için çalışıyoruz hücre korunan sayfadaki olduğunu. Değişiklik yapmak için, İnceleme sekmesinde Sayfa Korumasını Kaldır seçeneğini tıklatın.",
     InsertDeleteAlert: "Bu işleme izin verilmez. operasyon için çalışma sayfasında bir tablo hücreleri kaydırmaya çalışıyor.",
 };
-;
 ej.TreeGrid.Locale["tr-TR"] = {
     toolboxTooltipTexts: {
         addTool: "eklemek",
@@ -1526,7 +1501,6 @@ ej.TreeGrid.Locale["tr-TR"] = {
     falseText: "yanlış",
     emptyRecord: "Gösterilecek kayıt yok",
 };
-;
 ej.Uploadbox.Locale["tr-TR"] = {
     buttonText: {
         upload: "yükleme",

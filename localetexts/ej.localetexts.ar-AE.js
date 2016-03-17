@@ -13,16 +13,13 @@ ej.Autocomplete.Locale["ar-AE"] = {
     emptyResultText: "لا اقتراحات",
     actionFailure: "عدم وجود الحقل المحدد في مصدر البيانات الواردة",
 };
-;
 ej.CurrencyTextbox.Locale["ar-AE"] = {
     watermarkText: "أدخل قيمة",
 };
-;
 ej.DatePicker.Locale["ar-AE"] = {
     watermarkText: "حدد تاريخ",
     buttonText: "اليوم",
 };
-;
 ej.DateTimePicker.Locale["ar-AE"] = {
     buttonText: {
         today: "اليوم",
@@ -31,7 +28,6 @@ ej.DateTimePicker.Locale["ar-AE"] = {
         timeTitle: "مرة"
     },
 };
-;
 ej.datavisualization.Diagram.Locale["ar-AE"] = {
     cut: "قطع",
     copy: "نسخ",
@@ -48,7 +44,6 @@ ej.datavisualization.Diagram.Locale["ar-AE"] = {
     sendBackward: "إرسال إلى الخلف",
     sendToBack: "إرسال إلى الخلف",
 };
-;
 ej.Dialog.Locale["ar-AE"] = {
     tooltip: {
         close: "قريب",
@@ -62,7 +57,6 @@ ej.Dialog.Locale["ar-AE"] = {
     },
     closeIconTooltip: "أغلق",
 };
-;
 ej.ExcelFilter.Locale["ar-AE"] = {
     SortNoSmaller: "نوع من الأصغر إلى الأكبر",
     SortNoLarger: "نوع من الأكبر إلى الأصغر",
@@ -101,7 +95,6 @@ ej.ExcelFilter.Locale["ar-AE"] = {
     True: "صحيح",
     False: "خاطئة",
 };
-;
 ej.FileExplorer.Locale["ar-AE"] = {
     Back: "الى الوراء",
     Forward: "إلى الأمام",
@@ -172,7 +165,6 @@ ej.FileExplorer.Locale["ar-AE"] = {
         closeToolTip: "قريب"
     },
 };
-;
 ej.Gantt.Locale["ar-AE"] = {
     emptyRecord: "عدم وجود سجلات للعرض",
     alertTexts: {
@@ -247,7 +239,6 @@ ej.Gantt.Locale["ar-AE"] = {
         toText: "إلى"
     },
 };
-;
 ej.Grid.Locale["ar-AE"] = {
     EmptyRecord: "عدم وجود سجلات للعرض",
     GroupDropArea: "اسحب رأس العمود هنا إلى مجموعة عموده",
@@ -344,7 +335,6 @@ if (ej.mobile !== undefined && ej.mobile.TimePicker !== undefined) {
 ej.NumericTextbox.Locale["ar-AE"] = {
     watermarkText: "أدخل قيمة",
 };
-;
 ej.olap.OlapChart.Locale["ar-AE"] = {
     Measure: "قياس - يقيس",
     Row: "صف",
@@ -353,7 +343,6 @@ ej.olap.OlapChart.Locale["ar-AE"] = {
     Collapse: "انهيار",
     Exit: "خروج",
 };
-;
 ej.olap.OlapClient.Locale["ar-AE"] = {
     DeferUpdate: "تأجيل التحديث",
     MDXQuery: "MDX استعلام",
@@ -416,12 +405,10 @@ ej.olap.OlapClient.Locale["ar-AE"] = {
     Polar: "قطبي",
     Radar: "رادار",
 };
-;
 ej.olap.OlapGauge.Locale["ar-AE"] = {
     RevenueGoal: "دخل هدف",
     RevenueValue: "قيمة الإيرادات",
 };
-;
 ej.Pager.Locale["ar-AE"] = {
     pagerInfo: "{0} من {1} صفحة ({2} البنود)",
     firstPageTooltip: "الذهاب إلى الصفحة الأولى",
@@ -431,7 +418,6 @@ ej.Pager.Locale["ar-AE"] = {
     nextPagerTooltip: "انتقل إلى الصفحة التالية",
     previousPagerTooltip: "الذهاب إلى الصفحة السابقة",
 };
-;
 ej.PdfViewer.Locale["ar-AE"] = {
     toolbar: {
         print: {
@@ -478,11 +464,9 @@ ej.PdfViewer.Locale["ar-AE"] = {
         },
     },
 };
-;
 ej.PercentageTextbox.Locale["ar-AE"] = {
     watermarkText: "أدخل قيمة",
 };
-;
 ej.PivotGrid.Locale["ar-AE"] = {
     ToolTipRow: "صف",
     ToolTipColumn: "عمود",
@@ -508,12 +492,10 @@ ej.PivotGrid.Locale["ar-AE"] = {
     Fontstyle: "نوع الخط",
     Bordercolor: "اللون الحدود",
 };
-;
 ej.PivotPager.Locale["ar-AE"] = {
     SeriesPage: "سلسلة الصفحة",
     CategoricalPage: "القاطع الصفحة",
 };
-;
 ej.PivotSchemaDesigner.Locale["ar-AE"] = {
     PivotTableFieldList: "PivotTable قائمة الحقول",
     ChooseFieldsToAddToReport: "اختيار الميادين إضافة إلى التقرير:",
@@ -525,7 +507,6 @@ ej.PivotSchemaDesigner.Locale["ar-AE"] = {
     DeferLayoutUpdate: "تأجيل تخطيط تحديث",
     Update: "تحديث",
 };
-;
 ej.datavisualization.RangeNavigator.Locale["ar-AE"] = {
     intervals: {
         quarter: {
@@ -538,7 +519,6 @@ ej.datavisualization.RangeNavigator.Locale["ar-AE"] = {
         },
     },
 };
-;
 ej.ReportViewer.Locale["ar-AE"] = {
     toolbar: {
         print: {
@@ -618,7 +598,6 @@ ej.ReportViewer.Locale["ar-AE"] = {
     },
     viewButton: "عرض التقرير",
 };
-;
 ej.Ribbon.Locale["ar-AE"] = {
     CustomizeQuickAccess: "تخصيص شريط أدوات الوصول السريع",
     RemovefromQuickAccessToolbar: "إزالة من شريط أدوات الوصول السريع",
@@ -627,7 +606,6 @@ ej.Ribbon.Locale["ar-AE"] = {
     ShowBelowtheRibbon: "تظهر بالأسفل الشريط",
     MoreCommands: "المزيد من أوامر ...",
 };
-;
 ej.RTE.Locale["ar-AE"] = {
     bold: "جريء",
     italic: "مائل",
@@ -750,7 +728,6 @@ ej.RTE.Locale["ar-AE"] = {
     upperroman: "العلوي الرومانية",
     none: "لا شيء",
 };
-;
 ej.Schedule.Locale["ar-AE"] = {
     ReminderWindowTitle: "نافذة تذكير",
     CreateAppointmentTitle: "إنشاء تعيين",
@@ -851,7 +828,6 @@ ej.Schedule.Locale["ar-AE"] = {
     Time: "مرة",
     EmptyResultText: "لا اقتراحات",
 };
-;
 ej.Spreadsheet.Locale["ar-AE"] = {
     Cut: "قطع",
     Copy: "نسخ",
@@ -1491,7 +1467,6 @@ ej.Spreadsheet.Locale["ar-AE"] = {
     LockAlert: "الخلية التي تحاول تغيير هي على ورقة المحمية. لإجراء تغييرات، انقر فوق ورقة إلغاء حماية في علامة التبويب مراجعة.",
     InsertDeleteAlert: "لا يسمح بهذه العملية. العملية هو محاولة لتحويل الخلايا في الجدول في ورقة العمل.",
 };
-;
 ej.TreeGrid.Locale["ar-AE"] = {
     toolboxTooltipTexts: {
         addTool: "إضافة",
@@ -1526,7 +1501,6 @@ ej.TreeGrid.Locale["ar-AE"] = {
     falseText: "خاطئة",
     emptyRecord: "عدم وجود سجلات للعرض",
 };
-;
 ej.Uploadbox.Locale["ar-AE"] = {
     buttonText: {
         upload: "تحميل",

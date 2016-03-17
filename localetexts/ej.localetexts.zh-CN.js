@@ -13,16 +13,13 @@ ej.Autocomplete.Locale["zh-CN"] = {
     emptyResultText: "没有建议",
     actionFailure: "指定字段中不定的数据源存在",
 };
-;
 ej.CurrencyTextbox.Locale["zh-CN"] = {
     watermarkText: "输入值",
 };
-;
 ej.DatePicker.Locale["zh-CN"] = {
     watermarkText: "选择日期",
     buttonText: "今天",
 };
-;
 ej.DateTimePicker.Locale["zh-CN"] = {
     buttonText: {
         today: "今天",
@@ -31,7 +28,6 @@ ej.DateTimePicker.Locale["zh-CN"] = {
         timeTitle: "时间"
     },
 };
-;
 ej.datavisualization.Diagram.Locale["zh-CN"] = {
     cut: "切",
     copy: "复制",
@@ -48,7 +44,6 @@ ej.datavisualization.Diagram.Locale["zh-CN"] = {
     sendBackward: "后移",
     sendToBack: "SendToBack",
 };
-;
 ej.Dialog.Locale["zh-CN"] = {
     tooltip: {
         close: "关闭",
@@ -62,7 +57,6 @@ ej.Dialog.Locale["zh-CN"] = {
     },
     closeIconTooltip: "关闭",
 };
-;
 ej.ExcelFilter.Locale["zh-CN"] = {
     SortNoSmaller: "排序从最小到最大",
     SortNoLarger: "排序从大到小",
@@ -101,7 +95,6 @@ ej.ExcelFilter.Locale["zh-CN"] = {
     True: "真正",
     False: "假",
 };
-;
 ej.FileExplorer.Locale["zh-CN"] = {
     Back: "落后",
     Forward: "前锋",
@@ -172,7 +165,6 @@ ej.FileExplorer.Locale["zh-CN"] = {
         closeToolTip: "关闭"
     },
 };
-;
 ej.Gantt.Locale["zh-CN"] = {
     emptyRecord: "无记录可显示",
     alertTexts: {
@@ -247,7 +239,6 @@ ej.Gantt.Locale["zh-CN"] = {
         toText: "至"
     },
 };
-;
 ej.Grid.Locale["zh-CN"] = {
     EmptyRecord: "无记录可显示",
     GroupDropArea: "这里拖动列标题，组其列",
@@ -344,7 +335,6 @@ if (ej.mobile !== undefined && ej.mobile.TimePicker !== undefined) {
 ej.NumericTextbox.Locale["zh-CN"] = {
     watermarkText: "输入值",
 };
-;
 ej.olap.OlapChart.Locale["zh-CN"] = {
     Measure: "测量",
     Row: "行",
@@ -353,7 +343,6 @@ ej.olap.OlapChart.Locale["zh-CN"] = {
     Collapse: "崩溃",
     Exit: "出口",
 };
-;
 ej.olap.OlapClient.Locale["zh-CN"] = {
     DeferUpdate: "推迟更新",
     MDXQuery: "MDX查询",
@@ -416,12 +405,10 @@ ej.olap.OlapClient.Locale["zh-CN"] = {
     Polar: "极性",
     Radar: "雷达",
 };
-;
 ej.olap.OlapGauge.Locale["zh-CN"] = {
     RevenueGoal: "收入目标",
     RevenueValue: "收入值",
 };
-;
 ej.Pager.Locale["zh-CN"] = {
     pagerInfo: "{0}{1}页（{2}项）",
     firstPageTooltip: "转到第一页",
@@ -431,7 +418,6 @@ ej.Pager.Locale["zh-CN"] = {
     nextPagerTooltip: "转到下一页",
     previousPagerTooltip: "转到上一页",
 };
-;
 ej.PdfViewer.Locale["zh-CN"] = {
     toolbar: {
         print: {
@@ -478,11 +464,9 @@ ej.PdfViewer.Locale["zh-CN"] = {
         },
     },
 };
-;
 ej.PercentageTextbox.Locale["zh-CN"] = {
     watermarkText: "输入值",
 };
-;
 ej.PivotGrid.Locale["zh-CN"] = {
     ToolTipRow: "行",
     ToolTipColumn: "柱",
@@ -508,12 +492,10 @@ ej.PivotGrid.Locale["zh-CN"] = {
     Fontstyle: "字体样式",
     Bordercolor: "边框颜色",
 };
-;
 ej.PivotPager.Locale["zh-CN"] = {
     SeriesPage: "系列Page",
     CategoricalPage: "分类页",
 };
-;
 ej.PivotSchemaDesigner.Locale["zh-CN"] = {
     PivotTableFieldList: "数据透视表字段列表",
     ChooseFieldsToAddToReport: "选择字段添加到报告：",
@@ -525,7 +507,6 @@ ej.PivotSchemaDesigner.Locale["zh-CN"] = {
     DeferLayoutUpdate: "延迟布局更新",
     Update: "更新",
 };
-;
 ej.datavisualization.RangeNavigator.Locale["zh-CN"] = {
     intervals: {
         quarter: {
@@ -538,7 +519,6 @@ ej.datavisualization.RangeNavigator.Locale["zh-CN"] = {
         },
     },
 };
-;
 ej.ReportViewer.Locale["zh-CN"] = {
     toolbar: {
         print: {
@@ -618,7 +598,6 @@ ej.ReportViewer.Locale["zh-CN"] = {
     },
     viewButton: "查看报告",
 };
-;
 ej.Ribbon.Locale["zh-CN"] = {
     CustomizeQuickAccess: "自定义快速访问工具栏",
     RemovefromQuickAccessToolbar: "从快速访问工具栏删除",
@@ -627,7 +606,6 @@ ej.Ribbon.Locale["zh-CN"] = {
     ShowBelowtheRibbon: "下面显示功能区",
     MoreCommands: "更多命令...",
 };
-;
 ej.RTE.Locale["zh-CN"] = {
     bold: "胆大",
     italic: "斜体",
@@ -750,7 +728,6 @@ ej.RTE.Locale["zh-CN"] = {
     upperroman: "大写罗马",
     none: "无",
 };
-;
 ej.Schedule.Locale["zh-CN"] = {
     ReminderWindowTitle: "提醒窗口",
     CreateAppointmentTitle: "创建约会",
@@ -851,7 +828,6 @@ ej.Schedule.Locale["zh-CN"] = {
     Time: "时间",
     EmptyResultText: "没有建议",
 };
-;
 ej.Spreadsheet.Locale["zh-CN"] = {
     Cut: "切",
     Copy: "复制",
@@ -1491,7 +1467,6 @@ ej.Spreadsheet.Locale["zh-CN"] = {
     LockAlert: "你正在试图改变细胞是在受保护的表。要进行更改，请单击查看选项卡撤消工作表保护。",
     InsertDeleteAlert: "这种操作是不允许的。操作试图在表中移动单元格工作表上。",
 };
-;
 ej.TreeGrid.Locale["zh-CN"] = {
     toolboxTooltipTexts: {
         addTool: "加",
@@ -1526,7 +1501,6 @@ ej.TreeGrid.Locale["zh-CN"] = {
     falseText: "假",
     emptyRecord: "无记录可显示",
 };
-;
 ej.Uploadbox.Locale["zh-CN"] = {
     buttonText: {
         upload: "上传",

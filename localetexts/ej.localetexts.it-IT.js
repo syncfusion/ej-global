@@ -13,16 +13,13 @@ ej.Autocomplete.Locale["it-IT"] = {
     emptyResultText: "Nessun suggerimento",
     actionFailure: "Il campo specificato non esiste nel dato origine dati",
 };
-;
 ej.CurrencyTextbox.Locale["it-IT"] = {
     watermarkText: "Inserire il valore",
 };
-;
 ej.DatePicker.Locale["it-IT"] = {
     watermarkText: "Seleziona la data",
     buttonText: "Oggi",
 };
-;
 ej.DateTimePicker.Locale["it-IT"] = {
     buttonText: {
         today: "Oggi",
@@ -31,7 +28,6 @@ ej.DateTimePicker.Locale["it-IT"] = {
         timeTitle: "Tempo"
     },
 };
-;
 ej.datavisualization.Diagram.Locale["it-IT"] = {
     cut: "Tagliare",
     copy: "Copia",
@@ -48,7 +44,6 @@ ej.datavisualization.Diagram.Locale["it-IT"] = {
     sendBackward: "Manda indietro",
     sendToBack: "Mandare indietro",
 };
-;
 ej.Dialog.Locale["it-IT"] = {
     tooltip: {
         close: "Vicino",
@@ -62,7 +57,6 @@ ej.Dialog.Locale["it-IT"] = {
     },
     closeIconTooltip: "vicino",
 };
-;
 ej.ExcelFilter.Locale["it-IT"] = {
     SortNoSmaller: "Ordinare dal più piccolo al più grande",
     SortNoLarger: "Ordina grande al più piccolo",
@@ -101,7 +95,6 @@ ej.ExcelFilter.Locale["it-IT"] = {
     True: "vero",
     False: "falso",
 };
-;
 ej.FileExplorer.Locale["it-IT"] = {
     Back: "a rovescio",
     Forward: "Inoltrare",
@@ -172,7 +165,6 @@ ej.FileExplorer.Locale["it-IT"] = {
         closeToolTip: "Vicino"
     },
 };
-;
 ej.Gantt.Locale["it-IT"] = {
     emptyRecord: "nessun dato da visualizzare",
     alertTexts: {
@@ -247,7 +239,6 @@ ej.Gantt.Locale["it-IT"] = {
         toText: "A"
     },
 };
-;
 ej.Grid.Locale["it-IT"] = {
     EmptyRecord: "nessun dato da visualizzare",
     GroupDropArea: "Trascinare una colonna qui per gruppo la sua colonna",
@@ -344,7 +335,6 @@ if (ej.mobile !== undefined && ej.mobile.TimePicker !== undefined) {
 ej.NumericTextbox.Locale["it-IT"] = {
     watermarkText: "Inserire il valore",
 };
-;
 ej.olap.OlapChart.Locale["it-IT"] = {
     Measure: "Misurare",
     Row: "Riga",
@@ -353,7 +343,6 @@ ej.olap.OlapChart.Locale["it-IT"] = {
     Collapse: "Crollo",
     Exit: "Uscita",
 };
-;
 ej.olap.OlapClient.Locale["it-IT"] = {
     DeferUpdate: "Posticipa aggiornamento",
     MDXQuery: "MDX Query",
@@ -416,12 +405,10 @@ ej.olap.OlapClient.Locale["it-IT"] = {
     Polar: "polare",
     Radar: "radar",
 };
-;
 ej.olap.OlapGauge.Locale["it-IT"] = {
     RevenueGoal: "entrate Goal",
     RevenueValue: "entrate Valore",
 };
-;
 ej.Pager.Locale["it-IT"] = {
     pagerInfo: "{0} di {1} pagine ({2} articoli)",
     firstPageTooltip: "Vai alla prima pagina",
@@ -431,7 +418,6 @@ ej.Pager.Locale["it-IT"] = {
     nextPagerTooltip: "Vai alla pagina successiva",
     previousPagerTooltip: "Vai alla pagina precedente",
 };
-;
 ej.PdfViewer.Locale["it-IT"] = {
     toolbar: {
         print: {
@@ -478,11 +464,9 @@ ej.PdfViewer.Locale["it-IT"] = {
         },
     },
 };
-;
 ej.PercentageTextbox.Locale["it-IT"] = {
     watermarkText: "Inserire il valore",
 };
-;
 ej.PivotGrid.Locale["it-IT"] = {
     ToolTipRow: "Riga",
     ToolTipColumn: "Colonna",
@@ -508,12 +492,10 @@ ej.PivotGrid.Locale["it-IT"] = {
     Fontstyle: "Stile carattere",
     Bordercolor: "Colore del bordo",
 };
-;
 ej.PivotPager.Locale["it-IT"] = {
     SeriesPage: "Serie Pagina",
     CategoricalPage: "categorico Pagina",
 };
-;
 ej.PivotSchemaDesigner.Locale["it-IT"] = {
     PivotTableFieldList: "Elenco campi tabella pivot",
     ChooseFieldsToAddToReport: "Scegliere i campi da aggiungere a riferire:",
@@ -525,7 +507,6 @@ ej.PivotSchemaDesigner.Locale["it-IT"] = {
     DeferLayoutUpdate: "Posticipa layout Aggiornamento",
     Update: "Aggiornare",
 };
-;
 ej.datavisualization.RangeNavigator.Locale["it-IT"] = {
     intervals: {
         quarter: {
@@ -538,7 +519,6 @@ ej.datavisualization.RangeNavigator.Locale["it-IT"] = {
         },
     },
 };
-;
 ej.ReportViewer.Locale["it-IT"] = {
     toolbar: {
         print: {
@@ -618,7 +598,6 @@ ej.ReportViewer.Locale["it-IT"] = {
     },
     viewButton: "Visualizza rapporto",
 };
-;
 ej.Ribbon.Locale["it-IT"] = {
     CustomizeQuickAccess: "Personalizzare barra di accesso rapido",
     RemovefromQuickAccessToolbar: "Rimuovi dalla barra di accesso rapido",
@@ -627,7 +606,6 @@ ej.Ribbon.Locale["it-IT"] = {
     ShowBelowtheRibbon: "Mostra sotto la barra multifunzione",
     MoreCommands: "Altri comandi ...",
 };
-;
 ej.RTE.Locale["it-IT"] = {
     bold: "Grassetto",
     italic: "Corsivo",
@@ -750,7 +728,6 @@ ej.RTE.Locale["it-IT"] = {
     upperroman: "superiore romana",
     none: "Nessuna",
 };
-;
 ej.Schedule.Locale["it-IT"] = {
     ReminderWindowTitle: "finestra di promemoria",
     CreateAppointmentTitle: "creare un appuntamento",
@@ -851,7 +828,6 @@ ej.Schedule.Locale["it-IT"] = {
     Time: "Tempo",
     EmptyResultText: "Nessun suggerimento",
 };
-;
 ej.Spreadsheet.Locale["it-IT"] = {
     Cut: "Tagliare",
     Copy: "Copia",
@@ -1491,7 +1467,6 @@ ej.Spreadsheet.Locale["it-IT"] = {
     LockAlert: "La cella si sta tentando di cambiare è il foglio protetto. Per apportare modifiche, scegliere Rimuovi protezione foglio nella scheda Revisione.",
     InsertDeleteAlert: "Questa operazione non è consentita. L'operazione sta tentando di spostare le celle di una tabella nel foglio di lavoro.",
 };
-;
 ej.TreeGrid.Locale["it-IT"] = {
     toolboxTooltipTexts: {
         addTool: "Aggiungere",
@@ -1526,7 +1501,6 @@ ej.TreeGrid.Locale["it-IT"] = {
     falseText: "falso",
     emptyRecord: "nessun dato da visualizzare",
 };
-;
 ej.Uploadbox.Locale["it-IT"] = {
     buttonText: {
         upload: "Caricare",

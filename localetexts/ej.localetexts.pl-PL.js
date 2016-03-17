@@ -13,16 +13,13 @@ ej.Autocomplete.Locale["pl-PL"] = {
     emptyResultText: "Brak sugestii",
     actionFailure: "Podany pole nie istnieje w danym źródle danych",
 };
-;
 ej.CurrencyTextbox.Locale["pl-PL"] = {
     watermarkText: "Wprowadź wartość",
 };
-;
 ej.DatePicker.Locale["pl-PL"] = {
     watermarkText: "Wybierz datę",
     buttonText: "Dzisiaj",
 };
-;
 ej.DateTimePicker.Locale["pl-PL"] = {
     buttonText: {
         today: "Dzisiaj",
@@ -31,7 +28,6 @@ ej.DateTimePicker.Locale["pl-PL"] = {
         timeTitle: "Czas"
     },
 };
-;
 ej.datavisualization.Diagram.Locale["pl-PL"] = {
     cut: "Ciąć",
     copy: "Kopiuj",
@@ -48,7 +44,6 @@ ej.datavisualization.Diagram.Locale["pl-PL"] = {
     sendBackward: "Wyślij do tyłu",
     sendToBack: "SendToBack",
 };
-;
 ej.Dialog.Locale["pl-PL"] = {
     tooltip: {
         close: "Blisko",
@@ -62,7 +57,6 @@ ej.Dialog.Locale["pl-PL"] = {
     },
     closeIconTooltip: "blisko",
 };
-;
 ej.ExcelFilter.Locale["pl-PL"] = {
     SortNoSmaller: "Sortuj najmniejszego do największego",
     SortNoLarger: "Sortuj największego do najmniejszego",
@@ -101,7 +95,6 @@ ej.ExcelFilter.Locale["pl-PL"] = {
     True: "prawdziwe",
     False: "fałszywy",
 };
-;
 ej.FileExplorer.Locale["pl-PL"] = {
     Back: "Do tyłu",
     Forward: "Naprzód",
@@ -172,7 +165,6 @@ ej.FileExplorer.Locale["pl-PL"] = {
         closeToolTip: "Blisko"
     },
 };
-;
 ej.Gantt.Locale["pl-PL"] = {
     emptyRecord: "brak nagrań do odtworzenia",
     alertTexts: {
@@ -247,7 +239,6 @@ ej.Gantt.Locale["pl-PL"] = {
         toText: "Do"
     },
 };
-;
 ej.Grid.Locale["pl-PL"] = {
     EmptyRecord: "brak nagrań do odtworzenia",
     GroupDropArea: "Przeciągnij nagłówek kolumny, żeby grupy to kolumna",
@@ -344,7 +335,6 @@ if (ej.mobile !== undefined && ej.mobile.TimePicker !== undefined) {
 ej.NumericTextbox.Locale["pl-PL"] = {
     watermarkText: "Wprowadź wartość",
 };
-;
 ej.olap.OlapChart.Locale["pl-PL"] = {
     Measure: "Zmierzyć",
     Row: "Rząd",
@@ -353,7 +343,6 @@ ej.olap.OlapChart.Locale["pl-PL"] = {
     Collapse: "Zawalić się",
     Exit: "Wyjście",
 };
-;
 ej.olap.OlapClient.Locale["pl-PL"] = {
     DeferUpdate: "Wstrzymaj Aktualizacja",
     MDXQuery: "MDX Query",
@@ -416,12 +405,10 @@ ej.olap.OlapClient.Locale["pl-PL"] = {
     Polar: "polarny",
     Radar: "radar",
 };
-;
 ej.olap.OlapGauge.Locale["pl-PL"] = {
     RevenueGoal: "przychody Goal",
     RevenueValue: "przychody Wartość",
 };
-;
 ej.Pager.Locale["pl-PL"] = {
     pagerInfo: "{0} z {1} Strony ({2} pozycji)",
     firstPageTooltip: "Idź do pierwszej strony",
@@ -431,7 +418,6 @@ ej.Pager.Locale["pl-PL"] = {
     nextPagerTooltip: "Przejdź do następnej strony",
     previousPagerTooltip: "Przejdź do poprzedniej strony",
 };
-;
 ej.PdfViewer.Locale["pl-PL"] = {
     toolbar: {
         print: {
@@ -478,11 +464,9 @@ ej.PdfViewer.Locale["pl-PL"] = {
         },
     },
 };
-;
 ej.PercentageTextbox.Locale["pl-PL"] = {
     watermarkText: "Wprowadź wartość",
 };
-;
 ej.PivotGrid.Locale["pl-PL"] = {
     ToolTipRow: "Rząd",
     ToolTipColumn: "Kolumna",
@@ -508,12 +492,10 @@ ej.PivotGrid.Locale["pl-PL"] = {
     Fontstyle: "Styl czcionki",
     Bordercolor: "Kolor ramki",
 };
-;
 ej.PivotPager.Locale["pl-PL"] = {
     SeriesPage: "Seria Page",
     CategoricalPage: "Strona kategoryczne",
 };
-;
 ej.PivotSchemaDesigner.Locale["pl-PL"] = {
     PivotTableFieldList: "Lista pól tabeli przestawnej",
     ChooseFieldsToAddToReport: "Wybierz pola, aby dodać zgłosić:",
@@ -525,7 +507,6 @@ ej.PivotSchemaDesigner.Locale["pl-PL"] = {
     DeferLayoutUpdate: "Wstrzymaj Układ Aktualizacja",
     Update: "Aktualizacja",
 };
-;
 ej.datavisualization.RangeNavigator.Locale["pl-PL"] = {
     intervals: {
         quarter: {
@@ -538,7 +519,6 @@ ej.datavisualization.RangeNavigator.Locale["pl-PL"] = {
         },
     },
 };
-;
 ej.ReportViewer.Locale["pl-PL"] = {
     toolbar: {
         print: {
@@ -618,7 +598,6 @@ ej.ReportViewer.Locale["pl-PL"] = {
     },
     viewButton: "Zobacz raport",
 };
-;
 ej.Ribbon.Locale["pl-PL"] = {
     CustomizeQuickAccess: "Dostosuj pasek narzędzi Szybki dostęp",
     RemovefromQuickAccessToolbar: "Usuń z paska narzędzi Szybki dostęp",
@@ -627,7 +606,6 @@ ej.Ribbon.Locale["pl-PL"] = {
     ShowBelowtheRibbon: "Pokaż pod wstążką",
     MoreCommands: "Więcej poleceń ...",
 };
-;
 ej.RTE.Locale["pl-PL"] = {
     bold: "Pogrubienie",
     italic: "italski",
@@ -750,7 +728,6 @@ ej.RTE.Locale["pl-PL"] = {
     upperroman: "Górna Roman",
     none: "Żaden",
 };
-;
 ej.Schedule.Locale["pl-PL"] = {
     ReminderWindowTitle: "okno Przypomnienie",
     CreateAppointmentTitle: "Tworzenie Powołanie",
@@ -851,7 +828,6 @@ ej.Schedule.Locale["pl-PL"] = {
     Time: "Czas",
     EmptyResultText: "Brak sugestii",
 };
-;
 ej.Spreadsheet.Locale["pl-PL"] = {
     Cut: "Ciąć",
     Copy: "Kopiuj",
@@ -1491,7 +1467,6 @@ ej.Spreadsheet.Locale["pl-PL"] = {
     LockAlert: "Komórkę starasz się zmienić to na arkuszu chronionym. Aby dokonać zmiany, kliknij przycisk Nie chroń arkusza w zakładce Review.",
     InsertDeleteAlert: "Ta operacja jest niedozwolona. Operacja próbuje przenieść komórki w tabeli na arkuszu.",
 };
-;
 ej.TreeGrid.Locale["pl-PL"] = {
     toolboxTooltipTexts: {
         addTool: "Dodaj",
@@ -1526,7 +1501,6 @@ ej.TreeGrid.Locale["pl-PL"] = {
     falseText: "Fałszywy",
     emptyRecord: "brak nagrań do odtworzenia",
 };
-;
 ej.Uploadbox.Locale["pl-PL"] = {
     buttonText: {
         upload: "Przekazać plik",

@@ -13,16 +13,13 @@ ej.Autocomplete.Locale["da-DK"] = {
     emptyResultText: "Ingen forslag",
     actionFailure: "Den angivne felt findes ikke i givet datakilde",
 };
-;
 ej.CurrencyTextbox.Locale["da-DK"] = {
     watermarkText: "Indtast værdi",
 };
-;
 ej.DatePicker.Locale["da-DK"] = {
     watermarkText: "Vælg dato",
     buttonText: "I dag",
 };
-;
 ej.DateTimePicker.Locale["da-DK"] = {
     buttonText: {
         today: "I dag",
@@ -31,7 +28,6 @@ ej.DateTimePicker.Locale["da-DK"] = {
         timeTitle: "Tid"
     },
 };
-;
 ej.datavisualization.Diagram.Locale["da-DK"] = {
     cut: "Skære",
     copy: "Kopi",
@@ -48,7 +44,6 @@ ej.datavisualization.Diagram.Locale["da-DK"] = {
     sendBackward: "Flyt bagud",
     sendToBack: "SendToBack",
 };
-;
 ej.Dialog.Locale["da-DK"] = {
     tooltip: {
         close: "Tæt",
@@ -62,7 +57,6 @@ ej.Dialog.Locale["da-DK"] = {
     },
     closeIconTooltip: "tæt",
 };
-;
 ej.ExcelFilter.Locale["da-DK"] = {
     SortNoSmaller: "Sorter Mindste til Største",
     SortNoLarger: "Sorter største til mindste",
@@ -101,7 +95,6 @@ ej.ExcelFilter.Locale["da-DK"] = {
     True: "rigtigt",
     False: "falsk",
 };
-;
 ej.FileExplorer.Locale["da-DK"] = {
     Back: "bagud",
     Forward: "Forward",
@@ -172,7 +165,6 @@ ej.FileExplorer.Locale["da-DK"] = {
         closeToolTip: "Tæt"
     },
 };
-;
 ej.Gantt.Locale["da-DK"] = {
     emptyRecord: "Ingen poster at vise",
     alertTexts: {
@@ -247,7 +239,6 @@ ej.Gantt.Locale["da-DK"] = {
         toText: "Til"
     },
 };
-;
 ej.Grid.Locale["da-DK"] = {
     EmptyRecord: "Ingen poster at vise",
     GroupDropArea: "Træk en kolonneoverskrift her gruppe er det kolonne",
@@ -344,7 +335,6 @@ if (ej.mobile !== undefined && ej.mobile.TimePicker !== undefined) {
 ej.NumericTextbox.Locale["da-DK"] = {
     watermarkText: "Indtast værdi",
 };
-;
 ej.olap.OlapChart.Locale["da-DK"] = {
     Measure: "Måle",
     Row: "Række",
@@ -353,7 +343,6 @@ ej.olap.OlapChart.Locale["da-DK"] = {
     Collapse: "Bryder sammen",
     Exit: "Udgang",
 };
-;
 ej.olap.OlapClient.Locale["da-DK"] = {
     DeferUpdate: "Udskyd opdatering",
     MDXQuery: "MDX Query",
@@ -416,12 +405,10 @@ ej.olap.OlapClient.Locale["da-DK"] = {
     Polar: "polar",
     Radar: "radar",
 };
-;
 ej.olap.OlapGauge.Locale["da-DK"] = {
     RevenueGoal: "Omsætning Goal",
     RevenueValue: "Omsætning Værdi",
 };
-;
 ej.Pager.Locale["da-DK"] = {
     pagerInfo: "{0} af {1} sider ({2} elementer)",
     firstPageTooltip: "Gå til første side",
@@ -431,7 +418,6 @@ ej.Pager.Locale["da-DK"] = {
     nextPagerTooltip: "Gå til næste side",
     previousPagerTooltip: "Gå til forrige side",
 };
-;
 ej.PdfViewer.Locale["da-DK"] = {
     toolbar: {
         print: {
@@ -478,11 +464,9 @@ ej.PdfViewer.Locale["da-DK"] = {
         },
     },
 };
-;
 ej.PercentageTextbox.Locale["da-DK"] = {
     watermarkText: "Indtast værdi",
 };
-;
 ej.PivotGrid.Locale["da-DK"] = {
     ToolTipRow: "Række",
     ToolTipColumn: "Kolonne",
@@ -508,12 +492,10 @@ ej.PivotGrid.Locale["da-DK"] = {
     Fontstyle: "Font Style",
     Bordercolor: "Border Color",
 };
-;
 ej.PivotPager.Locale["da-DK"] = {
     SeriesPage: "Series Side",
     CategoricalPage: "kategorisk side",
 };
-;
 ej.PivotSchemaDesigner.Locale["da-DK"] = {
     PivotTableFieldList: "Pivottabel Listefelt",
     ChooseFieldsToAddToReport: "Vælg felter at tilføje at rapportere:",
@@ -525,7 +507,6 @@ ej.PivotSchemaDesigner.Locale["da-DK"] = {
     DeferLayoutUpdate: "Udskyd Layout opdatering",
     Update: "Opdatering",
 };
-;
 ej.datavisualization.RangeNavigator.Locale["da-DK"] = {
     intervals: {
         quarter: {
@@ -538,7 +519,6 @@ ej.datavisualization.RangeNavigator.Locale["da-DK"] = {
         },
     },
 };
-;
 ej.ReportViewer.Locale["da-DK"] = {
     toolbar: {
         print: {
@@ -618,7 +598,6 @@ ej.ReportViewer.Locale["da-DK"] = {
     },
     viewButton: "View Report",
 };
-;
 ej.Ribbon.Locale["da-DK"] = {
     CustomizeQuickAccess: "Tilpas værktøjslinjen Hurtig adgang",
     RemovefromQuickAccessToolbar: "Fjern fra værktøjslinjen Hurtig adgang",
@@ -627,7 +606,6 @@ ej.Ribbon.Locale["da-DK"] = {
     ShowBelowtheRibbon: "Vis Under Ribbon",
     MoreCommands: "Flere kommandoer ...",
 };
-;
 ej.RTE.Locale["da-DK"] = {
     bold: "Dristig",
     italic: "Kursiv",
@@ -750,7 +728,6 @@ ej.RTE.Locale["da-DK"] = {
     upperroman: "Upper Roman",
     none: "Ingen",
 };
-;
 ej.Schedule.Locale["da-DK"] = {
     ReminderWindowTitle: "Påmindelse vindue",
     CreateAppointmentTitle: "Opret Udnævnelse",
@@ -851,7 +828,6 @@ ej.Schedule.Locale["da-DK"] = {
     Time: "Tid",
     EmptyResultText: "Ingen forslag",
 };
-;
 ej.Spreadsheet.Locale["da-DK"] = {
     Cut: "Skære",
     Copy: "Kopi",
@@ -1491,7 +1467,6 @@ ej.Spreadsheet.Locale["da-DK"] = {
     LockAlert: "Cellen, du forsøger at ændre er på beskyttet ark. Hvis du vil foretage ændringer, skal du klikke på Fjern arkbeskyttelse under fanen anmeldelse.",
     InsertDeleteAlert: "Denne handling er ikke tilladt. Operationen forsøger at flytte celler i en tabel på regnearket.",
 };
-;
 ej.TreeGrid.Locale["da-DK"] = {
     toolboxTooltipTexts: {
         addTool: "Tilføje",
@@ -1526,7 +1501,6 @@ ej.TreeGrid.Locale["da-DK"] = {
     falseText: "falsk",
     emptyRecord: "Ingen poster at vise",
 };
-;
 ej.Uploadbox.Locale["da-DK"] = {
     buttonText: {
         upload: "Upload",

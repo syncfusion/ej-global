@@ -13,16 +13,13 @@ ej.Autocomplete.Locale["hu-HU"] = {
     emptyResultText: "nincs javaslat",
     actionFailure: "A megadott mező nem létezik adott adatforrás",
 };
-;
 ej.CurrencyTextbox.Locale["hu-HU"] = {
     watermarkText: "Írja érték",
 };
-;
 ej.DatePicker.Locale["hu-HU"] = {
     watermarkText: "Válassza ki a dátumot",
     buttonText: "Ma",
 };
-;
 ej.DateTimePicker.Locale["hu-HU"] = {
     buttonText: {
         today: "Ma",
@@ -31,7 +28,6 @@ ej.DateTimePicker.Locale["hu-HU"] = {
         timeTitle: "Idő"
     },
 };
-;
 ej.datavisualization.Diagram.Locale["hu-HU"] = {
     cut: "Vágott",
     copy: "Másolat",
@@ -48,7 +44,6 @@ ej.datavisualization.Diagram.Locale["hu-HU"] = {
     sendBackward: "Hátrébb küldés",
     sendToBack: "Visszaküldeni",
 };
-;
 ej.Dialog.Locale["hu-HU"] = {
     tooltip: {
         close: "Közeli",
@@ -62,7 +57,6 @@ ej.Dialog.Locale["hu-HU"] = {
     },
     closeIconTooltip: "közeli",
 };
-;
 ej.ExcelFilter.Locale["hu-HU"] = {
     SortNoSmaller: "Rendezés a legkisebbtől a legnagyobb",
     SortNoLarger: "Rendezés legnagyobb a legkisebb",
@@ -101,7 +95,6 @@ ej.ExcelFilter.Locale["hu-HU"] = {
     True: "igaz",
     False: "hamis",
 };
-;
 ej.FileExplorer.Locale["hu-HU"] = {
     Back: "Hátrafelé",
     Forward: "Előre",
@@ -172,7 +165,6 @@ ej.FileExplorer.Locale["hu-HU"] = {
         closeToolTip: "Közeli"
     },
 };
-;
 ej.Gantt.Locale["hu-HU"] = {
     emptyRecord: "Nincs bejegyzés megjelenítéséhez",
     alertTexts: {
@@ -247,7 +239,6 @@ ej.Gantt.Locale["hu-HU"] = {
         toText: "Nak nek"
     },
 };
-;
 ej.Grid.Locale["hu-HU"] = {
     EmptyRecord: "Nincs bejegyzés megjelenítéséhez",
     GroupDropArea: "Húzza oszlopfejlécsornak ide csoport ez oszlop",
@@ -344,7 +335,6 @@ if (ej.mobile !== undefined && ej.mobile.TimePicker !== undefined) {
 ej.NumericTextbox.Locale["hu-HU"] = {
     watermarkText: "Írja érték",
 };
-;
 ej.olap.OlapChart.Locale["hu-HU"] = {
     Measure: "Intézkedés",
     Row: "Sor",
@@ -353,7 +343,6 @@ ej.olap.OlapChart.Locale["hu-HU"] = {
     Collapse: "Összeomlás",
     Exit: "Kijárat",
 };
-;
 ej.olap.OlapClient.Locale["hu-HU"] = {
     DeferUpdate: "elhalasztása frissítése",
     MDXQuery: "MDX Query",
@@ -416,12 +405,10 @@ ej.olap.OlapClient.Locale["hu-HU"] = {
     Polar: "poláris",
     Radar: "radar",
 };
-;
 ej.olap.OlapGauge.Locale["hu-HU"] = {
     RevenueGoal: "bevétel cél",
     RevenueValue: "bevétel értéke",
 };
-;
 ej.Pager.Locale["hu-HU"] = {
     pagerInfo: "{0} {1} lapok ({2} elem)",
     firstPageTooltip: "Ugrás az első oldalra",
@@ -431,7 +418,6 @@ ej.Pager.Locale["hu-HU"] = {
     nextPagerTooltip: "Ugrás a következő oldalra",
     previousPagerTooltip: "Ugrás az előző oldalra",
 };
-;
 ej.PdfViewer.Locale["hu-HU"] = {
     toolbar: {
         print: {
@@ -478,11 +464,9 @@ ej.PdfViewer.Locale["hu-HU"] = {
         },
     },
 };
-;
 ej.PercentageTextbox.Locale["hu-HU"] = {
     watermarkText: "Írja érték",
 };
-;
 ej.PivotGrid.Locale["hu-HU"] = {
     ToolTipRow: "Sor",
     ToolTipColumn: "Oszlop",
@@ -508,12 +492,10 @@ ej.PivotGrid.Locale["hu-HU"] = {
     Fontstyle: "Betű stílus",
     Bordercolor: "Keret szín",
 };
-;
 ej.PivotPager.Locale["hu-HU"] = {
     SeriesPage: "Sorozat Page",
     CategoricalPage: "kategorikus oldal",
 };
-;
 ej.PivotSchemaDesigner.Locale["hu-HU"] = {
     PivotTableFieldList: "Kimutatás Field List",
     ChooseFieldsToAddToReport: "Válasszon mezőket további jelenteni:",
@@ -525,7 +507,6 @@ ej.PivotSchemaDesigner.Locale["hu-HU"] = {
     DeferLayoutUpdate: "Elhalasztása elrendezés frissítése",
     Update: "frissítés",
 };
-;
 ej.datavisualization.RangeNavigator.Locale["hu-HU"] = {
     intervals: {
         quarter: {
@@ -538,7 +519,6 @@ ej.datavisualization.RangeNavigator.Locale["hu-HU"] = {
         },
     },
 };
-;
 ej.ReportViewer.Locale["hu-HU"] = {
     toolbar: {
         print: {
@@ -618,7 +598,6 @@ ej.ReportViewer.Locale["hu-HU"] = {
     },
     viewButton: "jelentés megtekintése",
 };
-;
 ej.Ribbon.Locale["hu-HU"] = {
     CustomizeQuickAccess: "Testreszabása gyorselérésieszköztár",
     RemovefromQuickAccessToolbar: "Vegyük le a gyorselérésieszköztár",
@@ -627,7 +606,6 @@ ej.Ribbon.Locale["hu-HU"] = {
     ShowBelowtheRibbon: "Mutasd a szalag alatt",
     MoreCommands: "További parancsok ...",
 };
-;
 ej.RTE.Locale["hu-HU"] = {
     bold: "Bátor",
     italic: "kurzív",
@@ -750,7 +728,6 @@ ej.RTE.Locale["hu-HU"] = {
     upperroman: "felső Roman",
     none: "Egyik sem",
 };
-;
 ej.Schedule.Locale["hu-HU"] = {
     ReminderWindowTitle: "emlékeztető ablak",
     CreateAppointmentTitle: "Készítsen kijelölése",
@@ -851,7 +828,6 @@ ej.Schedule.Locale["hu-HU"] = {
     Time: "Idő",
     EmptyResultText: "nincs javaslat",
 };
-;
 ej.Spreadsheet.Locale["hu-HU"] = {
     Cut: "Vágott",
     Copy: "Másolat",
@@ -1491,7 +1467,6 @@ ej.Spreadsheet.Locale["hu-HU"] = {
     LockAlert: "A kívánt cellát kell változtatni a védett munkalapon. Ahhoz, hogy a módosításokat, kattintson a Védelem lap a felülvizsgálati lapot.",
     InsertDeleteAlert: "Ez a művelet nem engedélyezett. A műveletet próbál váltani sejtek egy tábla a munkalapon.",
 };
-;
 ej.TreeGrid.Locale["hu-HU"] = {
     toolboxTooltipTexts: {
         addTool: "hozzáad",
@@ -1526,7 +1501,6 @@ ej.TreeGrid.Locale["hu-HU"] = {
     falseText: "Hamis",
     emptyRecord: "Nincs bejegyzés megjelenítéséhez",
 };
-;
 ej.Uploadbox.Locale["hu-HU"] = {
     buttonText: {
         upload: "Feltöltés",

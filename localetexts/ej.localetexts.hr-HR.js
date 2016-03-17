@@ -13,16 +13,13 @@ ej.Autocomplete.Locale["hr-HR"] = {
     emptyResultText: "Nema prijedloga",
     actionFailure: "Navedena polje ne postoji u određenom izvoru podataka",
 };
-;
 ej.CurrencyTextbox.Locale["hr-HR"] = {
     watermarkText: "Unesite vrijednost",
 };
-;
 ej.DatePicker.Locale["hr-HR"] = {
     watermarkText: "Odaberite datum",
     buttonText: "Danas",
 };
-;
 ej.DateTimePicker.Locale["hr-HR"] = {
     buttonText: {
         today: "Danas",
@@ -31,7 +28,6 @@ ej.DateTimePicker.Locale["hr-HR"] = {
         timeTitle: "Vrijeme"
     },
 };
-;
 ej.datavisualization.Diagram.Locale["hr-HR"] = {
     cut: "Rez",
     copy: "Kopirati",
@@ -48,7 +44,6 @@ ej.datavisualization.Diagram.Locale["hr-HR"] = {
     sendBackward: "Pošalji unazad",
     sendToBack: "SendToBack",
 };
-;
 ej.Dialog.Locale["hr-HR"] = {
     tooltip: {
         close: "Zatvoriti",
@@ -62,7 +57,6 @@ ej.Dialog.Locale["hr-HR"] = {
     },
     closeIconTooltip: "zatvoriti",
 };
-;
 ej.ExcelFilter.Locale["hr-HR"] = {
     SortNoSmaller: "Sortiraj najmanjeg do najvišeg",
     SortNoLarger: "Sortiraj najvećeg do najmanjeg",
@@ -101,7 +95,6 @@ ej.ExcelFilter.Locale["hr-HR"] = {
     True: "pravi",
     False: "lažan",
 };
-;
 ej.FileExplorer.Locale["hr-HR"] = {
     Back: "Unazad",
     Forward: "Naprijed",
@@ -172,7 +165,6 @@ ej.FileExplorer.Locale["hr-HR"] = {
         closeToolTip: "Zatvoriti"
     },
 };
-;
 ej.Gantt.Locale["hr-HR"] = {
     emptyRecord: "Nema zapisa za prikaz",
     alertTexts: {
@@ -247,7 +239,6 @@ ej.Gantt.Locale["hr-HR"] = {
         toText: "Do"
     },
 };
-;
 ej.Grid.Locale["hr-HR"] = {
     EmptyRecord: "Nema zapisa za prikaz",
     GroupDropArea: "Povucite zaglavlje stupca ovdje za grupu je kolona",
@@ -344,7 +335,6 @@ if (ej.mobile !== undefined && ej.mobile.TimePicker !== undefined) {
 ej.NumericTextbox.Locale["hr-HR"] = {
     watermarkText: "Unesite vrijednost",
 };
-;
 ej.olap.OlapChart.Locale["hr-HR"] = {
     Measure: "Mjera",
     Row: "Red",
@@ -353,7 +343,6 @@ ej.olap.OlapChart.Locale["hr-HR"] = {
     Collapse: "Kolaps",
     Exit: "Izlaz",
 };
-;
 ej.olap.OlapClient.Locale["hr-HR"] = {
     DeferUpdate: "Odgodi Update",
     MDXQuery: "MDX upita",
@@ -416,12 +405,10 @@ ej.olap.OlapClient.Locale["hr-HR"] = {
     Polar: "polarni",
     Radar: "radar",
 };
-;
 ej.olap.OlapGauge.Locale["hr-HR"] = {
     RevenueGoal: "Cilj prihoda",
     RevenueValue: "Vrijednost prihoda",
 };
-;
 ej.Pager.Locale["hr-HR"] = {
     pagerInfo: "{0} od {1} stranica ({2} stavke)",
     firstPageTooltip: "Idi na prvu stranicu",
@@ -431,7 +418,6 @@ ej.Pager.Locale["hr-HR"] = {
     nextPagerTooltip: "Idi na sljedeću stranicu",
     previousPagerTooltip: "Idi na prethodnu stranicu",
 };
-;
 ej.PdfViewer.Locale["hr-HR"] = {
     toolbar: {
         print: {
@@ -478,11 +464,9 @@ ej.PdfViewer.Locale["hr-HR"] = {
         },
     },
 };
-;
 ej.PercentageTextbox.Locale["hr-HR"] = {
     watermarkText: "Unesite vrijednost",
 };
-;
 ej.PivotGrid.Locale["hr-HR"] = {
     ToolTipRow: "Red",
     ToolTipColumn: "Kolona",
@@ -508,12 +492,10 @@ ej.PivotGrid.Locale["hr-HR"] = {
     Fontstyle: "Font Style",
     Bordercolor: "Boja obruba",
 };
-;
 ej.PivotPager.Locale["hr-HR"] = {
     SeriesPage: "Serija stranice",
     CategoricalPage: "kategoričan stranice",
 };
-;
 ej.PivotSchemaDesigner.Locale["hr-HR"] = {
     PivotTableFieldList: "Zaokretne tablice Popis Polje",
     ChooseFieldsToAddToReport: "Odaberite polja za dodavanje prijaviti:",
@@ -525,7 +507,6 @@ ej.PivotSchemaDesigner.Locale["hr-HR"] = {
     DeferLayoutUpdate: "Odgodi Izgled Update",
     Update: "Ažuriraj",
 };
-;
 ej.datavisualization.RangeNavigator.Locale["hr-HR"] = {
     intervals: {
         quarter: {
@@ -538,7 +519,6 @@ ej.datavisualization.RangeNavigator.Locale["hr-HR"] = {
         },
     },
 };
-;
 ej.ReportViewer.Locale["hr-HR"] = {
     toolbar: {
         print: {
@@ -618,7 +598,6 @@ ej.ReportViewer.Locale["hr-HR"] = {
     },
     viewButton: "Vidi izvještaj",
 };
-;
 ej.Ribbon.Locale["hr-HR"] = {
     CustomizeQuickAccess: "Prilagodba alatne trake za brzi pristup",
     RemovefromQuickAccessToolbar: "Ukloni iz alatne trake za brzi pristup",
@@ -627,7 +606,6 @@ ej.Ribbon.Locale["hr-HR"] = {
     ShowBelowtheRibbon: "Prikaži Ispod vrpci",
     MoreCommands: "Više Naredbe ...",
 };
-;
 ej.RTE.Locale["hr-HR"] = {
     bold: "odvažan",
     italic: "kurzivan",
@@ -750,7 +728,6 @@ ej.RTE.Locale["hr-HR"] = {
     upperroman: "gornja Roman",
     none: "nijedan",
 };
-;
 ej.Schedule.Locale["hr-HR"] = {
     ReminderWindowTitle: "prozor Podsjetnik",
     CreateAppointmentTitle: "Napravite sastanak",
@@ -851,7 +828,6 @@ ej.Schedule.Locale["hr-HR"] = {
     Time: "Vrijeme",
     EmptyResultText: "Nema prijedloga",
 };
-;
 ej.Spreadsheet.Locale["hr-HR"] = {
     Cut: "Rez",
     Copy: "Kopirati",
@@ -1491,7 +1467,6 @@ ej.Spreadsheet.Locale["hr-HR"] = {
     LockAlert: "Ćelija koju pokušavate promijeniti na zaštićenom papiru. Da bi promjene, kliknite Ukloni zaštitu list na kartici Review.",
     InsertDeleteAlert: "Ova operacija nije dopuštena. Operacija pokušava prebaciti stanice u tablici na radnom listu.",
 };
-;
 ej.TreeGrid.Locale["hr-HR"] = {
     toolboxTooltipTexts: {
         addTool: "Dodati",
@@ -1526,7 +1501,6 @@ ej.TreeGrid.Locale["hr-HR"] = {
     falseText: "lažan",
     emptyRecord: "Nema zapisa za prikaz",
 };
-;
 ej.Uploadbox.Locale["hr-HR"] = {
     buttonText: {
         upload: "Postavi",

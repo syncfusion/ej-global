@@ -13,16 +13,13 @@ ej.Autocomplete.Locale["he-IL"] = {
     emptyResultText: "אין הצעות",
     actionFailure: "השדה שצוין אינו קיים במקור נתונים נתונים",
 };
-;
 ej.CurrencyTextbox.Locale["he-IL"] = {
     watermarkText: "זן ערך",
 };
-;
 ej.DatePicker.Locale["he-IL"] = {
     watermarkText: "תאריך בחר",
     buttonText: "היום",
 };
-;
 ej.DateTimePicker.Locale["he-IL"] = {
     buttonText: {
         today: "היום",
@@ -31,7 +28,6 @@ ej.DateTimePicker.Locale["he-IL"] = {
         timeTitle: "זְמַן"
     },
 };
-;
 ej.datavisualization.Diagram.Locale["he-IL"] = {
     cut: "גְזִירָה",
     copy: "עותק",
@@ -48,7 +44,6 @@ ej.datavisualization.Diagram.Locale["he-IL"] = {
     sendBackward: "העבר לאחור",
     sendToBack: "שלח אחורה",
 };
-;
 ej.Dialog.Locale["he-IL"] = {
     tooltip: {
         close: "לִסְגוֹר",
@@ -62,7 +57,6 @@ ej.Dialog.Locale["he-IL"] = {
     },
     closeIconTooltip: "לִסְגוֹר",
 };
-;
 ej.ExcelFilter.Locale["he-IL"] = {
     SortNoSmaller: "מיין מהנמוך לגבוה",
     SortNoLarger: "מיין גדול לקטן",
@@ -101,7 +95,6 @@ ej.ExcelFilter.Locale["he-IL"] = {
     True: "נָכוֹן",
     False: "שֶׁקֶר",
 };
-;
 ej.FileExplorer.Locale["he-IL"] = {
     Back: "לְאָחוֹר",
     Forward: "קָדִימָה",
@@ -172,7 +165,6 @@ ej.FileExplorer.Locale["he-IL"] = {
         closeToolTip: "לִסְגוֹר"
     },
 };
-;
 ej.Gantt.Locale["he-IL"] = {
     emptyRecord: "אין רשומות לתצוגה",
     alertTexts: {
@@ -247,7 +239,6 @@ ej.Gantt.Locale["he-IL"] = {
         toText: "ל"
     },
 };
-;
 ej.Grid.Locale["he-IL"] = {
     EmptyRecord: "אין רשומות לתצוגה",
     GroupDropArea: "גרור כותרת עמודה כאן לקבוצה שזה טור",
@@ -344,7 +335,6 @@ if (ej.mobile !== undefined && ej.mobile.TimePicker !== undefined) {
 ej.NumericTextbox.Locale["he-IL"] = {
     watermarkText: "זן ערך",
 };
-;
 ej.olap.OlapChart.Locale["he-IL"] = {
     Measure: "לִמְדוֹד",
     Row: "שׁוּרָה",
@@ -353,7 +343,6 @@ ej.olap.OlapChart.Locale["he-IL"] = {
     Collapse: "הִתמוֹטְטוּת",
     Exit: "יְצִיאָה",
 };
-;
 ej.olap.OlapClient.Locale["he-IL"] = {
     DeferUpdate: "עיכוב עדכון",
     MDXQuery: "שאילתת MDX",
@@ -416,12 +405,10 @@ ej.olap.OlapClient.Locale["he-IL"] = {
     Polar: "קוֹטבִי",
     Radar: 'מכ"ם',
 };
-;
 ej.olap.OlapGauge.Locale["he-IL"] = {
     RevenueGoal: "יעד הכנסה",
     RevenueValue: "ערך הכנסה",
 };
-;
 ej.Pager.Locale["he-IL"] = {
     pagerInfo: "{0} מתוך {1} דפים ({2} פריטים)",
     firstPageTooltip: "עבור לדף הראשון",
@@ -431,7 +418,6 @@ ej.Pager.Locale["he-IL"] = {
     nextPagerTooltip: "עבור לדף הבא",
     previousPagerTooltip: "עבור לעמוד הקודם",
 };
-;
 ej.PdfViewer.Locale["he-IL"] = {
     toolbar: {
         print: {
@@ -478,11 +464,9 @@ ej.PdfViewer.Locale["he-IL"] = {
         },
     },
 };
-;
 ej.PercentageTextbox.Locale["he-IL"] = {
     watermarkText: "זן ערך",
 };
-;
 ej.PivotGrid.Locale["he-IL"] = {
     ToolTipRow: "שׁוּרָה",
     ToolTipColumn: "טור",
@@ -508,12 +492,10 @@ ej.PivotGrid.Locale["he-IL"] = {
     Fontstyle: "סיגנון גופן",
     Bordercolor: "צבע גבול",
 };
-;
 ej.PivotPager.Locale["he-IL"] = {
     SeriesPage: "עמוד סדרה",
     CategoricalPage: "עמוד הקטגורי",
 };
-;
 ej.PivotSchemaDesigner.Locale["he-IL"] = {
     PivotTableFieldList: "רשימת שדות PivotTable",
     ChooseFieldsToAddToReport: "בחר שדות לצורך הוספת לדווח:",
@@ -525,7 +507,6 @@ ej.PivotSchemaDesigner.Locale["he-IL"] = {
     DeferLayoutUpdate: "עיכוב פריסת Update",
     Update: "עדכון",
 };
-;
 ej.datavisualization.RangeNavigator.Locale["he-IL"] = {
     intervals: {
         quarter: {
@@ -538,7 +519,6 @@ ej.datavisualization.RangeNavigator.Locale["he-IL"] = {
         },
     },
 };
-;
 ej.ReportViewer.Locale["he-IL"] = {
     toolbar: {
         print: {
@@ -618,7 +598,6 @@ ej.ReportViewer.Locale["he-IL"] = {
     },
     viewButton: "צפה בדוח",
 };
-;
 ej.Ribbon.Locale["he-IL"] = {
     CustomizeQuickAccess: "התאמה אישית של סרגל הכלים לגישה מהירה",
     RemovefromQuickAccessToolbar: "הסר סרגל הכלים לגישה מהירה",
@@ -627,7 +606,6 @@ ej.Ribbon.Locale["he-IL"] = {
     ShowBelowtheRibbon: "הצג מתחת רצועת הכלים",
     MoreCommands: "פקוד יותר ...",
 };
-;
 ej.RTE.Locale["he-IL"] = {
     bold: "נוֹעָז",
     italic: "נטוי",
@@ -750,7 +728,6 @@ ej.RTE.Locale["he-IL"] = {
     upperroman: "העליון רומי",
     none: "אף לא אחד",
 };
-;
 ej.Schedule.Locale["he-IL"] = {
     ReminderWindowTitle: "חלון תזכורת",
     CreateAppointmentTitle: "צור מינוי",
@@ -851,7 +828,6 @@ ej.Schedule.Locale["he-IL"] = {
     Time: "זְמַן",
     EmptyResultText: "אין הצעות",
 };
-;
 ej.Spreadsheet.Locale["he-IL"] = {
     Cut: "גְזִירָה",
     Copy: "עותק",
@@ -1491,7 +1467,6 @@ ej.Spreadsheet.Locale["he-IL"] = {
     LockAlert: "התא אתה מנסה לשנות הוא על בגיליון מוגן. כדי לבצע שינויים, לחץ על הסרת הגנת גיליון בכרטיסיית הסקירה.",
     InsertDeleteAlert: "פעולה זו אינה מותרת. המבצע מנסה להזיז תאים בטבלה בגיליון העבודה שלך.",
 };
-;
 ej.TreeGrid.Locale["he-IL"] = {
     toolboxTooltipTexts: {
         addTool: "לְהוֹסִיף",
@@ -1526,7 +1501,6 @@ ej.TreeGrid.Locale["he-IL"] = {
     falseText: "שֶׁקֶר",
     emptyRecord: "אין רשומות לתצוגה",
 };
-;
 ej.Uploadbox.Locale["he-IL"] = {
     buttonText: {
         upload: "העלה",
