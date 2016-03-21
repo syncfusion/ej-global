@@ -455,11 +455,13 @@ ej.PdfViewer.Locale["fi-FI"] = {
             headerText: "zoomaus",
             contentText: "Zoom tai pienentää PDF-dokumentti."
         },
-        fittopage: {
-            headerText: "Sovita sivulle",
-            contentText: "Asenna PDF-sivun säiliöön.",
-            pageWidth: "sovita leveys",
-            pageHeight: "sovita sivu"
+        fitToWidth: {
+            headerText: 'Sovita Leveys',
+            contentText: 'Asenna PDF-sivun leveys astiaan.',
+        },
+        fitToPage: {
+            headerText: 'Sovita sivulle',
+            contentText: 'Asenna PDF-sivun säiliöön .',
         },
     },
 };

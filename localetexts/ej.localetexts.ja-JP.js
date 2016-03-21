@@ -455,11 +455,13 @@ ej.PdfViewer.Locale["ja-JP"] = {
             headerText: "ズーム",
             contentText: "PDFドキュメント上のズームインまたはズームアウト。"
         },
-        fittopage: {
-            headerText: "ページに合わせる",
-            contentText: "コンテナにPDFのページを取り付けます。",
-            pageWidth: "幅に合わせます",
-            pageHeight: "ページに合わせます"
+        fitToWidth: {
+            headerText: '幅に合わせます',
+            contentText: 'コンテナの幅にPDFページを取り付けます。',
+        },
+        fitToPage: {
+            headerText: 'ページに合わせる',
+            contentText: 'コンテナにPDFのページを取り付けます。',
         },
     },
 };

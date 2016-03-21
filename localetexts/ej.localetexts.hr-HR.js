@@ -455,11 +455,13 @@ ej.PdfViewer.Locale["hr-HR"] = {
             headerText: "Zum",
             contentText: "Povećavanje ili smanjivanje na PDF dokument."
         },
-        fittopage: {
-            headerText: "Prilagodi stranici",
-            contentText: "Odgovarao stranice PDF u spremnik.",
-            pageWidth: "Fit Width",
-            pageHeight: "Fit Page"
+        fitToWidth: {
+            headerText: 'Odgovara širini',
+            contentText: 'Odgovarao stranice PDF širini posude.',
+        },
+        fitToPage: {
+            headerText: 'Prilagodi stranici',
+            contentText: 'Odgovarao stranice PDF u spremnik.',
         },
     },
 };

@@ -455,11 +455,13 @@ ej.PdfViewer.Locale["tr-TR"] = {
             headerText: "yakınlaştırma",
             contentText: "PDF belge üzerinde veya uzaklaştırın."
         },
-        fittopage: {
-            headerText: "Sayfaya sığdır",
-            contentText: "kaba PDF sayfasını takın.",
-            pageWidth: "Fit Width",
-            pageHeight: "Sayfaya Sığdır"
+        fitToWidth: {
+            headerText: 'Genişlik sığdır',
+            contentText: 'kabın genişliğine PDF sayfasını takın.',
+        },
+        fitToPage: {
+            headerText: 'Sayfaya sığdır',
+            contentText: 'kaba PDF sayfasını takın.',
         },
     },
 };

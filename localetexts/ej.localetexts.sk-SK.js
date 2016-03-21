@@ -455,11 +455,13 @@ ej.PdfViewer.Locale["sk-SK"] = {
             headerText: "zoom",
             contentText: "Zväčšenie alebo zmenšenie dokumentu PDF."
         },
-        fittopage: {
-            headerText: "Prisposobit na stranu",
-            contentText: "Nasadiť stránku PDF ku kontajneru.",
-            pageWidth: "podľa šírky",
-            pageHeight: "fit Page"
+        fitToWidth: {
+            headerText: 'prispôsobiť šírke',
+            contentText: 'Nasadiť stránku vo formáte PDF na šírku kontajnera .',
+        },
+        fitToPage: {
+            headerText: 'Prisposobit na stranu',
+            contentText: 'Nasadiť stránku PDF ku kontajneru .',
         },
     },
 };

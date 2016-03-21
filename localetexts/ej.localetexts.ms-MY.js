@@ -455,11 +455,13 @@ ej.PdfViewer.Locale["ms-MY"] = {
             headerText: "Zoom",
             contentText: "Zum masuk atau keluar pada dokumen PDF."
         },
-        fittopage: {
-            headerText: "Satu mukasurat penuh",
-            contentText: "Fit halaman PDF untuk bekas.",
-            pageWidth: "Lebar Fit",
-            pageHeight: "Page Fit"
+        fitToWidth: {
+            headerText: 'Patut Lebar',
+            contentText: 'Fit halaman PDF dengan lebar bekas.',
+        },
+        fitToPage: {
+            headerText: 'Satu mukasurat penuh',
+            contentText: 'Fit halaman PDF untuk bekas.',
         },
     },
 };

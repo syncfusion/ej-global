@@ -455,11 +455,13 @@ ej.PdfViewer.Locale["pl-PL"] = {
             headerText: "Powiększenie",
             contentText: "Powiększanie lub zmniejszanie dokumentu PDF."
         },
-        fittopage: {
-            headerText: "Dopasuj do strony",
-            contentText: "Założyć strony PDF do pojemnika.",
-            pageWidth: "Dopasuj szerokość",
-            pageHeight: "fit Page"
+        fitToWidth: {
+            headerText: 'Dopasuj do szerokości',
+            contentText: 'Dopasować strony PDF do szerokości pojemnika.',
+        },
+        fitToPage: {
+            headerText: 'Dopasuj do strony',
+            contentText: 'Założyć strony PDF do pojemnika.',
         },
     },
 };

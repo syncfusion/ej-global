@@ -455,11 +455,13 @@ ej.PdfViewer.Locale["nl-NL"] = {
             headerText: "Zoom",
             contentText: "Zoom in of uit op het PDF-document."
         },
-        fittopage: {
-            headerText: "Aanpassen aan pagina",
-            contentText: "Monteer de PDF-pagina naar de container.",
-            pageWidth: "Fit Breedte",
-            pageHeight: "Fit Pagina"
+        fitToWidth: {
+            headerText: 'Aanpassen aan Breedte',
+            contentText: 'Monteer de PDF-pagina aan de breedte van de container.',
+        },
+        fitToPage: {
+            headerText: 'Aanpassen aan pagina',
+            contentText: 'Monteer de PDF-pagina naar de container.',
         },
     },
 };

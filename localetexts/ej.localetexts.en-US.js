@@ -494,11 +494,13 @@ ej.PdfViewer.Locale["en-US"] = {
             headerText: 'Zoom',
             contentText: 'Zoom in or out on the PDF document.'
         },
-        fittopage: {
+        fitToWidth: {
+            headerText: 'Fit to Width',
+            contentText: 'Fit the PDF page to the width of the container.',
+        },
+        fitToPage: {
             headerText: 'Fit to Page',
             contentText: 'Fit the PDF page to the container.',
-            pageWidth: 'Fit Width',
-            pageHeight: 'Fit Page'
         },
     },
 };

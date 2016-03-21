@@ -455,11 +455,13 @@ ej.PdfViewer.Locale["zh-CN"] = {
             headerText: "放大",
             contentText: "放大或缩小的PDF文档。"
         },
-        fittopage: {
-            headerText: "适合页面",
-            contentText: "适合PDF页面的容器。",
-            pageWidth: "适合宽度",
-            pageHeight: "适合页面"
+         fitToWidth: {
+            headerText: '适合宽度',
+            contentText: '适合PDF页面到容器的宽度。',
+        },
+        fitToPage: {
+            headerText: '适合页面',
+            contentText: '适合PDF页面的容器。',
         },
     },
 };
