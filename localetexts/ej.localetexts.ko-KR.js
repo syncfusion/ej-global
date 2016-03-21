@@ -455,11 +455,13 @@ ej.PdfViewer.Locale["ko-KR"] = {
             headerText: "줌",
             contentText: "PDF 문서에서 확대 또는 축소."
         },
-        fittopage: {
-            headerText: "페이지에 맞추기",
-            contentText: "컨테이너에 PDF 페이지를 장착한다.",
-            pageWidth: "너비에 맞추기",
-            pageHeight: "페이지에 맞춤"
+        fitToWidth: {
+            headerText: '폭 에 맞춤',
+            contentText: '컨테이너의 너비에 PDF 페이지 를 장착한다.',
+        },
+        fitToPage: {
+            headerText: '페이지에 맞추기',
+            contentText: '컨테이너 에 PDF 페이지 를 장착한다.',
         },
     },
 };

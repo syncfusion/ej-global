@@ -455,11 +455,13 @@ ej.PdfViewer.Locale["sv-SE"] = {
             headerText: "Zoom",
             contentText: "Zooma in eller ut på PDF-dokumentet."
         },
-        fittopage: {
-            headerText: "Anpassa till sida",
-            contentText: "Passa PDF-sidan till behållaren.",
-            pageWidth: "Anpassa bredd",
-            pageHeight: "Anpassa sida"
+        fitToWidth: {
+            headerText: 'Anpassa till bredd',
+            contentText: 'Passa PDF-sidan till bredden av behållaren.',
+        },
+        fitToPage: {
+            headerText: 'Anpassa till sida',
+            contentText: 'Passa PDF-sidan till behållaren.',
         },
     },
 };

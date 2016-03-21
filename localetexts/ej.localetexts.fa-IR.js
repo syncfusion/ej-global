@@ -455,11 +455,13 @@ ej.PdfViewer.Locale["fa-IR"] = {
             headerText: "بزرگنمایی",
             contentText: "بزرگنمایی یا کوچکنمایی در سند PDF."
         },
-        fittopage: {
-            headerText: "متناسب با صفحه",
-            contentText: "به ظرف مناسب صفحه PDF.",
-            pageWidth: "عرض مناسب",
-            pageHeight: "مناسب صفحه"
+        fitToWidth: {
+            headerText: 'جا به عرض',
+            contentText: 'به عرض ظرف مناسب صفحه PDF.',
+        },
+        fitToPage: {
+            headerText: 'متناسب با صفحه',
+            contentText: 'به ظرف مناسب صفحه PDF.',
         },
     },
 };

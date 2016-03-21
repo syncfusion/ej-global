@@ -455,11 +455,13 @@ ej.PdfViewer.Locale["vi-VN"] = {
             headerText: "Thu phóng",
             contentText: "Phóng to hoặc trên các tài liệu PDF."
         },
-        fittopage: {
-            headerText: "Phù hợp để trang",
-            contentText: "Phù hợp với những trang PDF để các container.",
-            pageWidth: "Vừa chiều rộng",
-            pageHeight: "Fit trang"
+        fitToWidth: {
+            headerText: 'Vừa với chiều rộng',
+            contentText: 'Phù hợp với những trang PDF với độ rộng của các container.',
+        },
+        fitToPage: {
+            headerText: 'Phù hợp để trang',
+            contentText: 'Phù hợp với những trang PDF để các container .',
         },
     },
 };

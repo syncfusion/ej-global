@@ -455,11 +455,13 @@ ej.PdfViewer.Locale["it-IT"] = {
             headerText: "ingrandimento",
             contentText: "Zoom avanti o indietro sul documento PDF."
         },
-        fittopage: {
-            headerText: "Adatta alla pagina",
-            contentText: "Montare la pagina PDF al contenitore.",
-            pageWidth: "Adatta larghezza",
-            pageHeight: "Adatta pagina"
+        fitToWidth: {
+            headerText: 'Adatta alla larghezza',
+            contentText: 'Montare pagina PDF alla larghezza del contenitore .',
+        },
+        fitToPage: {
+            headerText: 'Adatta alla pagina',
+            contentText: 'Montare la pagina PDF al contenitore .',
         },
     },
 };

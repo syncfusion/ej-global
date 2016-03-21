@@ -455,11 +455,13 @@ ej.PdfViewer.Locale["ru-RU"] = {
             headerText: "Увеличить",
             contentText: "Увеличение или уменьшение масштаба на PDF документ."
         },
-        fittopage: {
-            headerText: "По размеру страницы",
-            contentText: "Установить страницу PDF к контейнеру.",
-            pageWidth: "По ширине",
-            pageHeight: "По размеру страницы"
+        fitToWidth: {
+            headerText: 'По размеру Ширина',
+            contentText: 'Установить страницу PDF по ширине контейнера .',
+        },
+        fitToPage: {
+            headerText: 'По размеру страницы',
+            contentText: 'Установить страницу PDF в контейнер .',
         },
     },
 };

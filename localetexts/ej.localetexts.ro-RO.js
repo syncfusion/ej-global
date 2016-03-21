@@ -455,11 +455,13 @@ ej.PdfViewer.Locale["ro-RO"] = {
             headerText: "zoom",
             contentText: "Mărirea sau pe documentul PDF."
         },
-        fittopage: {
-            headerText: "Incadrare in pagina",
-            contentText: "Potriviți pagina PDF la container.",
-            pageWidth: "Lățime potrivire",
-            pageHeight: "potrivire pagină"
+        fitToWidth: {
+            headerText: 'Fit to Lățime',
+            contentText: 'Potriviți pagina PDF cu lățimea containerului .',
+        },
+        fitToPage: {
+            headerText: 'Incadrare in pagina',
+            contentText: 'Potriviți pagina PDF la container .',
         },
     },
 };

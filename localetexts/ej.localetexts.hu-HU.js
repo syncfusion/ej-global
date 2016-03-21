@@ -455,11 +455,13 @@ ej.PdfViewer.Locale["hu-HU"] = {
             headerText: "Zoomolás",
             contentText: "Nagyítás vagy kicsinyítés a PDF dokumentumot."
         },
-        fittopage: {
-            headerText: "Laphoz igazítva",
-            contentText: "Szerelje fel a PDF-oldal a tartályba.",
-            pageWidth: "Fit Width",
-            pageHeight: "Fit oldal"
+        fitToWidth: {
+            headerText: 'Fit a szélesség',
+            contentText: 'Szerelje fel a PDF-oldal a tartály szélessége .',
+        },
+        fitToPage: {
+            headerText: 'Laphoz igazítva',
+            contentText: 'Szerelje fel a PDF-oldal a tartályba.',
         },
     },
 };

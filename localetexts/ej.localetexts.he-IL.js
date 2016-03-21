@@ -455,11 +455,13 @@ ej.PdfViewer.Locale["he-IL"] = {
             headerText: "זום",
             contentText: "הגדלה או הקטנה על מסמך PDF."
         },
-        fittopage: {
-            headerText: "התאם לעמוד",
-            contentText: "התאם את העמוד PDF למיכל.",
-            pageWidth: "רוחב Fit",
-            pageHeight: "עמוד Fit"
+        fitToWidth: {
+            headerText: 'התאם לרוחב',
+            contentText: 'התאם את עמוד PDF לרוחב של המכל .',
+        },
+        fitToPage: {
+            headerText: 'התאם לעמוד',
+            contentText: 'התאם את העמוד PDF למיכל .',
         },
     },
 };

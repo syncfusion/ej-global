@@ -455,11 +455,13 @@ ej.PdfViewer.Locale["ar-AE"] = {
             headerText: "زوم",
             contentText: "التكبير أو التصغير على وثيقة PDF."
         },
-        fittopage: {
+        fitToWidth: {
+            headerText: "صالح للعرض",
+            contentText: "تناسب صفحة PDF ل عرض الحاوية.",
+        },
+        fitToPage: {
             headerText: "صالح إلى الصفحة",
             contentText: "تناسب صفحة PDF إلى الحاوية.",
-            pageWidth: "العرض صالح",
-            pageHeight: "صالح ل"
         },
     },
 };
