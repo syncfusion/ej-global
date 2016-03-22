@@ -601,10 +601,10 @@ ej.ReportViewer.Locale["fi-FI"] = {
 };
 ej.Ribbon.Locale["fi-FI"] = {
     CustomizeQuickAccess: "Muokata Pikatyökalurivi",
-    RemovefromQuickAccessToolbar: "Poista Pikatyökalurivi",
-    AddtoQuickAccessToolbar: "Lisää pikatyökaluriville",
-    ShowAbovetheRibbon: "Näytä yläpuolella Ribbon",
-    ShowBelowtheRibbon: "Mitä seuraavista Ribbon",
+    RemoveFromQuickAccessToolbar: "Poista Pikatyökalurivi",
+    AddToQuickAccessToolbar: "Lisää pikatyökaluriville",
+    ShowAboveTheRibbon: "Näytä yläpuolella Ribbon",
+    ShowBelowTheRibbon: "Mitä seuraavista Ribbon",
     MoreCommands: "Lisää komennot ...",
 };
 ej.RTE.Locale["fi-FI"] = {
