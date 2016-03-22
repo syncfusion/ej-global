@@ -601,10 +601,10 @@ ej.ReportViewer.Locale["ro-RO"] = {
 };
 ej.Ribbon.Locale["ro-RO"] = {
     CustomizeQuickAccess: "Personalizați Bara de instrumente Acces rapid",
-    RemovefromQuickAccessToolbar: "Eliminați din Bara de instrumente Acces Rapid",
-    AddtoQuickAccessToolbar: "Adauga la bara de instrumente Acces Rapid",
-    ShowAbovetheRibbon: "Deasupra Panglica arată",
-    ShowBelowtheRibbon: "Afișați sub panglica",
+    RemoveFromQuickAccessToolbar: "Eliminați din Bara de instrumente Acces Rapid",
+    AddToQuickAccessToolbar: "Adauga la bara de instrumente Acces Rapid",
+    ShowAboveTheRibbon: "Deasupra Panglica arată",
+    ShowBelowTheRibbon: "Afișați sub panglica",
     MoreCommands: "Mai multe comenzi ...",
 };
 ej.RTE.Locale["ro-RO"] = {
