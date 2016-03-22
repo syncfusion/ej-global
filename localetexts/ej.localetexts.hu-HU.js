@@ -601,10 +601,10 @@ ej.ReportViewer.Locale["hu-HU"] = {
 };
 ej.Ribbon.Locale["hu-HU"] = {
     CustomizeQuickAccess: "Testreszabása gyorselérésieszköztár",
-    RemovefromQuickAccessToolbar: "Vegyük le a gyorselérésieszköztár",
-    AddtoQuickAccessToolbar: "Hozzáadás gyorselérésieszköztár",
-    ShowAbovetheRibbon: "Mutasd a szalag felett",
-    ShowBelowtheRibbon: "Mutasd a szalag alatt",
+    RemoveFromQuickAccessToolbar: "Vegyük le a gyorselérésieszköztár",
+    AddToQuickAccessToolbar: "Hozzáadás gyorselérésieszköztár",
+    ShowAboveTheRibbon: "Mutasd a szalag felett",
+    ShowBelowTheRibbon: "Mutasd a szalag alatt",
     MoreCommands: "További parancsok ...",
 };
 ej.RTE.Locale["hu-HU"] = {
