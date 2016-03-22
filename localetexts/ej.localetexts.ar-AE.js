@@ -186,7 +186,9 @@ ej.Gantt.Locale["ar-AE"] = {
         type: "اكتب",
         offset: "عوض",
         baselineStartDate: "خط الأساس تاريخ بدء",
-        baselineEndDate: "خط الأساس تاريخ الانتهاء"
+        baselineEndDate: "خط الأساس تاريخ الانتهاء",
+        WBS: "WBS",
+        WBSpredecessor: "WBS السلف"
     },
     editDialogTexts: {
         addFormTitle: "مهمة جديدة",
@@ -197,6 +199,25 @@ ej.Gantt.Locale["ar-AE"] = {
         addPredecessor: "اضف جديد",
         removePredecessor: "إزالة"
     },
+    columnDialogTexts: {
+        field: "حقل",
+        headerText: "نص رأس",
+        editType: "تحرير نوع",
+        filterEditType: "تصفية تحرير نوع",
+        allowFiltering: "السماح للتصفية",
+        allowFilteringBlankContent: "السماح تصفية المحتوى فارغ",
+        allowSorting: "السماح الفرز",
+        visible: "مرئي",
+        width: "عرض",
+        textAlign: "محاذاة النص",
+        headerTextAlign: "رأس محاذاة النص",
+        columnsDropdownData: "العمود قطرة البيانات داون",
+        dropdownTableText: "نص",
+        dropdownTableValue: "القيمة",
+        addData: "إضافة",
+        deleteData: "إزالة",
+        allowCellSelection: "تسمح اختيار خلية"
+},
     toolboxTooltipTexts: {
         addTool: "إضافة",
         editTool: "تحرير",
@@ -231,8 +252,21 @@ ej.Gantt.Locale["ar-AE"] = {
     columnMenuTexts: {
         sortAscendingText: "فرز تصاعدي",
         sortDescendingText: "فرز تنازلي",
-        columnsText: "الأعمدة"
+        columnsText: "الأعمدة",
+        insertColumnLeft: "إدراج العمود الأيسر",
+        insertColumnRight: "إدراج عمود لليمين",
+        deleteColumn: "حذف عمود",
+        renameColumn: "إعادة تسمية العمود"
     },
+    columnDialogTitle: {
+        insertColumn: "إدراج عمود",
+        deleteColumn: "حذف عمود",
+        renameColumn: "إعادة تسمية العمود"
+    },
+    deleteColumnText: "هل أنت متأكد أنك تريد حذف هذا العمود؟",
+    okButtonText: "حسنا",
+    cancelButtonText: "إلغاء",
+    confirmDeleteText: "تأكيد حذف",
     predecessorEditingTexts: {
         fromText: "من عند",
         toText: "إلى"
@@ -1494,8 +1528,42 @@ ej.TreeGrid.Locale["ar-AE"] = {
         columnsText: "الأعمدة",
         freezeText: "تجمد",
         unfreezeText: "تسيح",
-        freezePrecedingColumnsText: "تجميد الأعمدة السابقة"
+        freezePrecedingColumnsText: "تجميد الأعمدة السابقة",
+        insertColumnLeft: "إدراج العمود الأيسر",
+        insertColumnRight: "إدراج عمود لليمين",
+        deleteColumn: "حذف عمود",
+        renameColumn: "إعادة تسمية العمود"
     },
+    columnDialogTexts: {
+        field: "حقل",
+        headerText: "نص رأس",
+        editType: "تحرير نوع",
+        filterEditType: "تصفية تحرير نوع",
+        allowFiltering: "السماح للتصفية",
+        allowFilteringBlankContent: "السماح تصفية المحتوى فارغ",
+        allowSorting: "السماح الفرز",
+        visible: "مرئي",
+        width: "عرض",
+        textAlign: "محاذاة النص",
+        headerTextAlign: "رأس محاذاة النص",
+        isFrozen: "غير المجمدة",
+        allowFreezing: "السماح التجميد",
+        columnsDropdownData: "العمود قطرة البيانات داون",
+        dropdownTableText: "نص",
+        dropdownTableValue: "القيمة",
+        addData: "إضافة",
+        deleteData: "إزالة",
+        allowCellSelection: "تسمح اختيار خلية"
+    },
+    columnDialogTitle: {
+        insertColumn: "إدراج عمود",
+        deleteColumn: "حذف عمود",
+        renameColumn: "إعادة تسمية العمود"
+    },
+    deleteColumnText: "هل أنت متأكد أنك تريد حذف هذا العمود؟",
+    okButtonText: "حسنا",
+    cancelButtonText: "إلغاء",
+    confirmDeleteText: "تأكيد حذف",
     dropDownListBlanksText: "(الفراغات)",
     dropDownListClearText: "(مسح)",
     trueText: "صحيح",
