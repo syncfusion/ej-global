@@ -601,10 +601,10 @@ ej.ReportViewer.Locale["zh-CN"] = {
 };
 ej.Ribbon.Locale["zh-CN"] = {
     CustomizeQuickAccess: "自定义快速访问工具栏",
-    RemovefromQuickAccessToolbar: "从快速访问工具栏删除",
-    AddtoQuickAccessToolbar: "添加到快速访问工具栏",
-    ShowAbovetheRibbon: "上面显示功能区",
-    ShowBelowtheRibbon: "下面显示功能区",
+    RemoveFromQuickAccessToolbar: "从快速访问工具栏删除",
+    AddToQuickAccessToolbar: "添加到快速访问工具栏",
+    ShowAboveTheRibbon: "上面显示功能区",
+    ShowBelowTheRibbon: "下面显示功能区",
     MoreCommands: "更多命令...",
 };
 ej.RTE.Locale["zh-CN"] = {
