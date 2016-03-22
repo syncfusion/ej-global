@@ -601,10 +601,10 @@ ej.ReportViewer.Locale["sv-SE"] = {
 };
 ej.Ribbon.Locale["sv-SE"] = {
     CustomizeQuickAccess: "Anpassa verktygsfältet Snabbåtkomst",
-    RemovefromQuickAccessToolbar: "Ta bort från verktygsfältet Snabbåtkomst",
-    AddtoQuickAccessToolbar: "Lägg till i verktygsfältet Snabbåtkomst",
-    ShowAbovetheRibbon: "Visa ovanför bandet",
-    ShowBelowtheRibbon: "Visa under menyfliksområdet",
+    RemoveFromQuickAccessToolbar: "Ta bort från verktygsfältet Snabbåtkomst",
+    AddToQuickAccessToolbar: "Lägg till i verktygsfältet Snabbåtkomst",
+    ShowAboveTheRibbon: "Visa ovanför bandet",
+    ShowBelowTheRibbon: "Visa under menyfliksområdet",
     MoreCommands: "Fler kommandon ...",
 };
 ej.RTE.Locale["sv-SE"] = {
