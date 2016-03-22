@@ -601,10 +601,10 @@ ej.ReportViewer.Locale["ko-KR"] = {
 };
 ej.Ribbon.Locale["ko-KR"] = {
     CustomizeQuickAccess: "빠른 실행 도구 모음 사용자 정의",
-    RemovefromQuickAccessToolbar: "빠른 실행 도구 모음에서 제거",
-    AddtoQuickAccessToolbar: "빠른 실행 도구 모음에 추가",
-    ShowAbovetheRibbon: "리본 위에 표시",
-    ShowBelowtheRibbon: "리본 아래보기",
+    RemoveFromQuickAccessToolbar: "빠른 실행 도구 모음에서 제거",
+    AddToQuickAccessToolbar: "빠른 실행 도구 모음에 추가",
+    ShowAboveTheRibbon: "리본 위에 표시",
+    ShowBelowTheRibbon: "리본 아래보기",
     MoreCommands: "더 많은 명령 ...",
 };
 ej.RTE.Locale["ko-KR"] = {
