@@ -601,10 +601,10 @@ ej.ReportViewer.Locale["de-DE"] = {
 };
 ej.Ribbon.Locale["de-DE"] = {
     CustomizeQuickAccess: "Anpassen Schnellzugriffsleiste",
-    RemovefromQuickAccessToolbar: "Entfernen von Quick Access Toolbar",
-    AddtoQuickAccessToolbar: "In den Schnellzugriffsleiste",
-    ShowAbovetheRibbon: "Zeigen Über dem Band",
-    ShowBelowtheRibbon: "Zeigen Unter der Multifunktions",
+    RemoveFromQuickAccessToolbar: "Entfernen von Quick Access Toolbar",
+    AddToQuickAccessToolbar: "In den Schnellzugriffsleiste",
+    ShowAboveTheRibbon: "Zeigen Über dem Band",
+    ShowBelowTheRibbon: "Zeigen Unter der Multifunktions",
     MoreCommands: "Weitere Befehle ...",
 };
 ej.RTE.Locale["de-DE"] = {
