@@ -601,10 +601,10 @@ ej.ReportViewer.Locale["pl-PL"] = {
 };
 ej.Ribbon.Locale["pl-PL"] = {
     CustomizeQuickAccess: "Dostosuj pasek narzędzi Szybki dostęp",
-    RemovefromQuickAccessToolbar: "Usuń z paska narzędzi Szybki dostęp",
-    AddtoQuickAccessToolbar: "Dodaj do paska narzędzi Szybki dostęp",
-    ShowAbovetheRibbon: "Pokaż Nad Ribbon",
-    ShowBelowtheRibbon: "Pokaż pod wstążką",
+    RemoveFromQuickAccessToolbar: "Usuń z paska narzędzi Szybki dostęp",
+    AddToQuickAccessToolbar: "Dodaj do paska narzędzi Szybki dostęp",
+    ShowAboveTheRibbon: "Pokaż Nad Ribbon",
+    ShowBelowTheRibbon: "Pokaż pod wstążką",
     MoreCommands: "Więcej poleceń ...",
 };
 ej.RTE.Locale["pl-PL"] = {
