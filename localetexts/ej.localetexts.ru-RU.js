@@ -601,10 +601,10 @@ ej.ReportViewer.Locale["ru-RU"] = {
 };
 ej.Ribbon.Locale["ru-RU"] = {
     CustomizeQuickAccess: "Настройка панели быстрого доступа",
-    RemovefromQuickAccessToolbar: "Удалить из панели быстрого доступа",
-    AddtoQuickAccessToolbar: "Добавить на панель быстрого доступа",
-    ShowAbovetheRibbon: "Показать Над лентой",
-    ShowBelowtheRibbon: "Показать под лентой",
+    RemoveFromQuickAccessToolbar: "Удалить из панели быстрого доступа",
+    AddToQuickAccessToolbar: "Добавить на панель быстрого доступа",
+    ShowAboveTheRibbon: "Показать Над лентой",
+    ShowBelowTheRibbon: "Показать под лентой",
     MoreCommands: "Дополнительные команды ...",
 };
 ej.RTE.Locale["ru-RU"] = {
