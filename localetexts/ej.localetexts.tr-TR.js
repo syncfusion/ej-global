@@ -601,10 +601,10 @@ ej.ReportViewer.Locale["tr-TR"] = {
 };
 ej.Ribbon.Locale["tr-TR"] = {
     CustomizeQuickAccess: "Hızlı Erişim Araç Çubuğu özelleştirme",
-    RemovefromQuickAccessToolbar: "Hızlı Erişim Araç Çubuğu kaldırmak",
-    AddtoQuickAccessToolbar: "Hızlı Erişim Araç Çubuğu Ekle",
-    ShowAbovetheRibbon: "Şerit üzerinde göster",
-    ShowBelowtheRibbon: "Şerit altında göster",
+    RemoveFromQuickAccessToolbar: "Hızlı Erişim Araç Çubuğu kaldırmak",
+    AddToQuickAccessToolbar: "Hızlı Erişim Araç Çubuğu Ekle",
+    ShowAboveTheRibbon: "Şerit üzerinde göster",
+    ShowBelowTheRibbon: "Şerit altında göster",
     MoreCommands: "Daha Komutları ...",
 };
 ej.RTE.Locale["tr-TR"] = {
