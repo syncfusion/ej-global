@@ -601,10 +601,10 @@ ej.ReportViewer.Locale["nb-NO"] = {
 };
 ej.Ribbon.Locale["nb-NO"] = {
     CustomizeQuickAccess: "Tilpass Quick Access Toolbar",
-    RemovefromQuickAccessToolbar: "Fjern fra Quick Access Toolbar",
-    AddtoQuickAccessToolbar: "Legg til Quick Access Toolbar",
-    ShowAbovetheRibbon: "Vis Over Ribbon",
-    ShowBelowtheRibbon: "Vis Nedenfor båndet",
+    RemoveFromQuickAccessToolbar: "Fjern fra Quick Access Toolbar",
+    AddToQuickAccessToolbar: "Legg til Quick Access Toolbar",
+    ShowAboveTheRibbon: "Vis Over Ribbon",
+    ShowBelowTheRibbon: "Vis Nedenfor båndet",
     MoreCommands: "Flere kommandoer ...",
 };
 ej.RTE.Locale["nb-NO"] = {
