@@ -186,7 +186,9 @@ ej.Gantt.Locale["sv-SE"] = {
         type: "Typ",
         offset: "Offset",
         baselineStartDate: "Baseline Startdatum",
-        baselineEndDate: "Baseline Slutdatum"
+        baselineEndDate: "Baseline Slutdatum",
+        WBS: "WBS",
+        WBSpredecessor: "WBS Föregångare"
     },
     editDialogTexts: {
         addFormTitle: "Ny uppgift",
@@ -196,6 +198,25 @@ ej.Gantt.Locale["sv-SE"] = {
         cancelButton: "Annullera",
         addPredecessor: "Lägg till ny",
         removePredecessor: "Avlägsna"
+    },
+    columnDialogTexts: {
+        field: "Fält",
+        headerText: "Header Text",
+        editType: "redigera Type",
+        filterEditType: "Filtrera Redigera Type",
+        allowFiltering: "Tillåt filtrering",
+        allowFilteringBlankContent: "Tillåt Filtrering Blank Content",
+        allowSorting: "Tillåt Sortering",
+        visible: "Synlig",
+        width: "Bredd",
+        textAlign: "text~~POS=TRUNC",
+        headerTextAlign: "Header Textjustering",
+        columnsDropdownData: "Kolumn Drop Down Data",
+        dropdownTableText: "Text",
+        dropdownTableValue: "Värde",
+        addData: "Lägg till",
+        deleteData: "Avlägsna",
+        allowCellSelection: "Tillåt Cell Selection"
     },
     toolboxTooltipTexts: {
         addTool: "Lägg till",
@@ -231,8 +252,21 @@ ej.Gantt.Locale["sv-SE"] = {
     columnMenuTexts: {
         sortAscendingText: "Sortera stigande",
         sortDescendingText: "Sortera fallande",
-        columnsText: "kolumner"
+        columnsText: "kolumner",
+        insertColumnLeft: "Infoga kolumn till vänster",
+        insertColumnRight: "Infoga kolumn till höger",
+        deleteColumn: "Ta bort kolumn",
+        renameColumn: "döpa om Column"
     },
+    columnDialogTitle: {
+        insertColumn: "infoga kolumn",
+        deleteColumn: "Ta bort kolumn",
+        renameColumn: "döpa om Column"
+    },
+    deleteColumnText: "Är du säker på att du vill ta bort den här kolumnen?",
+    okButtonText: "ok",
+    cancelButtonText: "Annullera",
+    confirmDeleteText: "bekräfta Radera",
     predecessorEditingTexts: {
         fromText: "Från",
         toText: "Till"
@@ -1494,8 +1528,42 @@ ej.TreeGrid.Locale["sv-SE"] = {
         columnsText: "kolumner",
         freezeText: "Frysa",
         unfreezeText: "frigöra",
-        freezePrecedingColumnsText: "Frysa föregånde Kolumner"
+        freezePrecedingColumnsText: "Frysa föregånde Kolumner",
+        insertColumnLeft: "Infoga kolumn till vänster",
+        insertColumnRight: "Infoga kolumn till höger",
+        deleteColumn: "Ta bort kolumn",
+        renameColumn: "döpa om Column"
     },
+    columnDialogTexts: {
+        field: "Fält",
+        headerText: "Header Text",
+        editType: "redigera Type",
+        filterEditType: "Filtrera Redigera Type",
+        allowFiltering: "Tillåt filtrering",
+        allowFilteringBlankContent: "Tillåt Filtrering Blank Content",
+        allowSorting: "Tillåt Sortering",
+        visible: "Synlig",
+        width: "Bredd",
+        textAlign: "text~~POS=TRUNC",
+        headerTextAlign: "Header Textjustering",
+        isFrozen: "Är frusen",
+        allowFreezing: "Tillåt Frysning",
+        columnsDropdownData: "Kolumn Drop Down Data",
+        dropdownTableText: "Text",
+        dropdownTableValue: "Värde",
+        addData: "Lägg till",
+        deleteData: "Avlägsna",
+        allowCellSelection: "Tillåt Cell Selection"
+    },
+    columnDialogTitle: {
+        insertColumn: "infoga kolumn",
+        deleteColumn: "Ta bort kolumn",
+        renameColumn: "döpa om Column"
+    },
+    deleteColumnText: "Är du säker på att du vill ta bort den här kolumnen?",
+    okButtonText: "ok",
+    cancelButtonText: "Annullera",
+    confirmDeleteText: "bekräfta Radera",
     dropDownListBlanksText: "(Tomma)",
     dropDownListClearText: "(Clear filter)",
     trueText: "Sann",
