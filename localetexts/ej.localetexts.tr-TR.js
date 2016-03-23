@@ -186,7 +186,9 @@ ej.Gantt.Locale["tr-TR"] = {
         type: "tip",
         offset: "ofset baskı",
         baselineStartDate: "Baseline Başlangıç Tarihi",
-        baselineEndDate: "Baseline Bitiş Tarihi"
+        baselineEndDate: "Baseline Bitiş Tarihi",
+        WBS: "İDA",
+        WBSpredecessor: "İDA Öncül"
     },
     editDialogTexts: {
         addFormTitle: "Yeni görev",
@@ -196,6 +198,25 @@ ej.Gantt.Locale["tr-TR"] = {
         cancelButton: "İptal",
         addPredecessor: "Yeni ekle",
         removePredecessor: "Kaldır"
+    },
+    columnDialogTexts: {
+        field: "alan",
+        headerText: "Başlık metni",
+        editType: "Düzenle Tür",
+        filterEditType: "Düzenleme Türü Filtre",
+        allowFiltering: "Filtreleme izin",
+        allowFilteringBlankContent: "Filtreleme Boş İçerik izin",
+        allowSorting: "Sıralama'yı izin",
+        visible: "görünür",
+        width: "genişlik",
+        textAlign: "metin Hizalama",
+        headerTextAlign: "Üstbilgi Metin Hizalama",
+        columnsDropdownData: "Sütun Açılır Veri",
+        dropdownTableText: "Metin",
+        dropdownTableValue: "değer",
+        addData: "eklemek",
+        deleteData: "Kaldır",
+        allowCellSelection: "Hücre seçimine izin"
     },
     toolboxTooltipTexts: {
         addTool: "eklemek",
@@ -231,8 +252,21 @@ ej.Gantt.Locale["tr-TR"] = {
     columnMenuTexts: {
         sortAscendingText: "Sıralama Artan",
         sortDescendingText: "Sıralama Azalan",
-        columnsText: "Sütunlar"
+        columnsText: "Sütunlar",
+        insertColumnLeft: "Sütun Sol takın",
+        insertColumnRight: "Sütun Sağ takın",
+        deleteColumn: "Sütun Sil",
+        renameColumn: "Sütun yeniden adlandırma"
     },
+    columnDialogTitle: {
+        insertColumn: "Sütun Ekle",
+        deleteColumn: "Sütun Sil",
+        renameColumn: "Sütun yeniden adlandırma"
+    },
+    deleteColumnText: "Bu sütunu silmek istediğinizden emin misiniz?",
+    okButtonText: "tamam",
+    cancelButtonText: "İptal",
+    confirmDeleteText: "Silmeyi onayla",
     predecessorEditingTexts: {
         fromText: "itibaren",
         toText: "için"
@@ -1494,8 +1528,42 @@ ej.TreeGrid.Locale["tr-TR"] = {
         columnsText: "Sütunlar",
         freezeText: "dondurmak",
         unfreezeText: "eritmek",
-        freezePrecedingColumnsText: "Preceding Sütunları dondur"
+        freezePrecedingColumnsText: "Preceding Sütunları dondur",
+        insertColumnLeft: "Sütun Sol takın",
+        insertColumnRight: "Sütun Sağ takın",
+        deleteColumn: "Sütun Sil",
+        renameColumn: "Sütun yeniden adlandırma"
     },
+    columnDialogTexts: {
+        field: "alan",
+        headerText: "Başlık metni",
+        editType: "Düzenle Tür",
+        filterEditType: "Düzenleme Türü Filtre",
+        allowFiltering: "Filtreleme izin",
+        allowFilteringBlankContent: "Filtreleme Boş İçerik izin",
+        allowSorting: "Sıralama'yı izin",
+        visible: "görünür",
+        width: "genişlik",
+        textAlign: "metin Hizalama",
+        headerTextAlign: "Üstbilgi Metin Hizalama",
+        isFrozen: "Donmuş",
+        allowFreezing: "Dondurma izin",
+        columnsDropdownData: "Sütun Açılır Veri",
+        dropdownTableText: "Metin",
+        dropdownTableValue: "değer",
+        addData: "eklemek",
+        deleteData: "Kaldır",
+        allowCellSelection: "Hücre seçimine izin"
+    },
+    columnDialogTitle: {
+        insertColumn: "Sütun Ekle",
+        deleteColumn: "Sütun Sil",
+        renameColumn: "Sütun yeniden adlandırma"
+    },
+    deleteColumnText: "Bu sütunu silmek istediğinizden emin misiniz?",
+    okButtonText: "tamam",
+    cancelButtonText: "İptal",
+    confirmDeleteText: "Silmeyi onayla",
     dropDownListBlanksText: "(Boşluklar)",
     dropDownListClearText: "(Temiz filtre)",
     trueText: "gerçek",
