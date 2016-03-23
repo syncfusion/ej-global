@@ -186,7 +186,9 @@ ej.Gantt.Locale["it-IT"] = {
         type: "Digitare",
         offset: "Compensare",
         baselineStartDate: "Inizio previsto Data",
-        baselineEndDate: "Data di fine Baseline"
+        baselineEndDate: "Data di fine Baseline",
+        WBS: "WBS",
+        WBSpredecessor: "WBS Predecessore"
     },
     editDialogTexts: {
         addFormTitle: "Nuovo compito",
@@ -196,6 +198,25 @@ ej.Gantt.Locale["it-IT"] = {
         cancelButton: "Annulla",
         addPredecessor: "Aggiungere nuova",
         removePredecessor: "Rimuovere"
+    },
+    columnDialogTexts: {
+        field: "Campo",
+        headerText: "Titolo",
+        editType: "Modifica tipo",
+        filterEditType: "Modifica filtro Tipo",
+        allowFiltering: "permette di filtrare",
+        allowFilteringBlankContent: "Consentire di filtro dei contenuti in bianco",
+        allowSorting: "consentire ordinamento",
+        visible: "Visibile",
+        width: "Larghezza",
+        textAlign: "Allineamento testo",
+        headerTextAlign: "Intestazione Allineamento testo",
+        columnsDropdownData: "Colonna Drop Down dati",
+        dropdownTableText: "Testo",
+        dropdownTableValue: "Valore",
+        addData: "Aggiungere",
+        deleteData: "Cancella",
+        allowCellSelection: "Consentire la selezione delle cellule"
     },
     toolboxTooltipTexts: {
         addTool: "Aggiungere",
@@ -231,8 +252,21 @@ ej.Gantt.Locale["it-IT"] = {
     columnMenuTexts: {
         sortAscendingText: "Ordine crescente",
         sortDescendingText: "Metti in ordine discendente",
-        columnsText: "colonne"
+        columnsText: "colonne",
+        insertColumnLeft: "Inserisci colonna a sinistra",
+        insertColumnRight: "Inserire Colonna a destra",
+        deleteColumn: "Elimina colonna",
+        renameColumn: "Rinomina Colonna"
     },
+    columnDialogTitle: {
+        insertColumn: "Inserisci colonna",
+        deleteColumn: "Elimina colonna",
+        renameColumn: "Rinomina Colonna"
+    },
+    deleteColumnText: "Sei sicuro di voler eliminare questa colonna?",
+    okButtonText: "ok",
+    cancelButtonText: "Annulla",
+    confirmDeleteText: "Conferma cancellazione",
     predecessorEditingTexts: {
         fromText: "Da parte di",
         toText: "A"
@@ -1494,8 +1528,42 @@ ej.TreeGrid.Locale["it-IT"] = {
         columnsText: "colonne",
         freezeText: "Congelare",
         unfreezeText: "Scongelare",
-        freezePrecedingColumnsText: "Blocca colonne precedenti"
+        freezePrecedingColumnsText: "Blocca colonne precedenti",
+        insertColumnLeft: "Inserisci colonna a sinistra",
+        insertColumnRight: "Inserire Colonna a destra",
+        deleteColumn: "Elimina colonna",
+        renameColumn: "Rinomina Colonna"
     },
+    columnDialogTexts: {
+        field: "Campo",
+        headerText: "Titolo",
+        editType: "Modifica tipo",
+        filterEditType: "Modifica filtro Tipo",
+        allowFiltering: "permette di filtrare",
+        allowFilteringBlankContent: "Consentire di filtro dei contenuti in bianco",
+        allowSorting: "consentire ordinamento",
+        visible: "Visibile",
+        width: "Larghezza",
+        textAlign: "Allineamento testo",
+        headerTextAlign: "Intestazione Allineamento testo",
+        isFrozen: "È congelato",
+        allowFreezing: "permettono di congelare",
+        columnsDropdownData: "Colonna Drop Down dati",
+        dropdownTableText: "Testo",
+        dropdownTableValue: "Valore",
+        addData: "Aggiungere",
+        deleteData: "Cancella",
+        allowCellSelection: "Consentire la selezione delle cellule"
+    },
+    columnDialogTitle: {
+        insertColumn: "Inserisci colonna",
+        deleteColumn: "Elimina colonna",
+        renameColumn: "Rinomina Colonna"
+    },
+    deleteColumnText: "Sei sicuro di voler eliminare questa colonna?",
+    okButtonText: "ok",
+    cancelButtonText: "Annulla",
+    confirmDeleteText: "Conferma cancellazione",
     dropDownListBlanksText: "(Blanks)",
     dropDownListClearText: "(Filtro pulito)",
     trueText: "Vero",
