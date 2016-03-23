@@ -186,7 +186,9 @@ ej.Gantt.Locale["sk-SK"] = {
         type: "typ",
         offset: "ofset",
         baselineStartDate: "Baseline Start Date",
-        baselineEndDate: "Baseline Dátum ukončenia"
+        baselineEndDate: "Baseline Dátum ukončenia",
+        WBS: "WBS",
+        WBSpredecessor: "WBS predchodca"
     },
     editDialogTexts: {
         addFormTitle: "novú úlohu",
@@ -196,6 +198,25 @@ ej.Gantt.Locale["sk-SK"] = {
         cancelButton: "Zrušiť",
         addPredecessor: "Pridať nové",
         removePredecessor: "odstrániť"
+    },
+    columnDialogTexts: {
+        field: "poľa",
+        headerText: "Text hlavičky",
+        editType: "upraviť typ",
+        filterEditType: "Filter Upraviť typ",
+        allowFiltering: "povoliť filtrovanie",
+        allowFilteringBlankContent: "Povoliť filtrovanie obsahu Blank",
+        allowSorting: "umožniť radenie",
+        visible: "viditeľný",
+        width: "šírka",
+        textAlign: "zarovnanie textu",
+        headerTextAlign: "Hlavička Zarovnanie textu",
+        columnsDropdownData: "Stĺpec Drop Down dát",
+        dropdownTableText: "text",
+        dropdownTableValue: "hodnota",
+        addData: "pridať",
+        deleteData: "odstrániť",
+        allowCellSelection: "Umožniť výber Cell"
     },
     toolboxTooltipTexts: {
         addTool: "pridať",
@@ -231,8 +252,21 @@ ej.Gantt.Locale["sk-SK"] = {
     columnMenuTexts: {
         sortAscendingText: "Radiť vzostupne",
         sortDescendingText: "triediť zostupne",
-        columnsText: "stĺpce"
+        columnsText: "stĺpce",
+        insertColumnLeft: "Vložte ľavom stĺpci",
+        insertColumnRight: "Vložiť stĺpec vpravo",
+        deleteColumn: "odstrániť stĺpec",
+        renameColumn: "premenovať stĺpec"
     },
+    columnDialogTitle: {
+        insertColumn: "vložiť stĺpec",
+        deleteColumn: "odstrániť stĺpec",
+        renameColumn: "premenovať stĺpec"
+    },
+    deleteColumnText: "Ste si istí, že chcete zmazať tento stĺpec?",
+    okButtonText: "OK",
+    cancelButtonText: "Zrušiť",
+    confirmDeleteText: "potvrdiť zmazanie",
     predecessorEditingTexts: {
         fromText: "z",
         toText: "na"
@@ -1494,8 +1528,42 @@ ej.TreeGrid.Locale["sk-SK"] = {
         columnsText: "stĺpce",
         freezeText: "Zmraziť",
         unfreezeText: "uvoľniť",
-        freezePrecedingColumnsText: "Zmraziť predchádzajúcich rubrikách"
+        freezePrecedingColumnsText: "Zmraziť predchádzajúcich rubrikách",
+        insertColumnLeft: "Vložte ľavom stĺpci",
+        insertColumnRight: "Vložiť stĺpec vpravo",
+        deleteColumn: "odstrániť stĺpec",
+        renameColumn: "premenovať stĺpec"
     },
+    columnDialogTexts: {
+        field: "poľa",
+        headerText: "Text hlavičky",
+        editType: "upraviť typ",
+        filterEditType: "Filter Upraviť typ",
+        allowFiltering: "povoliť filtrovanie",
+        allowFilteringBlankContent: "Povoliť filtrovanie obsahu Blank",
+        allowSorting: "umožniť radenie",
+        visible: "viditeľný",
+        width: "šírka",
+        textAlign: "zarovnanie textu",
+        headerTextAlign: "Hlavička Zarovnanie textu",
+        isFrozen: "je Frozen",
+        allowFreezing: "umožniť Zmrazenie",
+        columnsDropdownData: "Stĺpec Drop Down dát",
+        dropdownTableText: "text",
+        dropdownTableValue: "hodnota",
+        addData: "pridať",
+        deleteData: "odstrániť",
+        allowCellSelection: "Umožniť výber Cell"
+    },
+    columnDialogTitle: {
+        insertColumn: "vložiť stĺpec",
+        deleteColumn: "odstrániť stĺpec",
+        renameColumn: "premenovať stĺpec"
+    },
+    deleteColumnText: "Ste si istí, že chcete zmazať tento stĺpec?",
+    okButtonText: "OK",
+    cancelButtonText: "Zrušiť",
+    confirmDeleteText: "potvrdiť zmazanie",
     dropDownListBlanksText: "(Prázdne)",
     dropDownListClearText: "(Clear Filter)",
     trueText: "pravdivý",
