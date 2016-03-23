@@ -186,7 +186,7 @@ ej.Gantt.Locale["ru-RU"] = {
         type: "тип",
         offset: "смещение",
         baselineStartDate: "Базовый дата начала",
-        baselineEndDate: "Базовый Окончание"
+        baselineEndDate: "Базовый Окончание",
         WBS: "WBS",
         WBSpredecessor: "WBS Предшественник"
     },
