@@ -186,7 +186,9 @@ ej.Gantt.Locale["hu-HU"] = {
         type: "típus",
         offset: "eltolt",
         baselineStartDate: "Kiindulási kezdési dátum",
-        baselineEndDate: "Kiindulási Végdátum"
+        baselineEndDate: "Kiindulási Végdátum",
+        WBS: "WBS",
+        WBSpredecessor: "WBS elődje"
     },
     editDialogTexts: {
         addFormTitle: "Új feladat",
@@ -196,6 +198,25 @@ ej.Gantt.Locale["hu-HU"] = {
         cancelButton: "Törölni",
         addPredecessor: "Új hozzáadása",
         removePredecessor: "eltávolít"
+    },
+    columnDialogTexts: {
+        field: "Mező",
+        headerText: "fejléc szövege",
+        editType: "edit Dokumentumtípus",
+        filterEditType: "Szűrő szerkesztése típus",
+        allowFiltering: "Hagyjuk szűrése",
+        allowFilteringBlankContent: "Hagyjuk Szűrés Üres tartalom",
+        allowSorting: "Hagyjuk rendezés",
+        visible: "Látható",
+        width: "Szélesség",
+        textAlign: "szöveg igazítása",
+        headerTextAlign: "Fejléc Szöveg igazítása",
+        columnsDropdownData: "Oszlop legördülő adatok",
+        dropdownTableText: "Szöveg",
+        dropdownTableValue: "Érték",
+        addData: "hozzáad",
+        deleteData: "eltávolít",
+        allowCellSelection: "Hagyjuk Cell Selection"
     },
     toolboxTooltipTexts: {
         addTool: "hozzáad",
@@ -231,8 +252,21 @@ ej.Gantt.Locale["hu-HU"] = {
     columnMenuTexts: {
         sortAscendingText: "rendezés Növekvő",
         sortDescendingText: "Csökkenő rendezés",
-        columnsText: "Oszlopok"
+        columnsText: "Oszlopok",
+        insertColumnLeft: "Oszlop beszúrása balra",
+        insertColumnRight: "Oszlop beszúrása jobbra",
+        deleteColumn: "oszlop törlése",
+        renameColumn: "átnevezése oszlop"
     },
+    columnDialogTitle: {
+        insertColumn: "oszlop beszúrása",
+        deleteColumn: "oszlop törlése",
+        renameColumn: "átnevezése oszlop"
+    },
+    deleteColumnText: "Biztosan törölni szeretné ezt az oszlopot?",
+    okButtonText: "rendben",
+    cancelButtonText: "Törölni",
+    confirmDeleteText: "Törlés megerősítése",
     predecessorEditingTexts: {
         fromText: "Ból ből",
         toText: "Nak nek"
@@ -1494,8 +1528,42 @@ ej.TreeGrid.Locale["hu-HU"] = {
         columnsText: "Oszlopok",
         freezeText: "Fagy",
         unfreezeText: "Kiolvaszt",
-        freezePrecedingColumnsText: "Freeze előző oszlopok"
+        freezePrecedingColumnsText: "Freeze előző oszlopok",
+        insertColumnLeft: "Oszlop beszúrása balra",
+        insertColumnRight: "Oszlop beszúrása jobbra",
+        deleteColumn: "oszlop törlése",
+        renameColumn: "átnevezése oszlop"
     },
+    columnDialogTexts: {
+        field: "Mező",
+        headerText: "fejléc szövege",
+        editType: "edit Dokumentumtípus",
+        filterEditType: "Szűrő szerkesztése típus",
+        allowFiltering: "Hagyjuk szűrése",
+        allowFilteringBlankContent: "Hagyjuk Szűrés Üres tartalom",
+        allowSorting: "Hagyjuk rendezés",
+        visible: "Látható",
+        width: "Szélesség",
+        textAlign: "szöveg igazítása",
+        headerTextAlign: "Fejléc Szöveg igazítása",
+        isFrozen: "Fagyott",
+        allowFreezing: "Hagyjuk befagyasztása",
+        columnsDropdownData: "Oszlop legördülő adatok",
+        dropdownTableText: "Szöveg",
+        dropdownTableValue: "Érték",
+        addData: "hozzáad",
+        deleteData: "eltávolít",
+        allowCellSelection: "Hagyjuk Cell Selection"
+    },
+    columnDialogTitle: {
+        insertColumn: "oszlop beszúrása",
+        deleteColumn: "oszlop törlése",
+        renameColumn: "átnevezése oszlop"
+    },
+    deleteColumnText: "Biztosan törölni szeretné ezt az oszlopot?",
+    okButtonText: "rendben",
+    cancelButtonText: "Törölni",
+    confirmDeleteText: "Törlés megerősítése",
     dropDownListBlanksText: "(Üresek)",
     dropDownListClearText: "(Clear Filter)",
     trueText: "Igaz",
