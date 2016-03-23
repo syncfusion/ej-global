@@ -1556,14 +1556,14 @@ ej.TreeGrid.Locale["es-ES"] = {
         allowCellSelection: "Permitir selección de la célula"
     },
     columnDialogTitle: {
-    insertColumn: "insertar columna",
-    deleteColumn: "eliminar columna",
-    renameColumn: "Cambiar el nombre de la columna"
-},
-deleteColumnText: "¿Está seguro de que quiere eliminar esta columna?",
-okButtonText: "DE ACUERDO",
-cancelButtonText: "Cancelar",
-confirmDeleteText: "Confirmar eliminación",
+        insertColumn: "insertar columna",
+        deleteColumn: "eliminar columna",
+        renameColumn: "Cambiar el nombre de la columna"
+    },
+    deleteColumnText: "¿Está seguro de que quiere eliminar esta columna?",
+    okButtonText: "DE ACUERDO",
+    cancelButtonText: "Cancelar",
+    confirmDeleteText: "Confirmar eliminación",
     dropDownListBlanksText: "(Espacios en blanco)",
     dropDownListClearText: "(Borrar filtro)",
     trueText: "Cierto",
