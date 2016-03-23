@@ -186,7 +186,28 @@ ej.Gantt.Locale["ro-RO"] = {
         type: "Tip",
         offset: "ofset",
         baselineStartDate: "Dată de referință Start",
-        baselineEndDate: "Momentul inițial Data de încheiere"
+        baselineEndDate: "Momentul inițial Data de încheiere",
+        WBS: "wBS",
+        WBSpredecessor: "wBS predecesor"
+    },
+    columnDialogTexts: {
+        field: "Camp",
+        headerText: "Text antet",
+        editType: "Editare tip",
+        filterEditType: "Se filtrează Editare tip",
+        allowFiltering: "permite filtrarea",
+        allowFilteringBlankContent: "Permite filtrarea conținutului Blank",
+        allowSorting: "Se permite sortare",
+        visible: "Vizibil",
+        width: "Lăţime",
+        textAlign: "Aliniere text",
+        headerTextAlign: "Text antet Aliniere",
+        columnsDropdownData: "Coloană Drop Down date",
+        dropdownTableText: "Text",
+        dropdownTableValue: "Valoare",
+        addData: "Adăuga",
+        deleteData: "Elimina",
+        allowCellSelection: "Permite selectarea de celule"
     },
     editDialogTexts: {
         addFormTitle: "Sarcina noua",
@@ -231,8 +252,21 @@ ej.Gantt.Locale["ro-RO"] = {
     columnMenuTexts: {
         sortAscendingText: "sortare ascendentă",
         sortDescendingText: "sortează descendent",
-        columnsText: "coloane"
+        columnsText: "coloane",
+        insertColumnLeft: "Inserare coloană pe stânga",
+        insertColumnRight: "Inserare coloană pe dreapta",
+        deleteColumn: "ştergeţi coloana",
+        renameColumn: "redenumire coloană"
     },
+    columnDialogTitle: {
+        insertColumn: "Inserare coloană",
+        deleteColumn: "ştergeţi coloana",
+        renameColumn: "redenumire coloană"
+    },
+    deleteColumnText: "Sunteți sigur că doriți să ștergeți această coloană?",
+    okButtonText: "bine",
+    cancelButtonText: "Anulare",
+    confirmDeleteText: "confirmaţi ștergerea",
     predecessorEditingTexts: {
         fromText: "Din",
         toText: "La"
@@ -1494,8 +1528,42 @@ ej.TreeGrid.Locale["ro-RO"] = {
         columnsText: "coloane",
         freezeText: "Îngheţa",
         unfreezeText: "Dezghețați",
-        freezePrecedingColumnsText: "Îngheța coloanele precedente"
+        freezePrecedingColumnsText: "Îngheța coloanele precedente",
+        insertColumnLeft: "Inserare coloană pe stânga",
+        insertColumnRight: "Inserare coloană pe dreapta",
+        deleteColumn: "ştergeţi coloana",
+        renameColumn: "redenumire coloană"
     },
+    columnDialogTexts: {
+        field: "Camp",
+        headerText: "Text antet",
+        editType: "Editare tip",
+        filterEditType: "Se filtrează Editare tip",
+        allowFiltering: "permite filtrarea",
+        allowFilteringBlankContent: "Permite filtrarea conținutului Blank",
+        allowSorting: "Se permite sortare",
+        visible: "Vizibil",
+        width: "Lăţime",
+        textAlign: "Aliniere text",
+        headerTextAlign: "Text antet Aliniere",
+        isFrozen: "Este inghetat",
+        allowFreezing: "Se lasă congelare",
+        columnsDropdownData: "Coloană Drop Down date",
+        dropdownTableText: "Text",
+        dropdownTableValue: "Valoare",
+        addData: "Adăuga",
+        deleteData: "Elimina",
+        allowCellSelection: "Permite selectarea de celule"
+    },
+    columnDialogTitle: {
+        insertColumn: "Inserare coloană",
+        deleteColumn: "ştergeţi coloana",
+        renameColumn: "redenumire coloană"
+    },
+    deleteColumnText: "Sunteți sigur că doriți să ștergeți această coloană?",
+    okButtonText: "bine",
+    cancelButtonText: "Anulare",
+    confirmDeleteText: "confirmaţi ștergerea",
     dropDownListBlanksText: "(Blanc)",
     dropDownListClearText: "(Clear Filter)",
     trueText: "Adevărat",
