@@ -187,6 +187,8 @@ ej.Gantt.Locale["ru-RU"] = {
         offset: "смещение",
         baselineStartDate: "Базовый дата начала",
         baselineEndDate: "Базовый Окончание"
+        WBS: "WBS",
+        WBSpredecessor: "WBS Предшественник"
     },
     editDialogTexts: {
         addFormTitle: "Новая задача",
@@ -196,6 +198,25 @@ ej.Gantt.Locale["ru-RU"] = {
         cancelButton: "отменить",
         addPredecessor: "Добавить новый",
         removePredecessor: "удалять"
+    },
+    columnDialogTexts: {
+        field: "поле",
+        headerText: "Текст заголовка",
+        editType: "Изменить тип",
+        filterEditType: "Фильтр Изменить тип",
+        allowFiltering: "Разрешить фильтрацию",
+        allowFilteringBlankContent: "Разрешить фильтрацию пустой Содержимое",
+        allowSorting: "Разрешить сортировка",
+        visible: "видимый",
+        width: "Ширина",
+        textAlign: "Выравнивание текста",
+        headerTextAlign: "Заголовок Выравнивание текста",
+        columnsDropdownData: "Колонка выпадающим данных",
+        dropdownTableText: "Текст",
+        dropdownTableValue: "Стоимость",
+        addData: "Добавить",
+        deleteData: "Удалить",
+        allowCellSelection: "Разрешить выбор ячеек"
     },
     toolboxTooltipTexts: {
         addTool: "добавлять",
@@ -231,8 +252,21 @@ ej.Gantt.Locale["ru-RU"] = {
     columnMenuTexts: {
         sortAscendingText: "По возрастанию",
         sortDescendingText: "Сортировка по убыванию",
-        columnsText: "Колонны"
+        columnsText: "Колонны",
+        insertColumnLeft: "Вставить столбец слева",
+        insertColumnRight: "Вставить столбец справа",
+        deleteColumn: "Удалить столбец",
+        renameColumn: "Переименовать столбец"
     },
+    columnDialogTitle: {
+        insertColumn: "Вставить столбец",
+        deleteColumn: "Удалить столбец",
+        renameColumn: "Переименовать столбец"
+    },
+    deleteColumnText: "Вы уверены, что хотите удалить этот столбец?",
+    okButtonText: "ОК",
+    cancelButtonText: "Отмена",
+    confirmDeleteText: "Подтвердите удаление",
     predecessorEditingTexts: {
         fromText: "от",
         toText: "к"
@@ -1494,8 +1528,42 @@ ej.TreeGrid.Locale["ru-RU"] = {
         columnsText: "Колонны",
         freezeText: "замораживать",
         unfreezeText: "размораживать",
-        freezePrecedingColumnsText: "Замораживание предыдущие столбцы"
+        freezePrecedingColumnsText: "Замораживание предыдущие столбцы",
+        insertColumnLeft: "Вставить столбец слева",
+        insertColumnRight: "Вставить столбец справа",
+        deleteColumn: "Удалить столбец",
+        renameColumn: "Переименовать столбец"
     },
+    columnDialogTexts: {
+        field: "поле",
+        headerText: "Текст заголовка",
+        editType: "Изменить тип",
+        filterEditType: "Фильтр Изменить тип",
+        allowFiltering: "Разрешить фильтрацию",
+        allowFilteringBlankContent: "Разрешить фильтрацию пустой Содержимое",
+        allowSorting: "Разрешить сортировка",
+        visible: "видимый",
+        width: "Ширина",
+        textAlign: "Выравнивание текста",
+        headerTextAlign: "Заголовок Выравнивание текста",
+        isFrozen: "Замерз",
+        allowFreezing: "Разрешить Замораживание",
+        columnsDropdownData: "Колонка выпадающим данных",
+        dropdownTableText: "Текст",
+        dropdownTableValue: "Стоимость",
+        addData: "Добавить",
+        deleteData: "Удалить",
+        allowCellSelection: "Разрешить выбор ячеек"
+    },
+    columnDialogTitle: {
+        insertColumn: "Вставить столбец",
+        deleteColumn: "Удалить столбец",
+        renameColumn: "Переименовать столбец"
+    },
+    deleteColumnText: "Вы уверены, что хотите удалить этот столбец?",
+    okButtonText: "ОК",
+    cancelButtonText: "Отмена",
+    confirmDeleteText: "Подтвердите удаление",
     dropDownListBlanksText: "(Бланки)",
     dropDownListClearText: "(Очистить фильтр)",
     trueText: "правда",
