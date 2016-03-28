@@ -75,7 +75,8 @@ ej.ExcelFilter.Locale["sv-SE"] = {
     GuidFilter: "gud filter",
     TextFilter: "text filter",
     DateFilter: "Datum filter",
-	SelectAll: "Välj alla",
+    DateTimeFilter: "Datum Tid Filter",
+    SelectAll: "Välj alla",
     Blanks: "Blanks",
     Search: "Sök",
     Showrowswhere: "Visa rader där",
@@ -84,6 +85,7 @@ ej.ExcelFilter.Locale["sv-SE"] = {
     NumberMenuOptions: [{ text: "Lika", value: "equal" }, { text: "Inte jämnlikt", value: "notequal" }, { text: "Mindre än", value: "lessthan" }, { text: "Mindre än eller equal", value: "lessthanorequal" }, { text: "Större än", value: "greaterthan" }, { text: "Större än eller equal", value: "greaterthanorequal" }, { text: "Mellan", value: "between" }, { text: "anpassat filter", value: "customfilter" }, ],
     GuidMenuOptions: [{ text: "Lika", value: "equal" }, { text: "Inte jämnlikt", value: "notequal" }, { text: "anpassat filter", value: "customfilter" }, ],
     DateMenuOptions: [{ text: "Lika", value: "equal" }, { text: "Inte jämnlikt", value: "notequal" }, { text: "Mindre än", value: "lessthan" }, { text: "Mindre än eller equal", value: "lessthanorequal" }, { text: "Större än", value: "greaterthan" }, { text: "Större än eller equal", value: "greaterthanorequal" }, { text: "Mellan", value: "between" }, { text: "anpassat filter", value: "customfilter" }, ],
+    DatetimeMenuOptions: [{ text: "Lika", value: "equal" }, { text: "Inte jämnlikt", value: "notequal" }, { text: "Mindre än", value: "lessthan" }, { text: "Mindre än eller equal", value: "lessthanorequal" }, { text: "Större än", value: "greaterthan" }, { text: "Större än eller equal", value: "greaterthanorequal" }, { text: "Mellan", value: "between" }, { text: "anpassat filter", value: "customfilter" }, ],
     Top10MenuOptions: [{ text: "Topp", value: "top" }, { text: "Botten", value: "bottom" }, ],
     title: "anpassat filter",
     PredicateAnd: "OCH",
@@ -94,6 +96,7 @@ ej.ExcelFilter.Locale["sv-SE"] = {
     NoResult: "Inga matchningar funna",
     CheckBoxStatusMsg: "Inte alla objekt som visar",
     DatePickerWaterMark: "Välj datum",
+    DateTimePickerWaterMark: "Välj datum tid",
     True: "sann",
     False: "falsk",
 };
@@ -288,6 +291,7 @@ ej.Grid.Locale["sv-SE"] = {
     Search: "Sök",
     DatePickerWaterMark: "Välj datum",
     EmptyDataSource: "Datasource får inte vara tom vid första belastning eftersom kolumner genereras från datakälla i Autogenererad Kolumn Grid",
+    ForeignKeyAlert: "Det uppdaterade värdet bör vara ett giltigt främmande nyckel värde",
     True: "sann",
     False: "falsk",
     UnGroup: "Klicka här för att dela upp",
@@ -303,6 +307,8 @@ ej.Grid.Locale["sv-SE"] = {
     PreviousPage: "Föregående sida",
     FirstPage: "Första sidan",
     LastPage: "Sista sidan",
+    EmptyRowValidationMessage: "Minst ett fält måste uppdateras",
+    NoResult: "Inga matchningar funna"
 };
 ;
 if (ej.mobile !== undefined && ej.mobile.DatePicker !== undefined) {
