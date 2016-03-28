@@ -75,7 +75,8 @@ ej.ExcelFilter.Locale["tr-TR"] = {
     GuidFilter: "gud Filtreler",
     TextFilter: "metin Filtreleri",
     DateFilter: "Tarih Filtreler",
-	SelectAll: "Hepsini seç",
+    DateTimeFilter: "Tarih Saat Filtreler",
+    SelectAll: "Hepsini seç",
     Blanks: "Boşluklar",
     Search: "Arama",
     Showrowswhere: "Göster satırları nerede",
@@ -84,6 +85,7 @@ ej.ExcelFilter.Locale["tr-TR"] = {
     NumberMenuOptions: [{ text: "Eşit", value: "equal" }, { text: "Eşit değil", value: "notequal" }, { text: "Daha az", value: "lessthan" }, { text: "Veya Eşit Less Than", value: "lessthanorequal" }, { text: "Daha harika", value: "greaterthan" }, { text: "Veya Eşit Daha Büyük", value: "greaterthanorequal" }, { text: "Arasında", value: "between" }, { text: "özel Filtre", value: "customfilter" }, ],
     GuidMenuOptions: [{ text: "Eşit", value: "equal" }, { text: "Eşit değil", value: "notequal" }, { text: "özel Filtre", value: "customfilter" }, ],
     DateMenuOptions: [{ text: "Eşit", value: "equal" }, { text: "Eşit değil", value: "notequal" }, { text: "Daha az", value: "lessthan" }, { text: "Veya Eşit Less Than", value: "lessthanorequal" }, { text: "Daha harika", value: "greaterthan" }, { text: "Veya Eşit Daha Büyük", value: "greaterthanorequal" }, { text: "Arasında", value: "between" }, { text: "özel Filtre", value: "customfilter" }, ],
+    DatetimeMenuOptions: [{ text: "Eşit", value: "equal" }, { text: "Eşit değil", value: "notequal" }, { text: "Daha az", value: "lessthan" }, { text: "Veya Eşit Less Than", value: "lessthanorequal" }, { text: "Daha harika", value: "greaterthan" }, { text: "Veya Eşit Daha Büyük", value: "greaterthanorequal" }, { text: "Arasında", value: "between" }, { text: "özel Filtre", value: "customfilter" }, ],
     Top10MenuOptions: [{ text: "Üst", value: "top" }, { text: "Alt", value: "bottom" }, ],
     title: "özel Filtre",
     PredicateAnd: "VE",
@@ -94,6 +96,7 @@ ej.ExcelFilter.Locale["tr-TR"] = {
     NoResult: "Hiçbir sonuç bulunamadı",
     CheckBoxStatusMsg: "gösteren tüm öğeler",
     DatePickerWaterMark: "seçin tarih",
+    DateTimePickerWaterMark: "Seçin tarih saat",
     True: "gerçek",
     False: "yanlış",
 };
@@ -288,6 +291,7 @@ ej.Grid.Locale["tr-TR"] = {
     Search: "Arama",
     DatePickerWaterMark: "seçin tarih",
     EmptyDataSource: "sütunlar OtomatikOluşturuldu Sütun Grid dataSource üretilir beri DataSource ilk yükte boş olmamalıdır",
+    ForeignKeyAlert: "güncelleştirilmiş değeri geçerli bir yabancı anahtar değeri olmalıdır",
     True: "gerçek",
     False: "yanlış",
     UnGroup: "grubunu çözmek için buraya tıklayın",
@@ -303,6 +307,8 @@ ej.Grid.Locale["tr-TR"] = {
     PreviousPage: "Önceki sayfa",
     FirstPage: "İlk sayfa",
     LastPage: "Son Sayfa",
+    EmptyRowValidationMessage: "En az bir alan güncelleştirilmesi gerekir",
+    NoResult: "Hiçbir sonuç bulunamadı"
 };
 ;
 if (ej.mobile !== undefined && ej.mobile.DatePicker !== undefined) {
