@@ -186,7 +186,9 @@ ej.Gantt.Locale["hr-HR"] = {
         type: "Tip",
         offset: "ofset",
         baselineStartDate: "Osnovni Datum početka",
-        baselineEndDate: "Osnovni Datum završetka"
+        baselineEndDate: "Osnovni Datum završetka",
+        WBS: "WBS",
+        WBSpredecessor: "WBS prethodnik"
     },
     editDialogTexts: {
         addFormTitle: "Novi zadatak",
@@ -196,6 +198,25 @@ ej.Gantt.Locale["hr-HR"] = {
         cancelButton: "Otkazati",
         addPredecessor: "Dodaj novi",
         removePredecessor: "Ukloniti"
+    },
+    columnDialogTexts: {
+        field: "Polje",
+        headerText: "Tekst zaglavlja",
+        editType: "Uređivanje vrste",
+        filterEditType: "Filter Uredi vrstu",
+        allowFiltering: "Dopusti filtriranje",
+        allowFilteringBlankContent: "Dopusti filtriranje Prazan sadržaj",
+        allowSorting: "Dopusti sortiranje",
+        visible: "vidljiv",
+        width: "Širina",
+        textAlign: "Poravnanje teksta",
+        headerTextAlign: "Tekst zaglavlja Poravnanje",
+        columnsDropdownData: "Kolona padajući podataka",
+        dropdownTableText: "Tekst",
+        dropdownTableValue: "Vrijednost",
+        addData: "Dodati",
+        deleteData: "Ukloniti",
+        allowCellSelection: "Dopusti odabir ćelija"
     },
     toolboxTooltipTexts: {
         addTool: "Dodati",
@@ -231,8 +252,21 @@ ej.Gantt.Locale["hr-HR"] = {
     columnMenuTexts: {
         sortAscendingText: "Sortiraj uzlazno",
         sortDescendingText: "Sortiraj silazno",
-        columnsText: "Kolumne"
+        columnsText: "Kolumne",
+        insertColumnLeft: "Umetni stupac lijevo",
+        insertColumnRight: "Umetni stupac desno",
+        deleteColumn: "Obriši stupac",
+        renameColumn: "Promjena naziva stupca"
     },
+    columnDialogTitle: {
+        insertColumn: "Umetni stupac",
+        deleteColumn: "Obriši stupac",
+        renameColumn: "Promjena naziva stupca"
+    },
+    deleteColumnText: "Jeste li sigurni da želite obrisati ovu kolumnu?",
+    okButtonText: "u redu",
+    cancelButtonText: "Otkazati",
+    confirmDeleteText: "Potvrdi brisanje",
     predecessorEditingTexts: {
         fromText: "Iz",
         toText: "Do"
@@ -1494,8 +1528,42 @@ ej.TreeGrid.Locale["hr-HR"] = {
         columnsText: "Kolumne",
         freezeText: "Zamrznuti",
         unfreezeText: "odmrznuti",
-        freezePrecedingColumnsText: "Freeze prethodnih stupaca"
+        freezePrecedingColumnsText: "Freeze prethodnih stupaca",
+        insertColumnLeft: "Umetni stupac lijevo",
+        insertColumnRight: "Umetni stupac desno",
+        deleteColumn: "Obriši stupac",
+        renameColumn: "Promjena naziva stupca"
     },
+    columnDialogTexts: {
+        field: "Polje",
+        headerText: "Tekst zaglavlja",
+        editType: "Uređivanje vrste",
+        filterEditType: "Filter Uredi vrstu",
+        allowFiltering: "Dopusti filtriranje",
+        allowFilteringBlankContent: "Dopusti filtriranje Prazan sadržaj",
+        allowSorting: "Dopusti sortiranje",
+        visible: "vidljiv",
+        width: "Širina",
+        textAlign: "Poravnanje teksta",
+        headerTextAlign: "Tekst zaglavlja Poravnanje",
+        isFrozen: "je Frozen",
+        allowFreezing: "Dopustite zamrzavanje",
+        columnsDropdownData: "Kolona padajući podataka",
+        dropdownTableText: "Tekst",
+        dropdownTableValue: "Vrijednost",
+        addData: "Dodati",
+        deleteData: "Ukloniti",
+        allowCellSelection: "Dopusti odabir ćelija"
+    },
+    columnDialogTitle: {
+        insertColumn: "Umetni stupac",
+        deleteColumn: "Obriši stupac",
+        renameColumn: "Promjena naziva stupca"
+    },
+    deleteColumnText: "Jeste li sigurni da želite obrisati ovu kolumnu?",
+    okButtonText: "u redu",
+    cancelButtonText: "Otkazati",
+    confirmDeleteText: "Potvrdi brisanje",
     dropDownListBlanksText: "(Praznine)",
     dropDownListClearText: "(Clear Filter)",
     trueText: "Pravi",

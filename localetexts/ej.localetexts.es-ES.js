@@ -186,7 +186,9 @@ ej.Gantt.Locale["es-ES"] = {
         type: "Tipo",
         offset: "Compensar",
         baselineStartDate: "Fecha de Inicio de línea de base",
-        baselineEndDate: "Fecha de finalización de línea de base"
+        baselineEndDate: "Fecha de finalización de línea de base",
+        WBS: "WBS",
+        WBSpredecessor: "predecesor WBS"
     },
     editDialogTexts: {
         addFormTitle: "Nueva tarea",
@@ -196,6 +198,25 @@ ej.Gantt.Locale["es-ES"] = {
         cancelButton: "Cancelar",
         addPredecessor: "Agregar nuevo",
         removePredecessor: "retirar"
+    },
+    columnDialogTexts: {
+        field: "Campo",
+        headerText: "Texto de cabecera",
+        editType: "Editar Tipo",
+        filterEditType: "Editar filtro de Tipo",
+        allowFiltering: "permitir el filtrado",
+        allowFilteringBlankContent: "Permitir el filtrado de contenido en blanco",
+        allowSorting: "permitir la clasificación",
+        visible: "Visible",
+        width: "Anchura",
+        textAlign: "Alineación de texto",
+        headerTextAlign: "Alineación de texto de encabezado",
+        columnsDropdownData: "Columna gota datos de Down",
+        dropdownTableText: "Texto",
+        dropdownTableValue: "Valor",
+        addData: "Añadir",
+        deleteData: "retirar",
+        allowCellSelection: "Permitir selección de la célula"
     },
     toolboxTooltipTexts: {
         addTool: "Añadir",
@@ -231,8 +252,21 @@ ej.Gantt.Locale["es-ES"] = {
     columnMenuTexts: {
         sortAscendingText: "Orden ascendente",
         sortDescendingText: "Orden descendiente",
-        columnsText: "columnas"
+        columnsText: "columnas",
+        insertColumnLeft: "Insertar columna izquierda",
+        insertColumnRight: "Insertar columna derecha",
+        deleteColumn: "eliminar columna",
+        renameColumn: "Cambiar el nombre de la columna"
     },
+    columnDialogTitle: {
+        insertColumn: "insertar columna",
+        deleteColumn: "eliminar columna",
+        renameColumn: "Cambiar el nombre de la columna"
+    },
+    deleteColumnText: "¿Está seguro de que quiere eliminar esta columna?",
+    okButtonText: "DE ACUERDO",
+    cancelButtonText: "Cancelar",
+    confirmDeleteText: "Confirmar eliminación",
     predecessorEditingTexts: {
         fromText: "De",
         toText: "A"
@@ -1494,8 +1528,42 @@ ej.TreeGrid.Locale["es-ES"] = {
         columnsText: "columnas",
         freezeText: "Congelar",
         unfreezeText: "Descongelar",
-        freezePrecedingColumnsText: "Congelar columnas precedentes"
+        freezePrecedingColumnsText: "Congelar columnas precedentes",
+        insertColumnLeft: "Insertar columna izquierda",
+        insertColumnRight: "Insertar columna derecha",
+        deleteColumn: "eliminar columna",
+        renameColumn: "Cambiar el nombre de la columna"
     },
+    columnDialogTexts: {
+        field: "Campo",
+        headerText: "Texto de cabecera",
+        editType: "Editar Tipo",
+        filterEditType: "Editar filtro de Tipo",
+        allowFiltering: "permitir el filtrado",
+        allowFilteringBlankContent: "Permitir el filtrado de contenido en blanco",
+        allowSorting: "permitir la clasificación",
+        visible: "Visible",
+        width: "Anchura",
+        textAlign: "Alineación de texto",
+        headerTextAlign: "Alineación de texto de encabezado",
+        isFrozen: "Está congelado",
+        allowFreezing: "Permitir congelación",
+        columnsDropdownData: "Columna gota datos de Down",
+        dropdownTableText: "Texto",
+        dropdownTableValue: "Valor",
+        addData: "Añadir",
+        deleteData: "retirar",
+        allowCellSelection: "Permitir selección de la célula"
+    },
+    columnDialogTitle: {
+        insertColumn: "insertar columna",
+        deleteColumn: "eliminar columna",
+        renameColumn: "Cambiar el nombre de la columna"
+    },
+    deleteColumnText: "¿Está seguro de que quiere eliminar esta columna?",
+    okButtonText: "DE ACUERDO",
+    cancelButtonText: "Cancelar",
+    confirmDeleteText: "Confirmar eliminación",
     dropDownListBlanksText: "(Espacios en blanco)",
     dropDownListClearText: "(Borrar filtro)",
     trueText: "Cierto",

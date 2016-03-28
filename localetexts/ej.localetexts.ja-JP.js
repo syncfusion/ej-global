@@ -186,7 +186,9 @@ ej.Gantt.Locale["ja-JP"] = {
         type: "タイプ",
         offset: "オフセット",
         baselineStartDate: "ベースライン開始日",
-        baselineEndDate: "ベースライン終了日"
+        baselineEndDate: "ベースライン終了日",
+        WBS: "WBS",
+        WBSpredecessor: "WBSの前身"
     },
     editDialogTexts: {
         addFormTitle: "新しい仕事",
@@ -196,6 +198,25 @@ ej.Gantt.Locale["ja-JP"] = {
         cancelButton: "キャンセル",
         addPredecessor: "新しく追加する",
         removePredecessor: "削除します"
+    },
+    columnDialogTexts: {
+        field: "フィールド",
+        headerText: "ヘッダーテキスト",
+        editType: "編集タイプ",
+        filterEditType: "[タイプの編集をフィルタリング",
+        allowFiltering: "フィルタリングを許可します",
+        allowFilteringBlankContent: "フィルタリング空白のコンテンツを許可",
+        allowSorting: "並べ替えを許可します",
+        visible: "目に見えます",
+        width: "幅",
+        textAlign: "テキストアラインメント",
+        headerTextAlign: "ヘッダーテキストの配置",
+        columnsDropdownData: "列のドロップダウンデータ",
+        dropdownTableText: "テキスト",
+        dropdownTableValue: "値",
+        addData: "加えます",
+        deleteData: "削除します",
+        allowCellSelection: "セルの選択を許可します"
     },
     toolboxTooltipTexts: {
         addTool: "加えます",
@@ -231,8 +252,21 @@ ej.Gantt.Locale["ja-JP"] = {
     columnMenuTexts: {
         sortAscendingText: "昇順で並べ替え",
         sortDescendingText: "降順ソート",
-        columnsText: "コラム"
+        columnsText: "コラム",
+        insertColumnLeft: "列の左に挿入",
+        insertColumnRight: "列の右を挿入",
+        deleteColumn: "列の削除",
+        renameColumn: "列の名前を変更"
     },
+    columnDialogTitle: {
+        insertColumn: "列の挿入",
+        deleteColumn: "列の削除",
+        renameColumn: "列の名前を変更"
+    },
+    deleteColumnText: "あなたは、この列を削除してもよろしいですか？",
+    okButtonText: "[OK]",
+    cancelButtonText: "キャンセル",
+    confirmDeleteText: "削除の確認",
     predecessorEditingTexts: {
         fromText: "から",
         toText: "に"
@@ -1494,8 +1528,42 @@ ej.TreeGrid.Locale["ja-JP"] = {
         columnsText: "コラム",
         freezeText: "フリーズ",
         unfreezeText: "解凍",
-        freezePrecedingColumnsText: "先行列をフリーズ"
+        freezePrecedingColumnsText: "先行列をフリーズ",
+        insertColumnLeft: "列の左に挿入",
+        insertColumnRight: "列の右を挿入",
+        deleteColumn: "列の削除",
+        renameColumn: "列の名前を変更"
     },
+    columnDialogTexts: {
+        field: "フィールド",
+        headerText: "ヘッダーテキスト",
+        editType: "編集タイプ",
+        filterEditType: "[タイプの編集をフィルタリング",
+        allowFiltering: "フィルタリングを許可します",
+        allowFilteringBlankContent: "フィルタリング空白のコンテンツを許可",
+        allowSorting: "並べ替えを許可します",
+        visible: "目に見えます",
+        width: "幅",
+        textAlign: "テキストアラインメント",
+        headerTextAlign: "ヘッダーテキストの配置",
+        isFrozen: "冷凍は、",
+        allowFreezing: "凍結を許可します",
+        columnsDropdownData: "列のドロップダウンデータ",
+        dropdownTableText: "テキスト",
+        dropdownTableValue: "値",
+        addData: "加えます",
+        deleteData: "削除します",
+        allowCellSelection: "セルの選択を許可します"
+    },
+    columnDialogTitle: {
+        insertColumn: "列の挿入",
+        deleteColumn: "列の削除",
+        renameColumn: "列の名前を変更"
+    },
+    deleteColumnText: "あなたは、この列を削除してもよろしいですか？",
+    okButtonText: "[OK]",
+    cancelButtonText: "キャンセル",
+    confirmDeleteText: "削除の確認",
     dropDownListBlanksText: "（ブランク）",
     dropDownListClearText: "（クリアフィルター）",
     trueText: "真",

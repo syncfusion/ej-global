@@ -186,7 +186,9 @@ ej.Gantt.Locale["ko-KR"] = {
         type: "유형",
         offset: "오프셋",
         baselineStartDate: "베이스 라인 시작 날짜",
-        baselineEndDate: "기본 종료 날짜"
+        baselineEndDate: "기본 종료 날짜",
+        WBS: "WBS",
+        WBSpredecessor: "WBS의 선행"
     },
     editDialogTexts: {
         addFormTitle: "새 작업",
@@ -196,6 +198,25 @@ ej.Gantt.Locale["ko-KR"] = {
         cancelButton: "취소",
         addPredecessor: "새로운 걸 더하다",
         removePredecessor: "풀다"
+    },
+    columnDialogTexts: {
+        field: "들",
+        headerText: "헤더 텍스트",
+        editType: "편집 유형",
+        filterEditType: "편집 형 필터",
+        allowFiltering: "필터링 허용",
+        allowFilteringBlankContent: "필터링 빈 컨텐츠 허용",
+        allowSorting: "정렬 허용",
+        visible: "명백한",
+        width: "폭",
+        textAlign: "텍스트 정렬",
+        headerTextAlign: "헤더 텍스트 정렬",
+        columnsDropdownData: "열 드롭 다운 데이터",
+        dropdownTableText: "본문",
+        dropdownTableValue: "값",
+        addData: "더하다",
+        deleteData: "없애다",
+        allowCellSelection: "셀 선택 허용"
     },
     toolboxTooltipTexts: {
         addTool: "더하다",
@@ -231,8 +252,21 @@ ej.Gantt.Locale["ko-KR"] = {
     columnMenuTexts: {
         sortAscendingText: "정렬 오름차순",
         sortDescendingText: "정렬 내림차순",
-        columnsText: "열"
+        columnsText: "열",
+        insertColumnLeft: "열 왼쪽에 삽입",
+        insertColumnRight: "오른쪽에 열 삽입",
+        deleteColumn: "열 삭제",
+        renameColumn: "열 이름 바꾸기"
     },
+    columnDialogTitle: {
+        insertColumn: "열 삽입",
+        deleteColumn: "열 삭제",
+        renameColumn: "열 이름 바꾸기"
+    },
+    deleteColumnText: "이 열을 삭제 하시겠습니까?",
+    okButtonText: "그래",
+    cancelButtonText: "취소",
+    confirmDeleteText: "삭제 확인",
     predecessorEditingTexts: {
         fromText: "에서",
         toText: "에"
@@ -1494,8 +1528,42 @@ ej.TreeGrid.Locale["ko-KR"] = {
         columnsText: "열",
         freezeText: "얼다",
         unfreezeText: "녹이다",
-        freezePrecedingColumnsText: "선행 열을 고정"
+        freezePrecedingColumnsText: "선행 열을 고정",
+        insertColumnLeft: "열 왼쪽에 삽입",
+        insertColumnRight: "오른쪽에 열 삽입",
+        deleteColumn: "열 삭제",
+        renameColumn: "열 이름 바꾸기"
     },
+    columnDialogTexts: {
+        field: "들",
+        headerText: "헤더 텍스트",
+        editType: "편집 유형",
+        filterEditType: "편집 형 필터",
+        allowFiltering: "필터링 허용",
+        allowFilteringBlankContent: "필터링 빈 컨텐츠 허용",
+        allowSorting: "정렬 허용",
+        visible: "명백한",
+        width: "폭",
+        textAlign: "텍스트 정렬",
+        headerTextAlign: "헤더 텍스트 정렬",
+        isFrozen: "냉동입니다",
+        allowFreezing: "냉동 허용",
+        columnsDropdownData: "열 드롭 다운 데이터",
+        dropdownTableText: "본문",
+        dropdownTableValue: "값",
+        addData: "더하다",
+        deleteData: "없애다",
+        allowCellSelection: "셀 선택 허용"
+    },
+    columnDialogTitle: {
+        insertColumn: "열 삽입",
+        deleteColumn: "열 삭제",
+        renameColumn: "열 이름 바꾸기"
+    },
+    deleteColumnText: "이 열을 삭제 하시겠습니까?",
+    okButtonText: "그래",
+    cancelButtonText: "취소",
+    confirmDeleteText: "삭제 확인",
     dropDownListBlanksText: "(공백)",
     dropDownListClearText: "(클리어 필터)",
     trueText: "참된",

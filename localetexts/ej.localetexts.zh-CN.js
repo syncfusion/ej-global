@@ -186,7 +186,9 @@ ej.Gantt.Locale["zh-CN"] = {
         type: "类型",
         offset: "抵消",
         baselineStartDate: "基线开始日期",
-        baselineEndDate: "基线结束日期"
+        baselineEndDate: "基线结束日期",
+        WBS: "WBS",
+        WBSpredecessor: "WBS前身"
     },
     editDialogTexts: {
         addFormTitle: "新任务",
@@ -196,6 +198,25 @@ ej.Gantt.Locale["zh-CN"] = {
         cancelButton: "取消",
         addPredecessor: "添新",
         removePredecessor: "清除"
+    },
+    columnDialogTexts: {
+        field: "领域",
+        headerText: "标题文本",
+        editType: "编辑类型",
+        filterEditType: "过滤器编辑类型",
+        allowFiltering: "允许过滤",
+        allowFilteringBlankContent: "允许过滤空白内容",
+        allowSorting: "允许排序",
+        visible: "可见",
+        width: "宽度",
+        textAlign: "文本对齐",
+        headerTextAlign: "头文字对齐",
+        columnsDropdownData: "列下拉数据",
+        dropdownTableText: "文本",
+        dropdownTableValue: "值",
+        addData: "加",
+        deleteData: "去掉",
+        allowCellSelection: "允许小区选择"
     },
     toolboxTooltipTexts: {
         addTool: "加",
@@ -231,8 +252,21 @@ ej.Gantt.Locale["zh-CN"] = {
     columnMenuTexts: {
         sortAscendingText: "升序",
         sortDescendingText: "降序",
-        columnsText: "列"
+        columnsText: "列",
+        insertColumnLeft: "在左侧插入列",
+        insertColumnRight: "在右侧插入列",
+        deleteColumn: "删除列",
+        renameColumn: "重列"
     },
+    columnDialogTitle: {
+        insertColumn: "插入列",
+        deleteColumn: "删除列",
+        renameColumn: "重列"
+    },
+    deleteColumnText: "你确定要删除此列？",
+    okButtonText: "好",
+    cancelButtonText: "取消",
+    confirmDeleteText: "确认删除",
     predecessorEditingTexts: {
         fromText: "从",
         toText: "至"
@@ -1494,8 +1528,42 @@ ej.TreeGrid.Locale["zh-CN"] = {
         columnsText: "列",
         freezeText: "冻结",
         unfreezeText: "解冻",
-        freezePrecedingColumnsText: "冻结在先的栏目"
+        freezePrecedingColumnsText: "冻结在先的栏目",
+        insertColumnLeft: "在左侧插入列",
+        insertColumnRight: "在右侧插入列",
+        deleteColumn: "删除列",
+        renameColumn: "重列"
     },
+    columnDialogTexts: {
+        field: "领域",
+        headerText: "标题文本",
+        editType: "编辑类型",
+        filterEditType: "过滤器编辑类型",
+        allowFiltering: "允许过滤",
+        allowFilteringBlankContent: "允许过滤空白内容",
+        allowSorting: "允许排序",
+        visible: "可见",
+        width: "宽度",
+        textAlign: "文本对齐",
+        headerTextAlign: "头文字对齐",
+        isFrozen: "被冻结",
+        allowFreezing: "允许冷冻",
+        columnsDropdownData: "列下拉数据",
+        dropdownTableText: "文本",
+        dropdownTableValue: "值",
+        addData: "加",
+        deleteData: "去掉",
+        allowCellSelection: "允许小区选择"
+    },
+    columnDialogTitle: {
+        insertColumn: "插入列",
+        deleteColumn: "删除列",
+        renameColumn: "重列"
+    },
+    deleteColumnText: "你确定要删除此列？",
+    okButtonText: "好",
+    cancelButtonText: "取消",
+    confirmDeleteText: "确认删除",
     dropDownListBlanksText: "（空白）",
     dropDownListClearText: "（清除过滤器）",
     trueText: "真正",

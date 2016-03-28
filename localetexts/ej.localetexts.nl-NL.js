@@ -186,7 +186,9 @@ ej.Gantt.Locale["nl-NL"] = {
         type: "Type",
         offset: "compenseren",
         baselineStartDate: "Baseline Startdatum",
-        baselineEndDate: "Baseline Einddatum"
+        baselineEndDate: "Baseline Einddatum",
+        WBS: "WBS",
+        WBSpredecessor: "WBS voorganger"
     },
     editDialogTexts: {
         addFormTitle: "Nieuwe taak",
@@ -196,6 +198,25 @@ ej.Gantt.Locale["nl-NL"] = {
         cancelButton: "Annuleer",
         addPredecessor: "Nieuwe toevoegen",
         removePredecessor: "Verwijderen"
+    },
+    columnDialogTexts: {
+        field: "Veld",
+        headerText: "Koptekst",
+        editType: "Type bewerken",
+        filterEditType: "Filter Type Bewerken",
+        allowFiltering: "laat Filtering",
+        allowFilteringBlankContent: "Laat Filtering Blank Content",
+        allowSorting: "laat sorteren",
+        visible: "Zichtbaar",
+        width: "Breedte",
+        textAlign: "tekstuitlijning",
+        headerTextAlign: "Koptekst Alignment",
+        columnsDropdownData: "Column dropdown gegevens",
+        dropdownTableText: "Tekst",
+        dropdownTableValue: "Waarde",
+        addData: "Toevoegen",
+        deleteData: "Verwijderen",
+        allowCellSelection: "Laat Cell Selection"
     },
     toolboxTooltipTexts: {
         addTool: "Toevoegen",
@@ -231,8 +252,21 @@ ej.Gantt.Locale["nl-NL"] = {
     columnMenuTexts: {
         sortAscendingText: "Oplopend sorteren",
         sortDescendingText: "Aflopend sorteren",
-        columnsText: "columns"
+        columnsText: "columns",
+        insertColumnLeft: "Kolom links invoegen",
+        insertColumnRight: "Invoegen Kolom rechts",
+        deleteColumn: "Kolom verwijderen",
+        renameColumn: "Rename Column"
     },
+    columnDialogTitle: {
+        insertColumn: "Kolom invoegen",
+        deleteColumn: "Kolom verwijderen",
+        renameColumn: "Rename Column"
+    },
+    deleteColumnText: "Bent u zeker dat u deze kolom wilt verwijderen?",
+    okButtonText: "OK",
+    cancelButtonText: "Annuleer",
+    confirmDeleteText: "Bevestig verwijderen",
     predecessorEditingTexts: {
         fromText: "Van",
         toText: "Naar"
@@ -1494,8 +1528,42 @@ ej.TreeGrid.Locale["nl-NL"] = {
         columnsText: "columns",
         freezeText: "Bevriezen",
         unfreezeText: "ontdooien",
-        freezePrecedingColumnsText: "Freeze Voorafgaand Columns"
+        freezePrecedingColumnsText: "Freeze Voorafgaand Columns",
+        insertColumnLeft: "Kolom links invoegen",
+        insertColumnRight: "Invoegen Kolom rechts",
+        deleteColumn: "Kolom verwijderen",
+        renameColumn: "Rename Column"
     },
+    columnDialogTexts: {
+        field: "Veld",
+        headerText: "Koptekst",
+        editType: "Type bewerken",
+        filterEditType: "Filter Type Bewerken",
+        allowFiltering: "laat Filtering",
+        allowFilteringBlankContent: "Laat Filtering Blank Content",
+        allowSorting: "laat sorteren",
+        visible: "Zichtbaar",
+        width: "Breedte",
+        textAlign: "tekstuitlijning",
+        headerTextAlign: "Koptekst Alignment",
+        isFrozen: "Is bevroren",
+        allowFreezing: "laat Freezing",
+        columnsDropdownData: "Column dropdown gegevens",
+        dropdownTableText: "Tekst",
+        dropdownTableValue: "Waarde",
+        addData: "Toevoegen",
+        deleteData: "Verwijderen",
+        allowCellSelection: "Laat Cell Selection"
+    },
+    columnDialogTitle: {
+        insertColumn: "Kolom invoegen",
+        deleteColumn: "Kolom verwijderen",
+        renameColumn: "Rename Column"
+    },
+    deleteColumnText: "Bent u zeker dat u deze kolom wilt verwijderen?",
+    okButtonText: "OK",
+    cancelButtonText: "Annuleer",
+    confirmDeleteText: "Bevestig verwijderen",
     dropDownListBlanksText: "(Blanks)",
     dropDownListClearText: "(Clear Filter)",
     trueText: "waar",

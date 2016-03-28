@@ -186,7 +186,9 @@ ej.Gantt.Locale["nb-NO"] = {
         type: "Type",
         offset: "Offset",
         baselineStartDate: "Baseline Startdato",
-        baselineEndDate: "Baseline Sluttdato"
+        baselineEndDate: "Baseline Sluttdato",
+        WBS: "WBS",
+        WBSpredecessor: "WBS forgjenger"
     },
     editDialogTexts: {
         addFormTitle: "ny oppgave",
@@ -196,6 +198,25 @@ ej.Gantt.Locale["nb-NO"] = {
         cancelButton: "Kansellere",
         addPredecessor: "Legg til ny",
         removePredecessor: "Fjerne"
+    },
+    columnDialogTexts: {
+        field: "feltet",
+        headerText: "Topptekst",
+        editType: "Rediger Type",
+        filterEditType: "Filter Rediger Type",
+        allowFiltering: "Tillat filtrering",
+        allowFilteringBlankContent: "Tillat filtrering Blank innhold",
+        allowSorting: "Tillat Sortering",
+        visible: "Synlig",
+        width: "Bredde",
+        textAlign: "tekst~~POS=TRUNC",
+        headerTextAlign: "Header Tekstjustering",
+        columnsDropdownData: "Kolonne Drop Down data",
+        dropdownTableText: "Tekst",
+        dropdownTableValue: "Verdi",
+        addData: "Legg til",
+        deleteData: "Fjerne",
+        allowCellSelection: "Tillat Cell Selection"
     },
     toolboxTooltipTexts: {
         addTool: "Legg til",
@@ -231,8 +252,21 @@ ej.Gantt.Locale["nb-NO"] = {
     columnMenuTexts: {
         sortAscendingText: "Sorter stigende",
         sortDescendingText: "Sorter synkende",
-        columnsText: "kolonner"
+        columnsText: "kolonner",
+        insertColumnLeft: "Sett inn kolonne Venstre",
+        insertColumnRight: "Sett inn kolonne til høyre",
+        deleteColumn: "Slett kolonne",
+        renameColumn: "Gi nytt navn Column"
     },
+    columnDialogTitle: {
+        insertColumn: "Sett inn kolonne",
+        deleteColumn: "Slett kolonne",
+        renameColumn: "Gi nytt navn Column"
+    },
+    deleteColumnText: "Er du sikker på at du vil slette denne kolonnen?",
+    okButtonText: "ok",
+    cancelButtonText: "Kansellere",
+    confirmDeleteText: "bekreft Slett",
     predecessorEditingTexts: {
         fromText: "Fra",
         toText: "Til"
@@ -1494,8 +1528,42 @@ ej.TreeGrid.Locale["nb-NO"] = {
         columnsText: "kolonner",
         freezeText: "Fryse",
         unfreezeText: "oppheve frysing",
-        freezePrecedingColumnsText: "Freeze Forutgående kolonner"
+        freezePrecedingColumnsText: "Freeze Forutgående kolonner",
+        insertColumnLeft: "Sett inn kolonne Venstre",
+        insertColumnRight: "Sett inn kolonne til høyre",
+        deleteColumn: "Slett kolonne",
+        renameColumn: "Gi nytt navn Column"
     },
+    columnDialogTexts: {
+        field: "feltet",
+        headerText: "Topptekst",
+        editType: "Rediger Type",
+        filterEditType: "Filter Rediger Type",
+        allowFiltering: "Tillat filtrering",
+        allowFilteringBlankContent: "Tillat filtrering Blank innhold",
+        allowSorting: "Tillat Sortering",
+        visible: "Synlig",
+        width: "Bredde",
+        textAlign: "tekst~~POS=TRUNC",
+        headerTextAlign: "Header Tekstjustering",
+        isFrozen: "Er fryst",
+        allowFreezing: "Tillat Frysing",
+        columnsDropdownData: "Kolonne Drop Down data",
+        dropdownTableText: "Tekst",
+        dropdownTableValue: "Verdi",
+        addData: "Legg til",
+        deleteData: "Fjerne",
+        allowCellSelection: "Tillat Cell Selection"
+    },
+    columnDialogTitle: {
+        insertColumn: "Sett inn kolonne",
+        deleteColumn: "Slett kolonne",
+        renameColumn: "Gi nytt navn Column"
+    },
+    deleteColumnText: "Er du sikker på at du vil slette denne kolonnen?",
+    okButtonText: "ok",
+    cancelButtonText: "Kansellere",
+    confirmDeleteText: "bekreft Slett",
     dropDownListBlanksText: "(Blanks)",
     dropDownListClearText: "(Clear Filter)",
     trueText: "ekte",

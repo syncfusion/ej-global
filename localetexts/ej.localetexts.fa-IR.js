@@ -186,7 +186,9 @@ ej.Gantt.Locale["fa-IR"] = {
         type: "نوع",
         offset: "انحراف",
         baselineStartDate: "در شروع مطالعه تاریخ شروع",
-        baselineEndDate: "در شروع مطالعه تاریخ پایان"
+        baselineEndDate: "در شروع مطالعه تاریخ پایان",
+        WBS: "WBS",
+        WBSpredecessor: "سلف WBS"
     },
     editDialogTexts: {
         addFormTitle: "وظیفه جدید",
@@ -196,6 +198,25 @@ ej.Gantt.Locale["fa-IR"] = {
         cancelButton: "لغو کردن",
         addPredecessor: "اضافه کردن جدید",
         removePredecessor: "برداشتن"
+    },
+    columnDialogTexts: {
+        field: "رشته",
+        headerText: "سربرگ متن",
+        editType: "ویرایش نوع",
+        filterEditType: "فیلتر را ویرایش کنید نوع",
+        allowFiltering: "امکان فیلترینگ",
+        allowFilteringBlankContent: "اجازه می دهد فیلترینگ محتوا خالی",
+        allowSorting: "اجازه مرتب سازی",
+        visible: "قابل رویت",
+        width: "عرض",
+        textAlign: "ترازبندی متن",
+        headerTextAlign: "سربرگ ترازبندی متن",
+        columnsDropdownData: "ستون کشویی داده",
+        dropdownTableText: "متن",
+        dropdownTableValue: "ارزش",
+        addData: "اضافه کردن",
+        deleteData: "برداشتن",
+        allowCellSelection: "اجازه می دهد انتخاب سلول"
     },
     toolboxTooltipTexts: {
         addTool: "اضافه کردن",
@@ -231,8 +252,21 @@ ej.Gantt.Locale["fa-IR"] = {
     columnMenuTexts: {
         sortAscendingText: "ترتیب صعودی",
         sortDescendingText: "ترتیب نزولی",
-        columnsText: "ستون ها"
+        columnsText: "ستون ها",
+        insertColumnLeft: "درج ستون در چپ",
+        insertColumnRight: "درج ستون در راست",
+        deleteColumn: "حذف ستون",
+        renameColumn: "تغییر نام ستون"
     },
+    columnDialogTitle: {
+        insertColumn: "درج ستون",
+        deleteColumn: "حذف ستون",
+        renameColumn: "تغییر نام ستون"
+    },
+    deleteColumnText: "آیا شما مطمئن هستید که میخواهید این ستون را حذف کنید؟",
+    okButtonText: "خوب",
+    cancelButtonText: "لغو کردن",
+    confirmDeleteText: "تایید حذف",
     predecessorEditingTexts: {
         fromText: "از جانب",
         toText: "به"
@@ -1494,8 +1528,42 @@ ej.TreeGrid.Locale["fa-IR"] = {
         columnsText: "ستون ها",
         freezeText: "یخ زدگی",
         unfreezeText: "لغو ثابت",
-        freezePrecedingColumnsText: "ستونهای پیش از"
+        freezePrecedingColumnsText: "ستونهای پیش از",
+        insertColumnLeft: "درج ستون در چپ",
+        insertColumnRight: "درج ستون در راست",
+        deleteColumn: "حذف ستون",
+        renameColumn: "تغییر نام ستون"
     },
+    columnDialogTexts: {
+        field: "رشته",
+        headerText: "سربرگ متن",
+        editType: "ویرایش نوع",
+        filterEditType: "فیلتر را ویرایش کنید نوع",
+        allowFiltering: "امکان فیلترینگ",
+        allowFilteringBlankContent: "اجازه می دهد فیلترینگ محتوا خالی",
+        allowSorting: "اجازه مرتب سازی",
+        visible: "قابل رویت",
+        width: "عرض",
+        textAlign: "ترازبندی متن",
+        headerTextAlign: "سربرگ ترازبندی متن",
+        isFrozen: "یخ زده",
+        allowFreezing: "اجازه انجماد",
+        columnsDropdownData: "ستون کشویی داده",
+        dropdownTableText: "متن",
+        dropdownTableValue: "ارزش",
+        addData: "اضافه کردن",
+        deleteData: "برداشتن",
+        allowCellSelection: "اجازه می دهد انتخاب سلول"
+    },
+    columnDialogTitle: {
+        insertColumn: "درج ستون",
+        deleteColumn: "حذف ستون",
+        renameColumn: "تغییر نام ستون"
+    },
+    deleteColumnText: "آیا شما مطمئن هستید که میخواهید این ستون را حذف کنید؟",
+    okButtonText: "خوب",
+    cancelButtonText: "لغو کردن",
+    confirmDeleteText: "تایید حذف",
     dropDownListBlanksText: "(شاهد)",
     dropDownListClearText: "(پاک فیلتر)",
     trueText: "درست",

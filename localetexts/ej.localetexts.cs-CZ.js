@@ -186,7 +186,9 @@ ej.Gantt.Locale["cs-CZ"] = {
         type: "Typ",
         offset: "ofset",
         baselineStartDate: "Baseline Start Date",
-        baselineEndDate: "Baseline Datum ukončení"
+        baselineEndDate: "Baseline Datum ukončení",
+        WBS: "WBS",
+        WBSpredecessor: "WBS předchůdce"
     },
     editDialogTexts: {
         addFormTitle: "nový úkol",
@@ -196,6 +198,25 @@ ej.Gantt.Locale["cs-CZ"] = {
         cancelButton: "Zrušit",
         addPredecessor: "Přidat nový",
         removePredecessor: "Odstranit"
+    },
+    columnDialogTexts: {
+        field: "Pole",
+        headerText: "Text záhlaví",
+        editType: "Upravit typ",
+        filterEditType: "Filtr Upravit typ",
+        allowFiltering: "povolit filtrování",
+        allowFilteringBlankContent: "Povolit filtrování obsahu Blank",
+        allowSorting: "umožnit řazení",
+        visible: "viditelný",
+        width: "Šířka",
+        textAlign: "Zarovnání textu",
+        headerTextAlign: "Hlavička Zarovnání textu",
+        columnsDropdownData: "Sloupec Drop Down dat",
+        dropdownTableText: "Text",
+        dropdownTableValue: "Hodnota",
+        addData: "Přidat",
+        deleteData: "Odstranit",
+        allowCellSelection: "Umožnit výběr Cell"
     },
     toolboxTooltipTexts: {
         addTool: "Přidat",
@@ -231,8 +252,21 @@ ej.Gantt.Locale["cs-CZ"] = {
     columnMenuTexts: {
         sortAscendingText: "Řadit vzestupně",
         sortDescendingText: "třídit sestupně",
-        columnsText: "sloupce"
+        columnsText: "sloupce",
+        insertColumnLeft: "Vložte levém sloupci",
+        insertColumnRight: "Vložit sloupec vpravo",
+        deleteColumn: "Odstranit sloupec",
+        renameColumn: "přejmenovat sloupec"
     },
+    columnDialogTitle: {
+        insertColumn: "vložit sloupec",
+        deleteColumn: "Odstranit sloupec",
+        renameColumn: "přejmenovat sloupec"
+    },
+    deleteColumnText: "Jste si jisti, že chcete smazat tento sloupec?",
+    okButtonText: "OK",
+    cancelButtonText: "Zrušit",
+    confirmDeleteText: "potvrdit smazání",
     predecessorEditingTexts: {
         fromText: "Od",
         toText: "Na"
@@ -1494,8 +1528,42 @@ ej.TreeGrid.Locale["cs-CZ"] = {
         columnsText: "sloupce",
         freezeText: "Zmrazit",
         unfreezeText: "Uvolnit",
-        freezePrecedingColumnsText: "Zmrazit předcházejících rubrikách"
+        freezePrecedingColumnsText: "Zmrazit předcházejících rubrikách",
+        insertColumnLeft: "Vložte levém sloupci",
+        insertColumnRight: "Vložit sloupec vpravo",
+        deleteColumn: "Odstranit sloupec",
+        renameColumn: "přejmenovat sloupec"
     },
+    columnDialogTexts: {
+        field: "Pole",
+        headerText: "Text záhlaví",
+        editType: "Upravit typ",
+        filterEditType: "Filtr Upravit typ",
+        allowFiltering: "povolit filtrování",
+        allowFilteringBlankContent: "Povolit filtrování obsahu Blank",
+        allowSorting: "umožnit řazení",
+        visible: "viditelný",
+        width: "Šířka",
+        textAlign: "Zarovnání textu",
+        headerTextAlign: "Hlavička Zarovnání textu",
+        isFrozen: "je Frozen",
+        allowFreezing: "umožnit Zmrazení",
+        columnsDropdownData: "Sloupec Drop Down dat",
+        dropdownTableText: "Text",
+        dropdownTableValue: "Hodnota",
+        addData: "Přidat",
+        deleteData: "Odstranit",
+        allowCellSelection: "Umožnit výběr Cell"
+    },
+    columnDialogTitle: {
+        insertColumn: "vložit sloupec",
+        deleteColumn: "Odstranit sloupec",
+        renameColumn: "přejmenovat sloupec"
+    },
+    deleteColumnText: "Jste si jisti, že chcete smazat tento sloupec?",
+    okButtonText: "OK",
+    cancelButtonText: "Zrušit",
+    confirmDeleteText: "potvrdit smazání",
     dropDownListBlanksText: "(Prázdné)",
     dropDownListClearText: "(Clear Filter)",
     trueText: "Skutečný",

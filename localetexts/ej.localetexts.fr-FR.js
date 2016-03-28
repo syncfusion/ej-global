@@ -186,7 +186,9 @@ ej.Gantt.Locale["fr-FR"] = {
         type: "Type",
         offset: "Offset",
         baselineStartDate: "Date de début de base",
-        baselineEndDate: "Baseline Date de fin"
+        baselineEndDate: "Baseline Date de fin",
+        WBS: "WBS",
+        WBSpredecessor: "WBS prédécesseur"
     },
     editDialogTexts: {
         addFormTitle: "Nouvelle tâche",
@@ -196,6 +198,25 @@ ej.Gantt.Locale["fr-FR"] = {
         cancelButton: "Annuler",
         addPredecessor: "Ajouter un nouveau",
         removePredecessor: "Retirer"
+    },
+    columnDialogTexts: {
+        field: "Champ",
+        headerText: "En-tête",
+        editType: "Modifier le type",
+        filterEditType: "Modifier le type de filtre",
+        allowFiltering: "Autoriser le filtrage",
+        allowFilteringBlankContent: "Autoriser le filtrage du contenu Blank",
+        allowSorting: "Autoriser tri",
+        visible: "Visible",
+        width: "Largeur",
+        textAlign: "Alignement du texte",
+        headerTextAlign: "Alignement du texte en-tête",
+        columnsDropdownData: "Colonne Chute de données vers le bas",
+        dropdownTableText: "Texte",
+        dropdownTableValue: "Valeur",
+        addData: "Ajouter",
+        deleteData: "Retirer",
+        allowCellSelection: "Autoriser la sélection de cellules"
     },
     toolboxTooltipTexts: {
         addTool: "Ajouter",
@@ -231,8 +252,21 @@ ej.Gantt.Locale["fr-FR"] = {
     columnMenuTexts: {
         sortAscendingText: "Trier par ordre croissant",
         sortDescendingText: "Trier par ordre décroissant",
-        columnsText: "colonnes"
+        columnsText: "colonnes",
+        insertColumnLeft: "Insérez la colonne de gauche",
+        insertColumnRight: "Insérez la colonne de droite",
+        deleteColumn: "Supprimer la colonne",
+        renameColumn: "Renommer la colonne"
     },
+    columnDialogTitle: {
+        insertColumn: "Insérer une colonne",
+        deleteColumn: "Supprimer la colonne",
+        renameColumn: "Renommer la colonne"
+    },
+    deleteColumnText: "Êtes-vous sûr de vouloir supprimer cette colonne?",
+    okButtonText: "D'accord",
+    cancelButtonText: "Annuler",
+    confirmDeleteText: "Confirmation de la suppression",
     predecessorEditingTexts: {
         fromText: "De",
         toText: "À"
@@ -1494,8 +1528,42 @@ ej.TreeGrid.Locale["fr-FR"] = {
         columnsText: "colonnes",
         freezeText: "Gel",
         unfreezeText: "Dégeler",
-        freezePrecedingColumnsText: "Figer les colonnes antérieures à"
+        freezePrecedingColumnsText: "Figer les colonnes antérieures à",
+        insertColumnLeft: "Insérez la colonne de gauche",
+        insertColumnRight: "Insérez la colonne de droite",
+        deleteColumn: "Supprimer la colonne",
+        renameColumn: "Renommer la colonne"
     },
+    columnDialogTexts: {
+        field: "Champ",
+        headerText: "En-tête",
+        editType: "Modifier le type",
+        filterEditType: "Modifier le type de filtre",
+        allowFiltering: "Autoriser le filtrage",
+        allowFilteringBlankContent: "Autoriser le filtrage du contenu Blank",
+        allowSorting: "Autoriser tri",
+        visible: "Visible",
+        width: "Largeur",
+        textAlign: "Alignement du texte",
+        headerTextAlign: "Alignement du texte en-tête",
+        isFrozen: "Est gelé",
+        allowFreezing: "Autoriser congélation",
+        columnsDropdownData: "Colonne Chute de données vers le bas",
+        dropdownTableText: "Texte",
+        dropdownTableValue: "Valeur",
+        addData: "Ajouter",
+        deleteData: "Retirer",
+        allowCellSelection: "Autoriser la sélection de cellules"
+    },
+    columnDialogTitle: {
+        insertColumn: "Insérer une colonne",
+        deleteColumn: "Supprimer la colonne",
+        renameColumn: "Renommer la colonne"
+    },
+    deleteColumnText: "Êtes-vous sûr de vouloir supprimer cette colonne?",
+    okButtonText: "D'accord",
+    cancelButtonText: "Annuler",
+    confirmDeleteText: "Confirmation de la suppression",
     dropDownListBlanksText: "(Vides)",
     dropDownListClearText: "(Clear Filter)",
     trueText: "Vrai",

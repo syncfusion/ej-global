@@ -186,7 +186,9 @@ ej.Gantt.Locale["fi-FI"] = {
         type: "Tyyppi",
         offset: "Offset",
         baselineStartDate: "Baseline aloituspäivä",
-        baselineEndDate: "Baseline Päättymispäivä"
+        baselineEndDate: "Baseline Päättymispäivä",
+        WBS: "WBS",
+        WBSpredecessor: "WBS edeltäjä"
     },
     editDialogTexts: {
         addFormTitle: "uusi tehtävä",
@@ -196,6 +198,25 @@ ej.Gantt.Locale["fi-FI"] = {
         cancelButton: "Peruuttaa",
         addPredecessor: "Lisää uusi",
         removePredecessor: "Poistaa"
+    },
+    columnDialogTexts: {
+        field: "Ala",
+        headerText: "Yläteksti",
+        editType: "Edit Type",
+        filterEditType: "Suodatin Edit Type",
+        allowFiltering: "salli suodatus",
+        allowFilteringBlankContent: "Salli Suodatus Tyhjä sisältö",
+        allowSorting: "salli lajittelu",
+        visible: "Näkyvä",
+        width: "Leveys",
+        textAlign: "tekstin tasaus",
+        headerTextAlign: "Yläteksti Tasaus",
+        columnsDropdownData: "Sarake Drop Down Data",
+        dropdownTableText: "Teksti",
+        dropdownTableValue: "Arvo",
+        addData: "Lisätä",
+        deleteData: "Poistaa",
+        allowCellSelection: "Salli Cell Selection"
     },
     toolboxTooltipTexts: {
         addTool: "Lisätä",
@@ -231,8 +252,21 @@ ej.Gantt.Locale["fi-FI"] = {
     columnMenuTexts: {
         sortAscendingText: "Lajittele nousevasti",
         sortDescendingText: "Lajittele laskevasti",
-        columnsText: "Pylväät"
+        columnsText: "Pylväät",
+        insertColumnLeft: "Lisää sarake vasemmalle",
+        insertColumnRight: "Lisää sarake Oikea",
+        deleteColumn: "Poista sarake",
+        renameColumn: "Nimeä sarake"
     },
+    columnDialogTitle: {
+        insertColumn: "Lisää sarake",
+        deleteColumn: "Poista sarake",
+        renameColumn: "Nimeä sarake"
+    },
+    deleteColumnText: "Oletko varma, että haluat poistaa tämän sarakkeen?",
+    okButtonText: "kunnossa",
+    cancelButtonText: "Peruuttaa",
+    confirmDeleteText: "vahvista poistaminen",
     predecessorEditingTexts: {
         fromText: "Mistä",
         toText: "jotta"
@@ -1494,8 +1528,42 @@ ej.TreeGrid.Locale["fi-FI"] = {
         columnsText: "Pylväät",
         freezeText: "jäädyttää",
         unfreezeText: "Vapauttaa",
-        freezePrecedingColumnsText: "Freeze Edeltävät sarakkeet"
+        freezePrecedingColumnsText: "Freeze Edeltävät sarakkeet",
+        insertColumnLeft: "Lisää sarake vasemmalle",
+        insertColumnRight: "Lisää sarake Oikea",
+        deleteColumn: "Poista sarake",
+        renameColumn: "Nimeä sarake"
     },
+    columnDialogTexts: {
+        field: "Ala",
+        headerText: "Yläteksti",
+        editType: "Edit Type",
+        filterEditType: "Suodatin Edit Type",
+        allowFiltering: "salli suodatus",
+        allowFilteringBlankContent: "Salli Suodatus Tyhjä sisältö",
+        allowSorting: "salli lajittelu",
+        visible: "Näkyvä",
+        width: "Leveys",
+        textAlign: "tekstin tasaus",
+        headerTextAlign: "Yläteksti Tasaus",
+        isFrozen: "On jäässä",
+        allowFreezing: "salli Pakastaminen",
+        columnsDropdownData: "Sarake Drop Down Data",
+        dropdownTableText: "Teksti",
+        dropdownTableValue: "Arvo",
+        addData: "Lisätä",
+        deleteData: "Poistaa",
+        allowCellSelection: "Salli Cell Selection"
+    },
+    columnDialogTitle: {
+        insertColumn: "Lisää sarake",
+        deleteColumn: "Poista sarake",
+        renameColumn: "Nimeä sarake"
+    },
+    deleteColumnText: "Oletko varma, että haluat poistaa tämän sarakkeen?",
+    okButtonText: "kunnossa",
+    cancelButtonText: "Peruuttaa",
+    confirmDeleteText: "vahvista poistaminen",
     dropDownListBlanksText: "(Aihiot)",
     dropDownListClearText: "(Clear Filter)",
     trueText: "Totta",

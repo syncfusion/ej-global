@@ -186,7 +186,9 @@ ej.Gantt.Locale["ms-MY"] = {
         type: "Jenis",
         offset: "Offset",
         baselineStartDate: "Baseline Tarikh Mula",
-        baselineEndDate: "Baseline Tarikh Tamat"
+        baselineEndDate: "Baseline Tarikh Tamat",
+        WBS: "WBS",
+        WBSpredecessor: "WBS Pendahulu"
     },
     editDialogTexts: {
         addFormTitle: "New Task",
@@ -196,6 +198,25 @@ ej.Gantt.Locale["ms-MY"] = {
         cancelButton: "Batal",
         addPredecessor: "Tambah baru",
         removePredecessor: "Buang"
+    },
+    columnDialogTexts: {
+        field: "Field",
+        headerText: "Tandukan Text",
+        editType: "Edit Jenis",
+        filterEditType: "Penapis Edit Jenis",
+        allowFiltering: "Benarkan Penapisan",
+        allowFilteringBlankContent: "Benarkan Penapisan Kandungan Blank",
+        allowSorting: "Benarkan Sorting",
+        visible: "yang boleh dilihat",
+        width: "lebar",
+        textAlign: "Penjajaran teks",
+        headerTextAlign: "Tandukan Teks Penjajaran",
+        columnsDropdownData: "Ruangan Drop Down Data",
+        dropdownTableText: "teks",
+        dropdownTableValue: "nilai",
+        addData: "Tambah",
+        deleteData: "Buang",
+        allowCellSelection: "Benarkan Pemilihan Cell"
     },
     toolboxTooltipTexts: {
         addTool: "Tambah",
@@ -231,8 +252,21 @@ ej.Gantt.Locale["ms-MY"] = {
     columnMenuTexts: {
         sortAscendingText: "Susun menaik",
         sortDescendingText: "Susun Menurun",
-        columnsText: "Kolum"
+        columnsText: "Kolum",
+        insertColumnLeft: "Sisipkan Lajur Kiri",
+        insertColumnRight: "Masukkan Ruangan Right",
+        deleteColumn: "Padam Ruangan",
+        renameColumn: "Nama semula Ruangan"
     },
+    columnDialogTitle: {
+        insertColumn: "masukkan Ruangan",
+        deleteColumn: "Padam Ruangan",
+        renameColumn: "Nama semula Ruangan"
+    },
+    deleteColumnText: "Adakah anda pasti anda mahu memadamkan lajur ini?",
+    okButtonText: "okey",
+    cancelButtonText: "Batal",
+    confirmDeleteText: "sahkan Padam",
     predecessorEditingTexts: {
         fromText: "dari",
         toText: "untuk"
@@ -1494,8 +1528,42 @@ ej.TreeGrid.Locale["ms-MY"] = {
         columnsText: "Kolum",
         freezeText: "Freeze",
         unfreezeText: "unfreeze",
-        freezePrecedingColumnsText: "Membekukan Kolum sebelumnya"
+        freezePrecedingColumnsText: "Membekukan Kolum sebelumnya",
+        insertColumnLeft: "Sisipkan Lajur Kiri",
+        insertColumnRight: "Masukkan Ruangan Right",
+        deleteColumn: "Padam Ruangan",
+        renameColumn: "Nama semula Ruangan"
     },
+    columnDialogTexts: {
+        field: "Field",
+        headerText: "Tandukan Text",
+        editType: "Edit Jenis",
+        filterEditType: "Penapis Edit Jenis",
+        allowFiltering: "Benarkan Penapisan",
+        allowFilteringBlankContent: "Benarkan Penapisan Kandungan Blank",
+        allowSorting: "Benarkan Sorting",
+        visible: "yang boleh dilihat",
+        width: "lebar",
+        textAlign: "Penjajaran teks",
+        headerTextAlign: "Tandukan Teks Penjajaran",
+        isFrozen: "Adakah Frozen",
+        allowFreezing: "Benarkan Pembekuan",
+        columnsDropdownData: "Ruangan Drop Down Data",
+        dropdownTableText: "teks",
+        dropdownTableValue: "nilai",
+        addData: "Tambah",
+        deleteData: "Buang",
+        allowCellSelection: "Benarkan Pemilihan Cell"
+    },
+    columnDialogTitle: {
+        insertColumn: "masukkan Ruangan",
+        deleteColumn: "Padam Ruangan",
+        renameColumn: "Nama semula Ruangan"
+    },
+    deleteColumnText: "Adakah anda pasti anda mahu memadamkan lajur ini?",
+    okButtonText: "okey",
+    cancelButtonText: "Batal",
+    confirmDeleteText: "sahkan Padam",
     dropDownListBlanksText: "(Kosong)",
     dropDownListClearText: "(Penapis Clear)",
     trueText: "benar",

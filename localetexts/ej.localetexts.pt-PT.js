@@ -186,7 +186,9 @@ ej.Gantt.Locale["pt-PT"] = {
         type: "Digitar",
         offset: "compensar",
         baselineStartDate: "Data de início da linha de base",
-        baselineEndDate: "Data-Base End"
+        baselineEndDate: "Data-Base End",
+        WBS: "WBS",
+        WBSpredecessor: "WBS Predecessor"
     },
     editDialogTexts: {
         addFormTitle: "Nova tarefa",
@@ -196,6 +198,25 @@ ej.Gantt.Locale["pt-PT"] = {
         cancelButton: "Cancelar",
         addPredecessor: "Adicionar novo",
         removePredecessor: "Remover"
+    },
+    columnDialogTexts: {
+        field: "Campo",
+        headerText: "Texto do cabeçalho",
+        editType: "Editar Tipo",
+        filterEditType: "Filtro Editar Tipo",
+        allowFiltering: "permitir Filtragem",
+        allowFilteringBlankContent: "Permitir Filtragem de Conteúdo em branco",
+        allowSorting: "permitir Seleção",
+        visible: "Visível",
+        width: "Largura",
+        textAlign: "Alinhamento de texto",
+        headerTextAlign: "Header alinhamento do texto",
+        columnsDropdownData: "Coluna Gota de dados de Down",
+        dropdownTableText: "Texto",
+        dropdownTableValue: "Valor",
+        addData: "Adicionar",
+        deleteData: "Remover",
+        allowCellSelection: "Permitir selecção celular"
     },
     toolboxTooltipTexts: {
         addTool: "Adicionar",
@@ -231,8 +252,21 @@ ej.Gantt.Locale["pt-PT"] = {
     columnMenuTexts: {
         sortAscendingText: "Ordernar ascendente",
         sortDescendingText: "Ordenação descendente",
-        columnsText: "colunas"
+        columnsText: "colunas",
+        insertColumnLeft: "Inserir coluna à esquerda",
+        insertColumnRight: "Inserir coluna à direita",
+        deleteColumn: "excluir coluna",
+        renameColumn: "renomear Coluna"
     },
+    columnDialogTitle: {
+        insertColumn: "inserir coluna",
+        deleteColumn: "excluir coluna",
+        renameColumn: "renomear Coluna"
+    },
+    deleteColumnText: "Tem certeza de que deseja excluir esta coluna?",
+    okButtonText: "Está bem",
+    cancelButtonText: "Cancelar",
+    confirmDeleteText: "confirmar Apagar",
     predecessorEditingTexts: {
         fromText: "A partir de",
         toText: "Para"
@@ -1494,8 +1528,42 @@ ej.TreeGrid.Locale["pt-PT"] = {
         columnsText: "colunas",
         freezeText: "Congelar",
         unfreezeText: "Descongelar",
-        freezePrecedingColumnsText: "Congelar coluna precedente"
+        freezePrecedingColumnsText: "Congelar coluna precedente",
+        insertColumnLeft: "Inserir coluna à esquerda",
+        insertColumnRight: "Inserir coluna à direita",
+        deleteColumn: "excluir coluna",
+        renameColumn: "renomear Coluna"
     },
+    columnDialogTexts: {
+        field: "Campo",
+        headerText: "Texto do cabeçalho",
+        editType: "Editar Tipo",
+        filterEditType: "Filtro Editar Tipo",
+        allowFiltering: "permitir Filtragem",
+        allowFilteringBlankContent: "Permitir Filtragem de Conteúdo em branco",
+        allowSorting: "permitir Seleção",
+        visible: "Visível",
+        width: "Largura",
+        textAlign: "Alinhamento de texto",
+        headerTextAlign: "Header alinhamento do texto",
+        isFrozen: "Está congelado",
+        allowFreezing: "permitir congelamento",
+        columnsDropdownData: "Coluna Gota de dados de Down",
+        dropdownTableText: "Texto",
+        dropdownTableValue: "Valor",
+        addData: "Adicionar",
+        deleteData: "Remover",
+        allowCellSelection: "Permitir selecção celular"
+    },
+    columnDialogTitle: {
+        insertColumn: "inserir coluna",
+        deleteColumn: "excluir coluna",
+        renameColumn: "renomear Coluna"
+    },
+    deleteColumnText: "Tem certeza de que deseja excluir esta coluna?",
+    okButtonText: "Está bem",
+    cancelButtonText: "Cancelar",
+    confirmDeleteText: "confirmar Apagar",
     dropDownListBlanksText: "(Blanks)",
     dropDownListClearText: "(Filtro limpo)",
     trueText: "Verdade",

@@ -186,7 +186,9 @@ ej.Gantt.Locale["he-IL"] = {
         type: "סוּג",
         offset: "לְקַזֵז",
         baselineStartDate: "תאריך Baseline התחל",
-        baselineEndDate: "תאריך Baseline End"
+        baselineEndDate: "תאריך Baseline End",
+        WBS: "WBS",
+        WBSpredecessor: "קודם WBS"
     },
     editDialogTexts: {
         addFormTitle: "משימה חדשה",
@@ -196,6 +198,25 @@ ej.Gantt.Locale["he-IL"] = {
         cancelButton: "לְבַטֵל",
         addPredecessor: "הוסף חדש",
         removePredecessor: "לְהַסִיר"
+    },
+    columnDialogTexts: {
+        field: "שדה",
+        headerText: "טקסט הכותרת",
+        editType: "סוג העריכה",
+        filterEditType: "מסנן ערוך סוג",
+        allowFiltering: "אפשר סינון",
+        allowFilteringBlankContent: "אפשר סינון תוכן בלנק",
+        allowSorting: "אפשר מיון",
+        visible: "נִרְאֶה",
+        width: "רוֹחַב",
+        textAlign: "יישור טקסט",
+        headerTextAlign: "יישור טקסט הכותרת",
+        columnsDropdownData: "נתוני עמודה בגלילה למטה",
+        dropdownTableText: "טֶקסט",
+        dropdownTableValue: "ערך",
+        addData: "לְהוֹסִיף",
+        deleteData: "לְהַסִיר",
+        allowCellSelection: "אפשר בחירה ניידת"
     },
     toolboxTooltipTexts: {
         addTool: "לְהוֹסִיף",
@@ -231,8 +252,21 @@ ej.Gantt.Locale["he-IL"] = {
     columnMenuTexts: {
         sortAscendingText: "מיין לפי סדר עולה",
         sortDescendingText: "יורד מיין",
-        columnsText: "עמודות"
+        columnsText: "עמודות",
+        insertColumnLeft: "הכנס טור שמאל",
+        insertColumnRight: "הוסף עמודה מימין",
+        deleteColumn: "מחק עמודה",
+        renameColumn: "שינוי שם עמודה"
     },
+    columnDialogTitle: {
+        insertColumn: "הכנס טור",
+        deleteColumn: "מחק עמודה",
+        renameColumn: "שינוי שם עמודה"
+    },
+    deleteColumnText: "האם אתה בטוח שאתה רוצה למחוק את הטור הזה?",
+    okButtonText: "בסדר",
+    cancelButtonText: "לְבַטֵל",
+    confirmDeleteText: "אשרמחיקה",
     predecessorEditingTexts: {
         fromText: "מ",
         toText: "ל"
@@ -1494,8 +1528,42 @@ ej.TreeGrid.Locale["he-IL"] = {
         columnsText: "עמודות",
         freezeText: "הַקפָּאָה",
         unfreezeText: "לְהַפְשִׁיר",
-        freezePrecedingColumnsText: "הקפא עמודות שקדמה"
+        freezePrecedingColumnsText: "הקפא עמודות שקדמה",
+        insertColumnLeft: "הכנס טור שמאל",
+        insertColumnRight: "הוסף עמודה מימין",
+        deleteColumn: "מחק עמודה",
+        renameColumn: "שינוי שם עמודה"
     },
+    columnDialogTexts: {
+        field: "שדה",
+        headerText: "טקסט הכותרת",
+        editType: "סוג העריכה",
+        filterEditType: "מסנן ערוך סוג",
+        allowFiltering: "אפשר סינון",
+        allowFilteringBlankContent: "אפשר סינון תוכן בלנק",
+        allowSorting: "אפשר מיון",
+        visible: "נִרְאֶה",
+        width: "רוֹחַב",
+        textAlign: "יישור טקסט",
+        headerTextAlign: "יישור טקסט הכותרת",
+        isFrozen: "קפוא",
+        allowFreezing: "אפשר לקפוא",
+        columnsDropdownData: "נתוני עמודה בגלילה למטה",
+        dropdownTableText: "טֶקסט",
+        dropdownTableValue: "ערך",
+        addData: "לְהוֹסִיף",
+        deleteData: "לְהַסִיר",
+        allowCellSelection: "אפשר בחירה ניידת"
+    },
+    columnDialogTitle: {
+        insertColumn: "הכנס טור",
+        deleteColumn: "מחק עמודה",
+        renameColumn: "שינוי שם עמודה"
+    },
+    deleteColumnText: "האם אתה בטוח שאתה רוצה למחוק את הטור הזה?",
+    okButtonText: "בסדר",
+    cancelButtonText: "לְבַטֵל",
+    confirmDeleteText: "אשרמחיקה",
     dropDownListBlanksText: "(מקומות ריקים)",
     dropDownListClearText: "(נקה מסנן)",
     trueText: "נָכוֹן",

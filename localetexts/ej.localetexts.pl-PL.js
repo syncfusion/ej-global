@@ -186,7 +186,28 @@ ej.Gantt.Locale["pl-PL"] = {
         type: "Rodzaj",
         offset: "Offsetowy",
         baselineStartDate: "Baseline Data rozpoczęcia",
-        baselineEndDate: "Baseline Data zakończenia"
+        baselineEndDate: "Baseline Data zakończenia",
+        WBS: "WBS",
+        WBSpredecessor: "WBS poprzednik"
+    },
+    columnDialogTexts: {
+        field: "Pole",
+        headerText: "Tekst nagłówka",
+        editType: "Edycja typu",
+        filterEditType: "Filtr Edytuj typ",
+        allowFiltering: "Pozwól Filtering",
+        allowFilteringBlankContent: "Pozwól Filtering Pusta zawartość",
+        allowSorting: "Pozwól Sortowanie",
+        visible: "Widoczny",
+        width: "Szerokość",
+        textAlign: "Wyrównanie tekstu",
+        headerTextAlign: "Nagłówek Wyrównanie tekstu",
+        columnsDropdownData: "Kolumna rozwijane danych",
+        dropdownTableText: "Tekst",
+        dropdownTableValue: "Wartość",
+        addData: "Dodaj",
+        deleteData: "Usunąć",
+        allowCellSelection: "Pozwól selekcji komórek"
     },
     editDialogTexts: {
         addFormTitle: "Nowe zadanie",
@@ -231,8 +252,21 @@ ej.Gantt.Locale["pl-PL"] = {
     columnMenuTexts: {
         sortAscendingText: "Sortuj rosnąco",
         sortDescendingText: "Sortuj malejąco",
-        columnsText: "kolumny"
+        columnsText: "kolumny",
+        insertColumnLeft: "Włóż lewej kolumnie",
+        insertColumnRight: "Włóż prawej kolumnie",
+        deleteColumn: "Usuń kolumnę",
+        renameColumn: "Zmiana nazwy kolumny"
     },
+    columnDialogTitle: {
+        insertColumn: "Wstaw kolumnę",
+        deleteColumn: "Usuń kolumnę",
+        renameColumn: "Zmiana nazwy kolumny"
+    },
+    deleteColumnText: "Czy na pewno chcesz usunąć tę kolumnę?",
+    okButtonText: "ok",
+    cancelButtonText: "Anuluj",
+    confirmDeleteText: "Potwierdź usunięcie",
     predecessorEditingTexts: {
         fromText: "Od",
         toText: "Do"
@@ -1494,8 +1528,42 @@ ej.TreeGrid.Locale["pl-PL"] = {
         columnsText: "kolumny",
         freezeText: "Zamrażać",
         unfreezeText: "Odmrozić",
-        freezePrecedingColumnsText: "Zamrozić poprzednich kolumn"
+        freezePrecedingColumnsText: "Zamrozić poprzednich kolumn",
+        insertColumnLeft: "Włóż lewej kolumnie",
+        insertColumnRight: "Włóż prawej kolumnie",
+        deleteColumn: "Usuń kolumnę",
+        renameColumn: "Zmiana nazwy kolumny"
     },
+    columnDialogTexts: {
+        field: "Pole",
+        headerText: "Tekst nagłówka",
+        editType: "Edycja typu",
+        filterEditType: "Filtr Edytuj typ",
+        allowFiltering: "Pozwól Filtering",
+        allowFilteringBlankContent: "Pozwól Filtering Pusta zawartość",
+        allowSorting: "Pozwól Sortowanie",
+        visible: "Widoczny",
+        width: "Szerokość",
+        textAlign: "Wyrównanie tekstu",
+        headerTextAlign: "Nagłówek Wyrównanie tekstu",
+        isFrozen: "Jest zamarznięty",
+        allowFreezing: "Pozwól Zamrażanie",
+        columnsDropdownData: "Kolumna rozwijane danych",
+        dropdownTableText: "Tekst",
+        dropdownTableValue: "Wartość",
+        addData: "Dodaj",
+        deleteData: "Usunąć",
+        allowCellSelection: "Pozwól selekcji komórek"
+    },
+    columnDialogTitle: {
+        insertColumn: "Wstaw kolumnę",
+        deleteColumn: "Usuń kolumnę",
+        renameColumn: "Zmiana nazwy kolumny"
+    },
+    deleteColumnText: "Czy na pewno chcesz usunąć tę kolumnę?",
+    okButtonText: "ok",
+    cancelButtonText: "Anuluj",
+    confirmDeleteText: "Potwierdź usunięcie",
     dropDownListBlanksText: "(Puste)",
     dropDownListClearText: "(Clear Filter)",
     trueText: "Prawdziwe",

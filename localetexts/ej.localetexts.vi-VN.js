@@ -186,7 +186,9 @@ ej.Gantt.Locale["vi-VN"] = {
         type: "Kiểu",
         offset: "Bù lại",
         baselineStartDate: "Baseline Ngày bắt đầu",
-        baselineEndDate: "Baseline Cuối Ngày"
+        baselineEndDate: "Baseline Cuối Ngày",
+        WBS: "WBS",
+        WBSpredecessor: "WBS vị tiền nhiệm"
     },
     editDialogTexts: {
         addFormTitle: "Nhiệm vụ mới",
@@ -196,6 +198,25 @@ ej.Gantt.Locale["vi-VN"] = {
         cancelButton: "hủy bỏ",
         addPredecessor: "Thêm mới",
         removePredecessor: "Tẩy"
+    },
+    columnDialogTexts: {
+        field: "Cánh đồng",
+        headerText: "văn bản Tiêu đề",
+        editType: "Sửa Loại",
+        filterEditType: "Lọc Sửa Loại",
+        allowFiltering: "cho phép lọc",
+        allowFilteringBlankContent: "Cho phép lọc nội dung trống",
+        allowSorting: "cho phép phân loại",
+        visible: "Có thể nhìn thấy",
+        width: "Chiều rộng",
+        textAlign: "Tiêu Alignment",
+        headerTextAlign: "Văn bản Tiêu đề Alignment",
+        columnsDropdownData: "Cột từ trên xuống dữ liệu",
+        dropdownTableText: "Bản văn",
+        dropdownTableValue: "Giá trị",
+        addData: "Thêm vào",
+        deleteData: "Tẩy",
+        allowCellSelection: "Cho phép lựa chọn di động"
     },
     toolboxTooltipTexts: {
         addTool: "Thêm vào",
@@ -231,8 +252,21 @@ ej.Gantt.Locale["vi-VN"] = {
     columnMenuTexts: {
         sortAscendingText: "Sắp xếp tăng dần",
         sortDescendingText: "Sắp xếp Giảm dần",
-        columnsText: "Cột"
+        columnsText: "Cột",
+        insertColumnLeft: "Chèn cột trái",
+        insertColumnRight: "Chèn cột phải",
+        deleteColumn: "xóa cột",
+        renameColumn: "Đổi tên cột"
     },
+    columnDialogTitle: {
+        insertColumn: "chèn cột",
+        deleteColumn: "xóa cột",
+        renameColumn: "Đổi tên cột"
+    },
+    deleteColumnText: "Bạn có chắc chắn muốn xóa cột này?",
+    okButtonText: "được",
+    cancelButtonText: "hủy bỏ",
+    confirmDeleteText: "Xác nhận Xóa",
     predecessorEditingTexts: {
         fromText: "Từ",
         toText: "Đến"
@@ -1494,8 +1528,42 @@ ej.TreeGrid.Locale["vi-VN"] = {
         columnsText: "Cột",
         freezeText: "Đông cứng",
         unfreezeText: "làm cho lỏng ra",
-        freezePrecedingColumnsText: "Freeze Cột trước"
+        freezePrecedingColumnsText: "Freeze Cột trước",
+        insertColumnLeft: "Chèn cột trái",
+        insertColumnRight: "Chèn cột phải",
+        deleteColumn: "xóa cột",
+        renameColumn: "Đổi tên cột"
     },
+    columnDialogTexts: {
+        field: "Cánh đồng",
+        headerText: "văn bản Tiêu đề",
+        editType: "Sửa Loại",
+        filterEditType: "Lọc Sửa Loại",
+        allowFiltering: "cho phép lọc",
+        allowFilteringBlankContent: "Cho phép lọc nội dung trống",
+        allowSorting: "cho phép phân loại",
+        visible: "Có thể nhìn thấy",
+        width: "Chiều rộng",
+        textAlign: "Tiêu Alignment",
+        headerTextAlign: "Văn bản Tiêu đề Alignment",
+        isFrozen: "là đông lạnh",
+        allowFreezing: "cho phép Freezing",
+        columnsDropdownData: "Cột từ trên xuống dữ liệu",
+        dropdownTableText: "Bản văn",
+        dropdownTableValue: "Giá trị",
+        addData: "Thêm vào",
+        deleteData: "Tẩy",
+        allowCellSelection: "Cho phép lựa chọn di động"
+    },
+    columnDialogTitle: {
+        insertColumn: "chèn cột",
+        deleteColumn: "xóa cột",
+        renameColumn: "Đổi tên cột"
+    },
+    deleteColumnText: "Bạn có chắc chắn muốn xóa cột này?",
+    okButtonText: "được",
+    cancelButtonText: "hủy bỏ",
+    confirmDeleteText: "Xác nhận Xóa",
     dropDownListBlanksText: "(Blanks)",
     dropDownListClearText: "(Clear Filter)",
     trueText: "Thật",

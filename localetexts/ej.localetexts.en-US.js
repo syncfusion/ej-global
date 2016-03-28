@@ -216,7 +216,9 @@ ej.Gantt.Locale["en-US"] = {
         type: "Type",
         offset: "Offset",
         baselineStartDate: "Baseline Start Date",
-        baselineEndDate: "Baseline End Date"
+        baselineEndDate: "Baseline End Date",
+        WBS: "WBS",
+        WBSpredecessor: "WBS Predecessor"
     },
 
     //string to display in dialog 
@@ -229,7 +231,26 @@ ej.Gantt.Locale["en-US"] = {
         addPredecessor: "Add New",
         removePredecessor: "Remove"
     },
-
+    //string to display in column add dialog 
+    columnDialogTexts: {
+        field: "Field",
+        headerText: "Header Text",
+        editType: "Edit Type",
+        filterEditType: "Filter Edit Type",
+        allowFiltering: "Allow Filtering",
+        allowFilteringBlankContent: "Allow Filtering Blank Content",
+        allowSorting: "Allow Sorting",
+        visible: "Visible",
+        width: "Width",
+        textAlign: "Text Alignment",
+        headerTextAlign: "Header Text Alignment",
+        columnsDropdownData: "Column Dropdown Data",
+        dropdownTableText: "Text",
+        dropdownTableValue: "Value",
+        addData: "Add",
+        deleteData: "Remove",
+        allowCellSelection: "Allow Cell Selection"
+    },
     //string to be displayed in Toolbox's tooltip 
     toolboxTooltipTexts: {
         addTool: "Add",
@@ -273,8 +294,23 @@ ej.Gantt.Locale["en-US"] = {
     columnMenuTexts: {
         sortAscendingText: "Sort Ascending",
         sortDescendingText: "Sort Descending",
-        columnsText: "Columns"
+        columnsText: "Columns",
+        insertColumnLeft: "Insert Column Left",
+        insertColumnRight: "Insert Column Right",
+        deleteColumn: "Delete Column",
+        renameColumn: "Rename Column"
     },
+    //string to be displayed in column add dialog title 
+    columnDialogTitle: {
+        insertColumn: "Insert Column",
+        deleteColumn: "Delete Column",
+        renameColumn: "Rename Column"
+    },
+    //Locale Text for delete confirm dialog
+    deleteColumnText: "Are you sure you want to delete this column?",
+    okButtonText: "OK",
+    cancelButtonText: "Cancel",
+    confirmDeleteText: "Confirm Delete",
     predecessorEditingTexts: {
         fromText: "From",
         toText: "To"
@@ -1536,8 +1572,45 @@ ej.TreeGrid.Locale["en-US"] = {
         columnsText: "Columns",
         freezeText: "Freeze",
         unfreezeText: "Unfreeze",
-        freezePrecedingColumnsText: "Freeze Preceding Columns"
+        freezePrecedingColumnsText: "Freeze Preceding Columns",
+        insertColumnLeft: "Insert Column Left",
+        insertColumnRight: "Insert Column Right",
+        deleteColumn: "Delete Column",
+        renameColumn: "Rename Column"
     },
+    //string to display in column add dialog 
+    columnDialogTexts: {
+        field: "Field",
+        headerText: "Header Text",
+        editType: "Edit Type",
+        filterEditType: "Filter Edit Type",
+        allowFiltering: "Allow Filtering",
+        allowFilteringBlankContent: "Allow Filtering Blank Content",
+        allowSorting: "Allow Sorting",
+        visible: "Visible",
+        width: "Width",
+        textAlign: "Text Alignment",
+        headerTextAlign: "Header Text Alignment",
+        isFrozen: "Is Frozen",
+        allowFreezing: "Allow Freezing",
+        columnsDropdownData: "Column Dropdown Data",
+        dropdownTableText: "Text",
+        dropdownTableValue: "Value",
+        addData: "Add",
+        deleteData: "Remove",
+        allowCellSelection: "Allow Cell Selection"
+    },
+    //string to be displayed in column add dialog title 
+     columnDialogTitle: {
+        insertColumn: "Insert Column",
+        deleteColumn: "Delete Column",
+        renameColumn: "Rename Column"
+    },
+    //Locale Text for delete confirm dialog
+    deleteColumnText: "Are you sure you want to delete this column?",
+    okButtonText: "OK",
+    cancelButtonText: "Cancel",
+    confirmDeleteText: "Confirm Delete",
     //String to be displayed in drop down list for filtering blank items
     dropDownListBlanksText: "(Blanks)",
     //String to be displayed in drop down list to clear filtered items

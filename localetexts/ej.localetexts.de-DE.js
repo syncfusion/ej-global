@@ -186,7 +186,9 @@ ej.Gantt.Locale["de-DE"] = {
         type: "Art",
         offset: "ausgleichen",
         baselineStartDate: "Baseline Startdatum",
-        baselineEndDate: "Baseline Enddatum"
+        baselineEndDate: "Baseline Enddatum",
+        WBS: "PSP",
+        WBSpredecessor: "PSP-Vorgänger"
     },
     editDialogTexts: {
         addFormTitle: "Neue Aufgabe",
@@ -196,6 +198,25 @@ ej.Gantt.Locale["de-DE"] = {
         cancelButton: "Stornieren",
         addPredecessor: "Neue hinzufügen",
         removePredecessor: "Entfernen"
+    },
+    columnDialogTexts: {
+        field: "Feld",
+        headerText: "Überschrift",
+        editType: "Bearbeiten Art",
+        filterEditType: "Filter Typ bearbeiten",
+        allowFiltering: "Lassen Filterung",
+        allowFilteringBlankContent: "Lassen Sie Filtering Blank Inhalt",
+        allowSorting: "Lassen Sortierung",
+        visible: "Sichtbar",
+        width: "Breite",
+        textAlign: "Textausrichtung",
+        headerTextAlign: "Textausrichtung",
+        columnsDropdownData: "Spalte Drop Down Daten",
+        dropdownTableText: "Text",
+        dropdownTableValue: "Wert",
+        addData: "Hinzufügen",
+        deleteData: "Entfernen",
+        allowCellSelection: "Lassen Zellselektion"
     },
     toolboxTooltipTexts: {
         addTool: "Hinzufügen",
@@ -231,8 +252,21 @@ ej.Gantt.Locale["de-DE"] = {
     columnMenuTexts: {
         sortAscendingText: "Aufsteigend sortieren",
         sortDescendingText: "Absteigend sortieren",
-        columnsText: "Columns"
+        columnsText: "Columns",
+        insertColumnLeft: "Spalte links einfügen",
+        insertColumnRight: "Spalte rechts einfügen",
+        deleteColumn: "Spalte löschen",
+        renameColumn: "Umbenennen Spalte"
     },
+    columnDialogTitle: {
+        insertColumn: "Spalte einfügen",
+        deleteColumn: "Spalte löschen",
+        renameColumn: "Umbenennen Spalte"
+    },
+    deleteColumnText: "Sind Sie sicher, dass Sie diese Spalte zu löschen?",
+    okButtonText: "OK",
+    cancelButtonText: "Stornieren",
+    confirmDeleteText: "Löschen bestätigen",
     predecessorEditingTexts: {
         fromText: "Von",
         toText: "Zu"
@@ -1494,8 +1528,42 @@ ej.TreeGrid.Locale["de-DE"] = {
         columnsText: "Columns",
         freezeText: "Einfrieren",
         unfreezeText: "auftauen",
-        freezePrecedingColumnsText: "Einfrieren Vorhergehende Columns"
+        freezePrecedingColumnsText: "Einfrieren Vorhergehende Columns",
+        insertColumnLeft: "Spalte links einfügen",
+        insertColumnRight: "Spalte rechts einfügen",
+        deleteColumn: "Spalte löschen",
+        renameColumn: "Umbenennen Spalte"
     },
+    columnDialogTexts: {
+        field: "Feld",
+        headerText: "Überschrift",
+        editType: "Bearbeiten Art",
+        filterEditType: "Filter Typ bearbeiten",
+        allowFiltering: "Lassen Filterung",
+        allowFilteringBlankContent: "Lassen Sie Filtering Blank Inhalt",
+        allowSorting: "Lassen Sortierung",
+        visible: "Sichtbar",
+        width: "Breite",
+        textAlign: "Textausrichtung",
+        headerTextAlign: "Textausrichtung",
+        isFrozen: "Ist gefroren",
+        allowFreezing: "Lassen Sie Freezing",
+        columnsDropdownData: "Spalte Drop Down Daten",
+        dropdownTableText: "Text",
+        dropdownTableValue: "Wert",
+        addData: "Hinzufügen",
+        deleteData: "Entfernen",
+        allowCellSelection: "Lassen Zellselektion"
+    },
+    columnDialogTitle: {
+        insertColumn: "Spalte einfügen",
+        deleteColumn: "Spalte löschen",
+        renameColumn: "Umbenennen Spalte"
+    },
+    deleteColumnText: "Sind Sie sicher, dass Sie diese Spalte zu löschen?",
+    okButtonText: "OK",
+    cancelButtonText: "Stornieren",
+    confirmDeleteText: "Löschen bestätigen",
     dropDownListBlanksText: "(Rohlinge)",
     dropDownListClearText: "(Clear Filter)",
     trueText: "Wahr",
