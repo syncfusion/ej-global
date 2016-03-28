@@ -75,7 +75,8 @@ ej.ExcelFilter.Locale["ja-JP"] = {
     GuidFilter: "GUDフィルタ",
     TextFilter: "テキストフィルタ",
     DateFilter: "日付フィルタ",
-	SelectAll: "すべて選択",
+    DateTimeFilter: "日付時刻フィルタ",
+    SelectAll: "すべて選択",
     Blanks: "ブランク",
     Search: "サーチ",
     Showrowswhere: "表示する行の場所",
@@ -84,6 +85,7 @@ ej.ExcelFilter.Locale["ja-JP"] = {
     NumberMenuOptions: [{ text: "等しい", value: "equal" }, { text: "等しくありません", value: "notequal" }, { text: "未満", value: "lessthan" }, { text: "か等しいより小さい", value: "lessthanorequal" }, { text: "より大きい", value: "greaterthan" }, { text: "か等しいより大きい", value: "greaterthanorequal" }, { text: "の間に", value: "between" }, { text: "カスタムフィルタ", value: "customfilter" }, ],
     GuidMenuOptions: [{ text: "等しい", value: "equal" }, { text: "等しくありません", value: "notequal" }, { text: "カスタムフィルタ", value: "customfilter" }, ],
     DateMenuOptions: [{ text: "等しい", value: "equal" }, { text: "等しくありません", value: "notequal" }, { text: "未満", value: "lessthan" }, { text: "か等しいより小さい", value: "lessthanorequal" }, { text: "より大きい", value: "greaterthan" }, { text: "か等しいより大きい", value: "greaterthanorequal" }, { text: "の間に", value: "between" }, { text: "カスタムフィルタ", value: "customfilter" }, ],
+    DatetimeMenuOptions: [{ text: "等しい", value: "equal" }, { text: "等しくありません", value: "notequal" }, { text: "未満", value: "lessthan" }, { text: "か等しいより小さい", value: "lessthanorequal" }, { text: "より大きい", value: "greaterthan" }, { text: "か等しいより大きい", value: "greaterthanorequal" }, { text: "の間に", value: "between" }, { text: "カスタムフィルタ", value: "customfilter" }, ],
     Top10MenuOptions: [{ text: "上", value: "top" }, { text: "ボトム", value: "bottom" }, ],
     title: "カスタムフィルタ",
     PredicateAnd: "そして",
@@ -94,6 +96,7 @@ ej.ExcelFilter.Locale["ja-JP"] = {
     NoResult: "一致が見つかりませんでした",
     CheckBoxStatusMsg: "表示されていないすべてのアイテム",
     DatePickerWaterMark: "日付を選択",
+    DateTimePickerWaterMark: "選択した日付時刻",
     True: "真",
     False: "偽",
 };
@@ -288,6 +291,7 @@ ej.Grid.Locale["ja-JP"] = {
     Search: "サーチ",
     DatePickerWaterMark: "日付を選択",
     EmptyDataSource: "列が自動生成された列のグリッド内のデータソースから生成されるので、データソースは、初期負荷時に空にすることはできません",
+    ForeignKeyAlert: "更新された値は、有効な外部キーの値でなければなりません",
     True: "真",
     False: "偽",
     UnGroup: "グループ化を解除するには、ここをクリックしてください",
@@ -303,6 +307,8 @@ ej.Grid.Locale["ja-JP"] = {
     PreviousPage: "前のページ",
     FirstPage: "先頭ページ",
     LastPage: "最後のページ",
+    EmptyRowValidationMessage: "少なくとも一つのフィールドを更新する必要があります",
+    NoResult: "一致が見つかりませんでした"
 };
 ;
 if (ej.mobile !== undefined && ej.mobile.DatePicker !== undefined) {
