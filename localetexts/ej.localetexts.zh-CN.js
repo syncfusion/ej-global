@@ -75,15 +75,17 @@ ej.ExcelFilter.Locale["zh-CN"] = {
     GuidFilter: "GUD过滤器",
     TextFilter: "文本过滤器",
     DateFilter: "日期过滤器",
-	SelectAll: "Chọn tất cả",
-    Blanks: "Blanks",
-    Search: "Tìm kiếm",
-    Showrowswhere: "Hiển thị các hàng nơi",
-    NumericTextboxWaterMark: "nhập giá trị",
+    DateTimeFilter: "日期时间过滤器",
+    SelectAll: "全选",
+    Blanks: "空白",
+    Search: "搜索",
+    Showrowswhere: "显示的行",
+    NumericTextboxWaterMark: "数字水印文本框",
     StringMenuOptions: [{ text: "等于", value: "equal" }, { text: "不平等", value: "notequal" }, { text: "以。。开始", value: "startswith" }, { text: "结束与", value: "endswith" }, { text: "包含", value: "contains" }, { text: "自定义过滤器", value: "customfilter" }, ],
     NumberMenuOptions: [{ text: "等于", value: "equal" }, { text: "不平等", value: "notequal" }, { text: "少于", value: "lessthan" }, { text: "小于或等于", value: "lessthanorequal" }, { text: "比...更棒", value: "greaterthan" }, { text: "大于或等于", value: "greaterthanorequal" }, { text: "之间", value: "between" }, { text: "自定义过滤器", value: "customfilter" }, ],
     GuidMenuOptions: [{ text: "等于", value: "equal" }, { text: "不平等", value: "notequal" }, { text: "自定义过滤器", value: "customfilter" }, ],
     DateMenuOptions: [{ text: "等于", value: "equal" }, { text: "不平等", value: "notequal" }, { text: "少于", value: "lessthan" }, { text: "小于或等于", value: "lessthanorequal" }, { text: "比...更棒", value: "greaterthan" }, { text: "大于或等于", value: "greaterthanorequal" }, { text: "之间", value: "between" }, { text: "自定义过滤器", value: "customfilter" }, ],
+    DatetimeMenuOptions: [{ text: "等于", value: "equal" }, { text: "不平等", value: "notequal" }, { text: "少于", value: "lessthan" }, { text: "小于或等于", value: "lessthanorequal" }, { text: "比...更棒", value: "greaterthan" }, { text: "大于或等于", value: "greaterthanorequal" }, { text: "之间", value: "between" }, { text: "自定义过滤器", value: "customfilter" }, ],
     Top10MenuOptions: [{ text: "最佳", value: "top" }, { text: "底部", value: "bottom" }, ],
     title: "自定义过滤器",
     PredicateAnd: "和",
@@ -94,6 +96,7 @@ ej.ExcelFilter.Locale["zh-CN"] = {
     NoResult: "未找到匹配",
     CheckBoxStatusMsg: "并非所有的项目展示",
     DatePickerWaterMark: "选择日期",
+    DateTimePickerWaterMark: "水印的DateTimePicker",
     True: "真正",
     False: "假",
 };
@@ -288,6 +291,7 @@ ej.Grid.Locale["zh-CN"] = {
     Search: "搜索",
     DatePickerWaterMark: "选择日期",
     EmptyDataSource: "因为列从数据源中自动生成的列网格生成的数据源绝不能以初始加载空",
+    ForeignKeyAlert: "更新后的值应该是一个有效的外键值",
     True: "真正",
     False: "假",
     UnGroup: "点击这里取消组合",
@@ -303,6 +307,8 @@ ej.Grid.Locale["zh-CN"] = {
     PreviousPage: "上一页",
     FirstPage: "第一页",
     LastPage: "最后一页",
+    EmptyRowValidationMessage: "至少一个字段必须更新",
+    NoResult: "未找到匹配"
 };
 ;
 if (ej.mobile !== undefined && ej.mobile.DatePicker !== undefined) {
