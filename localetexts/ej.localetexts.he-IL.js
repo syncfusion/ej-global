@@ -75,7 +75,7 @@ ej.ExcelFilter.Locale["he-IL"] = {
     GuidFilter: "מסנני Guid",
     TextFilter: "מסנני טקסט",
     DateFilter: "מסנני תאריך",
-	SelectAll: "Sélectionner tout",
+    SelectAll: "Sélectionner tout",
     Blanks: "Blanks",
     Search: "Chercher",
     Showrowswhere: "Afficher les lignes où",
