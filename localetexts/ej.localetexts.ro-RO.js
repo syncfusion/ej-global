@@ -75,7 +75,8 @@ ej.ExcelFilter.Locale["ro-RO"] = {
     GuidFilter: "Filtre guid",
     TextFilter: "Filtre de text",
     DateFilter: "data Filtre",
-	SelectAll: "Selectează tot",
+    DateTimeFilter: "Filtre Data Ora",
+    SelectAll: "Selectează tot",
     Blanks: "eboșe",
     Search: "Căutare",
     Showrowswhere: "Afișați rânduri în cazul în care",
@@ -84,6 +85,7 @@ ej.ExcelFilter.Locale["ro-RO"] = {
     NumberMenuOptions: [{ text: "Egal", value: "equal" }, { text: "Nu este equal", value: "notequal" }, { text: "Mai puțin decât", value: "lessthan" }, { text: "Mai mic sau equal", value: "lessthanorequal" }, { text: "Mai mare ca", value: "greaterthan" }, { text: "Mai mare sau equal", value: "greaterthanorequal" }, { text: "Între", value: "between" }, { text: "Filtru personalizat", value: "customfilter" }, ],
     GuidMenuOptions: [{ text: "Egal", value: "equal" }, { text: "Nu este equal", value: "notequal" }, { text: "Filtru personalizat", value: "customfilter" }, ],
     DateMenuOptions: [{ text: "Egal", value: "equal" }, { text: "Nu este equal", value: "notequal" }, { text: "Mai puțin decât", value: "lessthan" }, { text: "Mai mic sau equal", value: "lessthanorequal" }, { text: "Mai mare ca", value: "greaterthan" }, { text: "Mai mare sau equal", value: "greaterthanorequal" }, { text: "Între", value: "between" }, { text: "Filtru personalizat", value: "customfilter" }, ],
+    DatetimeMenuOptions: [{ text: "Egal", value: "equal" }, { text: "Nu este equal", value: "notequal" }, { text: "Mai puțin decât", value: "lessthan" }, { text: "Mai mic sau equal", value: "lessthanorequal" }, { text: "Mai mare ca", value: "greaterthan" }, { text: "Mai mare sau equal", value: "greaterthanorequal" }, { text: "Între", value: "between" }, { text: "Filtru personalizat", value: "customfilter" }, ],
     Top10MenuOptions: [{ text: "Top", value: "top" }, { text: "Fund", value: "bottom" }, ],
     title: "Filtru personalizat",
     PredicateAnd: "ȘI",
@@ -94,6 +96,7 @@ ej.ExcelFilter.Locale["ro-RO"] = {
     NoResult: "Nu s-a gasit nici o potrivire",
     CheckBoxStatusMsg: "Nu toate elementele care arată",
     DatePickerWaterMark: "Selectați data",
+    DateTimePickerWaterMark: "Selectați ora dată",
     True: "Adevărat",
     False: "fals",
 };
@@ -288,6 +291,7 @@ ej.Grid.Locale["ro-RO"] = {
     Search: "Căutare",
     DatePickerWaterMark: "Selectați data",
     EmptyDataSource: "DataSource nu trebuie să fie gol la sarcină inițială, deoarece coloanele sunt generate de DATASOURCE în AutoGenerat Coloana grilă",
+    ForeignKeyAlert: "Valoarea actualizată ar trebui să fie o valoare cheie externă validă",
     True: "Adevărat",
     False: "fals",
     UnGroup: "Apasa aici pentru a degrupa",
@@ -303,6 +307,8 @@ ej.Grid.Locale["ro-RO"] = {
     PreviousPage: "Pagina anterioară",
     FirstPage: "Prima pagina",
     LastPage: "Ultima pagina",
+    EmptyRowValidationMessage: "Cel puțin un câmp trebuie să fie actualizate",
+    NoResult: "Nu s-a gasit nici o potrivire"
 };
 ;
 if (ej.mobile !== undefined && ej.mobile.DatePicker !== undefined) {
