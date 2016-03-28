@@ -75,7 +75,8 @@ ej.ExcelFilter.Locale["ko-KR"] = {
     GuidFilter: "하느님의 필터",
     TextFilter: "텍스트 필터",
     DateFilter: "날짜 필터",
-	SelectAll: "모두 선택",
+    DateTimeFilter: "날짜 시간 필터",
+    SelectAll: "모두 선택",
     Blanks: "공백",
     Search: "수색",
     Showrowswhere: "보기 행 위치",
@@ -84,6 +85,7 @@ ej.ExcelFilter.Locale["ko-KR"] = {
     NumberMenuOptions: [{ text: "같은", value: "equal" }, { text: "같지 않음", value: "notequal" }, { text: "보다 작음", value: "lessthan" }, { text: "거나 같음보다 적은", value: "lessthanorequal" }, { text: "보다 큰", value: "greaterthan" }, { text: "아니면보다 크", value: "greaterthanorequal" }, { text: "중에서", value: "between" }, { text: "사용자 정의 필터", value: "customfilter" }, ],
     GuidMenuOptions: [{ text: "같은", value: "equal" }, { text: "같지 않음", value: "notequal" }, { text: "사용자 정의 필터", value: "customfilter" }, ],
     DateMenuOptions: [{ text: "같은", value: "equal" }, { text: "같지 않음", value: "notequal" }, { text: "보다 작음", value: "lessthan" }, { text: "거나 같음보다 적은", value: "lessthanorequal" }, { text: "보다 큰", value: "greaterthan" }, { text: "아니면보다 크", value: "greaterthanorequal" }, { text: "중에서", value: "between" }, { text: "사용자 정의 필터", value: "customfilter" }, ],
+    DatetimeMenuOptions: [{ text: "같은", value: "equal" }, { text: "같지 않음", value: "notequal" }, { text: "보다 작음", value: "lessthan" }, { text: "거나 같음보다 적은", value: "lessthanorequal" }, { text: "보다 큰", value: "greaterthan" }, { text: "아니면보다 크", value: "greaterthanorequal" }, { text: "중에서", value: "between" }, { text: "사용자 정의 필터", value: "customfilter" }, ],
     Top10MenuOptions: [{ text: "상단", value: "top" }, { text: "바닥", value: "bottom" }, ],
     title: "사용자 정의 필터",
     PredicateAnd: "과",
@@ -94,6 +96,7 @@ ej.ExcelFilter.Locale["ko-KR"] = {
     NoResult: "일치하는 항목 없음",
     CheckBoxStatusMsg: "보여주는 모든 항목",
     DatePickerWaterMark: "날짜 선택",
+    DateTimePickerWaterMark: "선택 날짜 시간",
     True: "참된",
     False: "그릇된",
 };
@@ -288,6 +291,7 @@ ej.Grid.Locale["ko-KR"] = {
     Search: "수색",
     DatePickerWaterMark: "날짜 선택",
     EmptyDataSource: "열 자동 생성 된 열 그리드에서은 dataSource에서 생성되기 때문에 데이터 소스는 초기로드에서 비워 둘 수 없습니다",
+    ForeignKeyAlert: "업데이트 된 값은 유효한 외부 키 값이어야합니다",
     True: "참된",
     False: "그릇된",
     UnGroup: "그룹을 해제하려면 여기를 클릭하십시오",
@@ -303,6 +307,8 @@ ej.Grid.Locale["ko-KR"] = {
     PreviousPage: "이전 페이지",
     FirstPage: "첫 페이지",
     LastPage: "마지막 페이지",
+    EmptyRowValidationMessage: "적어도 하나의 필드는 업데이트해야합니다",
+    NoResult: "일치하는 항목 없음"
 };
 ;
 if (ej.mobile !== undefined && ej.mobile.DatePicker !== undefined) {
