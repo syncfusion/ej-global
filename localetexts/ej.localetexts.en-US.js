@@ -637,10 +637,10 @@ ej.ReportViewer.Locale["en-US"] = {
 };
 ej.Ribbon.Locale["en-US"] = {
     CustomizeQuickAccess: "Customize Quick Access Toolbar",
-    RemovefromQuickAccessToolbar: "Remove from Quick Access Toolbar",
-    AddtoQuickAccessToolbar: "Add to Quick Access Toolbar",
-    ShowAbovetheRibbon: "Show Above the Ribbon",
-    ShowBelowtheRibbon: "Show Below the Ribbon",
+    RemoveFromQuickAccessToolbar: "Remove from Quick Access Toolbar",
+    AddToQuickAccessToolbar: "Add to Quick Access Toolbar",
+    ShowAboveTheRibbon: "Show Above the Ribbon",
+    ShowBelowTheRibbon: "Show Below the Ribbon",
     MoreCommands: "More Commands..."
 };
 ej.RTE.Locale["en-US"] = {

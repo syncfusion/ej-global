@@ -601,10 +601,10 @@ ej.ReportViewer.Locale["ms-MY"] = {
 };
 ej.Ribbon.Locale["ms-MY"] = {
     CustomizeQuickAccess: "Sesuaikan Bar Alat Capaian Segera",
-    RemovefromQuickAccessToolbar: "Buang dari Bar Alat Capaian Segera",
-    AddtoQuickAccessToolbar: "Tambah ke Bar Alat Capaian Segera",
-    ShowAbovetheRibbon: "Tunjukkan atas Reben",
-    ShowBelowtheRibbon: "Tunjukkan Di bawah Reben",
+    RemoveFromQuickAccessToolbar: "Buang dari Bar Alat Capaian Segera",
+    AddToQuickAccessToolbar: "Tambah ke Bar Alat Capaian Segera",
+    ShowAboveTheRibbon: "Tunjukkan atas Reben",
+    ShowBelowTheRibbon: "Tunjukkan Di bawah Reben",
     MoreCommands: "Lebih Perintah ...",
 };
 ej.RTE.Locale["ms-MY"] = {

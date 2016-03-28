@@ -601,10 +601,10 @@ ej.ReportViewer.Locale["ja-JP"] = {
 };
 ej.Ribbon.Locale["ja-JP"] = {
     CustomizeQuickAccess: "クイックアクセスツールバーをカスタマイズします",
-    RemovefromQuickAccessToolbar: "クイックアクセスツールバーから削除",
-    AddtoQuickAccessToolbar: "クイックアクセスツールバーに追加",
-    ShowAbovetheRibbon: "リボンの上に表示します",
-    ShowBelowtheRibbon: "リボンの下に表示します",
+    RemoveFromQuickAccessToolbar: "クイックアクセスツールバーから削除",
+    AddToQuickAccessToolbar: "クイックアクセスツールバーに追加",
+    ShowAboveTheRibbon: "リボンの上に表示します",
+    ShowBelowTheRibbon: "リボンの下に表示します",
     MoreCommands: "複数のコマンド...",
 };
 ej.RTE.Locale["ja-JP"] = {

@@ -601,10 +601,10 @@ ej.ReportViewer.Locale["vi-VN"] = {
 };
 ej.Ribbon.Locale["vi-VN"] = {
     CustomizeQuickAccess: "Tùy chỉnh Quick Access Toolbar",
-    RemovefromQuickAccessToolbar: "Di chuyển từ Quick Access Toolbar",
-    AddtoQuickAccessToolbar: "Thêm vào Quick Access Toolbar",
-    ShowAbovetheRibbon: "Hiện Phía trên Ribbon",
-    ShowBelowtheRibbon: "Hiện Below the Ribbon",
+    RemoveFromQuickAccessToolbar: "Di chuyển từ Quick Access Toolbar",
+    AddToQuickAccessToolbar: "Thêm vào Quick Access Toolbar",
+    ShowAboveTheRibbon: "Hiện Phía trên Ribbon",
+    ShowBelowTheRibbon: "Hiện Below the Ribbon",
     MoreCommands: "More Commands ...",
 };
 ej.RTE.Locale["vi-VN"] = {

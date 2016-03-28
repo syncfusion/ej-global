@@ -601,10 +601,10 @@ ej.ReportViewer.Locale["he-IL"] = {
 };
 ej.Ribbon.Locale["he-IL"] = {
     CustomizeQuickAccess: "התאמה אישית של סרגל הכלים לגישה מהירה",
-    RemovefromQuickAccessToolbar: "הסר סרגל הכלים לגישה מהירה",
-    AddtoQuickAccessToolbar: "הוסף סרגל כלים לגישה מהירה",
-    ShowAbovetheRibbon: "צג מעל רצועת הכלים",
-    ShowBelowtheRibbon: "הצג מתחת רצועת הכלים",
+    RemoveFromQuickAccessToolbar: "הסר סרגל הכלים לגישה מהירה",
+    AddToQuickAccessToolbar: "הוסף סרגל כלים לגישה מהירה",
+    ShowAboveTheRibbon: "צג מעל רצועת הכלים",
+    ShowBelowTheRibbon: "הצג מתחת רצועת הכלים",
     MoreCommands: "פקוד יותר ...",
 };
 ej.RTE.Locale["he-IL"] = {

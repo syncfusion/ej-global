@@ -601,10 +601,10 @@ ej.ReportViewer.Locale["hr-HR"] = {
 };
 ej.Ribbon.Locale["hr-HR"] = {
     CustomizeQuickAccess: "Prilagodba alatne trake za brzi pristup",
-    RemovefromQuickAccessToolbar: "Ukloni iz alatne trake za brzi pristup",
-    AddtoQuickAccessToolbar: "Dodaj u brzi pristup alatnoj traci",
-    ShowAbovetheRibbon: "Prikaži Iznad vrpci",
-    ShowBelowtheRibbon: "Prikaži Ispod vrpci",
+    RemoveFromQuickAccessToolbar: "Ukloni iz alatne trake za brzi pristup",
+    AddToQuickAccessToolbar: "Dodaj u brzi pristup alatnoj traci",
+    ShowAboveTheRibbon: "Prikaži Iznad vrpci",
+    ShowBelowTheRibbon: "Prikaži Ispod vrpci",
     MoreCommands: "Više Naredbe ...",
 };
 ej.RTE.Locale["hr-HR"] = {

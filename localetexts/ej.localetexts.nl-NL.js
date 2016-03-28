@@ -601,10 +601,10 @@ ej.ReportViewer.Locale["nl-NL"] = {
 };
 ej.Ribbon.Locale["nl-NL"] = {
     CustomizeQuickAccess: "Pas werkbalk Snelle toegang",
-    RemovefromQuickAccessToolbar: "Verwijderen uit werkbalk Snelle toegang",
-    AddtoQuickAccessToolbar: "Toevoegen aan werkbalk Snelle toegang",
-    ShowAbovetheRibbon: "Laat Boven het lint",
-    ShowBelowtheRibbon: "Onder het lint weergeven",
+    RemoveFromQuickAccessToolbar: "Verwijderen uit werkbalk Snelle toegang",
+    AddToQuickAccessToolbar: "Toevoegen aan werkbalk Snelle toegang",
+    ShowAboveTheRibbon: "Laat Boven het lint",
+    ShowBelowTheRibbon: "Onder het lint weergeven",
     MoreCommands: "Meer opdrachten ...",
 };
 ej.RTE.Locale["nl-NL"] = {

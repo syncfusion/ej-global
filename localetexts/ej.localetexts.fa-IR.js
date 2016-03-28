@@ -601,10 +601,10 @@ ej.ReportViewer.Locale["fa-IR"] = {
 };
 ej.Ribbon.Locale["fa-IR"] = {
     CustomizeQuickAccess: "سفارشی کردن نوار ابزار دسترسی سریع",
-    RemovefromQuickAccessToolbar: "حذف از نوار ابزار دسترسی سریع",
-    AddtoQuickAccessToolbar: "اضافه کردن به نوار ابزار دسترسی سریع",
-    ShowAbovetheRibbon: "نمایش در بالای روبان",
-    ShowBelowtheRibbon: "نمایش پائین روبان",
+    RemoveFromQuickAccessToolbar: "حذف از نوار ابزار دسترسی سریع",
+    AddToQuickAccessToolbar: "اضافه کردن به نوار ابزار دسترسی سریع",
+    ShowAboveTheRibbon: "نمایش در بالای روبان",
+    ShowBelowTheRibbon: "نمایش پائین روبان",
     MoreCommands: "دستورات بیشتر ...",
 };
 ej.RTE.Locale["fa-IR"] = {

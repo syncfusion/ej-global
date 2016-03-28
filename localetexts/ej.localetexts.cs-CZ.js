@@ -601,10 +601,10 @@ ej.ReportViewer.Locale["cs-CZ"] = {
 };
 ej.Ribbon.Locale["cs-CZ"] = {
     CustomizeQuickAccess: "Přizpůsobení Panel nástrojů Rychlý přístup",
-    RemovefromQuickAccessToolbar: "Odstranit z panelu nástrojů Rychlý přístup",
-    AddtoQuickAccessToolbar: "Přidat do panelu nástrojů Rychlý přístup",
-    ShowAbovetheRibbon: "Zobrazit Nad stuhu",
-    ShowBelowtheRibbon: "Ukázat pod pásem karet",
+    RemoveFromQuickAccessToolbar: "Odstranit z panelu nástrojů Rychlý přístup",
+    AddToQuickAccessToolbar: "Přidat do panelu nástrojů Rychlý přístup",
+    ShowAboveTheRibbon: "Zobrazit Nad stuhu",
+    ShowBelowTheRibbon: "Ukázat pod pásem karet",
     MoreCommands: "Další příkazy ...",
 };
 ej.RTE.Locale["cs-CZ"] = {

@@ -601,10 +601,10 @@ ej.ReportViewer.Locale["ar-AE"] = {
 };
 ej.Ribbon.Locale["ar-AE"] = {
     CustomizeQuickAccess: "تخصيص شريط أدوات الوصول السريع",
-    RemovefromQuickAccessToolbar: "إزالة من شريط أدوات الوصول السريع",
-    AddtoQuickAccessToolbar: "إضافة إلى شريط أدوات الوصول السريع",
-    ShowAbovetheRibbon: "تظهر فوق الشريط",
-    ShowBelowtheRibbon: "تظهر بالأسفل الشريط",
+    RemoveFromQuickAccessToolbar: "إزالة من شريط أدوات الوصول السريع",
+    AddToQuickAccessToolbar: "إضافة إلى شريط أدوات الوصول السريع",
+    ShowAboveTheRibbon: "تظهر فوق الشريط",
+    ShowBelowTheRibbon: "تظهر بالأسفل الشريط",
     MoreCommands: "المزيد من أوامر ...",
 };
 ej.RTE.Locale["ar-AE"] = {
