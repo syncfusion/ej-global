@@ -75,7 +75,8 @@ ej.ExcelFilter.Locale["cs-CZ"] = {
     GuidFilter: "GUID Filtry",
     TextFilter: "textové filtry",
     DateFilter: "Datum Filtry",
-	SelectAll: "Vybrat vše",
+    DateTimeFilter: "Datum Čas Filtry",
+    SelectAll: "Vybrat vše",
     Blanks: "Blanks",
     Search: "Vyhledávání",
     Showrowswhere: "Zobrazit řádky, kde",
@@ -84,6 +85,7 @@ ej.ExcelFilter.Locale["cs-CZ"] = {
     NumberMenuOptions: [{ text: "Rovnat se", value: "equal" }, { text: "není rovno", value: "notequal" }, { text: "Méně než", value: "lessthan" }, { text: "Menší než nebo rovno", value: "lessthanorequal" }, { text: "Větší než", value: "greaterthan" }, { text: "Větší než nebo rovno", value: "greaterthanorequal" }, { text: "Mezi", value: "between" }, { text: "customfilter", value: "customfilter" }, ],
     GuidMenuOptions: [{ text: "Rovnat se", value: "equal" }, { text: "není rovno", value: "notequal" }, { text: "customfilter", value: "customfilter" }, ],
     DateMenuOptions: [{ text: "Rovnat se", value: "equal" }, { text: "není rovno", value: "notequal" }, { text: "Méně než", value: "lessthan" }, { text: "Menší než nebo rovno", value: "lessthanorequal" }, { text: "Větší než", value: "greaterthan" }, { text: "Větší než nebo rovno", value: "greaterthanorequal" }, { text: "Mezi", value: "between" }, { text: "customfilter", value: "customfilter" }, ],
+    DatetimeMenuOptions: [{ text: "Rovnat se", value: "equal" }, { text: "není rovno", value: "notequal" }, { text: "Méně než", value: "lessthan" }, { text: "Menší než nebo rovno", value: "lessthanorequal" }, { text: "Větší než", value: "greaterthan" }, { text: "Větší než nebo rovno", value: "greaterthanorequal" }, { text: "Mezi", value: "between" }, { text: "customfilter", value: "customfilter" }, ],
     Top10MenuOptions: [{ text: "top", value: "top" }, { text: "Dno", value: "bottom" }, ],
     title: "customfilter",
     PredicateAnd: "A",
@@ -94,6 +96,7 @@ ej.ExcelFilter.Locale["cs-CZ"] = {
     NoResult: "Nenalezen žádný zápas",
     CheckBoxStatusMsg: "Ne všechny položky představující",
     DatePickerWaterMark: "Vyberte datum",
+    DateTimePickerWaterMark: "Vybrat datum a čas",
     True: "skutečný",
     False: "falešný",
 };
@@ -288,6 +291,7 @@ ej.Grid.Locale["cs-CZ"] = {
     Search: "Vyhledávání",
     DatePickerWaterMark: "Vyberte datum",
     EmptyDataSource: "DataSource nesmí být prázdné při počátečním zatížení, protože sloupce jsou generovány ze zdrojů dat ve sloupci mřížky vytvořeno automaticky",
+    ForeignKeyAlert: "Aktualizovaná hodnota by měla být platná cizí klíč hodnota",
     True: "skutečný",
     False: "falešný",
     UnGroup: "Klikněte sem a oddělit",
@@ -302,7 +306,9 @@ ej.Grid.Locale["cs-CZ"] = {
     NextPage: "Další strana",
     PreviousPage: "Předchozí stránka",
     FirstPage: "První strana",
-    LastPage: "Poslední strana",
+    LastPage: "Poslední strana"
+    EmptyRowValidationMessage: "Alespoň jedno pole musí být aktualizovány",
+    NoResult: "Nenalezen žádný zápas"
 };
 ;
 if (ej.mobile !== undefined && ej.mobile.DatePicker !== undefined) {
