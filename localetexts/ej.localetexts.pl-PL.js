@@ -77,7 +77,8 @@ ej.ExcelFilter.Locale["pl-PL"] = {
     GuidFilter: "GUID Filtry",
     TextFilter: "Filtry tekstowe",
     DateFilter: "Data Filtry",
-	SelectAll: "Zaznacz wszystko",
+    DateTimeFilter: "Filtry Data Godzina",
+    SelectAll: "Zaznacz wszystko",
     Blanks: "Blanks",
     Search: "Poszukiwanie",
     Showrowswhere: "Pokaż wierszy, gdzie",
@@ -86,6 +87,7 @@ ej.ExcelFilter.Locale["pl-PL"] = {
     NumberMenuOptions: [{ text: "Równy", value: "equal" }, { text: "Nie równe", value: "notequal" }, { text: "Mniej niż", value: "lessthan" }, { text: "Mniejszy lub equal", value: "lessthanorequal" }, { text: "Lepszy niż", value: "greaterthan" }, { text: "Większe lub równe", value: "greaterthanorequal" }, { text: "Pomiędzy", value: "between" }, { text: "Filtr niestandardowy", value: "customfilter" }, ],
     GuidMenuOptions: [{ text: "Równy", value: "equal" }, { text: "Nie równe", value: "notequal" }, { text: "Filtr niestandardowy", value: "customfilter" }, ],
     DateMenuOptions: [{ text: "Równy", value: "equal" }, { text: "Nie równe", value: "notequal" }, { text: "Mniej niż", value: "lessthan" }, { text: "Mniejszy lub equal", value: "lessthanorequal" }, { text: "Lepszy niż", value: "greaterthan" }, { text: "Większe lub równe", value: "greaterthanorequal" }, { text: "Pomiędzy", value: "between" }, { text: "Filtr niestandardowy", value: "customfilter" }, ],
+    DatetimeMenuOptions: [{ text: "Równy", value: "equal" }, { text: "Nie równe", value: "notequal" }, { text: "Mniej niż", value: "lessthan" }, { text: "Mniejszy lub equal", value: "lessthanorequal" }, { text: "Lepszy niż", value: "greaterthan" }, { text: "Większe lub równe", value: "greaterthanorequal" }, { text: "Pomiędzy", value: "between" }, { text: "Filtr niestandardowy", value: "customfilter" }, ],
     Top10MenuOptions: [{ text: "Top", value: "top" }, { text: "Dolny", value: "bottom" }, ],
     title: "Filtr niestandardowy",
     PredicateAnd: "I",
@@ -96,6 +98,7 @@ ej.ExcelFilter.Locale["pl-PL"] = {
     NoResult: "Nie znaleziono żadnego meczu",
     CheckBoxStatusMsg: "Nie wszystkie elementy pokazujące",
     DatePickerWaterMark: "Wybierz datę",
+    DateTimePickerWaterMark: "Wybierz czas, data",
     True: "prawdziwe",
     False: "fałszywy",
 };
@@ -290,6 +293,7 @@ ej.Grid.Locale["pl-PL"] = {
     Search: "Poszukiwanie",
     DatePickerWaterMark: "Wybierz datę",
     EmptyDataSource: "DataSource nie może być pusty w momencie początkowego obciążenia, ponieważ kolumny są generowane DataSource w wygenerowany automatycznie kolumny siatki",
+    ForeignKeyAlert: "Zaktualizowana wartość powinna być prawidłowa wartość klucza obcego",
     True: "prawdziwe",
     False: "fałszywy",
     UnGroup: "Kliknij tutaj, aby rozdzielić",
@@ -305,6 +309,8 @@ ej.Grid.Locale["pl-PL"] = {
     PreviousPage: "Poprzednia strona",
     FirstPage: "Pierwsza strona",
     LastPage: "Ostatnia strona",
+    EmptyRowValidationMessage: "Przynajmniej jedno pole musi być aktualizowana",
+    NoResult: "Nie znaleziono żadnego meczu"
 };
 ;
 if (ej.mobile !== undefined && ej.mobile.DatePicker !== undefined) {
