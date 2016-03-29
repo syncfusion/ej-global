@@ -75,7 +75,8 @@ ej.ExcelFilter.Locale["ru-RU"] = {
     GuidFilter: "гуд Фильтры",
     TextFilter: "Текстовые фильтры",
     DateFilter: "Дата Фильтры",
-	SelectAll: "Выбрать все",
+    DateTimeFilter: "Дата Время Фильтры",
+    SelectAll: "Выбрать все",
     Blanks: "Пробелы",
     Search: "Поиск",
     Showrowswhere: "Показать строки, где",
@@ -84,6 +85,7 @@ ej.ExcelFilter.Locale["ru-RU"] = {
     NumberMenuOptions: [{ text: "равным", value: "equal" }, { text: "Не равно", value: "notequal" }, { text: "Меньше", value: "lessthan" }, { text: "Меньше или равно", value: "lessthanorequal" }, { text: "Больше чем", value: "greaterthan" }, { text: "Больше или равно", value: "greaterthanorequal" }, { text: "между", value: "between" }, { text: "Пользовательский фильтр", value: "customfilter" }, ],
     GuidMenuOptions: [{ text: "равным", value: "equal" }, { text: "Не равно", value: "notequal" }, { text: "Пользовательский фильтр", value: "customfilter" }, ],
     DateMenuOptions: [{ text: "равным", value: "equal" }, { text: "Не равно", value: "notequal" }, { text: "Меньше", value: "lessthan" }, { text: "Меньше или равно", value: "lessthanorequal" }, { text: "Больше чем", value: "greaterthan" }, { text: "Больше или равно", value: "greaterthanorequal" }, { text: "между", value: "between" }, { text: "Пользовательский фильтр", value: "customfilter" }, ],
+    DatetimeMenuOptions: [{ text: "равным", value: "equal" }, { text: "Не равно", value: "notequal" }, { text: "Меньше", value: "lessthan" }, { text: "Меньше или равно", value: "lessthanorequal" }, { text: "Больше чем", value: "greaterthan" }, { text: "Больше или равно", value: "greaterthanorequal" }, { text: "между", value: "between" }, { text: "Пользовательский фильтр", value: "customfilter" }, ],
     Top10MenuOptions: [{ text: "топ", value: "top" }, { text: "дно", value: "bottom" }, ],
     title: "Пользовательский фильтр",
     PredicateAnd: "И",
@@ -94,6 +96,7 @@ ej.ExcelFilter.Locale["ru-RU"] = {
     NoResult: "Ничего не найдено",
     CheckBoxStatusMsg: "Не все пункты показывают",
     DatePickerWaterMark: "Выбрать дату",
+    DateTimePickerWaterMark: "Выбор даты и времени",
     True: "правда",
     False: "ложный",
 };
@@ -322,6 +325,7 @@ ej.Grid.Locale["ru-RU"] = {
     Search: "поиск",
     DatePickerWaterMark: "Выбрать дату",
     EmptyDataSource: "DataSource не должно быть пустым при первоначальном нагрузки, поскольку столбцы генерируются из источника данных в автогенерируемые Сетка колонн",
+    ForeignKeyAlert: "Обновленное значение должно быть допустимым значение внешнего ключа",
     True: "правда",
     False: "ложный",
     UnGroup: "Нажмите здесь, чтобы отменить группировку",
@@ -337,6 +341,8 @@ ej.Grid.Locale["ru-RU"] = {
     PreviousPage: "Предыдущая страница",
     FirstPage: "Первая страница",
     LastPage: "Предыдущая страница",
+    EmptyRowValidationMessage: "По крайней мере одно поле должно быть обновлено",
+    NoResult: "Совпадений не найдено"
 };
 ;
 if (ej.mobile !== undefined && ej.mobile.DatePicker !== undefined) {

@@ -75,7 +75,8 @@ ej.ExcelFilter.Locale["hr-HR"] = {
     GuidFilter: "GUID Filteri",
     TextFilter: "Tekst Filteri",
     DateFilter: "Datum Filteri",
-	SelectAll: "Odaberi sve",
+    DateTimeFilter: "Datum Vrijeme pretrage",
+    SelectAll: "Odaberi sve",
     Blanks: "Blanks",
     Search: "traži",
     Showrowswhere: "Prikaži redaka u kojima je",
@@ -84,6 +85,7 @@ ej.ExcelFilter.Locale["hr-HR"] = {
     NumberMenuOptions: [{ text: "Jednak", value: "equal" }, { text: "nije equalo", value: "notequal" }, { text: "Manje od", value: "lessthan" }, { text: "Manje ili equalo", value: "lessthanorequal" }, { text: "veće od", value: "greaterthan" }, { text: "Veće ili equalo", value: "greaterthanorequal" }, { text: "Između", value: "between" }, { text: "Prilagođeni filtar", value: "customfilter" }, ],
     GuidMenuOptions: [{ text: "Jednak", value: "equal" }, { text: "nije equalo", value: "notequal" }, { text: "Prilagođeni filtar", value: "customfilter" }, ],
     DateMenuOptions: [{ text: "Jednak", value: "equal" }, { text: "nije equalo", value: "notequal" }, { text: "Manje od", value: "lessthan" }, { text: "Manje ili equalo", value: "lessthanorequal" }, { text: "veće od", value: "greaterthan" }, { text: "Veće ili equalo", value: "greaterthanorequal" }, { text: "Između", value: "between" }, { text: "Prilagođeni filtar", value: "customfilter" }, ],
+    DatetimeMenuOptions: [{ text: "Jednak", value: "equal" }, { text: "nije equalo", value: "notequal" }, { text: "Manje od", value: "lessthan" }, { text: "Manje ili equalo", value: "lessthanorequal" }, { text: "veće od", value: "greaterthan" }, { text: "Veće ili equalo", value: "greaterthanorequal" }, { text: "Između", value: "between" }, { text: "Prilagođeni filtar", value: "customfilter" }, ],
     Top10MenuOptions: [{ text: "Vrh", value: "top" }, { text: "Dno", value: "bottom" }, ],
     title: "Prilagođeni filtar",
     PredicateAnd: "I",
@@ -94,6 +96,7 @@ ej.ExcelFilter.Locale["hr-HR"] = {
     NoResult: "Nije pronađen nijedan rezultat",
     CheckBoxStatusMsg: "Nisu svi predmeti koji pokazuju",
     DatePickerWaterMark: "Odaberite datum",
+    DateTimePickerWaterMark: "Odaberite datum i vrijeme",
     True: "pravi",
     False: "lažan",
 };
@@ -322,6 +325,7 @@ ej.Grid.Locale["hr-HR"] = {
     Search: "traži",
     DatePickerWaterMark: "Odaberite datum",
     EmptyDataSource: "Izvoru podataka ne smije biti prazna, na početnom opterećenju, jer su stupovi generiraju iz izvora podataka u generirani Column Grid",
+    ForeignKeyAlert: "Ažurirani vrijednost bi trebala biti valjana strani ključ vrijednost",
     True: "pravi",
     False: "lažan",
     UnGroup: "Kliknite ovdje da Razgrupiraj",
@@ -337,6 +341,8 @@ ej.Grid.Locale["hr-HR"] = {
     PreviousPage: "Prethodna stranica",
     FirstPage: "Prva stranica",
     LastPage: "Posljednja stranica",
+    EmptyRowValidationMessage: "Najmanje jedno polje mora biti ažuriran",
+    NoResult: "Nije pronađen nijedan rezultat"
 };
 ;
 if (ej.mobile !== undefined && ej.mobile.DatePicker !== undefined) {

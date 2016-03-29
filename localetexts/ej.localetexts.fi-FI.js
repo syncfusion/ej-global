@@ -75,7 +75,8 @@ ej.ExcelFilter.Locale["fi-FI"] = {
     GuidFilter: "Guid Suodattimet",
     TextFilter: "teksti Suodattimet",
     DateFilter: "date Filters",
-	SelectAll: "Valitse kaikki",
+    DateTimeFilter: "Date Time Filters",
+    SelectAll: "Valitse kaikki",
     Blanks: "aihiot",
     Search: "Haku",
     Showrowswhere: "Näytä rivit, joissa",
@@ -84,6 +85,7 @@ ej.ExcelFilter.Locale["fi-FI"] = {
     NumberMenuOptions: [{ text: "yhtäläinen", value: "equal" }, { text: "ei Equal", value: "notequal" }, { text: "Vähemmän kuin", value: "lessthan" }, { text: "Pienempi tai yhtä suuri", value: "lessthanorequal" }, { text: "Suurempi kuin", value: "greaterthan" }, { text: "Suurempi tai yhtä suuri", value: "greaterthanorequal" }, { text: "Välillä", value: "between" }, { text: "Mukautettu suodatin", value: "customfilter" }, ],
     GuidMenuOptions: [{ text: "yhtäläinen", value: "equal" }, { text: "ei Equal", value: "notequal" }, { text: "Mukautettu suodatin", value: "customfilter" }, ],
     DateMenuOptions: [{ text: "yhtäläinen", value: "equal" }, { text: "ei Equal", value: "notequal" }, { text: "Vähemmän kuin", value: "lessthan" }, { text: "Pienempi tai yhtä suuri", value: "lessthanorequal" }, { text: "Suurempi kuin", value: "greaterthan" }, { text: "Suurempi tai yhtä suuri", value: "greaterthanorequal" }, { text: "Välillä", value: "between" }, { text: "Mukautettu suodatin", value: "customfilter" }, ],
+    DatetimeMenuOptions: [{ text: "yhtäläinen", value: "equal" }, { text: "ei Equal", value: "notequal" }, { text: "Vähemmän kuin", value: "lessthan" }, { text: "Pienempi tai yhtä suuri", value: "lessthanorequal" }, { text: "Suurempi kuin", value: "greaterthan" }, { text: "Suurempi tai yhtä suuri", value: "greaterthanorequal" }, { text: "Välillä", value: "between" }, { text: "Mukautettu suodatin", value: "customfilter" }, ],
     Top10MenuOptions: [{ text: "ylin", value: "top" }, { text: "pohja", value: "bottom" }, ],
     title: "Mukautettu suodatin",
     PredicateAnd: "JA",
@@ -94,6 +96,7 @@ ej.ExcelFilter.Locale["fi-FI"] = {
     NoResult: "Ei hakua vastaavia tuloksia",
     CheckBoxStatusMsg: "Kaikkia kohteita näytetään",
     DatePickerWaterMark: "Valitse päivämäärä",
+    DateTimePickerWaterMark: "Valitse päivämäärä aika",
     True: "totta",
     False: "väärä",
 };
@@ -322,6 +325,7 @@ ej.Grid.Locale["fi-FI"] = {
     Search: "Haku",
     DatePickerWaterMark: "Valitse päivämäärä",
     EmptyDataSource: "DataSource saa olla tyhjiä alkukuormitukseen koska sarakkeet syntyvät DataSource in Automaattisesti luotu sarake Grid",
+    ForeignKeyAlert: "Päivitetyn arvon tulisi olla kelvollinen viiteavaimen arvo",
     True: "totta",
     False: "väärä",
     UnGroup: "Täältä erottaminen ryhmästä",
@@ -337,6 +341,8 @@ ej.Grid.Locale["fi-FI"] = {
     PreviousPage: "Edellinen sivu",
     FirstPage: "Ensimmäinen sivu",
     LastPage: "Viimeinen sivu",
+    EmptyRowValidationMessage: "Vähintään yksi kenttä on päivitettävä",
+    NoResult: "Ei hakua vastaavia tuloksia"
 };
 ;
 if (ej.mobile !== undefined && ej.mobile.DatePicker !== undefined) {

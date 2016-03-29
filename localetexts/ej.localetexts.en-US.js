@@ -71,12 +71,10 @@ ej.ExcelFilter.Locale["en-US"] = {
     SortDateOldest: "Sort by Oldest",
     SortDateNewest: "Sort by Newest",
     SortByColor: "Sort By Color",
-    SortColorOptions: [{ id: 1, background: "#FFFFFF" }, { id: 2, background: "#5EABDA" }],
     SortByCellColor: "Sort by Cell Color",
     SortByFontColor: "Sort by Font Color",
     FilterByColor: "Filter By Color",
     CustomSort: "Custom Sort",
-    FilterColorOptions: [{ id: 1, background: "#FFFFFF" }, { id: 2, background: "#5EABDA" }],
     FilterByCellColor: "Filter by Cell Color",
     FilterByFontColor: "Filter by Font Color",
     ClearFilter: "Clear Filter",
@@ -84,12 +82,19 @@ ej.ExcelFilter.Locale["en-US"] = {
     GuidFilter: "Guid Filters",
     TextFilter: "Text Filters",
     DateFilter: "Date Filters",
+    DateTimeFilter: "Date Time Filters",
+    SelectAll: "Select All",
+    Blanks: "Blanks",
+    Search:"Search",
+    Showrowswhere:"Show rows where",
+    NumericTextboxWaterMark:"Enter value",
     StringMenuOptions: [{ text: "Equal", value: "equal" }, { text: "Not Equal", value: "notequal" }, { text: "Starts With", value: "startswith" }, { text: "Ends With", value: "endswith" }, { text: "Contains", value: "contains" }, { text: "Custom Filter", value: "customfilter" }],
     NumberMenuOptions: [{ text: "Equal", value: "equal" }, { text: "Not Equal", value: "notequal" }, { text: "Less Than", value: "lessthan" }, { text: "Less Than Or Equal", value: "lessthanorequal" }, { text: "Greater Than", value: "greaterthan" }, { text: "Greater Than Or Equal", value: "greaterthanorequal" }, { text: "Between", value: "between" }, { text: "Custom Filter", value: "customfilter" }],
     GuidMenuOptions: [{ text: "Equal", value: "equal" }, { text: "Not Equal", value: "notequal" }, { text: "Custom Filter", value: "customfilter" }],
     DateMenuOptions: [{ text: "Equal", value: "equal" }, { text: "Not Equal", value: "notequal" }, { text: "Less Than", value: "lessthan" }, { text: "Less Than Or Equal", value: "lessthanorequal" }, { text: "Greater Than", value: "greaterthan" }, { text: "Greater Than Or Equal", value: "greaterthanorequal" }, { text: "Between", value: "between" }, { text: "Custom Filter", value: "customfilter" }],
+    DatetimeMenuOptions: [{ text: "Equal", value: "equal" }, { text: "Not Equal", value: "notequal" }, { text: "Less Than", value: "lessthan" }, { text: "Less Than Or Equal", value: "lessthanorequal" }, { text: "Greater Than", value: "greaterthan" }, { text: "Greater Than Or Equal", value: "greaterthanorequal" }, { text: "Between", value: "between" }, { text: "Custom Filter", value: "customfilter" }],
     Top10MenuOptions: [{ text: "Top", value: "top" }, { text: "Bottom", value: "bottom" }],
-    title: "Custom Filter",
+    title:"Custom Filter",
     PredicateAnd: "AND",
     PredicateOr: "OR",
     Ok: "OK",
@@ -98,6 +103,7 @@ ej.ExcelFilter.Locale["en-US"] = {
     NoResult: "No Matches Found",
     CheckBoxStatusMsg: "Not all items showing",
     DatePickerWaterMark: "Select date",
+    DateTimePickerWaterMark: "Select date time",
     True: "true",
     False: "false"
 };
@@ -364,6 +370,7 @@ ej.Grid.Locale["en-US"] = {
     Search: "Search",
     DatePickerWaterMark: "Select date",
     EmptyDataSource: "DataSource must not be empty at initial load since columns are generated from dataSource in AutoGenerate Column Grid",
+    ForeignKeyAlert: "The updated value should be a valid foreign key value",
     True: "true",
     False: "false",
     UnGroup: "Click here to ungroup",
@@ -378,7 +385,9 @@ ej.Grid.Locale["en-US"] = {
     NextPage: "Next Page",
     PreviousPage: "Previous Page",
     FirstPage: "First Page",
-    LastPage: "Last Page"
+    LastPage: "Last Page",
+    EmptyRowValidationMessage:"Atleast one field must be updated",
+    NoResult: "No Matches Found"
 };;
 if (ej.mobile !== undefined && ej.mobile.DatePicker !== undefined) {
     ej.mobile.DatePicker.Locale["en-US"] = {

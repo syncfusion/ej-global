@@ -75,6 +75,7 @@ ej.ExcelFilter.Locale["he-IL"] = {
     GuidFilter: "מסנני Guid",
     TextFilter: "מסנני טקסט",
     DateFilter: "מסנני תאריך",
+    DateTimeFilter: "Date Heure Filtres",
     SelectAll: "Sélectionner tout",
     Blanks: "Blanks",
     Search: "Chercher",
@@ -84,6 +85,7 @@ ej.ExcelFilter.Locale["he-IL"] = {
     NumberMenuOptions: [{ text: "שווה", value: "equal" }, { text: "לא שווה", value: "notequal" }, { text: "פחות מ", value: "lessthan" }, { text: "קטן או שווה", value: "lessthanorequal" }, { text: "גדול מ", value: "greaterthan" }, { text: "גדול או שווה", value: "greaterthanorequal" }, { text: "בֵּין", value: "between" }, { text: "מסנן מותאם אישית", value: "customfilter" }, ],
     GuidMenuOptions: [{ text: "שווה", value: "equal" }, { text: "לא שווה", value: "notequal" }, { text: "מסנן מותאם אישית", value: "customfilter" }, ],
     DateMenuOptions: [{ text: "שווה", value: "equal" }, { text: "לא שווה", value: "notequal" }, { text: "פחות מ", value: "lessthan" }, { text: "קטן או שווה", value: "lessthanorequal" }, { text: "גדול מ", value: "greaterthan" }, { text: "גדול או שווה", value: "greaterthanorequal" }, { text: "בֵּין", value: "between" }, { text: "מסנן מותאם אישית", value: "customfilter" }, ],
+    DatetimeMenuOptions: [{ text: "שווה", value: "equal" }, { text: "לא שווה", value: "notequal" }, { text: "פחות מ", value: "lessthan" }, { text: "קטן או שווה", value: "lessthanorequal" }, { text: "גדול מ", value: "greaterthan" }, { text: "גדול או שווה", value: "greaterthanorequal" }, { text: "בֵּין", value: "between" }, { text: "מסנן מותאם אישית", value: "customfilter" }, ],
     Top10MenuOptions: [{ text: "עליון", value: "top" }, { text: "תַחתִית", value: "bottom" }, ],
     title: "מסנן מותאם אישית",
     PredicateAnd: "ו",
@@ -94,6 +96,7 @@ ej.ExcelFilter.Locale["he-IL"] = {
     NoResult: "אין תוצאות מתאימות",
     CheckBoxStatusMsg: "לא כל התוכניות",
     DatePickerWaterMark: "תאריך בחר",
+    DateTimePickerWaterMark: "Sélectionnez date heure",
     True: "נָכוֹן",
     False: "שֶׁקֶר",ר",
 };
@@ -322,6 +325,7 @@ ej.Grid.Locale["he-IL"] = {
     Search: "לְחַפֵּשׂ",
     DatePickerWaterMark: "תאריך בחר",
     EmptyDataSource: "בנתוני המקור אינו יכול להיות ריק בעומס הראשוני מאז עמודות נוצרות מתוך DATASOURCE ב Grid טור-אוטומטית",
+    ForeignKeyAlert: "La valeur mise à jour devrait être une valeur de clé étrangère valide",
     True: "נָכוֹן",
     False: "שֶׁקֶר",
     UnGroup: "לחץ כאן כדי לבטל את הקיבוץ",
@@ -337,6 +341,8 @@ ej.Grid.Locale["he-IL"] = {
     PreviousPage: "עמוד קודם",
     FirstPage: "עמוד ראשון",
     LastPage: "עמוד אחרון",
+    EmptyRowValidationMessage: "Au moins un champ doit être mis à jour",
+    NoResult: "Aucun résultat"
 };
 ;
 if (ej.mobile !== undefined && ej.mobile.DatePicker !== undefined) {

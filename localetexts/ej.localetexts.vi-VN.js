@@ -75,7 +75,8 @@ ej.ExcelFilter.Locale["vi-VN"] = {
     GuidFilter: "Bộ lọc gud",
     TextFilter: "Bộ lọc văn bản",
     DateFilter: "Bộ lọc gia ngày",
-	SelectAll: "Chọn tất cả",
+    DateTimeFilter: "Bộ lọc Ngày Giờ",
+    SelectAll: "Chọn tất cả",
     Blanks: "Blanks",
     Search: "Tìm kiếm",
     Showrowswhere: "Hiển thị các hàng nơi",
@@ -84,6 +85,7 @@ ej.ExcelFilter.Locale["vi-VN"] = {
     NumberMenuOptions: [{ text: "bằng", value: "equal" }, { text: "Không công bằng", value: "notequal" }, { text: "Ít hơn", value: "lessthan" }, { text: "Less Than Hoặc bình đẳng", value: "lessthanorequal" }, { text: "Lớn hơn", value: "greaterthan" }, { text: "Lớn hơn hoặc bằng", value: "greaterthanorequal" }, { text: "Giữa", value: "between" }, { text: "bộ lọc tùy chỉnh", value: "customfilter" }, ],
     GuidMenuOptions: [{ text: "bằng", value: "equal" }, { text: "Không công bằng", value: "notequal" }, { text: "bộ lọc tùy chỉnh", value: "customfilter" }, ],
     DateMenuOptions: [{ text: "bằng", value: "equal" }, { text: "Không công bằng", value: "notequal" }, { text: "Ít hơn", value: "lessthan" }, { text: "Less Than Hoặc bình đẳng", value: "lessthanorequal" }, { text: "Lớn hơn", value: "greaterthan" }, { text: "Lớn hơn hoặc bằng", value: "greaterthanorequal" }, { text: "Giữa", value: "between" }, { text: "bộ lọc tùy chỉnh", value: "customfilter" }, ],
+    DatetimeMenuOptions: [{ text: "bằng", value: "equal" }, { text: "Không công bằng", value: "notequal" }, { text: "Ít hơn", value: "lessthan" }, { text: "Less Than Hoặc bình đẳng", value: "lessthanorequal" }, { text: "Lớn hơn", value: "greaterthan" }, { text: "Lớn hơn hoặc bằng", value: "greaterthanorequal" }, { text: "Giữa", value: "between" }, { text: "bộ lọc tùy chỉnh", value: "customfilter" }, ],
     Top10MenuOptions: [{ text: "Hàng đầu", value: "top" }, { text: "đáy", value: "bottom" }, ],
     title: "bộ lọc tùy chỉnh",
     PredicateAnd: "VÀ",
@@ -94,6 +96,7 @@ ej.ExcelFilter.Locale["vi-VN"] = {
     NoResult: "Lọc kết quả tìm thấy",
     CheckBoxStatusMsg: "Không phải tất cả các mặt hàng cho thấy",
     DatePickerWaterMark: "Chọn ngày",
+    DateTimePickerWaterMark: "Chọn thời gian ngày",
     True: "thật",
     False: "sai",
 };
@@ -322,6 +325,7 @@ ej.Grid.Locale["vi-VN"] = {
     Search: "Tìm kiếm",
     DatePickerWaterMark: "Chọn ngày",
     EmptyDataSource: "DataSource không được bỏ trống tại tải ban đầu từ cột được tạo ra từ nguồn dữ liệu trong Tự Ðộng Cột lưới",
+    ForeignKeyAlert: "Các giá trị được cập nhật phải là một giá trị quan trọng nước ngoài hợp lệ",
     True: "thật",
     False: "sai",
     UnGroup: "Nhấn vào đây để ungroup",
@@ -337,6 +341,8 @@ ej.Grid.Locale["vi-VN"] = {
     PreviousPage: "Trang trước",
     FirstPage: "Trang đầu tiên",
     LastPage: "Trang cuối",
+    EmptyRowValidationMessage: "Ít nhất một lĩnh vực phải được cập nhật",
+    NoResult: "Lọc kết quả tìm thấy"
 };
 ;
 if (ej.mobile !== undefined && ej.mobile.DatePicker !== undefined) {

@@ -75,7 +75,8 @@ ej.ExcelFilter.Locale["sk-SK"] = {
     GuidFilter: "GUID Filtre",
     TextFilter: "textové filtre",
     DateFilter: "Dátum Filtre",
-	SelectAll: "Vybrať všetko",
+    DateTimeFilter: "Dátum Čas Filtre",
+    SelectAll: "Vybrať všetko",
     Blanks: "Blanks",
     Search: "Vyhľadanie",
     Showrowswhere: "Zobraziť riadky, kde",
@@ -84,6 +85,7 @@ ej.ExcelFilter.Locale["sk-SK"] = {
     NumberMenuOptions: [{ text: "rovný", value: "equal" }, { text: "nerovná", value: "notequal" }, { text: "Menej ako", value: "lessthan" }, { text: "Menšie alebo rovné", value: "lessthanorequal" }, { text: "Väčší než", value: "greaterthan" }, { text: "Väčší alebo rovné", value: "greaterthanorequal" }, { text: "medzi", value: "between" }, { text: "vlastný filter", value: "customfilter" }, ],
     GuidMenuOptions: [{ text: "rovný", value: "equal" }, { text: "nerovná", value: "notequal" }, { text: "vlastný filter", value: "customfilter" }, ],
     DateMenuOptions: [{ text: "rovný", value: "equal" }, { text: "nerovná", value: "notequal" }, { text: "Menej ako", value: "lessthan" }, { text: "Menšie alebo rovné", value: "lessthanorequal" }, { text: "Väčší než", value: "greaterthan" }, { text: "Väčší alebo rovné", value: "greaterthanorequal" }, { text: "medzi", value: "between" }, { text: "vlastný filter", value: "customfilter" }, ],
+    DatetimeMenuOptions: [{ text: "rovný", value: "equal" }, { text: "nerovná", value: "notequal" }, { text: "Menej ako", value: "lessthan" }, { text: "Menšie alebo rovné", value: "lessthanorequal" }, { text: "Väčší než", value: "greaterthan" }, { text: "Väčší alebo rovné", value: "greaterthanorequal" }, { text: "medzi", value: "between" }, { text: "vlastný filter", value: "customfilter" }, ],
     Top10MenuOptions: [{ text: "top", value: "top" }, { text: "dno", value: "bottom" }, ],
     title: "vlastný filter",
     PredicateAnd: "A",
@@ -94,6 +96,7 @@ ej.ExcelFilter.Locale["sk-SK"] = {
     NoResult: "Žiadne zhody nenájdené",
     CheckBoxStatusMsg: "Nie všetky položky predstavujúce",
     DatePickerWaterMark: "vyberte dátum",
+    DateTimePickerWaterMark: "Vybrať dátum a čas",
     True: "pravdivý",
     False: "nepravdivý",
 };
@@ -322,6 +325,7 @@ ej.Grid.Locale["sk-SK"] = {
     Search: "Vyhľadanie",
     DatePickerWaterMark: "vyberte dátum",
     EmptyDataSource: "DataSource nesmie byť prázdne pri počiatočnom zaťažení, pretože stĺpce sú generované zo zdrojov dát v stĺpci mriežky vytvorené automaticky",
+    ForeignKeyAlert: "Aktualizovaná hodnota by mala byť platná cudzí kľúč hodnota",
     True: "true",
     False: "nepravdivý",
     UnGroup: "Kliknite sem a oddeliť",
@@ -337,6 +341,8 @@ ej.Grid.Locale["sk-SK"] = {
     PreviousPage: "Predchádzajúca strana",
     FirstPage: "prvá stránka",
     LastPage: "Posledná stránka",
+    EmptyRowValidationMessage: "Aspoň jedno pole musí byť aktualizované",
+    NoResult: "Žiadne zhody nenájdené"
 };
 ;
 if (ej.mobile !== undefined && ej.mobile.DatePicker !== undefined) {

@@ -75,7 +75,8 @@ ej.ExcelFilter.Locale["ar-AE"] = {
     GuidFilter: "مرشحات GUD",
     TextFilter: "مرشحات النص",
     DateFilter: "تاريخ مرشحات",
-	SelectAll: "اختر الكل",
+    SelectAll: "اختر الكل",
+    DateTimeFilter: "Date Time Filters",
     Blanks: "الفراغات",
     Search: "بحث",
     Showrowswhere: "إظهار الصفوف حيث",
@@ -84,6 +85,8 @@ ej.ExcelFilter.Locale["ar-AE"] = {
     NumberMenuOptions: [{ text: "متساوي", value: "equal" }, { text: "غير متساوي", value: "notequal" }, { text: "أقل من", value: "lessthan" }, { text: "أقل من أو يساوي", value: "lessthanorequal" }, { text: "اعظم من", value: "greaterthan" }, { text: "أكبر من أو يساوي", value: "greaterthanorequal" }, { text: "ما بين", value: "between" }, { text: "تصفية مخصصة", value: "customfilter" }, ],
     GuidMenuOptions: [{ text: "متساوي", value: "equal" }, { text: "غير متساوي", value: "notequal" }, { text: "تصفية مخصصة", value: "customfilter" }, ],
     DateMenuOptions: [{ text: "متساوي", value: "equal" }, { text: "غير متساوي", value: "notequal" }, { text: "أقل من", value: "lessthan" }, { text: "أقل من أو يساوي", value: "lessthanorequal" }, { text: "اعظم من", value: "greaterthan" }, { text: "أكبر من أو يساوي", value: "greaterthanorequal" }, { text: "ما بين", value: "between" }, { text: "تصفية مخصصة", value: "customfilter" }, ],
+    NumberMenuOptions: [{ text: "متساوي", value: "equal" }, { text: "غير متساوي", value: "notequal" }, { text: "أقل من", value: "lessthan" }, { text: "أقل من أو يساوي", value: "lessthanorequal" }, { text: "اعظم من", value: "greaterthan" }, { text: "أكبر من أو يساوي", value: "greaterthanorequal" }, { text: "ما بين", value: "between" }, { text: "تصفية مخصصة", value: "customfilter" }, ],
+    DatetimeMenuOptions: [{ text: "متساوي", value: "equal" }, { text: "غير متساوي", value: "notequal" }, { text: "أقل من", value: "lessthan" }, { text: "أقل من أو يساوي", value: "lessthanorequal" }, { text: "اعظم من", value: "greaterthan" }, { text: "أكبر من أو يساوي", value: "greaterthanorequal" }, { text: "ما بين", value: "between" }, { text: "تصفية مخصصة", value: "customfilter" }, ],
     Top10MenuOptions: [{ text: "أعلى", value: "top" }, { text: "أسفل", value: "bottom" }, ],
     title: "تصفية مخصصة",
     PredicateAnd: "و",
@@ -94,6 +97,7 @@ ej.ExcelFilter.Locale["ar-AE"] = {
     NoResult: "لا يوجد مباريات العثور",
     CheckBoxStatusMsg: "ليس كل العناصر تظهر",
     DatePickerWaterMark: "حدد تاريخ",
+    DateTimePickerWaterMark: "حدد التاريخ والوقت",
     True: "صحيح",
     False: "خاطئة",
 };
@@ -322,6 +326,7 @@ ej.Grid.Locale["ar-AE"] = {
     Search: "بحث",
     DatePickerWaterMark: "حدد تاريخ",
     EmptyDataSource: "لا يجب أن يكون مصدر البيانات فارغة في الحمل الأولي منذ يتم إنشاء الأعمدة من مصدر البيانات في العمود يتم أنشاؤه تلقائيا الشبكة",
+    ForeignKeyAlert: "يجب أن تكون القيمة بتحديث قيمة المفتاح الخارجي صالحة",
     True: "صحيح",
     False: "خاطئة",
     UnGroup: "انقر هنا لفك تجميع",
@@ -337,6 +342,8 @@ ej.Grid.Locale["ar-AE"] = {
     PreviousPage: "الصفحة السابقة",
     FirstPage: "الصفحة الأولى",
     LastPage: "آخر صفحة",
+    EmptyRowValidationMessage: "يجب تحديث حقل واحد على الأقل",
+    NoResult: "لا يوجد مباريات العثور"
 };
 ;
 if (ej.mobile !== undefined && ej.mobile.DatePicker !== undefined) {

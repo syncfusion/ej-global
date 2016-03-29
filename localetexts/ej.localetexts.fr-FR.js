@@ -75,7 +75,8 @@ ej.ExcelFilter.Locale["fr-FR"] = {
     GuidFilter: "Filtres Gud",
     TextFilter: "Filtres de texte",
     DateFilter: "La date Filtres",
-	SelectAll: "Sélectionner tout",
+    DateTimeFilter: "Date Heure Filtres",
+    SelectAll: "Sélectionner tout",
     Blanks: "Blanks",
     Search: "Chercher",
     Showrowswhere: "Afficher les lignes où",
@@ -84,6 +85,7 @@ ej.ExcelFilter.Locale["fr-FR"] = {
     NumberMenuOptions: [{ text: "Égal", value: "equal" }, { text: "Inequal", value: "notequal" }, { text: "Moins que", value: "lessthan" }, { text: "Inférieur ou equal", value: "lessthanorequal" }, { text: "Plus grand que", value: "greaterthan" }, { text: "Meilleur que ou equal", value: "greaterthanorequal" }, { text: "Entre", value: "between" }, { text: "Filtre personnalisé", value: "customfilter" }, ],
     GuidMenuOptions: [{ text: "Égal", value: "equal" }, { text: "Inequal", value: "notequal" }, { text: "Filtre personnalisé", value: "customfilter" }, ],
     DateMenuOptions: [{ text: "Égal", value: "equal" }, { text: "Inequal", value: "notequal" }, { text: "Moins que", value: "lessthan" }, { text: "Inférieur ou equal", value: "lessthanorequal" }, { text: "Plus grand que", value: "greaterthan" }, { text: "Meilleur que ou equal", value: "greaterthanorequal" }, { text: "Entre", value: "between" }, { text: "Filtre personnalisé", value: "customfilter" }, ],
+    DatetimeMenuOptions: [{ text: "Égal", value: "equal" }, { text: "Inequal", value: "notequal" }, { text: "Moins que", value: "lessthan" }, { text: "Inférieur ou equal", value: "lessthanorequal" }, { text: "Plus grand que", value: "greaterthan" }, { text: "Meilleur que ou equal", value: "greaterthanorequal" }, { text: "Entre", value: "between" }, { text: "Filtre personnalisé", value: "customfilter" }, ],
     Top10MenuOptions: [{ text: "Haut", value: "top" }, { text: "Bas", value: "bottom" }, ],
     title: "Filtre personnalisé",
     PredicateAnd: "ET",
@@ -94,6 +96,7 @@ ej.ExcelFilter.Locale["fr-FR"] = {
     NoResult: "Aucun résultat",
     CheckBoxStatusMsg: "Pas tous les éléments montrant",
     DatePickerWaterMark: "Sélectionner une date",
+    DateTimePickerWaterMark: "Sélectionnez date heure",
     True: "vrai",
     False: "faux",
 };
@@ -322,6 +325,7 @@ ej.Grid.Locale["fr-FR"] = {
     Search: "Chercher",
     DatePickerWaterMark: "Sélectionner une date",
     EmptyDataSource: "DataSource doit pas être vide au chargement initial car les colonnes sont générés à partir dataSource dans AutoGénéré Colonne Grille",
+    ForeignKeyAlert: "La valeur mise à jour devrait être une valeur de clé étrangère valide",
     True: "vrai",
     False: "faux",
     UnGroup: "Cliquez ici pour dégrouper",
@@ -337,6 +341,8 @@ ej.Grid.Locale["fr-FR"] = {
     PreviousPage: "page précédente",
     FirstPage: "Première page",
     LastPage: "Dernière page",
+    EmptyRowValidationMessage: "Au moins un champ doit être mis à jour",
+    NoResult: "Aucun résultat"
 };
 ;
 if (ej.mobile !== undefined && ej.mobile.DatePicker !== undefined) {

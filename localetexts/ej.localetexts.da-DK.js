@@ -75,7 +75,8 @@ ej.ExcelFilter.Locale["da-DK"] = {
     GuidFilter: "GUID filtre",
     TextFilter: "Tekst filtre",
     DateFilter: "Dato filtre",
-	SelectAll: "Vælg alle",
+    DateTimeFilter: "Dato Time Filters",
+    SelectAll: "Vælg alle",
     Blanks: "Blanks",
     Search: "Søge",
     Showrowswhere: "Vis rækker, hvor",
@@ -84,6 +85,7 @@ ej.ExcelFilter.Locale["da-DK"] = {
     NumberMenuOptions: [{ text: "Lige", value: "equal" }, { text: "Ikke lig", value: "notequal" }, { text: "Mindre end", value: "lessthan" }, { text: "Mindre end eller lig", value: "lessthanorequal" }, { text: "Bedre end", value: "greaterthan" }, { text: "Større end eller lig", value: "greaterthanorequal" }, { text: "Mellem", value: "between" }, { text: "Tilpasset filter", value: "customfilter" }, ],
     GuidMenuOptions: [{ text: "Lige", value: "equal" }, { text: "Ikke lig", value: "notequal" }, { text: "Tilpasset filter", value: "customfilter" }, ],
     DateMenuOptions: [{ text: "Lige", value: "equal" }, { text: "Ikke lig", value: "notequal" }, { text: "Mindre end", value: "lessthan" }, { text: "Mindre end eller lig", value: "lessthanorequal" }, { text: "Bedre end", value: "greaterthan" }, { text: "Større end eller lig", value: "greaterthanorequal" }, { text: "Mellem", value: "between" }, { text: "Tilpasset filter", value: "customfilter" }, ],
+    DatetimeMenuOptions: [{ text: "Lige", value: "equal" }, { text: "Ikke lig", value: "notequal" }, { text: "Mindre end", value: "lessthan" }, { text: "Mindre end eller lig", value: "lessthanorequal" }, { text: "Bedre end", value: "greaterthan" }, { text: "Større end eller lig", value: "greaterthanorequal" }, { text: "Mellem", value: "between" }, { text: "Tilpasset filter", value: "customfilter" }, ],
     Top10MenuOptions: [{ text: "Top", value: "top" }, { text: "Bund", value: "bottom" }, ],
     title: "Tilpasset filter",
     PredicateAnd: "OG",
@@ -94,6 +96,7 @@ ej.ExcelFilter.Locale["da-DK"] = {
     NoResult: "Ingen match fundet",
     CheckBoxStatusMsg: "Ikke alle elementer, der viser",
     DatePickerWaterMark: "Vælg dato",
+    DateTimePickerWaterMark: "Vælg dato tid",
     True: "rigtigt",
     False: "falsk",
 };
@@ -322,6 +325,7 @@ ej.Grid.Locale["da-DK"] = {
     Search: "Søge",
     DatePickerWaterMark: "Vælg dato",
     EmptyDataSource: "DataSource må ikke være tomme ved første belastning, da kolonner genereres fra datakilde i Genereret automatisk Column Grid",
+    ForeignKeyAlert: "Den opdaterede værdi skal være en gyldig fremmed nøgle værdi",
     True: "rigtigt",
     False: "falsk",
     UnGroup: "Klik her for at opdele",
@@ -337,6 +341,8 @@ ej.Grid.Locale["da-DK"] = {
     PreviousPage: "Forrige side",
     FirstPage: "Første side",
     LastPage: "sidste side",
+    EmptyRowValidationMessage: "Mindst ét felt skal opdateres",
+    NoResult: "Ingen match fundet"
 };
 ;
 if (ej.mobile !== undefined && ej.mobile.DatePicker !== undefined) {

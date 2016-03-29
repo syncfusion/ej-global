@@ -75,7 +75,8 @@ ej.ExcelFilter.Locale["nb-NO"] = {
     GuidFilter: "Guid Filters",
     TextFilter: "tekst~~POS=TRUNC filtre~~POS=HEADCOMP",
     DateFilter: "Dato Filter",
-	SelectAll: "Pilih semua",
+    DateTimeFilter: "Penapis Tarikh Masa",
+    SelectAll: "Pilih semua",
     Blanks: "kosong",
     Search: "carian",
     Showrowswhere: "Papar baris di mana",
@@ -84,6 +85,7 @@ ej.ExcelFilter.Locale["nb-NO"] = {
     NumberMenuOptions: [{ text: "Lik", value: "equal" }, { text: "Ikke equal", value: "notequal" }, { text: "Mindre enn", value: "lessthan" }, { text: "Mindre enn eller equal", value: "lessthanorequal" }, { text: "Større enn", value: "greaterthan" }, { text: "Større enn eller equal", value: "greaterthanorequal" }, { text: "Mellom", value: "between" }, { text: "Tilpasset filter", value: "customfilter" }, ],
     GuidMenuOptions: [{ text: "Lik", value: "equal" }, { text: "Ikke equal", value: "notequal" }, { text: "Tilpasset filter", value: "customfilter" }, ],
     DateMenuOptions: [{ text: "Lik", value: "equal" }, { text: "Ikke equal", value: "notequal" }, { text: "Mindre enn", value: "lessthan" }, { text: "Mindre enn eller equal", value: "lessthanorequal" }, { text: "Større enn", value: "greaterthan" }, { text: "Større enn eller equal", value: "greaterthanorequal" }, { text: "Mellom", value: "between" }, { text: "Tilpasset filter", value: "customfilter" }, ],
+    DatetimeMenuOptions: [{ text: "Lik", value: "equal" }, { text: "Ikke equal", value: "notequal" }, { text: "Mindre enn", value: "lessthan" }, { text: "Mindre enn eller equal", value: "lessthanorequal" }, { text: "Større enn", value: "greaterthan" }, { text: "Større enn eller equal", value: "greaterthanorequal" }, { text: "Mellom", value: "between" }, { text: "Tilpasset filter", value: "customfilter" }, ],
     Top10MenuOptions: [{ text: "Topp", value: "top" }, { text: "Bunn", value: "bottom" }, ],
     title: "Tilpasset filter",
     PredicateAnd: "OG",
@@ -94,6 +96,7 @@ ej.ExcelFilter.Locale["nb-NO"] = {
     NoResult: "Ingen treff funnet",
     CheckBoxStatusMsg: "Ikke alle elementer som viser",
     DatePickerWaterMark: "Velg dato",
+    DateTimePickerWaterMark: "Pilih masa tarikh",
     True: "ekte",
     False: "falsk",
 };
@@ -322,6 +325,7 @@ ej.Grid.Locale["nb-NO"] = {
     Search: "Søke",
     DatePickerWaterMark: "Velg dato",
     EmptyDataSource: "Datasource må ikke være tom ved første last siden kolonner genereres fra datakilden i Autogenerert kolonne Grid",
+    ForeignKeyAlert: "Nilai dikemaskini harus nilai kunci asing yang sah",
     True: "ekte",
     False: "falsk",
     UnGroup: "Kequalk her for å dele opp",
@@ -337,6 +341,8 @@ ej.Grid.Locale["nb-NO"] = {
     PreviousPage: "Forrige side",
     FirstPage: "Første side",
     LastPage: "Siste side",
+    EmptyRowValidationMessage: "Sekurang-kurangnya satu bidang mesti dikemaskini",
+    NoResult: "Tiada padanan ditemui"
 };
 ;
 if (ej.mobile !== undefined && ej.mobile.DatePicker !== undefined) {

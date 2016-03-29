@@ -75,7 +75,8 @@ ej.ExcelFilter.Locale["hu-HU"] = {
     GuidFilter: "guid szűrők",
     TextFilter: "szöveg szűrők",
     DateFilter: "Dátum szűrők",
-	SelectAll: "Mindet kiválaszt",
+    DateTimeFilter: "Dátum Idő szűrők",
+    SelectAll: "Mindet kiválaszt",
     Blanks: "Üresek",
     Search: "Keres",
     Showrowswhere: "Megjelenítendő sorok ahol",
@@ -84,6 +85,7 @@ ej.ExcelFilter.Locale["hu-HU"] = {
     NumberMenuOptions: [{ text: "Egyenlő", value: "equal" }, { text: "Nem equal", value: "notequal" }, { text: "Kevesebb, mint", value: "lessthan" }, { text: "Kisebb vagy equal", value: "lessthanorequal" }, { text: "Nagyobb, mint", value: "greaterthan" }, { text: "Nagyobb vagy equal", value: "greaterthanorequal" }, { text: "Között", value: "between" }, { text: "egyéni szűrő", value: "customfilter" }, ],
     GuidMenuOptions: [{ text: "Egyenlő", value: "equal" }, { text: "Nem equal", value: "notequal" }, { text: "egyéni szűrő", value: "customfilter" }, ],
     DateMenuOptions: [{ text: "Egyenlő", value: "equal" }, { text: "Nem equal", value: "notequal" }, { text: "Kevesebb, mint", value: "lessthan" }, { text: "Kisebb vagy equal", value: "lessthanorequal" }, { text: "Nagyobb, mint", value: "greaterthan" }, { text: "Nagyobb vagy equal", value: "greaterthanorequal" }, { text: "Között", value: "between" }, { text: "egyéni szűrő", value: "customfilter" }, ],
+    DatetimeMenuOptions: [{ text: "Egyenlő", value: "equal" }, { text: "Nem equal", value: "notequal" }, { text: "Kevesebb, mint", value: "lessthan" }, { text: "Kisebb vagy equal", value: "lessthanorequal" }, { text: "Nagyobb, mint", value: "greaterthan" }, { text: "Nagyobb vagy equal", value: "greaterthanorequal" }, { text: "Között", value: "between" }, { text: "egyéni szűrő", value: "customfilter" }, ],
     Top10MenuOptions: [{ text: "felső", value: "top" }, { text: "Alsó", value: "bottom" }, ],
     title: "egyéni szűrő",
     PredicateAnd: "ÉS",
@@ -94,6 +96,7 @@ ej.ExcelFilter.Locale["hu-HU"] = {
     NoResult: "Nincs találat",
     CheckBoxStatusMsg: "Nem minden megjelenő tételek",
     DatePickerWaterMark: "Válassza ki a dátumot",
+    DateTimePickerWaterMark: "Válassza ki a dátumot időt",
     True: "igaz",
     False: "hamis",
 };
@@ -322,6 +325,7 @@ ej.Grid.Locale["hu-HU"] = {
     Search: "Keresés",
     DatePickerWaterMark: "Válassza ki a dátumot",
     EmptyDataSource: "Adatforrás nem lehet üres kezdeti terhelést, miután oszlopok képződnek DATASOURCE a AutomatikusanLétrehozott oszlop rács",
+    ForeignKeyAlert: "A frissített érték legyen érvényes idegen kulcs érték",
     True: "igaz",
     False: "hamis",
     UnGroup: "Kattintson ide csoportbontást",
@@ -337,6 +341,8 @@ ej.Grid.Locale["hu-HU"] = {
     PreviousPage: "Előző oldal",
     FirstPage: "Első oldal",
     LastPage: "Utolsó oldal",
+    EmptyRowValidationMessage: "Legalább egy mezőt kell frissíteni",
+    NoResult: "Nincs találat"
 };
 ;
 if (ej.mobile !== undefined && ej.mobile.DatePicker !== undefined) {
