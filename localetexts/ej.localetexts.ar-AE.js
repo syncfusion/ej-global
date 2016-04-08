@@ -346,7 +346,7 @@ ej.Grid.Locale["ar-AE"] = {
     NoResult: "لا يوجد مباريات العثور"
 };
 ;
-if (ej.mobile !== undefined && ej.mobile.DatePicker !== undefined) {
+if (ej.mobile !== undefined && ej.mobile.Grid !== undefined) {
     ej.mobile.Grid.Locale["ar-AE"] = {
         emptyResult: "عدم وجود سجلات للعرض",
         filterValidation: "إدخال البيانات تصفية صالح",
