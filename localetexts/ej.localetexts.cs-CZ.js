@@ -345,7 +345,7 @@ ej.Grid.Locale["cs-CZ"] = {
     NoResult: "Nenalezen žádný zápas"
 };
 ;
-if (ej.mobile !== undefined && ej.mobile.DatePicker !== undefined) {
+if (ej.mobile !== undefined && ej.mobile.Grid !== undefined) {
     ej.mobile.Grid.Locale["cs-CZ"] = {
         emptyResult: "Žádné záznamy k zobrazení",
         filterValidation: "Zadejte platná data filtru",
