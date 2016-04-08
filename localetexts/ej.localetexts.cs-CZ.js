@@ -346,6 +346,23 @@ ej.Grid.Locale["cs-CZ"] = {
 };
 ;
 if (ej.mobile !== undefined && ej.mobile.DatePicker !== undefined) {
+    ej.mobile.Grid.Locale["cs-CZ"] = {
+        emptyResult: "Žádné záznamy k zobrazení",
+        filterValidation: "Zadejte platná data filtru",
+        filterTypeValidation: "Zadejte platná data filtru. Aktuální sloupec je filtr typu",
+        captionText: "předměty",
+        spinnerText: "načítá se ...",
+        HideColumnAlert: "Nejméně jeden sloupec musí být zobrazeny v mřížce",
+        columnSelectorText: "Hide Column",
+        columnSelectorDone: "OK",
+        columnSelectorCancel: "Zrušit",
+        columnSelectorWarning: "Varování",
+        filterOk: "OK",
+        filterWarning: "Varování"
+    };
+    ;
+}
+if (ej.mobile !== undefined && ej.mobile.DatePicker !== undefined) {
     ej.mobile.DatePicker.Locale["cs-CZ"] = {
         confirmText: "hotový",
         Windows: {
