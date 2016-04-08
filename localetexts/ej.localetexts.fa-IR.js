@@ -345,6 +345,23 @@ ej.Grid.Locale["fa-IR"] = {
     NoResult: "جستجو حاصلی دربرنداشت",
 };
 ;
+if (ej.mobile !== undefined && ej.mobile.Grid !== undefined) {
+    ej.mobile.Grid.Locale["fa-IR"] = {
+        emptyResult: "هیچ پرونده برای نمایش نیست",
+        filterValidation: "فیلتر کردن داده ها معتبر وارد کنید",
+        filterTypeValidation: "فیلتر کردن داده ها معتبر وارد کنید. ستون فیلتر در حال حاضر از نوع",
+        captionText: "موارد",
+        spinnerText: "در حال بارگذاری ...",
+        HideColumnAlert: "حداقل یک ستون باید در شبکه نمایش داده می شود",
+        columnSelectorText: "پنهان کردن ستون",
+        columnSelectorDone: "خوب",
+        columnSelectorCancel: "لغو کردن",
+        columnSelectorWarning: "هشدار",
+        filterOk: "خوب",
+        filterWarning: "هشدار"
+    };
+    ;
+}
 if (ej.mobile !== undefined && ej.mobile.DatePicker !== undefined) {
     ej.mobile.DatePicker.Locale["fa-IR"] = {
         confirmText: "انجام شده",
