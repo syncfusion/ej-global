@@ -347,6 +347,23 @@ ej.Grid.Locale["ar-AE"] = {
 };
 ;
 if (ej.mobile !== undefined && ej.mobile.DatePicker !== undefined) {
+    ej.mobile.Grid.Locale["ar-AE"] = {
+        emptyResult: "عدم وجود سجلات للعرض",
+        filterValidation: "إدخال البيانات تصفية صالح",
+        filterTypeValidation: "إدخال البيانات مرشح صالحة. العمود مرشح الحالي هو من نوع",
+        captionText: "العناصر",
+        spinnerText: "جار التحميل...",
+        HideColumnAlert: "يجب عرض عمود واحد على الأقل في الشبكة",
+        columnSelectorText: "إخفاء العمود",
+        columnSelectorDone: "حسنا",
+        columnSelectorCancel: "إلغاء",
+        columnSelectorWarning: "تحذير",
+        filterOk: "حسنا",
+        filterWarning: "تحذير"
+    };
+    ;
+}
+if (ej.mobile !== undefined && ej.mobile.DatePicker !== undefined) {
     ej.mobile.DatePicker.Locale["ar-AE"] = {
         confirmText: "فعله",
         Windows: {
