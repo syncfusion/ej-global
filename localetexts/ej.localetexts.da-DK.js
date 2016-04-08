@@ -345,6 +345,23 @@ ej.Grid.Locale["da-DK"] = {
     NoResult: "Ingen match fundet"
 };
 ;
+if (ej.mobile !== undefined && ej.mobile.Grid !== undefined) {
+    ej.mobile.Grid.Locale["da-DK"] = {
+        emptyResult: "Ingen poster at vise",
+        filterValidation: "Indtast gyldige filter data",
+        filterTypeValidation: "Indtast gyldige filter data. Det aktuelle filter kolonne er af typen",
+        captionText: "Elementer",
+        spinnerText: "loading ...",
+        HideColumnAlert: "Mindst én kolonne skal vises i gitteret",
+        columnSelectorText: "Skjul kolonne",
+        columnSelectorDone: "Okay",
+        columnSelectorCancel: "Ophæve",
+        columnSelectorWarning: "Advarsel",
+        filterOk: "Okay",
+        filterWarning: "Advarsel"
+    };
+    ;
+}
 if (ej.mobile !== undefined && ej.mobile.DatePicker !== undefined) {
     ej.mobile.DatePicker.Locale["da-DK"] = {
         confirmText: "Færdig",
