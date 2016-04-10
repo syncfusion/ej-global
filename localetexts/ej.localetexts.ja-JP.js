@@ -345,6 +345,23 @@ ej.Grid.Locale["ja-JP"] = {
     NoResult: "一致が見つかりませんでした"
 };
 ;
+if (ej.mobile !== undefined && ej.mobile.Grid !== undefined) {
+    ej.mobile.Grid.Locale["ja-JP"] = {
+        emptyResult: "レコードは表示されませんします",
+        filterValidation: "有効なフィルタデータを入力します。",
+        filterTypeValidation: "有効なフィルタデータを入力します。現在のフィルタ列は型であります",
+        captionText: "アイテム",
+        spinnerText: "読み込んでいます...",
+        HideColumnAlert: "少なくとも一つの列がグリッドに表示されなければなりません",
+        columnSelectorText: "列の非表示",
+        columnSelectorDone: "[OK]",
+        columnSelectorCancel: "キャンセル",
+        columnSelectorWarning: "警告",
+        filterOk: "OK",
+        filterWarning: "警告"
+    };
+    ;
+}
 if (ej.mobile !== undefined && ej.mobile.DatePicker !== undefined) {
     ej.mobile.DatePicker.Locale["ja-JP"] = {
         confirmText: "終わりました",
