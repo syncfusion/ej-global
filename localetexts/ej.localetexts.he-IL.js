@@ -345,6 +345,23 @@ ej.Grid.Locale["he-IL"] = {
     NoResult: "Aucun résultat"
 };
 ;
+if (ej.mobile !== undefined && ej.mobile.Grid !== undefined) {
+    ej.mobile.Grid.Locale["he-IL"] = {
+        emptyResult: "Aucun enregistrement à afficher",
+        filterValidation: "Entrer les données de filtre valide",
+        filterTypeValidation: "Entrer les données de filtrage valides. La colonne actuelle du filtre est de type",
+        captionText: "Articles",
+        spinnerText: "chargement...",
+        HideColumnAlert: "Au moins une colonne doit être affichée dans la grille",
+        columnSelectorText: "Masquer la Colonne",
+        columnSelectorDone: "D'accord",
+        columnSelectorCancel: "Annuler",
+        columnSelectorWarning: "Attention",
+        filterOk: "D'accord",
+        filterWarning: "Attention"
+    };
+    ;
+}
 if (ej.mobile !== undefined && ej.mobile.DatePicker !== undefined) {
     ej.mobile.DatePicker.Locale["he-IL"] = {
         confirmText: "בוצע",
