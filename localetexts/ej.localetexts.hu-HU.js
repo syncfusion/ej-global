@@ -345,6 +345,23 @@ ej.Grid.Locale["hu-HU"] = {
     NoResult: "Nincs találat"
 };
 ;
+if (ej.mobile !== undefined && ej.mobile.Grid !== undefined) {
+    ej.mobile.Grid.Locale["hu-HU"] = {
+        emptyResult: "Nincs bejegyzés megjelenítéséhez",
+        filterValidation: "Adjon meg egy érvényes adatok szűrése",
+        filterTypeValidation: "Adjon meg egy érvényes adatok szűrése. Az aktuális szűrő oszlop típusú",
+        captionText: "tételek",
+        spinnerText: "tölt...",
+        HideColumnAlert: "Legalább egy oszlopot ki kell függeszteni rács",
+        columnSelectorText: "oszlop elrejtése",
+        columnSelectorDone: "rendben",
+        columnSelectorCancel: "Törölni",
+        columnSelectorWarning: "Figyelmeztetés",
+        filterOk: "Rendben",
+        filterWarning: "Figyelmeztetés"
+    };
+    ;
+}
 if (ej.mobile !== undefined && ej.mobile.DatePicker !== undefined) {
     ej.mobile.DatePicker.Locale["hu-HU"] = {
         confirmText: "Kész",
