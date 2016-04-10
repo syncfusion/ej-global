@@ -345,6 +345,23 @@ ej.Grid.Locale["vi-VN"] = {
     NoResult: "Lọc kết quả tìm thấy"
 };
 ;
+if (ej.mobile !== undefined && ej.mobile.Grid !== undefined) {
+    ej.mobile.Grid.Locale["vi-VN"] = {
+        emptyResult: "Không có dữ liệu để hiển thị",
+        filterValidation: "Nhập dữ liệu bộ lọc hợp lệ",
+        filterTypeValidation: "Nhập dữ liệu bộ lọc hợp lệ. Cột lọc hiện nay là các loại",
+        captionText: "Mặt hàng",
+        spinnerText: "tải...",
+        HideColumnAlert: "Ít nhất một cột phải được hiển thị trong lưới",
+        columnSelectorText: "Ẩn cột",
+        columnSelectorDone: "được",
+        columnSelectorCancel: "hủy bỏ",
+        columnSelectorWarning: "Cảnh báo",
+        filterOk: "Được",
+        filterWarning: "Cảnh báo"
+    };
+    ;
+}
 if (ej.mobile !== undefined && ej.mobile.DatePicker !== undefined) {
     ej.mobile.DatePicker.Locale["vi-VN"] = {
         confirmText: "Làm xong",
