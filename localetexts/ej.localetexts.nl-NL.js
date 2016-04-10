@@ -345,6 +345,23 @@ ej.Grid.Locale["nl-NL"] = {
     NoResult: "Geen overeenkomsten gevonden"
 };
 ;
+if (ej.mobile !== undefined && ej.mobile.Grid !== undefined) {
+    ej.mobile.Grid.Locale["nl-NL"] = {
+        emptyResult: "Geen records om te laten zien",
+        filterValidation: "Voer geldige filter data",
+        filterTypeValidation: "Voer geldige filter data. De huidige filter kolom is van het type",
+        captionText: "items",
+        spinnerText: "loading ...",
+        HideColumnAlert: "Ten minste één kolom moet worden weergegeven in het raster",
+        columnSelectorText: "Hide Column",
+        columnSelectorDone: "OK",
+        columnSelectorCancel: "Annuleer",
+        columnSelectorWarning: "Waarschuwing",
+        filterOk: "OK",
+        filterWarning: "Waarschuwing"
+    };
+    ;
+}
 if (ej.mobile !== undefined && ej.mobile.DatePicker !== undefined) {
     ej.mobile.DatePicker.Locale["nl-NL"] = {
         confirmText: "Gedaan",
