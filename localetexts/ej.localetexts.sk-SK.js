@@ -345,6 +345,23 @@ ej.Grid.Locale["sk-SK"] = {
     NoResult: "Žiadne zhody nenájdené"
 };
 ;
+if (ej.mobile !== undefined && ej.mobile.Grid !== undefined) {
+    ej.mobile.Grid.Locale["sk-SK"] = {
+        emptyResult: "žiadne záznamy na zobrazenie",
+        filterValidation: "Zadajte platné dáta filtra",
+        filterTypeValidation: "Zadajte platné dáta filtra. Aktuálny stĺpec je filter typu",
+        captionText: "predmety",
+        spinnerText: "načítavanie ...",
+        HideColumnAlert: "Najmenej jeden stĺpec musí byť zobrazené v mriežke",
+        columnSelectorText: "hide Column",
+        columnSelectorDone: "OK",
+        columnSelectorCancel: "Zrušiť",
+        columnSelectorWarning: "Výstraha",
+        filterOk: "ok",
+        filterWarning: "Výstraha"
+    };
+    ;
+}
 if (ej.mobile !== undefined && ej.mobile.DatePicker !== undefined) {
     ej.mobile.DatePicker.Locale["sk-SK"] = {
         confirmText: "hotový",
