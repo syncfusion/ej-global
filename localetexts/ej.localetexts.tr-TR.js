@@ -345,6 +345,23 @@ ej.Grid.Locale["tr-TR"] = {
     NoResult: "Hiçbir sonuç bulunamadı"
 };
 ;
+if (ej.mobile !== undefined && ej.mobile.Grid !== undefined) {
+    ej.mobile.Grid.Locale["tr-TR"] = {
+        emptyResult: "Gösterilecek kayıt yok",
+        filterValidation: "Geçerli filtre verileri girin",
+        filterTypeValidation: "Geçerli filtre verilerini girin. Geçerli filtre sütun tiptedir",
+        captionText: "Öğeler",
+        spinnerText: "Yükleniyor...",
+        HideColumnAlert: "En az bir kolon alanda görüntülenir edilmelidir",
+        columnSelectorText: "gizle Sütun",
+        columnSelectorDone: "tamam",
+        columnSelectorCancel: "İptal",
+        columnSelectorWarning: "Uyarı",
+        filterOk: "Tamam",
+        filterWarning: "Uyarı"
+    };
+    ;
+}
 if (ej.mobile !== undefined && ej.mobile.DatePicker !== undefined) {
     ej.mobile.DatePicker.Locale["tr-TR"] = {
         confirmText: "tamam",
