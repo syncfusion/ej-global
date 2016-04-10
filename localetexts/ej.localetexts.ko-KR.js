@@ -345,6 +345,23 @@ ej.Grid.Locale["ko-KR"] = {
     NoResult: "일치하는 항목 없음"
 };
 ;
+if (ej.mobile !== undefined && ej.mobile.Grid !== undefined) {
+    ej.mobile.Grid.Locale["ko-KR"] = {
+        emptyResult: "레코드 표시 없습니다",
+        filterValidation: "유효한 필터 데이터를 입력",
+        filterTypeValidation: "유효한 필터 데이터를 입력합니다. 현재 필터 열 타입이다",
+        captionText: "항목",
+        spinnerText: "로드 중 ...",
+        HideColumnAlert: "적어도 하나의 열이 그리드에 표시해야",
+        columnSelectorText: "열 숨기기",
+        columnSelectorDone: "그래",
+        columnSelectorCancel: "취소",
+        columnSelectorWarning: "경고",
+        filterOk: "그래",
+        filterWarning: "경고"
+    };
+    ;
+}
 if (ej.mobile !== undefined && ej.mobile.DatePicker !== undefined) {
     ej.mobile.DatePicker.Locale["ko-KR"] = {
         confirmText: "끝난",
