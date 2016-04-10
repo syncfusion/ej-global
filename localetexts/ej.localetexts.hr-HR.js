@@ -345,6 +345,23 @@ ej.Grid.Locale["hr-HR"] = {
     NoResult: "Nije pronađen nijedan rezultat"
 };
 ;
+if (ej.mobile !== undefined && ej.mobile.Grid !== undefined) {
+    ej.mobile.Grid.Locale["hr-HR"] = {
+        emptyResult: "Nema zapisa za prikaz",
+        filterValidation: "Unesite važeću podatke filter",
+        filterTypeValidation: "Unesite ispravne podatke filtra. Trenutni filter stupac tipa",
+        captionText: "Stavke",
+        spinnerText: "se učitava ...",
+        HideColumnAlert: "Barem jedan stupac mora biti prikazana u mreži",
+        columnSelectorText: "Sakrij Stupac",
+        columnSelectorDone: "u redu",
+        columnSelectorCancel: "Otkazati",
+        columnSelectorWarning: "Upozorenje",
+        filterOk: "U redu",
+        filterWarning: "Upozorenje"
+    };
+    ;
+}
 if (ej.mobile !== undefined && ej.mobile.DatePicker !== undefined) {
     ej.mobile.DatePicker.Locale["hr-HR"] = {
         confirmText: "Gotovo",
