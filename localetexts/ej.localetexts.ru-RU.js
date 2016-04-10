@@ -345,6 +345,23 @@ ej.Grid.Locale["ru-RU"] = {
     NoResult: "Совпадений не найдено"
 };
 ;
+if (ej.mobile !== undefined && ej.mobile.Grid !== undefined) {
+    ej.mobile.Grid.Locale["ru-RU"] = {
+        emptyResult: "Нет записей для отображения",
+        filterValidation: "Введите достоверные данные фильтра",
+        filterTypeValidation: "Введите действительные данные фильтра. Текущий столбец фильтра имеет тип",
+        captionText: "Предметы",
+        spinnerText: "загрузка ...",
+        HideColumnAlert: "По крайней мере один столбец должен отображаться в сетке",
+        columnSelectorText: "Скрыть столбец",
+        columnSelectorDone: "ОК",
+        columnSelectorCancel: "Отмена",
+        columnSelectorWarning: "Предупреждение",
+        filterOk: "ОК",
+        filterWarning: "Предупреждение"
+    };
+    ;
+}
 if (ej.mobile !== undefined && ej.mobile.DatePicker !== undefined) {
     ej.mobile.DatePicker.Locale["ru-RU"] = {
         confirmText: "сделано",
