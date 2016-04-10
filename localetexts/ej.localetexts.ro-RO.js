@@ -345,6 +345,23 @@ ej.Grid.Locale["ro-RO"] = {
     NoResult: "Nu s-a gasit nici o potrivire"
 };
 ;
+if (ej.mobile !== undefined && ej.mobile.Grid !== undefined) {
+    ej.mobile.Grid.Locale["ro-RO"] = {
+        emptyResult: "Nu exista inregistrari pentru a afișa",
+        filterValidation: "Introduceți date filtru valid",
+        filterTypeValidation: "Introduce date de filtrare valide. Coloana actuală a filtrului este de tip",
+        captionText: "articole",
+        spinnerText: "se incarca...",
+        HideColumnAlert: "Cel puțin o coloană trebuie să fie afișate în grilă",
+        columnSelectorText: "Ascundeți coloana",
+        columnSelectorDone: "bine",
+        columnSelectorCancel: "Anulare",
+        columnSelectorWarning: "Avertizare",
+        filterOk: "Bine",
+        filterWarning: "Avertizare"
+    };
+    ;
+}
 if (ej.mobile !== undefined && ej.mobile.DatePicker !== undefined) {
     ej.mobile.DatePicker.Locale["ro-RO"] = {
         confirmText: "Terminat",
