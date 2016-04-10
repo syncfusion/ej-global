@@ -345,6 +345,23 @@ ej.Grid.Locale["it-IT"] = {
     NoResult: "Nessun risultato trovato"
 };
 ;
+if (ej.mobile !== undefined && ej.mobile.Grid !== undefined) {
+    ej.mobile.Grid.Locale["it-IT"] = {
+        emptyResult: "nessun dato da visualizzare",
+        filterValidation: "Inserire i dati del filtro validi",
+        filterTypeValidation: "Inserisci filtrare i dati validi. La colonna filtro corrente è di tipo",
+        captionText: "Elementi",
+        spinnerText: "Caricamento in corso...",
+        HideColumnAlert: "Almeno una colonna deve essere visualizzato nella griglia",
+        columnSelectorText: "Nascondi Colonna",
+        columnSelectorDone: "ok",
+        columnSelectorCancel: "Annulla",
+        columnSelectorWarning: "avvertimento",
+        filterOk: "Ok",
+        filterWarning: "avvertimento"
+    };
+    ;
+}
 if (ej.mobile !== undefined && ej.mobile.DatePicker !== undefined) {
     ej.mobile.DatePicker.Locale["it-IT"] = {
         confirmText: "Fatto",
