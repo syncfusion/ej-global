@@ -347,18 +347,18 @@ ej.Grid.Locale["he-IL"] = {
 ;
 if (ej.mobile !== undefined && ej.mobile.Grid !== undefined) {
     ej.mobile.Grid.Locale["he-IL"] = {
-        emptyResult: "Aucun enregistrement à afficher",
-        filterValidation: "Entrer les données de filtre valide",
-        filterTypeValidation: "Entrer les données de filtrage valides. La colonne actuelle du filtre est de type",
-        captionText: "Articles",
-        spinnerText: "chargement...",
-        HideColumnAlert: "Au moins une colonne doit être affichée dans la grille",
-        columnSelectorText: "Masquer la Colonne",
-        columnSelectorDone: "D'accord",
-        columnSelectorCancel: "Annuler",
-        columnSelectorWarning: "Attention",
-        filterOk: "D'accord",
-        filterWarning: "Attention"
+        emptyResult: "אין רשומות לתצוגה",
+        filterValidation: "זן נתונים מסננים חוקיים",
+        filterTypeValidation: "זן נתונים מסננים חוקיים. העמודה המסננת הנוכחית היא מהסוג",
+        captionText: "פריטים",
+        spinnerText: "טוען...",
+        HideColumnAlert: "עמודה אחת לפחות חייבת להיות מוצגת ברשת",
+        columnSelectorText: "טור הסתר",
+        columnSelectorDone: "בסדר",
+        columnSelectorCancel: "לְבַטֵל",
+        columnSelectorWarning: "אַזהָרָה",
+        filterOk: "בסדר",
+        filterWarning: "אַזהָרָה"
     };
     ;
 }
