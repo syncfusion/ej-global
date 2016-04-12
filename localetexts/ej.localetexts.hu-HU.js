@@ -1177,7 +1177,7 @@ ej.Spreadsheet.Locale["hu-HU"] = {
     DateValidationMsg: "Írja csak dátum",
     Required: "Kívánt",
     TimeValidationMsg: "A beírt az idő érvénytelen.",
-    cellAddrsValidationMsg: "Referencia nem érvényes.",
+    CellAddrsValidationMsg: "Referencia nem érvényes.",
     PivotTable: "Pivot tábla",
     PivotTableContent: "Könnyen rendezni és összefoglalja a komplex adatok a Pivot Table.",
     NumberTab: "Szám",
