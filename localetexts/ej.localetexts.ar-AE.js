@@ -1047,6 +1047,7 @@ ej.Spreadsheet.Locale["ar-AE"] = {
     NMRangeAlert: "أدخل النطاق الصالح",
     FORMULAS: "صيغ",
     DataValue: "القيم:",
+    VAlue:"القيم",
     Formula: "الصيغ",
     MissingParenthesisAlert: "الصيغة الخاصة بك مفقود parenthesis--) أو (تحقق الصيغة، ثم قم بإضافة الأقواس في المكان المناسب.",
     UnsupportedFile: "ملف غير مدعم",
