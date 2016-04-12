@@ -5,7 +5,7 @@
 *  A copy of the current license can be obtained at any time by e-mailing
 *  licensing@syncfusion.com. Any infringement will be prosecuted under
 *  applicable laws. 
-*/
+*/f
 
 ej.Autocomplete.Locale["ar-AE"] = {
     addNewText: "اضف جديد",
@@ -1039,7 +1039,6 @@ ej.Spreadsheet.Locale["ar-AE"] = {
     DefineNameContent: "تحديد وتطبيق الأسماء.",
     UseInFormula: "استخدام في الفورمولا",
     UseInFormulaContent: "اختيار الاسم المستخدم في هذا المصنف وأدخله في الصيغة الحالية.",
-    Refersto: "يعود الى",
     RefersTo: "يعود الى",
     Name: "اسم",
     Scope: "نطاق",
