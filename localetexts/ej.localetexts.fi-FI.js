@@ -1039,7 +1039,6 @@ ej.Spreadsheet.Locale["fi-FI"] = {
     DefineNameContent: "Määrittele ja soveltaa nimiä.",
     UseInFormula: "Käytä Kaavassa",
     UseInFormulaContent: "Valitse nimi käytetty taulukossa ja aseta se nykyisen kaava.",
-    Refersto: "Viittaa",
     RefersTo: "Viittaa",
     Name: "Nimi",
     Scope: "laajuus",
