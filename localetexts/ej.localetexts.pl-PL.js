@@ -1039,7 +1039,6 @@ ej.Spreadsheet.Locale["pl-PL"] = {
     DefineNameContent: "Definiowanie i stosowanie nazw.",
     UseInFormula: "Użyj We wzorze",
     UseInFormulaContent: "Wybierz nazwę używanego w tym skoroszycie i włóż ją do obecnej formule.",
-    Refersto: "Odnosi się do",
     RefersTo: "Odnosi się do",
     Name: "Nazwa",
     Scope: "Zakres",
