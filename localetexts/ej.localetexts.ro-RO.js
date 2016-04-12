@@ -1039,7 +1039,7 @@ ej.Spreadsheet.Locale["ro-RO"] = {
     DefineNameContent: "Să definească și să aplice nume.",
     UseInFormula: "Utilizare în proces cu Formula",
     UseInFormulaContent: "Alege un nume folosit în acest registru de lucru și introduceți-l în formula actuală.",
-    Refersto: "Se refera la",
+    RefersTo: "Se refera la",
     Name: "Nume",
     Scope: "domeniu",
     NMNameAlert: "Numele pe care l-ați introdus nu este valid./Reason pentru acest lucru poate include: / numele nu începe cu o literă sau o linie de subliniere / numele conține un spațiu sau alte caractere nevalide / nume conflictele cu o foaie de calcul încorporat în numele sau numele unui alt obiect din registrul de lucru, // nu este utilizat complet",
