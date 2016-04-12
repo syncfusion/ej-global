@@ -1039,7 +1039,6 @@ ej.Spreadsheet.Locale["pt-PT"] = {
     DefineNameContent: "Definir e aplicar nomes.",
     UseInFormula: "Use Na Fórmula",
     UseInFormulaContent: "Escolha um nome utilizado neste livro e inseri-lo na fórmula atual.",
-    Refersto: "Refere-se a",
     RefersTo: "Refere-se a",
     Name: "Nome",
     Scope: "Escopo",
