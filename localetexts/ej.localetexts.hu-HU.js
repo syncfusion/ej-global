@@ -1039,7 +1039,6 @@ ej.Spreadsheet.Locale["hu-HU"] = {
     DefineNameContent: "Meghatározása és alkalmazása neveket.",
     UseInFormula: "Használat Formula",
     UseInFormulaContent: "Válasszon egy nevet használt munkafüzet, és helyezze be a jelenlegi formula.",
-    Refersto: "Utal rá",
     RefersTo: "Utal rá",
     Name: "Név",
     Scope: "Alkalmazási kör",
