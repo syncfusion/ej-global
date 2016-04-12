@@ -1039,7 +1039,6 @@ ej.Spreadsheet.Locale["fa-IR"] = {
     DefineNameContent: "تعریف و اعمال نام.",
     UseInFormula: "استفاده از فرمول در",
     UseInFormulaContent: "یک نام مورد استفاده در این کتاب را انتخاب کنید و آن را وارد فرمول فعلی.",
-    Refersto: "اشاره دارد به",
     RefersTo: "اشاره دارد به",
     Name: "نام",
     Scope: "محدوده",
