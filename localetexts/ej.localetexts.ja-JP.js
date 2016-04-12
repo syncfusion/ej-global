@@ -1039,7 +1039,6 @@ ej.Spreadsheet.Locale["ja-JP"] = {
     DefineNameContent: "定義し、名前を適用します。",
     UseInFormula: "式で使用します",
     UseInFormulaContent: "このワークブックで使用される名前を選択して、現在の式に挿入します。",
-    Refersto: "を指し、",
     RefersTo: "を指し、",
     Name: "名",
     Scope: "範囲",
