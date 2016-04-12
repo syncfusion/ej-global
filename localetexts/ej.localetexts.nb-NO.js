@@ -1039,7 +1039,6 @@ ej.Spreadsheet.Locale["nb-NO"] = {
     DefineNameContent: "Menentukan dan memohon nama.",
     UseInFormula: "Gunakan Dalam Formula",
     UseInFormulaContent: "Pilih nama yang digunakan dalam buku kerja ini dan masukkan ke dalam formula semasa.",
-    Refersto: "Merujuk kepada",
     RefersTo: "Merujuk kepada",
     Name: "Nama",
     Scope: "Skop",
