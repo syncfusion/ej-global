@@ -1039,7 +1039,6 @@ ej.Spreadsheet.Locale["ko-KR"] = {
     DefineNameContent: "정의하고 이름을 적용합니다.",
     UseInFormula: "식 사용",
     UseInFormulaContent: "이 통합 문서에 사용되는 이름을 선택하고 현재 공식에 삽입합니다.",
-    Refersto: "을 참고하여",
     RefersTo: "을 참고하여",
     Name: "이름",
     Scope: "범위",
