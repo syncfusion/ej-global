@@ -1039,7 +1039,6 @@ ej.Spreadsheet.Locale["nl-NL"] = {
     DefineNameContent: "Definiëren en namen toe te passen.",
     UseInFormula: "Gebruik In Formula",
     UseInFormulaContent: "Kies een naam die wordt gebruikt in dit werkboek en plaats deze in de huidige formule.",
-    Refersto: "Verwijst naar",
     RefersTo: "Verwijst naar",
     Name: "Naam",
     Scope: "strekking",
