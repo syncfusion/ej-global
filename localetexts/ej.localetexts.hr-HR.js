@@ -1039,7 +1039,6 @@ ej.Spreadsheet.Locale["hr-HR"] = {
     DefineNameContent: "Definirati i primijeniti imena.",
     UseInFormula: "Koristite U Formuli",
     UseInFormulaContent: "Odaberite naziv koji se koristi u ovom radne knjige i ubacite ga u tekućoj formuli.",
-    Refersto: "Odnosi se na",
     RefersTo: "Odnosi se na",
     Name: "Ime",
     Scope: "djelokrug",
