@@ -345,6 +345,23 @@ ej.Grid.Locale["zh-CN"] = {
     NoResult: "未找到匹配"
 };
 ;
+if (ej.mobile !== undefined && ej.mobile.Grid !== undefined) {
+    ej.mobile.Grid.Locale["zh-CN"] = {
+        emptyResult: "无记录可显示",
+        filterValidation: "输入有效过滤数据",
+        filterTypeValidation: "输入有效的过滤器的数据。当前的过滤器列式",
+        captionText: "项目",
+        spinnerText: "载入中...",
+        HideColumnAlert: "至少一列必须显示在格",
+        columnSelectorText: "隐藏列",
+        columnSelectorDone: "好",
+        columnSelectorCancel: "取消",
+        columnSelectorWarning: "警告",
+        filterOk: "好",
+        filterWarning: "警告"
+    };
+    ;
+}
 if (ej.mobile !== undefined && ej.mobile.DatePicker !== undefined) {
     ej.mobile.DatePicker.Locale["zh-CN"] = {
         confirmText: "做",

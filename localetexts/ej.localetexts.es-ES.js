@@ -345,6 +345,23 @@ ej.Grid.Locale["es-ES"] = {
     NoResult: "No se encontraron coincidencias"
 };
 ;
+if (ej.mobile !== undefined && ej.mobile.Grid !== undefined) {
+    ej.mobile.Grid.Locale["es-ES"] = {
+        emptyResult: "No hay registros que mostrar",
+        filterValidation: "Introduzca los datos de filtros válida",
+        filterTypeValidation: "Introduzca los datos de filtro válidos. La columna de filtro actual es de tipo",
+        captionText: "Artículos",
+        spinnerText: "cargando...",
+        HideColumnAlert: "Al menos una columna se debe mostrar en la cuadrícula",
+        columnSelectorText: "Ocultar columna",
+        columnSelectorDone: "DE ACUERDO",
+        columnSelectorCancel: "Cancelar",
+        columnSelectorWarning: "Advertencia",
+        filterOk: "De acuerdo",
+        filterWarning: "Advertencia"
+    };
+    ;
+}
 if (ej.mobile !== undefined && ej.mobile.DatePicker !== undefined) {
     ej.mobile.DatePicker.Locale["es-ES"] = {
         confirmText: "Hecho",

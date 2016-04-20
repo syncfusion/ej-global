@@ -345,6 +345,23 @@ ej.Grid.Locale["sv-SE"] = {
     NoResult: "Inga matchningar funna"
 };
 ;
+if (ej.mobile !== undefined && ej.mobile.Grid !== undefined) {
+    ej.mobile.Grid.Locale["sv-SE"] = {
+        emptyResult: "Inga poster att visa",
+        filterValidation: "Ange giltig filteruppgifter",
+        filterTypeValidation: "Ange giltiga filterdata . Den nuvarande filterkolonn är av typen",
+        captionText: "objekt",
+        spinnerText: "läser in...",
+        HideColumnAlert: "Minst en kolumn måste visas i rutnät",
+        columnSelectorText: "hide Column",
+        columnSelectorDone: "ok",
+        columnSelectorCancel: "Annullera",
+        columnSelectorWarning: "Varning",
+        filterOk: "Ok",
+        filterWarning: "Varning"
+    };
+    ;
+}
 if (ej.mobile !== undefined && ej.mobile.DatePicker !== undefined) {
     ej.mobile.DatePicker.Locale["sv-SE"] = {
         confirmText: "Gjort",

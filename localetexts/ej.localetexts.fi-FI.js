@@ -357,6 +357,23 @@ if (ej.mobile !== undefined && ej.mobile.DatePicker !== undefined) {
     };
     ;
 }
+if (ej.mobile !== undefined && ej.mobile.Grid !== undefined) {
+    ej.mobile.Grid.Locale["fi-FI"] = {
+        emptyResult: "Ei näytettäviä tietueita",
+        filterValidation: "Anna kelvollinen suodatin data",
+        filterTypeValidation: "Anna kelvollinen suodatin tietoja. Nykyinen suodatin sarake on tyyppiä",
+        captionText: "Tuotteet",
+        spinnerText: "ladataan ...",
+        HideColumnAlert: "Ainakin yksi sarake on oltava näkyvillä verkkoon",
+        columnSelectorText: "Piilota sarake",
+        columnSelectorDone: "kunnossa",
+        columnSelectorCancel: "Peruuttaa",
+        columnSelectorWarning: "Varoitus",
+        filterOk: "kunnossa",
+        filterWarning: "Varoitus"
+    };
+    ;
+}
 if (ej.mobile !== undefined && ej.mobile.TimePicker !== undefined) {
     ej.mobile.TimePicker.Locale["fi-FI"] = {
         confirmText: "Tehty",

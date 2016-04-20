@@ -345,6 +345,23 @@ ej.Grid.Locale["ms-MY"] = {
     NoResult: "Tiada padanan ditemui"
 };
 ;
+if (ej.mobile !== undefined && ej.mobile.Grid !== undefined) {
+    ej.mobile.Grid.Locale["ms-MY"] = {
+        emptyResult: "Tiada rekod untuk dipaparkan",
+        filterValidation: "Masukkan data penapis sah",
+        filterTypeValidation: "Masukkan data penapis sah. Lajur penapis semasa adalah dari jenis",
+        captionText: "item",
+        spinnerText: "loading ...",
+        HideColumnAlert: "Sekurang-kurangnya satu lajur mesti dipaparkan dalam grid",
+        columnSelectorText: "Sembunyikan lajur",
+        columnSelectorDone: "okey",
+        columnSelectorCancel: "Batal",
+        columnSelectorWarning: "Amaran",
+        filterOk: "Okey",
+        filterWarning: "Amaran"
+    };
+    ;
+}
 if (ej.mobile !== undefined && ej.mobile.DatePicker !== undefined) {
     ej.mobile.DatePicker.Locale["ms-MY"] = {
         confirmText: "Selesai",

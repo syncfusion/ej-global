@@ -347,6 +347,23 @@ ej.Grid.Locale["pl-PL"] = {
     NoResult: "Nie znaleziono żadnego meczu"
 };
 ;
+if (ej.mobile !== undefined && ej.mobile.Grid !== undefined) {
+    ej.mobile.Grid.Locale["pl-PL"] = {
+        emptyResult: "brak nagrań do odtworzenia",
+        filterValidation: "Wprowadź poprawne dane filtra",
+        filterTypeValidation: "Wprowadź poprawne dane filtra. Obecny filtr kolumna jest typu",
+        captionText: "Przedmiotów",
+        spinnerText: "załadunek...",
+        HideColumnAlert: "Co najmniej jedną kolumnę musi być wyświetlany w siatce",
+        columnSelectorText: "Ukryj kolumny",
+        columnSelectorDone: "ok",
+        columnSelectorCancel: "Anuluj",
+        columnSelectorWarning: "Ostrzeżenie",
+        filterOk: "Ok",
+        filterWarning: "Ostrzeżenie"
+    };
+    ;
+}
 if (ej.mobile !== undefined && ej.mobile.DatePicker !== undefined) {
     ej.mobile.DatePicker.Locale["pl-PL"] = {
         confirmText: "Gotowe",

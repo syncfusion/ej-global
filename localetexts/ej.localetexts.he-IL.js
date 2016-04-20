@@ -345,6 +345,23 @@ ej.Grid.Locale["he-IL"] = {
     NoResult: "Aucun résultat"
 };
 ;
+if (ej.mobile !== undefined && ej.mobile.Grid !== undefined) {
+    ej.mobile.Grid.Locale["he-IL"] = {
+        emptyResult: "אין רשומות לתצוגה",
+        filterValidation: "זן נתונים מסננים חוקיים",
+        filterTypeValidation: "זן נתונים מסננים חוקיים. העמודה המסננת הנוכחית היא מהסוג",
+        captionText: "פריטים",
+        spinnerText: "טוען...",
+        HideColumnAlert: "עמודה אחת לפחות חייבת להיות מוצגת ברשת",
+        columnSelectorText: "טור הסתר",
+        columnSelectorDone: "בסדר",
+        columnSelectorCancel: "לְבַטֵל",
+        columnSelectorWarning: "אַזהָרָה",
+        filterOk: "בסדר",
+        filterWarning: "אַזהָרָה"
+    };
+    ;
+}
 if (ej.mobile !== undefined && ej.mobile.DatePicker !== undefined) {
     ej.mobile.DatePicker.Locale["he-IL"] = {
         confirmText: "בוצע",

@@ -389,6 +389,22 @@ ej.Grid.Locale["en-US"] = {
     EmptyRowValidationMessage:"Atleast one field must be updated",
     NoResult: "No Matches Found"
 };;
+if (ej.mobile !== undefined && ej.mobile.Grid !== undefined) {
+    ej.mobile.Grid.Locale["en-US"] = {
+        emptyResult: "No records to display",
+        filterValidation: "Enter valid filter data",
+        filterTypeValidation: "Enter valid filter data. The current filter column is of type",
+        captionText: "Items",
+        spinnerText: "loading...",
+        HideColumnAlert: "At Least one column must be displayed in grid",
+        columnSelectorText: "Hide Column",
+        columnSelectorDone: "OK",
+        columnSelectorCancel: "Cancel",
+        columnSelectorWarning: "Warning",
+        filterOk: "Ok",
+        filterWarning: "Warning"
+    };;
+}
 if (ej.mobile !== undefined && ej.mobile.DatePicker !== undefined) {
     ej.mobile.DatePicker.Locale["en-US"] = {
         confirmText: "Done",

@@ -345,6 +345,23 @@ ej.Grid.Locale["nb-NO"] = {
     NoResult: "Tiada padanan ditemui"
 };
 ;
+if (ej.mobile !== undefined && ej.mobile.Grid !== undefined) {
+    ej.mobile.Grid.Locale["nb-NO"] = {
+        emptyResult: "Ingen oppføringer å vise",
+        filterValidation: "Oppgi gyldig filter data",
+        filterTypeValidation: "Skriv inn gyldige filtrere data. Den nåværende filter kolonnen er av type",
+        captionText: "elementer",
+        spinnerText: "loading ...",
+        HideColumnAlert: "Minst én kolonne må vises i rutenett",
+        columnSelectorText: "Skjul kolonne",
+        columnSelectorDone: "ok",
+        columnSelectorCancel: "Kansellere",
+        columnSelectorWarning: "Advarsel",
+        filterOk: "Ok",
+        filterWarning: "Advarsel"
+    };
+    ;
+}
 if (ej.mobile !== undefined && ej.mobile.DatePicker !== undefined) {
     ej.mobile.DatePicker.Locale["nb-NO"] = {
         confirmText: "Ferdig",

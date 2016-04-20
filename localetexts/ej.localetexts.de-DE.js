@@ -345,6 +345,23 @@ ej.Grid.Locale["de-DE"] = {
     NoResult: "Keine Treffer gefunden"
 };
 ;
+if (ej.mobile !== undefined && ej.mobile.Grid !== undefined) {
+    ej.mobile.Grid.Locale["de-DE"] = {
+        emptyResult: "Keine Aufzeichnungen angezeigt",
+        filterValidation: "Geben Sie eine gültige Filterdaten",
+        filterTypeValidation: "Geben Sie eine gültige Filterdaten . Der aktuelle Filter Spalte ist vom Typ",
+        captionText: "Artikel",
+        spinnerText: "Laden...",
+        HideColumnAlert: "Mindestens eine Spalte muss in Raster angezeigt werden",
+        columnSelectorText: "Spalte ausblenden",
+        columnSelectorDone: "OK",
+        columnSelectorCancel: "Stornieren",
+        columnSelectorWarning: "Warnung",
+        filterOk: "OK",
+        filterWarning: "Warnung"
+    };
+    ;
+}
 if (ej.mobile !== undefined && ej.mobile.DatePicker !== undefined) {
     ej.mobile.DatePicker.Locale["de-DE"] = {
         confirmText: "Erledigt",
