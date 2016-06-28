@@ -394,7 +394,7 @@ if (ej.mobile !== undefined && ej.mobile.TimePicker !== undefined) {
 ej.NumericTextbox.Locale["ro-RO"] = {
     watermarkText: "Introdu o valoare",
 };
-ej.olap.OlapChart.Locale["ro-RO"] = {
+ej.PivotChart.Locale["ro-RO"] = {
     Measure: "Măsura",
     Row: "Rând",
     Column: "Coloană",
@@ -464,7 +464,7 @@ ej.olap.OlapClient.Locale["ro-RO"] = {
     Polar: "polar",
     Radar: "radar",
 };
-ej.olap.OlapGauge.Locale["ro-RO"] = {
+ej.PivotGauge.Locale["ro-RO"] = {
     RevenueGoal: "venituri Obiectiv",
     RevenueValue: "Valoarea veniturilor",
 };

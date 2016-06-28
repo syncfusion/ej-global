@@ -394,7 +394,7 @@ if (ej.mobile !== undefined && ej.mobile.TimePicker !== undefined) {
 ej.NumericTextbox.Locale["tr-TR"] = {
     watermarkText: "değeri girin",
 };
-ej.olap.OlapChart.Locale["tr-TR"] = {
+ej.PivotChart.Locale["tr-TR"] = {
     Measure: "tedbir",
     Row: "sıra",
     Column: "sütun",
@@ -464,7 +464,7 @@ ej.olap.OlapClient.Locale["tr-TR"] = {
     Polar: "kutup",
     Radar: "radar",
 };
-ej.olap.OlapGauge.Locale["tr-TR"] = {
+ej.PivotGauge.Locale["tr-TR"] = {
     RevenueGoal: "Gelir Gol",
     RevenueValue: "Gelir Değeri",
 };
