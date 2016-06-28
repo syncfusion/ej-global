@@ -394,7 +394,7 @@ if (ej.mobile !== undefined && ej.mobile.TimePicker !== undefined) {
 ej.NumericTextbox.Locale["fi-FI"] = {
     watermarkText: "Anna arvo",
 };
-ej.olap.OlapChart.Locale["fi-FI"] = {
+ej.PivotChart.Locale["fi-FI"] = {
     Measure: "Mitata",
     Row: "Rivi",
     Column: "sarake",
@@ -464,7 +464,7 @@ ej.olap.OlapClient.Locale["fi-FI"] = {
     Polar: "polaarinen",
     Radar: "tutka",
 };
-ej.olap.OlapGauge.Locale["fi-FI"] = {
+ej.PivotGauge.Locale["fi-FI"] = {
     RevenueGoal: "tulot Tavoite",
     RevenueValue: "tulot Arvo",
 };

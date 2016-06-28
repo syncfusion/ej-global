@@ -396,7 +396,7 @@ if (ej.mobile !== undefined && ej.mobile.TimePicker !== undefined) {
 ej.NumericTextbox.Locale["pl-PL"] = {
     watermarkText: "Wprowadź wartość",
 };
-ej.olap.OlapChart.Locale["pl-PL"] = {
+ej.PivotChart.Locale["pl-PL"] = {
     Measure: "Zmierzyć",
     Row: "Rząd",
     Column: "Kolumna",
@@ -466,7 +466,7 @@ ej.olap.OlapClient.Locale["pl-PL"] = {
     Polar: "polarny",
     Radar: "radar",
 };
-ej.olap.OlapGauge.Locale["pl-PL"] = {
+ej.PivotGauge.Locale["pl-PL"] = {
     RevenueGoal: "przychody Goal",
     RevenueValue: "przychody Wartość",
 };
