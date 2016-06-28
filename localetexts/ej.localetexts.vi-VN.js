@@ -394,7 +394,7 @@ if (ej.mobile !== undefined && ej.mobile.TimePicker !== undefined) {
 ej.NumericTextbox.Locale["vi-VN"] = {
     watermarkText: "nhập giá trị",
 };
-ej.olap.OlapChart.Locale["vi-VN"] = {
+ej.PivotChart.Locale["vi-VN"] = {
     Measure: "Đo",
     Row: "hàng",
     Column: "Cột",
@@ -464,7 +464,7 @@ ej.olap.OlapClient.Locale["vi-VN"] = {
     Polar: "cực",
     Radar: "radar",
 };
-ej.olap.OlapGauge.Locale["vi-VN"] = {
+ej.PivotGauge.Locale["vi-VN"] = {
     RevenueGoal: "Mục tiêu doanh thu",
     RevenueValue: "Giá trị doanh thu",
 };
