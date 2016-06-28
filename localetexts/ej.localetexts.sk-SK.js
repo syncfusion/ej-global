@@ -394,7 +394,7 @@ if (ej.mobile !== undefined && ej.mobile.TimePicker !== undefined) {
 ej.NumericTextbox.Locale["sk-SK"] = {
     watermarkText: "zadajte hodnotu",
 };
-ej.PivotChart.Locale["sk-SK"] = {
+ej.olap.OlapChart.Locale["sk-SK"] = {
     Measure: "opatrenia",
     Row: "riadok",
     Column: "stĺpec",
@@ -464,7 +464,7 @@ ej.olap.OlapClient.Locale["sk-SK"] = {
     Polar: "polárne",
     Radar: "radar",
 };
-ej.PivotGauge.Locale["sk-SK"] = {
+ej.olap.OlapGauge.Locale["sk-SK"] = {
     RevenueGoal: "výnosy Cieľ",
     RevenueValue: "hodnota tržieb",
 };

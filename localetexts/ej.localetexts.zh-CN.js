@@ -394,7 +394,7 @@ if (ej.mobile !== undefined && ej.mobile.TimePicker !== undefined) {
 ej.NumericTextbox.Locale["zh-CN"] = {
     watermarkText: "输入值",
 };
-ej.PivotChart.Locale["zh-CN"] = {
+ej.olap.OlapChart.Locale["zh-CN"] = {
     Measure: "测量",
     Row: "行",
     Column: "柱",
@@ -464,7 +464,7 @@ ej.olap.OlapClient.Locale["zh-CN"] = {
     Polar: "极性",
     Radar: "雷达",
 };
-ej.PivotGauge.Locale["zh-CN"] = {
+ej.olap.OlapGauge.Locale["zh-CN"] = {
     RevenueGoal: "收入目标",
     RevenueValue: "收入值",
 };

@@ -394,7 +394,7 @@ if (ej.mobile !== undefined && ej.mobile.TimePicker !== undefined) {
 ej.NumericTextbox.Locale["hu-HU"] = {
     watermarkText: "Írja érték",
 };
-ej.PivotChart.Locale["hu-HU"] = {
+ej.olap.OlapChart.Locale["hu-HU"] = {
     Measure: "Intézkedés",
     Row: "Sor",
     Column: "Oszlop",
@@ -464,7 +464,7 @@ ej.olap.OlapClient.Locale["hu-HU"] = {
     Polar: "poláris",
     Radar: "radar",
 };
-ej.PivotGauge.Locale["hu-HU"] = {
+ej.olap.OlapGauge.Locale["hu-HU"] = {
     RevenueGoal: "bevétel cél",
     RevenueValue: "bevétel értéke",
 };

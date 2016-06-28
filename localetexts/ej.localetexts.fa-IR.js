@@ -394,7 +394,7 @@ if (ej.mobile !== undefined && ej.mobile.TimePicker !== undefined) {
 ej.NumericTextbox.Locale["fa-IR"] = {
     watermarkText: "مقدار را وارد کنید",
 };
-ej.PivotChart.Locale["fa-IR"] = {
+ej.olap.OlapChart.Locale["fa-IR"] = {
     Measure: "اندازه گرفتن",
     Row: "ردیف",
     Column: "ستون",
@@ -464,7 +464,7 @@ ej.olap.OlapClient.Locale["fa-IR"] = {
     Polar: "قطبی",
     Radar: "رادار",
 };
-ej.PivotGauge.Locale["fa-IR"] = {
+ej.olap.OlapGauge.Locale["fa-IR"] = {
     RevenueGoal: "هدف درآمد",
     RevenueValue: "ارزش درآمد",
 };

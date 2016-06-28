@@ -394,7 +394,7 @@ if (ej.mobile !== undefined && ej.mobile.TimePicker !== undefined) {
 ej.NumericTextbox.Locale["ja-JP"] = {
     watermarkText: "値を入力します。",
 };
-ej.PivotChart.Locale["ja-JP"] = {
+ej.olap.OlapChart.Locale["ja-JP"] = {
     Measure: "メジャー",
     Row: "行",
     Column: "カラム",
@@ -464,7 +464,7 @@ ej.olap.OlapClient.Locale["ja-JP"] = {
     Polar: "極性の",
     Radar: "レーダー",
 };
-ej.PivotGauge.Locale["ja-JP"] = {
+ej.olap.OlapGauge.Locale["ja-JP"] = {
     RevenueGoal: "収益目標",
     RevenueValue: "収益値",
 };

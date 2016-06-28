@@ -394,7 +394,7 @@ if (ej.mobile !== undefined && ej.mobile.TimePicker !== undefined) {
 ej.NumericTextbox.Locale["ko-KR"] = {
     watermarkText: "값을 입력",
 };
-ej.PivotChart.Locale["ko-KR"] = {
+ej.olap.OlapChart.Locale["ko-KR"] = {
     Measure: "법안",
     Row: "열",
     Column: "기둥",
@@ -464,7 +464,7 @@ ej.olap.OlapClient.Locale["ko-KR"] = {
     Polar: "극선",
     Radar: "레이더의",
 };
-ej.PivotGauge.Locale["ko-KR"] = {
+ej.olap.OlapGauge.Locale["ko-KR"] = {
     RevenueGoal: "수익 목표",
     RevenueValue: "수익 가치",
 };

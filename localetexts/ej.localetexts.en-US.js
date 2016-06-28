@@ -432,7 +432,7 @@ if (ej.mobile !== undefined && ej.mobile.TimePicker !== undefined) {
         }
     };;
 }
-ej.PivotChart.Locale["en-US"] = {
+ej.olap.OlapChart.Locale["en-US"] = {
     Measure: "Measure",
     Row: "Row",
     Column: "Column",
@@ -504,7 +504,7 @@ ej.olap.OlapClient.Locale["en-US"] = {
     Polar: "polar",
     Radar: "radar"
 };
-ej.PivotGauge.Locale["en-US"] = {
+ej.olap.OlapGauge.Locale["en-US"] = {
     RevenueGoal: "Revenue Goal",
     RevenueValue: "Revenue Value"
 };
