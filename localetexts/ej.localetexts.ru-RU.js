@@ -394,7 +394,7 @@ if (ej.mobile !== undefined && ej.mobile.TimePicker !== undefined) {
 ej.NumericTextbox.Locale["ru-RU"] = {
     watermarkText: "Введите значение",
 };
-ej.olap.OlapChart.Locale["ru-RU"] = {
+ej.PivotChart.Locale["ru-RU"] = {
     Measure: "Мера",
     Row: "строка",
     Column: "колонка",
@@ -464,7 +464,7 @@ ej.olap.OlapClient.Locale["ru-RU"] = {
     Polar: "полярный",
     Radar: "радар",
 };
-ej.olap.OlapGauge.Locale["ru-RU"] = {
+ej.PivotGauge.Locale["ru-RU"] = {
     RevenueGoal: "Выручка Гол",
     RevenueValue: "Доход Значение",
 };
