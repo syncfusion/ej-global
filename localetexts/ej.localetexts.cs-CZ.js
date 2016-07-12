@@ -340,7 +340,7 @@ ej.Grid.Locale["cs-CZ"] = {
     NextPage: "Další strana",
     PreviousPage: "Předchozí stránka",
     FirstPage: "První strana",
-    LastPage: "Poslední strana"
+    LastPage: "Poslední strana",
     EmptyRowValidationMessage: "Alespoň jedno pole musí být aktualizovány",
     NoResult: "Nenalezen žádný zápas"
 };

@@ -98,7 +98,7 @@ ej.ExcelFilter.Locale["he-IL"] = {
     DatePickerWaterMark: "תאריך בחר",
     DateTimePickerWaterMark: "Sélectionnez date heure",
     True: "נָכוֹן",
-    False: "שֶׁקֶר",ר",
+    False: "שֶׁקֶר",
 };
 ej.FileExplorer.Locale["he-IL"] = {
     Back: "לְאָחוֹר",
