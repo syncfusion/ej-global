@@ -5,7 +5,7 @@
 *  A copy of the current license can be obtained at any time by e-mailing
 *  licensing@syncfusion.com. Any infringement will be prosecuted under
 *  applicable laws. 
-*/f
+*/
 
 ej.Autocomplete.Locale["ar-AE"] = {
     addNewText: "اضف جديد",
