@@ -30,8 +30,6 @@
 
   "author": "Syncfusion Inc",
 
-  "license": "SEE LICENSE IN README.md",
-
   "bugs": {
 
     "url": "https://github.com/syncfusion/ej-global/issues"
@@ -42,14 +40,6 @@
   
   "files": [
         "localetexts/"       
-    ],
-    "jspm": {
-        "main": false,
-        "format": "amd",
-        "registry" : "npm",
-        "files": [
-            "localetexts"            
-        ]              
-    }
+    ]
 }
 
