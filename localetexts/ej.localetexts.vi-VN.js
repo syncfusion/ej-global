@@ -1642,4 +1642,20 @@ ej.Uploadbox.Locale["vi-VN"] = {
     failedToolTip: "Thất bại",
     closeToolTip: "Gần",
 };
-;
+ej.SpellCheck.Locale["vi-VN"] = {
+    SpellCheckButtonText: "Kiểm tra chính tả",
+    NotInDictionary: "Không Trong Từ điển",
+    SuggestionLabel: "gợi ý",
+    IgnoreOnceButtonText: "Bỏ qua khi",
+    IgnoreAllButtonText: "Bỏ qua tất cả",
+    AddToDictionary: "Thêm vào từ điển",
+    ChangeButtonText: "Thay đổi",
+    ChangeAllButtonText: "thay đổi tất cả",
+    CloseButtonText: "Gần",
+    CompletionPopupMessage: "Kiểm tra chính tả hoàn tất",
+    ErrorPopupMessage: "Kiểm tra chính tả chưa hoàn thiện",
+    CompletionPopupTitle: "Kiểm tra chính tả cảnh báo",
+    OK: "được",
+    NoSuggestionMessage: "Không có đề xuất",
+};
+

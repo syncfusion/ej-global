@@ -1642,4 +1642,20 @@ ej.Uploadbox.Locale["hr-HR"] = {
     failedToolTip: "Neuspjeh",
     closeToolTip: "Zatvoriti",
 };
-;
+ej.SpellCheck.Locale["hr-HR"] = {
+    SpellCheckButtonText: "Provjera pravopisa",
+    NotInDictionary: "Nije u rječniku",
+    SuggestionLabel: "Prijedlozi",
+    IgnoreOnceButtonText: "Zanemari jednom",
+    IgnoreAllButtonText: "Zanemari sve",
+    AddToDictionary: "Dodaj u rječnik",
+    ChangeButtonText: "Promijeniti",
+    ChangeAllButtonText: "Promjena sve",
+    CloseButtonText: "Blizu",
+    CompletionPopupMessage: "Provjera pravopisa je završena",
+    ErrorPopupMessage: "Provjera pravopisa nije završena",
+    CompletionPopupTitle: "Provjera pravopisa upozorenja",
+    OK: "u redu",
+    NoSuggestionMessage: "Nema dostupnih prijedloga",
+};
+

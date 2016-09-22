@@ -1642,4 +1642,20 @@ ej.Uploadbox.Locale["fi-FI"] = {
     failedToolTip: "epäonnistui",
     closeToolTip: "Lähellä",
 };
-;
+ej.SpellCheck.Locale["fi-FI"] = {
+    SpellCheckButtonText: "Oikeinkirjoituksen tarkistus",
+    NotInDictionary: "Not In Sanakirja",
+    SuggestionLabel: "Ehdotukset",
+    IgnoreOnceButtonText: "Ohita kerran",
+    IgnoreAllButtonText: "Ohita kaikki",
+    AddToDictionary: "Lisää sanakirjaan",
+    ChangeButtonText: "Muuttaa",
+    ChangeAllButtonText: "muutos Kaikki",
+    CloseButtonText: "Lähellä",
+    CompletionPopupMessage: "Oikeinkirjoituksen tarkistus on valmis",
+    ErrorPopupMessage: "Oikeinkirjoituksen tarkistus ei ole valmis",
+    CompletionPopupTitle: "Oikoluku hälytys",
+    OK: "kunnossa",
+    NoSuggestionMessage: "Ehdotuksia ei ole saatavilla",
+};
+

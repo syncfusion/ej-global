@@ -1642,4 +1642,20 @@ ej.Uploadbox.Locale["sv-SE"] = {
     failedToolTip: "misslyckades",
     closeToolTip: "Stänga",
 };
-;
+ej.SpellCheck.Locale["sv-SE"] = {
+    SpellCheckButtonText: "Stavnings kontroll",
+    NotInDictionary: "Inte i ordbok",
+    SuggestionLabel: "Förslag",
+    IgnoreOnceButtonText: "ignorera en gång",
+    IgnoreAllButtonText: "Ignorera alla",
+    AddToDictionary: "Lägg till Ordlista",
+    ChangeButtonText: "Byta",
+    ChangeAllButtonText: "Ändra alla",
+    CloseButtonText: "Stänga",
+    CompletionPopupMessage: "Stavningskontrollen är klar",
+    ErrorPopupMessage: "Stavningskontroll är inte klar",
+    CompletionPopupTitle: "Stavningskontroll alert",
+    OK: "ok",
+    NoSuggestionMessage: "Inga förslag tillgängliga",
+};
+

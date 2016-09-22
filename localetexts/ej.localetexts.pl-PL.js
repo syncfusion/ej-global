@@ -1644,4 +1644,20 @@ ej.Uploadbox.Locale["pl-PL"] = {
     failedToolTip: "Niepowodzenie",
     closeToolTip: "Blisko",
 };
-;
+ej.SpellCheck.Locale["pl-PL"] = {
+    SpellCheckButtonText: "Sprawdzanie pisowni",
+    NotInDictionary: "Nie ma w słowniku",
+    SuggestionLabel: "Propozycje",
+    IgnoreOnceButtonText: "Po ignorowanych",
+    IgnoreAllButtonText: "Ignorować wszystko",
+    AddToDictionary: "Dodaj do słownika",
+    ChangeButtonText: "Zmiana",
+    ChangeAllButtonText: "zmiana Wszystko",
+    CloseButtonText: "Blisko",
+    CompletionPopupMessage: "Sprawdzanie pisowni jest kompletna",
+    ErrorPopupMessage: "Sprawdzanie pisowni nie jest zakończone",
+    CompletionPopupTitle: "Sprawdzanie wpisu",
+    OK: "ok",
+    NoSuggestionMessage: "Brak sugestii",
+};
+

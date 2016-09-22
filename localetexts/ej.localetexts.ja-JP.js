@@ -1642,4 +1642,20 @@ ej.Uploadbox.Locale["ja-JP"] = {
     failedToolTip: "失敗しました",
     closeToolTip: "閉じる",
 };
-;
+ej.SpellCheck.Locale["ja-JP"] = {
+    SpellCheckButtonText: "スペルチェック",
+    NotInDictionary: "辞書に載っていませんで",
+    SuggestionLabel: "提案",
+    IgnoreOnceButtonText: "いったん無視",
+    IgnoreAllButtonText: "すべて無視",
+    AddToDictionary: "辞書に追加",
+    ChangeButtonText: "変化する",
+    ChangeAllButtonText: "すべて変更",
+    CloseButtonText: "閉じる",
+    CompletionPopupMessage: "スペルチェックが完了しました",
+    ErrorPopupMessage: "スペルチェックが完了していません",
+    CompletionPopupTitle: "アラートをスペルチェック",
+    OK: "[OK]",
+    NoSuggestionMessage: "利用可能な提案なし",
+};
+

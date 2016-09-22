@@ -1642,4 +1642,20 @@ ej.Uploadbox.Locale["ru-RU"] = {
     failedToolTip: "Не удалось",
     closeToolTip: "близко",
 };
-;
+ej.SpellCheck.Locale["ru-RU"] = {
+    SpellCheckButtonText: "Проверка орфографии",
+    NotInDictionary: "Нет в словаре",
+    SuggestionLabel: "Предложения",
+    IgnoreOnceButtonText: "Игнорировать После",
+    IgnoreAllButtonText: "Игнорировать все",
+    AddToDictionary: "Добавить в словарь",
+    ChangeButtonText: "+ Изменить",
+    ChangeAllButtonText: "Изменить все",
+    CloseButtonText: "Закрыть",
+    CompletionPopupMessage: "Проверка орфографии завершена",
+    ErrorPopupMessage: "Проверка орфографии не завершена",
+    CompletionPopupTitle: "Проверка орфографии предупреждение",
+    OK: "ОК",
+    NoSuggestionMessage: "Нет предложений, доступных",
+};
+

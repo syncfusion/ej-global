@@ -1642,4 +1642,20 @@ ej.Uploadbox.Locale["ro-RO"] = {
     failedToolTip: "A eșuat",
     closeToolTip: "Închide",
 };
-;
+ej.SpellCheck.Locale["ro-RO"] = {
+    SpellCheckButtonText: "Verificare a ortografiei",
+    NotInDictionary: "Nu în dicționar",
+    SuggestionLabel: "sugestii",
+    IgnoreOnceButtonText: "Odată ignorați",
+    IgnoreAllButtonText: "Ignora tot",
+    AddToDictionary: "Adăugați în dicționar",
+    ChangeButtonText: "Schimbare",
+    ChangeAllButtonText: "Toate schimbările",
+    CloseButtonText: "Închide",
+    CompletionPopupMessage: "verificare a ortografiei este completă",
+    ErrorPopupMessage: "verificare a ortografiei nu este finalizat",
+    CompletionPopupTitle: "Ortografiei verifica Alertă",
+    OK: "O.K",
+    NoSuggestionMessage: "Nu există sugestii disponibile",
+};
+

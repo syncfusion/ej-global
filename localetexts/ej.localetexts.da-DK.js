@@ -1642,4 +1642,20 @@ ej.Uploadbox.Locale["da-DK"] = {
     failedToolTip: "Mislykket",
     closeToolTip: "Tæt",
 };
-;
+ej.SpellCheck.Locale["da-DK"] = {
+    SpellCheckButtonText: "Stavekontrol",
+    NotInDictionary: "Ikke I Ordbog",
+    SuggestionLabel: "Forslag",
+    IgnoreOnceButtonText: "Ignorer gang",
+    IgnoreAllButtonText: "Ignorer alle",
+    AddToDictionary: "Tilføj til ordbog",
+    ChangeButtonText: "Lave om",
+    ChangeAllButtonText: "Skift Alle",
+    CloseButtonText: "Tæt",
+    CompletionPopupMessage: "Stavekontrol er komplet",
+    ErrorPopupMessage: "Stavekontrol er ikke afsluttet",
+    CompletionPopupTitle: "Stavekontrol alarm",
+    OK: "Okay",
+    NoSuggestionMessage: "Ingen forslag til rådighed",
+};
+

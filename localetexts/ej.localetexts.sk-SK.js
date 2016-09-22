@@ -1642,4 +1642,20 @@ ej.Uploadbox.Locale["sk-SK"] = {
     failedToolTip: "neúspešný",
     closeToolTip: "Blízky",
 };
-;
+ej.SpellCheck.Locale["sk-SK"] = {
+    SpellCheckButtonText: "Kontrola pravopisu",
+    NotInDictionary: "Nie je v slovníku",
+    SuggestionLabel: "Návrhy",
+    IgnoreOnceButtonText: "akonáhle ignorovať",
+    IgnoreAllButtonText: "ignorovať všetko",
+    AddToDictionary: "Pridať do slovníka",
+    ChangeButtonText: "zmena",
+    ChangeAllButtonText: "zmena Všetko",
+    CloseButtonText: "Zavrieť",
+    CompletionPopupMessage: "Kontrola pravopisu je dokončená",
+    ErrorPopupMessage: "Kontrola pravopisu nie je dokončená",
+    CompletionPopupTitle: "Kontrola pravopisu upozornenie",
+    OK: "OK",
+    NoSuggestionMessage: "Žiadne návrhy k dispozícii",
+};
+
