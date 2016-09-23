@@ -667,6 +667,21 @@ ej.Ribbon.Locale["fr-FR"] = {
     ShowBelowTheRibbon: "Afficher en dessous du ruban",
     MoreCommands: "Plus de commandes ...",
 };
+ej.Kanban.Locale["fr-FR"] = {
+    EmptyCard: "Pas de cartes pour afficher",
+    SaveButton: "Sauvegarder",
+    CancelButton: "Annuler",
+    EditFormTitle: "Détails de ",
+    AddFormTitle: "Ajouter nouvelle carte",
+    SwimlaneCaptionFormat: "- {{:count}}{{if count == 1 }} Point {{else}} Articles {{/if}}",
+    FilterSettings: "Filters:",
+    FilterOfText: "De",
+    Max: "Max",
+    Min: "Min",
+    Cards: "  Cards",
+    ItemsCount: "Nombre d'éléments :",
+    Unassigned: "Non attribué"
+};
 ej.RTE.Locale["fr-FR"] = {
     bold: "Audacieux",
     italic: "Italique",
