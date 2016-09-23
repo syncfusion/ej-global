@@ -678,9 +678,9 @@ ej.Ribbon.Locale["de-DE"] = {
     FilterOfText: "Von",
     Max: "Max.",
     Min: "Min.",
-	Cards: "  Karten",
-	ItemsCount:"Artikel Graf :",
-	Unassigned:"Nicht zugewiesen",
+    Cards: "  Karten",
+    ItemsCount:"Artikel Graf :",
+    Unassigned:"Nicht zugewiesen",
 };
 ej.RTE.Locale["de-DE"] = {
     bold: "Fett gedruckt",
