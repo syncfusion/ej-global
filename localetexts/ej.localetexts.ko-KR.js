@@ -1642,4 +1642,20 @@ ej.Uploadbox.Locale["ko-KR"] = {
     failedToolTip: "실패한",
     closeToolTip: "닫기",
 };
-;
+ej.SpellCheck.Locale["ko-KR"] = {
+    SpellCheckButtonText: "맞춤법 검사",
+    NotInDictionary: "아니 사전에",
+    SuggestionLabel: "제안",
+    IgnoreOnceButtonText: "일단 무시",
+    IgnoreAllButtonText: "모두 무시",
+    AddToDictionary: "사전에 추가",
+    ChangeButtonText: "변화",
+    ChangeAllButtonText: "모두 변경",
+    CloseButtonText: "닫기",
+    CompletionPopupMessage: "맞춤법 검사가 완료",
+    ErrorPopupMessage: "맞춤법 검사가 완료되지 않은",
+    CompletionPopupTitle: "경고를 맞춤법 검사",
+    OK: "승인",
+    NoSuggestionMessage: "사용할 수있는 제안 없음",
+};
+

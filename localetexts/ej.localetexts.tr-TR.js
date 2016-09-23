@@ -1642,4 +1642,20 @@ ej.Uploadbox.Locale["tr-TR"] = {
     failedToolTip: "başarısız",
     closeToolTip: "Kapat",
 };
-;
+ej.SpellCheck.Locale["tr-TR"] = {
+    SpellCheckButtonText: "Yazım denetimi",
+    NotInDictionary: "Değil Sözlüğü",
+    SuggestionLabel: "Öneriler",
+    IgnoreOnceButtonText: "Bir kez göz ardı",
+    IgnoreAllButtonText: "Hepsini Yoksay",
+    AddToDictionary: "Sözlüğe ekle",
+    ChangeButtonText: "Değişiklik",
+    ChangeAllButtonText: "Değişim Hepsi",
+    CloseButtonText: "Kapat",
+    CompletionPopupMessage: "Yazım denetimi tamamlandı",
+    ErrorPopupMessage: "Yazım denetimi tamamlanmış değil",
+    CompletionPopupTitle: "uyarısı yazım denetimi",
+    OK: "tamam",
+    NoSuggestionMessage: "Henüz öneri",
+};
+

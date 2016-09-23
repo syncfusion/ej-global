@@ -1642,4 +1642,20 @@ ej.Uploadbox.Locale["he-IL"] = {
     failedToolTip: "נִכשָׁל",
     closeToolTip: "לִסְגוֹר",
 };
-;
+ej.SpellCheck.Locale["he-IL"] = {
+    SpellCheckButtonText: "Spell Check",
+    NotInDictionary: "Not In Dictionary",
+    SuggestionLabel: "Suggestions",
+    IgnoreOnceButtonText: "Ignore Once",
+    IgnoreAllButtonText: "Ignore All",
+    AddToDictionary: "Add to Dictionary",
+    ChangeButtonText: "Change",
+    ChangeAllButtonText: "Change All",
+    CloseButtonText: "Close",
+    CompletionPopupMessage: "Spell check is complete",
+    ErrorPopupMessage: "Spell check is not completed",
+    CompletionPopupTitle: "Spell check alert",
+    OK: "OK",
+    NoSuggestionMessage: "No suggestions available",
+};
+

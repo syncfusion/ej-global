@@ -1642,4 +1642,20 @@ ej.Uploadbox.Locale["fa-IR"] = {
     failedToolTip: "ناموفق",
     closeToolTip: "نزدیک",
 };
-;
+ej.SpellCheck.Locale["fa-IR"] = {
+    SpellCheckButtonText: "املا",
+    NotInDictionary: "نه در فرهنگ",
+    SuggestionLabel: "پیشنهادات",
+    IgnoreOnceButtonText: "نادیده گرفتن هنگامی که",
+    IgnoreAllButtonText: "چشم پوشی از همه",
+    AddToDictionary: "اضافه کردن به فرهنگ لغت",
+    ChangeButtonText: "تغییر دادن",
+    ChangeAllButtonText: "تغییر همه",
+    CloseButtonText: "نزدیک",
+    CompletionPopupMessage: "بررسی املا کامل است",
+    ErrorPopupMessage: "بررسی املا کامل نشده است",
+    CompletionPopupTitle: "بررسی املا هشدار",
+    OK: "خوب",
+    NoSuggestionMessage: "پیشنهادی در دسترس",
+};
+

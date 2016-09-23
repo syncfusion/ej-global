@@ -1642,4 +1642,20 @@ ej.Uploadbox.Locale["es-ES"] = {
     failedToolTip: "Ha fallado",
     closeToolTip: "Cerca",
 };
-;
+ej.SpellCheck.Locale["es-ES"] = {
+    SpellCheckButtonText: "Corrector ortográfico",
+    NotInDictionary: "No en diccionario",
+    SuggestionLabel: "sugerencias",
+    IgnoreOnceButtonText: "Ignorar una vez",
+    IgnoreAllButtonText: "Ignora todo",
+    AddToDictionary: "Añadir al diccionario",
+    ChangeButtonText: "Cambio",
+    ChangeAllButtonText: "Cambia todo",
+    CloseButtonText: "Cerca",
+    CompletionPopupMessage: "revisión ortográfica",
+    ErrorPopupMessage: "El corrector ortográfico no se ha completado",
+    CompletionPopupTitle: "Revisar la ortografía de alerta",
+    OK: "DE ACUERDO",
+    NoSuggestionMessage: "No hay sugerencias disponibles",
+};
+

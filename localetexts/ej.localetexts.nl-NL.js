@@ -1642,4 +1642,20 @@ ej.Uploadbox.Locale["nl-NL"] = {
     failedToolTip: "Mislukt",
     closeToolTip: "Dichtbij",
 };
-;
+ej.SpellCheck.Locale["nl-NL"] = {
+    SpellCheckButtonText: "Spellingscontrole",
+    NotInDictionary: "Niet in Woordenboek",
+    SuggestionLabel: "suggesties",
+    IgnoreOnceButtonText: "Eenmaal negeren",
+    IgnoreAllButtonText: "Negeer alles",
+    AddToDictionary: "Voeg naar Woordenboek",
+    ChangeButtonText: "Verandering",
+    ChangeAllButtonText: "Alles wijzigen",
+    CloseButtonText: "Dichtbij",
+    CompletionPopupMessage: "Spellingcontrole is voltooid",
+    ErrorPopupMessage: "Spellingcontrole is niet voltooid",
+    CompletionPopupTitle: "Spellingcontrole alert",
+    OK: "OK",
+    NoSuggestionMessage: "Geen suggesties beschikbaar",
+};
+

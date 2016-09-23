@@ -1643,4 +1643,20 @@ ej.Uploadbox.Locale["ar-AE"] = {
     failedToolTip: "فشل",
     closeToolTip: "قريب",
 };
-;
+ej.SpellCheck.Locale["ar-AE"] = {
+    SpellCheckButtonText: "التدقيق الإملائي",
+    NotInDictionary: "لا في قاموس",
+    SuggestionLabel: "اقتراحات",
+    IgnoreOnceButtonText: "تجاهل مرة",
+    IgnoreAllButtonText: "تجاهل الكل",
+    AddToDictionary: "إضافة إلى القاموس",
+    ChangeButtonText: "تغيير",
+    ChangeAllButtonText: "تغيير جميع",
+    CloseButtonText: "قريب",
+    CompletionPopupMessage: "التدقيق الإملائي كاملة",
+    ErrorPopupMessage: "لم يكتمل التدقيق الإملائي",
+    CompletionPopupTitle: "التدقيق الإملائي في حالة تأهب",
+    OK: "حسنا",
+    NoSuggestionMessage: "لا تتوفر أية اقتراحات",
+};
+

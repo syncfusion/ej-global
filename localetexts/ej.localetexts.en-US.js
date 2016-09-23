@@ -1691,4 +1691,20 @@ ej.Uploadbox.Locale["en-US"] = {
     completedToolTip: "Completed",
     failedToolTip: "Failed",
     closeToolTip: "Close"
-};;
+};
+ej.SpellCheck.Locale["en-US"] = {
+    SpellCheckButtonText: "SpellCheck",
+    NotInDictionary: "Not In Dictionary",
+    SuggestionLabel: "Suggestions",
+    IgnoreOnceButtonText: "Ignore Once",
+    IgnoreAllButtonText: "Ignore All",
+    AddToDictionary: "Add to Dictionary",
+    ChangeButtonText: "Change",
+    ChangeAllButtonText: "ChangeAll",
+    CloseButtonText: "Close",
+    CompletionPopupMessage: "Spell check is complete",
+    ErrorPopupMessage: "Spell check is not completed",
+    CompletionPopupTitle: "Spell check alert",
+    OK: "OK",
+    NoSuggestionMessage: "No suggestions available"
+};

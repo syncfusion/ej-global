@@ -1642,4 +1642,20 @@ ej.Uploadbox.Locale["de-DE"] = {
     failedToolTip: "Gescheitert",
     closeToolTip: "Schließen",
 };
-;
+ej.SpellCheck.Locale["de-DE"] = {
+    SpellCheckButtonText: "Rechtschreibprüfung",
+    NotInDictionary: "Nicht im Wörterbuch",
+    SuggestionLabel: "Vorschläge",
+    IgnoreOnceButtonText: "Einmal ignorieren",
+    IgnoreAllButtonText: "Alles ignorieren",
+    AddToDictionary: "Zum Wörterbuch hinzufügen",
+    ChangeButtonText: "Veränderung",
+    ChangeAllButtonText: "Ändere Alles",
+    CloseButtonText: "Schließen",
+    CompletionPopupMessage: "Die Rechtschreibprüfung ist abgeschlossen",
+    ErrorPopupMessage: "Rechtschreibprüfung nicht abgeschlossen",
+    CompletionPopupTitle: "Rechtschreibprüfung Alarm",
+    OK: "OK",
+    NoSuggestionMessage: "Keine Vorschläge verfügbar",
+};
+

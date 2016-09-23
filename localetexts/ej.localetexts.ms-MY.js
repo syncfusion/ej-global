@@ -1642,4 +1642,20 @@ ej.Uploadbox.Locale["ms-MY"] = {
     failedToolTip: "gagal",
     closeToolTip: "Tutup",
 };
-;
+ej.SpellCheck.Locale["ms-MY"] = {
+    SpellCheckButtonText: "Semak ejaan",
+    NotInDictionary: "Not In Kamus",
+    SuggestionLabel: "cadangan",
+    IgnoreOnceButtonText: "Abaikan Setelah",
+    IgnoreAllButtonText: "Abai Semua",
+    AddToDictionary: "Tambah ke Kamus",
+    ChangeButtonText: "Ubah",
+    ChangeAllButtonText: "Tukar Semua",
+    CloseButtonText: "Tutup",
+    CompletionPopupMessage: "Spell check selesai",
+    ErrorPopupMessage: "Semak ejaan tidak selesai",
+    CompletionPopupTitle: "Semak ejaan amaran",
+    OK: "okey",
+    NoSuggestionMessage: "Tiada cadangan tersedia",
+};
+
