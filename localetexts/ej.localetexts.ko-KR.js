@@ -402,7 +402,7 @@ ej.PivotChart.Locale["ko-KR"] = {
     Collapse: "무너짐",
     Exit: "출구",
 };
-ej.olap.OlapClient.Locale["ko-KR"] = {
+ej.PivotClient.Locale["ko-KR"] = {
     DeferUpdate: "연기 업데이트",
     MDXQuery: "MDX 쿼리",
     Row: "열",

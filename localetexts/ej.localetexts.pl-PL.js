@@ -404,7 +404,7 @@ ej.PivotChart.Locale["pl-PL"] = {
     Collapse: "Zawalić się",
     Exit: "Wyjście",
 };
-ej.olap.OlapClient.Locale["pl-PL"] = {
+ej.PivotClient.Locale["pl-PL"] = {
     DeferUpdate: "Wstrzymaj Aktualizacja",
     MDXQuery: "MDX Query",
     Column: "Kolumna",

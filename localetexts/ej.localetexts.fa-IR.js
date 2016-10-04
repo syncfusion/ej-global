@@ -402,7 +402,7 @@ ej.PivotChart.Locale["fa-IR"] = {
     Collapse: "سقوط - فروپاشی - اضمحلال",
     Exit: "خروج",
 };
-ej.olap.OlapClient.Locale["fa-IR"] = {
+ej.PivotClient.Locale["fa-IR"] = {
     DeferUpdate: "تاخیر به روز رسانی",
     MDXQuery: "MDX Query را",
     Column: "ستون",
