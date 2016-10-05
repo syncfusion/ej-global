@@ -402,7 +402,7 @@ ej.PivotChart.Locale["hu-HU"] = {
     Collapse: "Összeomlás",
     Exit: "Kijárat",
 };
-ej.olap.OlapClient.Locale["hu-HU"] = {
+ej.PivotClient.Locale["hu-HU"] = {
     DeferUpdate: "elhalasztása frissítése",
     MDXQuery: "MDX Query",
     Column: "Oszlop",

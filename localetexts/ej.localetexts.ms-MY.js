@@ -402,7 +402,7 @@ ej.PivotChart.Locale["ms-MY"] = {
     Collapse: "Ditweet",
     Exit: "keluar",
 };
-ej.olap.OlapClient.Locale["ms-MY"] = {
+ej.PivotClient.Locale["ms-MY"] = {
     DeferUpdate: "Tangguh Update",
     MDXQuery: "MDX Pertanyaan",
     Column: "Kolum",

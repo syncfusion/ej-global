@@ -402,7 +402,7 @@ ej.PivotChart.Locale["tr-TR"] = {
     Collapse: "çöküş",
     Exit: "çıkış",
 };
-ej.olap.OlapClient.Locale["tr-TR"] = {
+ej.PivotClient.Locale["tr-TR"] = {
     DeferUpdate: "Erteleme Güncelleme",
     MDXQuery: "MDX Sorgu",
     Column: "sütun",
