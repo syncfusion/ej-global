@@ -402,7 +402,7 @@ ej.PivotChart.Locale["sv-SE"] = {
     Collapse: "Kollaps",
     Exit: "Utgång",
 };
-ej.olap.OlapClient.Locale["sv-SE"] = {
+ej.PivotClient.Locale["sv-SE"] = {
     DeferUpdate: "Defer Update",
     MDXQuery: "MDX Query",
     Column: "Kolumn",
