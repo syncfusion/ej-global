@@ -178,7 +178,8 @@ ej.Gantt.Locale["nb-NO"] = {
         predecessorEditingValidationAlert: "Syklisk Dependency oppstod, vennligst sjekk forgjenger",
         predecessorAddingValidationAlert: "Fyll alle kolonnene i forgjengeren tabellen",
         idValidationAlert: "Duplicate ID",
-        dateValidationAlert: "Ugyldig Sluttdato"
+        dateValidationAlert: "Ugyldig Sluttdato",
+        dialogResourceAlert: "Fyll Alle kolonnene i ressurstabell"
     },
     columnHeaderTexts: {
         taskId: "ID",
@@ -194,7 +195,14 @@ ej.Gantt.Locale["nb-NO"] = {
         baselineStartDate: "Baseline Startdato",
         baselineEndDate: "Baseline Sluttdato",
         WBS: "WBS",
-        WBSpredecessor: "WBS forgjenger"
+        WBSpredecessor: "WBS forgjenger",
+        dialogCustomFieldName: "kolonne~~POS=TRUNC",
+        dialogCustomFieldValue: "Verdi",
+        notes: "Notes",
+        taskType: "Oppgavetype",
+        work: "Arbeid",
+        unit: "Enhet",
+        effortDriven: "innsats drevet"
     },
     editDialogTexts: {
         addFormTitle: "ny oppgave",
@@ -236,12 +244,35 @@ ej.Gantt.Locale["nb-NO"] = {
         expandAllTool: "Utvid alle",
         collapseAllTool: "Skjul alle",
         nextTimeSpanTool: "Neste Tidsrom",
-        prevTimeSpanTool: "Forrige Tidsrom"
+        prevTimeSpanTool: "Forrige Tidsrom",
+        criticalPathTool: "Kritisk bane"
     },
     durationUnitTexts: {
         days: "dager",
         hours: "timer",
+        minutes: "minutter",
+        day: "dag",
+        hour: "time",
+        minute: "minute"
+    },
+    durationUnitEditText: {
+        minute: ["m", "min", "minutt", "minutter"],
+        hour: ["h", "hr", "time", "timer"],
+        day: ["d", "dy", "dag", "dager"]
+    },
+    workUnitTexts: {
+        days: "dager",
+        hours: "timer",
         minutes: "minutter"
+    },
+    taskTypeTexts: {
+        fixedWork: "fast Arbeid",
+        fixedUnit: "faste enheter",
+        fixedDuration: "fast Varighet"
+    },
+    effortDrivenTexts: {
+        yes: "Ja",
+        no: "Nei"
     },
     contextMenuTexts: {
         taskDetailsText: "Oppgavedetaljer ...",
@@ -264,6 +295,10 @@ ej.Gantt.Locale["nb-NO"] = {
         deleteColumn: "Slett kolonne",
         renameColumn: "Gi nytt navn Column"
     },
+    taskModeTexts: {
+        manual: "Håndbok",
+        auto: "Auto"
+    },
     columnDialogTitle: {
         insertColumn: "Sett inn kolonne",
         deleteColumn: "Slett kolonne",
@@ -277,6 +312,13 @@ ej.Gantt.Locale["nb-NO"] = {
         fromText: "Fra",
         toText: "Til"
     },
+    dialogTabTitleTexts: {
+        generalTabText: "Generell",
+        predecessorsTabText: "forgjengere",
+        resourcesTabText: "Resources",
+        customFieldsTabText: "Custom Fields",
+        notesTabText: "Merknader"
+    }
 };
 ej.Grid.Locale["nb-NO"] = {
     EmptyRecord: "Ingen oppføringer å vise",
@@ -1559,7 +1601,8 @@ ej.TreeGrid.Locale["nb-NO"] = {
         cancelTool: "Kansellere",
         expandAllTool: "Utvid alle",
         collapseAllTool: "Skjul alle",
-        pdfExportTool: "PDF Export"
+        pdfExportTool: "PDF eksport",
+        excelExportTool: "excel eksport"
     },
     contextMenuTexts: {
         addRowText: "Legg til rad",

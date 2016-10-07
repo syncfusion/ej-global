@@ -178,7 +178,8 @@ ej.Gantt.Locale["nl-NL"] = {
         predecessorEditingValidationAlert: "Cyclische Afhankelijkheid opgetreden, controleer dan de voorganger",
         predecessorAddingValidationAlert: "Vul alle kolommen in voorganger tafel",
         idValidationAlert: "Duplicate ID",
-        dateValidationAlert: "Ongeldige Einddatum"
+        dateValidationAlert: "Ongeldige Einddatum",
+        dialogResourceAlert: "Vul alle kolommen in resource tabel"
     },
     columnHeaderTexts: {
         taskId: "ID",
@@ -194,7 +195,14 @@ ej.Gantt.Locale["nl-NL"] = {
         baselineStartDate: "Baseline Startdatum",
         baselineEndDate: "Baseline Einddatum",
         WBS: "WBS",
-        WBSpredecessor: "WBS voorganger"
+        WBSpredecessor: "WBS voorganger",
+        dialogCustomFieldName: "Kolomnaam",
+        dialogCustomFieldValue: "Waarde",
+        notes: "Notes",
+        taskType: "Taaktype",
+        work: "Werken",
+        unit: "Eenheid",
+        effortDriven: "inspanning Gedreven"
     },
     editDialogTexts: {
         addFormTitle: "Nieuwe taak",
@@ -236,12 +244,35 @@ ej.Gantt.Locale["nl-NL"] = {
         expandAllTool: "Alles uitvouwen",
         collapseAllTool: "Alles inklappen",
         nextTimeSpanTool: "Volgende Tijdsduur",
-        prevTimeSpanTool: "vorige Tijdsduur"
+        prevTimeSpanTool: "vorige Tijdsduur",
+        criticalPathTool: "kritieke pad"
     },
     durationUnitTexts: {
         days: "dagen",
         hours: "uur",
+        minutes: "notulen",
+        day: "dag",
+        hour: "uur",
+        minute: "minuut"
+    },
+    durationUnitEditText: {
+        minute: ["m", "min", "minuut", "notulen"],
+        hour: ["h", "hr", "uur", "uur"],
+        day: ["d", "dy", "dag", "dagen"]
+    },
+    workUnitTexts: {
+        days: "dagen",
+        hours: "uur",
         minutes: "notulen"
+    },
+    taskTypeTexts: {
+        fixedWork: "Fixed Work",
+        fixedUnit: "vaste Units",
+        fixedDuration: "vaste Duur"
+    },
+    effortDrivenTexts: {
+        yes: "Ja",
+        no: "Nee"
     },
     contextMenuTexts: {
         taskDetailsText: "Taak Meer informatie ...",
@@ -264,6 +295,10 @@ ej.Gantt.Locale["nl-NL"] = {
         deleteColumn: "Kolom verwijderen",
         renameColumn: "Rename Column"
     },
+    taskModeTexts: {
+        manual: "handboek",
+        auto: "Auto"
+    },
     columnDialogTitle: {
         insertColumn: "Kolom invoegen",
         deleteColumn: "Kolom verwijderen",
@@ -277,6 +312,13 @@ ej.Gantt.Locale["nl-NL"] = {
         fromText: "Van",
         toText: "Naar"
     },
+    dialogTabTitleTexts: {
+        generalTabText: "Algemeen",
+        predecessorsTabText: "voorgangers",
+        resourcesTabText: "Middelen",
+        customFieldsTabText: "Aangepaste velden",
+        notesTabText: "Notes"
+    }
 };
 ej.Grid.Locale["nl-NL"] = {
     EmptyRecord: "Geen records om te laten zien",
@@ -1559,7 +1601,8 @@ ej.TreeGrid.Locale["nl-NL"] = {
         cancelTool: "Annuleer",
         expandAllTool: "Alles uitvouwen",
         collapseAllTool: "Alles inklappen",
-        pdfExportTool: "PDF exporteren"
+        pdfExportTool: "PDF exporteren",
+        excelExportTool: "Excel exporteren"
     },
     contextMenuTexts: {
         addRowText: "Voeg rij",

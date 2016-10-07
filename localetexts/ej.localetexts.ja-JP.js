@@ -178,7 +178,8 @@ ej.Gantt.Locale["ja-JP"] = {
         predecessorEditingValidationAlert: "循環依存が発生しましたが、前任者を確認してください。",
         predecessorAddingValidationAlert: "前身の表のすべての列を埋めます",
         idValidationAlert: "重複ID",
-        dateValidationAlert: "無効な終了日"
+        dateValidationAlert: "無効な終了日",
+        dialogResourceAlert: "リソーステーブル内のすべての列を埋めます"
     },
     columnHeaderTexts: {
         taskId: "ID",
@@ -194,7 +195,14 @@ ej.Gantt.Locale["ja-JP"] = {
         baselineStartDate: "ベースライン開始日",
         baselineEndDate: "ベースライン終了日",
         WBS: "WBS",
-        WBSpredecessor: "WBSの前身"
+        WBSpredecessor: "WBSの前身",
+        dialogCustomFieldName: "列名",
+        dialogCustomFieldValue: "値",
+        notes: "ノート",
+        taskType: "タスクの種類",
+        work: "作業",
+        unit: "単位",
+        effortDriven: "努力が主導します"
     },
     editDialogTexts: {
         addFormTitle: "新しい仕事",
@@ -236,12 +244,35 @@ ej.Gantt.Locale["ja-JP"] = {
         expandAllTool: "すべて展開",
         collapseAllTool: "すべて折りたたみます",
         nextTimeSpanTool: "次のタイムスパン",
-        prevTimeSpanTool: "前のタイムスパン"
+        prevTimeSpanTool: "前のタイムスパン",
+        criticalPathTool: "クリティカルパス"
     },
     durationUnitTexts: {
         days: "日々",
         hours: "営業時間",
+        minutes: "分",
+        day: "日",
+        hour: "時間",
+        minute: "分"
+    },
+    durationUnitEditText: {
+        minute: ["メートル", "分", "分", "分"],
+        hour: ["時間", "時間", "時間", "営業時間"],
+        day: ["D", "DY", "日", "日々"]
+    },
+    workUnitTexts: {
+        days: "日々",
+        hours: "営業時間",
         minutes: "分"
+    },
+    taskTypeTexts: {
+        fixedWork: "固定作業",
+        fixedUnit: "固定ユニット",
+        fixedDuration: "固定された期間"
+    },
+    effortDrivenTexts: {
+        yes: "はい",
+        no: "いいえ"
     },
     contextMenuTexts: {
         taskDetailsText: "タスクの詳細...",
@@ -264,6 +295,10 @@ ej.Gantt.Locale["ja-JP"] = {
         deleteColumn: "列の削除",
         renameColumn: "列の名前を変更"
     },
+    taskModeTexts: {
+        manual: "マニュアル",
+        auto: "オート"
+    },
     columnDialogTitle: {
         insertColumn: "列の挿入",
         deleteColumn: "列の削除",
@@ -277,6 +312,13 @@ ej.Gantt.Locale["ja-JP"] = {
         fromText: "から",
         toText: "に"
     },
+    dialogTabTitleTexts: {
+        generalTabText: "一般的な",
+        predecessorsTabText: "先行",
+        resourcesTabText: "リソース",
+        customFieldsTabText: "カスタムフィールド",
+        notesTabText: "ノート"
+    }
 };
 ej.Grid.Locale["ja-JP"] = {
     EmptyRecord: "レコードは表示されませんします",
@@ -1559,7 +1601,8 @@ ej.TreeGrid.Locale["ja-JP"] = {
         cancelTool: "キャンセル",
         expandAllTool: "すべて展開",
         collapseAllTool: "すべて折りたたみます",
-        pdfExportTool: "PDFエクスポート"
+        pdfExportTool: "PDFエクスポート",
+        excelExportTool: "Excelのエクスポート"
     },
     contextMenuTexts: {
         addRowText: "行の追加",

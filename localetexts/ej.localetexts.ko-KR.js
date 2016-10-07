@@ -178,7 +178,8 @@ ej.Gantt.Locale["ko-KR"] = {
         predecessorEditingValidationAlert: "순환 종속성가 발생하였습니다은 선행을 확인하시기 바랍니다",
         predecessorAddingValidationAlert: "이전 테이블의 모든 열을 채우기",
         idValidationAlert: "중복 ID",
-        dateValidationAlert: "잘못된 종료 날짜"
+        dateValidationAlert: "잘못된 종료 날짜",
+        dialogResourceAlert: "자원 테이블의 모든 열을 채우기"
     },
     columnHeaderTexts: {
         taskId: "신분증",
@@ -194,7 +195,14 @@ ej.Gantt.Locale["ko-KR"] = {
         baselineStartDate: "베이스 라인 시작 날짜",
         baselineEndDate: "기본 종료 날짜",
         WBS: "WBS",
-        WBSpredecessor: "WBS의 선행"
+        WBSpredecessor: "WBS의 선행",
+        dialogCustomFieldName: "열 이름",
+        dialogCustomFieldValue: "값",
+        notes: "노트",
+        taskType: "작업 유형",
+        work: "작업",
+        unit: "단위",
+        effortDriven: "노력에 힘 입어"
     },
     editDialogTexts: {
         addFormTitle: "새 작업",
@@ -236,12 +244,35 @@ ej.Gantt.Locale["ko-KR"] = {
         expandAllTool: "모두 확장",
         collapseAllTool: "모든 축소",
         nextTimeSpanTool: "다음 시간 범위",
-        prevTimeSpanTool: "이전 시간 범위"
+        prevTimeSpanTool: "이전 시간 범위",
+        criticalPathTool: "중요 경로"
     },
     durationUnitTexts: {
         days: "일",
         hours: "시간",
+        minutes: "의사록",
+        day: "일",
+        hour: "시간",
+        minute: "분"
+    },
+    durationUnitEditText: {
+        minute: ["엠", "분", "분", "의사록"],
+        hour: ["시간", "시간", "시간", "시간"],
+        day: ["디", "DY", "일", "일"]
+    },
+    workUnitTexts: {
+        days: "일",
+        hours: "시간",
         minutes: "의사록"
+    },
+    taskTypeTexts: {
+        fixedWork: "고정 작업",
+        fixedUnit: "고정 장치",
+        fixedDuration: "고정 기간"
+    },
+    effortDrivenTexts: {
+        yes: "예",
+        no: "아니"
     },
     contextMenuTexts: {
         taskDetailsText: "작업 상세 ...",
@@ -264,6 +295,10 @@ ej.Gantt.Locale["ko-KR"] = {
         deleteColumn: "열 삭제",
         renameColumn: "열 이름 바꾸기"
     },
+    taskModeTexts: {
+        manual: "조작",
+        auto: "자동"
+    },
     columnDialogTitle: {
         insertColumn: "열 삽입",
         deleteColumn: "열 삭제",
@@ -277,6 +312,13 @@ ej.Gantt.Locale["ko-KR"] = {
         fromText: "에서",
         toText: "에"
     },
+    dialogTabTitleTexts: {
+        generalTabText: "일반",
+        predecessorsTabText: "선행",
+        resourcesTabText: "자원",
+        customFieldsTabText: "사용자 정의 필드",
+        notesTabText: "노트"
+    }
 };
 ej.Grid.Locale["ko-KR"] = {
     EmptyRecord: "레코드 표시 없습니다",
@@ -1559,7 +1601,8 @@ ej.TreeGrid.Locale["ko-KR"] = {
         cancelTool: "취소",
         expandAllTool: "모두 확장",
         collapseAllTool: "모든 축소",
-        pdfExportTool: "PDF 내보내기"
+        pdfExportTool: "PDF 내보내기",
+        excelExportTool: "엑셀 내보내기"
     },
     contextMenuTexts: {
         addRowText: "행 추가",

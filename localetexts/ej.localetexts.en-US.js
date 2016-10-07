@@ -206,7 +206,8 @@ ej.Gantt.Locale["en-US"] = {
         predecessorEditingValidationAlert: "Cyclic Dependency Occured, Please Check The Predecessor",
         predecessorAddingValidationAlert: "Fill all the columns in predecessor table",
         idValidationAlert: "Duplicate ID",
-        dateValidationAlert: "Invalid End date"
+        dateValidationAlert: "Invalid End date",
+        dialogResourceAlert: "Fill All the columns in resource table"
     },
 
     //headerText to be displayed in treegrid
@@ -224,7 +225,14 @@ ej.Gantt.Locale["en-US"] = {
         baselineStartDate: "Baseline Start Date",
         baselineEndDate: "Baseline End Date",
         WBS: "WBS",
-        WBSpredecessor: "WBS Predecessor"
+        WBSpredecessor: "WBS Predecessor",
+        dialogCustomFieldName: "Column Name",
+        dialogCustomFieldValue: "Value",
+        notes: "Notes",
+        taskType: "Task Type",
+        work: "Work",
+        unit: "Unit",
+        effortDriven: "Effort Driven"
     },
 
     //string to display in dialog 
@@ -270,16 +278,38 @@ ej.Gantt.Locale["en-US"] = {
         expandAllTool: "ExpandAll",
         collapseAllTool: "CollapseAll",
         nextTimeSpanTool: "Next Timespan",
-        prevTimeSpanTool: "Previous Timespan"
+        prevTimeSpanTool: "Previous Timespan",
+        criticalPathTool: "Critical Path"
     },
 
     //string to be displayed in taskbar tooltip for duration unit 
     durationUnitTexts: {
         days: "days",
         hours: "hours",
+        minutes: "minutes",
+        day: "day",
+        hour: "hour",
+        minute: "minute"
+    },
+    durationUnitEditText: {
+        minute: ["m", "min", "minute", "minutes"],
+        hour: ["h", "hr", "hour", "hours"],
+        day: ["d", "dy", "day", "days"]
+    },
+    workUnitTexts: {
+        days: "days",
+        hours: "hours",
         minutes: "minutes"
     },
-
+    taskTypeTexts: {
+        fixedWork: "Fixed Work",
+        fixedUnit: "Fixed Units",
+        fixedDuration: "Fixed Duration"
+    },
+    effortDrivenTexts: {
+        yes: "Yes",
+        no: "No"
+    },
     //string to be displayed in context menu 
     contextMenuTexts: {
         taskDetailsText: "Task Details...",
@@ -306,6 +336,10 @@ ej.Gantt.Locale["en-US"] = {
         deleteColumn: "Delete Column",
         renameColumn: "Rename Column"
     },
+    taskModeTexts: {
+        manual: "Manual",
+        auto: "Auto"
+    },
     //string to be displayed in column add dialog title 
     columnDialogTitle: {
         insertColumn: "Insert Column",
@@ -320,8 +354,15 @@ ej.Gantt.Locale["en-US"] = {
     predecessorEditingTexts: {
         fromText: "From",
         toText: "To"
+    },
+    dialogTabTitleTexts: {
+        generalTabText: "General",
+        predecessorsTabText: "Predecessors",
+        resourcesTabText: "Resources",
+        customFieldsTabText: "Custom Fields",
+        notesTabText: "Notes"
     }
-};;
+};
 
 ej.Grid.Locale["en-US"] = {
     EmptyRecord: "No records to display",
@@ -1599,7 +1640,8 @@ ej.TreeGrid.Locale["en-US"] = {
         cancelTool: "Cancel",
         expandAllTool: "ExpandAll",
         collapseAllTool: "CollapseAll",
-        pdfExportTool: "PDF Export"
+        pdfExportTool: "PDF Export",
+        excelExportTool: "Excel Export"
     },
     //string to be displayed in context menu 
     contextMenuTexts: {
