@@ -178,7 +178,8 @@ ej.Gantt.Locale["he-IL"] = {
         predecessorEditingValidationAlert: "תלות מחזורית התרחשה, אנא בדוק קודמו",
         predecessorAddingValidationAlert: "מלא את כל העמודות בטבלה קודם",
         idValidationAlert: "שכפל ID",
-        dateValidationAlert: "תאריך סיום לא חוקי"
+        dateValidationAlert: "תאריך סיום לא חוקי",
+        dialogResourceAlert: "למלא את כל העמודות בטבלת משאב"
     },
     columnHeaderTexts: {
         taskId: "תְעוּדַת זֶהוּת",
@@ -194,7 +195,14 @@ ej.Gantt.Locale["he-IL"] = {
         baselineStartDate: "תאריך Baseline התחל",
         baselineEndDate: "תאריך Baseline End",
         WBS: "WBS",
-        WBSpredecessor: "קודם WBS"
+        WBSpredecessor: "קודם WBS",
+        dialogCustomFieldName: "שם עמודה",
+        dialogCustomFieldValue: "ערך",
+        notes: "הערות",
+        taskType: "סוג משימה",
+        work: "עֲבוֹדָה",
+        unit: "יחידה",
+        effortDriven: "מאמץ מונע"
     },
     editDialogTexts: {
         addFormTitle: "משימה חדשה",
@@ -236,12 +244,35 @@ ej.Gantt.Locale["he-IL"] = {
         expandAllTool: "הרחב הכל",
         collapseAllTool: "למוטט הכל",
         nextTimeSpanTool: "טווח הזמן הבא",
-        prevTimeSpanTool: "טווח זמן קודם"
+        prevTimeSpanTool: "טווח זמן קודם",
+        criticalPathTool: "נתיב קריטי"
     },
     durationUnitTexts: {
         days: "ימים",
         hours: "שעות",
+        minutes: "דקות",
+        day: "יְוֹם",
+        hour: "שָׁעָה",
+        minute: "דַקָה"
+    },
+    durationUnitEditText: {
+        minute: ["M", "דקות", "דַקָה", "דקות"],
+        hour: ["h", "hr", "שָׁעָה", "שעות"],
+        day: ["ד", "dy", "יְוֹם", "ימים"]
+    },
+    workUnitTexts: {
+        days: "ימים",
+        hours: "שעות",
         minutes: "דקות"
+    },
+    taskTypeTexts: {
+        fixedWork: "עבודה קבועה",
+        fixedUnit: "יחידות קבועות",
+        fixedDuration: "משך קבוע"
+    },
+    effortDrivenTexts: {
+        yes: "כן",
+        no: "לא"
     },
     contextMenuTexts: {
         taskDetailsText: "המשימות פרטים ...",
@@ -264,6 +295,10 @@ ej.Gantt.Locale["he-IL"] = {
         deleteColumn: "מחק עמודה",
         renameColumn: "שינוי שם עמודה"
     },
+    taskModeTexts: {
+        manual: "מדריך ל",
+        auto: "אוטו"
+    },
     columnDialogTitle: {
         insertColumn: "הכנס טור",
         deleteColumn: "מחק עמודה",
@@ -277,6 +312,13 @@ ej.Gantt.Locale["he-IL"] = {
         fromText: "מ",
         toText: "ל"
     },
+    dialogTabTitleTexts: {
+        generalTabText: "כללי",
+        predecessorsTabText: "אָבוֹת קַדמוֹנִים",
+        resourcesTabText: "אֶמְצָעִי",
+        customFieldsTabText: "שדות מותאמים אישית",
+        notesTabText: "הערות"
+    }
 };
 ej.Grid.Locale["he-IL"] = {
     EmptyRecord: "אין רשומות לתצוגה",
@@ -1559,7 +1601,8 @@ ej.TreeGrid.Locale["he-IL"] = {
         cancelTool: "לְבַטֵל",
         expandAllTool: "הרחב הכל",
         collapseAllTool: "למוטט הכל",
-        pdfExportTool: "ייצוא PDF"
+        pdfExportTool: "ייצוא PDF",
+        excelExportTool: "Excel ייצוא",
     },
     contextMenuTexts: {
         addRowText: "הוסף שורה",

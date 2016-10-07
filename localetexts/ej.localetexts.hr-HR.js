@@ -178,7 +178,8 @@ ej.Gantt.Locale["hr-HR"] = {
         predecessorEditingValidationAlert: "Ciklički Ovisnost došlo, provjerite prethodnik",
         predecessorAddingValidationAlert: "Ispunite sve stupce u prethodnim stolom",
         idValidationAlert: "Dvostruki ID",
-        dateValidationAlert: "Nevažeći datum završetka"
+        dateValidationAlert: "Nevažeći datum završetka",
+        dialogResourceAlert: "Ispunite sve stupce u tablici resursa"
     },
     columnHeaderTexts: {
         taskId: "ID",
@@ -194,7 +195,14 @@ ej.Gantt.Locale["hr-HR"] = {
         baselineStartDate: "Osnovni Datum početka",
         baselineEndDate: "Osnovni Datum završetka",
         WBS: "WBS",
-        WBSpredecessor: "WBS prethodnik"
+        WBSpredecessor: "WBS prethodnik",
+        dialogCustomFieldName: "Naziv Stupac",
+        dialogCustomFieldValue: "Vrijednost",
+        notes: "Bilješke",
+        taskType: "Tip zadatka",
+        work: "Raditi",
+        unit: "Jedinica",
+        effortDriven: "napor Driven"
     },
     editDialogTexts: {
         addFormTitle: "Novi zadatak",
@@ -236,12 +244,35 @@ ej.Gantt.Locale["hr-HR"] = {
         expandAllTool: "Proširi sve",
         collapseAllTool: "Suzi sve",
         nextTimeSpanTool: "Sljedeća Vremensko razdoblje",
-        prevTimeSpanTool: "Prethodna Vremensko razdoblje"
+        prevTimeSpanTool: "Prethodna Vremensko razdoblje",
+        criticalPathTool: "kritična Put"
     },
     durationUnitTexts: {
         days: "dana",
         hours: "sati",
+        minutes: "minuta",
+        day: "dan",
+        hour: "sat",
+        minute: "minuta"
+    },
+    durationUnitEditText: {
+        minute: ["m", "min", "minuta", "minuta"],
+        hour: ["h", "hr", "sat", "sati"],
+        day: ["d", "dy", "dan", "dana"]
+    },
+    workUnitTexts: {
+        days: "dana",
+        hours: "sati",
         minutes: "minuta"
+    },
+    taskTypeTexts: {
+        fixedWork: "Fiksni Posao",
+        fixedUnit: "Fiksni jedinice",
+        fixedDuration: "Fiksni Trajanje"
+    },
+    effortDrivenTexts: {
+        yes: "Da",
+        no: "Ne"
     },
     contextMenuTexts: {
         taskDetailsText: "Detalji zadatak ...",
@@ -264,6 +295,10 @@ ej.Gantt.Locale["hr-HR"] = {
         deleteColumn: "Obriši stupac",
         renameColumn: "Promjena naziva stupca"
     },
+    taskModeTexts: {
+        manual: "Priručnik",
+        auto: "Auto"
+    },
     columnDialogTitle: {
         insertColumn: "Umetni stupac",
         deleteColumn: "Obriši stupac",
@@ -277,6 +312,13 @@ ej.Gantt.Locale["hr-HR"] = {
         fromText: "Iz",
         toText: "Do"
     },
+    dialogTabTitleTexts: {
+        generalTabText: "General",
+        predecessorsTabText: "prethodnici",
+        resourcesTabText: "Resursi",
+        customFieldsTabText: "Custom Fields",
+        notesTabText: "Bilješke"
+    }
 };
 ej.Grid.Locale["hr-HR"] = {
     EmptyRecord: "Nema zapisa za prikaz",
@@ -1559,7 +1601,8 @@ ej.TreeGrid.Locale["hr-HR"] = {
         cancelTool: "Otkazati",
         expandAllTool: "Proširi sve",
         collapseAllTool: "Suzi sve",
-        pdfExportTool: "PDF Izvoz"
+        pdfExportTool: "PDF Izvoz",
+        excelExportTool: "Excel Izvoz"
     },
     contextMenuTexts: {
         addRowText: "Dodaj Row",

@@ -178,7 +178,8 @@ ej.Gantt.Locale["sv-SE"] = {
         predecessorEditingValidationAlert: "Cykliska Dependency uppstått, kontrollera Föregångare",
         predecessorAddingValidationAlert: "Fyll alla kolumner i föregångaren tabellen",
         idValidationAlert: "Duplicate ID",
-        dateValidationAlert: "Ogiltig Slutdatum"
+        dateValidationAlert: "Ogiltig Slutdatum",
+        dialogResourceAlert: "Fyll alla kolumner i resurstabellen"
     },
     columnHeaderTexts: {
         taskId: "ID",
@@ -194,7 +195,14 @@ ej.Gantt.Locale["sv-SE"] = {
         baselineStartDate: "Baseline Startdatum",
         baselineEndDate: "Baseline Slutdatum",
         WBS: "WBS",
-        WBSpredecessor: "WBS Föregångare"
+        WBSpredecessor: "WBS Föregångare",
+        dialogCustomFieldName: "kolonn Namn",
+        dialogCustomFieldValue: "Värde",
+        notes: "Anmärkningar",
+        taskType: "Task Type",
+        work: "Arbete",
+        unit: "Enhet",
+        effortDriven: "ansträngning Driven"
     },
     editDialogTexts: {
         addFormTitle: "Ny uppgift",
@@ -236,12 +244,35 @@ ej.Gantt.Locale["sv-SE"] = {
         expandAllTool: "Expandera alla",
         collapseAllTool: "Kollapsa alla",
         nextTimeSpanTool: "nästa Timespan",
-        prevTimeSpanTool: "föregående Timespan"
+        prevTimeSpanTool: "föregående Timespan",
+        criticalPathTool: "kritiska linjen"
     },
     durationUnitTexts: {
         days: "dagar",
         hours: "timmar",
+        minutes: "minuter",
+        day: "dag",
+        hour: "timme",
+        minute: "minut"
+    },
+    durationUnitEditText: {
+        minute: ["m", "min", "minut", "minuter"],
+        hour: ["h", "hr", "timme", "timmar"],
+        day: ["d", "dy", "dag", "dagar"]
+    },
+    workUnitTexts: {
+        days: "dagar",
+        hours: "timmar",
         minutes: "minuter"
+    },
+    taskTypeTexts: {
+        fixedWork: "fast arbete",
+        fixedUnit: "fasta enheter",
+        fixedDuration: "fast varaktighet"
+    },
+    effortDrivenTexts: {
+        yes: "Ja",
+        no: "Nej"
     },
     contextMenuTexts: {
         taskDetailsText: "Task Uppgifter ...",
@@ -264,6 +295,10 @@ ej.Gantt.Locale["sv-SE"] = {
         deleteColumn: "Ta bort kolumn",
         renameColumn: "döpa om Column"
     },
+    taskModeTexts: {
+        manual: "Manuell",
+        auto: "Bil"
+    },
     columnDialogTitle: {
         insertColumn: "infoga kolumn",
         deleteColumn: "Ta bort kolumn",
@@ -277,6 +312,13 @@ ej.Gantt.Locale["sv-SE"] = {
         fromText: "Från",
         toText: "Till"
     },
+    dialogTabTitleTexts: {
+        generalTabText: "Allmän",
+        predecessorsTabText: "Föregångare gångare~~POS=HEADCOMP",
+        resourcesTabText: "Medel",
+        customFieldsTabText: "Anpassade fält",
+        notesTabText: "Anmärkningar"
+    }
 };
 ej.Grid.Locale["sv-SE"] = {
     EmptyRecord: "Inga poster att visa",
@@ -1559,7 +1601,8 @@ ej.TreeGrid.Locale["sv-SE"] = {
         cancelTool: "Annullera",
         expandAllTool: "Expandera alla",
         collapseAllTool: "Kollapsa alla",
-        pdfExportTool: "PDF export"
+        pdfExportTool: "PDF export",
+        excelExportTool: "Excel export"
     },
     contextMenuTexts: {
         addRowText: "Lägg till rad",

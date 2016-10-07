@@ -178,7 +178,8 @@ ej.Gantt.Locale["es-ES"] = {
         predecessorEditingValidationAlert: "La dependencia cíclica Occurred, compruebe el predecesor",
         predecessorAddingValidationAlert: "Llenar todas las columnas en la tabla predecesor",
         idValidationAlert: "ID duplicado",
-        dateValidationAlert: "La fecha de finalización no válida"
+        dateValidationAlert: "La fecha de finalización no válida",
+        dialogResourceAlert: "Llenar todas las columnas en la tabla de recursos"
     },
     columnHeaderTexts: {
         taskId: "CARNÉ DE IDENTIDAD",
@@ -194,7 +195,14 @@ ej.Gantt.Locale["es-ES"] = {
         baselineStartDate: "Fecha de Inicio de línea de base",
         baselineEndDate: "Fecha de finalización de línea de base",
         WBS: "WBS",
-        WBSpredecessor: "predecesor WBS"
+        WBSpredecessor: "predecesor WBS",
+        dialogCustomFieldName: "Nombre de la columna",
+        dialogCustomFieldValue: "Valor",
+        notes: "notas",
+        taskType: "Tipo de tarea",
+        work: "Trabajo",
+        unit: "Unidad",
+        effortDriven: "Con esfuerzo"
     },
     editDialogTexts: {
         addFormTitle: "Nueva tarea",
@@ -236,12 +244,35 @@ ej.Gantt.Locale["es-ES"] = {
         expandAllTool: "Expandir todo",
         collapseAllTool: "Desplegar todo",
         nextTimeSpanTool: "Siguiente Timespan",
-        prevTimeSpanTool: "anterior Timespan"
+        prevTimeSpanTool: "anterior Timespan",
+        criticalPathTool: "Camino critico"
     },
     durationUnitTexts: {
         days: "días",
         hours: "horas",
+        minutes: "minutos",
+        day: "día",
+        hour: "hora",
+        minute: "minuto"
+    },
+    durationUnitEditText: {
+        minute: ["metro", "min", "minuto", "minutos"],
+        hour: ["marido", "hora", "hora", "horas"],
+        day: ["re", "dy", "día", "días"]
+    },
+    workUnitTexts: {
+        days: "días",
+        hours: "horas",
         minutes: "minutos"
+    },
+    taskTypeTexts: {
+        fixedWork: "trabajo fijo",
+        fixedUnit: "Las unidades fijas",
+        fixedDuration: "Duración fija"
+    },
+    effortDrivenTexts: {
+        yes: "Sí",
+        no: "No"
     },
     contextMenuTexts: {
         taskDetailsText: "Detalles de la tarea ...",
@@ -264,6 +295,10 @@ ej.Gantt.Locale["es-ES"] = {
         deleteColumn: "eliminar columna",
         renameColumn: "Cambiar el nombre de la columna"
     },
+    taskModeTexts: {
+        manual: "Manual",
+        auto: "Auto"
+    },
     columnDialogTitle: {
         insertColumn: "insertar columna",
         deleteColumn: "eliminar columna",
@@ -277,6 +312,13 @@ ej.Gantt.Locale["es-ES"] = {
         fromText: "De",
         toText: "A"
     },
+    dialogTabTitleTexts: {
+        generalTabText: "General",
+        predecessorsTabText: "Antecesores",
+        resourcesTabText: "recursos",
+        customFieldsTabText: "Campos Personalizados",
+        notesTabText: "notas"
+    }
 };
 ej.Grid.Locale["es-ES"] = {
     EmptyRecord: "No hay registros que mostrar",
@@ -1559,7 +1601,8 @@ ej.TreeGrid.Locale["es-ES"] = {
         cancelTool: "Cancelar",
         expandAllTool: "Expandir todo",
         collapseAllTool: "Desplegar todo",
-        pdfExportTool: "exportación PDF"
+        pdfExportTool: "exportación PDF",
+        excelExportTool: "exportación Excel"
     },
     contextMenuTexts: {
         addRowText: "Añadir fila",

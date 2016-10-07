@@ -178,7 +178,8 @@ ej.Gantt.Locale["ms-MY"] = {
         predecessorEditingValidationAlert: "Kebergantungan Cyclic Berlaku, Sila Semak Pendahulu The",
         predecessorAddingValidationAlert: "Isikan semua ruangan dalam jadual sebelumnya",
         idValidationAlert: "Duplicate ID",
-        dateValidationAlert: "Tarikh tamat sah"
+        dateValidationAlert: "Tarikh tamat sah",
+        dialogResourceAlert: "Isikan Semua lajur dalam jadual sumber"
     },
     columnHeaderTexts: {
         taskId: "ID",
@@ -194,7 +195,14 @@ ej.Gantt.Locale["ms-MY"] = {
         baselineStartDate: "Baseline Tarikh Mula",
         baselineEndDate: "Baseline Tarikh Tamat",
         WBS: "WBS",
-        WBSpredecessor: "WBS Pendahulu"
+        WBSpredecessor: "WBS Pendahulu",
+        dialogCustomFieldName: "ruangan Nama",
+        dialogCustomFieldValue: "nilai",
+        notes: "Nota",
+        taskType: "Task Jenis",
+        work: "kerja",
+        unit: "Unit",
+        effortDriven: "usaha Didorong"
     },
     editDialogTexts: {
         addFormTitle: "New Task",
@@ -236,12 +244,35 @@ ej.Gantt.Locale["ms-MY"] = {
         expandAllTool: "Buka Semua",
         collapseAllTool: "Tutup Semua",
         nextTimeSpanTool: "Timespan Next",
-        prevTimeSpanTool: "sebelum Timespan"
+        prevTimeSpanTool: "sebelum Timespan",
+        criticalPathTool: "Laluan kritikal"
     },
     durationUnitTexts: {
         days: "hari",
         hours: "jam",
+        minutes: "minit",
+        day: "hari",
+        hour: "jam",
+        minute: "minit"
+    },
+    durationUnitEditText: {
+        minute: ["m", "min", "minit", "minit"],
+        hour: ["h", "hr", "jam", "jam"],
+        day: ["d", "dy", "hari", "hari"]
+    },
+    workUnitTexts: {
+        days: "hari",
+        hours: "jam",
         minutes: "minit"
+    },
+    taskTypeTexts: {
+        fixedWork: "tetap Kerja",
+        fixedUnit: "Unit tetap",
+        fixedDuration: "Tempoh tetap"
+    },
+    effortDrivenTexts: {
+        yes: "Ya",
+        no: "Tiada"
     },
     contextMenuTexts: {
         taskDetailsText: "Task Details ...",
@@ -264,6 +295,10 @@ ej.Gantt.Locale["ms-MY"] = {
         deleteColumn: "Padam Ruangan",
         renameColumn: "Nama semula Ruangan"
     },
+    taskModeTexts: {
+        manual: "manual",
+        auto: "Auto"
+    },
     columnDialogTitle: {
         insertColumn: "masukkan Ruangan",
         deleteColumn: "Padam Ruangan",
@@ -277,6 +312,13 @@ ej.Gantt.Locale["ms-MY"] = {
         fromText: "dari",
         toText: "untuk"
     },
+    dialogTabTitleTexts: {
+        generalTabText: "General",
+        predecessorsTabText: "terdahulu",
+        resourcesTabText: "sumber",
+        customFieldsTabText: "Fields Custom",
+        notesTabText: "Nota"
+    }
 };
 ej.Grid.Locale["ms-MY"] = {
     EmptyRecord: "Tiada rekod untuk dipaparkan",
@@ -1559,7 +1601,8 @@ ej.TreeGrid.Locale["ms-MY"] = {
         cancelTool: "Batal",
         expandAllTool: "Buka Semua",
         collapseAllTool: "Tutup Semua",
-        pdfExportTool: "PDF Eksport"
+        pdfExportTool: "PDF Eksport",
+        excelExportTool: "eksport excel"
     },
     contextMenuTexts: {
         addRowText: "Tambah Row",
