@@ -667,6 +667,21 @@ ej.Ribbon.Locale["nb-NO"] = {
     ShowBelowTheRibbon: "Vis Nedenfor båndet",
     MoreCommands: "Flere kommandoer ...",
 };
+ej.Kanban.Locale["nb-NO"] = {
+    EmptyCard: "Ingen kort å vise",
+    SaveButton: "Lagre",
+    CancelButton: "Kansellere",
+    EditFormTitle: "detaljer om ",
+    AddFormTitle: "Legg til nytt kort",
+    SwimlaneCaptionFormat: "- {{:count}}{{if count == 1 }} punkt {{else}} elementer {{/if}}",
+    FilterSettings: "filtre:",
+    FilterOfText: "av",
+    Max: "Max",
+    Min: "min",
+    Cards: "  Cards",
+    ItemsCount: "Elementer Count :",
+    Unassigned: "Ikke tildelt",
+};
 ej.RTE.Locale["nb-NO"] = {
     bold: "Dristig",
     italic: "kursiv",
