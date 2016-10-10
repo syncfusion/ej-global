@@ -1659,4 +1659,18 @@ ej.SpellCheck.Locale["ar-AE"] = {
     OK: "حسنا",
     NoSuggestionMessage: "لا تتوفر أية اقتراحات",
 };
-
+ej.Kanban.Locale["ar-AE"] = {
+   EmptyCard: "لا بطاقات لعرض",
+   SaveButton: "حفظ",
+   CancelButton: "إلغاء",
+   EditFormTitle: "تفاصيل ",
+   AddFormTitle: "إضافة بطاقة جديدة",
+   SwimlaneCaptionFormat: "- {{:count}}{{if count == 1 }} بند {{else}} العناصر {{/if}}",
+   FilterSettings: "مرشحات:",
+   FilterOfText: "من",
+   Max: "ماكس",
+   Min: "دقيقة",
+   Cards: "  بطاقات",
+   ItemsCount: "عد العناصر:",
+   Unassigned: "غير معين",
+};
