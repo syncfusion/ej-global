@@ -667,6 +667,21 @@ ej.Ribbon.Locale["nl-NL"] = {
     ShowBelowTheRibbon: "Onder het lint weergeven",
     MoreCommands: "Meer opdrachten ...",
 };
+ej.Kanban.Locale["nl-NL"] = {
+    EmptyCard: "Geen kaarten om te laten zien",
+    SaveButton: "Save",
+    CancelButton: "Annuleer",
+    EditFormTitle: "Details van ",
+    AddFormTitle: "Nieuwe kaart toevoegen",
+    SwimlaneCaptionFormat: "- {{:count}}{{if count == 1 }} item {{else}} items {{/if}}",
+    FilterSettings: "filters:",
+    FilterOfText: "van",
+    Max: "Max",
+    Min: "min",
+    Cards: "  Kaarten",
+    ItemsCount: "Items Count :",
+    Unassigned: "Niet-toegewezen",
+};
 ej.RTE.Locale["nl-NL"] = {
     bold: "Stoutmoedig",
     italic: "Cursief",

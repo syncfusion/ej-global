@@ -667,6 +667,21 @@ ej.Ribbon.Locale["sv-SE"] = {
     ShowBelowTheRibbon: "Visa under menyfliksområdet",
     MoreCommands: "Fler kommandon ...",
 };
+ej.Kanban.Locale["sv-SE"] = {
+    EmptyCard: "Inga kort att visa",
+    SaveButton: "Spara",
+    CancelButton: "Annullera",
+    EditFormTitle: "detaljer för ",
+    AddFormTitle: "Lägg till nytt kort",
+    SwimlaneCaptionFormat: "- {{:count}}{{if count == 1 }} punkt {{else}} objekt {{/if}}",
+    FilterSettings: "Filters:",
+    FilterOfText: "av",
+    Max: "max",
+    Min: "min",
+    Cards: "  kort",
+    ItemsCount: "objekt Count :",
+    Unassigned: "Inte tilldelad",
+};
 ej.RTE.Locale["sv-SE"] = {
     bold: "Djärv",
     italic: "Kursiv",

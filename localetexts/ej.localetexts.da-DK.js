@@ -667,6 +667,21 @@ ej.Ribbon.Locale["da-DK"] = {
     ShowBelowTheRibbon: "Vis Under Ribbon",
     MoreCommands: "Flere kommandoer ...",
 };
+ej.Kanban.Locale["da-DK"] = {
+    EmptyCard: "Ingen kort at vise",
+    SaveButton: "spare",
+    CancelButton: "ophæve",
+    EditFormTitle: "detaljer ",
+    AddFormTitle: "Tilføj ny Card",
+    SwimlaneCaptionFormat: "- {{:count}}{{if count == 1 }} vare {{else}} emner {{/if}}",
+    FilterSettings: "filtre:",
+    FilterOfText: "af",
+    Max: "Max",
+    Min: "Min",
+    Cards: "  Kort",
+    ItemsCount: "Elementer Count:",
+    Unassigned: "ikke tildelt",
+};
 ej.RTE.Locale["da-DK"] = {
     bold: "Dristig",
     italic: "Kursiv",

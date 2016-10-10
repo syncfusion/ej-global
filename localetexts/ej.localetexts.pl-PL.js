@@ -669,6 +669,21 @@ ej.Ribbon.Locale["pl-PL"] = {
     ShowBelowTheRibbon: "Pokaż pod wstążką",
     MoreCommands: "Więcej poleceń ...",
 };
+ej.Kanban.Locale["pl-PL"] = {
+    EmptyCard: "Żadnych kart do wyświetlenia",
+    SaveButton: "Zapisać",
+    CancelButton: "Anuluj",
+    EditFormTitle: "Szczegóły ",
+    AddFormTitle: "Dodaj nową kartę",
+    SwimlaneCaptionFormat: "- {{:count}}{{if count == 1 }} pozycja {{else}} przedmiotów {{/if}}",
+    FilterSettings: "filtry:",
+    FilterOfText: "z",
+    Max: "max",
+    Min: "min",
+    Cards: "  karty",
+    ItemsCount: "Produkty hrabia :",
+    Unassigned: "Nieprzypisany",
+};
 ej.RTE.Locale["pl-PL"] = {
     bold: "Pogrubienie",
     italic: "italski",

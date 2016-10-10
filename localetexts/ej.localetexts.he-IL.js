@@ -667,6 +667,21 @@ ej.Ribbon.Locale["he-IL"] = {
     ShowBelowTheRibbon: "הצג מתחת רצועת הכלים",
     MoreCommands: "פקוד יותר ...",
 };
+ej.Kanban.Locale["he-IL"] = {
+    EmptyCard: "לא מכבד כרטיסים לתצוגה",
+    SaveButton: "להציל",
+    CancelButton: "לְבַטֵל",
+    EditFormTitle: "פרטים של ",
+    AddFormTitle: "הוספת כרטיס חדש",
+    SwimlaneCaptionFormat: "- {{:count}}{{if count == 1 }} פריט {{else}} פריטים {{/if}}",
+    FilterSettings: "מסננים:",
+    FilterOfText: "שֶׁל",
+    Max: "מקס",
+    Min: "Min",
+    Cards: "  כרטיסים",
+    ItemsCount: "פריטים מילים:",
+    Unassigned: "לא הוקצה",
+};
 ej.RTE.Locale["he-IL"] = {
     bold: "נוֹעָז",
     italic: "נטוי",

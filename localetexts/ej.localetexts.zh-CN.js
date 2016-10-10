@@ -667,6 +667,21 @@ ej.Ribbon.Locale["zh-CN"] = {
     ShowBelowTheRibbon: "下面显示功能区",
     MoreCommands: "更多命令...",
 };
+ej.Kanban.Locale["zh-CN"] = {
+    EmptyCard: "无卡显示",
+    SaveButton: "保存",
+    CancelButton: "取消",
+    EditFormTitle: "详情 ",
+    AddFormTitle: "添加新卡",
+    SwimlaneCaptionFormat: "- {{:count}}{{if count == 1 }} 项目 {{else}} 项目{{/if}}",
+    FilterSettings: "过滤器：",
+    FilterOfText: "的",
+    Max: "马克斯",
+    Min: "敏",
+    Cards: "  牌",
+    ItemsCount: "项目数 :",
+    Unassigned: "未分配",
+};
 ej.RTE.Locale["zh-CN"] = {
     bold: "胆大",
     italic: "斜体",

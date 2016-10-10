@@ -667,6 +667,21 @@ ej.Ribbon.Locale["fa-IR"] = {
     ShowBelowTheRibbon: "نمایش پائین روبان",
     MoreCommands: "دستورات بیشتر ...",
 };
+ej.Kanban.Locale["fa-IR"] = {
+    EmptyCard: "بدون کارت برای نمایش",
+    SaveButton: "صرفه جویی",
+    CancelButton: "لغو کردن",
+    EditFormTitle: "جزئیات ",
+    AddFormTitle: "اضافه کردن کارت جدید",
+    SwimlaneCaptionFormat: "- {{:count}}{{if count == 1 }} مورد {{else}} موارد {{/if}}",
+    FilterSettings: "فیلترها:",
+    FilterOfText: "از",
+    Max: "حداکثر",
+    Min: "حداقل",
+    Cards: "  کارت",
+    ItemsCount: "آیتم ها شمار :",
+    Unassigned: "اختصاص داده نشده",
+};
 ej.RTE.Locale["fa-IR"] = {
     bold: "جسور",
     italic: "حروف کج",
