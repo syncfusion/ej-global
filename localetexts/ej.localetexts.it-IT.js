@@ -667,6 +667,21 @@ ej.Ribbon.Locale["it-IT"] = {
     ShowBelowTheRibbon: "Mostra sotto la barra multifunzione",
     MoreCommands: "Altri comandi ...",
 };
+ej.Kanban.Locale["it-IT"] = {
+    EmptyCard: "Biglietti da visualizzare",
+    SaveButton: "Salvare",
+    CancelButton: "Annulla",
+    EditFormTitle: "Dettagli di ",
+    AddFormTitle: "Aggiungi nuova scheda",
+    SwimlaneCaptionFormat: "- {{:count}}{{if count == 1 }} articolo {{else}} elementi {{/if}}",
+    FilterSettings: "filtri:",
+    FilterOfText: "di",
+    Max: "Max",
+    Min: "Min",
+    Cards: "  Carte",
+    ItemsCount: "Conteggio articoli :",
+    Unassigned: "Non assegnato",
+};
 ej.RTE.Locale["it-IT"] = {
     bold: "Grassetto",
     italic: "Corsivo",
