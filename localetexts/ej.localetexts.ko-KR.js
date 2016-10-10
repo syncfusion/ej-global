@@ -680,7 +680,7 @@ ej.Kanban.Locale["ko-KR"] = {
     Min: "최소",
     Cards: "  카드",
     ItemsCount: "항목 개수 :",
-    Unassigned: "할당되지 않음",
+    Unassigned: "할당되지 않음"
 };
 ej.RTE.Locale["ko-KR"] = {
     bold: "대담한",

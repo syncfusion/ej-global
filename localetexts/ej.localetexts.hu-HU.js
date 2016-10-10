@@ -680,7 +680,7 @@ ej.Kanban.Locale["hu-HU"] = {
     Min: "min",
     Cards: "  kártyák",
     ItemsCount: "Tételek száma :",
-    Unassigned: "Nem hozzárendelt",
+    Unassigned: "Nem hozzárendelt"
 };
 ej.RTE.Locale["hu-HU"] = {
     bold: "Bátor",

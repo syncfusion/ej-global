@@ -680,7 +680,7 @@ ej.Kanban.Locale["ar-AE"] = {
    Min: "دقيقة",
    Cards: "  بطاقات",
    ItemsCount: "عد العناصر:",
-   Unassigned: "غير معين",
+   Unassigned: "غير معين"
 };
 ej.RTE.Locale["ar-AE"] = {
     bold: "جريء",

@@ -680,7 +680,7 @@ ej.Kanban.Locale["ja-JP"] = {
     Min: "ミン",
     Cards: "  カード",
     ItemsCount: "アイテム数 ：",
-    Unassigned: "割り当てられていません",
+    Unassigned: "割り当てられていません"
 };
 ej.RTE.Locale["ja-JP"] = {
     bold: "大胆な",

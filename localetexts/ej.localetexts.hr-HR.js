@@ -680,7 +680,7 @@ ej.Kanban.Locale["hr-HR"] = {
     Min: "min",
     Cards: "  Kartice",
     ItemsCount: "Stavke Count :",
-    Unassigned: "Nedodijeljeno",
+    Unassigned: "Nedodijeljeno"
 };
 ej.RTE.Locale["hr-HR"] = {
     bold: "odvažan",

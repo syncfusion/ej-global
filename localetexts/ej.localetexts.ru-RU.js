@@ -680,7 +680,7 @@ ej.Kanban.Locale["ru-RU"] = {
     Min: "Min",
     Cards: "  Карты",
     ItemsCount: "Пункты Count :",
-    Unassigned: "Неназначенный",
+    Unassigned: "Неназначенный"
 };
 ej.RTE.Locale["ru-RU"] = {
     bold: "жирный",

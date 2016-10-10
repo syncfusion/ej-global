@@ -680,7 +680,7 @@ ej.Kanban.Locale["ro-RO"] = {
     Min: "min",
     Cards: "  Carduri",
     ItemsCount: "articole Count :",
-    Unassigned: "Nedesemnată",
+    Unassigned: "Nedesemnată"
 };
 ej.RTE.Locale["ro-RO"] = {
     bold: "Îndrăzneţ",

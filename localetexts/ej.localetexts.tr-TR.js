@@ -680,7 +680,7 @@ ej.Kanban.Locale["tr-TR"] = {
     Min: "min",
     Cards: "  Kartlar",
     ItemsCount: "Öğeler Sayım :",
-    Unassigned: "Atanmamış",
+    Unassigned: "Atanmamış"
 };
 ej.RTE.Locale["tr-TR"] = {
     bold: "cesur",

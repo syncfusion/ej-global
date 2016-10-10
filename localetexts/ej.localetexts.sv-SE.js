@@ -680,7 +680,7 @@ ej.Kanban.Locale["sv-SE"] = {
     Min: "min",
     Cards: "  kort",
     ItemsCount: "objekt Count :",
-    Unassigned: "Inte tilldelad",
+    Unassigned: "Inte tilldelad"
 };
 ej.RTE.Locale["sv-SE"] = {
     bold: "Djärv",

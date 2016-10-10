@@ -680,7 +680,7 @@ ej.Kanban.Locale["nl-NL"] = {
     Min: "min",
     Cards: "  Kaarten",
     ItemsCount: "Items Count :",
-    Unassigned: "Niet-toegewezen",
+    Unassigned: "Niet-toegewezen"
 };
 ej.RTE.Locale["nl-NL"] = {
     bold: "Stoutmoedig",

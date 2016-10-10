@@ -680,7 +680,7 @@ ej.Kanban.Locale["de-DE"] = {
     Min: "Min",
     Cards: "  Karten",
     ItemsCount: "Artikel Graf :",
-    Unassigned: "Nicht zugewiesen",
+    Unassigned: "Nicht zugewiesen"
 };
 ej.RTE.Locale["de-DE"] = {
     bold: "Fett gedruckt",

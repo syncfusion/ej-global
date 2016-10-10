@@ -680,7 +680,7 @@ ej.Kanban.Locale["fa-IR"] = {
     Min: "حداقل",
     Cards: "  کارت",
     ItemsCount: "آیتم ها شمار :",
-    Unassigned: "اختصاص داده نشده",
+    Unassigned: "اختصاص داده نشده"
 };
 ej.RTE.Locale["fa-IR"] = {
     bold: "جسور",

@@ -680,7 +680,7 @@ ej.Kanban.Locale["ms-MY"] = {
     Min: "min",
     Cards: "  kad",
     ItemsCount: "Item Count :",
-    Unassigned: "Tiada tugas",
+    Unassigned: "Tiada tugas"
 };
 ej.RTE.Locale["ms-MY"] = {
     bold: "Bold",

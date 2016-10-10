@@ -682,7 +682,7 @@ ej.Kanban.Locale["pl-PL"] = {
     Min: "min",
     Cards: "  karty",
     ItemsCount: "Produkty hrabia :",
-    Unassigned: "Nieprzypisany",
+    Unassigned: "Nieprzypisany"
 };
 ej.RTE.Locale["pl-PL"] = {
     bold: "Pogrubienie",

@@ -680,7 +680,7 @@ ej.Kanban.Locale["zh-CN"] = {
     Min: "敏",
     Cards: "  牌",
     ItemsCount: "项目数 :",
-    Unassigned: "未分配",
+    Unassigned: "未分配"
 };
 ej.RTE.Locale["zh-CN"] = {
     bold: "胆大",

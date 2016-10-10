@@ -680,7 +680,7 @@ ej.Kanban.Locale["da-DK"] = {
     Min: "Min",
     Cards: "  Kort",
     ItemsCount: "Elementer Count:",
-    Unassigned: "ikke tildelt",
+    Unassigned: "ikke tildelt"
 };
 ej.RTE.Locale["da-DK"] = {
     bold: "Dristig",

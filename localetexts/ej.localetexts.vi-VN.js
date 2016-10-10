@@ -680,7 +680,7 @@ ej.Kanban.Locale["vi-VN"] = {
     Min: "min",
     Cards: "  thẻ",
     ItemsCount: "Items Đếm :",
-    Unassigned: "Unassigned",
+    Unassigned: "Unassigned"
 };
 ej.RTE.Locale["vi-VN"] = {
     bold: "Dũng cảm",
