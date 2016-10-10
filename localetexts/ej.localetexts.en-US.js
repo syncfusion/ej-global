@@ -704,20 +704,20 @@ ej.Ribbon.Locale["en-US"] = {
     ShowBelowTheRibbon: "Show Below the Ribbon",
     MoreCommands: "More Commands..."
 };
-ej.Kanban.Locale["es-ES"] = {
-    EmptyCard: "No hay tarjetas para mostrar",
-    SaveButton: "Salvar",
-    CancelButton: "Cancelar",
-    EditFormTitle: "Detalles de ",
-    AddFormTitle: "Añadir nueva tarjeta",
-    SwimlaneCaptionFormat: "- {{:count}}{{if count == 1 }} ít {{else}} artículos {{/if}}",
-    FilterSettings: "filtros:",
-    FilterOfText: "de",
+ej.Kanban.Locale["en-US"] = {
+    EmptyCard: "No cards to display",
+    SaveButton: "Save",
+    CancelButton: "Cancel",
+    EditFormTitle: "Details of ",
+    AddFormTitle: "Add New Card",
+    SwimlaneCaptionFormat: "- {{:count}}{{if count == 1 }} item {{else}} items {{/if}}",
+    FilterSettings: "Filters:",
+    FilterOfText: "of",
     Max: "Max",
-    Min: "min",
-    Cards: "  Tarjetas",
-    ItemsCount: "Los productos Count :",
-    Unassigned: "sin asignar",
+    Min: "Min",
+    Cards: "  Cards",
+    ItemsCount: "Items Count :",
+    Unassigned: "Unassigned",
 };
 ej.RTE.Locale["en-US"] = {
     bold: "Bold",
