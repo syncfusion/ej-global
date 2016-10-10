@@ -667,6 +667,21 @@ ej.Ribbon.Locale["hr-HR"] = {
     ShowBelowTheRibbon: "Prikaži Ispod vrpci",
     MoreCommands: "Više Naredbe ...",
 };
+ej.Kanban.Locale["hr-HR"] = {
+    EmptyCard: "Nema kartice za prikaz",
+    SaveButton: "Uštedjeti",
+    CancelButton: "Otkazati",
+    EditFormTitle: "Detalji ",
+    AddFormTitle: "Dodavanje nove kartice",
+    SwimlaneCaptionFormat: "- {{:count}}{{if count == 1 }} artikal {{else}} stavke {{/if}}",
+    FilterSettings: "Filtri:",
+    FilterOfText: "od",
+    Max: "maksimum",
+    Min: "min",
+    Cards: "  Kartice",
+    ItemsCount: "Stavke Count :",
+    Unassigned: "Nedodijeljeno",
+};
 ej.RTE.Locale["hr-HR"] = {
     bold: "odvažan",
     italic: "kurzivan",
