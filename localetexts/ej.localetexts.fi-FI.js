@@ -667,6 +667,21 @@ ej.Ribbon.Locale["fi-FI"] = {
     ShowBelowTheRibbon: "Mitä seuraavista Ribbon",
     MoreCommands: "Lisää komennot ...",
 };
+ej.Kanban.Locale["fi-FI"] = {
+    EmptyCard: "Ei korttia näytettäviä",
+    SaveButton: "Tallentaa",
+    CancelButton: "Peruuttaa",
+    EditFormTitle: "tiedot ",
+    AddFormTitle: "Lisää uusi kortti",
+    SwimlaneCaptionFormat: "- {{:count}}{{if count == 1 }} erä {{else}} kohdetta {{/if}}",
+    FilterSettings: "Suodattimet:",
+    FilterOfText: "of",
+    Max: "max",
+    Min: "min",
+    Cards: "  Kortit",
+    ItemsCount: "Tuotteet Count:",
+    Unassigned: "Unassigned",
+};
 ej.RTE.Locale["fi-FI"] = {
     bold: "rohkea",
     italic: "kursivoitu",
