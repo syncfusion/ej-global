@@ -667,6 +667,21 @@ ej.Ribbon.Locale["pt-PT"] = {
     ShowBelowTheRibbon: "Mostrar Abaixo da fita",
     MoreCommands: "Mais Comandos ...",
 };
+ej.Kanban.Locale["pt-PT"] = {
+    EmptyCard: "Não se aceitam cartões para exibir",
+    SaveButton: "Salvar",
+    CancelButton: "Cancelar",
+    EditFormTitle: "Detalhes de ",
+    AddFormTitle: "Adicionar novo cartão",
+    SwimlaneCaptionFormat: "- {{:count}}{{if count == 1 }} item {{else}} Unid {{/if}}",
+    FilterSettings: "filtros:",
+    FilterOfText: "do",
+    Max: "Max",
+    Min: "min",
+    Cards: "  Cartões",
+    ItemsCount: "itens Contagem :",
+    Unassigned: "Unassigned",
+};
 ej.RTE.Locale["pt-PT"] = {
     bold: "Negrito",
     italic: "itálico",
