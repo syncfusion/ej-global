@@ -817,7 +817,7 @@ ej.RecurrenceEditor.Locale["ms-MY"] = {
     OfEvery: "of",
     After: "selepas",
     On: "pada",
-    Occurrence: "Kejadian (s)",
+    Occurrence: "Kejadian (s)"
 };
 ej.Schedule.Locale["ms-MY"] = {
     ReminderWindowTitle: "tetingkap peringatan",
@@ -921,7 +921,7 @@ ej.Schedule.Locale["ms-MY"] = {
     Time: "Masa",
     EmptyResultText: "Tiada cadangan",
     BlockIntervalAlertTitle: "Amaran",
-    BlockIntervalError: "selang masa yang dipilih telah disekat dan tidak tersedia untuk pilihan.",
+    BlockIntervalError: "selang masa yang dipilih telah disekat dan tidak tersedia untuk pilihan."
 };
 ej.Spreadsheet.Locale["ms-MY"] = {
     Cut: "Cut",

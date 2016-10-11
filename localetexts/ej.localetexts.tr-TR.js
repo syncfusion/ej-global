@@ -817,7 +817,7 @@ ej.RecurrenceEditor.Locale["vi-VN"] = {
     OfEvery: "của",
     After: "Sau",
     On: "Trên",
-    Occurrence: "Sự xuất hiện (s)",
+    Occurrence: "Sự xuất hiện (s)"
 };
 ej.Schedule.Locale["tr-TR"] = {
     ReminderWindowTitle: "hatırlatma penceresi",
@@ -921,7 +921,7 @@ ej.Schedule.Locale["tr-TR"] = {
     Time: "Zaman",
     EmptyResultText: "hiçbir öneri",
     BlockIntervalAlertTitle: "uyarı",
-    BlockIntervalError: "Seçilen zaman aralığı bloke edilir ve seçim için kullanılamaz olmuştur.",
+    BlockIntervalError: "Seçilen zaman aralığı bloke edilir ve seçim için kullanılamaz olmuştur."
 };
 ej.Spreadsheet.Locale["tr-TR"] = {
     Cut: "kesim",

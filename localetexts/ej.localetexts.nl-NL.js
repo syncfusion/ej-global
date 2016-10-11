@@ -817,7 +817,7 @@ ej.RecurrenceEditor.Locale["nl-NL"] = {
     OfEvery: "Van",
     After: "Na",
     On: "Op",
-    Occurrence: "Voorkomen (s)",
+    Occurrence: "Voorkomen (s)"
 };
 ej.Schedule.Locale["nl-NL"] = {
     ReminderWindowTitle: "herinneringsvenster",
@@ -921,7 +921,7 @@ ej.Schedule.Locale["nl-NL"] = {
     Time: "Tijd",
     EmptyResultText: "geen suggesties",
     BlockIntervalAlertTitle: "alarm",
-    BlockIntervalError: "De geselecteerde tijdsinterval is geblokkeerd en is niet beschikbaar voor de selectie.",
+    BlockIntervalError: "De geselecteerde tijdsinterval is geblokkeerd en is niet beschikbaar voor de selectie."
 };
 ej.Spreadsheet.Locale["nl-NL"] = {
     Cut: "Besnoeiing",

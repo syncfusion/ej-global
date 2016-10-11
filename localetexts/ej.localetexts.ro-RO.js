@@ -817,7 +817,7 @@ ej.RecurrenceEditor.Locale["ro-RO"] = {
     OfEvery: "De",
     After: "După",
     On: "Pe",
-    Occurrence: "Ocurență (s)",
+    Occurrence: "Ocurență (s)"
 };
 ej.Schedule.Locale["ro-RO"] = {
     ReminderWindowTitle: "fereastră memento",
@@ -921,7 +921,7 @@ ej.Schedule.Locale["ro-RO"] = {
     Time: "Timp",
     EmptyResultText: "Nu există sugestii",
     BlockIntervalAlertTitle: "Alerta",
-    BlockIntervalError: "Intervalul de timp selectat a fost blocat și nu este disponibilă pentru selecție.",
+    BlockIntervalError: "Intervalul de timp selectat a fost blocat și nu este disponibilă pentru selecție."
 };
 ej.Spreadsheet.Locale["ro-RO"] = {
     Cut: "A taia",

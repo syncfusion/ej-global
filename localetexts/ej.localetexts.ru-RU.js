@@ -817,7 +817,7 @@ ej.RecurrenceEditor.Locale["ru-RU"] = {
     OfEvery: "из",
     After: "После",
     On: "На",
-    Occurrence: "Вхождение (ы)",
+    Occurrence: "Вхождение (ы)"
 };
 ej.Schedule.Locale["ru-RU"] = {
     ReminderWindowTitle: "окно Напоминание",
@@ -921,7 +921,7 @@ ej.Schedule.Locale["ru-RU"] = {
     Time: "Время",
     EmptyResultText: "Нет предложений",
     BlockIntervalAlertTitle: "бдительный",
-    BlockIntervalError: "Выбранный временной интервал был заблокирован и недоступен для выбора.",
+    BlockIntervalError: "Выбранный временной интервал был заблокирован и недоступен для выбора."
 };
 ej.Spreadsheet.Locale["ru-RU"] = {
     Cut: "Порез",

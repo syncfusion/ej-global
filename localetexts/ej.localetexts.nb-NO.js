@@ -817,7 +817,7 @@ ej.RecurrenceEditor.Locale["nb-NO"] = {
     OfEvery: "Av",
     After: "Etter",
     On: "På",
-    Occurrence: "Forekomst (s)",
+    Occurrence: "Forekomst (s)"
 };
 ej.Schedule.Locale["nb-NO"] = {
     ReminderWindowTitle: "påminnelse vindu",
@@ -921,7 +921,7 @@ ej.Schedule.Locale["nb-NO"] = {
     Time: "Tid",
     EmptyResultText: "ingen forslag",
     BlockIntervalAlertTitle: "Varsling",
-    BlockIntervalError: "Den valgte tidsintervallet har blitt slettet og er ikke tilgjengelig for utvalget.",
+    BlockIntervalError: "Den valgte tidsintervallet har blitt slettet og er ikke tilgjengelig for utvalget."
 };
 ej.Spreadsheet.Locale["nb-NO"] = {
     Cut: "Cut",

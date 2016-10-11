@@ -817,7 +817,7 @@ ej.RecurrenceEditor.Locale["sv-SE"] = {
     OfEvery: "Av",
     After: "Efter",
     On: "På",
-    Occurrence: "Förekomst (s)",
+    Occurrence: "Förekomst (s)"
 };
 ej.Schedule.Locale["sv-SE"] = {
     ReminderWindowTitle: "påminnelse fönster",
@@ -921,7 +921,7 @@ ej.Schedule.Locale["sv-SE"] = {
     Time: "Tid",
     EmptyResultText: "Inga förslag",
     BlockIntervalAlertTitle: "Varna",
-    BlockIntervalError: "Den valda tidsintervallet har blivit blockerad och kan inte användas för val.",
+    BlockIntervalError: "Den valda tidsintervallet har blivit blockerad och kan inte användas för val."
 };
 ej.Spreadsheet.Locale["sv-SE"] = {
     Cut: "Skära",

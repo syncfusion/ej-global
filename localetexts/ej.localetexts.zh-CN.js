@@ -817,7 +817,7 @@ ej.RecurrenceEditor.Locale["zh-CN"] = {
     OfEvery: "的",
     After: "后",
     On: "上",
-    Occurrence: "发生次数",
+    Occurrence: "发生次数"
 };
 ej.Schedule.Locale["zh-CN"] = {
     ReminderWindowTitle: "提醒窗口",
@@ -921,7 +921,7 @@ ej.Schedule.Locale["zh-CN"] = {
     Time: "时间",
     EmptyResultText: "没有建议",
     BlockIntervalAlertTitle: "警报",
-    BlockIntervalError: "所选的时间间隔已被阻止，无法选择。",
+    BlockIntervalError: "所选的时间间隔已被阻止，无法选择。"
 };
 ej.Spreadsheet.Locale["zh-CN"] = {
     Cut: "Cắt tỉa",

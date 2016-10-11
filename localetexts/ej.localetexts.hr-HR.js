@@ -817,7 +817,7 @@ ej.RecurrenceEditor.Locale["hr-HR"] = {
     OfEvery: "Od",
     After: "Nakon",
     On: "Na",
-    Occurrence: "Pojava (s)",
+    Occurrence: "Pojava (s)"
 };
 ej.Schedule.Locale["hr-HR"] = {
     ReminderWindowTitle: "prozor Podsjetnik",
@@ -921,7 +921,7 @@ ej.Schedule.Locale["hr-HR"] = {
     Time: "Vrijeme",
     EmptyResultText: "Nema prijedloga",
     BlockIntervalAlertTitle: "uzbuna",
-    BlockIntervalError: "Odabrani vremenski interval je blokiran i nije dostupan za odabir.",
+    BlockIntervalError: "Odabrani vremenski interval je blokiran i nije dostupan za odabir."
 };
 ej.Spreadsheet.Locale["hr-HR"] = {
     Cut: "Rez",

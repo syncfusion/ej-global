@@ -817,7 +817,7 @@ ej.RecurrenceEditor.Locale["fi-FI"] = {
     OfEvery: "of",
     After: "Jälkeen",
     On: "Päällä",
-    Occurrence: "Esiintyminen (s)",
+    Occurrence: "Esiintyminen (s)"
 };
 ej.Schedule.Locale["fi-FI"] = {
     ReminderWindowTitle: "muistutus ikkuna",
@@ -921,7 +921,7 @@ ej.Schedule.Locale["fi-FI"] = {
     Time: "Aika",
     EmptyResultText: "ei ehdotuksia",
     BlockIntervalAlertTitle: "hälytys",
-    BlockIntervalError: "Valittu aikaväli on estetty eikä ole käytettävissä valintaa.",
+    BlockIntervalError: "Valittu aikaväli on estetty eikä ole käytettävissä valintaa."
 };
 ej.Spreadsheet.Locale["fi-FI"] = {
     Cut: "Leikata",

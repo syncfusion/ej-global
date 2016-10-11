@@ -817,7 +817,7 @@ ej.RecurrenceEditor.Locale["hu-HU"] = {
     OfEvery: "Nak,-nek",
     After: "Után",
     On: "Tovább",
-    Occurrence: "Esemény (ek)",
+    Occurrence: "Esemény (ek)"
 };
 ej.Schedule.Locale["hu-HU"] = {
     ReminderWindowTitle: "emlékeztető ablak",
@@ -921,7 +921,7 @@ ej.Schedule.Locale["hu-HU"] = {
     Time: "Idő",
     EmptyResultText: "nincs javaslat",
     BlockIntervalAlertTitle: "Éber",
-    BlockIntervalError: "A kiválasztott időintervallum van tiltva, és nem érhető el a választást.",
+    BlockIntervalError: "A kiválasztott időintervallum van tiltva, és nem érhető el a választást."
 };
 ej.Spreadsheet.Locale["hu-HU"] = {
     Cut: "Vágott",

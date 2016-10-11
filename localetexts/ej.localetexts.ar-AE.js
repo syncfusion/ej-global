@@ -817,7 +817,7 @@ ej.RecurrenceEditor.Locale["ar-AE"] = {
     OfEvery: "من",
     After: "بعد",
     On: "على",
-    Occurrence: "حدوث (ق)",
+    Occurrence: "حدوث (ق)"
 };
 ej.Schedule.Locale["ar-AE"] = {
     ReminderWindowTitle: "نافذة تذكير",
@@ -921,7 +921,7 @@ ej.Schedule.Locale["ar-AE"] = {
     Time: "مرة",
     EmptyResultText: "لا اقتراحات",
     BlockIntervalAlertTitle: "إنذار",
-    BlockIntervalError: "وقد تم حظر الفاصل الزمني المحدد وغير متوفر للاختيار.",
+    BlockIntervalError: "وقد تم حظر الفاصل الزمني المحدد وغير متوفر للاختيار."
 };
 ej.Spreadsheet.Locale["ar-AE"] = {
     Cut: "قطع",

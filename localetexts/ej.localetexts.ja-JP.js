@@ -817,7 +817,7 @@ ej.RecurrenceEditor.Locale["ja-JP"] = {
     OfEvery: "の",
     After: "後の",
     On: "に",
-    Occurrence: "発生（S）",
+    Occurrence: "発生（S）"
 };
 ej.Schedule.Locale["ja-JP"] = {
     ReminderWindowTitle: "リマインダーウィンドウ",
@@ -921,7 +921,7 @@ ej.Schedule.Locale["ja-JP"] = {
     Time: "時間",
     EmptyResultText: "提案なし",
     BlockIntervalAlertTitle: "アラート",
-    BlockIntervalError: "選択された時間間隔はブロックされ、選択のため利用できませんされています。",
+    BlockIntervalError: "選択された時間間隔はブロックされ、選択のため利用できませんされています。"
 };
 ej.Spreadsheet.Locale["ja-JP"] = {
     Cut: "カット",

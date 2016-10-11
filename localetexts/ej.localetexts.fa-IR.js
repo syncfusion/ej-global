@@ -817,7 +817,7 @@ ej.RecurrenceEditor.Locale["fa-IR"] = {
     OfEvery: "از",
     After: "بعد از",
     On: "بر",
-    Occurrence: "ظهور)",
+    Occurrence: "ظهور)"
 };
 ej.Schedule.Locale["fa-IR"] = {
     ReminderWindowTitle: "پنجره یادآوری",
@@ -921,7 +921,7 @@ ej.Schedule.Locale["fa-IR"] = {
     Time: "زمان",
     EmptyResultText: "هیچ پیشنهادی",
     BlockIntervalAlertTitle: "هوشیار",
-    BlockIntervalError: "بازه زمانی انتخاب شده مسدود شده است و برای انتخاب در دسترس نیست.",
+    BlockIntervalError: "بازه زمانی انتخاب شده مسدود شده است و برای انتخاب در دسترس نیست."
 };
 ej.Spreadsheet.Locale["fa-IR"] = {
     Cut: "برش",

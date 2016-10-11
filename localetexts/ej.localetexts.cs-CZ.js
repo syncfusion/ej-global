@@ -817,7 +817,7 @@ ej.RecurrenceEditor.Locale["cs-CZ"] = {
     OfEvery: "Z",
     After: "Po",
     On: "Na",
-    Occurrence: "Výskyt (y)",
+    Occurrence: "Výskyt (y)"
 };
 ej.Schedule.Locale["cs-CZ"] = {
     ReminderWindowTitle: "okno připomínka",
@@ -921,7 +921,7 @@ ej.Schedule.Locale["cs-CZ"] = {
     Time: "Čas",
     EmptyResultText: "žádné návrhy",
     BlockIntervalAlertTitle: "bdělý",
-    BlockIntervalError: "Vybraný časový interval byl zablokován a není k dispozici pro výběr.",
+    BlockIntervalError: "Vybraný časový interval byl zablokován a není k dispozici pro výběr."
 };
 ej.Spreadsheet.Locale["cs-CZ"] = {
     Cut: "Střih",

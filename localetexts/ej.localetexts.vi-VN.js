@@ -817,7 +817,7 @@ ej.RecurrenceEditor.Locale["vi-VN"] = {
     OfEvery: "của",
     After: "Sau",
     On: "Trên",
-    Occurrence: "Sự xuất hiện (s)",
+    Occurrence: "Sự xuất hiện (s)"
 };
 ej.Schedule.Locale["vi-VN"] = {
     ReminderWindowTitle: "cửa sổ nhắc nhở",
@@ -921,7 +921,7 @@ ej.Schedule.Locale["vi-VN"] = {
     Time: "Thời gian",
     EmptyResultText: "Chưa có đề xuất",
     BlockIntervalAlertTitle: "Báo động",
-    BlockIntervalError: "Khoảng thời gian được chọn đã bị chặn và không có sẵn để lựa chọn.",
+    BlockIntervalError: "Khoảng thời gian được chọn đã bị chặn và không có sẵn để lựa chọn."
 };
 ej.Spreadsheet.Locale["vi-VN"] = {
     Cut: "Cắt tỉa",

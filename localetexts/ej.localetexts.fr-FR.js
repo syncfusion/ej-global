@@ -817,7 +817,7 @@ ej.RecurrenceEditor.Locale["fr-FR"] = {
     OfEvery: "De",
     After: "Après",
     On: "Sur",
-    Occurrence: "Présence (s)",
+    Occurrence: "Présence (s)"
 };
 ej.Schedule.Locale["fr-FR"] = {
     ReminderWindowTitle: "fenêtre Rappel",
@@ -921,7 +921,7 @@ ej.Schedule.Locale["fr-FR"] = {
     Time: "Temps",
     EmptyResultText: "Pas de suggestions",
     BlockIntervalAlertTitle: "Alerte",
-    BlockIntervalError: "L'intervalle de temps choisi a été bloqué et est indisponible pour la sélection.",
+    BlockIntervalError: "L'intervalle de temps choisi a été bloqué et est indisponible pour la sélection."
 };
 ej.Spreadsheet.Locale["fr-FR"] = {
     Cut: "Coupe",

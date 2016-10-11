@@ -817,7 +817,7 @@ ej.RecurrenceEditor.Locale["de-DE"] = {
     OfEvery: "Von",
     After: "Nach",
     On: "Auf",
-    Occurrence: "Vorkommen (e)",
+    Occurrence: "Vorkommen (e)"
 };
 ej.Schedule.Locale["de-DE"] = {
     ReminderWindowTitle: "Erinnerung Fenster",
@@ -921,7 +921,7 @@ ej.Schedule.Locale["de-DE"] = {
     Time: "Zeit",
     EmptyResultText: "Keine Vorschläge",
     BlockIntervalAlertTitle: "Aufmerksam",
-    BlockIntervalError: "Das ausgewählte Zeitintervall wurde blockiert und ist nicht zur Auswahl.",
+    BlockIntervalError: "Das ausgewählte Zeitintervall wurde blockiert und ist nicht zur Auswahl."
 };
 ej.Spreadsheet.Locale["de-DE"] = {
     Cut: "Schneiden",

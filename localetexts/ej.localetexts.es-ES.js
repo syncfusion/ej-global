@@ -817,7 +817,7 @@ ej.RecurrenceEditor.Locale["es-ES"] = {
     OfEvery: "De",
     After: "Después",
     On: "En",
-    Occurrence: "Ocurrencia (s)",
+    Occurrence: "Ocurrencia (s)"
 };
 ej.Schedule.Locale["es-ES"] = {
     ReminderWindowTitle: "ventana de aviso",
@@ -921,7 +921,7 @@ ej.Schedule.Locale["es-ES"] = {
     Time: "Hora",
     EmptyResultText: "No hay sugerencias",
     BlockIntervalAlertTitle: "Alerta",
-    BlockIntervalError: "El intervalo de tiempo seleccionado ha sido bloqueado y no está disponible para la selección.",
+    BlockIntervalError: "El intervalo de tiempo seleccionado ha sido bloqueado y no está disponible para la selección."
 };
 ej.Spreadsheet.Locale["es-ES"] = {
     Cut: "Cortar",

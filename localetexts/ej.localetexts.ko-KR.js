@@ -817,7 +817,7 @@ ej.RecurrenceEditor.Locale["ko-KR"] = {
     OfEvery: "의",
     After: "후",
     On: "에",
-    Occurrence: "발생 (들)",
+    Occurrence: "발생 (들)"
 };
 ej.Schedule.Locale["ko-KR"] = {
     ReminderWindowTitle: "알림 창",
@@ -921,7 +921,7 @@ ej.Schedule.Locale["ko-KR"] = {
     Time: "시각",
     EmptyResultText: "제안 사항이 없습니다",
     BlockIntervalAlertTitle: "경보",
-    BlockIntervalError: "선택한 시간 간격은 차단하고 선택할 수 없습니다되었습니다.",
+    BlockIntervalError: "선택한 시간 간격은 차단하고 선택할 수 없습니다되었습니다."
 };
 ej.Spreadsheet.Locale["ko-KR"] = {
     Cut: "절단",

@@ -817,7 +817,7 @@ ej.RecurrenceEditor.Locale["he-IL"] = {
     OfEvery: "שֶׁל",
     After: "לאחר",
     On: "עַל",
-    Occurrence: "מופע (ים)",
+    Occurrence: "מופע (ים)"
 };
 ej.Schedule.Locale["he-IL"] = {
     ReminderWindowTitle: "חלון תזכורת",
@@ -921,7 +921,7 @@ ej.Schedule.Locale["he-IL"] = {
     Time: "זְמַן",
     EmptyResultText: "אין הצעות",
     BlockIntervalAlertTitle: "עֵרָנִי",
-    BlockIntervalError: "מרווח הזמן שנבחר נחסם ואינו זמין לבחירה.",
+    BlockIntervalError: "מרווח הזמן שנבחר נחסם ואינו זמין לבחירה."
 };
 ej.Spreadsheet.Locale["he-IL"] = {
     Cut: "Coupe",

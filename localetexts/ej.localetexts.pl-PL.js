@@ -819,7 +819,7 @@ ej.RecurrenceEditor.Locale["pl-PL"] = {
     OfEvery: "Z",
     After: "Po",
     On: "Na",
-    Occurrence: "Wystąpienie (-a)",
+    Occurrence: "Wystąpienie (-a)"
 };
 ej.Schedule.Locale["pl-PL"] = {
     ReminderWindowTitle: "okno Przypomnienie",
@@ -923,7 +923,7 @@ ej.Schedule.Locale["pl-PL"] = {
     Time: "Czas",
     EmptyResultText: "Brak sugestii",
     BlockIntervalAlertTitle: "Alarm",
-    BlockIntervalError: "Wybrany przedział czasowy został zablokowany i nie jest dostępny do wyboru.",
+    BlockIntervalError: "Wybrany przedział czasowy został zablokowany i nie jest dostępny do wyboru."
 };
 ej.Spreadsheet.Locale["pl-PL"] = {
     Cut: "Ciąć",
