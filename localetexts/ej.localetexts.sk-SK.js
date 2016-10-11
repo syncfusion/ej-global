@@ -178,7 +178,8 @@ ej.Gantt.Locale["sk-SK"] = {
         predecessorEditingValidationAlert: "Cyklická závislosť došlo, skontrolujte predchodca",
         predecessorAddingValidationAlert: "Vyplniť všetky stĺpce v tabuľke predchodcu",
         idValidationAlert: "duplicitné ID",
-        dateValidationAlert: "Neplatný dátum ukončenia"
+        dateValidationAlert: "Neplatný dátum ukončenia",
+        dialogResourceAlert: "Vyplniť všetky stĺpce v tabuľke zdrojov"
     },
     columnHeaderTexts: {
         taskId: "ID",
@@ -194,7 +195,14 @@ ej.Gantt.Locale["sk-SK"] = {
         baselineStartDate: "Baseline Start Date",
         baselineEndDate: "Baseline Dátum ukončenia",
         WBS: "WBS",
-        WBSpredecessor: "WBS predchodca"
+        WBSpredecessor: "WBS predchodca",
+        dialogCustomFieldName: "Názov stĺpec",
+        dialogCustomFieldValue: "hodnota",
+        notes: "Poznámky",
+        taskType: "typ úloha",
+        work: "Práca",
+        unit: "Jednotka",
+        effortDriven: "snaha Driven"
     },
     editDialogTexts: {
         addFormTitle: "novú úlohu",
@@ -236,12 +244,35 @@ ej.Gantt.Locale["sk-SK"] = {
         expandAllTool: "Rozbaliť všetko",
         collapseAllTool: "zbaliť všetko",
         nextTimeSpanTool: "vedľa timespan",
-        prevTimeSpanTool: "Predchádzajúce OBDOBIE"
+        prevTimeSpanTool: "Predchádzajúce OBDOBIE",
+        criticalPathTool: "Kritická cesta"
     },
     durationUnitTexts: {
         days: "dni",
         hours: "hodiny",
+        minutes: "zápis",
+        day: "deň",
+        hour: "hodina",
+        minute: "minúta"
+    },
+    durationUnitEditText: {
+        minute: ["m", "min", "minúta", "zápis"],
+        hour: ["hod", "hr", "hodina", "hodiny"],
+        day: ["d", "dy", "deň", "dni"]
+    },
+    workUnitTexts: {
+        days: "dni",
+        hours: "hodiny",
         minutes: "zápis"
+    },
+    taskTypeTexts: {
+        fixedWork: "pevná práce",
+        fixedUnit: "pevné Jednotky",
+        fixedDuration: "pevná Trvanie"
+    },
+    effortDrivenTexts: {
+        yes: "Áno",
+        no: "nie"
     },
     contextMenuTexts: {
         taskDetailsText: "Úlohy Podrobnosti ...",
@@ -264,6 +295,10 @@ ej.Gantt.Locale["sk-SK"] = {
         deleteColumn: "odstrániť stĺpec",
         renameColumn: "premenovať stĺpec"
     },
+    taskModeTexts: {
+        manual: "Manuálny",
+        auto: "auto"
+    },
     columnDialogTitle: {
         insertColumn: "vložiť stĺpec",
         deleteColumn: "odstrániť stĺpec",
@@ -277,6 +312,13 @@ ej.Gantt.Locale["sk-SK"] = {
         fromText: "z",
         toText: "na"
     },
+    dialogTabTitleTexts: {
+        generalTabText: "všeobecný",
+        predecessorsTabText: "predchodcovia",
+        resourcesTabText: "zdroje",
+        customFieldsTabText: "vlastné Fields",
+        notesTabText: "Poznámky"
+    }
 };
 ej.Grid.Locale["sk-SK"] = {
    EmptyRecord: "žiadne záznamy na zobrazenie",
@@ -1593,7 +1635,8 @@ ej.TreeGrid.Locale["sk-SK"] = {
         cancelTool: "Zrušiť",
         expandAllTool: "Rozbaliť všetko",
         collapseAllTool: "zbaliť všetko",
-        pdfExportTool: "Export do formátu PDF"
+        pdfExportTool: "Export do formátu PDF",
+        excelExportTool: "export excel"
     },
     contextMenuTexts: {
         addRowText: "Pridať riadok",

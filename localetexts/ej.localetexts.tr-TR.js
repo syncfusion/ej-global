@@ -178,7 +178,8 @@ ej.Gantt.Locale["tr-TR"] = {
         predecessorEditingValidationAlert: "Döngüsel Bağımlılık Meydana Gelen, selefinden kontrol ediniz",
         predecessorAddingValidationAlert: "selefi tablodaki tüm sütunları doldurun",
         idValidationAlert: "yinelenen ID",
-        dateValidationAlert: "Geçersiz Bitiş tarihi"
+        dateValidationAlert: "Geçersiz Bitiş tarihi",
+        dialogResourceAlert: "Kaynak tablodaki tüm sütunları doldurun"
     },
     columnHeaderTexts: {
         taskId: "İD",
@@ -194,7 +195,14 @@ ej.Gantt.Locale["tr-TR"] = {
         baselineStartDate: "Baseline Başlangıç Tarihi",
         baselineEndDate: "Baseline Bitiş Tarihi",
         WBS: "İDA",
-        WBSpredecessor: "İDA Öncül"
+        WBSpredecessor: "İDA Öncül",
+        dialogCustomFieldName: "sütun Adı",
+        dialogCustomFieldValue: "değer",
+        notes: "notlar",
+        taskType: "görev Tipi",
+        work: "İş",
+        unit: "birim",
+        effortDriven: "Çaba Driven"
     },
     editDialogTexts: {
         addFormTitle: "Yeni görev",
@@ -236,12 +244,35 @@ ej.Gantt.Locale["tr-TR"] = {
         expandAllTool: "Hepsini genişlet",
         collapseAllTool: "Tüm daraltmak",
         nextTimeSpanTool: "Sonraki Timespan",
-        prevTimeSpanTool: "Önceki Timespan"
+        prevTimeSpanTool: "Önceki Timespan",
+        criticalPathTool: "Kritik yol"
     },
     durationUnitTexts: {
         days: "günler",
         hours: "saat",
+        minutes: "dakika",
+        day: "gün",
+        hour: "saat",
+        minute: "dakika"
+    },
+    durationUnitEditText: {
+        minute: ["m", "dk", "dakika", "dakika"],
+        hour: ["h", "sa", "saat", "saatler"],
+        day: ["d", "dy", "gün", "günler"]
+    },
+    workUnitTexts: {
+        days: "günler",
+        hours: "saatler",
         minutes: "dakika"
+    },
+    taskTypeTexts: {
+        fixedWork: "sabit Çalışma",
+        fixedUnit: "sabit Birimler",
+        fixedDuration: "sabit Süre"
+    },
+    effortDrivenTexts: {
+        yes: "Evet",
+        no: "Yok hayır"
     },
     contextMenuTexts: {
         taskDetailsText: "Görev Detayları ...",
@@ -269,6 +300,10 @@ ej.Gantt.Locale["tr-TR"] = {
         deleteColumn: "Sütun Sil",
         renameColumn: "Sütun yeniden adlandırma"
     },
+    taskModeTexts: {
+        manual: "Manuel",
+        auto: "Oto"
+    },
     deleteColumnText: "Bu sütunu silmek istediğinizden emin misiniz?",
     okButtonText: "tamam",
     cancelButtonText: "İptal",
@@ -277,6 +312,13 @@ ej.Gantt.Locale["tr-TR"] = {
         fromText: "itibaren",
         toText: "için"
     },
+    dialogTabTitleTexts: {
+        generalTabText: "Genel",
+        predecessorsTabText: "öncekilerden",
+        resourcesTabText: "kaynaklar",
+        customFieldsTabText: "Özel Alanlar",
+        notesTabText: "notlar"
+    }
 };
 ej.Grid.Locale["tr-TR"] = {
     EmptyRecord: "Gösterilecek kayıt yok",
@@ -1593,7 +1635,9 @@ ej.TreeGrid.Locale["tr-TR"] = {
         cancelTool: "İptal",
         expandAllTool: "Hepsini genişlet",
         collapseAllTool: "Tüm daraltmak",
-        pdfExportTool: "PDF İhracat"
+        pdfExportTool: "PDF İhracat",
+        excelExportTool: "Excel İhracat"
+
     },
     contextMenuTexts: {
         addRowText: "satır ekle",

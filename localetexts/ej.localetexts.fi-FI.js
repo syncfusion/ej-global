@@ -178,7 +178,8 @@ ej.Gantt.Locale["fi-FI"] = {
         predecessorEditingValidationAlert: "Sykliset Riippuvuus Tapahtui, tarkista Edeltäjä",
         predecessorAddingValidationAlert: "Täytä kaikki sarakkeet edeltäjä taulukossa",
         idValidationAlert: "Monista ID",
-        dateValidationAlert: "Virheellinen Päättymispäivä"
+        dateValidationAlert: "Virheellinen Päättymispäivä",
+        dialogResourceAlert: "Täytä kaikki sarakkeet resurssi taulukossa"
     },
     columnHeaderTexts: {
         taskId: "ID",
@@ -194,7 +195,14 @@ ej.Gantt.Locale["fi-FI"] = {
         baselineStartDate: "Baseline aloituspäivä",
         baselineEndDate: "Baseline Päättymispäivä",
         WBS: "WBS",
-        WBSpredecessor: "WBS edeltäjä"
+        WBSpredecessor: "WBS edeltäjä",
+        dialogCustomFieldName: "sarake Name",
+        dialogCustomFieldValue: "Arvo",
+        notes: "Huomautuksia",
+        taskType: "Task Type",
+        work: "Tehdä työtä",
+        unit: "yksikkö",
+        effortDriven: "vaivaa Driven"
     },
     editDialogTexts: {
         addFormTitle: "uusi tehtävä",
@@ -236,12 +244,35 @@ ej.Gantt.Locale["fi-FI"] = {
         expandAllTool: "Laajenna kaikki",
         collapseAllTool: "Tiivistä kaikki",
         nextTimeSpanTool: "Seuraava Timespan",
-        prevTimeSpanTool: "Edellinen Timespan"
+        prevTimeSpanTool: "Edellinen Timespan",
+        criticalPathTool: "Kriittinen polku"
     },
     durationUnitTexts: {
         days: "päivää",
         hours: "tuntia",
-        minutes: "minuuttia"
+        minutes: "minuuttia",
+        day: "päivä",
+        hour: "tunnin",
+        minute: "minuutti"
+    },
+    durationUnitEditText: {
+        minute: ["m", "min", "minuutti", "minuutit"],
+        hour: ["h", "hr", "tunnin", "tuntia"],
+        day: ["d", "dy", "päivä", "päivää"]
+    },
+    workUnitTexts: {
+        days: "päivää",
+        hours: "tuntia",
+        minutes: "minuutit"
+    },
+    taskTypeTexts: {
+        fixedWork: "kiinteä Work",
+        fixedUnit: "kiinteä Units",
+        fixedDuration: "kiinteä Kesto"
+    },
+    effortDrivenTexts: {
+        yes: "Kyllä",
+        no: "Ei"
     },
     contextMenuTexts: {
         taskDetailsText: "Tehtävä Tarkat tiedot ...",
@@ -264,6 +295,10 @@ ej.Gantt.Locale["fi-FI"] = {
         deleteColumn: "Poista sarake",
         renameColumn: "Nimeä sarake"
     },
+    taskModeTexts: {
+        manual: "manuaalinen",
+        auto: "Auto"
+    },
     columnDialogTitle: {
         insertColumn: "Lisää sarake",
         deleteColumn: "Poista sarake",
@@ -277,6 +312,13 @@ ej.Gantt.Locale["fi-FI"] = {
         fromText: "Mistä",
         toText: "jotta"
     },
+    dialogTabTitleTexts: {
+        generalTabText: "yleinen",
+        predecessorsTabText: "edeltäjät",
+        resourcesTabText: "voimavarat",
+        customFieldsTabText: "Erikoiskentät",
+        notesTabText: "Huomautuksia"
+    }
 };
 ej.Grid.Locale["fi-FI"] = {
     EmptyRecord: "Ei näytettäviä tietueita",
@@ -1593,7 +1635,8 @@ ej.TreeGrid.Locale["fi-FI"] = {
         cancelTool: "Peruuttaa",
         expandAllTool: "Laajenna kaikki",
         collapseAllTool: "Tiivistä kaikki",
-        pdfExportTool: "PDF Export"
+        pdfExportTool: "PDF Export",
+        excelExportTool: "Excel Vie"
     },
     contextMenuTexts: {
         addRowText: "Lisää rivi",

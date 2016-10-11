@@ -178,7 +178,8 @@ ej.Gantt.Locale["ru-RU"] = {
         predecessorEditingValidationAlert: "Циклическая зависимость произошло, пожалуйста, проверьте Предшественник",
         predecessorAddingValidationAlert: "Заполните все столбцы в таблице предшественника",
         idValidationAlert: "Дубликат ID",
-        dateValidationAlert: "Неправильная дата завершения"
+        dateValidationAlert: "Неправильная дата завершения",
+        dialogResourceAlert: "Заполните все столбцы в таблице ресурсов"
     },
     columnHeaderTexts: {
         taskId: "ID",
@@ -194,7 +195,14 @@ ej.Gantt.Locale["ru-RU"] = {
         baselineStartDate: "Базовый дата начала",
         baselineEndDate: "Базовый Окончание",
         WBS: "WBS",
-        WBSpredecessor: "WBS Предшественник"
+        WBSpredecessor: "WBS Предшественник",
+        dialogCustomFieldName: "Имя столбца",
+        dialogCustomFieldValue: "Стоимость",
+        notes: "Заметки",
+        taskType: "Тип задачи",
+        work: "Работа",
+        unit: "Ед. изм",
+        effortDriven: "усилия приводом"
     },
     editDialogTexts: {
         addFormTitle: "Новая задача",
@@ -236,12 +244,35 @@ ej.Gantt.Locale["ru-RU"] = {
         expandAllTool: "Развернуть все",
         collapseAllTool: "Свернуть все",
         nextTimeSpanTool: "Следующая промежутка времени",
-        prevTimeSpanTool: "Предыдущая промежутка времени"
+        prevTimeSpanTool: "Предыдущая промежутка времени",
+        criticalPathTool: "Критический путь"
     },
     durationUnitTexts: {
         days: "дней",
         hours: "часов",
+        minutes: "минут",
+        day: "день",
+        hour: "час",
+        minute: "минут"
+    },
+    durationUnitEditText: {
+        minute: ["м", "мин", "минут", "минут"],
+        hour: ["час", "час", "час", "часов"],
+        day: ["d", "ду", "день", "дней"]
+    },
+    workUnitTexts: {
+        days: "дней",
+        hours: "часов",
         minutes: "минут"
+    },
+    taskTypeTexts: {
+        fixedWork: "Исправлена работа",
+        fixedUnit: "Фиксированные Единицы измерения",
+        fixedDuration: "Фиксированная продолжительность"
+    },
+    effortDrivenTexts: {
+        yes: "да",
+        no: "Нет"
     },
     contextMenuTexts: {
         taskDetailsText: "Задача Сведения ...",
@@ -264,6 +295,10 @@ ej.Gantt.Locale["ru-RU"] = {
         deleteColumn: "Удалить столбец",
         renameColumn: "Переименовать столбец"
     },
+    taskModeTexts: {
+        manual: "Руководство",
+        auto: "Авто"
+    },
     columnDialogTitle: {
         insertColumn: "Вставить столбец",
         deleteColumn: "Удалить столбец",
@@ -276,7 +311,13 @@ ej.Gantt.Locale["ru-RU"] = {
     predecessorEditingTexts: {
         fromText: "от",
         toText: "к"
-    },
+    }, dialogTabTitleTexts: {
+        generalTabText: "Генеральная",
+        predecessorsTabText: "Предшественники",
+        resourcesTabText: "Ресурсы",
+        customFieldsTabText: "Настраиваемые поля",
+        notesTabText: "Заметки"
+    }
 };
 ej.Grid.Locale["ru-RU"] = {
     EmptyRecord: "Нет записей для отображения",
@@ -1593,7 +1634,8 @@ ej.TreeGrid.Locale["ru-RU"] = {
         cancelTool: "отменить",
         expandAllTool: "Развернуть все",
         collapseAllTool: "Свернуть все",
-        pdfExportTool: "Экспорт в PDF"
+        pdfExportTool: "Экспорт в PDF",
+        excelExportTool: "Excel Экспорт"
     },
     contextMenuTexts: {
         addRowText: "Добавить строку",

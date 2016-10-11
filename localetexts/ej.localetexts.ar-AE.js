@@ -178,7 +178,8 @@ ej.Gantt.Locale["ar-AE"] = {
         predecessorEditingValidationAlert: "دوري التبعية حدث، رجاء فحصت السلف",
         predecessorAddingValidationAlert: "ملء كافة الأعمدة في الجدول السابق",
         idValidationAlert: "مكررة معرف",
-        dateValidationAlert: "تاريخ الانتهاء غير صالح"
+        dateValidationAlert: "تاريخ الانتهاء غير صالح",
+        dialogResourceAlert: "ملء جميع الأعمدة في جدول الموارد"
     },
     columnHeaderTexts: {
         taskId: "هوية شخصية",
@@ -194,7 +195,14 @@ ej.Gantt.Locale["ar-AE"] = {
         baselineStartDate: "خط الأساس تاريخ بدء",
         baselineEndDate: "خط الأساس تاريخ الانتهاء",
         WBS: "WBS",
-        WBSpredecessor: "WBS السلف"
+        WBSpredecessor: "WBS السلف",
+        dialogCustomFieldName: "اسم العمود",
+        dialogCustomFieldValue: "القيمة",
+        notes: "الملاحظات",
+        taskType: "نوع العمل",
+        work: "عمل",
+        unit: "وحدة",
+        effortDriven: "جهد مدفوعة"
     },
     editDialogTexts: {
         addFormTitle: "مهمة جديدة",
@@ -236,12 +244,35 @@ ej.Gantt.Locale["ar-AE"] = {
         expandAllTool: "توسيع جميع",
         collapseAllTool: "طي الكل",
         nextTimeSpanTool: "المدى الزمني المقبل",
-        prevTimeSpanTool: "المدى الزمني السابق"
+        prevTimeSpanTool: "المدى الزمني السابق",
+        criticalPathTool: "المسار الحرج"
     },
     durationUnitTexts: {
         days: "أيام",
         hours: "ساعات",
+        minutes: "دقيقة",
+        day: "يوم",
+        hour: "ساعة",
+        minute: "دقيقة"
+    },
+    durationUnitEditText: {
+        minute: ["م", "دقيقة", "دقيقة", "دقيقة"],
+        hour: ["ح", "ساعة", "ساعة", "ساعات"],
+        day: ["د", "دى", "يوم", "أيام"]
+    },
+    workUnitTexts: {
+        days: "أيام",
+        hours: "ساعات",
         minutes: "دقيقة"
+    },
+    taskTypeTexts: {
+        fixedWork: "العمل ثابت",
+        fixedUnit: "وحدات ثابتة",
+        fixedDuration: "مدة محددة"
+    },
+    effortDrivenTexts: {
+        yes: "نعم فعلا",
+        no: "لا"
     },
     contextMenuTexts: {
         taskDetailsText: "تفاصيل مهمة ...",
@@ -264,6 +295,10 @@ ej.Gantt.Locale["ar-AE"] = {
         deleteColumn: "حذف عمود",
         renameColumn: "إعادة تسمية العمود"
     },
+    taskModeTexts: {
+        manual: "كتيب",
+        auto: "السيارات"
+    },
     columnDialogTitle: {
         insertColumn: "إدراج عمود",
         deleteColumn: "حذف عمود",
@@ -277,6 +312,13 @@ ej.Gantt.Locale["ar-AE"] = {
         fromText: "من عند",
         toText: "إلى"
     },
+    dialogTabTitleTexts: {
+        generalTabText: "جنرال لواء",
+        predecessorsTabText: "سلف",
+        resourcesTabText: "موارد",
+        customFieldsTabText: "الحقول المخصصة",
+        notesTabText: "الملاحظات"
+    }
 };
 ej.Grid.Locale["ar-AE"] = {
     EmptyRecord: "عدم وجود سجلات للعرض",
@@ -1594,7 +1636,8 @@ ej.TreeGrid.Locale["ar-AE"] = {
         cancelTool: "إلغاء",
         expandAllTool: "توسيع جميع",
         collapseAllTool: "طي الكل",
-        pdfExportTool: "PDF تصدير"
+        pdfExportTool: "PDF تصدير",
+        excelExportTool: "تصدير إكسل"
     },
     contextMenuTexts: {
         addRowText: "اضف سطر",

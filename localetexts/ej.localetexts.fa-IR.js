@@ -178,7 +178,8 @@ ej.Gantt.Locale["fa-IR"] = {
         predecessorEditingValidationAlert: "وابستگی چرخهای رخ داده است، لطفا بررسی کنید سلف",
         predecessorAddingValidationAlert: "پر کردن تمام ستون ها در جدول سلف",
         idValidationAlert: "کپی شناسه",
-        dateValidationAlert: "تاریخ پایان نامعتبر"
+        dateValidationAlert: "تاریخ پایان نامعتبر",
+        dialogResourceAlert: "پر کردن تمام ستون ها در جدول منابع"
     },
     columnHeaderTexts: {
         taskId: "شناسه",
@@ -194,7 +195,14 @@ ej.Gantt.Locale["fa-IR"] = {
         baselineStartDate: "در شروع مطالعه تاریخ شروع",
         baselineEndDate: "در شروع مطالعه تاریخ پایان",
         WBS: "WBS",
-        WBSpredecessor: "سلف WBS"
+        WBSpredecessor: "سلف WBS",
+        dialogCustomFieldName: "نام ستون",
+        dialogCustomFieldValue: "ارزش",
+        notes: "یادداشت",
+        taskType: "نوع کار",
+        work: "کار",
+        unit: "واحد",
+        effortDriven: "تلاش محور"
     },
     editDialogTexts: {
         addFormTitle: "وظیفه جدید",
@@ -236,12 +244,35 @@ ej.Gantt.Locale["fa-IR"] = {
         expandAllTool: "بازکردن همه",
         collapseAllTool: "جمع کردن همه",
         nextTimeSpanTool: "بعدی فاصله زمانی",
-        prevTimeSpanTool: "فاصله زمانی قبلی"
+        prevTimeSpanTool: "فاصله زمانی قبلی",
+        criticalPathTool: "مسیربحرانی"
     },
     durationUnitTexts: {
         days: "روزها",
         hours: "ساعت ها",
+        minutes: "دقایق",
+        day: "روز",
+        hour: "ساعت",
+        minute: "دقیقه"
+    },
+    durationUnitEditText: {
+        minute: ["متر", "دقیقه", "دقیقه", "دقایق"],
+        hour: ["ساعت", "ساعت", "ساعت", "ساعت ها"],
+        day: ["D", "DY", "روز", "روزها"]
+    },
+    workUnitTexts: {
+        days: "روزها",
+        hours: "ساعت ها",
         minutes: "دقایق"
+    },
+    taskTypeTexts: {
+        fixedWork: "کار ثابت",
+        fixedUnit: "واحد ثابت",
+        fixedDuration: "مدت زمان ثابت"
+    },
+    effortDrivenTexts: {
+        yes: "بله",
+        no: "خیر"
     },
     contextMenuTexts: {
         taskDetailsText: "وظیفه اطلاعات ...",
@@ -264,6 +295,10 @@ ej.Gantt.Locale["fa-IR"] = {
         deleteColumn: "حذف ستون",
         renameColumn: "تغییر نام ستون"
     },
+    taskModeTexts: {
+        manual: "کتابچه راهنمای",
+        auto: "خودکار"
+    },
     columnDialogTitle: {
         insertColumn: "درج ستون",
         deleteColumn: "حذف ستون",
@@ -277,6 +312,13 @@ ej.Gantt.Locale["fa-IR"] = {
         fromText: "از جانب",
         toText: "به"
     },
+    dialogTabTitleTexts: {
+        generalTabText: "عمومی",
+        predecessorsTabText: "اجداد",
+        resourcesTabText: "منابع",
+        customFieldsTabText: "موضوعات سفارشی",
+        notesTabText: "یادداشت"
+    }
 };
 ej.Grid.Locale["fa-IR"] = {
     EmptyRecord: "هیچ پرونده برای نمایش نیست",
@@ -1593,7 +1635,8 @@ ej.TreeGrid.Locale["fa-IR"] = {
         cancelTool: "لغو کردن",
         expandAllTool: "بازکردن همه",
         collapseAllTool: "جمع کردن همه",
-        pdfExportTool: "PDF صادرات"
+        pdfExportTool: "PDF صادرات",
+        excelExportTool: "اکسل صادرات",
     },
     contextMenuTexts: {
         addRowText: "اضافه کردن ردیف",

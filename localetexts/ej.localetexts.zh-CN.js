@@ -178,7 +178,8 @@ ej.Gantt.Locale["zh-CN"] = {
         predecessorEditingValidationAlert: "循环相关性发生，请检查的前身",
         predecessorAddingValidationAlert: "填写前身表中的所有列",
         idValidationAlert: "重复ID",
-        dateValidationAlert: "无效的结束日期"
+        dateValidationAlert: "无效的结束日期",
+        dialogResourceAlert: "填写资源表中的所有列"
     },
     columnHeaderTexts: {
         taskId: "ID",
@@ -194,7 +195,14 @@ ej.Gantt.Locale["zh-CN"] = {
         baselineStartDate: "基线开始日期",
         baselineEndDate: "基线结束日期",
         WBS: "WBS",
-        WBSpredecessor: "WBS前身"
+        WBSpredecessor: "WBS前身",
+        dialogCustomFieldName: "列名",
+        dialogCustomFieldValue: "值",
+        notes: "笔记",
+        taskType: "任务类型",
+        work: "工作",
+        unit: "单元",
+        effortDriven: "努力驱动"
     },
     editDialogTexts: {
         addFormTitle: "新任务",
@@ -236,12 +244,35 @@ ej.Gantt.Locale["zh-CN"] = {
         expandAllTool: "展开全部",
         collapseAllTool: "全部收缩",
         nextTimeSpanTool: "接下来时间跨度",
-        prevTimeSpanTool: "上一个时间跨度"
+        prevTimeSpanTool: "上一个时间跨度",
+        criticalPathTool: "关键路径"
     },
     durationUnitTexts: {
         days: "天",
         hours: "小时",
+        minutes: "分钟",
+        day: "天",
+        hour: "小时",
+        minute: "分钟"
+    },
+    durationUnitEditText: {
+        minute: ["米", "分", "分钟", "分钟"],
+        hour: ["H", "小时", "小时", "小时"],
+        day: ["ð", "DY", "天", "天"]
+    },
+    workUnitTexts: {
+        days: "天",
+        hours: "小时",
         minutes: "分钟"
+    },
+    taskTypeTexts: {
+        fixedWork: "固定办公",
+        fixedUnit: "固定单位",
+        fixedDuration: "固定期限"
+    },
+    effortDrivenTexts: {
+        yes: "是",
+        no: "没有"
     },
     contextMenuTexts: {
         taskDetailsText: "任务详细信息...",
@@ -264,6 +295,10 @@ ej.Gantt.Locale["zh-CN"] = {
         deleteColumn: "删除列",
         renameColumn: "重列"
     },
+    taskModeTexts: {
+        manual: "手册",
+        auto: "汽车"
+    },
     columnDialogTitle: {
         insertColumn: "插入列",
         deleteColumn: "删除列",
@@ -277,6 +312,13 @@ ej.Gantt.Locale["zh-CN"] = {
         fromText: "从",
         toText: "至"
     },
+    dialogTabTitleTexts: {
+        generalTabText: "一般",
+        predecessorsTabText: "前辈",
+        resourcesTabText: "资源",
+        customFieldsTabText: "自定义字段",
+        notesTabText: "笔记"
+    }
 };
 ej.Grid.Locale["zh-CN"] = {
     EmptyRecord: "无记录可显示",
@@ -1593,7 +1635,8 @@ ej.TreeGrid.Locale["zh-CN"] = {
         cancelTool: "取消",
         expandAllTool: "展开全部",
         collapseAllTool: "全部收缩",
-        pdfExportTool: "PDF导出"
+        pdfExportTool: "PDF导出",
+        excelExportTool: "Excel导出"
     },
     contextMenuTexts: {
         addRowText: "添加行",

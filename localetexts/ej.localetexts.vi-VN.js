@@ -178,7 +178,8 @@ ej.Gantt.Locale["vi-VN"] = {
         predecessorEditingValidationAlert: "Cyclic Dependency xảy ra, hãy kiểm tra các vị tiền nhiệm",
         predecessorAddingValidationAlert: "Điền vào tất cả các cột trong bảng tiền nhiệm",
         idValidationAlert: "Duplicate ID",
-        dateValidationAlert: "Ngày kết thúc không hợp lệ"
+        dateValidationAlert: "Ngày kết thúc không hợp lệ",
+        dialogResourceAlert: "Điền vào tất cả các cột trong bảng tài nguyên"
     },
     columnHeaderTexts: {
         taskId: "ID",
@@ -194,7 +195,14 @@ ej.Gantt.Locale["vi-VN"] = {
         baselineStartDate: "Baseline Ngày bắt đầu",
         baselineEndDate: "Baseline Cuối Ngày",
         WBS: "WBS",
-        WBSpredecessor: "WBS vị tiền nhiệm"
+        WBSpredecessor: "WBS vị tiền nhiệm",
+        dialogCustomFieldName: "Tên cột",
+        dialogCustomFieldValue: "Giá trị",
+        notes: "Ghi chú",
+        taskType: "nhiệm vụ Loại",
+        work: "Công việc",
+        unit: "Đơn vị",
+        effortDriven: "nỗ lực thúc đẩy"
     },
     editDialogTexts: {
         addFormTitle: "Nhiệm vụ mới",
@@ -236,12 +244,35 @@ ej.Gantt.Locale["vi-VN"] = {
         expandAllTool: "Mở rộng tất cả",
         collapseAllTool: "Thu gọn tất cả",
         nextTimeSpanTool: "Khoảng thời gian tiếp theo",
-        prevTimeSpanTool: "trước Khoảng thời gian"
+        prevTimeSpanTool: "trước Khoảng thời gian",
+        criticalPathTool: "Đường dẫn quan trọng"
     },
     durationUnitTexts: {
         days: "ngày",
         hours: "giờ",
+        minutes: "từ phút",
+        day: "ngày",
+        hour: "giờ",
+        minute: "phút"
+    },
+    durationUnitEditText: {
+        minute: ["m", "min", "phút", "từ phút"],
+        hour: ["h", "hr", "giờ", "giờ"],
+        day: ["d", "dy", "ngày", "ngày"]
+    },
+    workUnitTexts: {
+        days: "ngày",
+        hours: "giờ",
         minutes: "từ phút"
+    },
+    taskTypeTexts: {
+        fixedWork: "Làm việc cố định",
+        fixedUnit: "Các đơn vị cố định",
+        fixedDuration: "Thời gian cố định"
+    },
+    effortDrivenTexts: {
+        yes: "Vâng",
+        no: "Không"
     },
     contextMenuTexts: {
         taskDetailsText: "Nhiệm vụ chi tiết ...",
@@ -264,6 +295,10 @@ ej.Gantt.Locale["vi-VN"] = {
         deleteColumn: "xóa cột",
         renameColumn: "Đổi tên cột"
     },
+    taskModeTexts: {
+        manual: "Hướng dẫn sử dụng",
+        auto: "Tự động"
+    },
     columnDialogTitle: {
         insertColumn: "chèn cột",
         deleteColumn: "xóa cột",
@@ -277,6 +312,13 @@ ej.Gantt.Locale["vi-VN"] = {
         fromText: "Từ",
         toText: "Đến"
     },
+    dialogTabTitleTexts: {
+        generalTabText: "Chung",
+        predecessorsTabText: "người tiền nhiệm",
+        resourcesTabText: "Tài nguyên",
+        customFieldsTabText: "trường tuỳ chỉnh",
+        notesTabText: "Ghi chú"
+    }
 };
 ej.Grid.Locale["vi-VN"] = {
     EmptyRecord: "Không có dữ liệu để hiển thị",
@@ -1593,7 +1635,8 @@ ej.TreeGrid.Locale["vi-VN"] = {
         cancelTool: "hủy bỏ",
         expandAllTool: "Mở rộng tất cả",
         collapseAllTool: "Thu gọn tất cả",
-        pdfExportTool: "PDF xuất khẩu"
+        pdfExportTool: "PDF xuất khẩu",
+        excelExportTool: "xuất khẩu Excel"
     },
     contextMenuTexts: {
         addRowText: "Thêm dòng",

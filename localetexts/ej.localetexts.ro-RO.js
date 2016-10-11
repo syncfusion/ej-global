@@ -178,7 +178,8 @@ ej.Gantt.Locale["ro-RO"] = {
         predecessorEditingValidationAlert: "Dependență ciclica Au avut loc, vă rugăm să verificați predecesor",
         predecessorAddingValidationAlert: "Umple toate coloanele din tabelul precedent",
         idValidationAlert: "dublură ID-ul",
-        dateValidationAlert: "Data de încheiere nevalidă"
+        dateValidationAlert: "Data de încheiere nevalidă",
+        dialogResourceAlert: "Umple toate coloanele din tabelul de resurse"
     },
     columnHeaderTexts: {
         taskId: "ID-ul",
@@ -194,7 +195,14 @@ ej.Gantt.Locale["ro-RO"] = {
         baselineStartDate: "Dată de referință Start",
         baselineEndDate: "Momentul inițial Data de încheiere",
         WBS: "wBS",
-        WBSpredecessor: "wBS predecesor"
+        WBSpredecessor: "wBS predecesor",
+        dialogCustomFieldName: "Nume coloană",
+        dialogCustomFieldValue: "Valoare",
+        notes: "notițe",
+        taskType: "sarcina Tip",
+        work: "Muncă",
+        unit: "Unitate",
+        effortDriven: "efort Driven"
     },
     columnDialogTexts: {
         field: "Camp",
@@ -236,12 +244,35 @@ ej.Gantt.Locale["ro-RO"] = {
         expandAllTool: "Extinde toate",
         collapseAllTool: "Reduceți totul În această",
         nextTimeSpanTool: "următor Perioadă de timp",
-        prevTimeSpanTool: "anterioară Durata de timp"
+        prevTimeSpanTool: "anterioară Durata de timp",
+        criticalPathTool: "Traiectorie critică"
     },
     durationUnitTexts: {
         days: "zi",
         hours: "ore",
+        minutes: "minute",
+        day: "zi",
+        hour: "ora",
+        minute: "minut"
+    },
+    durationUnitEditText: {
+        minute: ["m", "min", "minut", "minute"],
+        hour: ["h", "HR", "ora", "ore"],
+        day: ["d", "dy", "zi", "zi"]
+    },
+    workUnitTexts: {
+        days: "zi",
+        hours: "ore",
         minutes: "minute"
+    },
+    taskTypeTexts: {
+        fixedWork: "lucru fix",
+        fixedUnit: "Unități fixe",
+        fixedDuration: "Durată fixă"
+    },
+    effortDrivenTexts: {
+        yes: "da",
+        no: "Nu"
     },
     contextMenuTexts: {
         taskDetailsText: "Sarcina Detalii ...",
@@ -264,6 +295,10 @@ ej.Gantt.Locale["ro-RO"] = {
         deleteColumn: "ştergeţi coloana",
         renameColumn: "redenumire coloană"
     },
+    taskModeTexts: {
+        manual: "Manual",
+        auto: "Auto"
+    },
     columnDialogTitle: {
         insertColumn: "Inserare coloană",
         deleteColumn: "ştergeţi coloana",
@@ -277,6 +312,13 @@ ej.Gantt.Locale["ro-RO"] = {
         fromText: "Din",
         toText: "La"
     },
+    dialogTabTitleTexts: {
+        generalTabText: "General",
+        predecessorsTabText: "predecesorii",
+        resourcesTabText: "Resurse",
+        customFieldsTabText: "câmpuri customizate",
+        notesTabText: "notițe"
+    }
 };
 ej.Grid.Locale["ro-RO"] = {
     EmptyRecord: "Nu exista inregistrari pentru a afișa",
@@ -1593,7 +1635,8 @@ ej.TreeGrid.Locale["ro-RO"] = {
         cancelTool: "Anulare",
         expandAllTool: "Extinde toate",
         collapseAllTool: "Reduceți totul În această",
-        pdfExportTool: "Export PDF"
+        pdfExportTool: "Export PDF",
+        excelExportTool: "Excel Export"
     },
     contextMenuTexts: {
         addRowText: "adăugaţi un rând",

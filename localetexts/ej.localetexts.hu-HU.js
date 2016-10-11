@@ -178,7 +178,8 @@ ej.Gantt.Locale["hu-HU"] = {
         predecessorEditingValidationAlert: "Ciklikus függőség Történt, kérjük ellenőrizze az elődje",
         predecessorAddingValidationAlert: "Töltse ki az összes oszlopot elődje táblázat",
         idValidationAlert: "Ismétlődő ID",
-        dateValidationAlert: "Érvénytelen befejező dátum"
+        dateValidationAlert: "Érvénytelen befejező dátum",
+        dialogResourceAlert: "Töltse ki az összes oszlopot erőforrástáblában"
     },
     columnHeaderTexts: {
         taskId: "ID",
@@ -194,7 +195,14 @@ ej.Gantt.Locale["hu-HU"] = {
         baselineStartDate: "Kiindulási kezdési dátum",
         baselineEndDate: "Kiindulási Végdátum",
         WBS: "WBS",
-        WBSpredecessor: "WBS elődje"
+        WBSpredecessor: "WBS elődje",
+        dialogCustomFieldName: "oszlop neve",
+        dialogCustomFieldValue: "Érték",
+        notes: "Megjegyzések",
+        taskType: "feladat típusa",
+        work: "Munka",
+        unit: "Egység",
+        effortDriven: "Effort Driven"
     },
     editDialogTexts: {
         addFormTitle: "Új feladat",
@@ -236,12 +244,35 @@ ej.Gantt.Locale["hu-HU"] = {
         expandAllTool: "Az összes kibontása",
         collapseAllTool: "Mindet összecsuk",
         nextTimeSpanTool: "Következő Timespan",
-        prevTimeSpanTool: "Előző Timespan"
+        prevTimeSpanTool: "Előző Timespan",
+        criticalPathTool: "Kritikus út"
     },
     durationUnitTexts: {
         days: "napok",
         hours: "órák",
+        minutes: "percek",
+        day: "nap",
+        hour: "óra",
+        minute: "perc"
+    },
+    durationUnitEditText: {
+        minute: ["m", "min", "perc", "percek"],
+        hour: ["h", "hr", "óra", "órák"],
+        day: ["d", "dy", "nap", "napok"]
+    },
+    workUnitTexts: {
+        days: "napok",
+        hours: "órák",
         minutes: "percek"
+    },
+    taskTypeTexts: {
+        fixedWork: "fix munka",
+        fixedUnit: "rögzített egységek",
+        fixedDuration: "rögzített időtartam"
+    },
+    effortDrivenTexts: {
+        yes: "Igen",
+        no: "Nem"
     },
     contextMenuTexts: {
         taskDetailsText: "Feladat részletek ...",
@@ -264,6 +295,10 @@ ej.Gantt.Locale["hu-HU"] = {
         deleteColumn: "oszlop törlése",
         renameColumn: "átnevezése oszlop"
     },
+    taskModeTexts: {
+        manual: "Kézikönyv",
+        auto: "kocsi"
+    },
     columnDialogTitle: {
         insertColumn: "oszlop beszúrása",
         deleteColumn: "oszlop törlése",
@@ -277,6 +312,13 @@ ej.Gantt.Locale["hu-HU"] = {
         fromText: "Ból ből",
         toText: "Nak nek"
     },
+    dialogTabTitleTexts: {
+        generalTabText: "Tábornok",
+        predecessorsTabText: "Elődök",
+        resourcesTabText: "Erőforrások",
+        customFieldsTabText: "egyéni mezők",
+        notesTabText: "Megjegyzések"
+    }
 };
 ej.Grid.Locale["hu-HU"] = {
     EmptyRecord: "Nincs bejegyzés megjelenítéséhez",
@@ -1593,7 +1635,8 @@ ej.TreeGrid.Locale["hu-HU"] = {
         cancelTool: "Törölni",
         expandAllTool: "Az összes kibontása",
         collapseAllTool: "Mindet összecsuk",
-        pdfExportTool: "PDF exportálása"
+        pdfExportTool: "PDF exportálása",
+        excelExportTool: "Excel Export"
     },
     contextMenuTexts: {
         addRowText: "Add Row",
