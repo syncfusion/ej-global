@@ -401,7 +401,7 @@ ej.PivotChart.Locale["da-DK"] = {
     Expand: "Udvide",
     Collapse: "Bryder sammen",
     Exit: "Udgang",
-    Value: "Værdi",
+    Value: "Værdi"
 };
 ej.PivotClient.Locale["da-DK"] = {
     DeferUpdate: "Udskyd opdatering",

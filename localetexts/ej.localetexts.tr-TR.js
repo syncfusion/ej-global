@@ -509,7 +509,7 @@ ej.PivotClient.Locale["tr-TR"] = {
 };
 ej.PivotGauge.Locale["tr-TR"] = {
     RevenueGoal: "Gelir Gol",
-    RevenueValue: "Gelir Değeri",
+    RevenueValue: "Gelir Değeri"
 };
 ej.Pager.Locale["tr-TR"] = {
     pagerInfo: "{0} {1} sayfalar ({2} öğeleri) arasında",

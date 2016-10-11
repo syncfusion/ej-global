@@ -699,7 +699,7 @@ ej.PivotPager.Locale["cs-CZ"] = {
     CategoricalPage: "kategorický Page",
     Error: "Chyba",
     OK: "Tlačítko OK",
-    Close: "Zavřete",
+    Close: "Zavřete"
 };
 ej.PivotSchemaDesigner.Locale["cs-CZ"] = {
     PivotTableFieldList: "Kontingenční tabulky Seznam polí",

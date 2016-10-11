@@ -509,7 +509,7 @@ ej.PivotClient.Locale["zh-CN"] = {
 };
 ej.PivotGauge.Locale["zh-CN"] = {
     RevenueGoal: "收入目标",
-    RevenueValue: "收入值",
+    RevenueValue: "收入值"
 };
 ej.Pager.Locale["zh-CN"] = {
     pagerInfo: "{0}{1}页（{2}项）",

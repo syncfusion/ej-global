@@ -508,7 +508,7 @@ ej.PivotClient.Locale["fr-FR"] = {
 };
 ej.PivotGauge.Locale["fr-FR"] = {
     RevenueGoal: "Revenu But",
-    RevenueValue: "Revenu Valeur",
+    RevenueValue: "Revenu Valeur"
 };
 ej.Pager.Locale["fr-FR"] = {
     pagerInfo: "{0} sur {1} pages ({2} articles)",

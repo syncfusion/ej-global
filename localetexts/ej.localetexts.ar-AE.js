@@ -401,7 +401,7 @@ ej.PivotChart.Locale["ar-AE"] = {
     Expand: "وسع",
     Collapse: "انهيار",
     Exit: "خروج",
-    Value: "القيمة",
+    Value: "القيمة"
 };
 ej.PivotClient.Locale["ar-AE"] = {
     DeferUpdate: "تأجيل التحديث",

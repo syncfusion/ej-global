@@ -401,7 +401,7 @@ ej.PivotChart.Locale["es-ES"] = {
     Value: "Valor",
     Expand: "Expandir",
     Collapse: "Colapso",
-    Exit: "Salida",
+    Exit: "Salida"
 };
 ej.PivotClient.Locale["es-ES"] = {
     Sort: "Ordenar",
@@ -516,7 +516,7 @@ ej.PivotClient.Locale["es-ES"] = {
 };
 ej.PivotGauge.Locale["es-ES"] = {
     RevenueGoal: "ingresos Meta",
-    RevenueValue: "Valor de ingresos",
+    RevenueValue: "Valor de ingresos"
 };
 ej.Pager.Locale["es-ES"] = {
     pagerInfo: "{0} de {1} Páginas ({2} artículos)",
