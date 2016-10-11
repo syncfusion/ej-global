@@ -826,6 +826,36 @@ ej.RTE.Locale["en-US"] = {
     upperroman: "Upper Roman",
     none: "None"
 };
+ej.RecurrenceEditor.Locale["en-US"] = {
+    Repeat: "Repeat",
+    Never: "Never",
+    Daily: "Daily",
+    Weekly: "Weekly",
+    Monthly: "Monthly",
+    Yearly: "Yearly",
+    First: "First",
+    Second: "Second",
+    Third: "Third",
+    Fourth: "Fourth",
+    Last: "Last",
+    EveryWeekDay: "Every weekday",
+    Every: "Every",
+    RecurrenceDay: "Day(s)",
+    RecurrenceWeek: "Week(s)",
+    RecurrenceMonth: "Month(s)",
+    RecurrenceYear: "Year(s)",
+    RepeatOn: "Repeat on",
+    RepeatBy: "Repeat by",
+    StartsOn: "Starts on",
+    Times: "times",
+    Ends: "Ends",
+    Day: "Day",
+    The: "The",
+    OfEvery: "Of",
+    After: "After",
+    On: "On",
+    Occurrence: "Occurrence(s)"
+};
 ej.Schedule.Locale["en-US"] = {
     ReminderWindowTitle: "Reminder window",
     CreateAppointmentTitle: "Create Appointment",
@@ -845,7 +875,8 @@ ej.Schedule.Locale["en-US"] = {
     Recurrence: "Repeat",
     Done: "Done",
     Cancel: "Cancel",
-    Ok: "Ok",
+    Ok: "OK",
+    Repeat: "Repeat",
     RepeatBy: "Repeat by",
     RepeatEvery: "Repeat every",
     RepeatOn: "Repeat on",
@@ -860,7 +891,7 @@ ej.Schedule.Locale["en-US"] = {
     EveryWeekDay: "Every weekday",
     Never: "Never",
     After: "After",
-    Occurence: "Occurrence(s)",
+    Occurrence: "Occurrence(s)",
     On: "On",
     Edit: "Edit",
     RecurrenceDay: "Day(s)",
@@ -903,9 +934,9 @@ ej.Schedule.Locale["en-US"] = {
     Days: "day(s)",
     Event: "Event",
     Select: "select",
-    Previous: "prev",
-    Next: "next",
-    Close: "close",
+    Previous: "Previous",
+    Next: "Next",
+    Close: "Close",
     Delete: "Delete",
     Date: "Date",
     Showin: "Show in",
@@ -917,6 +948,7 @@ ej.Schedule.Locale["en-US"] = {
     RecurrenceAlert: "Alert",
     NoTitle: "No Title",
     OverFlowAppCount: "more appointment(s)",
+    AppointmentIndicator: "Click for more appointments",
     WrongPattern: "The recurrence pattern is not valid",
     CreateError: "The duration of the appointment must be shorter than how frequently it occurs. Shorten the duration, or change the recurrence pattern in the Appointment Recurrence dialog box.",
     DragResizeError: "Cannot reschedule an occurrence of the recurring appointment if it skips over a later occurrence of the same appointment.",
@@ -924,9 +956,10 @@ ej.Schedule.Locale["en-US"] = {
     MouseOverDeleteTitle: "Delete Appointment",
     DeleteConfirmation: "Are you sure you want to delete this appointment?",
     Time: "Time",
-    EmptyResultText: "No suggestions"
-};;
-
+    EmptyResultText: "No suggestions",
+    BlockIntervalAlertTitle: "Alert",
+    BlockIntervalError: "The selected time interval has been blocked and is unavailable for selection."
+};
 ej.Spreadsheet.Locale["en-US"] = {
     Cut: "Cut",
     Copy: "Copy",
