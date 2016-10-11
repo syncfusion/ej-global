@@ -709,6 +709,21 @@ ej.Ribbon.Locale["ko-KR"] = {
     ShowBelowTheRibbon: "리본 아래보기",
     MoreCommands: "더 많은 명령 ...",
 };
+ej.Kanban.Locale["ko-KR"] = {
+    EmptyCard: "어떤 카드를 표시하지합니다",
+    SaveButton: "구하다",
+    CancelButton: "취소하다",
+    EditFormTitle: "의 세부 사항 ",
+    AddFormTitle: "새 카드 추가",
+    SwimlaneCaptionFormat: "- {{:count}}{{if count == 1 }} 목 {{else}} 항목 {{/if}}",
+    FilterSettings: "필터 :",
+    FilterOfText: "의",
+    Max: "최대",
+    Min: "최소",
+    Cards: "  카드",
+    ItemsCount: "항목 개수 :",
+    Unassigned: "할당되지 않음"
+};
 ej.RTE.Locale["ko-KR"] = {
     bold: "대담한",
     italic: "이탤릭체",

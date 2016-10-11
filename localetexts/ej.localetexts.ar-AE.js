@@ -709,6 +709,21 @@ ej.Ribbon.Locale["ar-AE"] = {
     ShowBelowTheRibbon: "تظهر بالأسفل الشريط",
     MoreCommands: "المزيد من أوامر ...",
 };
+ej.Kanban.Locale["ar-AE"] = {
+   EmptyCard: "لا بطاقات لعرض",
+   SaveButton: "حفظ",
+   CancelButton: "إلغاء",
+   EditFormTitle: "تفاصيل ",
+   AddFormTitle: "إضافة بطاقة جديدة",
+   SwimlaneCaptionFormat: "- {{:count}}{{if count == 1 }} بند {{else}} العناصر {{/if}}",
+   FilterSettings: "مرشحات:",
+   FilterOfText: "من",
+   Max: "ماكس",
+   Min: "دقيقة",
+   Cards: "  بطاقات",
+   ItemsCount: "عد العناصر:",
+   Unassigned: "غير معين"
+};
 ej.RTE.Locale["ar-AE"] = {
     bold: "جريء",
     italic: "مائل",

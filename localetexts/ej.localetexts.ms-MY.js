@@ -709,6 +709,21 @@ ej.Ribbon.Locale["ms-MY"] = {
     ShowBelowTheRibbon: "Tunjukkan Di bawah Reben",
     MoreCommands: "Lebih Perintah ...",
 };
+ej.Kanban.Locale["ms-MY"] = {
+    EmptyCard: "Kad untuk dipaparkan",
+    SaveButton: "Simpan",
+    CancelButton: "Batal",
+    EditFormTitle: "butiran ",
+    AddFormTitle: "Tambah Kad New",
+    SwimlaneCaptionFormat: "- {{:count}}{{if count == 1 }} item {{else}} barangan {{/if}}",
+    FilterSettings: "Penapis:",
+    FilterOfText: "daripada",
+    Max: "Dagangan",
+    Min: "min",
+    Cards: "  kad",
+    ItemsCount: "Item Count :",
+    Unassigned: "Tiada tugas"
+};
 ej.RTE.Locale["ms-MY"] = {
     bold: "Bold",
     italic: "Italic",

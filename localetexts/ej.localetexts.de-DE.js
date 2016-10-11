@@ -709,6 +709,21 @@ ej.Ribbon.Locale["de-DE"] = {
     ShowBelowTheRibbon: "Zeigen Unter der Multifunktions",
     MoreCommands: "Weitere Befehle ...",
 };
+ej.Kanban.Locale["de-DE"] = {
+    EmptyCard: "Keine Karten anzuzeigen",
+    SaveButton: "sparen",
+    CancelButton: "Stornieren",
+    EditFormTitle: "Details von ",
+    AddFormTitle: "New-Karte",
+    SwimlaneCaptionFormat: "- {{:count}}{{if count == 1 }} Artikel {{else}} Artikel {{/if}}",
+    FilterSettings: "Filter:",
+    FilterOfText: "von",
+    Max: "Max",
+    Min: "Min",
+    Cards: "  Karten",
+    ItemsCount: "Artikel Graf :",
+    Unassigned: "Nicht zugewiesen"
+};
 ej.RTE.Locale["de-DE"] = {
     bold: "Fett gedruckt",
     italic: "Kursiv",

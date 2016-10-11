@@ -709,6 +709,21 @@ ej.Ribbon.Locale["ja-JP"] = {
     ShowBelowTheRibbon: "リボンの下に表示します",
     MoreCommands: "複数のコマンド...",
 };
+ej.Kanban.Locale["ja-JP"] = {
+    EmptyCard: "いいえカードが表示されないように",
+    SaveButton: "セーブ",
+    CancelButton: "キャンセル",
+    EditFormTitle: "の詳細 ",
+    AddFormTitle: "新しいカードを追加",
+    SwimlaneCaptionFormat: "- {{:count}}{{if count == 1 }} 項目 {{else}} アイテム {{/if}}",
+    FilterSettings: "フィルタ：",
+    FilterOfText: "の",
+    Max: "マックス",
+    Min: "ミン",
+    Cards: "  カード",
+    ItemsCount: "アイテム数 ：",
+    Unassigned: "割り当てられていません"
+};
 ej.RTE.Locale["ja-JP"] = {
     bold: "大胆な",
     italic: "イタリック",

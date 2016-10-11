@@ -709,6 +709,21 @@ ej.Ribbon.Locale["ro-RO"] = {
     ShowBelowTheRibbon: "Afișați sub panglica",
     MoreCommands: "Mai multe comenzi ...",
 };
+ej.Kanban.Locale["ro-RO"] = {
+    EmptyCard: "Nu există carduri pentru a afișa",
+    SaveButton: "Salvați",
+    CancelButton: "Anulare",
+    EditFormTitle: "detalii de ",
+    AddFormTitle: "Adăugați un card nou",
+    SwimlaneCaptionFormat: "- {{:count}}{{if count == 1 }} articol {{else}} articole {{/if}}",
+    FilterSettings: "filtre:",
+    FilterOfText: "de",
+    Max: "max",
+    Min: "min",
+    Cards: "  Carduri",
+    ItemsCount: "articole Count :",
+    Unassigned: "Nedesemnată"
+};
 ej.RTE.Locale["ro-RO"] = {
     bold: "Îndrăzneţ",
     italic: "Cursiv",

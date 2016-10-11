@@ -709,6 +709,21 @@ ej.Ribbon.Locale["hu-HU"] = {
     ShowBelowTheRibbon: "Mutasd a szalag alatt",
     MoreCommands: "További parancsok ...",
 };
+ej.Kanban.Locale["hu-HU"] = {
+    EmptyCard: "Nincs megjeleníthető kártyák",
+    SaveButton: "Mentés",
+    CancelButton: "Megszünteti",
+    EditFormTitle: "Részletek az ",
+    AddFormTitle: "Új kártya hozzáadása",
+    SwimlaneCaptionFormat: "- {{:count}}{{if count == 1 }} tétel {{else}} tételek {{/if}}",
+    FilterSettings: "szűrők:",
+    FilterOfText: "nak,-nek",
+    Max: "Max",
+    Min: "min",
+    Cards: "  kártyák",
+    ItemsCount: "Tételek száma :",
+    Unassigned: "Nem hozzárendelt"
+};
 ej.RTE.Locale["hu-HU"] = {
     bold: "Bátor",
     italic: "kurzív",

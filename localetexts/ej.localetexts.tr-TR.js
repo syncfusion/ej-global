@@ -709,6 +709,21 @@ ej.Ribbon.Locale["tr-TR"] = {
     ShowBelowTheRibbon: "Şerit altında göster",
     MoreCommands: "Daha Komutları ...",
 };
+ej.Kanban.Locale["tr-TR"] = {
+    EmptyCard: "Hiçbir kart gösterilecek",
+    SaveButton: "Kayıt etmek",
+    CancelButton: "İptal etmek",
+    EditFormTitle: "Ayrıntıları ",
+    AddFormTitle: "Yeni Kart Ekle",
+    SwimlaneCaptionFormat: "- {{:count}}{{if count == 1 }} madde {{else}} ürün {{/if}}",
+    FilterSettings: "Filtreler:",
+    FilterOfText: "arasında",
+    Max: "maksimum",
+    Min: "min",
+    Cards: "  Kartlar",
+    ItemsCount: "Öğeler Sayım :",
+    Unassigned: "Atanmamış"
+};
 ej.RTE.Locale["tr-TR"] = {
     bold: "cesur",
     italic: "İtalik",

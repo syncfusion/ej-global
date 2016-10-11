@@ -709,6 +709,21 @@ ej.Ribbon.Locale["sk-SK"] = {
     ShowBelowTheRibbon: "Ukázať pod pásom kariet",
     MoreCommands: "Ďalšie príkazy ...",
 };
+ej.Kanban.Locale["sk-SK"] = {
+    EmptyCard: "Žiadne karty na zobrazenie",
+    SaveButton: "uložiť",
+    CancelButton: "Zrušiť",
+    EditFormTitle: "podrobnosti o ",
+    AddFormTitle: "Pridať novú kartu",
+    SwimlaneCaptionFormat: "- {{:count}}{{if count == 1 }} položka {{else}} položky {{/if}}",
+    FilterSettings: "filtre:",
+    FilterOfText: "z",
+    Max: "Max",
+    Min: "min",
+    Cards: "  karty",
+    ItemsCount: "body Count :",
+    Unassigned: "Unassigned"
+};
 ej.RTE.Locale["sk-SK"] = {
     bold: "tučný",
     italic: "kurzíva",

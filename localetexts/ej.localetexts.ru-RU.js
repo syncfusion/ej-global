@@ -708,6 +708,21 @@ ej.Ribbon.Locale["ru-RU"] = {
     ShowBelowTheRibbon: "Показать под лентой",
     MoreCommands: "Дополнительные команды ...",
 };
+ej.Kanban.Locale["ru-RU"] = {
+    EmptyCard: "Нет карт для отображения",
+    SaveButton: "Сохранить",
+    CancelButton: "Отмена",
+    EditFormTitle: "Детали ",
+    AddFormTitle: "Добавить новую карточку",
+    SwimlaneCaptionFormat: "- {{:count}}{{if count == 1 }} пункт {{else}} Предметы {{/if}}",
+    FilterSettings: "Фильтры:",
+    FilterOfText: "из",
+    Max: "Максимум",
+    Min: "Min",
+    Cards: "  Карты",
+    ItemsCount: "Пункты Count :",
+    Unassigned: "Неназначенный"
+};
 ej.RTE.Locale["ru-RU"] = {
     bold: "жирный",
     italic: "курсив",

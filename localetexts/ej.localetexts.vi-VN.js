@@ -709,6 +709,21 @@ ej.Ribbon.Locale["vi-VN"] = {
     ShowBelowTheRibbon: "Hiện Below the Ribbon",
     MoreCommands: "More Commands ...",
 };
+ej.Kanban.Locale["vi-VN"] = {
+    EmptyCard: "Không có thẻ để hiển thị",
+    SaveButton: "Tiết kiệm",
+    CancelButton: "hủy bỏ",
+    EditFormTitle: "chi tiết của ",
+    AddFormTitle: "Thêm thẻ mới",
+    SwimlaneCaptionFormat: "- {{:count}}{{if count == 1 }} mục {{else}} hạng mục {{/if}}",
+    FilterSettings: "Bộ lọc:",
+    FilterOfText: "của",
+    Max: "Max",
+    Min: "min",
+    Cards: "  thẻ",
+    ItemsCount: "Items Đếm :",
+    Unassigned: "Unassigned"
+};
 ej.RTE.Locale["vi-VN"] = {
     bold: "Dũng cảm",
     italic: "nghiêng",
