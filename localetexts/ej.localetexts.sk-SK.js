@@ -12,6 +12,31 @@ ej.Autocomplete.Locale["sk-SK"] = {
     emptyResultText: "žiadne návrhy",
     actionFailure: "Zadaný pole neexistuje v danom zdroji údajov",
 };
+ej.ColorPicker.Locale["sk-SK"] = {
+    buttonText: {
+        apply: "aplikovať",
+        cancel: "Zrušiť",
+        swatches: "vzorkovníky"
+    },
+    tooltipText: {
+        switcher: "Switcher",
+        addbutton: "pridať farbu",
+        basic: "základné",
+        monochrome: "Monochrome",
+        flatcolors: "ploché Colors",
+        seawolf: "Sea Vlk",
+        webcolors: "web Colors",
+        sandy: "piesočný",
+        pinkshades: "ružové odtiene",
+        misty: "hmlistý",
+        citrus: "citrus",
+        vintage: "vinobranie",
+        moonlight: "mesačný svit",
+        candycrush: "Candy Crush",
+        currentcolor: "aktuálne Color",
+        selectedcolor: "vybranú farbu"
+    },
+};
 ej.CurrencyTextbox.Locale["sk-SK"] = {
     watermarkText: "zadajte hodnotu",
 };
