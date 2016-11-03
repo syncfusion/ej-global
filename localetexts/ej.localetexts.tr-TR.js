@@ -12,6 +12,31 @@ ej.Autocomplete.Locale["tr-TR"] = {
     emptyResultText: "hiçbir öneri",
     actionFailure: "Belirtilen alanı verilen veri kaynağında yok",
 };
+ej.ColorPicker.Locale["tr-TR"] = {
+    buttonText: {
+        apply: "Uygulamak",
+        cancel: "İptal etmek",
+        swatches: "Örnekleri"
+    },
+    tooltipText: {
+        switcher: "Switcher",
+        addbutton: "Renk ekle",
+        basic: "Temel",
+        monochrome: "monokrom",
+        flatcolors: "düz Renkler",
+        seawolf: "Deniz Kurdu",
+        webcolors: "Web Renkleri",
+        sandy: "Kumlu",
+        pinkshades: "pembe tonları",
+        misty: "Sisli",
+        citrus: "narenciye",
+        vintage: "bağbozumu",
+        moonlight: "Ay ışığı",
+        candycrush: "Candy Crush",
+        currentcolor: "Geçerli Renk",
+        selectedcolor: "seçilen Renk"
+    },
+};
 ej.CurrencyTextbox.Locale["tr-TR"] = {
     watermarkText: "değeri girin",
 };
