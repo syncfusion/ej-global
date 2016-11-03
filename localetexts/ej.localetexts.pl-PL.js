@@ -12,6 +12,31 @@ ej.Autocomplete.Locale["pl-PL"] = {
     emptyResultText: "Brak sugestii",
     actionFailure: "Podany pole nie istnieje w danym źródle danych",
 };
+ej.ColorPicker.Locale["pl-PL"] = {
+    buttonText: {
+        apply: "Zastosować",
+        cancel: "Anuluj",
+        swatches: "próbki"
+    },
+    tooltipText: {
+        switcher: "Przełącznik",
+        addbutton: "Dodaj Kolor",
+        basic: "Podstawowy",
+        monochrome: "Monochromia",
+        flatcolors: "Pojedyncze Kolory",
+        seawolf: "Wilk morski",
+        webcolors: "Web Kolory",
+        sandy: "Piaszczysty",
+        pinkshades: "różowe Okulary",
+        misty: "Mglisty",
+        citrus: "Cytrus",
+        vintage: "Zabytkowe",
+        moonlight: "światło księżyca",
+        candycrush: "cukierek Crush",
+        currentcolor: "Aktualny Kolor",
+        selectedcolor: "Wybrany kolor"
+    },
+};
 ej.CurrencyTextbox.Locale["pl-PL"] = {
     watermarkText: "Wprowadź wartość",
 };

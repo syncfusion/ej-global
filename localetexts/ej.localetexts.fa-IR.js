@@ -12,6 +12,31 @@ ej.Autocomplete.Locale["fa-IR"] = {
     emptyResultText: "هیچ پیشنهادی",
     actionFailure: "فیلد مشخص می کند در منبع داده داده وجود ندارد",
 };
+ej.ColorPicker.Locale["fa-IR"] = {
+    buttonText: {
+        apply: "درخواست",
+        cancel: "لغو کردن",
+        swatches: "نمونه"
+    },
+    tooltipText: {
+        switcher: "سیستمهای تلفن",
+        addbutton: "اضافه کردن رنگ",
+        basic: "پایه ای",
+        monochrome: "تک رنگ",
+        flatcolors: "رنگ تخت",
+        seawolf: "گرگ دریایی",
+        webcolors: "وب رنگ",
+        sandy: "شنی",
+        pinkshades: "سایه های صورتی",
+        misty: "مبهم",
+        citrus: "مرکبات",
+        vintage: "محصول",
+        moonlight: "مهتاب",
+        candycrush: "له آب نبات",
+        currentcolor: "رنگ فعلی",
+        selectedcolor: "رنگ انتخاب شده"
+    },
+};
 ej.CurrencyTextbox.Locale["fa-IR"] = {
     watermarkText: "مقدار را وارد کنید",
 };

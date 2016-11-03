@@ -12,6 +12,31 @@ ej.Autocomplete.Locale["hu-HU"] = {
     emptyResultText: "nincs javaslat",
     actionFailure: "A megadott mező nem létezik adott adatforrás",
 };
+ej.ColorPicker.Locale["hu-HU"] = {
+    buttonText: {
+        apply: "alkalmaz",
+        cancel: "Megszünteti",
+        swatches: "színminták"
+    },
+    tooltipText: {
+        switcher: "Switcher",
+        addbutton: "Szín hozzáadása",
+        basic: "Alapvető",
+        monochrome: "Monokróm",
+        flatcolors: "lapos színek",
+        seawolf: "Tengeri farkas",
+        webcolors: "Web Colors",
+        sandy: "Homokos",
+        pinkshades: "Pink Shades",
+        misty: "Ködös",
+        citrus: "citrom- és narancsfélék",
+        vintage: "Szüret",
+        moonlight: "Holdfény",
+        candycrush: "Cukorka törő",
+        currentcolor: "aktuális szín",
+        selectedcolor: "kiválasztott szín"
+    },
+};
 ej.CurrencyTextbox.Locale["hu-HU"] = {
     watermarkText: "Írja érték",
 };

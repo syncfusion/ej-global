@@ -12,6 +12,31 @@ ej.Autocomplete.Locale["ar-AE"] = {
     emptyResultText: "لا اقتراحات",
     actionFailure: "عدم وجود الحقل المحدد في مصدر البيانات الواردة",
 };
+ej.ColorPicker.Locale["ar-AE"] = {
+    buttonText: {
+        apply: "تطبيق",
+        cancel: "إلغاء",
+        swatches: "حوامل"
+    },
+    tooltipText: {
+        switcher: "الجلاد",
+        addbutton: "إضافة اللون",
+        basic: "الأساسية",
+        monochrome: "أحادية اللون",
+        flatcolors: "الألوان مسطحة",
+        seawolf: "ذئب البحر",
+        webcolors: "الألوان على شبكة الإنترنت",
+        sandy: "رملي",
+        pinkshades: "ظلال الوردي",
+        misty: "ضبابي",
+        citrus: "أشجار الحمضيات",
+        vintage: "خمر",
+        moonlight: "ضوء القمر",
+        candycrush: "الحلوى الإزدحام",
+        currentcolor: "اللون الحالي",
+        selectedcolor: "اختيار اللون"
+    },
+};
 ej.CurrencyTextbox.Locale["ar-AE"] = {
     watermarkText: "أدخل قيمة",
 };
@@ -19,7 +44,17 @@ ej.DatePicker.Locale["ar-AE"] = {
     watermarkText: "حدد تاريخ",
     buttonText: "اليوم",
 };
+ej.DateRangePicker.Locale["ar-AE"] = {
+    ButtonText: {
+        apply: "تطبيق",
+        cancel: "إلغاء",
+        reset: "إعادة تعيين"
+    },
+    watermarkText: "حدد المدى",
+    customPicker: "المنتقى مخصص",
+};
 ej.DateTimePicker.Locale["ar-AE"] = {
+    watermarkText: "حدد التاريخ والوقت",
     buttonText: {
         today: "اليوم",
         timeNow: "الوقت الآن",

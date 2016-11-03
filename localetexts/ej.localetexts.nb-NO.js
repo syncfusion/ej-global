@@ -12,6 +12,31 @@ ej.Autocomplete.Locale["nb-NO"] = {
     emptyResultText: "ingen forslag",
     actionFailure: "Den angitte feltet finnes ikke i gitt datakilde",
 };
+ej.ColorPicker.Locale["nb-NO"] = {
+    buttonText: {
+        apply: "Søke om",
+        cancel: "Kansellere",
+        swatches: "Fargeprøver"
+    },
+    tooltipText: {
+        switcher: "Switcher",
+        addbutton: "legge farge",
+        basic: "grunnleggende",
+        monochrome: "monokrom",
+        flatcolors: "flate farger",
+        seawolf: "Sea Wolf",
+        webcolors: "web farger",
+        sandy: "sand-",
+        pinkshades: "rosa nyanser",
+        misty: "disig",
+        citrus: "sitrus",
+        vintage: "årgang",
+        moonlight: "månen lyser",
+        candycrush: "Candy Crush",
+        currentcolor: "gjeldende farge",
+        selectedcolor: "valgt farge"
+    },
+};
 ej.CurrencyTextbox.Locale["nb-NO"] = {
     watermarkText: "Skriv inn verdi",
 };

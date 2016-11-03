@@ -12,6 +12,32 @@ ej.Autocomplete.Locale['en-US'] = {
     emptyResultText: "No suggestions",
     actionFailure: "The specified field doesn't exist in given data source"
 };
+ej.ColorPicker.Locale['en-US'] = {
+    buttonText: {
+        apply: "Apply",
+        cancel: "Cancel",
+        swatches: "Swatches"
+    },
+
+    tooltipText: {
+        switcher: "Switcher",
+        addbutton: "Add Color",
+        basic: "Basic",
+        monochrome: "Mono Chrome",
+        flatcolors: "Flat Colors",
+        seawolf: "Sea Wolf",
+        webcolors: "Web Colors",
+        sandy: "Sandy",
+        pinkshades: "Pink Shades",
+        misty: "Misty",
+        citrus: "Citrus",
+        vintage: "Vintage",
+        moonlight: "Moon Light",
+        candycrush: "Candy Crush",
+        currentcolor: "Current Color",
+        selectedcolor: "Selected Color",
+    }
+};
 ej.DatePicker.Locale['en-US'] = {
     watermarkText: "Select date",
     buttonText: 'Today'

@@ -12,6 +12,31 @@ ej.Autocomplete.Locale["cs-CZ"] = {
     emptyResultText: "žádné návrhy",
     actionFailure: "Zadaný pole neexistuje v daném zdroji dat",
 };
+ej.ColorPicker.Locale["cs-CZ"] = {
+    buttonText: {
+        apply: "Aplikovat",
+        cancel: "Zrušit",
+        swatches: "vzorníky"
+    },
+    tooltipText: {
+        switcher: "Switcher",
+        addbutton: "přidat barvu",
+        basic: "Základní",
+        monochrome: "Černobílý",
+        flatcolors: "ploché Colors",
+        seawolf: "Sea Vlk",
+        webcolors: "Web Colors",
+        sandy: "písečný",
+        pinkshades: "růžové odstíny",
+        misty: "mlhavý",
+        citrus: "Citrus",
+        vintage: "Vinobraní",
+        moonlight: "Měsíční svit",
+        candycrush: "Candy Crush",
+        currentcolor: "Aktuální Color",
+        selectedcolor: "vybranou barvu"
+    },
+};
 ej.CurrencyTextbox.Locale["cs-CZ"] = {
     watermarkText: "zadejte hodnotu",
 };
@@ -19,7 +44,17 @@ ej.DatePicker.Locale["cs-CZ"] = {
     watermarkText: "Vyberte datum",
     buttonText: "Dnes",
 };
+ej.DateRangePicker.Locale["cs-CZ"] = {
+    ButtonText: {
+        apply: "Aplikovat",
+        cancel: "Zrušit",
+        reset: "resetovat"
+    },
+    watermarkText: "Vybrat rozsah",
+    customPicker: "zvyk sběrač",
+};
 ej.DateTimePicker.Locale["cs-CZ"] = {
+    watermarkText: "Vybrat datum a čas",
     buttonText: {
         today: "Dnes",
         timeNow: "Aktuální čas",

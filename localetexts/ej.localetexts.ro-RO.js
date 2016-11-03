@@ -12,6 +12,31 @@ ej.Autocomplete.Locale["ro-RO"] = {
     emptyResultText: "Nu există sugestii",
     actionFailure: "Câmpul specificat nu există în anumită sursă de date",
 };
+ej.ColorPicker.Locale["ro-RO"] = {
+    buttonText: {
+        apply: "aplica",
+        cancel: "Anulare",
+        swatches: "specimenelor"
+    },
+    tooltipText: {
+        switcher: "switcher",
+        addbutton: "adauga culoare",
+        basic: "De bază",
+        monochrome: "Monocrom",
+        flatcolors: "plate Culori",
+        seawolf: "Lup de mare",
+        webcolors: "web Culori",
+        sandy: "nisipos",
+        pinkshades: "Nuanțe roz",
+        misty: "cețos",
+        citrus: "citrice",
+        vintage: "Epocă",
+        moonlight: "Lumina lunii",
+        candycrush: "Zdrobire de dulciuri",
+        currentcolor: "Culoarea curentă",
+        selectedcolor: "Culoarea selectată"
+    },
+};
 ej.CurrencyTextbox.Locale["ro-RO"] = {
     watermarkText: "Introdu o valoare",
 };

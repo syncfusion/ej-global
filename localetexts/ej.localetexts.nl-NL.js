@@ -12,6 +12,31 @@ ej.Autocomplete.Locale["nl-NL"] = {
     emptyResultText: "geen suggesties",
     actionFailure: "Het opgegeven veld bestaat niet in bepaalde gegevensbron",
 };
+ej.ColorPicker.Locale["nl-NL"] = {
+    buttonText: {
+        apply: "Van toepassing zijn",
+        cancel: "Annuleer",
+        swatches: "Stalen"
+    },
+    tooltipText: {
+        switcher: "switcher",
+        addbutton: "Kleur toevoegen",
+        basic: "basis-",
+        monochrome: "monochroom",
+        flatcolors: "Flat Kleuren",
+        seawolf: "Zeewolf",
+        webcolors: "web Kleuren",
+        sandy: "zanderig",
+        pinkshades: "Pink Shades",
+        misty: "Nevelig",
+        citrus: "Citrus",
+        vintage: "Wijnoogst",
+        moonlight: "Maanlicht",
+        candycrush: "Candy Crush",
+        currentcolor: "huidige Color",
+        selectedcolor: "geselecteerde kleur"
+    },
+};
 ej.CurrencyTextbox.Locale["nl-NL"] = {
     watermarkText: "Voer waarde",
 };

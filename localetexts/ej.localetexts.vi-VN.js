@@ -12,6 +12,31 @@ ej.Autocomplete.Locale["vi-VN"] = {
     emptyResultText: "Chưa có đề xuất",
     actionFailure: "Các lĩnh vực được chỉ định không tồn tại trong nguồn dữ liệu cho",
 };
+ej.ColorPicker.Locale["vi-VN"] = {
+    buttonText: {
+        apply: "Ứng dụng",
+        cancel: "hủy bỏ",
+        swatches: "Swatches"
+    },
+    tooltipText: {
+        switcher: "Switcher",
+        addbutton: "Thêm màu",
+        basic: "Căn bản",
+        monochrome: "Monochrome",
+        flatcolors: "Màu sắc phẳng",
+        seawolf: "biển Wolf",
+        webcolors: "Màu sắc Web",
+        sandy: "cát",
+        pinkshades: "Shades hồng",
+        misty: "mơ hồ",
+        citrus: "Citrus",
+        vintage: "Đồ cũ",
+        moonlight: "ánh trăng",
+        candycrush: "candy crush",
+        currentcolor: "Màu hiện tại",
+        selectedcolor: "Màu được chọn"
+    },
+};
 ej.CurrencyTextbox.Locale["vi-VN"] = {
     watermarkText: "nhập giá trị",
 };

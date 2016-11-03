@@ -12,6 +12,31 @@ ej.Autocomplete.Locale["hr-HR"] = {
     emptyResultText: "Nema prijedloga",
     actionFailure: "Navedena polje ne postoji u određenom izvoru podataka",
 };
+ej.ColorPicker.Locale["hr-HR"] = {
+    buttonText: {
+        apply: "primijeniti",
+        cancel: "Otkazati",
+        swatches: "uzoraka"
+    },
+    tooltipText: {
+        switcher: "Switcher",
+        addbutton: "Dodaj boja",
+        basic: "osnovni",
+        monochrome: "jednobojna slika",
+        flatcolors: "Stan Boje",
+        seawolf: "Sea Wolf",
+        webcolors: "Web Boje",
+        sandy: "pjeskovit",
+        pinkshades: "Pink Shades",
+        misty: "maglovit",
+        citrus: "kao limun",
+        vintage: "berba",
+        moonlight: "Mjesečina",
+        candycrush: "Candy Crush",
+        currentcolor: "Trenutna boja",
+        selectedcolor: "Odabrana boja"
+    },
+};
 ej.CurrencyTextbox.Locale["hr-HR"] = {
     watermarkText: "Unesite vrijednost",
 };
