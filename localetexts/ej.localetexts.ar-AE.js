@@ -44,7 +44,17 @@ ej.DatePicker.Locale["ar-AE"] = {
     watermarkText: "حدد تاريخ",
     buttonText: "اليوم",
 };
+ej.DateRangePicker.Locale["ar-AE"] = {
+    ButtonText: {
+        apply: "تطبيق",
+        cancel: "إلغاء",
+        reset: "إعادة تعيين"
+    },
+    watermarkText: "حدد المدى",
+    customPicker: "المنتقى مخصص",
+};
 ej.DateTimePicker.Locale["ar-AE"] = {
+    watermarkText: "حدد التاريخ والوقت",
     buttonText: {
         today: "اليوم",
         timeNow: "الوقت الآن",
