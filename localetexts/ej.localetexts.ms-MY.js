@@ -12,6 +12,31 @@ ej.Autocomplete.Locale["ms-MY"] = {
     emptyResultText: "Tiada cadangan",
     actionFailure: "bidang yang dinyatakan tidak wujud dalam sumber data yang dikemukakan",
 };
+ej.ColorPicker.Locale["ms-MY"] = {
+    buttonText: {
+        apply: "memohon",
+        cancel: "Batal",
+        swatches: "swatch"
+    },
+    tooltipText: {
+        switcher: "penukar",
+        addbutton: "Tambahkan Warna",
+        basic: "asas",
+        monochrome: "monokrom",
+        flatcolors: "warna rata",
+        seawolf: "serigala laut",
+        webcolors: "web warna",
+        sandy: "berpasir",
+        pinkshades: "warna merah jambu",
+        misty: "berkabus",
+        citrus: "sitrus",
+        vintage: "Vintage",
+        moonlight: "cahaya bulan",
+        candycrush: "Candy Crush",
+        currentcolor: "Warna Semasa",
+        selectedcolor: "Warna dipilih"
+    },
+};
 ej.CurrencyTextbox.Locale["ms-MY"] = {
     watermarkText: "Masukkan nilai",
 };
