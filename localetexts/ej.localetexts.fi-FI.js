@@ -12,6 +12,31 @@ ej.Autocomplete.Locale["fi-FI"] = {
     emptyResultText: "ei ehdotuksia",
     actionFailure: "Määritetty kenttä ei ole olemassa tietyn tietolähteen",
 };
+ej.ColorPicker.Locale["fi-FI"] = {
+    buttonText: {
+        apply: "Käyttää",
+        cancel: "Peruuttaa",
+        swatches: "Väriluettelot"
+    },
+    tooltipText: {
+        switcher: "vaihtaja",
+        addbutton: "Lisää Color",
+        basic: "perustiedot",
+        monochrome: "Yksivärinen",
+        flatcolors: "Flat Colors",
+        seawolf: "Sea Wolf",
+        webcolors: "Web Colors",
+        sandy: "hiekkainen",
+        pinkshades: "Pink Shades",
+        misty: "Sumuinen",
+        citrus: "Citrus",
+        vintage: "vuosikerta",
+        moonlight: "Kuutamo",
+        candycrush: "Candy Crush",
+        currentcolor: "nykyinen Color",
+        selectedcolor: "valittu Color"
+    },
+};
 ej.CurrencyTextbox.Locale["fi-FI"] = {
     watermarkText: "Anna arvo",
 };
