@@ -44,7 +44,17 @@ ej.DatePicker.Locale["cs-CZ"] = {
     watermarkText: "Vyberte datum",
     buttonText: "Dnes",
 };
+ej.DateRangePicker.Locale["cs-CZ"] = {
+    ButtonText: {
+        apply: "Aplikovat",
+        cancel: "Zrušit",
+        reset: "resetovat"
+    },
+    watermarkText: "Vybrat rozsah",
+    customPicker: "zvyk sběrač",
+};
 ej.DateTimePicker.Locale["cs-CZ"] = {
+    watermarkText: "Vybrat datum a čas",
     buttonText: {
         today: "Dnes",
         timeNow: "Aktuální čas",
