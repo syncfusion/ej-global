@@ -12,6 +12,31 @@ ej.Autocomplete.Locale["ko-KR"] = {
     emptyResultText: "제안 사항이 없습니다",
     actionFailure: "지정된 필드는 주어진 데이터 소스에 존재하지 않는",
 };
+ej.ColorPicker.Locale["ko-KR"] = {
+    buttonText: {
+        apply: "대다",
+        cancel: "취소하다",
+        swatches: "견본"
+    },
+    tooltipText: {
+        switcher: "스위처",
+        addbutton: "색상 추가",
+        basic: "기본",
+        monochrome: "단색화",
+        flatcolors: "평면 색상",
+        seawolf: "바다 늑대",
+        webcolors: "웹 색상",
+        sandy: "스코틀랜드 인의 별명",
+        pinkshades: "핑크 차양",
+        misty: "흐릿해진",
+        citrus: "감귤류의",
+        vintage: "포도 수확",
+        moonlight: "월광",
+        candycrush: "사탕 호감",
+        currentcolor: "현재 색상",
+        selectedcolor: "선택한 색상"
+    },
+};
 ej.CurrencyTextbox.Locale["ko-KR"] = {
     watermarkText: "값을 입력",
 };
