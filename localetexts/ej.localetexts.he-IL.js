@@ -12,6 +12,31 @@ ej.Autocomplete.Locale["he-IL"] = {
     emptyResultText: "אין הצעות",
     actionFailure: "השדה שצוין אינו קיים במקור נתונים נתונים",
 };
+ej.ColorPicker.Locale["he-IL"] = {
+    buttonText: {
+        apply: "להגיש מועמדות",
+        cancel: "לְבַטֵל",
+        swatches: "דוגמיות"
+    },
+    tooltipText: {
+        switcher: "מחליף",
+        addbutton: "להוסיף צבע",
+        basic: "בסיסי",
+        monochrome: "כרום מונה",
+        flatcolors: "צבעים שטוחים",
+        seawolf: "זאב ים",
+        webcolors: "צבעי אינטרנט",
+        sandy: "חוֹלִי",
+        pinkshades: "גוונים ורודים",
+        misty: "עַרְפִילִי",
+        citrus: "פרי הדר",
+        vintage: "בָּצִיר",
+        moonlight: "אור הירח",
+        candycrush: "קנדי קראש",
+        currentcolor: "צבע זרם",
+        selectedcolor: "צבע נבחר"
+    },
+};
 ej.CurrencyTextbox.Locale["he-IL"] = {
     watermarkText: "זן ערך",
 };
