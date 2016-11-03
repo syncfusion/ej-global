@@ -12,6 +12,31 @@ ej.Autocomplete.Locale["zh-CN"] = {
     emptyResultText: "没有建议",
     actionFailure: "指定字段中不定的数据源存在",
 };
+ej.ColorPicker.Locale["zh-CN"] = {
+    buttonText: {
+        apply: "应用",
+        cancel: "取消",
+        swatches: "色板"
+    },
+    tooltipText: {
+        switcher: "切换器",
+        addbutton: "添加颜色",
+        basic: "基本",
+        monochrome: "单色铬",
+        flatcolors: "平的颜色",
+        seawolf: "海狼",
+        webcolors: "网颜色",
+        sandy: "沙",
+        pinkshades: "桃红色树荫",
+        misty: "蒙蒙",
+        citrus: "柑橘",
+        vintage: "葡萄酒",
+        moonlight: "月光",
+        candycrush: "糖果粉碎",
+        currentcolor: "当前颜色",
+        selectedcolor: "所选颜色"
+    },
+};
 ej.CurrencyTextbox.Locale["zh-CN"] = {
     watermarkText: "输入值",
 };
