@@ -12,6 +12,31 @@ ej.Autocomplete.Locale["ru-RU"] = {
     emptyResultText: "Нет предложений",
     actionFailure: "Указанное поле не существует в данном источнике данных",
 };
+ej.ColorPicker.Locale["ru-RU"] = {
+    buttonText: {
+        apply: "Подать заявление",
+        cancel: "Отмена",
+        swatches: "Swatches"
+    },
+    tooltipText: {
+        switcher: "Switcher",
+        addbutton: "Добавить цвет",
+        basic: "базовый",
+        monochrome: "Монохромный",
+        flatcolors: "плоская печать",
+        seawolf: "Морской волк",
+        webcolors: "веб-Цвета",
+        sandy: "Сэнди",
+        pinkshades: "Розовые Оттенки",
+        misty: "туманный",
+        citrus: "Цитрусовые",
+        vintage: "марочный",
+        moonlight: "Лунный свет",
+        candycrush: "Конфеты Давка",
+        currentcolor: "Текущий цвет",
+        selectedcolor: "Выбранный цвет"
+    },
+};
 ej.CurrencyTextbox.Locale["ru-RU"] = {
     watermarkText: "Введите значение",
 };
