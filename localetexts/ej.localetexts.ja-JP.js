@@ -12,6 +12,31 @@ ej.Autocomplete.Locale["ja-JP"] = {
     emptyResultText: "提案なし",
     actionFailure: "指定されたフィールドは、特定のデータ・ソースに存在しません。",
 };
+ej.ColorPicker.Locale["ja-JP"] = {
+    buttonText: {
+        apply: "適用します",
+        cancel: "キャンセル",
+        swatches: "スウォッチ"
+    },
+    tooltipText: {
+        switcher: "スイッチャー",
+        addbutton: "色を追加",
+        basic: "基本",
+        monochrome: "モノクロ",
+        flatcolors: "フラット色",
+        seawolf: "シー・ウルフ",
+        webcolors: "ウェブカラー",
+        sandy: "砂の",
+        pinkshades: "ピンクシェード",
+        misty: "霧の",
+        citrus: "柑橘類",
+        vintage: "ビンテージ",
+        moonlight: "月光",
+        candycrush: "キャンディクラッシュ",
+        currentcolor: "現在の色",
+        selectedcolor: "選択した色"
+    },
+};
 ej.CurrencyTextbox.Locale["ja-JP"] = {
     watermarkText: "値を入力します。",
 };
