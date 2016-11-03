@@ -12,6 +12,31 @@ ej.Autocomplete.Locale["sv-SE"] = {
     emptyResultText: "Inga förslag",
     actionFailure: "Den angivna fältet existerar inte i given datakälla",
 };
+ej.ColorPicker.Locale["sv-SE"] = {
+    buttonText: {
+        apply: "Tillämpa",
+        cancel: "Annullera",
+        swatches: "swatches"
+    },
+    tooltipText: {
+        switcher: "switcher",
+        addbutton: "Lägg till färg",
+        basic: "Grundläggande",
+        monochrome: "Svartvit",
+        flatcolors: "platta färger",
+        seawolf: "Havsvarg",
+        webcolors: "webb Färger",
+        sandy: "Sandig",
+        pinkshades: "rosa nyanser",
+        misty: "Dimmig",
+        citrus: "Citrus",
+        vintage: "Årgång",
+        moonlight: "Månsken",
+        candycrush: "Godis kross",
+        currentcolor: "Aktuell färg",
+        selectedcolor: "valda färgen"
+    },
+};
 ej.CurrencyTextbox.Locale["sv-SE"] = {
     watermarkText: "Ange värde",
 };
