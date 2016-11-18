@@ -4,7 +4,7 @@
 
   "name": "syncfusion-ej-global",
 
-  "version": "14.3.49",
+  "version": "14.4.15",
 
   "description": "Bower package of localized texts of the Syncfusion Essential JavaScript widgets in various languages.",
 
@@ -16,7 +16,23 @@
     
     ".gitignore",
 
-     "demos"
+     "demos",
+	 
+	 "i18n/*",
+	 
+	 "!i18n/ej.culture.ar-AE.min.js",
+	 
+	 "!i18n/ej.culture.de-DE.min.js",
+	 
+	 "!i18n/ej.culture.en-US.min.js",
+	 
+	 "!i18n/ej.culture.es-ES.min.js",
+	 
+	 "!i18n/ej.culture.fr-FR.min.js",
+	 
+	 "!i18n/ej.culture.vi-VN.min.js",
+	 
+	 "!i18n/ej.ej.culture.zh-CN.min.js"
    
   ]
 
