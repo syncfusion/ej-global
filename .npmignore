@@ -1,6 +1,6 @@
 bower.json,
 .gitignore,
-i18n/,
+i18n/*.js,
 !i18n/ej.culture.ar-AE.min.js,
 !i18n/ej.culture.de-DE.min.js,
 !i18n/ej.culture.en-US.min.js,
