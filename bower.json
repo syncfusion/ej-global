@@ -20,19 +20,19 @@
 	 
 	 "i18n/*",
 	 
-	 "!i18n/ej.culture.ar-AE.min.js",
+	 "!i18n/ej.culture.ar-AE.js",
 	 
-	 "!i18n/ej.culture.de-DE.min.js",
+	 "!i18n/ej.culture.de-DE.js",
 	 
-	 "!i18n/ej.culture.en-US.min.js",
+	 "!i18n/ej.culture.en-US.js",
 	 
-	 "!i18n/ej.culture.es-ES.min.js",
+	 "!i18n/ej.culture.es-ES.js",
 	 
-	 "!i18n/ej.culture.fr-FR.min.js",
+	 "!i18n/ej.culture.fr-FR.js",
 	 
-	 "!i18n/ej.culture.vi-VN.min.js",
+	 "!i18n/ej.culture.vi-VN.js",
 	 
-	 "!i18n/ej.ej.culture.zh-CN.min.js"
+	 "!i18n/ej.ej.culture.zh-CN.js"
    
   ]
 
