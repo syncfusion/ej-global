@@ -358,7 +358,14 @@ ej.Gantt.Locale["ar-AE"] = {
         resourcesTabText: "موارد",
         customFieldsTabText: "الحقول المخصصة",
         notesTabText: "الملاحظات"
-    }
+    },
+
+    predecessorCollectionText: [
+            { id: "SS", text: "بداية-بداية", value: "بداية-بداية" },
+            { id: "SF", text: "نهاية-بداية", value: "نهاية-بداية" },
+            { id: "FS", text: "بداية- نهاية", value: "بداية- نهاية" },
+            { id: "FF", text: "نهاية-نهاية", value: "نهاية-نهاية" }
+        ],   
 };
 ej.Grid.Locale["ar-AE"] = {
     EmptyRecord: "عدم وجود سجلات للعرض",
@@ -499,10 +506,8 @@ ej.PivotClient.Locale["ar-AE"] = {
     CannotRemoveSingleReport: "لا يمكن إزالة تقرير واحد",
     AreYouSureToDeleteTheReport: "هل أنت متأكد من حذف تقرير",
     RenameReport: "إعادة تسمية تقرير",
-    SaveReport: "احفظ التقرير",
     ChartTypes: "أنواع الرسم البياني",
     ToggleAxis: "تبديل المحور",
-    LoadReport: "تقرير تحميل",
     ExportToExcel: "تصدير إلى Excel",
     ExportToWord: "تصدير إلى وورد",
     ExportToPdf: "تصدير إلى PDF",
@@ -589,16 +594,31 @@ ej.PivotClient.Locale["ar-AE"] = {
     FilterSortcolMeasureAlertMsg: "يرجى اضافة الى عمود المحور",
     FilterSortrowMeasureAlertMsg: "يرجى اضافة الى محور الصف",
     FilterSortElementAlertMsg: "لم يتم العثور على عنصر فى عمود المحور. يرجى اضافة عنصر فى العمود محور فرز/تصفية.",
-    LoadReportAlertMsg: "يرجى تحديد تقرير صالح",
     FilterMeasureSelectionAlertMsg: "يرجى تحديد الاجراء سليما.",
     FilterConditionAlertMsg: "يرجى تحديد حالة صالحة.",
     FilterStartValueAlertMsg: "يرجى تحديد قيمة البدء.",
     FilterEndValueAlertMsg: "يرجى تحديد قيمة الانتهاء.",
-    FilterInvalidAlertMsg: "عملية غير صالحة!"
+    FilterInvalidAlertMsg: "عملية غير صالحة!",
+    SelectRecordAlertMsg: "يرجى تحديد سجل سليم.",
+    RecordName: "تسجيل الاسم",
+    RemoveRecord: "قم بازالة قياسى",
+    RenameRecord: "اعادة تسمية قياسية",
+    Load: "تحميل",
+    Remove: "قم بازالة",
+    Save: "انقاذ",
+    SaveAs: "خاصتنا",
+    SelectRecord: "حدد تسجيل",
+    SelectReport: "حدد التقرير",
+    DBReport: "التقرير التلاعب DB",
+    Rename: "اعادة تسمية",
+    Remove: "قم بازالة",
+    SetRecordNameAlertMsg: "يرجى تسجيل الاسم.",
+    SetReportNameAlertMsg: "يرجى تحديد اسم التقرير.",
+    Search: "البحث"
 };
 ej.PivotGauge.Locale["ar-AE"] = {
     RevenueGoal: "دخل هدف",
-    RevenueValue: "قيمة الإيرادات",
+    RevenueValue: "قيمة الإيرادات"
 };
 ej.Pager.Locale["ar-AE"] = {
     pagerInfo: "{0} من {1} صفحة ({2} البنود)",
@@ -781,7 +801,10 @@ ej.PivotGrid.Locale["ar-AE"] = {
     NotValid: "صيغة معينة غير صالح",
     NotPresent: "قيمة الحقل فى اى صيغة من حقل محسوب غير موجود فى شبكة المحور",
     Confirm: "الحقل المحسوب بنفس الاسم موجود مسبقا. بسبب تريد استبدال?",
-    CalcValue: "حقل محسوب يمكن ادخال قيمة حقل فقط فى منطقة"
+    CalcValue: "حقل محسوب يمكن ادخال قيمة حقل فقط فى منطقة",
+    MultipleItems: "عناصر متعددة",
+    All: "جميع",
+    Search: "البحث"
 };
 ej.PivotPager.Locale["ar-AE"] = {
     SeriesPage: "سلسلة الصفحة",
@@ -837,7 +860,8 @@ ej.PivotSchemaDesigner.Locale["ar-AE"] = {
     AddToValues: "اضافة الى القيمة",
     OK: "موافق",
     Cancel: "الغاء",
-    Close: "قريب"
+    Close: "قريب",
+    Search: "البحث"
 };
 ej.datavisualization.RangeNavigator.Locale["ar-AE"] = {
     intervals: {

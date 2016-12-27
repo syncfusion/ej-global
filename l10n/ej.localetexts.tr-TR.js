@@ -358,7 +358,13 @@ ej.Gantt.Locale["tr-TR"] = {
         resourcesTabText: "kaynaklar",
         customFieldsTabText: "Özel Alanlar",
         notesTabText: "notlar"
-    }
+    },
+    predecessorCollectionText: [
+            { id: "SS", text: "Başlama-Başlama", value: "Başlama-Başlama" },
+            { id: "SF", text: "Başlama-Bitiş", value: "Başlama-Bitiş" },
+            { id: "FS", text: "Bitiş-Başlama", value: "Bitiş-Başlama" },
+            { id: "FF", text: "Bitiş-Bitiş", value: "Bitiş-Bitiş" }
+        ],
 };
 ej.Grid.Locale["tr-TR"] = {
     EmptyRecord: "Gösterilecek kayıt yok",
@@ -500,10 +506,8 @@ ej.PivotClient.Locale["tr-TR"] = {
     CannotRemoveSingleReport: "Tek Raporu kaldırılamıyor",
     AreYouSureToDeleteTheReport: "Eğer Raporu silmek istediğinizden emin misiniz",
     RenameReport: "Rapor yeniden adlandırma",
-    SaveReport: "Raporu kaydet",
     ChartTypes: "grafik Çeşitleri",
     ToggleAxis: "Geçiş Eksen",
-    LoadReport: "yük Raporu",
     ExportToExcel: "İhracat Excel",
     ExportToWord: "İhracat Word",
     ExportToPdf: "Pdf İhracat",
@@ -582,12 +586,27 @@ ej.PivotClient.Locale["tr-TR"] = {
     FilterSortcolMeasureAlertMsg: "Lütfen ölçüm Sütun ekseni",
     FilterSortrowMeasureAlertMsg: "Lütfen ölçmek için sıra ekseni",
     FilterSortElementAlertMsg: "Öğe bulunamadı sütun ekseni. Lütfen bir öğe eklemek sütun ekseni sıralama/filtreleme.",
-    LoadReportAlertMsg: "Lütfen geçerli bir raporu",
     FilterMeasureSelectionAlertMsg: "Lütfen geçerli bir ölçün.",
     FilterConditionAlertMsg: "Lütfen geçerli bir durumda.",
     FilterStartValueAlertMsg: "Lütfen başlangıç değeri.",
     FilterEndValueAlertMsg: "Lütfen bir değer.",
-    FilterInvalidAlertMsg: "Geçersiz işlem !"
+    FilterInvalidAlertMsg: "Geçersiz işlem !",
+    SelectRecordAlertMsg: "Lütfen geçerli bir kayıt.",
+    RecordName: "Kayıt Adı",
+    RemoveRecord: "Kayıt sökün",
+    RenameRecord: "Kayıt yeniden adlandırabilirsiniz.",
+    Load: "Yük",
+    Remove: "Kaldır",
+    Save: "Kaydet",
+    SaveAs: "Farklı Kaydet",
+    SelectRecord: "Kaydet'i seçin.",
+    SelectReport: "Raporu seçin",
+    DBReport: "Rapor işleme DB",
+    Rename: "Yeniden Adlandır",
+    Remove: "Kaldır",
+    SetRecordNameAlertMsg: "Lütfen kayıt adı.",
+    SetReportNameAlertMsg: "Lütfen rapor adı.",
+    Search: "Arama"
 };
 ej.PivotGauge.Locale["tr-TR"] = {
     RevenueGoal: "Gelir Gol",
@@ -774,7 +793,10 @@ ej.PivotGrid.Locale["tr-TR"] = {
     NotValid: "Belirli bir formül geçerli değil.",
     NotPresent: "Değer alanı herhangi bir hesaplanan alan formül mevcut değildir PivotGrid",
     Confirm: "Hesaplanan alan ile aynı adı zaten mevcut. Dolayı Değiştirmek istiyor mu?",
-    CalcValue: "Hesaplanan alan eklenebilir sadece değer alan alan"
+    CalcValue: "Hesaplanan alan eklenebilir sadece değer alan alan",
+    MultipleItems: "Birden fazla öğe",
+    All: "Tüm",
+    Search: "Arama"
 };
 ej.PivotPager.Locale["tr-TR"] = {
     SeriesPage: "Serisi Page",
@@ -828,7 +850,8 @@ ej.PivotSchemaDesigner.Locale["tr-TR"] = {
     AddToValues: "Eklemek için değerler",
     Warning: "Uyarı",
     OK: "OK",
-    Cancel: "İptal"
+    Cancel: "İptal",
+    Search: "Arama"
 };
 ej.datavisualization.RangeNavigator.Locale["tr-TR"] = {
     intervals: {

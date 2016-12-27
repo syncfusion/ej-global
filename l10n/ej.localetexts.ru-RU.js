@@ -357,7 +357,13 @@ ej.Gantt.Locale["ru-RU"] = {
         resourcesTabText: "Ресурсы",
         customFieldsTabText: "Настраиваемые поля",
         notesTabText: "Заметки"
-    }
+    },
+    predecessorCollectionText: [
+            { id: "SS", text: "Начало-Начало", value: "Начало-Начало" },
+            { id: "SF", text: "Начало-Конец", value: "Начало-Конец" },
+            { id: "FS", text: "Конец-Начало", value: "Конец-Начало" },
+            { id: "FF", text: "Конец-Конец", value: "Конец-Конец" }
+        ],
 };
 ej.Grid.Locale["ru-RU"] = {
     EmptyRecord: "Нет записей для отображения",
@@ -474,15 +480,16 @@ if (ej.mobile !== undefined && ej.mobile.TimePicker !== undefined) {
 }
 ej.NumericTextbox.Locale["ru-RU"] = {
     watermarkText: "Введите значение",
-    ej.PivotChart.Locale["ru-RU"] = {
-        Measure: "Мера",
-        Row: "строка",
-        Column: "колонка",
-        Expand: "расширять",
-        Collapse: "коллапс",
-        Exit: "выход",
-        Value: "Значение"
-    };
+};
+ej.PivotChart.Locale["ru-RU"] = {
+    Measure: "Мера",
+    Row: "строка",
+    Column: "колонка",
+    Expand: "расширять",
+    Collapse: "коллапс",
+    Exit: "выход",
+    Value: "Значение"
+};
 ej.PivotClient.Locale["ru-RU"] = {
     DeferUpdate: "Отложить обновление",
     MDXQuery: "MDX запросов",
@@ -498,10 +505,8 @@ ej.PivotClient.Locale["ru-RU"] = {
     CannotRemoveSingleReport: "Невозможно удалить один отчет,",
     AreYouSureToDeleteTheReport: "Вы действительно хотите удалить отчет",
     RenameReport: "Переименовать отчет",
-    SaveReport: "Сохранить отчет",
     ChartTypes: "Типы диаграмм",
     ToggleAxis: "Переключить оси",
-    LoadReport: "Нагрузка Сообщить",
     ExportToExcel: "Экспорт в Excel",
     ExportToWord: "Экспорт в Слово",
     ExportToPdf: "Экспорт в PDF",
@@ -580,12 +585,27 @@ ej.PivotClient.Locale["ru-RU"] = {
     FilterSortcolMeasureAlertMsg: "Добавьте измерения на рулевой колонке оси",
     FilterSortrowMeasureAlertMsg: "Добавьте измерения на оси заднего ряда цилиндров",
     FilterSortElementAlertMsg: "Элемент не найден в столбце оси. Просьба добавить элемент в колонке оси для сортировки и фильтрации.",
-    LoadReportAlertMsg: "Выберите действительный доклад",
     FilterMeasureSelectionAlertMsg: "Выберите действительный мерой.",
     FilterConditionAlertMsg: "Укажите действительное состояние.",
     FilterStartValueAlertMsg: "Задайте начальное значение.",
     FilterEndValueAlertMsg: "Задайте конечного значения.",
-    FilterInvalidAlertMsg: "Неверная операция !"
+    FilterInvalidAlertMsg: "Неверная операция !",
+    SelectRecordAlertMsg: "Выберите действительную запись.",
+    RecordName: "Имя записи",
+    RemoveRecord: "Удалить запись",
+    RenameRecord: "Переименовать запись",
+    Load: "Загрузить",
+    Remove: "Снимите",
+    Save: "Сохранить",
+    SaveAs: "Сохранить как",
+    SelectRecord: "Выберите запись",
+    SelectReport: "Выберите отчет",
+    DBReport: "Доклад манипуляции в Дб",
+    Rename: "Переименовать",
+    Remove: "Снимите",
+    SetRecordNameAlertMsg: "Задайте имя записи.",
+    SetReportNameAlertMsg: "Задайте имя отчета.",
+    Search: "Поиск"
 };
 ej.PivotGauge.Locale["ru-RU"] = {
     RevenueGoal: "Выручка Гол",
@@ -772,7 +792,10 @@ ej.PivotGrid.Locale["ru-RU"] = {
     NotValid: "С учетом формулы не действителен",
     NotPresent: "Поле значение используется в любом из поле вычисляется по формуле не присутствует в таблицу PivotGrid",
     Confirm: "Вычисляемое поле с таким же именем уже существует. Вследствие хотите заменить ?",
-    CalcValue: "Вычисляемое поле может быть вставлен только в значение области"
+    CalcValue: "Вычисляемое поле может быть вставлен только в значение области",
+    MultipleItems: "Несколько пунктов",
+    All: "Все",
+    Search: "Поиск"
 };
 ej.PivotPager.Locale["ru-RU"] = {
     SeriesPage: "Серия страницу",
@@ -826,7 +849,8 @@ ej.PivotSchemaDesigner.Locale["ru-RU"] = {
     AddToValues: "Добавить в значения",
     Warning: "Предупреждение",
     OK: "OK",
-    Cancel: "Отмена"
+    Cancel: "Отмена",
+    Search: "Поиск"
 };
 ej.datavisualization.RangeNavigator.Locale["ru-RU"] = {
     intervals: {

@@ -358,7 +358,13 @@ ej.Gantt.Locale["pt-PT"] = {
         resourcesTabText: "recursos",
         customFieldsTabText: "Os campos personalizados",
         notesTabText: "notas"
-    }
+    },
+    predecessorCollectionText: [
+            { id: "SS", text: "Começar-Começar", value: "Começar-Começar" },
+            { id: "SF", text: "Começar-Terminar", value: "Começar-Terminar" },
+            { id: "FS", text: "Terminar-Começar", value: "Terminar-Começar" },
+            { id: "FF", text: "Terminar-Terminar", value: "Terminar-Terminar" }
+        ],
 };
 ej.Grid.Locale["pt-PT"] = {
     EmptyRecord: "Não há registros a serem exibidos",
@@ -499,10 +505,8 @@ ej.PivotClient.Locale["pt-PT"] = {
     CannotRemoveSingleReport: "Não é possível remover único relatório",
     AreYouSureToDeleteTheReport: "Tem certeza que deseja excluir o relatório",
     RenameReport: "renomear Relatório",
-    SaveReport: "Salvar o relatorio",
     ChartTypes: "Tipos de gráficos",
     ToggleAxis: "Eixo de alternância",
-    LoadReport: "Relatório de carga",
     ExportToExcel: "Exportar para Excel",
     ExportToWord: "Exportar para o Word",
     ExportToPdf: "Exportar para PDF",
@@ -582,12 +586,27 @@ ej.PivotClient.Locale["pt-PT"] = {
     FilterSortcolMeasureAlertMsg: "Por favor adicionar medida para o eixo da coluna",
     FilterSortrowMeasureAlertMsg: "Por favor adicionar medida para a linha do eixo",
     FilterSortElementAlertMsg: "Elemento não encontrado no eixo da coluna. Adicione um elemento no eixo da coluna para triagem/filtragem.",
-    LoadReportAlertMsg: "Selecione um relatório válido",
     FilterMeasureSelectionAlertMsg: "Selecione uma medida válida.",
     FilterConditionAlertMsg: "Defina um estado válido.",
     FilterStartValueAlertMsg: "Defina um valor inicial.",
     FilterEndValueAlertMsg: "Defina um valor final.",
-    FilterInvalidAlertMsg: "Operação inválida !"
+    FilterInvalidAlertMsg: "Operação inválida !",
+    SelectRecordAlertMsg: "Selecione um registro válido.",
+    RecordName: "Gravar nome",
+    RemoveRecord: "Remover registro",
+    RenameRecord: "Mudar o nome de registro",
+    Load: "Carregar",
+    Remove: "Remova",
+    Save: "Salvar",
+    SaveAs: "Salvar como",
+    SelectRecord: "Selecione Gravar",
+    SelectReport: "Selecionar Relatório",
+    DBReport: "Manipulação de relatório em DB",
+    Rename: "Renomear",
+    Remove: "Remova",
+    SetRecordNameAlertMsg: "Defina o nome do registro.",
+    SetReportNameAlertMsg: "Defina o nome do relatório.",
+    Search: "Pesquisar"
 };
 ej.PivotGauge.Locale["pt-PT"] = {
     RevenueGoal: "meta de receita",
@@ -774,7 +793,10 @@ ej.PivotGrid.Locale["pt-PT"] = {
     NotValid: "Dada fórmula não é válido",
     NotPresent: "Campo Valor usado em qualquer Campo Calculado fórmula não está presente no gráfico",
     Confirm: "Campo calculado com o mesmo nome já existe. Devido a querer substituir ?",
-    CalcValue: "Campo calculado pode ser inserido apenas no campo Área de valor"
+    CalcValue: "Campo calculado pode ser inserido apenas no campo Área de valor",
+    MultipleItems: "Vários itens",
+    All: "Todos os",
+    Search: "Pesquisar"
 };
 ej.PivotPager.Locale["pt-PT"] = {
     SeriesPage: "Página série",
@@ -828,7 +850,8 @@ ej.PivotSchemaDesigner.Locale["pt-PT"] = {
     AddToValues: "Adicionar aos valores",
     Warning: "Aviso",
     OK: "OK",
-    Cancel: "Cancelar"
+    Cancel: "Cancelar",
+    Search: "Pesquisar"
 };
 ej.datavisualization.RangeNavigator.Locale["pt-PT"] = {
     intervals: {

@@ -358,7 +358,13 @@ ej.Gantt.Locale["zh-CN"] = {
         resourcesTabText: "资源",
         customFieldsTabText: "自定义字段",
         notesTabText: "笔记"
-    }
+    },
+    predecessorCollectionText: [
+            { id: "SS", text: "开始-开始", value: "开始-开始" },
+            { id: "SF", text: "开始-完", value: "开始-完" },
+            { id: "FS", text: "完-开始", value: "完-开始" },
+            { id: "FF", text: "完-完", value: "完-完" }
+        ],
 };
 ej.Grid.Locale["zh-CN"] = {
     EmptyRecord: "无记录可显示",
@@ -500,10 +506,8 @@ ej.PivotClient.Locale["zh-CN"] = {
     CannotRemoveSingleReport: "无法删除单个报表",
     AreYouSureToDeleteTheReport: "您确定要删除的报告",
     RenameReport: "重命名报告",
-    SaveReport: "保存报告",
     ChartTypes: "图表类型",
     ToggleAxis: "切换轴",
-    LoadReport: "负荷报告",
     ExportToExcel: "导出到Excel",
     ExportToWord: "导出到Word",
     ExportToPdf: "导出为PDF",
@@ -582,12 +586,27 @@ ej.PivotClient.Locale["zh-CN"] = {
     FilterSortcolMeasureAlertMsg: "请添加度量的列的轴",
     FilterSortrowMeasureAlertMsg: "请添加的行中轴",
     FilterSortElementAlertMsg: "找不到元素列中的轴。 请将元素添加在列中轴用于排序/过滤。",
-    LoadReportAlertMsg: "请选择有效的报告。",
     FilterMeasureSelectionAlertMsg: "请选择有效的措施。",
     FilterConditionAlertMsg: "请设置有效的条件。",
     FilterStartValueAlertMsg: "请设置的开始值。",
     FilterEndValueAlertMsg: "请设置的终止值。",
-    FilterInvalidAlertMsg: "无效的操作!"
+    FilterInvalidAlertMsg: "无效的操作!",
+    SelectRecordAlertMsg: "請選擇有效的記錄。",
+    RecordName: "錄製名稱",
+    RemoveRecord: "移除記錄",
+    RenameRecord: "重新命名記錄",
+    Load: "負載",
+    Remove: "移除",
+    Save: "儲存",
+    SaveAs: "另存新檔",
+    SelectRecord: "選取記錄",
+    SelectReport: "選擇報告",
+    DBReport: "報表操作在 DB",
+    Rename: "重新命名",
+    Remove: "移除",
+    SetRecordNameAlertMsg: "請設定錄製名稱。",
+    SetReportNameAlertMsg: "請設定報表名稱。",
+    Search: "搜尋"
 };
 ej.PivotGauge.Locale["zh-CN"] = {
     RevenueGoal: "收入目标",
@@ -774,7 +793,10 @@ ej.PivotGrid.Locale["zh-CN"] = {
     NotValid: "给定的公式无效。",
     NotPresent: "值字段中使用的任何的计算字段的公式在中不存在 PivotGrid",
     Confirm: "经过计算的字段已存在具有相同名称的。 由于要更换吗?",
-    CalcValue: "计算字段可以插入到只有在价值区域字段"
+    CalcValue: "计算字段可以插入到只有在价值区域字段",
+    MultipleItems: "多個項目",
+    All: "所有",
+    Search: "搜尋"
 };
 ej.PivotPager.Locale["zh-CN"] = {
     SeriesPage: "系列的页面",
@@ -828,7 +850,8 @@ ej.PivotSchemaDesigner.Locale["zh-CN"] = {
     AddToValues: "添加值",
     Warning: "警告",
     OK: "“确定” 按钮",
-    Cancel: "取消"
+    Cancel: "取消",
+    Search: "搜尋"
 };
 ej.datavisualization.RangeNavigator.Locale["zh-CN"] = {
     intervals: {

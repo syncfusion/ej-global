@@ -358,7 +358,13 @@ ej.Gantt.Locale["ms-MY"] = {
         resourcesTabText: "sumber",
         customFieldsTabText: "Fields Custom",
         notesTabText: "Nota"
-    }
+    },
+    predecessorCollectionText: [
+            { id: "SS", text: "permulaan-permulaan", value: "permulaan-permulaan" },
+            { id: "SF", text: "permulaan-Selesai", value: "permulaan-Selesai" },
+            { id: "FS", text: "Selesai-permulaan", value: "Selesai-permulaan" },
+            { id: "FF", text: "Selesai-Selesai", value: "Selesai-Selesai" }
+        ],
 };
 ej.Grid.Locale["ms-MY"] = {
     EmptyRecord: "Tiada rekod untuk dipaparkan",
@@ -500,10 +506,8 @@ ej.PivotClient.Locale["ms-MY"] = {
     CannotRemoveSingleReport: "Tidak boleh mengeluarkan Laporan Single",
     AreYouSureToDeleteTheReport: "Adakah anda pasti untuk memadam Laporan",
     RenameReport: "Nama semula Laporan",
-    SaveReport: "Simpan Laporan",
     ChartTypes: "Jenis Carta",
     ToggleAxis: "Toggle Axis",
-    LoadReport: "Laporan beban",
     ExportToExcel: "Eksport Ke Excel",
     ExportToWord: "Eksport Ke Word",
     ExportToPdf: "Eksport Ke Pdf",
@@ -582,12 +586,27 @@ ej.PivotClient.Locale["ms-MY"] = {
     FilterSortcolMeasureAlertMsg: "Sila tambah mengukur untuk Lajur paksi",
     FilterSortrowMeasureAlertMsg: "Sila tambah mengukur untuk Baris paksi",
     FilterSortElementAlertMsg: "Elemen tidak ditemui dalam lajur paksi. Sila tambah satu elemen dalam lajur paksi untuk pengisihan awak penapisan.",
-    LoadReportAlertMsg: "Sila pilih sah laporan",
     FilterMeasureSelectionAlertMsg: "Sila pilih sah ukur.",
     FilterConditionAlertMsg: "Setkan sah syarat.",
     FilterStartValueAlertMsg: "Setkan nilai mula.",
     FilterEndValueAlertMsg: "Setkan nilai akhir.",
-    FilterInvalidAlertMsg: "Operasi Tak Sah !"
+    FilterInvalidAlertMsg: "Operasi Tak Sah !",
+    SelectRecordAlertMsg: "Please select a valid record.",
+    RecordName: "Masukkan Nama",
+    RemoveRecord: "Alih Keluar Rekod",
+    RenameRecord: "Namakan Semula Rekod",
+    Load: "Muatkan",
+    Remove: "Buang",
+    Save: "Simpan",
+    SaveAs: "Simpan Sebagai",
+    SelectRecord: "Pilih Rekod",
+    SelectReport: "Pilih Laporan",
+    DBReport: "Laporan Manipulasi dalam DB",
+    Rename: "Namakan semula",
+    Remove: "Buang",
+    SetRecordNameAlertMsg: "Setkan rekod nama.",
+    SetReportNameAlertMsg: "Setkan laporan nama.",
+    Search: "Carian"
 };
 ej.PivotGauge.Locale["ms-MY"] = {
     RevenueGoal: "Matlamat hasil",
@@ -774,7 +793,10 @@ ej.PivotGrid.Locale["ms-MY"] = {
     NotValid: "Formula diberi tidak sah",
     NotPresent: "Nilai medan digunakan dalam sebarang Dikira Medan formula tidak hadir di PivotGrid",
     Confirm: "Mengira medan dengan nama yang sama sudah wujud. Karena ingin ganti ?",
-    CalcValue: "Mengira medan boleh disisipkan hanya dalam nilai kawasan medan"
+    CalcValue: "Mengira medan boleh disisipkan hanya dalam nilai kawasan medan",
+    MultipleItems: "Berbilang item",
+    All: "Semua",
+    Search: "Carian"
 };
 ej.PivotPager.Locale["ms-MY"] = {
     SeriesPage: "Siri Page",
@@ -828,7 +850,8 @@ ej.PivotSchemaDesigner.Locale["ms-MY"] = {
     AddToValues: "Tambah kepada nilai",
     Warning: "Amaran",
     OK: "OK",
-    Cancel: "Batalkan"
+    Cancel: "Batalkan",
+    Search: "Carian"
 };
 ej.datavisualization.RangeNavigator.Locale["ms-MY"] = {
     intervals: {

@@ -358,7 +358,13 @@ ej.Gantt.Locale["fi-FI"] = {
         resourcesTabText: "voimavarat",
         customFieldsTabText: "Erikoiskentät",
         notesTabText: "Huomautuksia"
-    }
+    },
+    predecessorCollectionText: [
+            { id: "SS", text: "alku-alku", value: "alku-alku" },
+            { id: "SF", text: "alku-Suorittaa loppuun", value: "alku-Suorittaa loppuun" },
+            { id: "FS", text: "Suorittaa loppuun-alku", value: "Suorittaa loppuun-alku" },
+            { id: "FF", text: "Suorittaa loppuun-Suorittaa loppuun", value: "Suorittaa loppuun-Suorittaa loppuun" }
+        ],
 };
 ej.Grid.Locale["fi-FI"] = {
     EmptyRecord: "Ei näytettäviä tietueita",
@@ -500,10 +506,8 @@ ej.PivotClient.Locale["fi-FI"] = {
     CannotRemoveSingleReport: "Voi poistaa yhden Report",
     AreYouSureToDeleteTheReport: "Oletko varmasti poistaa Report",
     RenameReport: "Nimeä raportti",
-    SaveReport: "Tallenna raportti",
     ChartTypes: "Karttatyypit",
     ToggleAxis: "Ota akseli",
-    LoadReport: "kuorman Report",
     ExportToExcel: "Vie Excel",
     ExportToWord: "Vie Word",
     ExportToPdf: "Vie pdf",
@@ -582,12 +586,27 @@ ej.PivotClient.Locale["fi-FI"] = {
     FilterSortcolMeasureAlertMsg: "Lisää toimenpide-sarakkeeseen akseli",
     FilterSortrowMeasureAlertMsg: "Lisätkää mittaa rivin akseli",
     FilterSortElementAlertMsg: "Elementti ei löydy saraketta akselilla. Ota maksuvälineeseen ennaltaehkäisevän sarakkeessa akseli lajitteluun ja suodatuksen.",
-    LoadReportAlertMsg: "Valitse kelvollinen raportti",
     FilterMeasureSelectionAlertMsg: "Valitse kelvollinen mittayksikkö.",
     FilterConditionAlertMsg: "Määritä kelvollinen kunnossa.",
     FilterStartValueAlertMsg: "Määritä aloitusarvo.",
     FilterEndValueAlertMsg: "Määritä a lopetusarvon.",
-    FilterInvalidAlertMsg: "Virheellinen toiminto !"
+    FilterInvalidAlertMsg: "Virheellinen toiminto !",
+    SelectRecordAlertMsg: "Valitse voimassa oleva tietue.",
+    RecordName: "Tallenna nimi",
+    RemoveRecord: "Poista tallennus",
+    RenameRecord: "Rename tallennus",
+    Load: "Lataa",
+    Remove: "Irrota",
+    Save: "Tallenna",
+    SaveAs: "Reportsin SaveAs",
+    SelectRecord: "Valitse tallenna",
+    SelectReport: "Valitse raportti",
+    DBReport: "Mietintö manipuloinnin DB",
+    Rename: "Nimeä",
+    Remove: "Irrota",
+    SetRecordNameAlertMsg: "Määritä tallenna nimi.",
+    SetReportNameAlertMsg: "Määritä raportin nimi.",
+    Search: "Haku"
 };
 ej.PivotGauge.Locale["fi-FI"] = {
     RevenueGoal: "tulot Tavoite",
@@ -774,7 +793,10 @@ ej.PivotGrid.Locale["fi-FI"] = {
     NotValid: "Koska kaava ei kelpaa",
     NotPresent: "Kentän arvo käyttää missä tahansa Laskentakenttä kaavaa ei ole PivotGrid",
     Confirm: "Laskettu kenttä on jo olemassa. Koska haluat korvata?",
-    CalcValue: "Laskettu kenttä voidaan lisätä vain arvon alue -kentässä"
+    CalcValue: "Laskettu kenttä voidaan lisätä vain arvon alue -kentässä",
+    MultipleItems: "Useita kohteita.",
+    All: "Kaikki",
+    Search: "Haku"
 };
 ej.PivotPager.Locale["fi-FI"] = {
     SeriesPage: "Sarja Sivu",
@@ -828,7 +850,8 @@ ej.PivotSchemaDesigner.Locale["fi-FI"] = {
     AddToValues: "Lisää arvoja",
     Warning: "Varoitus",
     OK: "OK",
-    Cancel: "Peruuta"
+    Cancel: "Peruuta",
+    Search: "Haku"
 };
 ej.datavisualization.RangeNavigator.Locale["fi-FI"] = {
     intervals: {

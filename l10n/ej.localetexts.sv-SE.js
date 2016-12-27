@@ -358,7 +358,13 @@ ej.Gantt.Locale["sv-SE"] = {
         resourcesTabText: "Medel",
         customFieldsTabText: "Anpassade fält",
         notesTabText: "Anmärkningar"
-    }
+    },
+    predecessorCollectionText: [
+            { id: "SS", text: "Start-Start", value: "Start-Start" },
+            { id: "SF", text: "Start-Yta", value: "Start-Yta" },
+            { id: "FS", text: "Yta-Start", value: "Yta-Start" },
+            { id: "FF", text: "Yta-Yta", value: "Yta-Yta" }
+        ],
 };
 ej.Grid.Locale["sv-SE"] = {
     EmptyRecord: "Inga poster att visa",
@@ -500,10 +506,8 @@ ej.PivotClient.Locale["sv-SE"] = {
     CannotRemoveSingleReport: "Det går inte att ta bort enstaka rapport",
     AreYouSureToDeleteTheReport: "Är du säker på att ta bort rapporten",
     RenameReport: "byta namn Rapportera",
-    SaveReport: "Spara rapport",
     ChartTypes: "diagramtyper",
     ToggleAxis: "Växla axel",
-    LoadReport: "belastning Rapportera",
     ExportToExcel: "Export till Excel",
     ExportToWord: "Export till Word",
     ExportToPdf: "Export till PDF",
@@ -582,12 +586,27 @@ ej.PivotClient.Locale["sv-SE"] = {
     FilterSortcolMeasureAlertMsg: "Lägg till kolumnen axel",
     FilterSortrowMeasureAlertMsg: "Lägg till raden axel",
     FilterSortElementAlertMsg: "Element som inte finns i kolumnen axel. Lägg till ett element i kolumn axel för att sortera/som filtering.",
-    LoadReportAlertMsg: "Välj en giltig rapport",
     FilterMeasureSelectionAlertMsg: "Välj en giltig.",
     FilterConditionAlertMsg: "Ange ett giltigt tillstånd.",
     FilterStartValueAlertMsg: "Ange ett startvärde.",
     FilterEndValueAlertMsg: "Ange ett värde.",
-    FilterInvalidAlertMsg: "Ogiltig funktion !"
+    FilterInvalidAlertMsg: "Ogiltig funktion !",
+    SelectRecordAlertMsg: "Välj en giltig post.",
+    RecordName: "Anteckna namn",
+    RemoveRecord: "Ta bort post",
+    RenameRecord: "Byta namn på post",
+    Load: "Belastning",
+    Remove: "Ta bort",
+    Save: "Spara",
+    SaveAs: "Spara som",
+    SelectRecord: "Välj post",
+    SelectReport: "Välj rapport",
+    DBReport: "Rapporten Manipulation i DB",
+    Rename: "Namn",
+    Remove: "Ta bort",
+    SetRecordNameAlertMsg: "Ange postens namn.",
+    SetReportNameAlertMsg: "Ange rapportens namn.",
+    Search: "Sök"
 };
 ej.PivotGauge.Locale["sv-SE"] = {
     RevenueGoal: "intäkts mål",
@@ -774,7 +793,10 @@ ej.PivotGrid.Locale["sv-SE"] = {
     NotValid: "Eftersom formeln är inte giltig",
     NotPresent: "Värdet används i någon av beräknat fält formel är inte närvarande i PivotGrid",
     Confirm: "Beräknat fält med samma namn finns redan. På grund vill byta ?",
-    CalcValue: "Beräknat fält kan införas endast i värde i fältet."
+    CalcValue: "Beräknat fält kan införas endast i värde i fältet.",
+    MultipleItems: "Flera objekt",
+    All: "Alla",
+    Search: "Sök"
 };
 ej.PivotPager.Locale["sv-SE"] = {
     SeriesPage: "serien Page",
@@ -828,7 +850,8 @@ ej.PivotSchemaDesigner.Locale["sv-SE"] = {
     AddToValues: "Lägg till värden",
     Warning: "Varning",
     OK: "OK",
-    Cancel: "Avbryt"
+    Cancel: "Avbryt",
+    Search: "Sök"
 };
 ej.datavisualization.RangeNavigator.Locale["sv-SE"] = {
     intervals: {

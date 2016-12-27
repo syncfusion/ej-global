@@ -358,7 +358,13 @@ ej.Gantt.Locale["ko-KR"] = {
         resourcesTabText: "자원",
         customFieldsTabText: "사용자 정의 필드",
         notesTabText: "노트"
-    }
+    },
+    predecessorCollectionText: [
+            { id: "SS", text: "스타트-스타트", value: "스타트-스타트" },
+            { id: "SF", text: "스타트-끝", value: "스타트-끝" },
+            { id: "FS", text: "끝-스타트", value: "끝-스타트" },
+            { id: "FF", text: "끝-끝", value: "끝-끝" }
+        ],
 };
 ej.Grid.Locale["ko-KR"] = {
     EmptyRecord: "레코드 표시 없습니다",
@@ -499,10 +505,8 @@ ej.PivotClient.Locale["ko-KR"] = {
     CannotRemoveSingleReport: "단일 보고서를 제거 할 수 없습니다",
     AreYouSureToDeleteTheReport: "당신은 보고서를 삭제 하시겠습니까",
     RenameReport: "보고서의 이름을 바꿉니다",
-    SaveReport: "보고서 저장",
     ChartTypes: "차트 유형",
     ToggleAxis: "전환 축",
-    LoadReport: "로드 보고서",
     ExportToExcel: "수출 엑셀",
     ExportToWord: "수출로 말씀",
     ExportToPdf: "PDF로 내보내기",
@@ -582,12 +586,27 @@ ej.PivotClient.Locale["ko-KR"] = {
     FilterSortcolMeasureAlertMsg: "제발 열 축 측정 추가",
     FilterSortrowMeasureAlertMsg: "제발 행 축 측정 추가",
     FilterSortElementAlertMsg: "요소의 열 축 찾을 수 없습니다. 정렬/필터링 칼럼 악의 요소를 추가합니다.",
-    LoadReportAlertMsg: "유효한 보고서를 선택하십시오.",
     FilterMeasureSelectionAlertMsg: "올바른 값을 선택합니다.",
     FilterConditionAlertMsg: "유효한 상태로 설정하십시오.",
     FilterStartValueAlertMsg: "시작 값을 설정하십시오.",
     FilterEndValueAlertMsg: "최종 값을 설정하십시오.",
-    FilterInvalidAlertMsg: "유효하지 않은 작업!"
+    FilterInvalidAlertMsg: "유효하지 않은 작업!",
+    SelectRecordAlertMsg: "올바른 레코드를 선택하십시오.",
+    RecordName: "이름 녹음",
+    RemoveRecord: "레코드 제거",
+    RenameRecord: "레코드 이름을 바꾸려면",
+    Load: "로드",
+    Remove: "제거",
+    Save: "저장",
+    SaveAs: "다른 이름으로 저장",
+    SelectRecord: "레코드 선택",
+    SelectReport: "보고서 선택",
+    DBReport: "Db에서 보고서 조작",
+    Rename: "이름 바꾸기",
+    Remove: "제거",
+    SetRecordNameAlertMsg: "기록을 입력하세요.",
+    SetReportNameAlertMsg: "보고서 설정 이름을 입력하십시오.",
+    Search: "검색"
 };
 ej.PivotGauge.Locale["ko-KR"] = {
     RevenueGoal: "수익 목표",
@@ -774,7 +793,10 @@ ej.PivotGrid.Locale["ko-KR"] = {
     NotValid: "주어진 수식은 올바르지 않습니다.",
     NotPresent: "계산된 필드 공식을 사용할 값 필드는 pivotgrid 존재하지 않습니다",
     Confirm: "이미 같은 이름을 가진 계산된 필드입니다. 그것들을 대체하기 위해 남편의 손에서 인해?",
-    CalcValue: "계산된 필드 값은 영역 필드에 삽입할 수 있습니다."
+    CalcValue: "계산된 필드 값은 영역 필드에 삽입할 수 있습니다.",
+    MultipleItems: "여러 항목",
+    All: "모든",
+    Search: "검색"
 };
 ej.PivotPager.Locale["ko-KR"] = {
     SeriesPage: "시리즈 페이지",
@@ -828,7 +850,8 @@ ej.PivotSchemaDesigner.Locale["ko-KR"] = {
     AddToValues: "값을 추가하려면",
     Warning: "경고",
     OK: "확인",
-    Cancel: "취소"
+    Cancel: "취소",
+    Search: "검색"
 };
 ej.datavisualization.RangeNavigator.Locale["ko-KR"] = {
     intervals: {

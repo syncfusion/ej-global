@@ -358,7 +358,13 @@ ej.Gantt.Locale["sk-SK"] = {
         resourcesTabText: "zdroje",
         customFieldsTabText: "vlastné Fields",
         notesTabText: "Poznámky"
-    }
+    },
+    predecessorCollectionText: [
+            { id: "SS", text: "štart-štart", value: "štart-štart" },
+            { id: "SF", text: "štart-Skončiť", value: "štart-Skončiť" },
+            { id: "FS", text: "Skončiť-štart", value: "Skončiť-štart" },
+            { id: "FF", text: "Skončiť-Skončiť", value: "Skončiť-Skončiť" }
+        ],
 };
 ej.Grid.Locale["sk-SK"] = {
    EmptyRecord: "žiadne záznamy na zobrazenie",
@@ -500,10 +506,8 @@ ej.PivotClient.Locale["sk-SK"] = {
     CannotRemoveSingleReport: "Nemožno odstrániť jedinú správu",
     AreYouSureToDeleteTheReport: "Naozaj chcete zmazať správu",
     RenameReport: "premenovať správa",
-    SaveReport: "Uloženie správy",
     ChartTypes: "typy chart",
     ToggleAxis: "Prepínať osi",
-    LoadReport: "Zaťaženie správy",
     ExportToExcel: "Export do Excelu",
     ExportToWord: "Export do aplikácie Word",
     ExportToPdf: "Export do PDF",
@@ -582,12 +586,27 @@ ej.PivotClient.Locale["sk-SK"] = {
     FilterSortcolMeasureAlertMsg: "Ak chcete pridať merania do stĺpca os",
     FilterSortrowMeasureAlertMsg: "Ak chcete pridať merania do riadku os",
     FilterSortElementAlertMsg: "Prvok v stĺpci os. Prosím pridať prvok v stĺpci os pre triedenie a filtrovanie.",
-    LoadReportAlertMsg: "Prosím, zvoľte platnú správu",
     FilterMeasureSelectionAlertMsg: "Zadajte platné opatrenie.",
     FilterConditionAlertMsg: "Nastavte platný stav.",
     FilterStartValueAlertMsg: "Prosím, nastavte na hodnotu.",
     FilterEndValueAlertMsg: "Prosím nastavenie koncovej hodnoty.",
-    FilterInvalidAlertMsg: "Neplatná operácia!"
+    FilterInvalidAlertMsg: "Neplatná operácia!",
+    SelectRecordAlertMsg: "Vyberte platný záznam.",
+    RecordName: "Názov záznamu",
+    RemoveRecord: "Odstránenie záznamu",
+    RenameRecord: "Premenovať záznam",
+    Load: "Zaťaženie",
+    Remove: "Odmontujte",
+    Save: "Uloženie",
+    SaveAs: "Uložiť ako",
+    SelectRecord: "Výber záznamu",
+    SelectReport: "Vyberte správu",
+    DBReport: "Správa manipulácie v DB",
+    Rename: "Premenovať",
+    Remove: "Odmontujte",
+    SetRecordNameAlertMsg: "Prosím názov záznamu.",
+    SetReportNameAlertMsg: "Prosím názov zostavy.",
+    Search: "Vyhľadávanie"
 };
 ej.PivotGauge.Locale["sk-SK"] = {
     RevenueGoal: "výnosy Cieľ",
@@ -774,7 +793,10 @@ ej.PivotGrid.Locale["sk-SK"] = {
     NotValid: "Uvedený vzorec nie je platná",
     NotPresent: "Hodnota poľa v každom vypočítavaného poľa vzorec nie je prítomný v PivotGrid",
     Confirm: "Vypočítavané polia s rovnakým názvom už existuje. Z dôvodu, že chceme nahradiť ?",
-    CalcValue: "Vypočítavané polia môžu byť zaradené iba hodnota plochy poľa"
+    CalcValue: "Vypočítavané polia môžu byť zaradené iba hodnota plochy poľa",
+    MultipleItems: "Viaceré položky",
+    All: "Všetky",
+    Search: "Vyhľadávanie"
 };
 ej.PivotPager.Locale["sk-SK"] = {
     SeriesPage: "Séria s",
@@ -828,7 +850,8 @@ ej.PivotSchemaDesigner.Locale["sk-SK"] = {
     AddToValues: "Pridať do hodnôt",
     Warning: "Varovanie",
     OK: "Tlačidlo OK",
-    Cancel: "Zrušenie"
+    Cancel: "Zrušenie",
+    Search: "Vyhľadávanie"
 };
 ej.datavisualization.RangeNavigator.Locale["sk-SK"] = {
     intervals: {

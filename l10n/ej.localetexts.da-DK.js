@@ -358,7 +358,13 @@ ej.Gantt.Locale["da-DK"] = {
         resourcesTabText: "Ressourcer",
         customFieldsTabText: "Brugerdefinerede felter",
         notesTabText: "Noter"
-    }
+    },
+    predecessorCollectionText: [
+            { id: "SS", text: "Starte-Starte", value: "Starte-Starte" },
+            { id: "SF", text: "Starte-Slutte", value: "Starte-Slutte" },
+            { id: "FS", text: "Slutte-Starte", value: "Slutte-Starte" },
+            { id: "FF", text: "Slutte-Slutte", value: "Slutte-Slutte" }
+        ],
 };
 ej.Grid.Locale["da-DK"] = {
     EmptyRecord: "Ingen poster at vise",
@@ -500,10 +506,8 @@ ej.PivotClient.Locale["da-DK"] = {
     CannotRemoveSingleReport: "Kan ikke fjerne enkeltstående",
     AreYouSureToDeleteTheReport: "Er du sikker på at slette rapporten",
     RenameReport: "Omdøb rapport",
-    SaveReport: "Gem rapport",
     ChartTypes: "diagramtyper",
     ToggleAxis: "Skifte akse",
-    LoadReport: "Indlæs rapport",
     ExportToExcel: "Eksporter til Excel",
     ExportToWord: "Eksporter til Word",
     ExportToPdf: "Eksport til PDF",
@@ -582,12 +586,27 @@ ej.PivotClient.Locale["da-DK"] = {
     FilterSortcolMeasureAlertMsg: "Tilføj til kolonne akse",
     FilterSortrowMeasureAlertMsg: "Tilføj til rækkeakse",
     FilterSortElementAlertMsg: "Enhed ikke fundet i kolonne-aksen. Du kan tilføje et element i kolonnen akse for sortering/filtrering.",
-    LoadReportAlertMsg: "Vælg en gyldig rapport",
     FilterMeasureSelectionAlertMsg: "Vælg et gyldigt mål.",
     FilterConditionAlertMsg: "Angiv en gyldig betingelse.",
     FilterStartValueAlertMsg: "Angiv en startværdi.",
     FilterEndValueAlertMsg: "Angiv en værdi.",
-    FilterInvalidAlertMsg: "Handlingen er ugyldig !"
+    FilterInvalidAlertMsg: "Handlingen er ugyldig !",
+    SelectRecordAlertMsg: "Vælg en gyldig registrering.",
+    RecordName: "Registrér navn",
+    RemoveRecord: "Fjern Post",
+    RenameRecord: "Omdøb Post",
+    Load: "Indlæs",
+    Remove: "Fjern",
+    Save: "Spar",
+    SaveAs: "Gem som",
+    SelectRecord: "Vælg post",
+    SelectReport: "Vælg Rapportér",
+    DBReport: "Rapport Manipulation i DB",
+    Rename: "Omdøb",
+    Remove: "Fjern",
+    SetRecordNameAlertMsg: "Sæt Venligst notér navn.",
+    SetReportNameAlertMsg: "Angiv rapportens navn.",
+    Search: "Søg"
 };
 ej.PivotGauge.Locale["da-DK"] = {
     RevenueGoal: "Omsætning Goal",
@@ -774,7 +793,10 @@ ej.PivotGrid.Locale["da-DK"] = {
     NotValid: "Da formlen er ikke gyldig",
     NotPresent: "Feltet værdi benyttes i nogen af de beregnede felt formel ikke findes i PivotGrid",
     Confirm: "Beregnet felt med samme navn findes allerede. Pga vil erstatte ?",
-    CalcValue: "Beregnet felt kan indsættes kun i værdi feltet område"
+    CalcValue: "Beregnet felt kan indsættes kun i værdi feltet område",
+    MultipleItems: "Flere emner",
+    All: "Alle",
+    Search: "Søg"
 };
 ej.PivotPager.Locale["da-DK"] = {
     SeriesPage: "Series Side",
@@ -828,7 +850,8 @@ ej.PivotSchemaDesigner.Locale["da-DK"] = {
     AddToValues: "Tilføj til værdier",
     Warning: "Advarsel",
     OK: "OK",
-    Cancel: "Annuller"
+    Cancel: "Annuller",
+    Search: "Søg"
 };
 ej.datavisualization.RangeNavigator.Locale["da-DK"] = {
     intervals: {

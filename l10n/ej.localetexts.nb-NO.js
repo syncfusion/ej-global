@@ -358,7 +358,13 @@ ej.Gantt.Locale["nb-NO"] = {
         resourcesTabText: "Resources",
         customFieldsTabText: "Custom Fields",
         notesTabText: "Merknader"
-    }
+    },
+    predecessorCollectionText: [
+            { id: "SS", text: "Begynne-Begynne", value: "Begynne-Begynne" },
+            { id: "SF", text: "Begynne-Bli ferdig", value: "Begynne-Bli ferdig" },
+            { id: "FS", text: "Bli ferdig-Begynne", value: "Bli ferdig-Begynne" },
+            { id: "FF", text: "Bli ferdig-Bli ferdig", value: "Bli ferdig-Bli ferdig" }
+        ],
 };
 ej.Grid.Locale["nb-NO"] = {
     EmptyRecord: "Ingen oppføringer å vise",
@@ -500,10 +506,8 @@ ej.PivotClient.Locale["nb-NO"] = {
     CannotRemoveSingleReport: "Kan ikke fjerne enkelt Rapporter",
     AreYouSureToDeleteTheReport: "Er du sikker på at du vil slette rapporten",
     RenameReport: "Gi nytt navn Rapporter",
-    SaveReport: "Lagre rapport",
     ChartTypes: "diagramtyper",
     ToggleAxis: "Veksle akse",
-    LoadReport: "Load Rapporter",
     ExportToExcel: "Eksporter til Excel",
     ExportToWord: "Eksporter til Word",
     ExportToPdf: "Eksport til PDF",
@@ -582,12 +586,27 @@ ej.PivotClient.Locale["nb-NO"] = {
     FilterSortcolMeasureAlertMsg: "Legg til mål til kolonnen akse",
     FilterSortrowMeasureAlertMsg: "Legg til mål til rad-akse",
     FilterSortElementAlertMsg: "Element ble ikke funnet i kolonnen akse. Du kan legge til et element i kolonnen aksen for sortering/filtrering.",
-    LoadReportAlertMsg: "Velg en gyldig rapport",
     FilterMeasureSelectionAlertMsg: "Velg en gyldig mål.",
     FilterConditionAlertMsg: "Vennligst angi en gyldig tilstand.",
     FilterStartValueAlertMsg: "Angi en startverdi.",
     FilterEndValueAlertMsg: "Vennligst angi en sluttverdi.",
-    FilterInvalidAlertMsg: "Ugyldig operasjon !"
+    FilterInvalidAlertMsg: "Ugyldig operasjon !",
+    SelectRecordAlertMsg: "Velg en gyldig post.",
+    RecordName: "Spill inn navn",
+    RemoveRecord: "Fjern posten",
+    RenameRecord: "Gi nytt navn til posten",
+    Load: "Belastning",
+    Remove: "Fjern",
+    Save: "Lagre",
+    SaveAs: "Lagre som",
+    SelectRecord: "Velg post",
+    SelectReport: "Velg rapport",
+    DBReport: "Rapporten manipulering i DB",
+    Rename: "Gi nytt navn",
+    Remove: "Fjern",
+    SetRecordNameAlertMsg: "Vennligst angi post navn.",
+    SetReportNameAlertMsg: "Vennligst angi rapport navn.",
+    Search: "Søk"
 };
 ej.PivotGauge.Locale["nb-NO"] = {
     RevenueGoal: "mål Revenue",
@@ -774,7 +793,10 @@ ej.PivotGrid.Locale["nb-NO"] = {
     NotValid: "Gitt formelen er ikke gyldig",
     NotPresent: "Feltet brukes i noen av feltet beregnes formelen er ikke tilstede i PivotGrid",
     Confirm: "Beregnet felt med samme navn finnes allerede. På grunn av vil erstatte ?",
-    CalcValue: "Beregnet felt kan settes bare i verdi området feltet"
+    CalcValue: "Beregnet felt kan settes bare i verdi området feltet",
+    MultipleItems: "Flere elementer",
+    All: "Alle",
+    Search: "Søk"
 };
 ej.PivotPager.Locale["nb-NO"] = {
     SeriesPage: "Serien side",
@@ -828,7 +850,8 @@ ej.PivotSchemaDesigner.Locale["nb-NO"] = {
     AddToValues: "Legg til verdier",
     Warning: "Advarsel",
     OK: "OK",
-    Cancel: "Avbryt"
+    Cancel: "Avbryt",
+    Search: "Søk"
 };
 ej.datavisualization.RangeNavigator.Locale["nb-NO"] = {
     intervals: {

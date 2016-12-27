@@ -358,7 +358,13 @@ ej.Gantt.Locale["ro-RO"] = {
         resourcesTabText: "Resurse",
         customFieldsTabText: "câmpuri customizate",
         notesTabText: "notițe"
-    }
+    },
+    predecessorCollectionText: [
+            { id: "SS", text: "start-start", value: "start-start" },
+            { id: "SF", text: "start-finalizarea", value: "start-finalizarea" },
+            { id: "FS", text: "finalizarea-start", value: "finalizarea-start" },
+            { id: "FF", text: "finalizarea-finalizarea", value: "finalizarea-finalizarea" }
+        ],
 };
 ej.Grid.Locale["ro-RO"] = {
     EmptyRecord: "Nu exista inregistrari pentru a afișa",
@@ -500,10 +506,8 @@ ej.PivotClient.Locale["ro-RO"] = {
     CannotRemoveSingleReport: "Nu se poate elimina singur raport",
     AreYouSureToDeleteTheReport: "Sunteți sigur să ștergeți raportul",
     RenameReport: "redenumire rapoarte",
-    SaveReport: "Salvați raportul",
     ChartTypes: "Tipuri de diagramă",
     ToggleAxis: "Axa de comutare",
-    LoadReport: "încărcare rapoarte",
     ExportToExcel: "Export în Excel",
     ExportToWord: "Export Word",
     ExportToPdf: "Exportă PDF",
@@ -582,12 +586,27 @@ ej.PivotClient.Locale["ro-RO"] = {
     FilterSortcolMeasureAlertMsg: "Vă rugăm să adăugaţi măsuraţi la axa coloanei",
     FilterSortrowMeasureAlertMsg: "Vă rugăm să adăugaţi măsuraţi la axa de rând",
     FilterSortElementAlertMsg: "Elementul nu a găsit în coloana axa. Vă rugăm să adăugaţi un element în coloana pentru axa sortarea/de filtrare.",
-    LoadReportAlertMsg: "Vă rugăm să selectaţi un raport de validă",
     FilterMeasureSelectionAlertMsg: "Vă rugăm să selectaţi o măsură validă.",
     FilterConditionAlertMsg: "Vă rugăm să setaţi o stare validă.",
     FilterStartValueAlertMsg: "Vă rugăm să setaţi o valoare de pornire.",
     FilterEndValueAlertMsg: "Vă rugăm să setaţi o valoare de capăt.",
-    FilterInvalidAlertMsg: "Operaţiune invalidă !"
+    FilterInvalidAlertMsg: "Operaţiune invalidă !",
+    SelectRecordAlertMsg: "Vă rugăm să selectaţi o înregistrare valid.",
+    RecordName: "Nume înregistrare",
+    RemoveRecord: "Demontaţi înregistraţi",
+    RenameRecord: "Redenumirea înregistraţi",
+    Load: "Sarcină",
+    Remove: "Demontaţi",
+    Save: "Salvare",
+    SaveAs: "Salvare ca",
+    SelectRecord: "Selectaţi Înregistrare",
+    SelectReport: "Selectaţi Raport",
+    DBReport: "Raport de manipulare în DB",
+    Rename: "Redenumire",
+    Remove: "Demontaţi",
+    SetRecordNameAlertMsg: "Vă rugăm să setaţi numele de înregistrare.",
+    SetReportNameAlertMsg: "Vă rugăm să setaţi numele raportului.",
+    Search: "Căutare"
 };
 ej.PivotGauge.Locale["ro-RO"] = {
     RevenueGoal: "venituri Obiectiv",
@@ -774,7 +793,10 @@ ej.PivotGrid.Locale["ro-RO"] = {
     NotValid: "Formula dat nu este validă",
     NotPresent: "Câmpul Valoare utilizate în orice formula de calculat câmp nu este prezent în PivotGrid",
     Confirm: "Calculat câmp cu acelaşi nume există deja. Datorită doriţi să înlocuiţi ?",
-    CalcValue: "Calculat câmp poate fi introdusă numai în zona de valoare de câmp"
+    CalcValue: "Calculat câmp poate fi introdusă numai în zona de valoare de câmp",
+    MultipleItems: "Mai multe elemente",
+    All: "Toate",
+    Search: "Căutare"
 };
 ej.PivotPager.Locale["ro-RO"] = {
     SeriesPage: "seria Pagina",
@@ -828,7 +850,8 @@ ej.PivotSchemaDesigner.Locale["ro-RO"] = {
     AddToValues: "Adăugaţi la valori",
     Warning: "Avertisment",
     OK: "OK",
-    Cancel: "Anula"
+    Cancel: "Anula",
+    Search: "Căutare"
 };
 ej.datavisualization.RangeNavigator.Locale["ro-RO"] = {
     intervals: {

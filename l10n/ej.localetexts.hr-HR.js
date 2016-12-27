@@ -358,7 +358,13 @@ ej.Gantt.Locale["hr-HR"] = {
         resourcesTabText: "Resursi",
         customFieldsTabText: "Custom Fields",
         notesTabText: "Bilješke"
-    }
+    },
+    predecessorCollectionText: [
+            { id: "SS", text: "Početak-Početak", value: "Početak-Početak" },
+            { id: "SF", text: "Početak-Završi", value: "Početak-Završi" },
+            { id: "FS", text: "Završi-Početak", value: "Završi-Početak" },
+            { id: "FF", text: "Završi-Završi", value: "Završi-Završi" }
+        ],
 };
 ej.Grid.Locale["hr-HR"] = {
     EmptyRecord: "Nema zapisa za prikaz",
@@ -500,10 +506,8 @@ ej.PivotClient.Locale["hr-HR"] = {
     CannotRemoveSingleReport: "Nije moguće ukloniti jedno izvješće",
     AreYouSureToDeleteTheReport: "Jeste li sigurni da želite izbrisati izvješće",
     RenameReport: "Preimenovanje izvješće",
-    SaveReport: "Spremi izvještaj",
     ChartTypes: "vrste grafikona",
     ToggleAxis: "Prebaci os",
-    LoadReport: "Opterećenje izvještaj",
     ExportToExcel: "Izvoz u Excel",
     ExportToWord: "Izvoz u Word",
     ExportToPdf: "Pretvori u PDF",
@@ -582,12 +586,27 @@ ej.PivotClient.Locale["hr-HR"] = {
     FilterSortcolMeasureAlertMsg: "Molimo dodajte mjere na kolonu osi",
     FilterSortrowMeasureAlertMsg: "Molimo dodajte mjeru do retka osi",
     FilterSortElementAlertMsg: "Element nije pronađen u osi stupca. Molimo dodajte element u osi stupca za sortiranje / filtriranje.",
-    LoadReportAlertMsg: "Odaberite valjani izvještaj",
     FilterMeasureSelectionAlertMsg: "Odaberite valjanu mjeru.",
     FilterConditionAlertMsg: "Molimo postavite važeći stanje.",
     FilterStartValueAlertMsg: "Postavite početnu vrijednost.",
     FilterEndValueAlertMsg: "Postavite end vrijednost.",
-    FilterInvalidAlertMsg: "Neispravan rad!"
+    FilterInvalidAlertMsg: "Neispravan rad!",
+    SelectRecordAlertMsg: "Izaberite valjanu rekord.",
+    RecordName: "Zna ime",
+    RemoveRecord: "Ukloni slog",
+    RenameRecord: "& Zapis",
+    Load: "Učitaj",
+    Remove: "Ukloni",
+    Save: "Spasi",
+    SaveAs: "Preuzmi novo% 1",
+    SelectRecord: "Odaberite ploču",
+    SelectReport: "Odaberite izvještaj",
+    DBReport: "Izvještaj manipulacija na DB",
+    Rename: "Preimenuj",
+    Remove: "Ukloni",
+    SetRecordNameAlertMsg: "Pripremite zna ime.",
+    SetReportNameAlertMsg: "Pripremite izvještaj.",
+    Search: "Pretraži"
 };
 ej.PivotGauge.Locale["hr-HR"] = {
     RevenueGoal: "Cilj prihoda",
@@ -774,7 +793,10 @@ ej.PivotGrid.Locale["hr-HR"] = {
     NotValid: "S obzirom formula ne vrijedi",
     NotPresent: "Vrijednost polje koje se koristi u bilo kojem od Izračunato polje Formula nije prisutan u PivotGrid",
     Confirm: "Izračunato polje s istim nazivom već postoji. Zbog želite zamijeniti?",
-    CalcValue: "Izračunato polje može se umetnuti samo u vrijednosti polja području"
+    CalcValue: "Izračunato polje može se umetnuti samo u vrijednosti polja području",
+    MultipleItems: "Više stavki",
+    All: "Sve",
+    Search: "Pretraži"
 };
 ej.PivotPager.Locale["hr-HR"] = {
     SeriesPage: "Serija stranice",
@@ -828,7 +850,8 @@ ej.PivotSchemaDesigner.Locale["hr-HR"] = {
     AddToValues: "Dodaj u vrijednosti",
     Warning: "Upozorenje",
     OK: "u redu",
-    Cancel: "Otkazati"
+    Cancel: "Otkazati",
+    Search: "Pretraži"
 };
 ej.datavisualization.RangeNavigator.Locale["hr-HR"] = {
     intervals: {

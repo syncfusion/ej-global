@@ -358,7 +358,13 @@ ej.Gantt.Locale["vi-VN"] = {
         resourcesTabText: "Tài nguyên",
         customFieldsTabText: "trường tuỳ chỉnh",
         notesTabText: "Ghi chú"
-    }
+    },
+   predecessorCollectionText: [
+            { id: "SS", text: "Khởi đầu-Khởi đầu", value: "Khởi đầu-Khởi đầu" },
+            { id: "SF", text: "Khởi đầu-Hoàn thành", value: "Khởi đầu-Hoàn thành" },
+            { id: "FS", text: "Hoàn thành-Khởi đầu", value: "Hoàn thành-Khởi đầu" },
+            { id: "FF", text: "Hoàn thành-Hoàn thành", value: "Hoàn thành-Hoàn thành" }
+        ],
 };
 ej.Grid.Locale["vi-VN"] = {
     EmptyRecord: "Không có dữ liệu để hiển thị",
@@ -500,10 +506,8 @@ ej.PivotClient.Locale["vi-VN"] = {
     CannotRemoveSingleReport: "Không thể loại bỏ đơn Báo cáo",
     AreYouSureToDeleteTheReport: "Bạn có chắc chắn xóa các Báo cáo",
     RenameReport: "Đổi tên báo cáo",
-    SaveReport: "Lưu báo cáo",
     ChartTypes: "Các loại biểu đồ",
     ToggleAxis: "Chuyển đổi Axis",
-    LoadReport: "tải báo cáo",
     ExportToExcel: "Xuất khẩu sang Excel",
     ExportToWord: "Xuất khẩu sang Word",
     ExportToPdf: "Xuất khẩu Để Pdf",
@@ -582,12 +586,27 @@ ej.PivotClient.Locale["vi-VN"] = {
     FilterSortcolMeasureAlertMsg: "Làm ơn thêm pháp để các trục cột",
     FilterSortrowMeasureAlertMsg: "Làm ơn thêm pháp để hàng trục",
     FilterSortElementAlertMsg: "Không tìm thấy phần tử ở trục cột. Xin thêm một phần tử ở trục cột cho xếp/lọc.",
-    LoadReportAlertMsg: "Xin hãy chọn một báo cáo hợp lệ",
     FilterMeasureSelectionAlertMsg: "Xin hãy chọn một thước đo hợp lệ.",
     FilterConditionAlertMsg: "Hãy đặt một điều kiện hợp lệ.",
     FilterStartValueAlertMsg: "Hãy đặt giá trị bắt đầu.",
     FilterEndValueAlertMsg: "Hãy đặt giá trị kết thúc.",
-    FilterInvalidAlertMsg: "Thao tác không hợp lệ !"
+    FilterInvalidAlertMsg: "Thao tác không hợp lệ !",
+    SelectRecordAlertMsg: "Xin hãy chọn một kỷ lục hợp lệ.",
+    RecordName: "Tên kỷ lục",
+    RemoveRecord: "Gỡ bỏ Kỷ lục",
+    RenameRecord: "Thay tên Kỷ lục",
+    Load: "Nạp",
+    Remove: "Gỡ bỏ",
+    Save: "Lưu",
+    SaveAs: "& Lưu như...",
+    SelectRecord: "Chọn Kỷ lục",
+    SelectReport: "Chọn b¥o c¥o",
+    DBReport: "Thao tác được báo cáo trong cơ sở dữ liệu",
+    Rename: "Thay tên",
+    Remove: "Gỡ bỏ",
+    SetRecordNameAlertMsg: "Hãy đặt tên kỷ lục.",
+    SetReportNameAlertMsg: "Hãy đặt tên báo cáo.",
+    Search: "Tìm kiếm"
 };
 ej.PivotGauge.Locale["vi-VN"] = {
     RevenueGoal: "Mục tiêu doanh thu",
@@ -774,7 +793,10 @@ ej.PivotGrid.Locale["vi-VN"] = {
     NotValid: "Công thức cho không hợp lệ",
     NotPresent: "Giá trị được dùng trong các lĩnh vực trong những lĩnh vực công thức tính toán không hiển thị trong PivotGrid",
     Confirm: "Tính toán lĩnh vực cùng tên đã có. Do muốn thay thế ?",
-    CalcValue: "Tính toán lĩnh vực này chỉ có thể được gắn trong lĩnh vực khu vực giá trị"
+    CalcValue: "Tính toán lĩnh vực này chỉ có thể được gắn trong lĩnh vực khu vực giá trị",
+    MultipleItems: "Nhiều mục",
+    All: "Tất cả",
+    Search: "Tìm kiếm"
 };
 ej.PivotPager.Locale["vi-VN"] = {
     SeriesPage: "Loạt trang",
@@ -828,7 +850,8 @@ ej.PivotSchemaDesigner.Locale["vi-VN"] = {
     AddToValues: "Thêm giá trị để",
     Warning: "Cảnh báo",
     OK: "OK",
-    Cancel: "Thã'i"
+    Cancel: "Thã'i",
+    Search: "Tìm kiếm"
 };
 ej.datavisualization.RangeNavigator.Locale["vi-VN"] = {
     intervals: {

@@ -358,7 +358,13 @@ ej.Gantt.Locale["hu-HU"] = {
         resourcesTabText: "Erőforrások",
         customFieldsTabText: "egyéni mezők",
         notesTabText: "Megjegyzések"
-    }
+    },
+    predecessorCollectionText: [
+            { id: "SS", text: "indítás-indítás", value: "indítás-indítás" },
+            { id: "SF", text: "indítás-Befejez", value: "indítás-Befejez" },
+            { id: "FS", text: "Befejez-indítás", value: "Befejez-indítás" },
+            { id: "FF", text: "Befejez-Befejez", value: "Befejez-Befejez" }
+        ],
 };
 ej.Grid.Locale["hu-HU"] = {
     EmptyRecord: "Nincs bejegyzés megjelenítéséhez",
@@ -500,10 +506,8 @@ ej.PivotClient.Locale["hu-HU"] = {
     CannotRemoveSingleReport: "Nem lehet eltávolítani egyetlen jelentés",
     AreYouSureToDeleteTheReport: "Biztos benne, hogy törli a jelentés",
     RenameReport: "átnevezése Report",
-    SaveReport: "jelentés mentése",
     ChartTypes: "diagram típusok",
     ToggleAxis: "toggle Axis",
-    LoadReport: "Load Report",
     ExportToExcel: "Exportálás Excel",
     ExportToWord: "Exportálás Ige",
     ExportToPdf: "Export PDF",
@@ -582,12 +586,27 @@ ej.PivotClient.Locale["hu-HU"] = {
     FilterSortcolMeasureAlertMsg: "Kérjük, adja meg az oszlop tengelye.",
     FilterSortrowMeasureAlertMsg: "Kérjük, adja meg a sor tengelyen",
     FilterSortElementAlertMsg: "Az elem nem található oszlop tengelye. Kérjük, adja meg az oszlop tengelye egy válogató/szűrés.",
-    LoadReportAlertMsg: "Válasszon ki egy érvényes jelentés",
     FilterMeasureSelectionAlertMsg: "Válasszon ki egy érvényes.",
     FilterConditionAlertMsg: "Adjon meg egy érvényes.",
     FilterStartValueAlertMsg: "Állítsa be az értéket.",
     FilterEndValueAlertMsg: "Adjon meg.",
-    FilterInvalidAlertMsg: "Érvénytelen művelet !"
+    FilterInvalidAlertMsg: "Érvénytelen művelet !",
+    SelectRecordAlertMsg: "Válasszon ki egy érvényes.",
+    RecordName: "Név felvétele",
+    RemoveRecord: "Rekord törlése",
+    RenameRecord: "Rename felvétel",
+    Load: "Terhelés",
+    Remove: "Távolítsa el a",
+    Save: "Mentés",
+    SaveAs: "Mentés másként",
+    SelectRecord: "Válassza ki a felvétel",
+    SelectReport: "Válassza a Jelentés",
+    DBReport: "Egyrészt a DB-jelentés",
+    Rename: "Átnevezés",
+    Remove: "Távolítsa el a",
+    SetRecordNameAlertMsg: "Adja meg a felvétel.",
+    SetReportNameAlertMsg: "Adja meg a jelentés nevét.",
+    Search: "Keresés"
 };
 ej.PivotGauge.Locale["hu-HU"] = {
     RevenueGoal: "bevétel cél",
@@ -774,7 +793,10 @@ ej.PivotGrid.Locale["hu-HU"] = {
     NotValid: "Adott a képlet nem érvényes",
     NotPresent: "A mező értékét a következő képlettel számított mező nincs a PivotGrid",
     Confirm: "A Számított mező már létezik. Mert ki akarja cserélni?",
-    CalcValue: "Számított mező csak akkor lehet behelyezni a szántóföldi terület"
+    CalcValue: "Számított mező csak akkor lehet behelyezni a szántóföldi terület",
+    MultipleItems: "Több elem",
+    All: "Minden",
+    Search: "Keresés"
 };
 ej.PivotPager.Locale["hu-HU"] = {
     SeriesPage: "Sorozat Oldal",
@@ -828,7 +850,8 @@ ej.PivotSchemaDesigner.Locale["hu-HU"] = {
     AddToValues: "Adjunk hozzá.",
     Warning: "Figyelmeztetés",
     OK: "OK",
-    Cancel: "Törlés"
+    Cancel: "Törlés",
+    Search: "Keresés"
 };
 ej.datavisualization.RangeNavigator.Locale["hu-HU"] = {
     intervals: {

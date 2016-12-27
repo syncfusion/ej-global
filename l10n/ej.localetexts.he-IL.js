@@ -359,7 +359,13 @@ ej.Gantt.Locale["he-IL"] = {
         resourcesTabText: "אֶמְצָעִי",
         customFieldsTabText: "שדות מותאמים אישית",
         notesTabText: "הערות"
-    }
+    },
+    predecessorCollectionText: [
+            { id: "SS", text: "הַתחָלָה-הַתחָלָה", value: "הַתחָלָה-הַתחָלָה" },
+            { id: "SF", text: "סִיוּם-הַתחָלָה", value: "סִיוּם-הַתחָלָה" },
+            { id: "FS", text: "הַתחָלָה-סִיוּם", value: "הַתחָלָה-סִיוּם" },
+            { id: "FF", text: "סִיוּם-סִיוּם", value: "סִיוּם-סִיוּם" }
+        ],
 };
 ej.Grid.Locale["he-IL"] = {
     EmptyRecord: "אין רשומות לתצוגה",
@@ -501,10 +507,8 @@ ej.PivotClient.Locale["he-IL"] = {
     CannotRemoveSingleReport: "לא ניתן להסיר דווח יחיד",
     AreYouSureToDeleteTheReport: 'האם אתה בטוח שברצונך למחוק את הדו"ח',
     RenameReport: "שינוי שם דווח",
-    SaveReport: "שמירת דוח",
     ChartTypes: "סוגי תרשימים",
     ToggleAxis: "ציר Toggle",
-    LoadReport: "דווח טען",
     ExportToExcel: "ייצוא ל- Excel",
     ExportToWord: "ייצוא ל- Word",
     ExportToPdf: "ייצוא ל- PDF",
@@ -583,12 +587,27 @@ ej.PivotClient.Locale["he-IL"] = {
     FilterSortcolMeasureAlertMsg: "אנא הוסף את העמודה כדי למדוד את ציר",
     FilterSortrowMeasureAlertMsg: "אנא הוסף מידה את ציר שורה",
     FilterSortElementAlertMsg: "רכיב לא נמצא בעמודה ציר. אנא הוסף את האלמנט בעמודה ציר עבור מיון/סינון.",
-    LoadReportAlertMsg: "בחר דוח חוקי",
     FilterMeasureSelectionAlertMsg: "בחר מידה חוקי.",
     FilterConditionAlertMsg: "אנא הגדר במצב חוקי.",
     FilterStartValueAlertMsg: "אנא הגדר ערך התחלה.",
     FilterEndValueAlertMsg: "אנא הגדר ערך קצה.",
-    FilterInvalidAlertMsg: "פעולה לא חוקית !"
+    FilterInvalidAlertMsg: "פעולה לא חוקית !",
+    SelectRecordAlertMsg: "בחר רשומה חוקי.",
+    RecordName: "הקלטת שם",
+    RemoveRecord: "הסר להקליט",
+    RenameRecord: "שינוי שם רשומה",
+    Load: "לטעון",
+    Remove: "הסר",
+    Save: "לשמור",
+    SaveAs: "שמירה בשם",
+    SelectRecord: "בחר רשומה",
+    SelectReport: "בחר דוח",
+    DBReport: "הדוח מניפולציה ב DB",
+    Rename: "שינוי שם",
+    Remove: "הסר",
+    SetRecordNameAlertMsg: "אנא הגדר הקליטו שם.",
+    SetReportNameAlertMsg: "אנא הגדר שם דוח.",
+    Search: "חיפוש"
 };
 ej.PivotGauge.Locale["he-IL"] = {
     RevenueGoal: "יעד הכנסה",
@@ -775,7 +794,10 @@ ej.PivotGrid.Locale["he-IL"] = {
     NotValid: "נוסחה נתון אינו חוקי",
     NotPresent: "להשתמש בהם בכל שדה הערך של שדה מחושב לפי נוסחה אינו נוכח ה- PivotGrid",
     Confirm: "שדה מחושב עם שם זהה קיים כבר. עקב ברצונך להחליף ?",
-    CalcValue: "שדה מחושב ניתן להכניס רק אזור ערך שדה"
+    CalcValue: "שדה מחושב ניתן להכניס רק אזור ערך שדה",
+    MultipleItems: "פריטים מרובים",
+    All: "כל",
+    Search: "חיפוש"
 };
 ej.PivotPager.Locale["he-IL"] = {
     SeriesPage: "עמוד סדרה",
@@ -829,7 +851,8 @@ ej.PivotSchemaDesigner.Locale["he-IL"] = {
     AddToValues: "להוסיף ערכים",
     Warning: "אזהרה",
     OK: "אישור",
-    Cancel: "ביטול"
+    Cancel: "ביטול",
+    Search: "חיפוש"
 };
 ej.datavisualization.RangeNavigator.Locale["he-IL"] = {
     intervals: {

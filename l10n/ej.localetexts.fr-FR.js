@@ -366,7 +366,13 @@ ej.Gantt.Locale["fr-FR"] = {
         resourcesTabText: "Ressources",
         customFieldsTabText: "Les champs personnalisés",
         notesTabText: "Remarques"
-    }
+    },
+    predecessorCollectionText: [
+            { id: "SS", text: "Démarrer-Démarrer", value: "Démarrer-Démarrer" },
+            { id: "SF", text: "Démarrer-terminer", value: "Démarrer-terminer" },
+            { id: "FS", text: "terminer-Démarrer", value: "terminer-Démarrer" },
+            { id: "FF", text: "terminer-terminer", value: "terminer-terminer" }
+        ],
 };
 ej.Grid.Locale["fr-FR"] = {
     EmptyRecord: "Aucun enregistrement à afficher",
@@ -536,10 +542,8 @@ ej.PivotClient.Locale["fr-FR"] = {
     CannotRemoveSingleReport: "Impossible de supprimer le rapport unique",
     AreYouSureToDeleteTheReport: "Êtes-vous sûr de vouloir supprimer le rapport",
     RenameReport: "renommez Rapport",
-    SaveReport: "Enregistrer le rapport",
     ChartTypes: "Types de graphiques",
     ToggleAxis: "Basculer Axis",
-    LoadReport: "Rapport de charge",
     ExportToExcel: "Exporter vers Excel",
     ExportToWord: "Exporter vers Word",
     ExportToPdf: "Exporter au format PDF",
@@ -590,12 +594,27 @@ ej.PivotClient.Locale["fr-FR"] = {
     FilterSortcolMeasureAlertMsg: "Veuillez ajouter à la mesure de l'axe de la colonne",
     FilterSortrowMeasureAlertMsg: "Veuillez ajouter à la mesure de l'axe de rang",
     FilterSortElementAlertMsg: "Élément non trouvé dans l'axe de la colonne. Veuillez ajouter un élément dans l'axe de la colonne pour trier/filtrage.",
-    LoadReportAlertMsg: "Veuillez sélectionner un rapport valide",
     FilterMeasureSelectionAlertMsg: "Veuillez sélectionner une mesure valide.",
     FilterConditionAlertMsg: "Veuillez définir une condition valide.",
     FilterStartValueAlertMsg: "Veuillez définir une valeur de départ.",
     FilterEndValueAlertMsg: "Veuillez définir une valeur de fin.",
-    FilterInvalidAlertMsg: "Opération non valide !"
+    FilterInvalidAlertMsg: "Opération non valide !",
+    SelectRecordAlertMsg: "Veuillez sélectionner un enregistrement valide.",
+    RecordName: "Nom d'enregistrement",
+    RemoveRecord: "Effacer l'enregistrement",
+    RenameRecord: "L'enregistrement de nom",
+    Load: "Charger",
+    Remove: "Déposer",
+    Save: "Sauvegarder",
+    SaveAs: "Enregistrer sous",
+    SelectRecord: "Sélectionnez Enreg.",
+    SelectReport: "Sélectionnez Rapport",
+    DBReport: "La manipulation en DB Rapport",
+    Rename: "Renommer",
+    Remove: "Déposer",
+    SetRecordNameAlertMsg: "Veuillez définir nom d'enregistrement.",
+    SetReportNameAlertMsg: "Veuillez définir le nom du rapport.",
+    Search: "Recherchez"
 };
 ej.PivotGauge.Locale["fr-FR"] = {
     RevenueGoal: "Revenu But",
@@ -788,7 +807,10 @@ ej.PivotGrid.Locale["fr-FR"] = {
     NotValid: "formule donnée est pas valide",
     NotPresent: "champ Valeur utilisée dans toute la formule de champ calculé est pas présent dans le PivotGrid",
     Confirm: "champ calculé avec le même nom existe déjà en raison de vouloir remplacer.?",
-    CalcValue: "Champ calculé peut être inséré que dans le champ de la zone de valeur"
+    CalcValue: "Champ calculé peut être inséré que dans le champ de la zone de valeur",
+    MultipleItems: "Plusieurs éléments",
+    All: "Tous les",
+    Search: "Recherchez"
 };
 ej.PivotPager.Locale["fr-FR"] = {
     SeriesPage: "Series page",
@@ -843,6 +865,7 @@ ej.PivotSchemaDesigner.Locale["fr-FR"] = {
     LessThanOrEqualTo: "Inférieure ou égale à ",
     Between: "Entre",
     NotBetween: "Pas entre",
+    Search: "Recherchez"
 };
 ej.datavisualization.RangeNavigator.Locale["fr-FR"] = {
     intervals: {

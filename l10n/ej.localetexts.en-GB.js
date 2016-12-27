@@ -318,7 +318,8 @@ ej.PivotSchemaDesigner.Locale["en-GB"] = {
     Update: "Update",
     OK: "OK",
     Cancel: "Cancel",
-    Close: "Close"
+    Close: "Close",
+    Search: "Search"
 };
 ej.PivotPager.Locale["en-GB"] = {
     SeriesPage: "Series Page",
@@ -496,7 +497,13 @@ ej.Gantt.Locale["en-GB"] = {
         resourcesTabText: "Resources",
         customFieldsTabText: "Custom Fields",
         notesTabText: "Notes"
-    }
+    },
+    predecessorCollectionText: [
+            { id: "SS", text: "Start-Start", value: "Start-Start" },
+            { id: "SF", text: "Start-Finish", value: "Start-Finish" },
+            { id: "FS", text: "Finish-Start", value: "Finish-Start" },
+            { id: "FF", text: "Finish-Finish", value: "Finish-Finish" }
+        ],
 };
 
 ej.PivotGrid.Locale["en-GB"] = {
@@ -622,7 +629,10 @@ ej.PivotGrid.Locale["en-GB"] = {
     NotValid: "Given formula is not valid",
     NotPresent: "Value field used in any of the Calculated Field formula is not present in the PivotGrid",
     Confirm: "Calculated field with the same name already exists. Due to want to Replace ?",
-    CalcValue: "Calculated field can be inserted only in value area field"
+    CalcValue: "Calculated field can be inserted only in value area field",
+    MultipleItems: "Multiple items",
+    All: "All",
+    Search: "Search"
 };
 ej.PivotClient.Locale["en-GB"] = {
     Sort: "Sort",
@@ -664,10 +674,8 @@ ej.PivotClient.Locale["en-GB"] = {
     CannotRemoveSingleReport: "Can not remove single report",
     AreYouSureToDeleteTheReport: "Are you sure to delete the Report",
     RenameReport: "Rename Report",
-    SaveReport: "Save Report",
     ChartTypes: "Chart Types",
     ToggleAxis: "Toggle Axis",
-    LoadReport: "Load Report",
     ExportToExcel: "Export To Excel",
     ExportToWord: "Export To Word",
     ExportToPdf: "Export To Pdf",
@@ -733,12 +741,27 @@ ej.PivotClient.Locale["en-GB"] = {
     FilterSortcolMeasureAlertMsg: "Please add measure to the Column axis",
     FilterSortrowMeasureAlertMsg: "Please add measure to the Row axis",
     FilterSortElementAlertMsg: "Element not found in column axis. Please add an element in column axis for sorting/filtering.",
-    LoadReportAlertMsg: "Please select a valid report",
     FilterMeasureSelectionAlertMsg: "Please select a valid measure.",
     FilterConditionAlertMsg: "Please set a valid condition.",
     FilterStartValueAlertMsg: "Please set a start value.",
     FilterEndValueAlertMsg: "Please set a end value.",
-    FilterInvalidAlertMsg: "Invalid operation !"
+    FilterInvalidAlertMsg: "Invalid operation !",
+    SelectRecordAlertMsg: "Please select a valid record.",
+    RecordName: "Record Name",
+    RemoveRecord: "Remove Record",
+    RenameRecord: "Rename Record",
+    Load: "Load",
+    Remove: "Remove",
+    Save: "Save",
+    SaveAs: "SaveAs",
+    SelectRecord: "Select Record",
+    SelectReport: "Select Report",
+    DBReport: "Report Manipulation in DB",
+    Rename: "Rename",
+    Remove: "Remove",
+    SetRecordNameAlertMsg: "Please set record name.",
+    SetReportNameAlertMsg: "Please set report name.",
+    Search: "Search"
 };
 ej.Autocomplete.Locale["en-GB"] = {
     addNewText: "Add New",

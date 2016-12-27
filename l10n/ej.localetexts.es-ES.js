@@ -385,7 +385,13 @@ ej.Gantt.Locale["es-ES"] = {
         resourcesTabText: "recursos",
         customFieldsTabText: "Campos Personalizados",
         notesTabText: "notas"
-    }
+    },
+    predecessorCollectionText: [
+            { id: "SS", text: "comienzo-comienzo", value: "comienzo-comienzo" },
+            { id: "SF", text: "comienzo-Terminar", value: "comienzo-Terminar" },
+            { id: "FS", text: "Terminar-comienzo", value: "Terminar-comienzo" },
+            { id: "FF", text: "Terminar-Terminar", value: "Terminar-Terminar" }
+        ],
 };
 ej.Grid.Locale["es-ES"] = {
     EmptyRecord: "No hay registros que mostrar",
@@ -557,7 +563,6 @@ ej.PivotClient.Locale["es-ES"] = {
     FilterSortcolMeasureAlertMsg: "Agregue la medida en el eje de columna",
     FilterSortrowMeasureAlertMsg: "Agregue medir al eje de filas",
     FilterSortElementAlertMsg: "Elemento no encontrado en el eje de columna. Agregue un elemento en la columna para ordenar/filtrado de eje.",
-    LoadReportAlertMsg: "Seleccione un informe válido",
     FilterMeasureSelectionAlertMsg: "Por favor seleccione una medida válida.",
     FilterConditionAlertMsg: "Por favor, establezca una condición válida.",
     FilterStartValueAlertMsg: "Por favor, establezca un valor inicial.",
@@ -576,10 +581,8 @@ ej.PivotClient.Locale["es-ES"] = {
     CannotRemoveSingleReport: "No se puede eliminar solo informe",
     AreYouSureToDeleteTheReport: "¿Está seguro que desea borrar el Informe",
     RenameReport: "Cambiar el nombre de Informe",
-    SaveReport: "Guardar reporte",
     ChartTypes: "Tipos de gráficos",
     ToggleAxis: "Alternar Eje",
-    LoadReport: "Informe de carga",
     ExportToExcel: "Exportar a Excel",
     ExportToWord: "Exportar a Word",
     ExportToPdf: "Exportar a PDF",
@@ -622,7 +625,23 @@ ej.PivotClient.Locale["es-ES"] = {
     Doughnut: "rosquilla",
     Scatter: "dispersión",
     Bubble: "Bubble",
-    TreeMap: "TreeMap"
+    TreeMap: "TreeMap",
+    SelectRecordAlertMsg: "Seleccione un registro válido.",
+    RecordName: "Nombre de registro",
+    RemoveRecord: "Quitar registro",
+    RenameRecord: "Cambiar nombre de registro",
+    Load: "Cargar",
+    Remove: "Retirar",
+    Save: "Guardar",
+    SaveAs: "Guardarcomo",
+    SelectRecord: "Seleccionar registro",
+    SelectReport: "Seleccione Informe",
+    DBReport: "La manipulación del informe en DB",
+    Rename: "Renombrar",
+    Remove: "Retirar",
+    SetRecordNameAlertMsg: "Por favor, establezca el nombre del registro.",
+    SetReportNameAlertMsg: "Por favor, establezca el nombre del informe.",
+    Search: "Buscar"
 };
 ej.PivotGauge.Locale["es-ES"] = {
     RevenueGoal: "ingresos Meta",
@@ -819,7 +838,10 @@ ej.PivotGrid.Locale["es-ES"] = {
     NotValid: "Fórmula dada no es válido",
     NotPresent: "Campo Valor utilizado en ninguna de las fórmulas de campo calculado no está presente en el PivotGrid",
     Confirm: "Campo calculado con el mismo nombre ya existe. Debido a que desea reemplazar ?",
-    CalcValue: "Campo calculado sólo puede insertarse en el valor de área de campo"
+    CalcValue: "Campo calculado sólo puede insertarse en el valor de área de campo",
+    MultipleItems: "Varios elementos",
+    All: "Todos",
+    Search: "Buscar"
 };
 ej.PivotPager.Locale["es-ES"] = {
     SeriesPage: "series Page",
@@ -875,7 +897,8 @@ ej.PivotSchemaDesigner.Locale["es-ES"] = {
     AddToValues: "Añadir al valor",
     OK: "OK",
     Cancel: "Cancelar",
-    Close: "Cerrar"
+    Close: "Cerrar",
+    Search: "Buscar"
 };
 ej.datavisualization.RangeNavigator.Locale["es-ES"] = {
     intervals: {

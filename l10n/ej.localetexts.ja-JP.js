@@ -358,7 +358,13 @@ ej.Gantt.Locale["ja-JP"] = {
         resourcesTabText: "リソース",
         customFieldsTabText: "カスタムフィールド",
         notesTabText: "ノート"
-    }
+    },
+    predecessorCollectionText: [
+            { id: "SS", text: "開始-開始", value: "開始-開始" },
+            { id: "SF", text: "開始-フィニッシュ", value: "開始-フィニッシュ" },
+            { id: "FS", text: "フィニッシュ-開始", value: "フィニッシュ-開始" },
+            { id: "FF", text: "フィニッシュ-フィニッシュ", value: "フィニッシュ-フィニッシュ" }
+        ],
 };
 ej.Grid.Locale["ja-JP"] = {
     EmptyRecord: "レコードは表示されませんします",
@@ -499,10 +505,8 @@ ej.PivotClient.Locale["ja-JP"] = {
     CannotRemoveSingleReport: "単一のレポートを削除することはできません。",
     AreYouSureToDeleteTheReport: "あなたは、レポートを削除してもよろしいです",
     RenameReport: "レポートの名前を変更します",
-    SaveReport: "レポートの保存",
     ChartTypes: "チャートタイプ",
     ToggleAxis: "トグル軸",
-    LoadReport: "レポートをロード",
     ExportToExcel: "Excelへのエクスポート",
     ExportToWord: "エクスポートWordの",
     ExportToPdf: "PDFへの書き出し",
@@ -582,12 +586,27 @@ ej.PivotClient.Locale["ja-JP"] = {
     FilterSortcolMeasureAlertMsg: "列の軸にメジャーを追加してください。",
     FilterSortrowMeasureAlertMsg: "行軸にメジャーを追加してください。",
     FilterSortElementAlertMsg: "列の軸の要素が見つかりませんでした。 ソート / フィルタリングするための列軸の要素を追加してください。",
-    LoadReportAlertMsg: "有効なレポートを選択してください。",
     FilterMeasureSelectionAlertMsg: "有効な測定値を選択してください。",
     FilterConditionAlertMsg: "有効な条件を設定してください。",
     FilterStartValueAlertMsg: "開始値を設定してください。",
     FilterEndValueAlertMsg: "は終了点の値を設定してください。",
-    FilterInvalidAlertMsg: "無効な操作！"
+    FilterInvalidAlertMsg: "無効な操作！",
+    SelectRecordAlertMsg: "有効なレコードを選択してください。",
+    RecordName: "レコード名",
+    RemoveRecord: "記録を削除します。",
+    RenameRecord: "レコード名を変更",
+    Load: "ロード",
+    Remove: "削除",
+    Save: "保存",
+    SaveAs: "名前を付けて保存",
+    SelectRecord: "レコードを選択します",
+    SelectReport: "レポートを選択します",
+    DBReport: "DB でのレポートの操作",
+    Rename: "名前を変更する",
+    Remove: "削除",
+    SetRecordNameAlertMsg: "レコードセット名を入力してください。",
+    SetReportNameAlertMsg: "セットのレポート名を入力してください。",
+    Search: "検索"
 };
 ej.PivotGauge.Locale["ja-JP"] = {
     RevenueGoal: "収益目標",
@@ -774,7 +793,10 @@ ej.PivotGrid.Locale["ja-JP"] = {
     NotValid: "指定された式が有効ではありません",
     NotPresent: "計算されたフィールドの式のいずれかで使用されて値フィールドは、 PivotGrid に存在しません",
     Confirm: "計算したのと同じフィールド名はすでに存在します。 を交換するためにしますか？",
-    CalcValue: "計算されたフィールドの値の領域のフィールドだけを挿入することができます"
+    CalcValue: "計算されたフィールドの値の領域のフィールドだけを挿入することができます",
+    MultipleItems: "複数のアイテム",
+    All: "すべての",
+    Search: "検索"
 };
 ej.PivotPager.Locale["ja-JP"] = {
     SeriesPage: "シリーズページ",
@@ -828,7 +850,8 @@ ej.PivotSchemaDesigner.Locale["ja-JP"] = {
     AddToValues: "の値の追加",
     Warning: "警告",
     OK: "OK をクリック",
-    Cancel: "キャンセル"
+    Cancel: "キャンセル",
+    Search: "検索"
 };
 ej.datavisualization.RangeNavigator.Locale["ja-JP"] = {
     intervals: {

@@ -358,7 +358,13 @@ ej.Gantt.Locale["nl-NL"] = {
         resourcesTabText: "Middelen",
         customFieldsTabText: "Aangepaste velden",
         notesTabText: "Notes"
-    }
+    },
+    predecessorCollectionText: [
+            { id: "SS", text: "Begin-Begin", value: "Begin-Begin" },
+            { id: "SF", text: "Begin-Afwerking", value: "Begin-Afwerking" },
+            { id: "FS", text: "Afwerking-Begin", value: "Afwerking-Begin" },
+            { id: "FF", text: "Afwerking-Afwerking", value: "Afwerking-Afwerking" }
+        ],
 };
 ej.Grid.Locale["nl-NL"] = {
     EmptyRecord: "Geen records om te laten zien",
@@ -499,10 +505,8 @@ ej.PivotClient.Locale["nl-NL"] = {
     CannotRemoveSingleReport: "Kan niet verwijderen Single Report",
     AreYouSureToDeleteTheReport: "Weet je zeker dat het rapport te verwijderen",
     RenameReport: "hernoemen Report",
-    SaveReport: "Rapport opslaan",
     ChartTypes: "diagramtypen",
     ToggleAxis: "Toggle as",
-    LoadReport: "Last Report",
     ExportToExcel: "Exporteren naar Excel",
     ExportToWord: "Exporteren naar Word",
     ExportToPdf: "Exporteren naar PDF",
@@ -582,12 +586,27 @@ ej.PivotClient.Locale["nl-NL"] = {
     FilterSortcolMeasureAlertMsg: "Voeg meet de kolomas",
     FilterSortrowMeasureAlertMsg: "Voeg meet aan de rij as",
     FilterSortElementAlertMsg: "Element niet gevonden in kolomas. Voeg een element in kolomas voor sorteren/filteren.",
-    LoadReportAlertMsg: "Selecteer een geldig rapport",
     FilterMeasureSelectionAlertMsg: "Selecteer een geldige maatstaf.",
     FilterConditionAlertMsg: "Stel een geldig staat.",
     FilterStartValueAlertMsg: "Stel een beginwaarde.",
     FilterEndValueAlertMsg: "Stel een eindwaarde.",
-    FilterInvalidAlertMsg: "Ongeldige bewerking !"
+    FilterInvalidAlertMsg: "Ongeldige bewerking !",
+    SelectRecordAlertMsg: "Selecteer een geldige record.",
+    RecordName: "Naam opnemen",
+    RemoveRecord: "Verwijder Record",
+    RenameRecord: "Naam opnemen",
+    Load: "Belasting",
+    Remove: "Verwijder",
+    Save: "Opslaan",
+    SaveAs: "Opslaan als",
+    SelectRecord: "Selecteer Record",
+    SelectReport: "Rapport selecteren",
+    DBReport: "Verslag manipulatie in DB",
+    Rename: "Hernoemen",
+    Remove: "Verwijder",
+    SetRecordNameAlertMsg: "Stel naam opnemen.",
+    SetReportNameAlertMsg: "Stel de rapportnaam.",
+    Search: "Zoeken"
 };
 ej.PivotGauge.Locale["nl-NL"] = {
     RevenueGoal: "inkomsten Goal",
@@ -774,7 +793,10 @@ ej.PivotGrid.Locale["nl-NL"] = {
     NotValid: "Gegeven formule is niet geldig",
     NotPresent: "Waardeveld wordt gebruikt in de berekend veld formule is niet aanwezig in de PivotGrid",
     Confirm: "Berekend veld met dezelfde naam bestaat reeds. Vanwege wilt vervangen?",
-    CalcValue: "Berekend veld kan worden ingevoegd in het veld"
+    CalcValue: "Berekend veld kan worden ingevoegd in het veld",
+    MultipleItems: "Meerdere items",
+    All: "Alle",
+    Search: "Zoeken"
 };
 ej.PivotPager.Locale["nl-NL"] = {
     SeriesPage: "serie Pagina",
@@ -828,7 +850,8 @@ ej.PivotSchemaDesigner.Locale["nl-NL"] = {
     AddToValues: "Toevoegen aan waarden",
     Warning: "Waarschuwing",
     OK: "OK",
-    Cancel: "Annuleren"
+    Cancel: "Annuleren",
+    Search: "Zoeken"
 };
 ej.datavisualization.RangeNavigator.Locale["nl-NL"] = {
     intervals: {

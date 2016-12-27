@@ -358,7 +358,13 @@ ej.Gantt.Locale["fa-IR"] = {
         resourcesTabText: "منابع",
         customFieldsTabText: "موضوعات سفارشی",
         notesTabText: "یادداشت"
-    }
+    },
+    predecessorCollectionText: [
+            { id: "SS", text: "شروع-شروع", value: "شروع-شروع" },
+            { id: "SF", text: "پایان-شروع", value: "پایان-شروع" },
+            { id: "FS", text: "شروع-پایان", value: "شروع-پایان" },
+            { id: "FF", text: "پایان-پایان", value: "پایان-پایان" }
+        ],
 };
 ej.Grid.Locale["fa-IR"] = {
     EmptyRecord: "هیچ پرونده برای نمایش نیست",
@@ -500,10 +506,8 @@ ej.PivotClient.Locale["fa-IR"] = {
     CannotRemoveSingleReport: "می توانید گزارش تنها را حذف کنید",
     AreYouSureToDeleteTheReport: "آیا مطمئن به حذف گزارش",
     RenameReport: "تغییر نام را گزارش دهید",
-    SaveReport: "ذخیره گزارش",
     ChartTypes: "انواع نمودار",
     ToggleAxis: "تعویض محور",
-    LoadReport: "بار گزارش",
     ExportToExcel: "صادرات به اکسل",
     ExportToWord: "صادرات به ورد",
     ExportToPdf: "صادرات به PDF",
@@ -582,12 +586,27 @@ ej.PivotClient.Locale["fa-IR"] = {
     FilterSortcolMeasureAlertMsg: "لطفاً برای افزودن اقدام به ستون محور",
     FilterSortrowMeasureAlertMsg: "لطفاً برای افزودن اقدام به محور ردیف",
     FilterSortElementAlertMsg: "عنصر محور ستون یافت نشد. لطفاً برای افزودن یک عنصر در محور برای مرتب سازی ستون/فیلتر کردن.",
-    LoadReportAlertMsg: "لطفاً يك گزارش معتبر را انتخاب کنید",
     FilterMeasureSelectionAlertMsg: "لطفاً تا حدودي معتبر را انتخاب کنید.",
     FilterConditionAlertMsg: "لطفاً شرط معتبر است.",
     FilterStartValueAlertMsg: "لطفاً برای شروع یک مقدار تنظیم شده است.",
     FilterEndValueAlertMsg: "لطفا یک مقدار تنظیم شده در پايان.",
-    FilterInvalidAlertMsg: "عملیات نامعتبر است!!!"
+    FilterInvalidAlertMsg: "عملیات نامعتبر است!!!",
+    SelectRecordAlertMsg: "لطفا ثبت معتبر را انتخاب کنید.",
+    RecordName: "ثبت نام",
+    RemoveRecord: "رکورد را حذف کنید",
+    RenameRecord: "رکورد کامپیوترها",
+    Load: "بارگیری",
+    Remove: "حذف کنید",
+    Save: "ذخیره",
+    SaveAs: "ذخیره به عنوان",
+    SelectRecord: "گزارش را انتخاب کنید",
+    SelectReport: "گزارش را انتخاب کنید",
+    DBReport: "سهمی در گزارش 76 دسی بل",
+    Rename: "کامپیوترها",
+    Remove: "حذف کنید",
+    SetRecordNameAlertMsg: "لطفا ثبت نام را تنظیم کنید.",
+    SetReportNameAlertMsg: "لطفاً اسم گزارش تنظیم شده است.",
+    Search: "جستجو"
 };
 ej.PivotGauge.Locale["fa-IR"] = {
     RevenueGoal: "هدف درآمد",
@@ -774,7 +793,10 @@ ej.PivotGrid.Locale["fa-IR"] = {
     NotValid: "فرمول داده شده معتبر نيست.",
     NotPresent: "مقدار استفاده شده در هر رشته از رشته فرمول محاسبه شده است كه در PivotGrid",
     Confirm: "در رشته محاسبه شده با این نام از قبل وجود دارد. به علت تعویض می کردی ؟",
-    CalcValue: "محاسبه میدان را می توان فقط در ناحیه مقدار وارد عرصه"
+    CalcValue: "محاسبه میدان را می توان فقط در ناحیه مقدار وارد عرصه",
+    MultipleItems: "اقلام چندگانه",
+    All: "همه",
+    Search: "جستجو"
 };
 ej.PivotPager.Locale["fa-IR"] = {
     SeriesPage: "سری صفحه",
@@ -828,7 +850,8 @@ ej.PivotSchemaDesigner.Locale["fa-IR"] = {
     AddToValues: "افزودن به ارزش ها",
     Warning: "هشدار",
     OK: "OK",
-    Cancel: "لغو"
+    Cancel: "لغو",
+    Search: "جستجو"
 };
 ej.datavisualization.RangeNavigator.Locale["fa-IR"] = {
     intervals: {
