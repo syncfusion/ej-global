@@ -16,7 +16,9 @@
     
     ".gitignore",
 
-     "demos",
+    "demos",
+
+    "ej-global-all",
 	 
 	 "i18n/*",
 	 
