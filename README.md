@@ -1,11 +1,8 @@
-EJ Global
-============
+## About Syncfusion EJ Global
 
-Syncfusion's Essential Studio for JavaScript with language packs for 
-the localization of all EJ widgets.
+Syncfusion's Essential Studio for JavaScript with language packs for the localization of all EJ widgets.
 
-Currently supported localization languages
-===========================
+## Currently supported localization languages
 
 | Culture-Code | Language                       |
 | ------------ | ------------------------------ |
@@ -37,3 +34,26 @@ Currently supported localization languages
 | vi-VN        | Vietnamese - Vietnam           |
 | zh-CN        | Chinese - China                |
 
+## Configuring Syncfusion Bower Packages
+
+Refer the Syncfusion bower packages documentation in [https://help.syncfusion.com/js/installation-and-deployment#configuring-syncfusion-bower-packages](https://help.syncfusion.com/js/installation-and-deployment#configuring-syncfusion-bower-packages)
+
+## Configuring Syncfusion NPM Packages
+
+Refer the Syncfusion npm packages documentation in [https://help.syncfusion.com/js/installation-and-deployment#configuring-syncfusion-npm-packages](https://help.syncfusion.com/js/installation-and-deployment#configuring-syncfusion-npm-packages)
+
+## Configuring Syncfusion JSPM Packages
+
+Refer the Syncfusion jspm packages documentation in [https://help.syncfusion.com/js/installation-and-deployment#configuring-syncfusion-jspm-packages](https://help.syncfusion.com/js/installation-and-deployment#configuring-syncfusion-jspm-packages)
+
+## Support
+
+In case of any questions regarding the use of Syncfusion EJ Global, please [contact us](http://www.syncfusion.com/support/# "") by creating a support ticket.
+
+## Release Notes
+
+Refer the Syncfusion JavaScript Product Release Notes in [online Release Notes at Syncfusion](http://help.syncfusion.com/js/release-notes/# "").
+
+## License Information
+
+For licensing information about Syncfusion JavaScript, Download the Syncfusion License Agreements from [here](https://www.syncfusion.com/content/downloads/syncfusion_license.pdf).
