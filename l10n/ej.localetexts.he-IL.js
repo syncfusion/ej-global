@@ -7,12 +7,13 @@
 *  applicable laws. 
 */
 
-ej.Autocomplete.Locale["he-IL"] = {
+if (ej.Autocomplete) ej.Autocomplete.Locale["he-IL"] = {
     addNewText: "הוסף חדש",
     emptyResultText: "אין הצעות",
     actionFailure: "השדה שצוין אינו קיים במקור נתונים נתונים",
+    watermarkText: " "
 };
-ej.ColorPicker.Locale["he-IL"] = {
+if (ej.ColorPicker) ej.ColorPicker.Locale["he-IL"] = {
     buttonText: {
         apply: "להגיש מועמדות",
         cancel: "לְבַטֵל",
@@ -37,14 +38,14 @@ ej.ColorPicker.Locale["he-IL"] = {
         selectedcolor: "צבע נבחר"
     },
 };
-ej.CurrencyTextbox.Locale["he-IL"] = {
+if (ej.CurrencyTextbox) ej.CurrencyTextbox.Locale["he-IL"] = {
     watermarkText: "זן ערך",
 };
-ej.DatePicker.Locale["he-IL"] = {
+if (ej.DatePicker) ej.DatePicker.Locale["he-IL"] = {
     watermarkText: "תאריך בחר",
     buttonText: "היום",
 };
-ej.DateRangePicker.Locale["he-IL"] = {
+if (ej.DateRangePicker) ej.DateRangePicker.Locale["he-IL"] = {
     ButtonText: {
         apply: "להגיש מועמדות",
         cancel: "לְבַטֵל",
@@ -53,7 +54,7 @@ ej.DateRangePicker.Locale["he-IL"] = {
     watermarkText: "בחר טווח",
     customPicker: "בורר מותאם אישית",
 };
-ej.DateTimePicker.Locale["he-IL"] = {
+if (ej.DateTimePicker) ej.DateTimePicker.Locale["he-IL"] = {
     watermarkText: "תאריך ושעה בחר",
     buttonText: {
         today: "היום",
@@ -62,7 +63,7 @@ ej.DateTimePicker.Locale["he-IL"] = {
         timeTitle: "זְמַן"
     },
 };
-ej.datavisualization.Diagram.Locale["he-IL"] = {
+if (ej.datavisualization && ej.datavisualization.Diagram) ej.datavisualization.Diagram.Locale["he-IL"] = {
     cut: "גְזִירָה",
     copy: "עותק",
     paste: "לְהַדבִּיק",
@@ -78,7 +79,7 @@ ej.datavisualization.Diagram.Locale["he-IL"] = {
     sendBackward: "העבר לאחור",
     sendToBack: "שלח אחורה",
 };
-ej.Dialog.Locale["he-IL"] = {
+if (ej.Dialog) ej.Dialog.Locale["he-IL"] = {
     tooltip: {
         close: "לִסְגוֹר",
         collapse: "הִתמוֹטְטוּת",
@@ -91,12 +92,12 @@ ej.Dialog.Locale["he-IL"] = {
     },
     closeIconTooltip: "לִסְגוֹר",
 };
-ej.DropDownList.Locale["he-IL"] = {
+if (ej.DropDownList) ej.DropDownList.Locale["he-IL"] = {
 	emptyResultText: "אין הצעות",
 	watermarkText: " ",
 };
 
-ej.ExcelFilter.Locale["he-IL"] = {
+if (ej.ExcelFilter) ej.ExcelFilter.Locale["he-IL"] = {
     SortNoSmaller: "מיין מהנמוך לגבוה",
     SortNoLarger: "מיין גדול לקטן",
     SortTextAscending: "מעין 'עד ת'",
@@ -140,7 +141,15 @@ ej.ExcelFilter.Locale["he-IL"] = {
     True: "נָכוֹן",
     False: "שֶׁקֶר",
 };
-ej.FileExplorer.Locale["he-IL"] = {
+if (ej.FileExplorer) ej.FileExplorer.Locale["he-IL"] = {
+    EmptyFolder: "התיקיה הזו ריקה",
+    ProtectedFolder: "אין לך כרגע הרשאה לגשת לתיקייה זו",
+    EmptyResult: "אין פריטים שמתאימים לחיפוש שלך",
+    ContextMenuSortBy: "מיין לפי",
+    InvalidFileName: "שם קובץ אינו יכול להכיל את התווים הבאים:\\/:*?\"<>|",
+    Selected: "נבחר",
+    Permission: "רְשׁוּת",
+    SortBy: "מיין לפי",
     Back: "לְאָחוֹר",
     Forward: "קָדִימָה",
     Upward: "למעלה",
@@ -198,6 +207,18 @@ ej.FileExplorer.Locale["he-IL"] = {
     Modified: "השתנה",
     DialogCloseToolTip: "לִסְגוֹר",
     UploadSettings: {
+        buttonText: {
+            upload: "העלה",
+            browse: "לְדַפדֵף",
+            cancel: "לְבַטֵל",
+            close: "לִסְגוֹר"
+        },
+        dialogText: {
+            title: "תיבת עלה",
+            name: "שֵׁם",
+            size: "גודל",
+            status: "סטָטוּס"
+        },
         dropAreaText: "שחרר את הקבצים או לחץ כדי להעלות",
         filedetail: "גודל הקובץ שנבחר גדול מדי. אנא בחר קובץ בתוך הגודל החוקי.",
         denyError: "קבצים עם סיומות #Extension אינם מותרים.",
@@ -210,7 +231,7 @@ ej.FileExplorer.Locale["he-IL"] = {
         closeToolTip: "לִסְגוֹר"
     },
 };
-ej.Gantt.Locale["he-IL"] = {
+if (ej.Gantt) ej.Gantt.Locale["he-IL"] = {
     emptyRecord: "אין רשומות לתצוגה",
     alertTexts: {
         indentAlert: "אין תיעוד גנט נבחר לבצע את הקטנת הכניסה",
@@ -367,7 +388,7 @@ ej.Gantt.Locale["he-IL"] = {
             { id: "FF", text: "סִיוּם-סִיוּם", value: "סִיוּם-סִיוּם" }
         ],
 };
-ej.Grid.Locale["he-IL"] = {
+if (ej.Grid) ej.Grid.Locale["he-IL"] = {
     EmptyRecord: "אין רשומות לתצוגה",
     GroupDropArea: "גרור כותרת עמודה כאן לקבוצה שזה טור",
     DeleteOperationAlert: "אין רשומים שנבחר עבור פעולת מחיקה",
@@ -480,19 +501,63 @@ if (ej.mobile !== undefined && ej.mobile.TimePicker !== undefined) {
     };
     ;
 }
-ej.NumericTextbox.Locale["he-IL"] = {
+if (ej.NumericTextbox) ej.NumericTextbox.Locale["he-IL"] = {
     watermarkText: "זן ערך",
 };
-ej.PivotChart.Locale["he-IL"] = {
+if (ej.PivotChart) ej.PivotChart.Locale["he-IL"] = {
     Measure: "לִמְדוֹד",
     Row: "שׁוּרָה",
     Column: "טור",
     Expand: "לְהַרְחִיב",
     Collapse: "הִתמוֹטְטוּת",
     Exit: "יְצִיאָה",
-    Value: "ערך"
+    Value: "ערך",
+
+    ChartTypes: "סוגי תרשימים",
+    TDCharts: "3D תרשימים",
+    Tooltip: "תיאור כלי",
+    Exporting: "ייצוא",
+    Line: "קַו",
+    Spline: "שֶׁגֶם",
+    Area: "אֵזוֹר",
+    SplineArea: "פינה שגם",
+    StepLine: "קו שלב",
+    StepArea: "פינת שלב",
+    Pie: "פַּאִי",
+    Bar: "בָּר",
+    StackingArea: "פינת נחת",
+    StackingColumn: "טור ערמה",
+    StackingBar: "בר Stacking",
+    Pyramid: "פִּירָמִידָה",
+    Funnel: "מַשׁפֵּך",
+    Doughnut: "סופגניה",
+    Scatter: "לְפַזֵר",
+    Bubble: "קצף",
+    TreeMap: "מפת עץ",
+    ColumnTD: "טור 3D",
+    PieTD: "פַּאִי 3D",
+    BarTD: "בָּר 3D",
+    StackingBarTD: "סידור בערימה בר 3D",
+    StackingColumnTD: "מוט בערימה 3D",
+    Excel: "Excel",
+    Word: "Word",
+    Pdf: "PDF",
+    PNG: "PNG",
+    EMF: "EMF",
+    GIF: "GIF",
+    JPG: "JPG",
+    BMF: "BMF"
 };
-ej.PivotClient.Locale["he-IL"] = {
+if (ej.PivotClient) ej.PivotClient.Locale["he-IL"] = {
+    DoesNotBeginsWith: "אינו מתחיל עם",
+    DoesNotEndsWith: "אינו מסתיים עם",
+    DoesNotContains: "אינו מכיל",
+    DoesNotEquals: "אינו שווה",
+    IsGreaterThan: "הוא גדול יותר מאשר",
+    IsGreaterThanOrEqualTo: "גדול או שווה ל",
+    IsLessThan: "הוא פחות מ",
+    IsLessThanOrEqualTo: "הוא פחות או שווה ל",
+
     DeferUpdate: "עיכוב עדכון",
     MDXQuery: "שאילתת MDX",
     Column: "טור",
@@ -609,11 +674,11 @@ ej.PivotClient.Locale["he-IL"] = {
     SetReportNameAlertMsg: "אנא הגדר שם דוח.",
     Search: "חיפוש"
 };
-ej.PivotGauge.Locale["he-IL"] = {
+if (ej.PivotGauge) ej.PivotGauge.Locale["he-IL"] = {
     RevenueGoal: "יעד הכנסה",
     RevenueValue: "ערך הכנסה",
 };
-ej.Pager.Locale["he-IL"] = {
+if (ej.Pager) ej.Pager.Locale["he-IL"] = {
     pagerInfo: "{0} מתוך {1} דפים ({2} פריטים)",
     firstPageTooltip: "עבור לדף הראשון",
     lastPageTooltip: "עבור לדף האחרון",
@@ -622,7 +687,7 @@ ej.Pager.Locale["he-IL"] = {
     nextPagerTooltip: "עבור לדף הבא",
     previousPagerTooltip: "עבור לעמוד הקודם",
 };
-ej.PdfViewer.Locale["he-IL"] = {
+if (ej.PdfViewer) ej.PdfViewer.Locale["he-IL"] = {
     toolbar: {
         print: {
             headerText: "להדפיס",
@@ -668,12 +733,77 @@ ej.PdfViewer.Locale["he-IL"] = {
             headerText: 'התאם לעמוד',
             contentText: 'התאם את העמוד PDF למיכל .',
         },
+        search: {
+            headerText: 'טקסט חיפוש',
+            contentText: 'טקסט לחיפוש מעל דפי PDF.'
+        },
+        download: {
+            headerText: 'הורדה',
+            contentText: 'הורד את מסמך PDF.'
+        },
     },
 };
-ej.PercentageTextbox.Locale["he-IL"] = {
+if (ej.PercentageTextbox) ej.PercentageTextbox.Locale["he-IL"] = {
     watermarkText: "זן ערך",
 };
-ej.PivotGrid.Locale["he-IL"] = {
+if (ej.PivotGrid) ej.PivotGrid.Locale["he-IL"] = {
+    Total: "סך",
+    GrandTotal: "סכום כולל",
+    DoesNotBeginsWith: "אינו מתחיל עם",
+    DoesNotEndsWith: "אינו מסתיים עם",
+    DoesNotContains: "אינו מכיל",
+    DoesNotEquals: "אינו שווה",
+    IsGreaterThan: "הוא גדול יותר מאשר",
+    IsGreaterThanOrEqualTo: "גדול או שווה ל",
+    IsLessThan: "הוא פחות מ",
+    IsLessThanOrEqualTo: "הוא פחות או שווה ל",
+    
+    NumberFormatting: "עיצוב מספרים",
+    FrozenHeaders: "כותרות קפוא",
+    CellSelection: "בחירת תאים",
+    CellContext: "בהקשר של תאים",
+    ColumnResize: "שינוי גודל עמודה",
+    ExcelLikeLayout: "Excel כמו פריסה",
+    FrozenHeader: "כותרת קפוא",
+    AdvancedFiltering: "סינון מתקדם",
+    Amount: "כמות",
+    Quantity: "כמות",
+    Measures: "אמצעי",
+    NumberFormats: "תבניות מספר",
+    Exporting: "ייצוא",
+    FileName: "שם קובץ",
+    ToolTip: "תיאור כלי",
+    RTL: "RTL",
+    CollapseByDefault: "התמוטטות כברירת מחדל",
+    EnableDisablePaging: "Enalbe / להשבית את אפשרות הכריזה",
+    PagingOptions: "אפשרויות כריזה אוטומטית",
+    CategoricalPageSize: "הציווי המוחלט גודל דף",
+    SeriesPageSize: "Series גודל דף",
+
+    HyperLink: "היפר קישור",
+    CellEditing: "עריכת תאים",
+    GroupingBar: "קיבוץ בר",
+    SummaryCustomization: "סיכום של התאמה אישית",
+    SummaryTypes: "סוגי סיכום",
+    SummaryType: "סוג סיכום",
+    EnableRowHeaderHyperlink: "אפשר קישור כותרת שורה",
+    EnableColumnHeaderHyperlink: "אפשר כותרת העמודה היפר קישור",
+    EnableValueCellHyperlink: "אפשר ערך תאים היפר קישור",
+    EnableSummaryCellHyperlink: "אפשר סיכום תאים היפר קישור",
+    HideGrandTotal: "הסתר סכום כולל",
+    HideSubTotal: "הסתר סיכום ביניים",
+    Both: "הן",
+    Sum: "סכום",
+    Average: "ממוצע",
+    Count: "ספירה",
+    Min: "דקות",
+
+    Max: "לכל היותר",
+    Excel: "Excel",
+    Word: "Word",
+    PDF: "PDF",
+    CSV: "CSV",
+
     ToolTipRow: "שׁוּרָה",
     ToolTipColumn: "טור",
     ToolTipValue: "ערך",
@@ -799,7 +929,7 @@ ej.PivotGrid.Locale["he-IL"] = {
     All: "כל",
     Search: "חיפוש"
 };
-ej.PivotPager.Locale["he-IL"] = {
+if (ej.PivotPager) ej.PivotPager.Locale["he-IL"] = {
     SeriesPage: "עמוד סדרה",
     CategoricalPage: "עמוד הקטגורי",
     Error: "שגיאה",
@@ -807,7 +937,16 @@ ej.PivotPager.Locale["he-IL"] = {
     Close: "קרוב",
     PageCountErrorMsg: "הזן את מספר העמוד חוקי"
 };
-ej.PivotSchemaDesigner.Locale["he-IL"] = {
+if (ej.PivotSchemaDesigner) ej.PivotSchemaDesigner.Locale["he-IL"] = {
+    DoesNotBeginsWith: "אינו מתחיל עם",
+    DoesNotEndsWith: "אינו מסתיים עם",
+    DoesNotContains: "אינו מכיל",
+    DoesNotEquals: "אינו שווה",
+    IsGreaterThan: "הוא גדול יותר מאשר",
+    IsGreaterThanOrEqualTo: "גדול או שווה ל",
+    IsLessThan: "הוא פחות מ",
+    IsLessThanOrEqualTo: "הוא פחות או שווה ל",
+
     PivotTableFieldList: "רשימת שדות PivotTable",
     ChooseFieldsToAddToReport: "בחר שדות לצורך הוספת לדווח:",
     DragFieldBetweenAreasBelow: "שדות גרורים בין האזורים מתחת:",
@@ -854,7 +993,7 @@ ej.PivotSchemaDesigner.Locale["he-IL"] = {
     Cancel: "ביטול",
     Search: "חיפוש"
 };
-ej.datavisualization.RangeNavigator.Locale["he-IL"] = {
+if (ej.datavisualization && ej.datavisualization.RangeNavigator) ej.datavisualization.RangeNavigator.Locale["he-IL"] = {
     intervals: {
         quarter: {
             longQuarters: "רוֹבַע,",
@@ -866,7 +1005,7 @@ ej.datavisualization.RangeNavigator.Locale["he-IL"] = {
         },
     },
 };
-ej.ReportViewer.Locale["he-IL"] = {
+if (ej.ReportViewer) ej.ReportViewer.Locale["he-IL"] = {
     toolbar: {
         print: {
             headerText: "להדפיס",
@@ -962,15 +1101,43 @@ ej.ReportViewer.Locale["he-IL"] = {
     },
     viewButton: "צפה בדוח",
 };
-ej.Ribbon.Locale["he-IL"] = {
+if (ej.Ribbon) ej.Ribbon.Locale["he-IL"] = {
     CustomizeQuickAccess: "התאמה אישית של סרגל הכלים לגישה מהירה",
     RemoveFromQuickAccessToolbar: "הסר סרגל הכלים לגישה מהירה",
     AddToQuickAccessToolbar: "הוסף סרגל כלים לגישה מהירה",
     ShowAboveTheRibbon: "צג מעל רצועת הכלים",
     ShowBelowTheRibbon: "הצג מתחת רצועת הכלים",
-    MoreCommands: "פקוד יותר ...",
+    MoreCommands: "פקוד יותר ..."
 };
-ej.RTE.Locale["he-IL"] = {
+if (ej.Kanban) ej.Kanban.Locale["he-IL"] = {
+    EmptyCard: "לא מכבד כרטיסים לתצוגה",
+    SaveButton: "להציל",
+    CancelButton: "לְבַטֵל",
+    EditFormTitle: "פרטים של ",
+    AddFormTitle: "הוספת כרטיס חדש",
+    SwimlaneCaptionFormat: "- {{:count}}{{if count == 1 }} פריט {{else}} פריטים{{/if}}",
+    FilterSettings: "מסנן:",
+    FilterOfText: "שֶׁל",
+    Max: "מקס",
+    Min: "Min",
+    Cards: "  כרטיסים",
+    ItemsCount: "פריטי רוזן :",
+    Unassigned: "לא הוקצה",
+    AddCard: "הוסף כרטיס",
+    EditCard: "כרטיס עריכה",
+    DeleteCard: "מחק כרטיס",
+    TopofRow: "לראש השורה",
+    BottomofRow: "חלק תחתון של השורה",
+    MoveUp: "הזז למעלה",
+    MoveDown: "לרדת",
+    MoveLeft: "זוז שמאלה",
+    MoveRight: "זוז ימינה",
+    MovetoSwimlane: "מעבר Swimlane",
+    HideColumn: "טור הסתר",
+    VisibleColumns: "עמודות גלויות",
+    PrintCard: "כרטיס הדפסה"
+};
+if (ej.RTE) ej.RTE.Locale["he-IL"] = {
     bold: "נוֹעָז",
     italic: "נטוי",
     underline: "לָשִׂים דָגֵשׁ",
@@ -1113,7 +1280,7 @@ ej.RTE.Locale["he-IL"] = {
 	ReplaceAll: "החלף הכל",
 	FindErrorMsg: "לא ניתן למצוא מילה שצוינה",
 };
-ej.Schedule.Locale["he-IL"] = {
+if (ej.Schedule) ej.Schedule.Locale["he-IL"] = {
     ReminderWindowTitle: "חלון תזכורת",
     CreateAppointmentTitle: "צור מינוי",
     RecurrenceEditTitle: "מינוי חזור ערוך",
@@ -1213,7 +1380,7 @@ ej.Schedule.Locale["he-IL"] = {
     Time: "זְמַן",
     EmptyResultText: "אין הצעות",
 };
-ej.Spreadsheet.Locale["he-IL"] = {
+if (ej.Spreadsheet) ej.Spreadsheet.Locale["he-IL"] = {
     Cut: "Coupe",
     Copy: "Copie",
     FormatPainter: "Format Painter",
@@ -1874,7 +2041,7 @@ ej.Spreadsheet.Locale["he-IL"] = {
     PivotOverlapAlert: "Un rapport de tableau croisé dynamique ne peut pas chevaucher un autre rapport de tableau croisé dynamique",
     NoCellFound: "Aucune cellule n'a été trouvé",
 };
-ej.TreeGrid.Locale["he-IL"] = {
+if (ej.TreeGrid) ej.TreeGrid.Locale["he-IL"] = {
     toolboxTooltipTexts: {
         addTool: "לְהוֹסִיף",
         editTool: "לַעֲרוֹך",
@@ -1965,7 +2132,7 @@ ej.TreeGrid.Locale["he-IL"] = {
     falseText: "שֶׁקֶר",
     emptyRecord: "אין רשומות לתצוגה",
 };
-ej.Uploadbox.Locale["he-IL"] = {
+if (ej.Uploadbox) ej.Uploadbox.Locale["he-IL"] = {
     buttonText: {
         upload: "העלה",
         browse: "לְדַפדֵף",
@@ -1990,3 +2157,25 @@ ej.Uploadbox.Locale["he-IL"] = {
     closeToolTip: "לִסְגוֹר",
 };
 ;
+if (ej.Tile) ej.Tile.Locale["he-IL"] = {
+    captionText: "טֶקסט"
+};
+if (ej.ListView) ej.ListView.Locale["he-IL"] = {
+    headerTitle: "כותרת",
+    headerBackButtonText: "חזור"
+};
+if (ej.SpellCheck) ej.SpellCheck.Locale["he-IL"] = {
+    SpellCheckButtonText: "אִיוּת",
+    NotInDictionary: "לא במילון",
+    SuggestionLabel: "הצעות",
+    IgnoreOnceButtonText: "התעלם פעם אחת",
+    IgnoreAllButtonText: "התעלם מהכל",
+    AddToDictionary: "הוסף למילון",
+    ChangeButtonText: "שינוי",
+    ChangeAllButtonText: "כל שינוי",
+    CloseButtonText: "לִסְגוֹר",
+    CompletionPopupMessage: "בדיקת האיות הושלמה",
+    CompletionPopupTitle: "בדיקת איות",
+    Ok: "בסדר",
+    NoSuggestionMessage: "אין הצעות זמינות"
+};

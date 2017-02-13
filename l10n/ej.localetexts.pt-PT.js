@@ -7,12 +7,13 @@
 *  applicable laws. 
 */
 
-ej.Autocomplete.Locale["pt-PT"] = {
+if (ej.Autocomplete) ej.Autocomplete.Locale["pt-PT"] = {
     addNewText: "Adicionar novo",
     emptyResultText: "Sem sugestões",
     actionFailure: "O campo especificado não existe na origem de dados",
+    watermarkText: " "
 };
-ej.ColorPicker.Locale["pt-PT"] = {
+if (ej.ColorPicker) ej.ColorPicker.Locale["pt-PT"] = {
     buttonText: {
         apply: "Aplique",
         cancel: "Cancelar",
@@ -26,10 +27,10 @@ ej.ColorPicker.Locale["pt-PT"] = {
         flatcolors: "Cores planas",
         seawolf: "Lobo do mar",
         webcolors: "Cores Web",
-        sandy: "Sandy",
-        pinkshades: "Pink Shades",
+        sandy: "arenoso",
+        pinkshades: "máscaras cor de rosa",
         misty: "enevoado",
-        citrus: "Citrus",
+        citrus: "citrino",
         vintage: "Vintage",
         moonlight: "Luar",
         candycrush: "Candy Crush",
@@ -37,14 +38,14 @@ ej.ColorPicker.Locale["pt-PT"] = {
         selectedcolor: "Cor selecionada"
     },
 };
-ej.CurrencyTextbox.Locale["pt-PT"] = {
+if (ej.CurrencyTextbox) ej.CurrencyTextbox.Locale["pt-PT"] = {
     watermarkText: "Introduzir o valor",
 };
-ej.DatePicker.Locale["pt-PT"] = {
+if (ej.DatePicker) ej.DatePicker.Locale["pt-PT"] = {
     watermarkText: "Seleccionar data",
     buttonText: "Hoje",
 };
-ej.DateRangePicker.Locale["pt-PT"] = {
+if (ej.DateRangePicker) ej.DateRangePicker.Locale["pt-PT"] = {
     ButtonText: {
         apply: "Aplique",
         cancel: "Cancelar",
@@ -53,7 +54,7 @@ ej.DateRangePicker.Locale["pt-PT"] = {
     watermarkText: "Selecionar intervalo",
     customPicker: "Selecionador personalizado",
 };
-ej.DateTimePicker.Locale["pt-PT"] = {
+if (ej.DateTimePicker) ej.DateTimePicker.Locale["pt-PT"] = {
     watermarkText: "Selecione a hora da data",
     buttonText: {
         today: "Hoje",
@@ -62,7 +63,7 @@ ej.DateTimePicker.Locale["pt-PT"] = {
         timeTitle: "Tempo"
     },
 };
-ej.datavisualization.Diagram.Locale["pt-PT"] = {
+if (ej.datavisualization && ej.datavisualization.Diagram) ej.datavisualization.Diagram.Locale["pt-PT"] = {
     cut: "Cortar",
     copy: "Cópia",
     paste: "Colar",
@@ -78,7 +79,7 @@ ej.datavisualization.Diagram.Locale["pt-PT"] = {
     sendBackward: "Recuar",
     sendToBack: "SendToBack",
 };
-ej.Dialog.Locale["pt-PT"] = {
+if (ej.Dialog) ej.Dialog.Locale["pt-PT"] = {
     tooltip: {
         close: "Fechar",
         collapse: "Colapso",
@@ -91,11 +92,11 @@ ej.Dialog.Locale["pt-PT"] = {
     },
     closeIconTooltip: "Fechar",
 };
-ej.DropDownList.Locale["pt-PT"] = {
+if (ej.DropDownList) ej.DropDownList.Locale["pt-PT"] = {
 	emptyResultText: "Nenhuma sugestão,",
 	watermarkText: " ",
 };
-ej.ExcelFilter.Locale["pt-PT"] = {
+if (ej.ExcelFilter) ej.ExcelFilter.Locale["pt-PT"] = {
     SortNoSmaller: "Ordenar menor para o maior",
     SortNoLarger: "Ordenar Maior para o Menor",
     SortTextAscending: "Ordenar de A a Z",
@@ -139,7 +140,15 @@ ej.ExcelFilter.Locale["pt-PT"] = {
     True: "verdade",
     False: "falso",
 };
-ej.FileExplorer.Locale["pt-PT"] = {
+if (ej.FileExplorer) ej.FileExplorer.Locale["pt-PT"] = {
+    EmptyFolder: "Esta pasta está vazia",
+    ProtectedFolder: "Você não tem permissão para acessar esta pasta atualmente",
+    EmptyResult: "Nenhum item corresponde à sua pesquisa",
+    ContextMenuSortBy: "Ordenar por",
+    InvalidFileName: "Um nome de arquivo não pode conter qualquer um dos seguintes caracteres: \\ /: *? \ <> |",
+    Selected: "selecionado",
+    Permission: "Permissão",
+    SortBy: "Ordenar por",
     Back: "Para trás",
     Forward: "para a frente",
     Upward: "Para cima",
@@ -197,6 +206,18 @@ ej.FileExplorer.Locale["pt-PT"] = {
     Modified: "modificada",
     DialogCloseToolTip: "Fechar",
     UploadSettings: {
+        buttonText: {
+            upload: "Envio",
+            browse: "Procurar",
+            cancel: "Cancelar",
+            close: "Fechar"
+        },
+        dialogText: {
+            title: "Caixa de Upload",
+            name: "Nome",
+            size: "Tamanho",
+            status: "Status"
+        },
         dropAreaText: "Soltar arquivos ou clique para fazer upload",
         filedetail: "O tamanho do arquivo selecionado é muito grande. Selecione um arquivo dentro do tamanho válido.",
         denyError: "Arquivos com extensões #Extension não são permitidos.",
@@ -209,7 +230,7 @@ ej.FileExplorer.Locale["pt-PT"] = {
         closeToolTip: "Fechar"
     },
 };
-ej.Gantt.Locale["pt-PT"] = {
+if (ej.Gantt) ej.Gantt.Locale["pt-PT"] = {
     emptyRecord: "Não há registros a serem exibidos",
     alertTexts: {
         indentAlert: "Não há registro de Gantt é selecionada para executar o recuo",
@@ -366,7 +387,7 @@ ej.Gantt.Locale["pt-PT"] = {
             { id: "FF", text: "Terminar-Terminar", value: "Terminar-Terminar" }
         ],
 };
-ej.Grid.Locale["pt-PT"] = {
+if (ej.Grid) ej.Grid.Locale["pt-PT"] = {
     EmptyRecord: "Não há registros a serem exibidos",
     GroupDropArea: "Arraste um cabeçalho de coluna aqui para grupo a sua coluna",
     DeleteOperationAlert: "Não há registros selecionados para a operação de exclusão",
@@ -479,19 +500,64 @@ if (ej.mobile !== undefined && ej.mobile.TimePicker !== undefined) {
     };
     ;
 }
-ej.NumericTextbox.Locale["pt-PT"] = {
+if (ej.NumericTextbox) ej.NumericTextbox.Locale["pt-PT"] = {
     watermarkText: "Introduzir o valor",
 };
-ej.PivotChart.Locale["pt-PT"] = {
+if (ej.PivotChart) ej.PivotChart.Locale["pt-PT"] = {
     Measure: "A medida",
     Row: "Linha",
     Column: "Coluna",
     Expand: "Expandir",
     Collapse: "Colapso",
     Exit: "Saída",
-    Value: "Valor"
+    Value: "Valor",
+
+    ChartTypes: "Tipos de gráfico",
+    TDCharts: "Os gráficos 3D",
+    Tooltip: "Dica de Ferramenta",
+    Exporting: "Exportando",
+    Line: "Linha",
+    Spline: "Estrias",
+    Column: "Coluna",
+    Area: "Área",
+    SplineArea: "Área Spline",
+    StepLine: "Linha passo",
+    StepArea: "Área etapa",
+    Pie: "Torta",
+    Bar: "Barra",
+    StackingArea: "Área de empilhamento",
+    StackingColumn: "empilhamento Coluna",
+    StackingBar: "empilhamento Bar",
+    Pyramid: "Pirâmide",
+    Funnel: "Funil",
+    Doughnut: "rosquinha",
+    Scatter: "espalhar",
+    Bubble: "Bolha",
+    TreeMap: "Mapa de árvore",
+    ColumnTD: "Coluna 3D",
+    PieTD: "Torta 3D",
+    BarTD: "Barra 3D",
+    StackingBarTD: "empilhamento Bar 3D",
+    StackingColumnTD: "empilhamento Coluna 3D",
+    Excel: "Excel",
+    Word: "Palavra",
+    Pdf: "PDF",
+    PNG: "PNG",
+    EMF: "EMF",
+    GIF: "GIF",
+    JPG: "JPG",
+    BMF: "BMF"
 };
-ej.PivotClient.Locale["pt-PT"] = {
+if (ej.PivotClient) ej.PivotClient.Locale["pt-PT"] = {
+    DoesNotBeginsWith: "Não começa com",
+    DoesNotEndsWith: "Não termina com",
+    DoesNotContains: "Não contém",
+    DoesNotEquals: "Não é Igual",
+    IsGreaterThan: "É maior que",
+    IsGreaterThanOrEqualTo: "É maior que ou igual a",
+    IsLessThan: "É menor que",
+    IsLessThanOrEqualTo: "É menor do que ou igual a",­­
+
     DeferUpdate: "Adiar Atualização",
     MDXQuery: "consulta MDX",
     Row: "Linha",
@@ -608,11 +674,11 @@ ej.PivotClient.Locale["pt-PT"] = {
     SetReportNameAlertMsg: "Defina o nome do relatório.",
     Search: "Pesquisar"
 };
-ej.PivotGauge.Locale["pt-PT"] = {
+if (ej.PivotGauge) ej.PivotGauge.Locale["pt-PT"] = {
     RevenueGoal: "meta de receita",
     RevenueValue: "Valor de receita",
 };
-ej.Pager.Locale["pt-PT"] = {
+if (ej.Pager) ej.Pager.Locale["pt-PT"] = {
     pagerInfo: "{0} de {1} páginas ({2} itens)",
     firstPageTooltip: "Ir para a primeira página",
     lastPageTooltip: "Ir para a última página",
@@ -621,7 +687,7 @@ ej.Pager.Locale["pt-PT"] = {
     nextPagerTooltip: "Ir para a próxima página",
     previousPagerTooltip: "Ir para página anterior",
 };
-ej.PdfViewer.Locale["pt-PT"] = {
+if (ej.PdfViewer) ej.PdfViewer.Locale["pt-PT"] = {
     toolbar: {
         print: {
             headerText: "Impressão",
@@ -667,12 +733,77 @@ ej.PdfViewer.Locale["pt-PT"] = {
             headerText: 'Ajustar à página',
             contentText: 'Ajustar a página PDF ao recipiente.',
         },
+        search: {
+            headerText: 'Pesquisar texto',
+            contentText: 'Pesquisar texto nas páginas do PDF.'
+        },
+        download: {
+            headerText: 'Transferir',
+            contentText: 'Faça o download do documento PDF.'
+        },
     },
 };
-ej.PercentageTextbox.Locale["pt-PT"] = {
+if (ej.PercentageTextbox) ej.PercentageTextbox.Locale["pt-PT"] = {
     watermarkText: "Introduzir o valor",
 };
-ej.PivotGrid.Locale["pt-PT"] = {
+if (ej.PivotGrid) ej.PivotGrid.Locale["pt-PT"] = {
+    Total: "Total",
+    GrandTotal:"Total geral",
+    DoesNotBeginsWith: "Não começa com",
+    DoesNotEndsWith: "Não termina com",
+    DoesNotContains: "Não contém",
+    DoesNotEquals: "Não é Igual",
+    IsGreaterThan: "É maior que",
+    IsGreaterThanOrEqualTo: "É maior que ou igual a",
+    IsLessThan: "É menor que",
+    IsLessThanOrEqualTo: "É menor do que ou igual a",­­
+
+    NumberFormatting: "Formatação de número",
+    FrozenHeaders: "Cabeçalhos congelados",
+    CellSelection: "Seleção de células",
+    CellContext: "Contexto da célula",
+    ColumnResize: "Coluna Redimensionar",
+    ExcelLikeLayout: "Layout do Excel",
+    FrozenHeader: "Plataforma de congelados",
+    AdvancedFiltering: "Filtragem avançada",
+    Amount: "Montante",
+    Quantity: "Quantidade",
+    Measures: "Medidas",
+    NumberFormats: "Formatos de número",
+    Exporting: "Exportando",
+    FileName: "Nome do ficheiro",
+    ToolTip: "Dica de Ferramenta",
+    RTL: "RTL",
+    CollapseByDefault: "Colapso por padrão",
+    EnableDisablePaging: "Enalbe / Desabilite a paginação",
+    PagingOptions: "Opções de paginação",
+    CategoricalPageSize: "Tamanho de Página categóricas",
+    SeriesPageSize: "Tamanho de Página da série",
+
+    HyperLink: "O hiperlink",
+    CellEditing: "Edição de células",
+    GroupingBar:"Barra de agrupamento",
+    SummaryCustomization: "Personalização de resumo",
+    SummaryTypes: "Os tipos de resumo",
+    SummaryType: "Tipo de resumo",
+    EnableRowHeaderHyperlink: "O cabeçalho da linha hiperlink",
+    EnableColumnHeaderHyperlink: "O cabeçalho da coluna HyperLink",
+    EnableValueCellHyperlink: "O hiperlink célula com valor",
+    EnableSummaryCellHyperlink: "O hiperlink de células de resumo",
+    HideGrandTotal: "Ocultar Grand Total",
+    HideSubTotal: "Ocultar Sub-total",
+    Both: "Ambos os",
+    Sum: "Soma",
+    Average: "Média",
+    Count: "Contagem",
+    Min: "Min",
+
+    Max: "Max",
+    Excel: "Excel",
+    Word: "Word",
+    PDF: "PDF",
+    CSV: "CSV",
+
     ToolTipRow: "Linha",
     ToolTipColumn: "Coluna",
     ToolTipValue: "Valor",
@@ -798,7 +929,7 @@ ej.PivotGrid.Locale["pt-PT"] = {
     All: "Todos os",
     Search: "Pesquisar"
 };
-ej.PivotPager.Locale["pt-PT"] = {
+if (ej.PivotPager) ej.PivotPager.Locale["pt-PT"] = {
     SeriesPage: "Página série",
     CategoricalPage: "Página categórica",
     Error: "Erro",
@@ -806,7 +937,16 @@ ej.PivotPager.Locale["pt-PT"] = {
     Close: "Fechar",
     PageCountErrorMsg: "Digite um número de página válido"
 };
-ej.PivotSchemaDesigner.Locale["pt-PT"] = {
+if (ej.PivotSchemaDesigner) ej.PivotSchemaDesigner.Locale["pt-PT"] = {
+    DoesNotBeginsWith: "Não começa com",
+    DoesNotEndsWith: "Não termina com",
+    DoesNotContains: "Não contém",
+    DoesNotEquals: "Não é Igual",
+    IsGreaterThan: "É maior que",
+    IsGreaterThanOrEqualTo: "É maior que ou igual a",
+    IsLessThan: "É menor que",
+    IsLessThanOrEqualTo: "É menor do que ou igual a",­­
+
     PivotTableFieldList: "Lista de campos de tabela dinâmica",
     ChooseFieldsToAddToReport: "Escolha campos para adicionar ao relatório:",
     DragFieldBetweenAreasBelow: "Arraste os campos entre as áreas abaixo:",
@@ -853,7 +993,7 @@ ej.PivotSchemaDesigner.Locale["pt-PT"] = {
     Cancel: "Cancelar",
     Search: "Pesquisar"
 };
-ej.datavisualization.RangeNavigator.Locale["pt-PT"] = {
+if (ej.datavisualization && ej.datavisualization.RangeNavigator) ej.datavisualization.RangeNavigator.Locale["pt-PT"] = {
     intervals: {
         quarter: {
             longQuarters: "Trimestre,",
@@ -865,7 +1005,7 @@ ej.datavisualization.RangeNavigator.Locale["pt-PT"] = {
         },
     },
 };
-ej.ReportViewer.Locale["pt-PT"] = {
+if (ej.ReportViewer) ej.ReportViewer.Locale["pt-PT"] = {
     toolbar: {
         print: {
             headerText: "Impressão",
@@ -961,15 +1101,43 @@ ej.ReportViewer.Locale["pt-PT"] = {
     },
     viewButton: "vista do relatório",
 };
-ej.Ribbon.Locale["pt-PT"] = {
+if (ej.Ribbon) ej.Ribbon.Locale["pt-PT"] = {
     CustomizeQuickAccess: "Personalize Barra de Acesso Rápido",
     RemoveFromQuickAccessToolbar: "Remover da Barra de Acesso Rápido",
     AddToQuickAccessToolbar: "Adicionar à Barra de Acesso Rápido",
     ShowAboveTheRibbon: "Mostrar Acima da fita",
     ShowBelowTheRibbon: "Mostrar Abaixo da fita",
-    MoreCommands: "Mais Comandos ...",
+    MoreCommands: "Mais Comandos ..."
 };
-ej.RTE.Locale["pt-PT"] = {
+if (ej.Kanban) ej.Kanban.Locale["pt-PT"] = {
+    EmptyCard: "Não há cartões para exibir",
+    SaveButton: "Salvar",
+    CancelButton: "Cancelar",
+    EditFormTitle: "Detalhes de ",
+    AddFormTitle: "Adicionar novo cartão",
+    SwimlaneCaptionFormat: "- {{:count}}{{if count == 1 }} item {{else}} Unid {{/if}}",
+    FilterSettings: "Filtros:",
+    FilterOfText: "do",
+    Max: "Max",
+    Min: "Min",
+    Cards: "  Cartões",
+    ItemsCount: "Contagem de itens :",
+    Unassigned: "Não atribuído",
+    AddCard: "Adicionar cartão",
+    EditCard: "Editar cartão",
+    DeleteCard: "Excluir cartão",
+    TopofRow: "Topo da linha",
+    BottomofRow: "Parte inferior da linha",
+    MoveUp: "Subir",
+    MoveDown: "Mover para baixo",
+    MoveLeft: "Mova para a esquerda",
+    MoveRight: "Mova para a direita",
+    MovetoSwimlane: "Mover para Swimlane",
+    HideColumn: "Ocultar coluna",
+    VisibleColumns: "Colunas Visíveis",
+    PrintCard: "Cartão de impressão"
+};
+if (ej.RTE) ej.RTE.Locale["pt-PT"] = {
 	bold: "Negrito",
 	italic: "itálico",
 	underline: "Sublinhado",
@@ -1118,7 +1286,7 @@ ej.RTE.Locale["pt-PT"] = {
 	ReplaceAll: "Substitua tudo",
 	FindErrorMsg: "Não foi possível encontrar a palavra especificada.",
 };
-ej.Schedule.Locale["pt-PT"] = {
+if (ej.Schedule) ej.Schedule.Locale["pt-PT"] = {
     ReminderWindowTitle: "janela lembrete",
     CreateAppointmentTitle: "Criar compromisso",
     RecurrenceEditTitle: "Editar Repeat Appointment",
@@ -1218,7 +1386,7 @@ ej.Schedule.Locale["pt-PT"] = {
     Time: "Tempo",
     EmptyResultText: "Sem sugestões",
 };
-ej.Spreadsheet.Locale["pt-PT"] = {
+if (ej.Spreadsheet) ej.Spreadsheet.Locale["pt-PT"] = {
     Cut: "Cortar",
     Copy: "Cópia",
     FormatPainter: "Pincel",
@@ -1879,7 +2047,7 @@ ej.Spreadsheet.Locale["pt-PT"] = {
     PivotOverlapAlert: "Um relatório de tabela dinâmica não podem se sobrepor um outro relatório de tabela dinâmica",
     NoCellFound: "Não foram encontradas células",
 };
-ej.TreeGrid.Locale["pt-PT"] = {
+if (ej.TreeGrid) ej.TreeGrid.Locale["pt-PT"] = {
     toolboxTooltipTexts: {
         addTool: "Adicionar",
         editTool: "Editar",
@@ -1970,7 +2138,7 @@ ej.TreeGrid.Locale["pt-PT"] = {
     falseText: "Falso",
     emptyRecord: "Não há registros a serem exibidos",
 };
-ej.Uploadbox.Locale["pt-PT"] = {
+if (ej.Uploadbox) ej.Uploadbox.Locale["pt-PT"] = {
     buttonText: {
         upload: "Envio",
         browse: "procurar",
@@ -1995,3 +2163,25 @@ ej.Uploadbox.Locale["pt-PT"] = {
     closeToolTip: "Fechar",
 };
 ;
+if (ej.Tile) ej.Tile.Locale["pt-PT"] = {
+    captionText: "texto"
+};
+if (ej.ListView) ej.ListView.Locale["pt-PT"] = {
+    headerTitle: "Título",
+    headerBackButtonText: "Voltar"
+};
+if (ej.SpellCheck) ej.SpellCheck.Locale["pt-PT"] = {
+    SpellCheckButtonText: "Soletração",
+    NotInDictionary: "Não no Dicionário",
+    SuggestionLabel: "sugestões",
+    IgnoreOnceButtonText: "ignorar uma vez",
+    IgnoreAllButtonText: "Ignore tudo",
+    AddToDictionary: "Adicionar ao dicionário",
+    ChangeButtonText: "Alterar",
+    ChangeAllButtonText: "Alterar tudo",
+    CloseButtonText: "Fechar",
+    CompletionPopupMessage: "verificação ortográfica está concluída",
+    CompletionPopupTitle: "Verificação ortográfica",
+    Ok: "Está bem",
+    NoSuggestionMessage: "Não há sugestões disponíveis"
+};

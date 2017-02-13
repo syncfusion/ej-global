@@ -7,12 +7,13 @@
 *  applicable laws. 
 */
 
-ej.Autocomplete.Locale["hr-HR"] = {
+if (ej.Autocomplete) ej.Autocomplete.Locale["hr-HR"] = {
     addNewText: "Dodaj novi",
     emptyResultText: "Nema prijedloga",
     actionFailure: "Navedena polje ne postoji u određenom izvoru podataka",
+    watermarkText: " "
 };
-ej.ColorPicker.Locale["hr-HR"] = {
+if (ej.ColorPicker) ej.ColorPicker.Locale["hr-HR"] = {
     buttonText: {
         apply: "primijeniti",
         cancel: "Otkazati",
@@ -37,14 +38,14 @@ ej.ColorPicker.Locale["hr-HR"] = {
         selectedcolor: "Odabrana boja"
     },
 };
-ej.CurrencyTextbox.Locale["hr-HR"] = {
+if (ej.CurrencyTextbox) ej.CurrencyTextbox.Locale["hr-HR"] = {
     watermarkText: "Unesite vrijednost",
 };
-ej.DatePicker.Locale["hr-HR"] = {
+if (ej.DatePicker) ej.DatePicker.Locale["hr-HR"] = {
     watermarkText: "Odaberite datum",
     buttonText: "Danas",
 };
-ej.DateRangePicker.Locale["hr-HR"] = {
+if (ej.DateRangePicker) ej.DateRangePicker.Locale["hr-HR"] = {
     ButtonText: {
         apply: "primijeniti",
         cancel: "Otkazati",
@@ -53,7 +54,7 @@ ej.DateRangePicker.Locale["hr-HR"] = {
     watermarkText: "Odaberite raspon",
     customPicker: "Prilagođena Picker",
 };
-ej.DateTimePicker.Locale["hr-HR"] = {
+if (ej.DateTimePicker) ej.DateTimePicker.Locale["hr-HR"] = {
     watermarkText: "Odaberite datum i vrijeme",
     buttonText: {
         today: "Danas",
@@ -62,7 +63,7 @@ ej.DateTimePicker.Locale["hr-HR"] = {
         timeTitle: "Vrijeme"
     },
 };
-ej.datavisualization.Diagram.Locale["hr-HR"] = {
+if (ej.datavisualization && ej.datavisualization.Diagram) ej.datavisualization.Diagram.Locale["hr-HR"] = {
     cut: "Rez",
     copy: "Kopirati",
     paste: "Zalijepiti",
@@ -78,7 +79,7 @@ ej.datavisualization.Diagram.Locale["hr-HR"] = {
     sendBackward: "Pošalji unazad",
     sendToBack: "SendToBack",
 };
-ej.Dialog.Locale["hr-HR"] = {
+if (ej.Dialog) ej.Dialog.Locale["hr-HR"] = {
     tooltip: {
         close: "Zatvoriti",
         collapse: "Kolaps",
@@ -91,11 +92,11 @@ ej.Dialog.Locale["hr-HR"] = {
     },
     closeIconTooltip: "zatvoriti",
 };
-ej.DropDownList.Locale["hr-HR"] = {
+if (ej.DropDownList) ej.DropDownList.Locale["hr-HR"] = {
 	emptyResultText: "Nema prijedloga,",
 	watermarkText: " ",
 };
-ej.ExcelFilter.Locale["hr-HR"] = {
+if (ej.ExcelFilter) ej.ExcelFilter.Locale["hr-HR"] = {
     SortNoSmaller: "Sortiraj najmanjeg do najvišeg",
     SortNoLarger: "Sortiraj najvećeg do najmanjeg",
     SortTextAscending: "Sortiraj od A do Ž",
@@ -139,7 +140,15 @@ ej.ExcelFilter.Locale["hr-HR"] = {
     True: "pravi",
     False: "lažan",
 };
-ej.FileExplorer.Locale["hr-HR"] = {
+if (ej.FileExplorer) ej.FileExplorer.Locale["hr-HR"] = {
+    EmptyFolder: "Ova mapa je prazna",
+    ProtectedFolder: "Vi ne trenutno imaju dozvolu za pristup ovoj mapu",
+    EmptyResult: "Nema stavki odgovara vašem upitu",
+    ContextMenuSortBy: "Sortiranje po",
+    InvalidFileName: "Naziv datoteke ne može sadržavati bilo koju od sljedećih znakova: \\ /: * \ <> |",
+    Selected: "odabran",
+    Permission: "Dopuštenje",
+    SortBy: "Sortiranje po",
     Back: "Unazad",
     Forward: "Naprijed",
     Upward: "više",
@@ -197,6 +206,18 @@ ej.FileExplorer.Locale["hr-HR"] = {
     Modified: "promijenjen",
     DialogCloseToolTip: "Zatvoriti",
     UploadSettings: {
+        buttonText: {
+            upload: "Postavi",
+            browse: "brstiti",
+            cancel: "Otkazati",
+            close: "Blizu"
+        },
+        dialogText: {
+            title: "Postavi Box",
+            name: "Ime",
+            size: "Veličina",
+            status: "Status"
+        },
         dropAreaText: "Ispustiti datoteke ili kliknite za prijenos",
         filedetail: "Odabrana veličina datoteke prevelika. Odaberite datoteku u važećem veličine.",
         denyError: "Datoteke s #Extension proširenja nisu dozvoljene.",
@@ -209,7 +230,7 @@ ej.FileExplorer.Locale["hr-HR"] = {
         closeToolTip: "Zatvoriti"
     },
 };
-ej.Gantt.Locale["hr-HR"] = {
+if (ej.Gantt) ej.Gantt.Locale["hr-HR"] = {
     emptyRecord: "Nema zapisa za prikaz",
     alertTexts: {
         indentAlert: "Nema Gantt zapis odabran za obavljanje uvlaku",
@@ -366,7 +387,7 @@ ej.Gantt.Locale["hr-HR"] = {
             { id: "FF", text: "Završi-Završi", value: "Završi-Završi" }
         ],
 };
-ej.Grid.Locale["hr-HR"] = {
+if (ej.Grid) ej.Grid.Locale["hr-HR"] = {
     EmptyRecord: "Nema zapisa za prikaz",
     GroupDropArea: "Povucite zaglavlje stupca ovdje za grupu je kolona",
     DeleteOperationAlert: "Nema odabrane za brisanje rad zapisi",
@@ -479,19 +500,63 @@ if (ej.mobile !== undefined && ej.mobile.TimePicker !== undefined) {
     };
     ;
 }
-ej.NumericTextbox.Locale["hr-HR"] = {
+if (ej.NumericTextbox) ej.NumericTextbox.Locale["hr-HR"] = {
     watermarkText: "Unesite vrijednost",
 };
-ej.PivotChart.Locale["hr-HR"] = {
+if (ej.PivotChart) ej.PivotChart.Locale["hr-HR"] = {
     Measure: "Mjera",
     Row: "Red",
     Column: "Kolona",
     Expand: "Proširiti",
     Collapse: "Kolaps",
     Exit: "Izlaz",
-    Value: "Vrijednost"
+    Value: "Vrijednost",
+
+    ChartTypes: "Grafikon types",
+    TDCharts: "3D mapa",
+    Tooltip: "Naziv alata",
+    Exporting: "& Izvoz",
+    Line: "Crta",
+    Spline: "dugačka",
+    Area: "područje",
+    SplineArea: "kriva Područje",
+    StepLine: "Korak Line",
+    StepArea: "Korak Područje",
+    Pie: "Pita",
+    Bar: "Bar",
+    StackingArea: "slaganje Područje",
+    StackingColumn: "Slaganje Stupac",
+    StackingBar: "slaganje Bar",
+    Pyramid: "Piramida",
+    Funnel: "Dimnjak",
+    Doughnut: "krafna",
+    Scatter: "raspršiti",
+    Bubble: "Mjehurić",
+    TreeMap: "stablu",
+    ColumnTD: "Column 3D",
+    PieTD: "Pita 3D",
+    BarTD: "Bar 3D",
+    StackingBarTD: "slaganje Bar 3D",
+    StackingColumnTD: "Slaganje Stupac 3D",
+    Excel: "Excel",
+    Word: "Riječ",
+    Pdf: "PDF",
+    PNG: "PNG",
+    EMF: "EMF",
+    GIF: "GIF",
+    JPG: "JPG",
+    BMF: "BMF"
 };
-ej.PivotClient.Locale["hr-HR"] = {
+if (ej.PivotClient) ej.PivotClient.Locale["hr-HR"] = {
+    DoesNotBeginsWith: "Ne počinje sa",
+    DoesNotEndsWith: "Ne završava sa",
+    DoesNotContains: "Ne sadrži",
+    DoesNotEquals: "Nije jednako",
+    IsGreaterThan: "Je veće od",
+    IsGreaterThanOrEqualTo: "Veće ili jednako",
+    IsLessThan: "Je manje od",
+    IsLessThanOrEqualTo: "Manje ili jednako",
+
     DeferUpdate: "Odgodi Update",
     MDXQuery: "MDX upita",
     Column: "Kolona",
@@ -608,11 +673,11 @@ ej.PivotClient.Locale["hr-HR"] = {
     SetReportNameAlertMsg: "Pripremite izvještaj.",
     Search: "Pretraži"
 };
-ej.PivotGauge.Locale["hr-HR"] = {
+if (ej.PivotGauge) ej.PivotGauge.Locale["hr-HR"] = {
     RevenueGoal: "Cilj prihoda",
     RevenueValue: "Vrijednost prihoda",
 };
-ej.Pager.Locale["hr-HR"] = {
+if (ej.Pager) ej.Pager.Locale["hr-HR"] = {
     pagerInfo: "{0} od {1} stranica ({2} stavke)",
     firstPageTooltip: "Idi na prvu stranicu",
     lastPageTooltip: "Idi na zadnju stranicu",
@@ -621,7 +686,7 @@ ej.Pager.Locale["hr-HR"] = {
     nextPagerTooltip: "Idi na sljedeću stranicu",
     previousPagerTooltip: "Idi na prethodnu stranicu",
 };
-ej.PdfViewer.Locale["hr-HR"] = {
+if (ej.PdfViewer) ej.PdfViewer.Locale["hr-HR"] = {
     toolbar: {
         print: {
             headerText: "otisak",
@@ -667,12 +732,77 @@ ej.PdfViewer.Locale["hr-HR"] = {
             headerText: 'Prilagodi stranici',
             contentText: 'Odgovarao stranice PDF u spremnik.',
         },
+        search: {
+            headerText: 'pretraživanje teksta',
+            contentText: 'Traži tekst u PDF stranice.'
+        },
+        download: {
+            headerText: 'Preuzimanje',
+            contentText: 'Preuzmite dokument u PDF formatu.'
+        },
     },
 };
-ej.PercentageTextbox.Locale["hr-HR"] = {
+if (ej.PercentageTextbox) ej.PercentageTextbox.Locale["hr-HR"] = {
     watermarkText: "Unesite vrijednost",
 };
-ej.PivotGrid.Locale["hr-HR"] = {
+if (ej.PivotGrid) ej.PivotGrid.Locale["hr-HR"] = {
+    Total: "Ukup",
+    GrandTotal: "Ukupno",
+    DoesNotBeginsWith: "Ne počinje sa",
+    DoesNotEndsWith: "Ne završava sa",
+    DoesNotContains: "Ne sadrži",
+    DoesNotEquals: "Nije jednako",
+    IsGreaterThan: "Je veće od",
+    IsGreaterThanOrEqualTo: "Veće ili jednako",
+    IsLessThan: "Je manje od",
+    IsLessThanOrEqualTo: "Manje ili jednako",
+
+    NumberFormatting: "Broj & formatiranje",
+    FrozenHeaders: "Smrznute zaglavlja",
+    CellSelection: "Selekcije ćelija",
+    CellContext: "Mobitel kontekst",
+    ColumnResize: "Promijeni veličinu stupca",
+    ExcelLikeLayout: "Excel kao layout",
+    FrozenHeader: "Smrznute zaglavlje",
+    AdvancedFiltering: "Napredna filtriranje",
+    Amount: "Iznos",
+    Quantity: "Količina",
+    Measures: "Mjere",
+    NumberFormats: "Broj formata",
+    Exporting: "& Izvoz",
+    FileName: "Ime datoteke",
+    ToolTip: "Naziv alata",
+    RTL: "RTL",
+    CollapseByDefault: "Kolaps Veäini sluäajeva",
+    EnableDisablePaging: "Enalbe / Onemogući zovemo",
+    PagingOptions: "Opcije poziva",
+    CategoricalPageSize: "Podrazumijeva & Poloå¾eno",
+    SeriesPageSize: "Serije & Poloå¾eno",
+
+    HyperLink: "Poveäaj veliäinu fonta",
+    CellEditing: "Uređivanje stanica",
+    GroupingBar: "Bar grupiranja",
+    SummaryCustomization: "Sažetak prilogađavanja",
+    SummaryTypes: "Sažetak types",
+    SummaryType: "Sažetak Type",
+    EnableRowHeaderHyperlink: "Omogući Zaglavlje postavi iznad hiperlinka",
+    EnableColumnHeaderHyperlink: "Omogući zaglavlje stupca hiperlink mape",
+    EnableValueCellHyperlink: "Omogući vrijednost hiperlink stanica",
+    EnableSummaryCellHyperlink: "Omogući sažetak ćeliju hiperlink mape",
+    HideGrandTotal: "Sakrij Totala",
+    HideSubTotal: "Sakrij Podzbroj",
+    Both: "Oboje",
+    Sum: "Zbroj",
+    Average: "Average",
+    Count: "Grof",
+    Min: "Min",
+
+    Max: "Max",
+    Excel: "Excel",
+    Word: "Word",
+    PDF: "PDF",
+    CSV: "CSV",
+
     ToolTipRow: "Red",
     ToolTipColumn: "Kolona",
     ToolTipValue: "Vrijednost",
@@ -798,7 +928,7 @@ ej.PivotGrid.Locale["hr-HR"] = {
     All: "Sve",
     Search: "Pretraži"
 };
-ej.PivotPager.Locale["hr-HR"] = {
+if (ej.PivotPager) ej.PivotPager.Locale["hr-HR"] = {
     SeriesPage: "Serija stranice",
     CategoricalPage: "kategoričan stranice",
     Error: "greška",
@@ -806,7 +936,16 @@ ej.PivotPager.Locale["hr-HR"] = {
     Close: "Blizu",
     PageCountErrorMsg: "Unesite važeću broj stranice"
 };
-ej.PivotSchemaDesigner.Locale["hr-HR"] = {
+if (ej.PivotSchemaDesigner) ej.PivotSchemaDesigner.Locale["hr-HR"] = {
+    DoesNotBeginsWith: "Ne počinje sa",
+    DoesNotEndsWith: "Ne završava sa",
+    DoesNotContains: "Ne sadrži",
+    DoesNotEquals: "Nije jednako",
+    IsGreaterThan: "Je veće od",
+    IsGreaterThanOrEqualTo: "Veće ili jednako",
+    IsLessThan: "Je manje od",
+    IsLessThanOrEqualTo: "Manje ili jednako",
+
     PivotTableFieldList: "Zaokretne tablice Popis Polje",
     ChooseFieldsToAddToReport: "Odaberite polja za dodavanje prijaviti:",
     DragFieldBetweenAreasBelow: "Povucite polja između područja ispod:",
@@ -853,7 +992,7 @@ ej.PivotSchemaDesigner.Locale["hr-HR"] = {
     Cancel: "Otkazati",
     Search: "Pretraži"
 };
-ej.datavisualization.RangeNavigator.Locale["hr-HR"] = {
+if (ej.datavisualization && ej.datavisualization.RangeNavigator) ej.datavisualization.RangeNavigator.Locale["hr-HR"] = {
     intervals: {
         quarter: {
             longQuarters: "Četvrtina,",
@@ -865,7 +1004,7 @@ ej.datavisualization.RangeNavigator.Locale["hr-HR"] = {
         },
     },
 };
-ej.ReportViewer.Locale["hr-HR"] = {
+if (ej.ReportViewer) ej.ReportViewer.Locale["hr-HR"] = {
     toolbar: {
         print: {
             headerText: "otisak",
@@ -961,15 +1100,43 @@ ej.ReportViewer.Locale["hr-HR"] = {
     },
     viewButton: "Vidi izvještaj",
 };
-ej.Ribbon.Locale["hr-HR"] = {
+if (ej.Ribbon) ej.Ribbon.Locale["hr-HR"] = {
     CustomizeQuickAccess: "Prilagodba alatne trake za brzi pristup",
     RemoveFromQuickAccessToolbar: "Ukloni iz alatne trake za brzi pristup",
     AddToQuickAccessToolbar: "Dodaj u brzi pristup alatnoj traci",
     ShowAboveTheRibbon: "Prikaži Iznad vrpci",
     ShowBelowTheRibbon: "Prikaži Ispod vrpci",
-    MoreCommands: "Više Naredbe ...",
+    MoreCommands: "Više Naredbe ..."
 };
-ej.RTE.Locale["hr-HR"] = {
+if (ej.Kanban) ej.Kanban.Locale["hr-HR"] = {
+    EmptyCard: "Nema kartice za prikaz",
+    SaveButton: "Uštedjeti",
+    CancelButton: "Otkazati",
+    EditFormTitle: "Detalji ",
+    AddFormTitle: "Dodavanje nove kartice",
+    SwimlaneCaptionFormat: "- {{:count}}{{if count == 1 }} artikal {{else}} stavke {{/if}}",
+    FilterSettings: "filteri:",
+    FilterOfText: "od",
+    Max: "maksimum",
+    Min: "min",
+    Cards: "  Kartice",
+    ItemsCount: "Stavke Count :",
+    Unassigned: "Nedodijeljeno",
+    AddCard: "Dodaj kartice",
+    EditCard: "Uredi kartica",
+    DeleteCard: "Izbriši karticu",
+    TopofRow: "Vrh Row",
+    BottomofRow: "Dno Row",
+    MoveUp: "napredovati",
+    MoveDown: "Pomicati prema dolje",
+    MoveLeft: "Pomakni ulijevo",
+    MoveRight: "Pomicanje udesno",
+    MovetoSwimlane: "Pomicanje na Swimlane",
+    HideColumn: "Sakrij Stupac",
+    VisibleColumns: "vidljive Kolumne",
+    PrintCard: "Ispis kartice"
+};
+if (ej.RTE) ej.RTE.Locale["hr-HR"] = {
 	bold: "odvažan",
 	italic: "kurzivan",
 	underline: "Naglasiti",
@@ -1118,7 +1285,7 @@ ej.RTE.Locale["hr-HR"] = {
 	ReplaceAll: "Zamijeni sve",
 	FindErrorMsg: "Ne mogu pronaći određenu riječ.",
 };
-ej.Schedule.Locale["hr-HR"] = {
+if (ej.Schedule) ej.Schedule.Locale["hr-HR"] = {
     ReminderWindowTitle: "prozor Podsjetnik",
     CreateAppointmentTitle: "Napravite sastanak",
     RecurrenceEditTitle: "Uredi Ponavljanje Imenovanje",
@@ -1218,7 +1385,7 @@ ej.Schedule.Locale["hr-HR"] = {
     Time: "Vrijeme",
     EmptyResultText: "Nema prijedloga",
 };
-ej.Spreadsheet.Locale["hr-HR"] = {
+if (ej.Spreadsheet) ej.Spreadsheet.Locale["hr-HR"] = {
     Cut: "Rez",
     Copy: "Kopirati",
     FormatPainter: "Format Painter",
@@ -1879,7 +2046,7 @@ ej.Spreadsheet.Locale["hr-HR"] = {
     PivotOverlapAlert: "Izvještaj Pivot tablice ne mogu se preklapati još jedno izvješće stožerna tablica",
     NoCellFound: "Bez stanica nije nađena",
 };
-ej.TreeGrid.Locale["hr-HR"] = {
+if (ej.TreeGrid) ej.TreeGrid.Locale["hr-HR"] = {
     toolboxTooltipTexts: {
         addTool: "Dodati",
         editTool: "Uredi",
@@ -1970,7 +2137,7 @@ ej.TreeGrid.Locale["hr-HR"] = {
     falseText: "lažan",
     emptyRecord: "Nema zapisa za prikaz",
 };
-ej.Uploadbox.Locale["hr-HR"] = {
+if (ej.Uploadbox) ej.Uploadbox.Locale["hr-HR"] = {
     buttonText: {
         upload: "Postavi",
         browse: "brstiti",
@@ -1995,3 +2162,25 @@ ej.Uploadbox.Locale["hr-HR"] = {
     closeToolTip: "Zatvoriti",
 };
 ;
+if (ej.Tile) ej.Tile.Locale["hr-HR"] = {
+    captionText: "tekst"
+};
+if (ej.ListView) ej.ListView.Locale["hr-HR"] = {
+    headerTitle: "Titula",
+    headerBackButtonText: "Nazad"
+};
+if (ej.SpellCheck) ej.SpellCheck.Locale["hr-HR"] = {
+    SpellCheckButtonText: "Pravopis",
+    NotInDictionary: "Nije u rječniku",
+    SuggestionLabel: "Prijedlozi",
+    IgnoreOnceButtonText: "Zanemari jednom",
+    IgnoreAllButtonText: "Zanemari sve",
+    AddToDictionary: "Dodaj u rječnik",
+    ChangeButtonText: "Promijeniti",
+    ChangeAllButtonText: "Promjena sve",
+    CloseButtonText: "Blizu",
+    CompletionPopupMessage: "Provjera pravopisa je završena",
+    CompletionPopupTitle: "Provjera pravopisa",
+    Ok: "u redu",
+    NoSuggestionMessage: "Nema dostupnih prijedloga"
+};

@@ -7,12 +7,13 @@
 *  applicable laws. 
 */
 
-ej.Autocomplete.Locale["ms-MY"] = {
+if (ej.Autocomplete) ej.Autocomplete.Locale["ms-MY"] = {
     addNewText: "Tambah baru",
     emptyResultText: "Tiada cadangan",
     actionFailure: "bidang yang dinyatakan tidak wujud dalam sumber data yang dikemukakan",
+    watermarkText: " "
 };
-ej.ColorPicker.Locale["ms-MY"] = {
+if (ej.ColorPicker) ej.ColorPicker.Locale["ms-MY"] = {
     buttonText: {
         apply: "memohon",
         cancel: "Batal",
@@ -37,14 +38,14 @@ ej.ColorPicker.Locale["ms-MY"] = {
         selectedcolor: "Warna dipilih"
     },
 };
-ej.CurrencyTextbox.Locale["ms-MY"] = {
+if (ej.CurrencyTextbox) ej.CurrencyTextbox.Locale["ms-MY"] = {
     watermarkText: "Masukkan nilai",
 };
-ej.DatePicker.Locale["ms-MY"] = {
+if (ej.DatePicker) ej.DatePicker.Locale["ms-MY"] = {
     watermarkText: "Pilih tarikh",
     buttonText: "hari ini",
 };
-ej.DateRangePicker.Locale["ms-MY"] = {
+if (ej.DateRangePicker) ej.DateRangePicker.Locale["ms-MY"] = {
     ButtonText: {
         apply: "memohon",
         cancel: "Batal",
@@ -53,7 +54,7 @@ ej.DateRangePicker.Locale["ms-MY"] = {
     watermarkText: "Pilih Julat",
     customPicker: "Custom Picker",
 };
-ej.DateTimePicker.Locale["ms-MY"] = {
+if (ej.DateTimePicker) ej.DateTimePicker.Locale["ms-MY"] = {
     watermarkText: "Pilih masa tarikh",
     buttonText: {
         today: "hari ini",
@@ -62,7 +63,7 @@ ej.DateTimePicker.Locale["ms-MY"] = {
         timeTitle: "masa"
     },
 };
-ej.datavisualization.Diagram.Locale["ms-MY"] = {
+if (ej.datavisualization && ej.datavisualization.Diagram) ej.datavisualization.Diagram.Locale["ms-MY"] = {
     cut: "Cut",
     copy: "Salinan",
     paste: "paste",
@@ -78,7 +79,7 @@ ej.datavisualization.Diagram.Locale["ms-MY"] = {
     sendBackward: "menghantar ke belakang",
     sendToBack: "SendToBack",
 };
-ej.Dialog.Locale["ms-MY"] = {
+if (ej.Dialog) ej.Dialog.Locale["ms-MY"] = {
     tooltip: {
         close: "Tutup",
         collapse: "Ditweet",
@@ -91,11 +92,11 @@ ej.Dialog.Locale["ms-MY"] = {
     },
     closeIconTooltip: "rapat",
 };
-ej.DropDownList.Locale["ms-MY"] = {
+if (ej.DropDownList) ej.DropDownList.Locale["ms-MY"] = {
 	emptyResultText: "Tiada cadangan,",
 	watermarkText: " ",
 };
-ej.ExcelFilter.Locale["ms-MY"] = {
+if (ej.ExcelFilter) ej.ExcelFilter.Locale["ms-MY"] = {
     SortNoSmaller: "Jenis terkecil ke terbesar",
     SortNoLarger: "Susun Terbesar untuk Terkecil",
     SortTextAscending: "Isih A ke Z",
@@ -139,7 +140,15 @@ ej.ExcelFilter.Locale["ms-MY"] = {
     True: "benar",
     False: "salah",
 };
-ej.FileExplorer.Locale["ms-MY"] = {
+if (ej.FileExplorer) ej.FileExplorer.Locale["ms-MY"] = {
+    EmptyFolder: "Fail ini kosong",
+    ProtectedFolder: "Anda dont mempunyai kebenaran untuk mengakses folder ini",
+    EmptyResult: "Tiada perkara yang memenuhi carian anda",
+    ContextMenuSortBy: "Disusun mengikut",
+    InvalidFileName: "nama fail tidak boleh mengandungi mana-mana ciri yang berikut: \\ /: * \ <> |",
+    Selected: "dipilih",
+    Permission: "kebenaran",
+    SortBy: "Disusun mengikut",
     Back: "Ke belakang",
     Forward: "Forward",
     Upward: "Upward",
@@ -197,6 +206,18 @@ ej.FileExplorer.Locale["ms-MY"] = {
     Modified: "Modified",
     DialogCloseToolTip: "Tutup",
     UploadSettings: {
+        buttonText: {
+            upload: "Naik",
+            browse: "Semak imbas",
+            cancel: "Batal",
+            close: "Tutup"
+        },
+        dialogText: {
+            title: "naik Box",
+            name: "Nama",
+            size: "saiz",
+            status: "status"
+        },
         dropAreaText: "Lepaskan fail atau klik untuk memuat naik",
         filedetail: "Saiz fail yang dipilih terlalu besar. Sila pilih fail dalam saiz yang sah.",
         denyError: "Fail dengan sambungan #Extension adalah tidak dibenarkan.",
@@ -209,7 +230,7 @@ ej.FileExplorer.Locale["ms-MY"] = {
         closeToolTip: "Tutup"
     },
 };
-ej.Gantt.Locale["ms-MY"] = {
+if (ej.Gantt) ej.Gantt.Locale["ms-MY"] = {
     emptyRecord: "Tiada rekod untuk dipaparkan",
     alertTexts: {
         indentAlert: "Tidak ada rekod gantt dipilih untuk melaksanakan Inden yang",
@@ -366,7 +387,7 @@ ej.Gantt.Locale["ms-MY"] = {
             { id: "FF", text: "Selesai-Selesai", value: "Selesai-Selesai" }
         ],
 };
-ej.Grid.Locale["ms-MY"] = {
+if (ej.Grid) ej.Grid.Locale["ms-MY"] = {
     EmptyRecord: "Tiada rekod untuk dipaparkan",
     GroupDropArea: "Seret pengepala lajur di sini untuk kumpulan itu ruangan",
     DeleteOperationAlert: "Tiada rekod yang dipilih untuk operasi padam",
@@ -479,19 +500,63 @@ if (ej.mobile !== undefined && ej.mobile.TimePicker !== undefined) {
     };
     ;
 }
-ej.NumericTextbox.Locale["ms-MY"] = {
+if (ej.NumericTextbox) ej.NumericTextbox.Locale["ms-MY"] = {
     watermarkText: "Masukkan nilai",
 };
-ej.PivotChart.Locale["ms-MY"] = {
+if (ej.PivotChart) ej.PivotChart.Locale["ms-MY"] = {
     Measure: "langkah",
     Row: "Row",
     Column: "Kolum",
     Expand: "Buka",
     Collapse: "Ditweet",
     Exit: "keluar",
-    Value: "Nilai"
+    Value: "Nilai",
+
+    ChartTypes: "Jenis Carta",
+    TDCharts: "3D Carta",
+    Tooltip: "Tip alat",
+    Exporting: "Mengeksport",
+    Line: "Baris",
+    Spline: "Splin",
+    Area: "kawasan",
+    SplineArea: "Splin Kawasan",
+    StepLine: "Line langkah",
+    StepArea: "langkah Kawasan",
+    Pie: "Pie",
+    Bar: "bar",
+    StackingArea: "menyusun Kawasan",
+    StackingColumn: "menyusun Ruangan",
+    StackingBar: "menyusun Bar",
+    Pyramid: "Piramid",
+    Funnel: "Corong",
+    Doughnut: "Dari donut itu!",
+    Scatter: "berselerak",
+    Bubble: "Bubble",
+    TreeMap: "Peta Pepohon",
+    ColumnTD: "Kolum 3D",
+    PieTD: "Pie 3D",
+    BarTD: "Bar 3D",
+    StackingBarTD: "menyusun Bar 3D",
+    StackingColumnTD: "menyusun Ruangan 3D",
+    Excel: "Excelname",
+    Word: "Perkataan",
+    Pdf: "PDF",
+    PNG: "PNG",
+    EMF: "EMF",
+    GIF: "GIF",
+    JPG: "JPG",
+    BMF: "BMF"
 };
-ej.PivotClient.Locale["ms-MY"] = {
+if (ej.PivotClient) ej.PivotClient.Locale["ms-MY"] = {
+    DoesNotBeginsWith: "Tidak Bermula Dengan",
+    DoesNotEndsWith: "Tidak berakhir dengan",
+    DoesNotContains: "Tidak Mengandungi",
+    DoesNotEquals: "Tidak Sama Dengan",
+    IsGreaterThan: "Lebih Besar Daripada",
+    IsGreaterThanOrEqualTo: "Lebih Besar daripada atau sama dengan",
+    IsLessThan: "Kurang Daripada",
+    IsLessThanOrEqualTo: "Kurang daripada atau sama dengan",
+
     DeferUpdate: "Tangguh Update",
     MDXQuery: "MDX Pertanyaan",
     Column: "Kolum",
@@ -608,11 +673,11 @@ ej.PivotClient.Locale["ms-MY"] = {
     SetReportNameAlertMsg: "Setkan laporan nama.",
     Search: "Carian"
 };
-ej.PivotGauge.Locale["ms-MY"] = {
+if (ej.PivotGauge) ej.PivotGauge.Locale["ms-MY"] = {
     RevenueGoal: "Matlamat hasil",
     RevenueValue: "Nilai hasil",
 };
-ej.Pager.Locale["ms-MY"] = {
+if (ej.Pager) ej.Pager.Locale["ms-MY"] = {
     pagerInfo: "{0} daripada {1} halaman ({2} item)",
     firstPageTooltip: "Pergi ke halaman pertama",
     lastPageTooltip: "Pergi ke halaman terakhir",
@@ -621,7 +686,7 @@ ej.Pager.Locale["ms-MY"] = {
     nextPagerTooltip: "Pergi ke Laman seterusnya",
     previousPagerTooltip: "Pergi ke halaman sebelumnya",
 };
-ej.PdfViewer.Locale["ms-MY"] = {
+if (ej.PdfViewer) ej.PdfViewer.Locale["ms-MY"] = {
     toolbar: {
         print: {
             headerText: "Cetak",
@@ -667,12 +732,77 @@ ej.PdfViewer.Locale["ms-MY"] = {
             headerText: 'Satu mukasurat penuh',
             contentText: 'Fit halaman PDF untuk bekas.',
         },
+        search: {
+            headerText: 'search Text',
+            contentText: 'teks Cari dalam halaman PDF.'
+        },
+        download: {
+            headerText: 'muat turun',
+            contentText: 'Muat turun dokumen PDF.'
+        },
     },
 };
-ej.PercentageTextbox.Locale["ms-MY"] = {
+if (ej.PercentageTextbox) ej.PercentageTextbox.Locale["ms-MY"] = {
     watermarkText: "Masukkan nilai",
 };
-ej.PivotGrid.Locale["ms-MY"] = {
+if (ej.PivotGrid) ej.PivotGrid.Locale["ms-MY"] = {
+    Total: "Jumlah",
+    GrandTotal: "Jumlah Besar",
+    DoesNotBeginsWith: "Tidak Bermula Dengan",
+    DoesNotEndsWith: "Tidak berakhir dengan",
+    DoesNotContains: "Tidak Mengandungi",
+    DoesNotEquals: "Tidak Sama Dengan",
+    IsGreaterThan: "Lebih Besar Daripada",
+    IsGreaterThanOrEqualTo: "Lebih Besar daripada atau sama dengan",
+    IsLessThan: "Kurang Daripada",
+    IsLessThanOrEqualTo: "Kurang daripada atau sama dengan",
+
+    NumberFormatting: "Nombor Pemformatan",
+    FrozenHeaders: "Beku Pengepala",
+    CellSelection: "Sel Pilihan",
+    CellContext: "Sel Konteks",
+    ColumnResize: "Saiz Semula Lajur",
+    ExcelLikeLayout: "Excelname Seperti Bentangan",
+    FrozenHeader: "Beku Pengepala",
+    AdvancedFiltering: "Lanjutan Penapisan",
+    Amount: "Jumlah",
+    Quantity: "Kuantiti",
+    Measures: "Unuk",
+    NumberFormats: "Bilangan Format",
+    Exporting: "Mengeksport",
+    FileName: "Nama fail",
+    ToolTip: "Tip alat",
+    RTL: "RTL",
+    CollapseByDefault: "Runtuhkan Piawai",
+    EnableDisablePaging: "Enalbe / Nyahaktifkan pagingprocess status",
+    PagingOptions: "Pagingprocess status Opsyen",
+    CategoricalPageSize: "Categorical Saiz Halaman",
+    SeriesPageSize: "Siri Saiz Halaman",
+
+    HyperLink: "Hiperpautan",
+    CellEditing: "Sel Suntingan",
+    GroupingBar: "Groupware Bar",
+    SummaryCustomization: "Ringkasan penentuan selanjutnya",
+    SummaryTypes: "Ringkasan Jenis",
+    SummaryType: "Ringkasan Jenis",
+    EnableRowHeaderHyperlink: "Aktifkan Pengepala hiperpautan",
+    EnableColumnHeaderHyperlink: "Aktifkan ColumnHeaderHyperLink",
+    EnableValueCellHyperlink: "Aktifkan nilai Sel hiperpautan",
+    EnableSummaryCellHyperlink: "Aktifkan Ringkasan Sel hiperpautan",
+    HideGrandTotal: "Sembunyikan Jumlah Besar",
+    HideSubTotal: "Sembunyikan subjumlah",
+    Both: "Kedua",
+    Sum: "Hasil tambah",
+    Average: "Purata",
+    Count: "Count",
+    Min: "Min",
+
+    Max: "Max",
+    Excel: "Excelname",
+    Word: "Perkataan",
+    PDF: "PDF",
+    CSV: "CSV",
+
     ToolTipRow: "Baris",
     ToolTipColumn: "Kolum",
     ToolTipValue: "nilai",
@@ -798,7 +928,7 @@ ej.PivotGrid.Locale["ms-MY"] = {
     All: "Semua",
     Search: "Carian"
 };
-ej.PivotPager.Locale["ms-MY"] = {
+if (ej.PivotPager) ej.PivotPager.Locale["ms-MY"] = {
     SeriesPage: "Siri Page",
     CategoricalPage: "Page mutlak",
     Error: "Ralat",
@@ -806,7 +936,16 @@ ej.PivotPager.Locale["ms-MY"] = {
     Close: "Tutup",
     PageCountErrorMsg: "Masukkan sah nombor halaman"
 };
-ej.PivotSchemaDesigner.Locale["ms-MY"] = {
+if (ej.PivotSchemaDesigner) ej.PivotSchemaDesigner.Locale["ms-MY"] = {
+    DoesNotBeginsWith: "Tidak Bermula Dengan",
+    DoesNotEndsWith: "Tidak berakhir dengan",
+    DoesNotContains: "Tidak Mengandungi",
+    DoesNotEquals: "Tidak Sama Dengan",
+    IsGreaterThan: "Lebih Besar Daripada",
+    IsGreaterThanOrEqualTo: "Lebih Besar daripada atau sama dengan",
+    IsLessThan: "Kurang Daripada",
+    IsLessThanOrEqualTo: "Kurang daripada atau sama dengan",
+
     PivotTableFieldList: "Senarai Medan Jadual Pangsi",
     ChooseFieldsToAddToReport: "Pilih medan untuk menambah melaporkan:",
     DragFieldBetweenAreasBelow: "bidang Drag antara kawasan di bawah:",
@@ -853,7 +992,7 @@ ej.PivotSchemaDesigner.Locale["ms-MY"] = {
     Cancel: "Batalkan",
     Search: "Carian"
 };
-ej.datavisualization.RangeNavigator.Locale["ms-MY"] = {
+if (ej.datavisualization && ej.datavisualization.RangeNavigator) ej.datavisualization.RangeNavigator.Locale["ms-MY"] = {
     intervals: {
         quarter: {
             longQuarters: "Quarter,",
@@ -865,7 +1004,7 @@ ej.datavisualization.RangeNavigator.Locale["ms-MY"] = {
         },
     },
 };
-ej.ReportViewer.Locale["ms-MY"] = {
+if (ej.ReportViewer) ej.ReportViewer.Locale["ms-MY"] = {
     toolbar: {
         print: {
             headerText: "Cetak",
@@ -961,15 +1100,43 @@ ej.ReportViewer.Locale["ms-MY"] = {
     },
     viewButton: "Laporan Lihat",
 };
-ej.Ribbon.Locale["ms-MY"] = {
+if (ej.Ribbon) ej.Ribbon.Locale["ms-MY"] = {
     CustomizeQuickAccess: "Sesuaikan Bar Alat Capaian Segera",
     RemoveFromQuickAccessToolbar: "Buang dari Bar Alat Capaian Segera",
     AddToQuickAccessToolbar: "Tambah ke Bar Alat Capaian Segera",
     ShowAboveTheRibbon: "Tunjukkan atas Reben",
     ShowBelowTheRibbon: "Tunjukkan Di bawah Reben",
-    MoreCommands: "Lebih Perintah ...",
+    MoreCommands: "Lebih Perintah ..."
 };
-ej.RTE.Locale["ms-MY"] = {
+if (ej.Kanban) ej.Kanban.Locale["ms-MY"] = {
+    EmptyCard: "Kad untuk dipaparkan",
+    SaveButton: "Simpan",
+    CancelButton: "Batal",
+    EditFormTitle: "butiran ",
+    AddFormTitle: "Tambah Kad New",
+    SwimlaneCaptionFormat: "- {{:count}}{{if count == 1 }} item {{else}} item {{/if}}",
+    FilterSettings: "Penapis:",
+    FilterOfText: "daripada",
+    Max: "Dagangan",
+    Min: "min",
+    Cards: "  kad",
+    ItemsCount: "item Count :",
+    Unassigned: "Tiada tugas",
+    AddCard: "Tambah Kad",
+    EditCard: "Edit Kad",
+    DeleteCard: "Padam Kad",
+    TopofRow: "Atas Row",
+    BottomofRow: "Bawah Row",
+    MoveUp: "Bergerak ke atas",
+    MoveDown: "Bergerak ke bawah",
+    MoveLeft: "Bergerak ke kiri",
+    MoveRight: "kanan bergerak",
+    MovetoSwimlane: "Pindah ke laluan aktiviti",
+    HideColumn: "Sembunyikan lajur",
+    VisibleColumns: "Lajur Dapat dilihat",
+    PrintCard: "Kad Cetak"
+};
+if (ej.RTE) ej.RTE.Locale["ms-MY"] = {
 	bold: "Bold",
 	italic: "Italic",
 	underline: "garis",
@@ -1118,7 +1285,7 @@ ej.RTE.Locale["ms-MY"] = {
 	ReplaceAll: "Ganti Semua",
 	FindErrorMsg: "Tidak dapat mencari perkataan yang ditetapkan.",
 };
-ej.Schedule.Locale["ms-MY"] = {
+if (ej.Schedule) ej.Schedule.Locale["ms-MY"] = {
     ReminderWindowTitle: "tetingkap peringatan",
     CreateAppointmentTitle: "Buat Pelantikan",
     RecurrenceEditTitle: "Edit Ulang Pelantikan",
@@ -1218,7 +1385,7 @@ ej.Schedule.Locale["ms-MY"] = {
     Time: "masa",
     EmptyResultText: "Tiada cadangan",
 };
-ej.Spreadsheet.Locale["ms-MY"] = {
+if (ej.Spreadsheet) ej.Spreadsheet.Locale["ms-MY"] = {
     Cut: "Cut",
     Copy: "Salinan",
     FormatPainter: "format Painter",
@@ -1879,7 +2046,7 @@ ej.Spreadsheet.Locale["ms-MY"] = {
     PivotOverlapAlert: "Laporan Pivot Table tidak boleh bertindih satu lagi laporan Jadual Pangsi",
     NoCellFound: "No sel ditemui",
 };
-ej.TreeGrid.Locale["ms-MY"] = {
+if (ej.TreeGrid) ej.TreeGrid.Locale["ms-MY"] = {
     toolboxTooltipTexts: {
         addTool: "Tambah",
         editTool: "Edit",
@@ -1970,7 +2137,7 @@ ej.TreeGrid.Locale["ms-MY"] = {
     falseText: "Salah",
     emptyRecord: "Tiada rekod untuk dipaparkan",
 };
-ej.Uploadbox.Locale["ms-MY"] = {
+if (ej.Uploadbox) ej.Uploadbox.Locale["ms-MY"] = {
     buttonText: {
         upload: "Naik",
         browse: "Semak imbas",
@@ -1995,3 +2162,25 @@ ej.Uploadbox.Locale["ms-MY"] = {
     closeToolTip: "Tutup",
 };
 ;
+if (ej.Tile) ej.Tile.Locale["ms-MY"] = {
+    captionText: "teks"
+};
+if (ej.ListView) ej.ListView.Locale["ms-MY"] = {
+    headerTitle: "Title",
+    headerBackButtonText: "Kembali"
+};
+if (ej.SpellCheck) ej.SpellCheck.Locale["ms-MY"] = {
+    SpellCheckButtonText: "ejaan",
+    NotInDictionary: "Tidak dalam Kamus",
+    SuggestionLabel: "cadangan",
+    IgnoreOnceButtonText: "Abaikan Setelah",
+    IgnoreAllButtonText: "Abai Semua",
+    AddToDictionary: "Tambah ke Kamus",
+    ChangeButtonText: "Ubah",
+    ChangeAllButtonText: "Tukar Semua",
+    CloseButtonText: "Tutup",
+    CompletionPopupMessage: "Spell check selesai",
+    CompletionPopupTitle: "Semak ejaan",
+    Ok: "okey",
+    NoSuggestionMessage: "Tiada cadangan tersedia"
+};

@@ -7,12 +7,13 @@
 *  applicable laws. 
 */
 
-ej.Autocomplete.Locale["vi-VN"] = {
+if (ej.Autocomplete) ej.Autocomplete.Locale["vi-VN"] = {
     addNewText: "Thêm mới",
     emptyResultText: "Chưa có đề xuất",
     actionFailure: "Các lĩnh vực được chỉ định không tồn tại trong nguồn dữ liệu cho",
+    watermarkText: " "
 };
-ej.ColorPicker.Locale["vi-VN"] = {
+if (ej.ColorPicker) ej.ColorPicker.Locale["vi-VN"] = {
     buttonText: {
         apply: "Ứng dụng",
         cancel: "hủy bỏ",
@@ -37,14 +38,14 @@ ej.ColorPicker.Locale["vi-VN"] = {
         selectedcolor: "Màu được chọn"
     },
 };
-ej.CurrencyTextbox.Locale["vi-VN"] = {
+if (ej.CurrencyTextbox) ej.CurrencyTextbox.Locale["vi-VN"] = {
     watermarkText: "nhập giá trị",
 };
-ej.DatePicker.Locale["vi-VN"] = {
+if (ej.DatePicker) ej.DatePicker.Locale["vi-VN"] = {
     watermarkText: "Chọn ngày",
     buttonText: "Hôm nay",
 };
-ej.DateRangePicker.Locale["vi-VN"] = {
+if (ej.DateRangePicker) ej.DateRangePicker.Locale["vi-VN"] = {
     ButtonText: {
         apply: "Ứng dụng",
         cancel: "hủy bỏ",
@@ -53,7 +54,7 @@ ej.DateRangePicker.Locale["vi-VN"] = {
     watermarkText: "Chọn Phạm vi",
     customPicker: "tuỳ chỉnh Picker",
 };
-ej.DateTimePicker.Locale["vi-VN"] = {
+if (ej.DateTimePicker) ej.DateTimePicker.Locale["vi-VN"] = {
     watermarkText: "Chọn thời gian ngày",
     buttonText: {
         today: "Hôm nay",
@@ -62,7 +63,7 @@ ej.DateTimePicker.Locale["vi-VN"] = {
         timeTitle: "Thời gian"
     },
 };
-ej.datavisualization.Diagram.Locale["vi-VN"] = {
+if (ej.datavisualization && ej.datavisualization.Diagram) ej.datavisualization.Diagram.Locale["vi-VN"] = {
     cut: "Cắt tỉa",
     copy: "bản sao",
     paste: "dán",
@@ -78,7 +79,7 @@ ej.datavisualization.Diagram.Locale["vi-VN"] = {
     sendBackward: "Gửi ngược",
     sendToBack: "SendToBack",
 };
-ej.Dialog.Locale["vi-VN"] = {
+if (ej.Dialog) ej.Dialog.Locale["vi-VN"] = {
     tooltip: {
         close: "Gần",
         collapse: "Sự sụp đổ",
@@ -91,11 +92,11 @@ ej.Dialog.Locale["vi-VN"] = {
     },
     closeIconTooltip: "gần",
 };
-ej.DropDownList.Locale["vi-VN"] = {
+if (ej.DropDownList) ej.DropDownList.Locale["vi-VN"] = {
 	emptyResultText: "Không đề nghị,",
 	watermarkText: " ",
 };
-ej.ExcelFilter.Locale["vi-VN"] = {
+if (ej.ExcelFilter) ej.ExcelFilter.Locale["vi-VN"] = {
     SortNoSmaller: "Sắp xếp nhỏ nhất đến lớn nhất",
     SortNoLarger: "Sắp xếp lớn nhất đến nhỏ nhất",
     SortTextAscending: "Sắp xếp từ A đến Z",
@@ -139,7 +140,15 @@ ej.ExcelFilter.Locale["vi-VN"] = {
     True: "thật",
     False: "sai",
 };
-ej.FileExplorer.Locale["vi-VN"] = {
+if (ej.FileExplorer) ej.FileExplorer.Locale["vi-VN"] = {
+    EmptyFolder: "Thư mục này trống",
+    ProtectedFolder: "Bạn hiện dont có quyền truy cập vào thư mục này",
+    EmptyResult: "Không có mục nào phù hợp với tìm kiếm của bạn",
+    ContextMenuSortBy: "Sắp xếp theo",
+    InvalidFileName: "Một tên tập tin không thể chứa bất kỳ các ký tự sau: \\ /: * \ <> |",
+    Selected: "đã chọn",
+    Permission: "Được thay đổi",
+    SortBy: "Sắp xếp theo",
     Back: "Lạc hậu",
     Forward: "Phía trước",
     Upward: "Trở lên",
@@ -197,6 +206,18 @@ ej.FileExplorer.Locale["vi-VN"] = {
     Modified: "Được thay đổi",
     DialogCloseToolTip: "Gần",
     UploadSettings: {
+        buttonText: {
+            upload: "Tải lên",
+            browse: "Duyệt",
+            cancel: "hủy bỏ",
+            close: "Gần"
+        },
+        dialogText: {
+            title: "Tải lên Box",
+            name: "Tên",
+            size: "Kích thước",
+            status: "Trạng thái"
+        },
         dropAreaText: "Thả file, hoặc nhấn vào đây để upload",
         filedetail: "Kích thước tập tin được lựa chọn là quá lớn. Vui lòng chọn một tập tin trong các kích thước hợp lệ.",
         denyError: "Những tập tin có phần mở rộng #Extension không được phép.",
@@ -209,7 +230,7 @@ ej.FileExplorer.Locale["vi-VN"] = {
         closeToolTip: "Gần"
     },
 };
-ej.Gantt.Locale["vi-VN"] = {
+if (ej.Gantt) ej.Gantt.Locale["vi-VN"] = {
     emptyRecord: "Không có dữ liệu để hiển thị",
     alertTexts: {
         indentAlert: "Không có kỷ lục Gantt được chọn để thực hiện các Thụt lề",
@@ -366,7 +387,7 @@ ej.Gantt.Locale["vi-VN"] = {
             { id: "FF", text: "Hoàn thành-Hoàn thành", value: "Hoàn thành-Hoàn thành" }
         ],
 };
-ej.Grid.Locale["vi-VN"] = {
+if (ej.Grid) ej.Grid.Locale["vi-VN"] = {
     EmptyRecord: "Không có dữ liệu để hiển thị",
     GroupDropArea: "Kéo một tiêu đề cột vào đây để nhóm cột của nó",
     DeleteOperationAlert: "Không có hồ sơ được lựa chọn cho hoạt động xóa",
@@ -479,19 +500,63 @@ if (ej.mobile !== undefined && ej.mobile.TimePicker !== undefined) {
     };
     ;
 }
-ej.NumericTextbox.Locale["vi-VN"] = {
+if (ej.NumericTextbox) ej.NumericTextbox.Locale["vi-VN"] = {
     watermarkText: "nhập giá trị",
 };
-ej.PivotChart.Locale["vi-VN"] = {
+if (ej.PivotChart) ej.PivotChart.Locale["vi-VN"] = {
     Measure: "Đo",
     Row: "hàng",
     Column: "Cột",
     Expand: "Phát triển",
     Collapse: "Sự sụp đổ",
     Exit: "Lối thoát",
-    Value: "Giá trị"
+    Value: "Giá trị",
+
+    ChartTypes: "Kiểu biểu đồ",
+    TDCharts: "Bản đồ 3D",
+    Tooltip: "Văn bản tiêu đề chọn",
+    Exporting: "Xuất khẩu",
+    Line: "Hàng",
+    Spline: "lưỡi gà",
+    Area: "Khu vực",
+    SplineArea: "spline Diện tích",
+    StepLine: "bước đường",
+    StepArea: "bước Diện tích",
+    Pie: "bánh",
+    Bar: "Quán ba",
+    StackingArea: "Stacking Diện tích",
+    StackingColumn: "xếp thành cột",
+    StackingBar: "Thanh Stacking",
+    Pyramid: "Hình kim tự tháp",
+    Funnel: "Ống khói",
+    Doughnut: "bánh rán",
+    Scatter: "tiêu tan",
+    Bubble: "Bong bóng",
+    TreeMap: "Sơ đồ cây",
+    ColumnTD: "Cột 3D",
+    PieTD: "bánh 3D",
+    BarTD: "Quán 3D",
+    StackingBarTD: "Thanh Stacking 3D",
+    StackingColumnTD: "xếp thành cột 3D",
+    Excel: "Excel",
+    Word: "Word",
+    Pdf: "PDF",
+    PNG: "PNG",
+    EMF: "EMF",
+    GIF: "GIF",
+    JPG: "JPG",
+    BMF: "BMF"
 };
-ej.PivotClient.Locale["vi-VN"] = {
+if (ej.PivotClient) ej.PivotClient.Locale["vi-VN"] = {
+    DoesNotBeginsWith: "Không bắt đầu với",
+    DoesNotEndsWith: "Không kết thúc cùng với",
+    DoesNotContains: "Không chứa",
+    DoesNotEquals: "Không bằng",
+    IsGreaterThan: "Lớn hơn",
+    IsGreaterThanOrEqualTo: "Là Ngắn hơn một năm",
+    IsLessThan: "Là ít hơn",
+    IsLessThanOrEqualTo: "Là ít hơn hoặc bằng",­­
+
     DeferUpdate: "Hoãn cập nhật",
     MDXQuery: "MDX truy vấn",
     Column: "Cột",
@@ -608,11 +673,11 @@ ej.PivotClient.Locale["vi-VN"] = {
     SetReportNameAlertMsg: "Hãy đặt tên báo cáo.",
     Search: "Tìm kiếm"
 };
-ej.PivotGauge.Locale["vi-VN"] = {
+if (ej.PivotGauge) ej.PivotGauge.Locale["vi-VN"] = {
     RevenueGoal: "Mục tiêu doanh thu",
     RevenueValue: "Giá trị doanh thu",
 };
-ej.Pager.Locale["vi-VN"] = {
+if (ej.Pager) ej.Pager.Locale["vi-VN"] = {
     pagerInfo: "{0} {1} trang ({2} bài)",
     firstPageTooltip: "Tới trang đầu tiên",
     lastPageTooltip: "Tới trang cuối cùng",
@@ -621,7 +686,7 @@ ej.Pager.Locale["vi-VN"] = {
     nextPagerTooltip: "Đến trang tiếp theo",
     previousPagerTooltip: "Tới trang trước",
 };
-ej.PdfViewer.Locale["vi-VN"] = {
+if (ej.PdfViewer) ej.PdfViewer.Locale["vi-VN"] = {
     toolbar: {
         print: {
             headerText: "In",
@@ -667,12 +732,77 @@ ej.PdfViewer.Locale["vi-VN"] = {
             headerText: 'Phù hợp để trang',
             contentText: 'Phù hợp với những trang PDF để các container .',
         },
+        search: {
+            headerText: 'Tìm kiếm văn bản',
+            contentText: 'Tìm kiếm văn bản trong các trang PDF.'
+        },
+        download: {
+            headerText: 'Tải về',
+            contentText: 'Tải tài liệu PDF.'
+        },
     },
 };
-ej.PercentageTextbox.Locale["vi-VN"] = {
+if (ej.PercentageTextbox) ej.PercentageTextbox.Locale["vi-VN"] = {
     watermarkText: "nhập giá trị",
 };
-ej.PivotGrid.Locale["vi-VN"] = {
+if (ej.PivotGrid) ej.PivotGrid.Locale["vi-VN"] = {
+    Total: "Tổng số",
+    GrandTotal:"Nghe chưa?",
+    DoesNotBeginsWith: "Không bắt đầu với",
+    DoesNotEndsWith: "Không kết thúc cùng với",
+    DoesNotContains: "Không chứa",
+    DoesNotEquals: "Không bằng",
+    IsGreaterThan: "Lớn hơn",
+    IsGreaterThanOrEqualTo: "Là Ngắn hơn một năm",
+    IsLessThan: "Là ít hơn",
+    IsLessThanOrEqualTo: "Là ít hơn hoặc bằng",­­
+
+    NumberFormatting: "Số đang định dạng",
+    FrozenHeaders: "Dã²ng Ä'áº§u đông lạnh",
+    CellSelection: "Tế bào phần chọn",
+    CellContext: "Ngữ cảnh tế bào",
+    ColumnResize: "Cột thay đổi kích cỡ",
+    ExcelLikeLayout: "Excel như bố trí",
+    FrozenHeader: "Đầu trang đông lạnh",
+    AdvancedFiltering: "Lọc cấp cao",
+    Amount: "Sâ tiën",
+    Quantity: "Số lượng",
+    Measures: "Các biện pháp",
+    NumberFormats: "Định dạng số",
+    Exporting: "Xuất khẩu",
+    FileName: "Tên tập tin",
+    ToolTip: "Mẹo công cụ",
+    RTL: "RTL",
+    CollapseByDefault: "Sụp đổ theo mặc định",
+    EnableDisablePaging: "Chúng tôi đặt cái máy nghe lén Enalbe / Tắt",
+    PagingOptions: "Chúng tôi đặt cái máy nghe lén tùy chọn",
+    CategoricalPageSize: "Sự phân loại kích cỡ trang",
+    SeriesPageSize: "Loạt kích cỡ trang",
+
+    HyperLink: "Siêu liên kết",
+    CellEditing: "Tế bào hiệu chỉnh.",
+    GroupingBar:"Thanh chân trang",
+    SummaryCustomization: "Tóm Lược điều chỉnh",
+    SummaryTypes: "Tóm Lược các loại",
+    SummaryType: "Kiểu tóm lược",
+    EnableRowHeaderHyperlink: "Bật đầu trang hàng siêu liên kết",
+    EnableColumnHeaderHyperlink: "Bật đầu trang cột siêu liên kết",
+    EnableValueCellHyperlink: "Bật tế bào giá trị siêu liên kết",
+    EnableSummaryCellHyperlink: "Bật Tóm Lược tế bào siêu liên kết",
+    HideGrandTotal: "Ẩn GrandTotal",
+    HideSubTotal: "Ẩn SubTotal",
+    Both: "Cả hai",
+    Sum: "L·",
+    Average: "Trung bình",
+    Count: "Đếm",
+    Min: "Min",
+
+    Max: "Max",
+    Excel: "Excel",
+    Word: "Word",
+    PDF: "PDF",
+    CSV: "CSV",
+
     ToolTipRow: "hàng",
     ToolTipColumn: "Cột",
     ToolTipValue: "Giá trị",
@@ -798,7 +928,7 @@ ej.PivotGrid.Locale["vi-VN"] = {
     All: "Tất cả",
     Search: "Tìm kiếm"
 };
-ej.PivotPager.Locale["vi-VN"] = {
+if (ej.PivotPager) ej.PivotPager.Locale["vi-VN"] = {
     SeriesPage: "Loạt trang",
     CategoricalPage: "phân loại trang",
     Error: "Lỗi",
@@ -806,7 +936,16 @@ ej.PivotPager.Locale["vi-VN"] = {
     Close: "Đóng",
     PageCountErrorMsg: "Hãy nhập số trang hợp lệ"
 };
-ej.PivotSchemaDesigner.Locale["vi-VN"] = {
+if (ej.PivotSchemaDesigner) ej.PivotSchemaDesigner.Locale["vi-VN"] = {
+    DoesNotBeginsWith: "Không bắt đầu với",
+    DoesNotEndsWith: "Không kết thúc cùng với",
+    DoesNotContains: "Không chứa",
+    DoesNotEquals: "Không bằng",
+    IsGreaterThan: "Lớn hơn",
+    IsGreaterThanOrEqualTo: "Là Ngắn hơn một năm",
+    IsLessThan: "Là ít hơn",
+    IsLessThanOrEqualTo: "Là ít hơn hoặc bằng",­­
+
     PivotTableFieldList: "Pivot FieldList bàn",
     ChooseFieldsToAddToReport: "Chọn lĩnh vực để bổ sung vào báo cáo:",
     DragFieldBetweenAreasBelow: "lĩnh vực Kéo giữa các khu vực dưới đây:",
@@ -853,7 +992,7 @@ ej.PivotSchemaDesigner.Locale["vi-VN"] = {
     Cancel: "Thã'i",
     Search: "Tìm kiếm"
 };
-ej.datavisualization.RangeNavigator.Locale["vi-VN"] = {
+if (ej.datavisualization && ej.datavisualization.RangeNavigator) ej.datavisualization.RangeNavigator.Locale["vi-VN"] = {
     intervals: {
         quarter: {
             longQuarters: "Phần tư,",
@@ -865,14 +1004,23 @@ ej.datavisualization.RangeNavigator.Locale["vi-VN"] = {
         },
     },
 };
-ej.datavisualization.Chart.Locale["vi-VN"] = {
+if (ej.datavisualization && ej.datavisualization.Chart) ej.datavisualization.Chart.Locale["vi-VN"] = {
     zoomIn: "Phóng to",
     zoomOut: "Thu nhỏ",
     zoom: "Thu phóng",
     pan: "cái chảo",
     reset: "Thiết lập lại"
 };
-ej.ReportViewer.Locale["vi-VN"] = {
+if (ej.datavisualization && ej.datavisualization.Map) ej.datavisualization.Map.Locale["vi-VN"] = {
+    zoomIn: "Phóng to",
+    zoomOut: "Thu nhỏ",
+    panTop: "Pan Top",
+    panBottom: "dưới Pan",
+    panLeft: "Pan Left",
+	 panRight: "Pan phải",
+	 home: "Nhà"
+};
+if (ej.ReportViewer) ej.ReportViewer.Locale["vi-VN"] = {
     toolbar: {
         print: {
             headerText: "In",
@@ -968,15 +1116,43 @@ ej.ReportViewer.Locale["vi-VN"] = {
     },
     viewButton: "Xem báo cáo",
 };
-ej.Ribbon.Locale["vi-VN"] = {
+if (ej.Ribbon) ej.Ribbon.Locale["vi-VN"] = {
     CustomizeQuickAccess: "Tùy chỉnh Quick Access Toolbar",
     RemoveFromQuickAccessToolbar: "Di chuyển từ Quick Access Toolbar",
     AddToQuickAccessToolbar: "Thêm vào Quick Access Toolbar",
     ShowAboveTheRibbon: "Hiện Phía trên Ribbon",
     ShowBelowTheRibbon: "Hiện Below the Ribbon",
-    MoreCommands: "More Commands ...",
+    MoreCommands: "More Commands ..."
 };
-ej.RTE.Locale["vi-VN"] = {
+if (ej.Kanban) ej.Kanban.Locale["vi-VN"] = {
+    EmptyCard: "Không có thẻ để hiển thị",
+    SaveButton: "Tiết kiệm",
+    CancelButton: "hủy bỏ",
+    EditFormTitle: "Chi tiết của ",
+    AddFormTitle: "Thêm thẻ mới",
+    SwimlaneCaptionFormat: "- {{:count}}{{if count == 1 }} mục {{else}} hạng mục {{/if}}",
+    FilterSettings: "Bộ lọc:",
+    FilterOfText: "của",
+    Max: "Max",
+    Min: "min",
+    Cards: "  thẻ",
+    ItemsCount: "Items Đếm :",
+    Unassigned: "Unassigned",
+    AddCard: "Thêm thẻ",
+    EditCard: "chỉnh sửa thẻ",
+    DeleteCard: "xóa thẻ",
+    TopofRow: "Đầu Row",
+    BottomofRow: "Đáy Row",
+    MoveUp: "Đi lên",
+    MoveDown: "Đi xuống",
+    MoveLeft: "Di chuyển sang trái",
+    MoveRight: "Đi sang phải",
+    MovetoSwimlane: "Di chuyển đến Swimlane",
+    HideColumn: "Ẩn cột",
+    VisibleColumns: "Cột Visible",
+    PrintCard: "in thẻ"
+};
+if (ej.RTE) ej.RTE.Locale["vi-VN"] = {
 	bold: "Dũng cảm",
 	italic: "nghiêng",
 	underline: "nhấn mạnh",
@@ -1125,7 +1301,7 @@ ej.RTE.Locale["vi-VN"] = {
 	ReplaceAll: "Thay thế tất cả",
 	FindErrorMsg: "Không tìm thấy từ xác định.",
 };
-ej.Schedule.Locale["vi-VN"] = {
+if (ej.Schedule) ej.Schedule.Locale["vi-VN"] = {
     ReminderWindowTitle: "cửa sổ nhắc nhở",
     CreateAppointmentTitle: "tạo Bổ nhiệm",
     RecurrenceEditTitle: "Sửa Lặp lại hẹn",
@@ -1225,7 +1401,7 @@ ej.Schedule.Locale["vi-VN"] = {
     Time: "Thời gian",
     EmptyResultText: "Chưa có đề xuất",
 };
-ej.Spreadsheet.Locale["vi-VN"] = {
+if (ej.Spreadsheet) ej.Spreadsheet.Locale["vi-VN"] = {
     Cut: "Cắt tỉa",
     Copy: "bản sao",
     FormatPainter: "Format Painter",
@@ -1886,7 +2062,7 @@ ej.Spreadsheet.Locale["vi-VN"] = {
     PivotOverlapAlert: "Một báo cáo của Pivot Table không thể chồng lên nhau một báo cáo khác Pivot Table",
     NoCellFound: "Không có tế bào được tìm thấy",
 };
-ej.TreeGrid.Locale["vi-VN"] = {
+if (ej.TreeGrid) ej.TreeGrid.Locale["vi-VN"] = {
     toolboxTooltipTexts: {
         addTool: "Thêm vào",
         editTool: "Chỉnh sửa",
@@ -1977,7 +2153,7 @@ ej.TreeGrid.Locale["vi-VN"] = {
     falseText: "Sai",
     emptyRecord: "Không có dữ liệu để hiển thị",
 };
-ej.Uploadbox.Locale["vi-VN"] = {
+if (ej.Uploadbox) ej.Uploadbox.Locale["vi-VN"] = {
     buttonText: {
         upload: "Đăng tải",
         browse: "Duyệt",
@@ -2002,3 +2178,25 @@ ej.Uploadbox.Locale["vi-VN"] = {
     closeToolTip: "Gần",
 };
 ;
+if (ej.Tile) ej.Tile.Locale["vi-VN"] = {
+    captionText: "văn bản"
+};
+if (ej.ListView) ej.ListView.Locale["vi-VN"] = {
+    headerTitle: "Tiêu đề",
+    headerBackButtonText: "Quay lại"
+};
+if (ej.SpellCheck) ej.SpellCheck.Locale["vi-VN"] = {
+    SpellCheckButtonText: "chính tả",
+    NotInDictionary: "Không có trong từ điển",
+    SuggestionLabel: "gợi ý",
+    IgnoreOnceButtonText: "Bỏ qua khi",
+    IgnoreAllButtonText: "Bỏ qua tất cả",
+    AddToDictionary: "Thêm vào từ điển",
+    ChangeButtonText: "Thay đổi",
+    ChangeAllButtonText: "thay đổi tất cả",
+    CloseButtonText: "Gần",
+    CompletionPopupMessage: "Kiểm tra chính tả hoàn tất",
+    CompletionPopupTitle: "Kiểm tra chính tả",
+    Ok: "được",
+    NoSuggestionMessage: "Không có đề xuất"
+};

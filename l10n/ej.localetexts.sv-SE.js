@@ -7,12 +7,13 @@
 *  applicable laws. 
 */
 
-ej.Autocomplete.Locale["sv-SE"] = {
+if (ej.Autocomplete) ej.Autocomplete.Locale["sv-SE"] = {
     addNewText: "Lägg till ny",
     emptyResultText: "Inga förslag",
     actionFailure: "Den angivna fältet existerar inte i given datakälla",
+    watermarkText: " "
 };
-ej.ColorPicker.Locale["sv-SE"] = {
+if (ej.ColorPicker) ej.ColorPicker.Locale["sv-SE"] = {
     buttonText: {
         apply: "Tillämpa",
         cancel: "Annullera",
@@ -37,14 +38,14 @@ ej.ColorPicker.Locale["sv-SE"] = {
         selectedcolor: "valda färgen"
     },
 };
-ej.CurrencyTextbox.Locale["sv-SE"] = {
+if (ej.CurrencyTextbox) ej.CurrencyTextbox.Locale["sv-SE"] = {
     watermarkText: "Ange värde",
 };
-ej.DatePicker.Locale["sv-SE"] = {
+if (ej.DatePicker) ej.DatePicker.Locale["sv-SE"] = {
     watermarkText: "Välj datum",
     buttonText: "I dag",
 };
-ej.DateRangePicker.Locale["sv-SE"] = {
+if (ej.DateRangePicker) ej.DateRangePicker.Locale["sv-SE"] = {
     ButtonText: {
         apply: "Tillämpa",
         cancel: "Annullera",
@@ -53,7 +54,7 @@ ej.DateRangePicker.Locale["sv-SE"] = {
     watermarkText: "Markera omfång",
     customPicker: "Custom Picker",
 };
-ej.DateTimePicker.Locale["sv-SE"] = {
+if (ej.DateTimePicker) ej.DateTimePicker.Locale["sv-SE"] = {
     watermarkText: "Välj datum tid",
     buttonText: {
         today: "I dag",
@@ -62,7 +63,7 @@ ej.DateTimePicker.Locale["sv-SE"] = {
         timeTitle: "Tid"
     },
 };
-ej.datavisualization.Diagram.Locale["sv-SE"] = {
+if (ej.datavisualization && ej.datavisualization.Diagram) ej.datavisualization.Diagram.Locale["sv-SE"] = {
     cut: "Skära",
     copy: "Kopiera",
     paste: "Klistra",
@@ -78,7 +79,7 @@ ej.datavisualization.Diagram.Locale["sv-SE"] = {
     sendBackward: "Skicka bakåt",
     sendToBack: "Skicka tillbaka",
 };
-ej.Dialog.Locale["sv-SE"] = {
+if (ej.Dialog) ej.Dialog.Locale["sv-SE"] = {
     tooltip: {
         close: "Stänga",
         collapse: "Kollaps",
@@ -91,11 +92,11 @@ ej.Dialog.Locale["sv-SE"] = {
     },
     closeIconTooltip: "stänga",
 };
-ej.DropDownList.Locale["sv-SE"] = {
+if (ej.DropDownList) ej.DropDownList.Locale["sv-SE"] = {
 	emptyResultText: "Inga förslag,",
 	watermarkText: " ",
 };
-ej.ExcelFilter.Locale["sv-SE"] = {
+if (ej.ExcelFilter) ej.ExcelFilter.Locale["sv-SE"] = {
     SortNoSmaller: "Sortera Minsta till största",
     SortNoLarger: "Sortera största till minsta",
     SortTextAscending: "Sortera A till Ö",
@@ -139,7 +140,15 @@ ej.ExcelFilter.Locale["sv-SE"] = {
     True: "sann",
     False: "falsk",
 };
-ej.FileExplorer.Locale["sv-SE"] = {
+if (ej.FileExplorer) ej.FileExplorer.Locale["sv-SE"] = {
+    EmptyFolder: "Denna mapp är tom",
+    ProtectedFolder: "Du gör inte närvarande behörighet till den här mappen",
+    EmptyResult: "Inga objekt matchar din sökning",
+    ContextMenuSortBy: "Sortera efter",
+    InvalidFileName: "Ett filnamn kan inte innehålla något av följande tecken: \\ /: * \ <> |",
+    Selected: "vald",
+    Permission: "Tillåtelse",
+    SortBy: "Sortera efter",
     Back: "Bakåt",
     Forward: "Fram",
     Upward: "Uppåt",
@@ -197,6 +206,18 @@ ej.FileExplorer.Locale["sv-SE"] = {
     Modified: "Ändrad",
     DialogCloseToolTip: "Stänga",
     UploadSettings: {
+        buttonText: {
+            upload: "Ladda upp",
+            browse: "Bläddra",
+            cancel: "Annullera",
+            close: "Stänga"
+        },
+        dialogText: {
+            title: "Ladda upp Box",
+            name: "namn",
+            size: "Storlek",
+            status: "Status"
+        },
         dropAreaText: "Släppa filer eller klicka på för att ladda upp",
         filedetail: "Den valda filen är för stor. Välj en fil i giltig storlek.",
         denyError: "Filer med #Extension tillägg är inte tillåtna.",
@@ -209,7 +230,7 @@ ej.FileExplorer.Locale["sv-SE"] = {
         closeToolTip: "Stänga"
     },
 };
-ej.Gantt.Locale["sv-SE"] = {
+if (ej.Gantt) ej.Gantt.Locale["sv-SE"] = {
     emptyRecord: "Inga poster att visa",
     alertTexts: {
         indentAlert: "Det finns ingen Gantt post väljs för att utföra indrag",
@@ -366,7 +387,7 @@ ej.Gantt.Locale["sv-SE"] = {
             { id: "FF", text: "Yta-Yta", value: "Yta-Yta" }
         ],
 };
-ej.Grid.Locale["sv-SE"] = {
+if (ej.Grid) ej.Grid.Locale["sv-SE"] = {
     EmptyRecord: "Inga poster att visa",
     GroupDropArea: "Dra en kolumnrubrik här till gruppen sin kolumn",
     DeleteOperationAlert: "Inga poster som valts ut för radering",
@@ -479,19 +500,63 @@ if (ej.mobile !== undefined && ej.mobile.TimePicker !== undefined) {
     };
     ;
 }
-ej.NumericTextbox.Locale["sv-SE"] = {
+if (ej.NumericTextbox) ej.NumericTextbox.Locale["sv-SE"] = {
     watermarkText: "Ange värde",
 };
-ej.PivotChart.Locale["sv-SE"] = {
+if (ej.PivotChart) ej.PivotChart.Locale["sv-SE"] = {
     Measure: "Mäta",
     Row: "Rad",
     Column: "Kolumn",
     Expand: "Bygga ut",
     Collapse: "Kollaps",
     Exit: "Utgång",
-    Value: "Värde"
+    Value: "Värde",
+
+    ChartTypes: "Diagramslag",
+    TDCharts: "3D diagram",
+    Tooltip: "Verktygstips",
+    Exporting: "Exportera",
+    Line: "Linje",
+    Spline: "spline",
+    Area: "Område",
+    SplineArea: "spline-området",
+    StepLine: "steg Linje",
+    StepArea: "steg Area",
+    Pie: "Paj",
+    Bar: "Bar",
+    StackingArea: "Staplingsplats",
+    StackingColumn: "Staplingstorn",
+    StackingBar: "Stapla Bar",
+    Pyramid: "Pyramid",
+    Funnel: "Tratt",
+    Doughnut: "munk",
+    Scatter: "sprida ut",
+    Bubble: "Kåpa",
+    TreeMap: "Trädmappen får",
+    ColumnTD: "Kolumn 3D",
+    PieTD: "Paj 3D",
+    BarTD: "Bar 3D",
+    StackingBarTD: "Stapla Bar 3D",
+    StackingColumnTD: "Staplingstorn 3D",
+    Excel: "Excel",
+    Word: "Word",
+    Pdf: "PDF",
+    PNG: "PNG",
+    EMF: "EMF",
+    GIF: "GIF",
+    JPG: "JPG",
+    BMF: "BMF"
 };
-ej.PivotClient.Locale["sv-SE"] = {
+if (ej.PivotClient) ej.PivotClient.Locale["sv-SE"] = {
+    DoesNotBeginsWith: "Inte börjar med",
+    DoesNotEndsWith: "Inte slutar med",
+    DoesNotContains: "Inte innehåller",
+    DoesNotEquals: "Inte lika med",
+    IsGreaterThan: "Är större än",
+    IsGreaterThanOrEqualTo: "Är större än eller lika med",
+    IsLessThan: "Är mindre än",
+    IsLessThanOrEqualTo: "Är mindre än eller lika med",­­
+
     DeferUpdate: "Skjuta upp uppdateringen",
     MDXQuery: "MDX urval",
     Column: "Kolumn",
@@ -608,11 +673,11 @@ ej.PivotClient.Locale["sv-SE"] = {
     SetReportNameAlertMsg: "Ange rapportens namn.",
     Search: "Sök"
 };
-ej.PivotGauge.Locale["sv-SE"] = {
+if (ej.PivotGauge) ej.PivotGauge.Locale["sv-SE"] = {
     RevenueGoal: "intäkts mål",
     RevenueValue: "intäktsvärde",
 };
-ej.Pager.Locale["sv-SE"] = {
+if (ej.Pager) ej.Pager.Locale["sv-SE"] = {
     pagerInfo: "{0} av {1} sidor ({2} objekt)",
     firstPageTooltip: "Gå till första sidan",
     lastPageTooltip: "Gå till sista sidan",
@@ -621,7 +686,7 @@ ej.Pager.Locale["sv-SE"] = {
     nextPagerTooltip: "Gå till nästa sida",
     previousPagerTooltip: "Gå till föregående sida",
 };
-ej.PdfViewer.Locale["sv-SE"] = {
+if (ej.PdfViewer) ej.PdfViewer.Locale["sv-SE"] = {
     toolbar: {
         print: {
             headerText: "Skriva ut",
@@ -667,12 +732,77 @@ ej.PdfViewer.Locale["sv-SE"] = {
             headerText: 'Anpassa till sida',
             contentText: 'Passa PDF-sidan till behållaren.',
         },
+        search: {
+            headerText: 'Sök text',
+            contentText: 'Sök text i PDF-sidor.'
+        },
+        download: {
+            headerText: 'Ladda ner',
+            contentText: 'Ladda ner PDF-dokumentet.'
+        },
     },
 };
-ej.PercentageTextbox.Locale["sv-SE"] = {
+if (ej.PercentageTextbox) ej.PercentageTextbox.Locale["sv-SE"] = {
     watermarkText: "Ange värde",
 };
-ej.PivotGrid.Locale["sv-SE"] = {
+if (ej.PivotGrid) ej.PivotGrid.Locale["sv-SE"] = {
+    Total: "Totalt",
+    GrandTotal:"Totalsumma",
+    DoesNotBeginsWith: "Inte börjar med",
+    DoesNotEndsWith: "Inte slutar med",
+    DoesNotContains: "Inte innehåller",
+    DoesNotEquals: "Inte lika med",
+    IsGreaterThan: "Är större än",
+    IsGreaterThanOrEqualTo: "Är större än eller lika med",
+    IsLessThan: "Är mindre än",
+    IsLessThanOrEqualTo: "Är mindre än eller lika med",­­
+
+    NumberFormatting: "Talformat",
+    FrozenHeaders: "Fryst sidhuvud",
+    CellSelection: "Cell urval",
+    CellContext: "Cell sammanhang",
+    ColumnResize: "Kolumnen Resize",
+    ExcelLikeLayout: "Excel-gillar layouten",
+    FrozenHeader: "Fryst skärbord",
+    AdvancedFiltering: "Avancerad filtrering",
+    Amount: "Belopp",
+    Quantity: "Kvantitet",
+    Measures: "Åtgärder",
+    NumberFormats: "Nummerformat",
+    Exporting: "Exportera",
+    FileName: "Filnamn",
+    ToolTip: "Verktygstips",
+    RTL: "RTL",
+    CollapseByDefault: "Kollaps som standard",
+    EnableDisablePaging: "Enalbe / Inaktivera personsökning",
+    PagingOptions: "Paging-alternativ",
+    CategoricalPageSize: "Kategoriska sidstorlek",
+    SeriesPageSize: "Serien sidstorlek",
+
+    HyperLink: "Hyperlänk",
+    CellEditing: "Cellen redigera",
+    GroupingBar:"Gruppera Bar",
+    SummaryCustomization: "Sammanfattning anpassning",
+    SummaryTypes: "Sammanfattning typer",
+    SummaryType: "Sammanfattning typ",
+    EnableRowHeaderHyperlink: "Aktivera Radrubrik hyperlänk",
+    EnableColumnHeaderHyperlink: "Aktivera kolumnrubriken hyperlänk",
+    EnableValueCellHyperlink: "Aktivera värde cell hyperlänk",
+    EnableSummaryCellHyperlink: "Aktivera hänvisningar Cell hyperlänk",
+    HideGrandTotal: "Dölj Grand Total",
+    HideSubTotal: "Dölj delsumma",
+    Both: "Både",
+    Sum: "Summa",
+    Average: "Genomsnittlig",
+    Count: "Räkna",
+    Min: "Min",
+
+    Max: "Max",
+    Excel: "Excel",
+    Word: "Word",
+    PDF: "PDF",
+    CSV: "CSV",
+
     ToolTipRow: "Rad",
     ToolTipColumn: "Kolumn",
     ToolTipValue: "Värde",
@@ -798,7 +928,7 @@ ej.PivotGrid.Locale["sv-SE"] = {
     All: "Alla",
     Search: "Sök"
 };
-ej.PivotPager.Locale["sv-SE"] = {
+if (ej.PivotPager) ej.PivotPager.Locale["sv-SE"] = {
     SeriesPage: "serien Page",
     CategoricalPage: "kategorisk Sida",
     Error: "Fel",
@@ -806,7 +936,16 @@ ej.PivotPager.Locale["sv-SE"] = {
     Close: "Stäng",
     PageCountErrorMsg: "Ange ett giltigt sidnummer"
 };
-ej.PivotSchemaDesigner.Locale["sv-SE"] = {
+if (ej.PivotSchemaDesigner) ej.PivotSchemaDesigner.Locale["sv-SE"] = {
+    DoesNotBeginsWith: "Inte börjar med",
+    DoesNotEndsWith: "Inte slutar med",
+    DoesNotContains: "Inte innehåller",
+    DoesNotEquals: "Inte lika med",
+    IsGreaterThan: "Är större än",
+    IsGreaterThanOrEqualTo: "Är större än eller lika med",
+    IsLessThan: "Är mindre än",
+    IsLessThanOrEqualTo: "Är mindre än eller lika med",­­
+
     PivotTableFieldList: "PivotTable Fältlista",
     ChooseFieldsToAddToReport: "Välj fält för att lägga rapportera:",
     DragFieldBetweenAreasBelow: "Dra fält mellan områdena nedan:",
@@ -853,7 +992,7 @@ ej.PivotSchemaDesigner.Locale["sv-SE"] = {
     Cancel: "Avbryt",
     Search: "Sök"
 };
-ej.datavisualization.RangeNavigator.Locale["sv-SE"] = {
+if (ej.datavisualization && ej.datavisualization.RangeNavigator) ej.datavisualization.RangeNavigator.Locale["sv-SE"] = {
     intervals: {
         quarter: {
             longQuarters: "Fjärdedel,",
@@ -865,7 +1004,7 @@ ej.datavisualization.RangeNavigator.Locale["sv-SE"] = {
         },
     },
 };
-ej.ReportViewer.Locale["sv-SE"] = {
+if (ej.ReportViewer) ej.ReportViewer.Locale["sv-SE"] = {
     toolbar: {
         print: {
             headerText: "Skriva ut",
@@ -961,15 +1100,43 @@ ej.ReportViewer.Locale["sv-SE"] = {
     },
     viewButton: "Visa rapport",
 };
-ej.Ribbon.Locale["sv-SE"] = {
+if (ej.Ribbon) ej.Ribbon.Locale["sv-SE"] = {
     CustomizeQuickAccess: "Anpassa verktygsfältet Snabbåtkomst",
     RemoveFromQuickAccessToolbar: "Ta bort från verktygsfältet Snabbåtkomst",
     AddToQuickAccessToolbar: "Lägg till i verktygsfältet Snabbåtkomst",
     ShowAboveTheRibbon: "Visa ovanför bandet",
     ShowBelowTheRibbon: "Visa under menyfliksområdet",
-    MoreCommands: "Fler kommandon ...",
+    MoreCommands: "Fler kommandon ..."
 };
-ej.RTE.Locale["sv-SE"] = {
+if (ej.Kanban) ej.Kanban.Locale["sv-SE"] = {
+    EmptyCard: "Inga kort att visa",
+    SaveButton: "Spara",
+    CancelButton: "Annullera",
+    EditFormTitle: "detaljer för ",
+    AddFormTitle: "Lägg till nytt kort",
+    SwimlaneCaptionFormat: "- {{:count}}{{if count == 1 }} punkt {{else}} objekt {{/if}}",
+    FilterSettings: "filter:",
+    FilterOfText: "av",
+    Max: "max",
+    Min: "min",
+    Cards: "  kort",
+    ItemsCount: "objekt Count :",
+    Unassigned: "Inte tilldelad",
+    AddCard: "Lägg kortet",
+    EditCard: "redigera Card",
+    DeleteCard: "radera kortet",
+    TopofRow: "Överst på rad",
+    BottomofRow: "Längst ned på rad",
+    MoveUp: "Flytta upp",
+    MoveDown: "Flytta ner",
+    MoveLeft: "Flytta vänster",
+    MoveRight: "Flytta höger",
+    MovetoSwimlane: "Flytta till swimlane",
+    HideColumn: "hide Column",
+    VisibleColumns: "synliga kolumner",
+    PrintCard: "print Card"
+};
+if (ej.RTE) ej.RTE.Locale["sv-SE"] = {
 	bold: "Djärv",
 	italic: "Kursiv",
 	underline: "Understrykning",
@@ -1118,7 +1285,7 @@ ej.RTE.Locale["sv-SE"] = {
 	ReplaceAll: "Ersätt alla",
 	FindErrorMsg: "Det gick inte att hitta angiven ord.",
 };
-ej.Schedule.Locale["sv-SE"] = {
+if (ej.Schedule) ej.Schedule.Locale["sv-SE"] = {
     ReminderWindowTitle: "påminnelse fönster",
     CreateAppointmentTitle: "Skapa Utnämning",
     RecurrenceEditTitle: "Redigera Upprepa Tillsättning",
@@ -1218,7 +1385,7 @@ ej.Schedule.Locale["sv-SE"] = {
     Time: "Tid",
     EmptyResultText: "Inga förslag",
 };
-ej.Spreadsheet.Locale["sv-SE"] = {
+if (ej.Spreadsheet) ej.Spreadsheet.Locale["sv-SE"] = {
     Cut: "Skära",
     Copy: "Kopiera",
     FormatPainter: "Hämta format",
@@ -1879,7 +2046,7 @@ ej.Spreadsheet.Locale["sv-SE"] = {
     PivotOverlapAlert: "En pivottabellrapport kan inte överlappa en annan pivottabellrapporten",
     NoCellFound: "Inga celler hittades",
 };
-ej.TreeGrid.Locale["sv-SE"] = {
+if (ej.TreeGrid) ej.TreeGrid.Locale["sv-SE"] = {
     toolboxTooltipTexts: {
         addTool: "Lägg till",
         editTool: "Redigera",
@@ -1970,7 +2137,7 @@ ej.TreeGrid.Locale["sv-SE"] = {
     falseText: "Falsk",
     emptyRecord: "Inga poster att visa",
 };
-ej.Uploadbox.Locale["sv-SE"] = {
+if (ej.Uploadbox) ej.Uploadbox.Locale["sv-SE"] = {
     buttonText: {
         upload: "Ladda upp",
         browse: "Bläddra",
@@ -1995,3 +2162,25 @@ ej.Uploadbox.Locale["sv-SE"] = {
     closeToolTip: "Stänga",
 };
 ;
+if (ej.Tile) ej.Tile.Locale["sv-SE"] = {
+    captionText: "text"
+};
+if (ej.ListView) ej.ListView.Locale["sv-SE"] = {
+    headerTitle: "Titel",
+    headerBackButtonText: "Back"
+};
+if (ej.SpellCheck) ej.SpellCheck.Locale["sv-SE"] = {
+    SpellCheckButtonText: "Stavning",
+    NotInDictionary: "Inte i ordbok",
+    SuggestionLabel: "Förslag",
+    IgnoreOnceButtonText: "ignorera en gång",
+    IgnoreAllButtonText: "Ignorera alla",
+    AddToDictionary: "Lägg till Ordlista",
+    ChangeButtonText: "Byta",
+    ChangeAllButtonText: "Ändra alla",
+    CloseButtonText: "Stänga",
+    CompletionPopupMessage: "Stavningskontrollen är klar",
+    CompletionPopupTitle: "Stavnings kontroll",
+    Ok: "ok",
+    NoSuggestionMessage: "Inga förslag tillgängliga"
+};

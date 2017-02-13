@@ -7,12 +7,13 @@
 *  applicable laws. 
 */
 
-ej.Autocomplete.Locale["zh-CN"] = {
+if (ej.Autocomplete) ej.Autocomplete.Locale["zh-CN"] = {
     addNewText: "添新",
     emptyResultText: "没有建议",
     actionFailure: "指定字段中不定的数据源存在",
+    watermarkText: " "
 };
-ej.ColorPicker.Locale["zh-CN"] = {
+if (ej.ColorPicker) ej.ColorPicker.Locale["zh-CN"] = {
     buttonText: {
         apply: "应用",
         cancel: "取消",
@@ -37,14 +38,14 @@ ej.ColorPicker.Locale["zh-CN"] = {
         selectedcolor: "所选颜色"
     },
 };
-ej.CurrencyTextbox.Locale["zh-CN"] = {
+if (ej.CurrencyTextbox) ej.CurrencyTextbox.Locale["zh-CN"] = {
     watermarkText: "输入值",
 };
-ej.DatePicker.Locale["zh-CN"] = {
+if (ej.DatePicker) ej.DatePicker.Locale["zh-CN"] = {
     watermarkText: "选择日期",
     buttonText: "今天",
 };
-ej.DateRangePicker.Locale["zh-CN"] = {
+if (ej.DateRangePicker) ej.DateRangePicker.Locale["zh-CN"] = {
     ButtonText: {
         apply: "应用",
         cancel: "取消",
@@ -53,7 +54,7 @@ ej.DateRangePicker.Locale["zh-CN"] = {
     watermarkText: "选择范围",
     customPicker: "自定义选择器",
 };
-ej.DateTimePicker.Locale["zh-CN"] = {
+if (ej.DateTimePicker) ej.DateTimePicker.Locale["zh-CN"] = {
     watermarkText: "选择日期时间",
     buttonText: {
         today: "今天",
@@ -62,7 +63,7 @@ ej.DateTimePicker.Locale["zh-CN"] = {
         timeTitle: "时间"
     },
 };
-ej.datavisualization.Diagram.Locale["zh-CN"] = {
+if (ej.datavisualization && ej.datavisualization.Diagram) ej.datavisualization.Diagram.Locale["zh-CN"] = {
     cut: "切",
     copy: "复制",
     paste: "糊",
@@ -78,7 +79,7 @@ ej.datavisualization.Diagram.Locale["zh-CN"] = {
     sendBackward: "后移",
     sendToBack: "SendToBack",
 };
-ej.Dialog.Locale["zh-CN"] = {
+if (ej.Dialog) ej.Dialog.Locale["zh-CN"] = {
     tooltip: {
         close: "关闭",
         collapse: "崩溃",
@@ -91,11 +92,11 @@ ej.Dialog.Locale["zh-CN"] = {
     },
     closeIconTooltip: "关闭",
 };
-ej.DropDownList.Locale["zh-CN"] = {
+if (ej.DropDownList) ej.DropDownList.Locale["zh-CN"] = {
 	emptyResultText: "没有建议",
 	watermarkText: " ",
 };
-ej.ExcelFilter.Locale["zh-CN"] = {
+if (ej.ExcelFilter) ej.ExcelFilter.Locale["zh-CN"] = {
     SortNoSmaller: "排序从最小到最大",
     SortNoLarger: "排序从大到小",
     SortTextAscending: "排序从A到Z",
@@ -139,7 +140,15 @@ ej.ExcelFilter.Locale["zh-CN"] = {
     True: "真正",
     False: "假",
 };
-ej.FileExplorer.Locale["zh-CN"] = {
+if (ej.FileExplorer) ej.FileExplorer.Locale["zh-CN"] = {
+    EmptyFolder: "这个文件夹是空的",
+    ProtectedFolder: "您目前没有访问此文件夹的权限",
+    EmptyResult: "没有符合您搜索的项",
+    SortBy: "排序方式",
+    Selected: "选择",
+    InvalidFileName: "文件名不能包含以下任何字符：\\ /：*？\“<> |",
+    ContextMenuSortBy: "排序方式",
+    Permission: "允许",
     Back: "落后",
     Forward: "前锋",
     Upward: "向上",
@@ -197,6 +206,18 @@ ej.FileExplorer.Locale["zh-CN"] = {
     Modified: "改性",
     DialogCloseToolTip: "关闭",
     UploadSettings: {
+        buttonText: {
+            upload: "上传",
+            browse: "浏览",
+            cancel: "取消",
+            close: "关"
+        },
+        dialogText: {
+            title: "上传框",
+            name: "名称",
+            size: "尺寸",
+            status: "状态"
+        },
         dropAreaText: "将文件拖放或点击上传",
         filedetail: "所选文件大小过大。请选择有效的尺寸范围内的文件。",
         denyError: "与#Extension扩展名的文件是不允许的。",
@@ -209,7 +230,7 @@ ej.FileExplorer.Locale["zh-CN"] = {
         closeToolTip: "关闭"
     },
 };
-ej.Gantt.Locale["zh-CN"] = {
+if (ej.Gantt) ej.Gantt.Locale["zh-CN"] = {
     emptyRecord: "无记录可显示",
     alertTexts: {
         indentAlert: "有没有横道记录被选中进行缩进",
@@ -366,7 +387,7 @@ ej.Gantt.Locale["zh-CN"] = {
             { id: "FF", text: "完-完", value: "完-完" }
         ],
 };
-ej.Grid.Locale["zh-CN"] = {
+if (ej.Grid) ej.Grid.Locale["zh-CN"] = {
     EmptyRecord: "无记录可显示",
     GroupDropArea: "这里拖动列标题，组其列",
     DeleteOperationAlert: "未选择要删除操作记录",
@@ -479,19 +500,63 @@ if (ej.mobile !== undefined && ej.mobile.TimePicker !== undefined) {
     };
     ;
 }
-ej.NumericTextbox.Locale["zh-CN"] = {
+if (ej.NumericTextbox) ej.NumericTextbox.Locale["zh-CN"] = {
     watermarkText: "输入值",
 };
-ej.PivotChart.Locale["zh-CN"] = {
+if (ej.PivotChart) ej.PivotChart.Locale["zh-CN"] = {
     Measure: "测量",
     Row: "行",
     Column: "柱",
     Expand: "扩大",
     Collapse: "崩溃",
     Exit: "出口",
-    Value: "值"
+    Value: "值",
+
+    ChartTypes: "圖表類型",
+    TDCharts: "3 D 圖表",
+    Tooltip: "工具提示",
+    Exporting: "匯出",
+    Line: "线",
+    Spline: "仿样",
+    Area: "区",
+    SplineArea: "花键区",
+    StepLine: "步线",
+    StepArea: "步区",
+    Pie: "馅饼",
+    Bar: "酒吧",
+    StackingArea: "堆叠区",
+    StackingColumn: "堆积柱",
+    StackingBar: "堆积柱状图",
+    Pyramid: "金字塔",
+    Funnel: "漏斗",
+    Doughnut: "甜甜圈",
+    Scatter: "分散",
+    Bubble: "球型罩",
+    TreeMap: "树形图",
+    ColumnTD: "柱 3D",
+    PieTD: "馅饼 3D",
+    BarTD: "酒吧 3D",
+    StackingBarTD: "堆积柱状图 3D",
+    StackingColumnTD: "堆积柱 3D",
+    Excel: "Excel",
+    Word: "Word",
+    Pdf: "PDF",
+    PNG: "PNG",
+    EMF: "EMF",
+    GIF: "GIF",
+    JPG: "JPG",
+    BMF: "BMF"
 };
-ej.PivotClient.Locale["zh-CN"] = {
+if (ej.PivotClient) ej.PivotClient.Locale["zh-CN"] = {
+    DoesNotBeginsWith: "未開始使用",
+    DoesNotEndsWith: "不會結尾",
+    DoesNotContains: "不包含",
+    DoesNotEquals: "不就等於",
+    IsGreaterThan: "大於",
+    IsGreaterThanOrEqualTo: "大於或等於",
+    IsLessThan: "不到",
+    IsLessThanOrEqualTo: "小於或等於",­­
+
     DeferUpdate: "推迟更新",
     MDXQuery: "MDX查询",
     Column: "柱",
@@ -608,11 +673,11 @@ ej.PivotClient.Locale["zh-CN"] = {
     SetReportNameAlertMsg: "請設定報表名稱。",
     Search: "搜尋"
 };
-ej.PivotGauge.Locale["zh-CN"] = {
+if (ej.PivotGauge) ej.PivotGauge.Locale["zh-CN"] = {
     RevenueGoal: "收入目标",
     RevenueValue: "收入值",
 };
-ej.Pager.Locale["zh-CN"] = {
+if (ej.Pager) ej.Pager.Locale["zh-CN"] = {
     pagerInfo: "{0}{1}页（{2}项）",
     firstPageTooltip: "转到第一页",
     lastPageTooltip: "转到最后一页",
@@ -621,7 +686,7 @@ ej.Pager.Locale["zh-CN"] = {
     nextPagerTooltip: "转到下一页",
     previousPagerTooltip: "转到上一页",
 };
-ej.PdfViewer.Locale["zh-CN"] = {
+if (ej.PdfViewer) ej.PdfViewer.Locale["zh-CN"] = {
     toolbar: {
         print: {
             headerText: "打印",
@@ -667,12 +732,77 @@ ej.PdfViewer.Locale["zh-CN"] = {
             headerText: '适合页面',
             contentText: '适合PDF页面的容器。',
         },
+        search: {
+            headerText: '搜索文本',
+            contentText: '搜索PDF页面中的文本.'
+        },
+        download: {
+            headerText: '下载',
+            contentText: '下载PDF文档.'
+        },
     },
 };
-ej.PercentageTextbox.Locale["zh-CN"] = {
+if (ej.PercentageTextbox) ej.PercentageTextbox.Locale["zh-CN"] = {
     watermarkText: "输入值",
 };
-ej.PivotGrid.Locale["zh-CN"] = {
+if (ej.PivotGrid) ej.PivotGrid.Locale["zh-CN"] = {
+    Total: "總金額",
+    GrandTotal:"總計",
+    DoesNotBeginsWith: "未開始使用",
+    DoesNotEndsWith: "不會結尾",
+    DoesNotContains: "不包含",
+    DoesNotEquals: "不就等於",
+    IsGreaterThan: "大於",
+    IsGreaterThanOrEqualTo: "大於或等於",
+    IsLessThan: "不到",
+    IsLessThanOrEqualTo: "小於或等於",­­
+
+    NumberFormatting: "數字格式",
+    FrozenHeaders: "冷凍標頭",
+    CellSelection: "手機選項",
+    CellContext: "儲存格內容",
+    ColumnResize: "欄位大小",
+    ExcelLikeLayout: "Excel 跟版面配置",
+    FrozenHeader: "冷凍標頭",
+    AdvancedFiltering: "進階篩選",
+    Amount: "金額",
+    Quantity: "數量",
+    Measures: "測量",
+    NumberFormats: "數字格式",
+    Exporting: "匯出",
+    FileName: "檔案名稱",
+    ToolTip: "工具提示",
+    RTL: "RTL",
+    CollapseByDefault: "收合依預設值",
+    EnableDisablePaging: "Enalbe / 停用呼叫器",
+    PagingOptions: "分頁選項",
+    CategoricalPageSize: "對於頁面大小",
+    SeriesPageSize: "系列頁面大小",
+
+    HyperLink: "超連結",
+    CellEditing: "編輯儲存格",
+    GroupingBar:"分組列",
+    SummaryCustomization: "摘要自訂",
+    SummaryTypes: "摘要類型",
+    SummaryType: "摘要類型",
+    EnableRowHeaderHyperlink: "啟用列標題超連結",
+    EnableColumnHeaderHyperlink: "「啟用」欄位標題超連結",
+    EnableValueCellHyperlink: "啟用值儲存格超連結",
+    EnableSummaryCellHyperlink: "啟用摘要芯超連結",
+    HideGrandTotal: "隱藏總計",
+    HideSubTotal: "隱藏小計",
+    Both: "兩個",
+    Sum: "總和",
+    Average: "平均時間",
+    Count: "計數",
+    Min: "最小值",
+
+    Max: "最大值",
+    Excel: "Excel",
+    Word: "Word",
+    PDF: "PDF",
+    CSV: "CSV",
+
     ToolTipRow: "行",
     ToolTipColumn: "柱",
     ToolTipValue: "值",
@@ -798,7 +928,7 @@ ej.PivotGrid.Locale["zh-CN"] = {
     All: "所有",
     Search: "搜尋"
 };
-ej.PivotPager.Locale["zh-CN"] = {
+if (ej.PivotPager) ej.PivotPager.Locale["zh-CN"] = {
     SeriesPage: "系列的页面",
     CategoricalPage: "分类页",
     Error: "错误",
@@ -806,7 +936,16 @@ ej.PivotPager.Locale["zh-CN"] = {
     Close: "关闭",
     PageCountErrorMsg: "输入有效的页码。"
 };
-ej.PivotSchemaDesigner.Locale["zh-CN"] = {
+if (ej.PivotSchemaDesigner) ej.PivotSchemaDesigner.Locale["zh-CN"] = {
+    DoesNotBeginsWith: "未開始使用",
+    DoesNotEndsWith: "不會結尾",
+    DoesNotContains: "不包含",
+    DoesNotEquals: "不就等於",
+    IsGreaterThan: "大於",
+    IsGreaterThanOrEqualTo: "大於或等於",
+    IsLessThan: "不到",
+    IsLessThanOrEqualTo: "小於或等於",­­
+
     PivotTableFieldList: "数据透视表字段列表",
     ChooseFieldsToAddToReport: "选择字段添加到报告：",
     DragFieldBetweenAreasBelow: "下面区域之间拖动字段：",
@@ -853,7 +992,7 @@ ej.PivotSchemaDesigner.Locale["zh-CN"] = {
     Cancel: "取消",
     Search: "搜尋"
 };
-ej.datavisualization.RangeNavigator.Locale["zh-CN"] = {
+if (ej.datavisualization && ej.datavisualization.RangeNavigator) ej.datavisualization.RangeNavigator.Locale["zh-CN"] = {
     intervals: {
         quarter: {
             longQuarters: "25美分硬币，",
@@ -865,14 +1004,23 @@ ej.datavisualization.RangeNavigator.Locale["zh-CN"] = {
         },
     },
 };
-ej.datavisualization.Chart.Locale["zh-CN"] = {
+if (ej.datavisualization && ej.datavisualization.Chart) ej.datavisualization.Chart.Locale["zh-CN"] = {
     zoomIn: "放大",
     zoomOut: "缩小",
     zoom: "放大",
     pan: "泛",
     reset: "重启"
 };
-ej.ReportViewer.Locale["zh-CN"] = {
+if (ej.datavisualization && ej.datavisualization.Map) ej.datavisualization.Map.Locale["zh-CN"] = {
+    zoomIn: "放大",
+    zoomOut: "缩小",
+    panTop: "潘顶",
+    panBottom: "锅底",
+    panLeft: "潘左",
+	 panRight: "潘右",
+	 home: "家"
+};
+if (ej.ReportViewer) ej.ReportViewer.Locale["zh-CN"] = {
     toolbar: {
         print: {
             headerText: "打印",
@@ -968,15 +1116,43 @@ ej.ReportViewer.Locale["zh-CN"] = {
     },
     viewButton: "查看报告",
 };
-ej.Ribbon.Locale["zh-CN"] = {
+if (ej.Ribbon) ej.Ribbon.Locale["zh-CN"] = {
     CustomizeQuickAccess: "自定义快速访问工具栏",
     RemoveFromQuickAccessToolbar: "从快速访问工具栏删除",
     AddToQuickAccessToolbar: "添加到快速访问工具栏",
     ShowAboveTheRibbon: "上面显示功能区",
     ShowBelowTheRibbon: "下面显示功能区",
-    MoreCommands: "更多命令...",
+    MoreCommands: "更多命令..."
 };
-ej.RTE.Locale["zh-CN"] = {
+if (ej.Kanban) ej.Kanban.Locale["zh-CN"] = {
+    EmptyCard: "没有要显示的即时贴",
+    SaveButton: "保存",
+    CancelButton: "取消",
+    EditFormTitle: "详细信息 ",
+    AddFormTitle: "添加新卡",
+    SwimlaneCaptionFormat: "- {{:count}}{{if count == 1 }} 项目 {{else}} 项目 {{/if}}",
+    FilterSettings: "过滤器:",
+    FilterOfText: "的",
+    Max: "最大",
+    Min: "最小",
+    Cards: "  牌",
+    ItemsCount: "项目计数 :",
+    Unassigned: "未分配",
+    AddCard: "添加卡",
+    EditCard: "编辑卡片",
+    DeleteCard: "删除卡",
+    TopofRow: "行顶部",
+    BottomofRow: "行的底部",
+    MoveUp: "提升",
+    MoveDown: "下移",
+    MoveLeft: "向左移动",
+    MoveRight: "向右移",
+    MovetoSwimlane: "移动到Swimlane",
+    HideColumn: "隐藏列",
+    VisibleColumns: "可见列",
+    PrintCard: "打印卡"
+};
+if (ej.RTE) ej.RTE.Locale["zh-CN"] = {
     bold: "胆大",
     italic: "斜体",
     underline: "强调",
@@ -1118,7 +1294,7 @@ ej.RTE.Locale["zh-CN"] = {
 	ReplaceAll: "全部替换",
 	FindErrorMsg: "找不到指定的字词"
 };
-ej.Schedule.Locale["zh-CN"] = {
+if (ej.Schedule) ej.Schedule.Locale["zh-CN"] = {
     ReminderWindowTitle: "提醒窗口",
     CreateAppointmentTitle: "创建约会",
     RecurrenceEditTitle: "编辑重复约会",
@@ -1218,7 +1394,7 @@ ej.Schedule.Locale["zh-CN"] = {
     Time: "时间",
     EmptyResultText: "没有建议",
 };
-ej.Spreadsheet.Locale["zh-CN"] = {
+if (ej.Spreadsheet) ej.Spreadsheet.Locale["zh-CN"] = {
     Cut: "Cắt tỉa",
     Copy: "bản sao",
     FormatPainter: "Format Painter",
@@ -1879,7 +2055,7 @@ ej.Spreadsheet.Locale["zh-CN"] = {
     PivotOverlapAlert: "Một báo cáo của Pivot Table không thể chồng lên nhau một báo cáo khác Pivot Table",
     NoCellFound: "Không có tế bào được tìm thấy",
 };
-ej.TreeGrid.Locale["zh-CN"] = {
+if (ej.TreeGrid) ej.TreeGrid.Locale["zh-CN"] = {
     toolboxTooltipTexts: {
         addTool: "加",
         editTool: "编辑",
@@ -1970,7 +2146,7 @@ ej.TreeGrid.Locale["zh-CN"] = {
     falseText: "假",
     emptyRecord: "无记录可显示",
 };
-ej.Uploadbox.Locale["zh-CN"] = {
+if (ej.Uploadbox) ej.Uploadbox.Locale["zh-CN"] = {
     buttonText: {
         upload: "上传",
         browse: "浏览",
@@ -1995,3 +2171,10 @@ ej.Uploadbox.Locale["zh-CN"] = {
     closeToolTip: "关闭",
 };
 ;
+if (ej.Tile) ej.Tile.Locale["zh-CN"] = {
+    captionText: "文本"
+};
+if (ej.ListView) ej.ListView.Locale["zh-CN"] = {
+    headerTitle: "标题",
+    headerBackButtonText: "返回"
+};

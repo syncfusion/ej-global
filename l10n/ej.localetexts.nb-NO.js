@@ -7,12 +7,13 @@
 *  applicable laws. 
 */
 
-ej.Autocomplete.Locale["nb-NO"] = {
+if (ej.Autocomplete) ej.Autocomplete.Locale["nb-NO"] = {
     addNewText: "Legg til ny",
     emptyResultText: "ingen forslag",
     actionFailure: "Den angitte feltet finnes ikke i gitt datakilde",
+    watermarkText: " "
 };
-ej.ColorPicker.Locale["nb-NO"] = {
+if (ej.ColorPicker) ej.ColorPicker.Locale["nb-NO"] = {
     buttonText: {
         apply: "Søke om",
         cancel: "Kansellere",
@@ -37,14 +38,14 @@ ej.ColorPicker.Locale["nb-NO"] = {
         selectedcolor: "valgt farge"
     },
 };
-ej.CurrencyTextbox.Locale["nb-NO"] = {
+if (ej.CurrencyTextbox) ej.CurrencyTextbox.Locale["nb-NO"] = {
     watermarkText: "Skriv inn verdi",
 };
-ej.DatePicker.Locale["nb-NO"] = {
+if (ej.DatePicker) ej.DatePicker.Locale["nb-NO"] = {
     watermarkText: "Velg dato",
     buttonText: "I dag",
 };
-ej.DateRangePicker.Locale["nb-NO"] = {
+if (ej.DateRangePicker) ej.DateRangePicker.Locale["nb-NO"] = {
     ButtonText: {
         apply: "memohon",
         cancel: "Batal",
@@ -53,7 +54,7 @@ ej.DateRangePicker.Locale["nb-NO"] = {
     watermarkText: "Pilih Julat",
     customPicker: "Custom Picker",
 };
-ej.DateTimePicker.Locale["nb-NO"] = {
+if (ej.DateTimePicker) ej.DateTimePicker.Locale["nb-NO"] = {
     watermarkText: "Pilih masa tarikh",
     buttonText: {
         today: "I dag",
@@ -62,7 +63,7 @@ ej.DateTimePicker.Locale["nb-NO"] = {
         timeTitle: "Tid"
     },
 };
-ej.datavisualization.Diagram.Locale["nb-NO"] = {
+if (ej.datavisualization && ej.datavisualization.Diagram) ej.datavisualization.Diagram.Locale["nb-NO"] = {
     cut: "Kutt",
     copy: "Kopiere",
     paste: "lim",
@@ -78,7 +79,7 @@ ej.datavisualization.Diagram.Locale["nb-NO"] = {
     sendBackward: "Flytt bakover",
     sendToBack: "SendToBack",
 };
-ej.Dialog.Locale["nb-NO"] = {
+if (ej.Dialog) ej.Dialog.Locale["nb-NO"] = {
     tooltip: {
         close: "Lukke",
         collapse: "Kollapse",
@@ -91,11 +92,11 @@ ej.Dialog.Locale["nb-NO"] = {
     },
     closeIconTooltip: "lukke",
 };
-ej.DropDownList.Locale["nb-NO"] = {
+if (ej.DropDownList) ej.DropDownList.Locale["nb-NO"] = {
 	emptyResultText: "ingen forslag,",
 	watermarkText: " ",
 };
-ej.ExcelFilter.Locale["nb-NO"] = {
+if (ej.ExcelFilter) ej.ExcelFilter.Locale["nb-NO"] = {
     SortNoSmaller: "Sorter minst til størst",
     SortNoLarger: "Sorter største til minste",
     SortTextAscending: "Sorter A til Å",
@@ -139,7 +140,15 @@ ej.ExcelFilter.Locale["nb-NO"] = {
     True: "ekte",
     False: "falsk",
 };
-ej.FileExplorer.Locale["nb-NO"] = {
+if (ej.FileExplorer) ej.FileExplorer.Locale["nb-NO"] = {
+    EmptyFolder: "Denne mappen er tom",
+    ProtectedFolder: "Du har for øyeblikket tillatelse til å få tilgang til denne mappen",
+    EmptyResult: "Ingenting passer ditt søk",
+    ContextMenuSortBy: "Sorter etter",
+    InvalidFileName: "Et filnavn kan ikke inneholde noen av følgende tegn: \\ /: * \ '<> |",
+    Selected: "valgt",
+    Permission: "Tillatelse",
+    SortBy: "Sorter etter",
     Back: "bakover",
     Forward: "Framover",
     Upward: "oppover",
@@ -197,6 +206,18 @@ ej.FileExplorer.Locale["nb-NO"] = {
     Modified: "modifisert",
     DialogCloseToolTip: "Lukke",
     UploadSettings: {
+        buttonText: {
+            upload: "Laste opp",
+            browse: "Søk",
+            cancel: "Kansellere",
+            close: "Lukke"
+        },
+        dialogText: {
+            title: "Last opp Box",
+            name: "Navn",
+            size: "Størrelse",
+            status: "Status"
+        },
         dropAreaText: "Slippe filer eller klikk for å laste opp",
         filedetail: "Størrelsen valgte filen er for stor. Velg en fil i gyldig format.",
         denyError: "Filer med #Extension utvidelser er ikke tillatt.",
@@ -209,7 +230,7 @@ ej.FileExplorer.Locale["nb-NO"] = {
         closeToolTip: "Lukke"
     },
 };
-ej.Gantt.Locale["nb-NO"] = {
+if (ej.Gantt) ej.Gantt.Locale["nb-NO"] = {
     emptyRecord: "Ingen oppføringer å vise",
     alertTexts: {
         indentAlert: "Det er ingen Gantt posten er valgt til å utføre innrykk",
@@ -366,7 +387,7 @@ ej.Gantt.Locale["nb-NO"] = {
             { id: "FF", text: "Bli ferdig-Bli ferdig", value: "Bli ferdig-Bli ferdig" }
         ],
 };
-ej.Grid.Locale["nb-NO"] = {
+if (ej.Grid) ej.Grid.Locale["nb-NO"] = {
     EmptyRecord: "Ingen oppføringer å vise",
     GroupDropArea: "Dra en kolonneoverskrift her for å gruppere det er kolonne",
     DeleteOperationAlert: "Ingen poster valgt for slettingen",
@@ -479,19 +500,63 @@ if (ej.mobile !== undefined && ej.mobile.TimePicker !== undefined) {
     };
     ;
 }
-ej.NumericTextbox.Locale["nb-NO"] = {
+if (ej.NumericTextbox) ej.NumericTextbox.Locale["nb-NO"] = {
     watermarkText: "Skriv inn verdi",
 };
-ej.PivotChart.Locale["nb-NO"] = {
+if (ej.PivotChart) ej.PivotChart.Locale["nb-NO"] = {
     Measure: "Måle",
     Row: "Rad",
     Column: "Søyle",
     Expand: "Utvide",
     Collapse: "Kollapse",
     Exit: "Exit",
-    Value: "Verdi"
+    Value: "Verdi",
+
+    ChartTypes: "Diagramtyper",
+    TDCharts: "3D-kart",
+    Tooltip: "Verktøytips",
+    Exporting: "Eksport",
+    Line: "Linje",
+    Spline: "Spor",
+    Area: "Område",
+    SplineArea: "spline-området",
+    StepLine: "Trinn Linje",
+    StepArea: "Step-området",
+    Pie: "Pai",
+    Bar: "Bar",
+    StackingArea: "stabling området",
+    StackingColumn: "stabling kolonne",
+    StackingBar: "Stabling Bar",
+    Pyramid: "Pyramide",
+    Funnel: "Trakt",
+    Doughnut: "smultring",
+    Scatter: "spre",
+    Bubble: "Boble",
+    TreeMap: "Treoversikt",
+    ColumnTD: "Søyle 3D",
+    PieTD: "Pai 3D",
+    BarTD: "Bar 3D",
+    StackingBarTD: "Stabling Bar 3D",
+    StackingColumnTD: "stabling området 3D",
+    Excel: "Excel",
+    Word: "Word",
+    Pdf: "PDF",
+    PNG: "PNG",
+    EMF: "EMF",
+    GIF: "GIF",
+    JPG: "JPG",
+    BMF: "BMF"
 };
-ej.PivotClient.Locale["nb-NO"] = {
+if (ej.PivotClient) ej.PivotClient.Locale["nb-NO"] = {
+    DoesNotBeginsWith: "Ikke begynner med",
+    DoesNotEndsWith: "Ikke slutter med",
+    DoesNotContains: "Ikke inneholder",
+    DoesNotEquals: "Ikke lik",
+    IsGreaterThan: "Er Større enn",
+    IsGreaterThanOrEqualTo: "Er Større enn eller lik",
+    IsLessThan: "Er mindre enn",
+    IsLessThanOrEqualTo: "Er mindre enn eller lik",
+
     DeferUpdate: "Utsett Update",
     MDXQuery: "MDX spørring",
     Column: "Søyle",
@@ -608,11 +673,11 @@ ej.PivotClient.Locale["nb-NO"] = {
     SetReportNameAlertMsg: "Vennligst angi rapport navn.",
     Search: "Søk"
 };
-ej.PivotGauge.Locale["nb-NO"] = {
+if (ej.PivotGauge) ej.PivotGauge.Locale["nb-NO"] = {
     RevenueGoal: "mål Revenue",
     RevenueValue: "inntekter Verdi",
 };
-ej.Pager.Locale["nb-NO"] = {
+if (ej.Pager) ej.Pager.Locale["nb-NO"] = {
     pagerInfo: "{0} av {1} sider ({2} stk)",
     firstPageTooltip: "Gå til første side",
     lastPageTooltip: "Gå til siste side",
@@ -621,7 +686,7 @@ ej.Pager.Locale["nb-NO"] = {
     nextPagerTooltip: "Gå til neste side",
     previousPagerTooltip: "Gå til forrige side",
 };
-ej.PdfViewer.Locale["nb-NO"] = {
+if (ej.PdfViewer) ej.PdfViewer.Locale["nb-NO"] = {
     toolbar: {
         print: {
             headerText: "Skrive ut",
@@ -667,12 +732,77 @@ ej.PdfViewer.Locale["nb-NO"] = {
             headerText: 'Passer til side',
             contentText: 'Monter PDF-siden til beholderen.',
         },
+        search: {
+            headerText: 'Søk tekst',
+            contentText: 'Søk tekst i PDF-sider.'
+        },
+        download: {
+            headerText: 'Nedlasting',
+            contentText: 'Last ned PDF-dokument.'
+        },
     },
 };
-ej.PercentageTextbox.Locale["nb-NO"] = {
+if (ej.PercentageTextbox) ej.PercentageTextbox.Locale["nb-NO"] = {
     watermarkText: "Skriv inn verdi",
 };
-ej.PivotGrid.Locale["nb-NO"] = {
+if (ej.PivotGrid) ej.PivotGrid.Locale["nb-NO"] = {
+    Total: "Totalt",
+    GrandTotal: "Grand Totalt",
+    DoesNotBeginsWith: "Ikke begynner med",
+    DoesNotEndsWith: "Ikke slutter med",
+    DoesNotContains: "Ikke inneholder",
+    DoesNotEquals: "Ikke lik",
+    IsGreaterThan: "Er Større enn",
+    IsGreaterThanOrEqualTo: "Er Større enn eller lik",
+    IsLessThan: "Er mindre enn",
+    IsLessThanOrEqualTo: "Er mindre enn eller lik",
+
+    NumberFormatting: "Tallformatering",
+    FrozenHeaders: "Frosne hoder",
+    CellSelection: "Celle utvalg",
+    CellContext: "Celle-kontekst",
+    ColumnResize: "Kolonnen Endre størrelsen",
+    ExcelLikeLayout: "Excel som layout",
+    FrozenHeader: "Frosset hode",
+    AdvancedFiltering: "Avansert filtrering",
+    Amount: "Beløp",
+    Quantity: "Antall",
+    Measures: "Tiltak",
+    NumberFormats: "Flere formater",
+    Exporting: "Eksport",
+    FileName: "Filnavnet",
+    ToolTip: "Verktøytips",
+    RTL: "RTL",
+    CollapseByDefault: "Sammenbruddet som standard",
+    EnableDisablePaging: "Enalbe / Deaktiver personsøker",
+    PagingOptions: "§Alternativer",
+    CategoricalPageSize: "Categorical sidestørrelse",
+    SeriesPageSize: "Serien sidestørrelse",
+
+    HyperLink: "Hyperkobling",
+    CellEditing: "Celle for redigering",
+    GroupingBar: "Gruppering av Bar",
+    SummaryCustomization: "Sammendrag tilpasning",
+    SummaryTypes: "Sammendrag-typer",
+    SummaryType: "Sammendrag Type",
+    EnableRowHeaderHyperlink: "Aktiverer akssankemaskin for rad HyperLink",
+    EnableColumnHeaderHyperlink: "Aktiverer kolonneoverskriften HyperLink",
+    EnableValueCellHyperlink: "Aktiverer verdien cellen HyperLink",
+    EnableSummaryCellHyperlink: "Aktiverer Sammendrag celle HyperLink",
+    HideGrandTotal: "Skjul Grand Total",
+    HideSubTotal: "Skjul delsummen",
+    Both: "Begge",
+    Sum: "Sum",
+    Average: "Gjennomsnittlig",
+    Count: "Teller",
+    Min: "Min",
+
+    Max: "Maks.",
+    Excel: "Excel",
+    Word: "Word",
+    PDF: "PDF",
+    CSV: "CSV",
+
     ToolTipRow: "Rad",
     ToolTipColumn: "Søyle",
     ToolTipValue: "Verdi",
@@ -798,7 +928,7 @@ ej.PivotGrid.Locale["nb-NO"] = {
     All: "Alle",
     Search: "Søk"
 };
-ej.PivotPager.Locale["nb-NO"] = {
+if (ej.PivotPager) ej.PivotPager.Locale["nb-NO"] = {
     SeriesPage: "Serien side",
     CategoricalPage: "kategorisk side",
     Error: "Feil",
@@ -806,7 +936,16 @@ ej.PivotPager.Locale["nb-NO"] = {
     Close: "Lukk",
     PageCountErrorMsg: "Angi gyldig side nummer"
 };
-ej.PivotSchemaDesigner.Locale["nb-NO"] = {
+if (ej.PivotSchemaDesigner) ej.PivotSchemaDesigner.Locale["nb-NO"] = {
+    DoesNotBeginsWith: "Ikke begynner med",
+    DoesNotEndsWith: "Ikke slutter med",
+    DoesNotContains: "Ikke inneholder",
+    DoesNotEquals: "Ikke lik",
+    IsGreaterThan: "Er Større enn",
+    IsGreaterThanOrEqualTo: "Er Større enn eller lik",
+    IsLessThan: "Er mindre enn",
+    IsLessThanOrEqualTo: "Er mindre enn eller lik",
+
     PivotTableFieldList: "Pivottabell Feltet List",
     ChooseFieldsToAddToReport: "Velg felt for å legge til rapport:",
     DragFieldBetweenAreasBelow: "Dra felt mellom områdene nedenfor:",
@@ -853,7 +992,7 @@ ej.PivotSchemaDesigner.Locale["nb-NO"] = {
     Cancel: "Avbryt",
     Search: "Søk"
 };
-ej.datavisualization.RangeNavigator.Locale["nb-NO"] = {
+if (ej.datavisualization && ej.datavisualization.RangeNavigator) ej.datavisualization.RangeNavigator.Locale["nb-NO"] = {
     intervals: {
         quarter: {
             longQuarters: "Fjerdedel,",
@@ -865,7 +1004,7 @@ ej.datavisualization.RangeNavigator.Locale["nb-NO"] = {
         },
     },
 };
-ej.ReportViewer.Locale["nb-NO"] = {
+if (ej.ReportViewer) ej.ReportViewer.Locale["nb-NO"] = {
     toolbar: {
         print: {
             headerText: "Skrive ut",
@@ -961,15 +1100,43 @@ ej.ReportViewer.Locale["nb-NO"] = {
     },
     viewButton: "Vis rapport",
 };
-ej.Ribbon.Locale["nb-NO"] = {
+if (ej.Ribbon) ej.Ribbon.Locale["nb-NO"] = {
     CustomizeQuickAccess: "Tilpass Quick Access Toolbar",
     RemoveFromQuickAccessToolbar: "Fjern fra Quick Access Toolbar",
     AddToQuickAccessToolbar: "Legg til Quick Access Toolbar",
     ShowAboveTheRibbon: "Vis Over Ribbon",
     ShowBelowTheRibbon: "Vis Nedenfor båndet",
-    MoreCommands: "Flere kommandoer ...",
+    MoreCommands: "Flere kommandoer ..."
 };
-ej.RTE.Locale["nb-NO"] = {
+if (ej.Kanban) ej.Kanban.Locale["nb-NO"] = {
+    EmptyCard: "Ingen kort å vise",
+    SaveButton: "Lagre",
+    CancelButton: "Kansellere",
+    EditFormTitle: "detaljer om ",
+    AddFormTitle: "Legg til nytt kort",
+    SwimlaneCaptionFormat: "- {{:count}}{{if count == 1 }} punkt {{else}} elementer {{/if}}",
+    FilterSettings: "filtre:",
+    FilterOfText: "av",
+    Max: "Max",
+    Min: "min",
+    Cards: "  Cards",
+    ItemsCount: "elementer Count :",
+    Unassigned: "Ikke tildelt",
+    AddCard: "Legg kort",
+    EditCard: "Rediger kort",
+    DeleteCard: "Slett kort",
+    TopofRow: "Øverst på rad",
+    BottomofRow: "Bunnen av Row",
+    MoveUp: "Flytte opp",
+    MoveDown: "Flytt ned",
+    MoveLeft: "Gå til venstre",
+    MoveRight: "Flytt til høyre",
+    MovetoSwimlane: "Flytt til svømmebane",
+    HideColumn: "Skjul kolonne",
+    VisibleColumns: "synlige kolonner",
+    PrintCard: "Skriv kort"
+};
+if (ej.RTE) ej.RTE.Locale["nb-NO"] = {
     bold: "Dristig",
     italic: "kursiv",
     underline: "Understrek",
@@ -1112,7 +1279,7 @@ ej.RTE.Locale["nb-NO"] = {
 	ReplaceAll: "Erstatt alle",
 	FindErrorMsg: "Kunne ikke finne spesifisert ord",
 };
-ej.Schedule.Locale["nb-NO"] = {
+if (ej.Schedule) ej.Schedule.Locale["nb-NO"] = {
     ReminderWindowTitle: "påminnelse vindu",
     CreateAppointmentTitle: "Opprett avtale",
     RecurrenceEditTitle: "Rediger Gjenta Oppnevning",
@@ -1212,7 +1379,7 @@ ej.Schedule.Locale["nb-NO"] = {
     Time: "Tid",
     EmptyResultText: "ingen forslag",
 };
-ej.Spreadsheet.Locale["nb-NO"] = {
+if (ej.Spreadsheet) ej.Spreadsheet.Locale["nb-NO"] = {
     Cut: "Cut",
     Copy: "Salinan",
     FormatPainter: "format Painter",
@@ -1873,7 +2040,7 @@ ej.Spreadsheet.Locale["nb-NO"] = {
     PivotOverlapAlert: "Laporan Pivot Table tidak boleh bertindih satu lagi laporan Jadual Pangsi",
     NoCellFound: "No sel ditemui",
 };
-ej.TreeGrid.Locale["nb-NO"] = {
+if (ej.TreeGrid) ej.TreeGrid.Locale["nb-NO"] = {
     toolboxTooltipTexts: {
         addTool: "Legg til",
         editTool: "Redigere",
@@ -1964,7 +2131,7 @@ ej.TreeGrid.Locale["nb-NO"] = {
     falseText: "falsk",
     emptyRecord: "Ingen oppføringer å vise",
 };
-ej.Uploadbox.Locale["nb-NO"] = {
+if (ej.Uploadbox) ej.Uploadbox.Locale["nb-NO"] = {
     buttonText: {
         upload: "Last opp",
         browse: "Søk",
@@ -1989,3 +2156,25 @@ ej.Uploadbox.Locale["nb-NO"] = {
     closeToolTip: "Lukke",
 };
 ;
+if (ej.Tile) ej.Tile.Locale["nb-NO"] = {
+    captionText: "tekst"
+};
+if (ej.ListView) ej.ListView.Locale["nb-NO"] = {
+    headerTitle: "Tittel",
+    headerBackButtonText: "Tilbake"
+};
+if (ej.SpellCheck) ej.SpellCheck.Locale["nb-NO"] = {
+    SpellCheckButtonText: "Staving",
+    NotInDictionary: "Ikke i Dictionary",
+    SuggestionLabel: "Anbefalinger",
+    IgnoreOnceButtonText: "Ignorer gang",
+    IgnoreAllButtonText: "Ignorer alle",
+    AddToDictionary: "Legg til ordliste",
+    ChangeButtonText: "Endring",
+    ChangeAllButtonText: "Endre alle",
+    CloseButtonText: "Lukk",
+    CompletionPopupMessage: "Stavekontroll er fullført",
+    CompletionPopupTitle: "Spell check",
+    Ok: "Stavekontroll",
+    NoSuggestionMessage: "Ingen forslag er tilgjengelige"
+};

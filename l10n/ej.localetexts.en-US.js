@@ -7,12 +7,13 @@
 *  applicable laws. 
 */
 
-ej.Autocomplete.Locale['en-US'] = {
+if (ej.Autocomplete) ej.Autocomplete.Locale['en-US'] = {
     addNewText: "Add New",
     emptyResultText: "No suggestions",
-    actionFailure: "The specified field doesn't exist in given data source"
+    actionFailure: "The specified field doesn't exist in given data source",
+    watermarkText: " "
 };
-ej.ColorPicker.Locale['en-US'] = {
+if (ej.ColorPicker) ej.ColorPicker.Locale['en-US'] = {
     buttonText: {
         apply: "Apply",
         cancel: "Cancel",
@@ -38,11 +39,11 @@ ej.ColorPicker.Locale['en-US'] = {
         selectedcolor: "Selected Color",
     }
 };
-ej.DatePicker.Locale['en-US'] = {
+if (ej.DatePicker) ej.DatePicker.Locale['en-US'] = {
     watermarkText: "Select date",
     buttonText: 'Today'
 };
-ej.DateRangePicker.Locale['en-US'] = {
+if (ej.DateRangePicker) ej.DateRangePicker.Locale['en-US'] = {
     ButtonText: {
         apply: "Apply",
         cancel: "Cancel",
@@ -51,7 +52,7 @@ ej.DateRangePicker.Locale['en-US'] = {
     watermarkText: "Select Range",
     customPicker: "Custom Picker"
 };
-ej.DateTimePicker.Locale['en-US'] = {
+if (ej.DateTimePicker) ej.DateTimePicker.Locale['en-US'] = {
     watermarkText: "Select datetime",
     buttonText: {
         today: "Today",
@@ -60,7 +61,7 @@ ej.DateTimePicker.Locale['en-US'] = {
         timeTitle: "Time"
     }
 };
-ej.datavisualization.Diagram.Locale["en-US"] = {
+if (ej.datavisualization && ej.datavisualization.Diagram) ej.datavisualization.Diagram.Locale["en-US"] = {
     cut: "Cut",
     copy: "Copy",
     paste: "Paste",
@@ -76,7 +77,7 @@ ej.datavisualization.Diagram.Locale["en-US"] = {
     sendBackward: "SendBackward",
     sendToBack: "SendToBack"
 };
-ej.Dialog.Locale["en-US"] = {
+if (ej.Dialog) ej.Dialog.Locale["en-US"] = {
     tooltip: {
         close: "Close",
         collapse: "Collapse",
@@ -90,20 +91,20 @@ ej.Dialog.Locale["en-US"] = {
     //currently we have deprecated this API
     closeIconTooltip: "close"
 };
-ej.DropDownList.Locale["en-US"] = {
+if (ej.DropDownList) ej.DropDownList.Locale["en-US"] = {
 	emptyResultText: "No suggestions,",
 	watermarkText: " ",
 };
-ej.NumericTextbox.Locale['en-US'] = {
+if (ej.NumericTextbox) ej.NumericTextbox.Locale['en-US'] = {
     watermarkText: "Enter value"
 };
-ej.PercentageTextbox.Locale['en-US'] = {
+if (ej.PercentageTextbox) ej.PercentageTextbox.Locale['en-US'] = {
     watermarkText: "Enter value"
 };
-ej.CurrencyTextbox.Locale['en-US'] = {
+if (ej.CurrencyTextbox) ej.CurrencyTextbox.Locale['en-US'] = {
     watermarkText: "Enter value"
 };
-ej.ExcelFilter.Locale["en-US"] = {
+if (ej.ExcelFilter) ej.ExcelFilter.Locale["en-US"] = {
     SortNoSmaller: "Sort Smallest to Largest",
     SortNoLarger: "Sort Largest to Smallest",
     SortTextAscending: "Sort A to Z",
@@ -147,7 +148,7 @@ ej.ExcelFilter.Locale["en-US"] = {
     True: "true",
     False: "false"
 };
-ej.FileExplorer.Locale["en-US"] = {
+if (ej.FileExplorer) ej.FileExplorer.Locale["en-US"] = {
     EmptyFolder: "This folder is empty",
     ProtectedFolder: "You don't currently have permission to access this folder",
     EmptyResult: "No items match your search",
@@ -243,7 +244,7 @@ ej.FileExplorer.Locale["en-US"] = {
         closeToolTip: "Close"
     }
 };
-ej.Gantt.Locale["en-US"] = {
+if (ej.Gantt) ej.Gantt.Locale["en-US"] = {
 
     //string to display with dataSource contains 0 objects
     emptyRecord: "No records to display",
@@ -419,7 +420,7 @@ ej.Gantt.Locale["en-US"] = {
         ],
 };
 
-ej.Grid.Locale["en-US"] = {
+if (ej.Grid) ej.Grid.Locale["en-US"] = {
     EmptyRecord: "No records to display",
     GroupDropArea: "Drag a column header here to group its column",
     DeleteOperationAlert: "No records selected for delete operation",
@@ -529,96 +530,18 @@ if (ej.mobile !== undefined && ej.mobile.TimePicker !== undefined) {
         }
     };;
 }
-ej.PivotChart.Locale["en-US"] = {
+if (ej.PivotChart) ej.PivotChart.Locale["en-US"] = {
     Measure: "Measure",
     Row: "Row",
     Column: "Column",
     Value: "Value",
     Expand: "Expand",
     Collapse: "Collapse",
-    Exit: "Exit"
-};
-ej.PivotClient.Locale["en-US"] = {
-    Sort: "Sort",
-    SelectField: "select Field",
-    LabelFilterLabel: "Show the items for which the label",
-    ValueFilterLabel: "Show the items for which",
-
-    LabelFilters: "Label Filters  ",
-    BeginsWith: "Begins With",
-    NotBeginsWith: "Not Begins With",
-    EndsWith: "Ends With",
-    NotEndsWith: "Not Ends With",
-    Contains: "Contains",
-    NotContains: "Not Contains",
-
-    ValueFilters: "Value Filters",
-    ClearFilter: "Clear Filter",
-    Equals: "Equals",
-    NotEquals: "Not Equals",
-    GreaterThan: "Greater Than ",
-    GreaterThanOrEqualTo: "Greater Than Or Equal To ",
-    LessThan: "Less Than ",
-    LessThanOrEqualTo: "Less Than Or Equal To ",
-    Between: "Between",
-    NotBetween: "Not Between",
-    Top10: "Top Count",
-
-    DeferUpdate: "Defer Update",
-    MDXQuery: "MDX Query",
-    Column: "Column",
-    Row: "Row",
-    Slicer: "Slicer",
-    CubeSelector: "Cube Selector",
-    ReportName: "Report Name",
-    NewReport: "New Report",
-    CubeDimensionBrowser: "Cube Dimension Browser",
-    AddReport: "Add Report",
-    RemoveReport: "Remove Report",
-    CannotRemoveSingleReport: "Can not remove single report",
-    AreYouSureToDeleteTheReport: "Are you sure to delete the Report",
-    RenameReport: "Rename Report",
+    Exit: "Exit",
     ChartTypes: "Chart Types",
-    ToggleAxis: "Toggle Axis",
-    ExportToExcel: "Export To Excel",
-    ExportToWord: "Export To Word",
-    ExportToPdf: "Export To Pdf",
-    FullScreen: "Full Screen",
-    Grid: "Grid",
-    Chart: "Chart",
-    OK: "<u>O</u>K",
-    Cancel: "<u>C</u>ancel",
-    Close: "Close",
-    AddToColumn: "Add to Column",
-    AddToRow: "Add to Row",
-    AddToSlicer: "Add to Slicer",
-    MeasureEditor: "Measure Editor",
-    MemberEditor: "Member Editor",
-    Measures: "Measures",
-    SortOrFilterColumn: "Sort/Filter (Column)",
-    SortOrFilterRow: "Sort/Filter (Row)",
-    SortingAndFiltering: "Sorting And Filtering",
-    Sorting: "Sorting",
-    Measure: "<u>M</u>easure",
-    Order: "Order",
-    Filtering: "Filtering",
-    Condition: "C<u>o</u>ndition",
-    Value: "Val<u>u</u>e",
-    PreserveHierarchy: "P<u>r</u>eserve  Hierarchy",
-    Ascending: "<u>A</u>scending",
-    Descending: "D<u>e</u>scending",
-    Enable: "E<u>n</u>able",
-    Disable: "D<u>i</u>sable",
-    and: "<u>a</u>nd",
-    EqualTo: "EqualTo",
-    NotEquals: "NotEquals",
-    GreaterThan: "GreaterThan",
-    GreaterThanOrEqualTo: "GreaterThanOrEqualTo",
-    LessThan: "LessThan",
-    LessThanOrEqualTo: "LessThanOrEqualTo",
-    Between: "Between",
-    NotBetween: "NotBetween",
-    ReportList: "Report List",
+    TDCharts: "3D Charts",
+    Tooltip: "Tooltip",
+    Exporting: "Exporting",
     Line: "Line",
     Spline: "Spline",
     Column: "Column",
@@ -637,40 +560,162 @@ ej.PivotClient.Locale["en-US"] = {
     Scatter: "Scatter",
     Bubble: "Bubble",
     TreeMap: "TreeMap",
-    Alert: "Alert",
-    MDXAlertMsg: "Please add a measure, dimension or hierarchy in an appropriate axis to view the MDX Query.",
-    FilterSortRowAlertMsg: "Dimension not found in row axis. Please add Dimension element in row axis for sorting/filtering.",
-    FilterSortColumnAlertMsg: "Dimension not found in column axis. Please add Dimension element in column axis for sorting/filtering.",
-    FilterSortcolMeasureAlertMsg: "Please add measure to the Column axis",
-    FilterSortrowMeasureAlertMsg: "Please add measure to the Row axis",
-    FilterSortElementAlertMsg: "Element not found in column axis. Please add an element in column axis for sorting/filtering.",
-    FilterMeasureSelectionAlertMsg: "Please select a valid measure.",
-    FilterConditionAlertMsg: "Please set a valid condition.",
-    FilterStartValueAlertMsg: "Please set a start value.",
-    FilterEndValueAlertMsg: "Please set a end value.",
-    FilterInvalidAlertMsg: "Invalid operation !",
-    SelectRecordAlertMsg: "Please select a valid record.",
-    RecordName: "Record Name",
-    RemoveRecord: "Remove Record",
-    RenameRecord: "Rename Record",
-    Load: "Load",
-    Remove: "Remove",
-    Save: "Save",
-    SaveAs: "SaveAs",
-    SelectRecord: "Select Record",
-    SelectReport: "Select Report",
-    DBReport: "Report Manipulation in DB",
-    Rename: "Rename",
-    Remove: "Remove",
-    SetRecordNameAlertMsg: "Please set record name.",
-    SetReportNameAlertMsg: "Please set report name.",
-    Search: "Search"
+    ColumnTD: "Column 3D",
+    PieTD: "Pie 3D",
+    BarTD: "Bar 3D",
+    StackingBarTD: "StackingBar 3D",
+    StackingColumnTD: "StackingColumn 3D",
+    Excel: "Excel",
+    Word: "Word",
+    Pdf: "PDF",
+    PNG: "PNG",
+    EMF: "EMF",
+    GIF: "GIF",
+    JPG: "JPG",
+    BMF: "BMF"
 };
-ej.PivotGauge.Locale["en-US"] = {
+if (ej.PivotClient) ej.PivotClient.Locale["en-US"] = {
+        Sort: "Sort",
+        SelectField: "Select Field",
+        LabelFilterLabel: "Show the items for which the label",
+        ValueFilterLabel: "Show the items for which",
+
+        LabelFilters: "Label Filters",
+        BeginsWith: "Begins With",
+        NotBeginsWith: "Not Begins With",
+        EndsWith: "Ends With",
+        NotEndsWith: "Not Ends With",
+        Contains: "Contains",
+        NotContains: "Not Contains",
+
+        ValueFilters: "Value Filters",
+        ClearFilter: "Clear Filter",
+        Equals: "Equals",
+        NotEquals: "Not Equals",
+        GreaterThan: "Greater Than ",
+        GreaterThanOrEqualTo: "Greater Than Or Equal To ",
+        LessThan: "Less Than ",
+        LessThanOrEqualTo: "Less Than Or Equal To ",
+        Between: "Between",
+        NotBetween: "Not Between",
+        Top10: "Top Count",
+
+        DoesNotBeginsWith: "Does Not Begins With",
+        DoesNotEndsWith: "Does Not Ends With",
+        DoesNotContains: "Does Not Contains",
+        DoesNotEquals: "Does Not Equals",
+        IsGreaterThan: "Is Greater Than",
+        IsGreaterThanOrEqualTo: "Is Greater Than Or Equal To",
+        IsLessThan: "Is Less Than",
+        IsLessThanOrEqualTo: "Is Less Than Or Equal To",
+
+        DeferUpdate: "Defer Update",
+        MDXQuery: "MDX Query",
+        Column: "Column",
+        Row: "Row",
+        Slicer: "Slicer",
+        CubeSelector: "Cube Selector",
+        ReportName: "Report Name",
+        NewReport: "New Report",
+        CubeDimensionBrowser: "Cube Dimension Browser",
+        AddReport: "Add Report",
+        RemoveReport: "Remove Report",
+        CannotRemoveSingleReport: "Can not remove single report",
+        AreYouSureToDeleteTheReport: "Are you sure to delete the Report",
+        RenameReport: "Rename Report",
+        ChartTypes: "Chart Types",
+        ToggleAxis: "Toggle Axis",
+        ExportToExcel: "Export To Excel",
+        ExportToWord: "Export To Word",
+        ExportToPdf: "Export To Pdf",
+        FullScreen: "Full Screen",
+        Grid: "Grid",
+        Chart: "Chart",
+        OK: "<u>O</u>K",
+        Cancel: "<u>C</u>ancel",
+        Close: "Close",
+        AddToColumn: "Add to Column",
+        AddToRow: "Add to Row",
+        AddToSlicer: "Add to Slicer",
+        MeasureEditor: "Measure Editor",
+        MemberEditor: "Member Editor",
+        Measures: "Measures",
+        SortOrFilterColumn: "Sort/Filter (Column)",
+        SortOrFilterRow: "Sort/Filter (Row)",
+        SortingAndFiltering: "Sorting And Filtering",
+        Sorting: "Sorting",
+        Measure: "<u>M</u>easure",
+        Order: "Order",
+        Filtering: "Filtering",
+        Condition: "C<u>o</u>ndition",
+        Value: "Val<u>u</u>e",
+        PreserveHierarchy: "P<u>r</u>eserve  Hierarchy",
+        Ascending: "<u>A</u>scending",
+        Descending: "D<u>e</u>scending",
+        Enable: "E<u>n</u>able",
+        Disable: "D<u>i</u>sable",
+        and: "<u>a</u>nd",
+        EqualTo: "EqualTo",
+        NotEquals: "NotEquals",
+        GreaterThan: "GreaterThan",
+        GreaterThanOrEqualTo: "GreaterThanOrEqualTo",
+        LessThan: "LessThan",
+        LessThanOrEqualTo: "LessThanOrEqualTo",
+        Between: "Between",
+        NotBetween: "NotBetween",
+        ReportList: "Report List",
+        Line: "Line",
+        Spline: "Spline",
+        Column: "Column",
+        Area: "Area",
+        SplineArea: "Spline Area",
+        StepLine: "Step Line",
+        StepArea: "Step Area",
+        Pie: "Pie",
+        Bar: "Bar",
+        StackingArea: "Stacking Area",
+        StackingColumn: "Stacking Column",
+        StackingBar: "Stacking Bar",
+        Pyramid: "Pyramid",
+        Funnel: "Funnel",
+        Doughnut: "Doughnut",
+        Scatter: "Scatter",
+        Bubble: "Bubble",
+        TreeMap: "TreeMap",
+        Alert: "Alert",
+        MDXAlertMsg: "Please add a measure, dimension or hierarchy in an appropriate axis to view the MDX Query.",
+        FilterSortRowAlertMsg: "Dimension not found in row axis. Please add Dimension element in row axis for sorting/filtering.",
+        FilterSortColumnAlertMsg: "Dimension not found in column axis. Please add Dimension element in column axis for sorting/filtering.",
+        FilterSortcolMeasureAlertMsg: "Please add measure to the Column axis",
+        FilterSortrowMeasureAlertMsg: "Please add measure to the Row axis",
+        FilterSortElementAlertMsg: "Element not found in column axis. Please add an element in column axis for sorting/filtering.",
+        FilterMeasureSelectionAlertMsg: "Please select a valid measure.",
+        FilterConditionAlertMsg: "Please set a valid condition.",
+        FilterStartValueAlertMsg: "Please set a start value.",
+        FilterEndValueAlertMsg: "Please set a end value.",
+        FilterInvalidAlertMsg: "Invalid operation !",
+        SelectRecordAlertMsg: "Please select a valid record.",
+        RecordName: "Record Name",
+        RemoveRecord: "Remove Record",
+        RenameRecord: "Rename Record",
+        Load: "Load",
+        Remove: "Remove",
+        Save: "Save",
+        SaveAs: "SaveAs",
+        SelectRecord: "Select Record",
+        SelectReport: "Select Report",
+        DBReport: "Report Manipulation in DB",
+        Rename: "Rename",
+        Remove: "Remove",
+        SetRecordNameAlertMsg: "Please set record name.",
+        SetReportNameAlertMsg: "Please set report name.",
+        Search: "Search"
+    };
+if (ej.PivotGauge) ej.PivotGauge.Locale["en-US"] = {
     RevenueGoal: "Revenue Goal",
     RevenueValue: "Revenue Value"
 };
-ej.Pager.Locale["en-US"] = {
+if (ej.Pager) ej.Pager.Locale["en-US"] = {
     pagerInfo: "{0} of {1} pages ({2} items)",
     firstPageTooltip: "Go to first page",
     lastPageTooltip: "Go to last page",
@@ -679,7 +724,7 @@ ej.Pager.Locale["en-US"] = {
     nextPagerTooltip: "Go to next Pager",
     previousPagerTooltip: "Go to previous Pager"
 };
-ej.PdfViewer.Locale["en-US"] = {
+if (ej.PdfViewer) ej.PdfViewer.Locale["en-US"] = {
     toolbar: {
         print: {
             headerText: 'Print',
@@ -735,195 +780,267 @@ ej.PdfViewer.Locale["en-US"] = {
         },
     },
 };
-ej.PivotGrid.Locale["en-US"] = {
-    Sort: "Sort",
-    SelectField: "select Field",
-    LabelFilterLabel: "Show the items for which the label",
-    ValueFilterLabel: "Show the items for which",
+if (ej.PivotGrid) ej.PivotGrid.Locale["en-US"] = {
+        Total: "Total",
+        GrandTotal:"Grand Total",
 
-    LabelFilters: "Label Filters  ",
-    BeginsWith: "Begins With",
-    NotBeginsWith: "Not Begins With",
-    EndsWith: "Ends With",
-    NotEndsWith: "Not Ends With",
-    Contains: "Contains",
-    NotContains: "Not Contains",
+        Sort:"Sort",
+        SelectField: "select Field",
+        LabelFilterLabel:"Show the items for which the label",
+        ValueFilterLabel:"Show the items for which",
 
-    ValueFilters: "Value Filters",
-    ClearFilter: "Clear Filter",
-    Equals: "Equals",
-    NotEquals: "Not Equals",
-    GreaterThan: "Greater Than ",
-    GreaterThanOrEqualTo: "Greater Than Or Equal To ",
-    LessThan: "Less Than ",
-    LessThanOrEqualTo: "Less Than Or Equal To ",
-    Between: "Between",
-    NotBetween: "Not Between",
+        LabelFilters: "Label Filters  ",
+        BeginsWith: "Begins With",
+        NotBeginsWith: "Not Begins With",
+        EndsWith: "Ends With",
+        NotEndsWith: "Not Ends With",
+        Contains: "Contains",
+        NotContains: "Not Contains",
 
-    AddToFilter: "Add to Filter",
-    AddToRow: "Add to Row",
-    AddToColumn: "Add to Column",
-    AddToValues: "Add to Values",
-    Warning: "Warning",
-    Error: "Error",
-    GroupingBarAlertMsg: "The field you are moving cannot be placed in that area of the report",
-    Measures: "Measures",
-    Expand: "Expand",
-    Collapse: "Collapse",
-    ToolTipRow: "Row",
-    ToolTipColumn: "Column",
-    ToolTipValue: "Value",
-    NoValue: "No value",
-    SeriesPage: "Series Page",
-    CategoricalPage: "Categorical Page",
-    DragFieldHere: "Drag field here",
-    ColumnArea: "Drop column here",
-    RowArea: "Drop row here",
-    ValueArea: "Drop values here",
-    Close: "Close",
-    OK: "OK",
-    Cancel: "Cancel",
-    Remove: "Remove",
-    Goal: "Goal",
-    Status: "Status",
-    Trend: "Trend",
-    Value: "value",
-    ConditionalFormattingErrorMsg: "The given value is not matched",
-    ConditionalFormattingConformMsg: "Are you sure you want to remove the selected format?",
-    EnterOperand1: "Enter Operand1",
-    EnterOperand2: "Enter Operand2",
-    ConditionalFormatting: "Conditional Formatting",
-    Condition: "Conditional Type",
-    Value1: "Value1",
-    Value2: "Value2",
-    Editcondtion: "Edit Condition",
-    AddNew: "Add New",
-    Format: "Format",
-    Backcolor: "Back Color",
-    Borderrange: "Border Range",
-    Borderstyle: "Border Style",
-    Fontsize: "Font Size",
-    Fontstyle: "Font Style",
-    Bordercolor: "Border Color",
-    NoMeasure: "Please add any measure",
-    AliceBlue: "AliceBlue",
-    Black: "Black",
-    Blue: "Blue",
-    Brown: "Brown",
-    Gold: "Gold",
-    Green: "Green",
-    Lime: "Lime",
-    Maroon: "Maroon",
-    Orange: "Orange",
-    Pink: "Pink",
-    Red: "Red",
-    Violet: "Violet",
-    White: "White",
-    Yellow: "Yellow",
-    Solid: "Solid",
-    Dashed: "Dashed",
-    Dotted: "Dotted",
-    Double: "Double",
-    Groove: "Groove",
-    Inset: "Inset",
-    Outset: "Outset",
-    Ridge: "Ridge",
-    None: "None",
-    Algerian: "Algerian",
-    Arial: "Arial",
-    BodoniMT: "Bodoni MT",
-    BritannicBold: "Britannic Bold",
-    Cambria: "Cambria",
-    Calibri: "Calibri",
-    CourierNew: "Courier New",
-    DejaVuSans: "DejaVu Sans",
-    Forte: "Forte",
-    Gerogia: "Gerogia",
-    Impact: "Impact",
-    SegoeUI: "Segoe UI",
-    Tahoma: "Tahoma",
-    TimesNewRoman: "Times New Roman",
-    Verdana: "Verdana",
-    CubeDimensionBrowser: "Cube Dimension Browser",
-    SelectHierarchy: "Select Hierarchy",
-    CalculatedField: "Calculated Field",
-    Name: "Name:",
-    Add: "Add",
-    Formula: "Formula:",
-    Delete: "Delete",
-    Fields: "Fields:",
-    CalculatedFieldNameNotFound: "Given CalculatedField name is not found",
-    InsertField: "Insert Field",
-    EmptyField: "Please enter Calculated field name or formula",
-    NotValid: "Given formula is not valid",
-    NotPresent: "Value field used in any of the Calculated Field formula is not present in the PivotGrid",
-    Confirm: "Calculated field with the same name already exists. Due to want to Replace ?",
-    CalcValue: "Calculated field can be inserted only in value area field",
-    MultipleItems: "Multiple items",
-    All: "All",
-    Search: "Search"
-};
-ej.PivotPager.Locale["en-US"] = {
-    SeriesPage: "Series Page",
-    CategoricalPage: "Categorical Page",
-    Error: "Error",
-    OK: "OK",
-    Close: "Close",
-    PageCountErrorMsg: "Enter valid page number"
-};
-ej.PivotSchemaDesigner.Locale["en-US"] = {
-    Sort: "Sort",
-    SelectField: "select Field",
-    LabelFilterLabel: "Show the items for which the label",
-    ValueFilterLabel: "Show the items for which",
+        ValueFilters: "Value Filters",
+        ClearFilter: "Clear Filter",
+        Equals: "Equals",
+        NotEquals: "Not Equals",
+        GreaterThan: "Greater Than ",
+        GreaterThanOrEqualTo: "Greater Than Or Equal To ",
+        LessThan: "Less Than ",
+        LessThanOrEqualTo: "Less Than Or Equal To ",
+        Between: "Between",
+        NotBetween: "Not Between",
 
-    LabelFilters: "Label Filters  ",
-    BeginsWith: "Begins With",
-    NotBeginsWith: "Not Begins With",
-    EndsWith: "Ends With",
-    NotEndsWith: "Not Ends With",
-    Contains: "Contains",
-    NotContains: "Not Contains",
+        DoesNotBeginsWith: "Does Not Begins With",
+        DoesNotEndsWith: "Does Not Ends With",
+        DoesNotContains: "Does Not Contains",
+        DoesNotEquals: "Does Not Equals",
+        IsGreaterThan: "Is Greater Than",
+        IsGreaterThanOrEqualTo: "Is Greater Than Or Equal To",
+        IsLessThan: "Is Less Than",
+        IsLessThanOrEqualTo: "Is Less Than Or Equal To",
 
-    ValueFilters: "Value Filters",
-    ClearFilter: "Clear Filter",
-    Equals: "Equals",
-    NotEquals: "Not Equals",
-    GreaterThan: "Greater Than ",
-    GreaterThanOrEqualTo: "Greater Than Or Equal To ",
-    LessThan: "Less Than ",
-    LessThanOrEqualTo: "Less Than Or Equal To ",
-    Between: "Between",
-    NotBetween: "Not Between",
+        NumberFormatting: "Number Formatting",
+        FrozenHeaders: "Frozen Headers",
+        CellSelection: "Cell Selection",
+        CellContext: "Cell Context",
+        ColumnResize: "Column Resize",
+        ExcelLikeLayout: "Excel Like Layout",
+        FrozenHeader: "Frozen Header",
+        AdvancedFiltering: "Advanced Filtering",
+        Amount: "Amount",
+        Quantity: "Quantity",
+        Measures: "Measures",
+        NumberFormats: "Number Formats",
+        Exporting: "Exporting",
+        FileName: "File Name",
+        ToolTip: "Tool Tip",
+        RTL: "RTL",
+        CollapseByDefault: "Collapse By Default",
+        EnableDisablePaging: "Enalbe / Disable Paging",
+        PagingOptions: "Paging Options",
+        CategoricalPageSize: "Categorical Page Size",
+        SeriesPageSize: "Series Page Size",
 
-    ClearFilter: "Clear Filter",
-    SelectField: "select Field",
-    Measures: "Measures",
-    Warning: "Warning",
-    AlertMsg: "The field you are moving cannot be placed in that area of the report",
-    Goal: "Goal",
-    Status: "Status",
-    Trend: "Trend",
-    Value: "value",
-    AddToFilter: "Add to Filter",
-    AddToRow: "Add to Row",
-    AddToColumn: "Add to Column",
-    AddToValues: "Add to Value",
-    PivotTableFieldList: "PivotTable Field List",
-    ChooseFieldsToAddToReport: "Choose fields to add to report:",
-    DragFieldBetweenAreasBelow: "Drag fields between areas below:",
-    ReportFilter: "Filter",
-    ColumnLabel: "Column",
-    RowLabel: "Row",
-    Values: "Values",
-    DeferLayoutUpdate: "Defer Layout Update",
-    Update: "Update",
-    OK: "OK",
-    Cancel: "Cancel",
-    Close: "Close",
-    Search: "Search"
-};
-ej.datavisualization.RangeNavigator.Locale['en-US'] = {
+        HyperLink: "HyperLink",
+        CellEditing: "Cell Editing",
+        GroupingBar:"Grouping Bar",
+        SummaryCustomization: "Summary Customization",
+        SummaryTypes: "Summary Types",
+        SummaryType: "Summary Type",
+        EnableRowHeaderHyperlink: "Enable RowHeaderHyperLink",
+        EnableColumnHeaderHyperlink: "Enable ColumnHeaderHyperLink",
+        EnableValueCellHyperlink: "Enable ValueCellHyperLink",
+        EnableSummaryCellHyperlink: "Enable SummaryCellHyperLink",
+        HideGrandTotal: "Hide GrandTotal",
+        HideSubTotal: "Hide SubTotal",
+        Row: "Row",
+        Column: "Column",
+        Both: "Both",
+        Sum: "Sum",
+        Average: "Average",
+        Count: "Count",
+        Min: "Min",
+
+        Max: "Max",
+        Row: "Row",
+        Column: "Column",
+        Both: "Both",
+        Excel: "Excel",
+        Word: "Word",
+        PDF: "PDF",
+        CSV: "CSV",
+
+        AddToFilter: "Add to Filter",
+        AddToRow: "Add to Row",
+        AddToColumn: "Add to Column",
+        AddToValues: "Add to Values",
+        Warning: "Warning",
+        Error: "Error",
+        GroupingBarAlertMsg: "The field you are moving cannot be placed in that area of the report",
+        Measures: "Measures",
+        Expand: "Expand",
+        Collapse:"Collapse",
+        ToolTipRow: "Row",
+        ToolTipColumn: "Column",
+        ToolTipValue: "Value",
+        NoValue: "No value",
+        SeriesPage: "Series Page",
+        CategoricalPage: "Categorical Page",
+        DragFieldHere: "Drag field here",
+        ColumnArea: "Drop column here",
+        RowArea: "Drop row here",
+        ValueArea: "Drop values here",
+        Close:"Close",
+        OK: "OK",
+        Cancel: "Cancel",
+        Remove: "Remove",
+        Goal: "Goal",
+        Status: "Status",
+        Trend: "Trend",
+        Value: "value",
+        ConditionalFormattingErrorMsg: "The given value is not matched",
+        ConditionalFormattingConformMsg: "Are you sure you want to remove the selected format?",
+        EnterOperand1: "Enter Operand1",
+        EnterOperand2: "Enter Operand2",
+        ConditionalFormatting: "Conditional Formatting",
+        Condition: "Conditional Type",
+        Value1: "Value1",
+        Value2: "Value2",
+        Editcondtion: "Edit Condition",
+        AddNew: "Add New",
+        Format: "Format",
+        Backcolor: "Back Color",
+        Borderrange: "Border Range",
+        Borderstyle: "Border Style",
+        Fontsize: "Font Size",
+        Fontstyle: "Font Style",
+        Bordercolor: "Border Color",
+        NoMeasure: "Please add any measure",
+        AliceBlue: "AliceBlue",
+        Black: "Black",
+        Blue: "Blue",
+        Brown: "Brown",
+        Gold: "Gold",
+        Green: "Green",
+        Lime: "Lime",
+        Maroon: "Maroon",
+        Orange: "Orange",
+        Pink: "Pink",
+        Red: "Red",
+        Violet: "Violet",
+        White: "White",
+        Yellow: "Yellow",
+        Solid: "Solid",
+        Dashed: "Dashed",
+        Dotted: "Dotted",
+        Double: "Double",
+        Groove: "Groove",
+        Inset: "Inset",
+        Outset: "Outset",
+        Ridge: "Ridge",
+        None: "None",
+        Algerian: "Algerian",
+        Arial: "Arial",
+        BodoniMT: "Bodoni MT",
+        BritannicBold: "Britannic Bold",
+        Cambria: "Cambria",
+        Calibri: "Calibri",
+        CourierNew: "Courier New",
+        DejaVuSans: "DejaVu Sans",
+        Forte: "Forte",
+        Gerogia: "Gerogia",
+        Impact: "Impact",
+        SegoeUI: "Segoe UI",
+        Tahoma: "Tahoma",
+        TimesNewRoman: "Times New Roman",
+        Verdana: "Verdana",
+        CubeDimensionBrowser: "Cube Dimension Browser",
+        SelectHierarchy: "Select Hierarchy",
+        CalculatedField: "Calculated Field",
+        Name: "Name:",
+        Add: "Add",
+        Formula: "Formula:",
+        Delete: "Delete",
+        Fields: "Fields:",
+        CalculatedFieldNameNotFound: "Given CalculatedField name is not found",
+        InsertField: "Insert Field",
+        EmptyField: "Please enter Calculated field name or formula",
+        NotValid: "Given formula is not valid",
+        NotPresent: "Value field used in any of the Calculated Field formula is not present in the PivotGrid",
+        Confirm: "Calculated field with the same name already exists. Due to want to Replace ?",
+        CalcValue: "Calculated field can be inserted only in value area field",
+        MultipleItems: "Multiple items",
+        All: "All",
+        Search: "Search"
+    };
+if (ej.PivotPager) ej.PivotPager.Locale["en-US"] = {
+        SeriesPage: "Series Page",
+        CategoricalPage: "Categorical Page",
+        Error: "Error",
+        OK: "OK",
+        Close: "Close",
+        PageCountErrorMsg:"Enter valid page number"
+    };
+if (ej.PivotSchemaDesigner) ej.PivotSchemaDesigner.Locale["en-US"] = {
+        Sort: "Sort",
+        SelectField: "select Field",
+        LabelFilterLabel: "Show the items for which the label",
+        ValueFilterLabel: "Show the items for which",
+
+        LabelFilters: "Label Filters  ",
+        BeginsWith: "Begins With",
+        NotBeginsWith: "Not Begins With",
+        EndsWith: "Ends With",
+        NotEndsWith: "Not Ends With",
+        Contains: "Contains",
+        NotContains: "Not Contains",
+
+        ValueFilters: "Value Filters",
+        ClearFilter: "Clear Filter",
+        Equals: "Equals",
+        NotEquals: "Not Equals",
+        GreaterThan: "Greater Than ",
+        GreaterThanOrEqualTo: "Greater Than Or Equal To ",
+        LessThan: "Less Than ",
+        LessThanOrEqualTo: "Less Than Or Equal To ",
+        Between: "Between",
+        NotBetween: "Not Between",
+
+        DoesNotBeginsWith: "Does Not Begins With",
+        DoesNotEndsWith: "Does Not Ends With",
+        DoesNotContains: "Does Not Contains",
+        DoesNotEquals: "Does Not Equals",
+        IsGreaterThan: "Is Greater Than",
+        IsGreaterThanOrEqualTo: "Is Greater Than Or Equal To",
+        IsLessThan: "Is Less Than",
+        IsLessThanOrEqualTo: "Is Less Than Or Equal To",
+
+        ClearFilter: "Clear Filter",
+        SelectField:"select Field",
+        Measures: "Measures",
+        Warning: "Warning",
+        AlertMsg:"The field you are moving cannot be placed in that area of the report",
+        Goal: "Goal",
+        Status:"Status",
+        Trend:"Trend",
+        Value: "value",
+        AddToFilter: "Add to Filter",
+        AddToRow: "Add to Row",
+        AddToColumn: "Add to Column",
+        AddToValues: "Add to Value",
+        PivotTableFieldList: "PivotTable Field List",
+        ChooseFieldsToAddToReport: "Choose fields to add to report:",
+        DragFieldBetweenAreasBelow: "Drag fields between areas below:",
+        ReportFilter: "Filter",
+        ColumnLabel: "Column",
+        RowLabel: "Row",
+        Values: "Values",
+        DeferLayoutUpdate: "Defer Layout Update",
+        Update: "Update",
+        OK: "OK",
+        Cancel: "Cancel",
+        Close: "Close",
+        Search: "Search"
+    };
+if (ej.datavisualization && ej.datavisualization.RangeNavigator) ej.datavisualization.RangeNavigator.Locale['en-US'] = {
     intervals: {
         quarter: {
             longQuarters: "Quarter",
@@ -935,14 +1052,23 @@ ej.datavisualization.RangeNavigator.Locale['en-US'] = {
         }
     }
 };
-ej.datavisualization.Chart.Locale["en-US"] = {
+if (ej.datavisualization && ej.datavisualization.Chart) ej.datavisualization.Chart.Locale["en-US"] = {
     zoomIn: "Zoom In",
     zoomOut: "Zoom Out",
     zoom: "Zoom",
     pan: "Pan",
     reset: "Reset"
 };
-ej.ReportViewer.Locale["en-US"] = {
+if (ej.datavisualization && ej.datavisualization.Map) ej.datavisualization.Map.Locale["en-US"] = {
+    zoomIn: "Zoom In",
+    zoomOut: "Zoom Out",
+    panTop: "Pan Top",
+    panBottom: "Pan Bottom",
+    panLeft: "Pan Left",
+	 panRight: "Pan Right",
+	 home: "Home"
+};
+if (ej.ReportViewer) ej.ReportViewer.Locale["en-US"] = {
     toolbar: {
         print: {
             headerText: 'Print',
@@ -1038,7 +1164,7 @@ ej.ReportViewer.Locale["en-US"] = {
     },
     viewButton: 'View Report'
 };
-ej.Ribbon.Locale["en-US"] = {
+if (ej.Ribbon) ej.Ribbon.Locale["en-US"] = {
     CustomizeQuickAccess: "Customize Quick Access Toolbar",
     RemoveFromQuickAccessToolbar: "Remove from Quick Access Toolbar",
     AddToQuickAccessToolbar: "Add to Quick Access Toolbar",
@@ -1046,7 +1172,7 @@ ej.Ribbon.Locale["en-US"] = {
     ShowBelowTheRibbon: "Show Below the Ribbon",
     MoreCommands: "More Commands..."
 };
-ej.Kanban.Locale["en-US"] = {
+if (ej.Kanban) ej.Kanban.Locale["en-US"] = {
     EmptyCard: "No cards to display",
     SaveButton: "Save",
     CancelButton: "Cancel",
@@ -1059,9 +1185,22 @@ ej.Kanban.Locale["en-US"] = {
     Min: "Min",
     Cards: "  Cards",
     ItemsCount: "Items Count :",
-    Unassigned: "Unassigned"
+    Unassigned: "Unassigned",
+    AddCard: "Add Card",
+    EditCard: "Edit Card",
+    DeleteCard: "Delete Card",
+    TopofRow: "Top of Row",
+    BottomofRow: "Bottom of Row",
+    MoveUp: "Move Up",
+    MoveDown: "Move Down",
+    MoveLeft: "Move Left",
+    MoveRight: "Move Right",
+    MovetoSwimlane: "Move to Swimlane",
+    HideColumn: "Hide Column",
+    VisibleColumns: "Visible Columns",
+    PrintCard: "Print Card"
 };
-ej.RTE.Locale["en-US"] = {
+if (ej.RTE) ej.RTE.Locale["en-US"] = {
     bold: "Bold",
     italic: "Italic",
     underline: "Underline",
@@ -1211,7 +1350,7 @@ ej.RTE.Locale["en-US"] = {
 	ReplaceAll: "Replace All",
 	FindErrorMsg: "Couldn't find specified word."
 };
-ej.RecurrenceEditor.Locale["en-US"] = {
+if (ej.RecurrenceEditor) ej.RecurrenceEditor.Locale["en-US"] = {
     Repeat: "Repeat",
     Never: "Never",
     Daily: "Daily",
@@ -1241,7 +1380,7 @@ ej.RecurrenceEditor.Locale["en-US"] = {
     On: "On",
     Occurrence: "Occurrence(s)"
 };
-ej.Schedule.Locale["en-US"] = {
+if (ej.Schedule) ej.Schedule.Locale["en-US"] = {
     ReminderWindowTitle: "Reminder window",
     CreateAppointmentTitle: "Create Appointment",
     RecurrenceEditTitle: "Edit Repeat Appointment",
@@ -1346,7 +1485,7 @@ ej.Schedule.Locale["en-US"] = {
     BlockIntervalError: "The selected time interval has been blocked and is unavailable for selection."
 };
 
-ej.Spreadsheet.Locale["en-US"] = {
+if (ej.Spreadsheet) ej.Spreadsheet.Locale["en-US"] = {
     Cut: "Cut",
     Copy: "Copy",
     FormatPainter: "Format Painter",
@@ -2008,7 +2147,7 @@ ej.Spreadsheet.Locale["en-US"] = {
 	NoCellFound: "No cells were found",
 };
 ;
-ej.TreeGrid.Locale["en-US"] = {
+if (ej.TreeGrid) ej.TreeGrid.Locale["en-US"] = {
     //string to be displayed in Toolbox's tooltip 
     toolboxTooltipTexts: {
         addTool: "Add",
@@ -2107,7 +2246,7 @@ ej.TreeGrid.Locale["en-US"] = {
     emptyRecord: "No records to display",
 
 };
-ej.Uploadbox.Locale["en-US"] = {
+if (ej.Uploadbox) ej.Uploadbox.Locale["en-US"] = {
     buttonText: {
         upload: "Upload",
         browse: "Browse",
@@ -2131,9 +2270,9 @@ ej.Uploadbox.Locale["en-US"] = {
     failedToolTip: "Failed",
     closeToolTip: "Close"
 };
-ej.SpellCheck.Locale["en-US"] = {
-    SpellCheckButtonText: "SpellCheck",
-    NotInDictionary: "Not In Dictionary",
+if (ej.SpellCheck) ej.SpellCheck.Locale["en-US"] = {
+    SpellCheckButtonText: "Spelling",
+    NotInDictionary: "Not in Dictionary",
     SuggestionLabel: "Suggestions",
     IgnoreOnceButtonText: "Ignore Once",
     IgnoreAllButtonText: "Ignore All",
@@ -2142,14 +2281,14 @@ ej.SpellCheck.Locale["en-US"] = {
     ChangeAllButtonText: "ChangeAll",
     CloseButtonText: "Close",
     CompletionPopupMessage: "Spell check is complete",
-    ErrorPopupMessage: "Spell check is not completed",
-    CompletionPopupTitle: "Spell check alert",
-    OK: "OK",
+    CompletionPopupTitle: "Spell check",
+    Ok: "OK",
     NoSuggestionMessage: "No suggestions available"
 };
-ej.Tile.Locale["en-US"] = {
+if (ej.Tile) ej.Tile.Locale["en-US"] = {
     captionText: "text"
 };
-ej.ListView.Locale["en-US"] = {
-    headerTitle: "Title"
+if (ej.ListView) ej.ListView.Locale["en-US"] = {
+    headerTitle: "Title",
+    headerBackButtonText:"Back"
 };

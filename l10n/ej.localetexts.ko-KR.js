@@ -7,12 +7,13 @@
 *  applicable laws. 
 */
 
-ej.Autocomplete.Locale["ko-KR"] = {
+if (ej.Autocomplete) ej.Autocomplete.Locale["ko-KR"] = {
     addNewText: "새로운 걸 더하다",
     emptyResultText: "제안 사항이 없습니다",
     actionFailure: "지정된 필드는 주어진 데이터 소스에 존재하지 않는",
+    watermarkText: " "
 };
-ej.ColorPicker.Locale["ko-KR"] = {
+if (ej.ColorPicker) ej.ColorPicker.Locale["ko-KR"] = {
     buttonText: {
         apply: "대다",
         cancel: "취소하다",
@@ -37,14 +38,14 @@ ej.ColorPicker.Locale["ko-KR"] = {
         selectedcolor: "선택한 색상"
     },
 };
-ej.CurrencyTextbox.Locale["ko-KR"] = {
+if (ej.CurrencyTextbox) ej.CurrencyTextbox.Locale["ko-KR"] = {
     watermarkText: "값을 입력",
 };
-ej.DatePicker.Locale["ko-KR"] = {
+if (ej.DatePicker) ej.DatePicker.Locale["ko-KR"] = {
     watermarkText: "날짜 선택",
     buttonText: "오늘",
 };
-ej.DateRangePicker.Locale["ko-KR"] = {
+if (ej.DateRangePicker) ej.DateRangePicker.Locale["ko-KR"] = {
     ButtonText: {
         apply: "대다",
         cancel: "취소하다",
@@ -53,7 +54,7 @@ ej.DateRangePicker.Locale["ko-KR"] = {
     watermarkText: "선택 범위",
     customPicker: "사용자 지정 선택기",
 };
-ej.DateTimePicker.Locale["ko-KR"] = {
+if (ej.DateTimePicker) ej.DateTimePicker.Locale["ko-KR"] = {
     watermarkText: "선택 날짜 시간",
     buttonText: {
         today: "오늘",
@@ -62,7 +63,7 @@ ej.DateTimePicker.Locale["ko-KR"] = {
         timeTitle: "시각"
     },
 };
-ej.datavisualization.Diagram.Locale["ko-KR"] = {
+if (ej.datavisualization && ej.datavisualization.Diagram) ej.datavisualization.Diagram.Locale["ko-KR"] = {
     cut: "절단",
     copy: "부",
     paste: "풀",
@@ -78,7 +79,7 @@ ej.datavisualization.Diagram.Locale["ko-KR"] = {
     sendBackward: "뒤로 보내기",
     sendToBack: "SendToBack",
 };
-ej.Dialog.Locale["ko-KR"] = {
+if (ej.Dialog) ej.Dialog.Locale["ko-KR"] = {
     tooltip: {
         close: "닫기",
         collapse: "무너짐",
@@ -91,11 +92,11 @@ ej.Dialog.Locale["ko-KR"] = {
     },
     closeIconTooltip: "닫기",
 };
-ej.DropDownList.Locale["ko-KR"] = {
+if (ej.DropDownList) ej.DropDownList.Locale["ko-KR"] = {
 	emptyResultText: "제안 사항이 없습니다,",
 	watermarkText: " ",
 };
-ej.ExcelFilter.Locale["ko-KR"] = {
+if (ej.ExcelFilter) ej.ExcelFilter.Locale["ko-KR"] = {
     SortNoSmaller: "정렬 작은 최대로",
     SortNoLarger: "정렬 가장 큰 작은에",
     SortTextAscending: "Z로 정렬",
@@ -139,7 +140,15 @@ ej.ExcelFilter.Locale["ko-KR"] = {
     True: "참된",
     False: "그릇된",
 };
-ej.FileExplorer.Locale["ko-KR"] = {
+if (ej.FileExplorer) ej.FileExplorer.Locale["ko-KR"] = {
+    EmptyFolder: "이 폴더는 비어 있습니다",
+    ProtectedFolder: "현재이 폴더에 액세스 할 수있는 권한이 없습니다.",
+    EmptyResult: "검색과 일치하는 항목이 없습니다.",
+    ContextMenuSortBy: "정렬 기준 :",
+    InvalidFileName: "파일 이름에는 다음 문자를 사용할 수 없습니다. \\ / : *? \ <> |",
+    Selected: "선택된",
+    Permission: "허가",
+    SortBy: "정렬 기준 :",
     Back: "뒤로",
     Forward: "앞으로",
     Upward: "상승",
@@ -197,6 +206,18 @@ ej.FileExplorer.Locale["ko-KR"] = {
     Modified: "수정",
     DialogCloseToolTip: "닫기",
     UploadSettings: {
+        buttonText: {
+            upload: "업로드",
+            browse: "검색",
+            cancel: "취소하다",
+            close: "닫기"
+        },
+        dialogText: {
+            title: "박스 업로드",
+            name: "이름",
+            size: "크기",
+            status: "지위"
+        },
         dropAreaText: "파일을 삭제하거나 업로드합니다",
         filedetail: "선택한 파일의 크기가 너무 큽니다. 유효한 크기 내에서 파일을 선택하십시오.",
         denyError: "#Extension의 확장자를 가진 파일은 허용되지 않습니다.",
@@ -209,7 +230,7 @@ ej.FileExplorer.Locale["ko-KR"] = {
         closeToolTip: "닫기"
     },
 };
-ej.Gantt.Locale["ko-KR"] = {
+if (ej.Gantt) ej.Gantt.Locale["ko-KR"] = {
     emptyRecord: "레코드 표시 없습니다",
     alertTexts: {
         indentAlert: "더 간트 레코드는 들여 쓰기를 수행하기 위해이 선택하지 않은됩니다",
@@ -366,7 +387,7 @@ ej.Gantt.Locale["ko-KR"] = {
             { id: "FF", text: "끝-끝", value: "끝-끝" }
         ],
 };
-ej.Grid.Locale["ko-KR"] = {
+if (ej.Grid) ej.Grid.Locale["ko-KR"] = {
     EmptyRecord: "레코드 표시 없습니다",
     GroupDropArea: "그룹의 컬럼에 여기에 열 머리글을 드래그",
     DeleteOperationAlert: "삭제 작업을 위해 선택된 레코드가 없습니다",
@@ -479,19 +500,64 @@ if (ej.mobile !== undefined && ej.mobile.TimePicker !== undefined) {
     };
     ;
 }
-ej.NumericTextbox.Locale["ko-KR"] = {
+if (ej.NumericTextbox) ej.NumericTextbox.Locale["ko-KR"] = {
     watermarkText: "값을 입력",
 };
-ej.PivotChart.Locale["ko-KR"] = {
+if (ej.PivotChart) ej.PivotChart.Locale["ko-KR"] = {
     Measure: "법안",
     Row: "열",
     Column: "기둥",
     Expand: "넓히다",
     Collapse: "무너짐",
     Exit: "출구",
-    Value: "값"
+    Value: "값",
+
+    ChartTypes: "차트 유형",
+    TDCharts: "3D 차트",
+    Tooltip: "도구 설명",
+    Exporting: "내보내기",
+    Line: "선",
+    Spline: "운형자",
+    Column: "기둥",
+    Area: "지역",
+    SplineArea: "스플라인 지역",
+    StepLine: "단계 라인",
+    StepArea: "단계 지역",
+    Pie: "파이",
+    Bar: "바",
+    StackingArea: "스태킹 지역",
+    StackingColumn: "스태킹 열",
+    StackingBar: "스태킹 바",
+    Pyramid: "피라미드",
+    Funnel: "깔때기",
+    Doughnut: "도넛",
+    Scatter: "소수",
+    Bubble: "버블",
+    TreeMap: "트리 맵'",
+    ColumnTD: "기둥 3D",
+    PieTD: "파이 3D",
+    BarTD: "바 3D",
+    StackingBarTD: "스태킹 바 3D",
+    StackingColumnTD: "스태킹 열 3D",
+    Excel: "Excel",
+    Word: "단어",
+    Pdf: "PDF",
+    PNG: "PNG",
+    EMF: "EMF",
+    GIF: "GIF",
+    JPG: "JPG",
+    BMF: "BMF"
 };
-ej.PivotClient.Locale["ko-KR"] = {
+if (ej.PivotClient) ej.PivotClient.Locale["ko-KR"] = {
+    DoesNotBeginsWith: "다른 영역들과 나란히 않습니다.",
+    DoesNotEndsWith: "로 끝나지 않는",
+    DoesNotContains: "포함되어 있습니다.",
+    DoesNotEquals: "Equals 않습니다.",
+    IsGreaterThan: "보다 큼",
+    IsGreaterThanOrEqualTo: "는 보다 크거나 같음",
+    IsLessThan: "덜",
+    IsLessThanOrEqualTo: "이 또는 낮거나 같아야",
+
     DeferUpdate: "연기 업데이트",
     MDXQuery: "MDX 쿼리",
     Row: "열",
@@ -608,11 +674,11 @@ ej.PivotClient.Locale["ko-KR"] = {
     SetReportNameAlertMsg: "보고서 설정 이름을 입력하십시오.",
     Search: "검색"
 };
-ej.PivotGauge.Locale["ko-KR"] = {
+if (ej.PivotGauge) ej.PivotGauge.Locale["ko-KR"] = {
     RevenueGoal: "수익 목표",
     RevenueValue: "수익 가치",
 };
-ej.Pager.Locale["ko-KR"] = {
+if (ej.Pager) ej.Pager.Locale["ko-KR"] = {
     pagerInfo: "{0} {1} 페이지 ({2} 항목)의",
     firstPageTooltip: "첫 페이지로 이동",
     lastPageTooltip: "마지막 페이지로 이동",
@@ -621,7 +687,7 @@ ej.Pager.Locale["ko-KR"] = {
     nextPagerTooltip: "다음 페이지로 이동",
     previousPagerTooltip: "이전 페이지로 이동",
 };
-ej.PdfViewer.Locale["ko-KR"] = {
+if (ej.PdfViewer) ej.PdfViewer.Locale["ko-KR"] = {
     toolbar: {
         print: {
             headerText: "인쇄",
@@ -667,12 +733,77 @@ ej.PdfViewer.Locale["ko-KR"] = {
             headerText: '페이지에 맞추기',
             contentText: '컨테이너 에 PDF 페이지 를 장착한다.',
         },
+        search: {
+            headerText: '텍스트 검색',
+            contentText: 'PDF 페이지에서 텍스트 검색.'
+        },
+        download: {
+            headerText: '다운로드',
+            contentText: 'PDF 문서 다운로드.'
+        },
     },
 };
-ej.PercentageTextbox.Locale["ko-KR"] = {
+if (ej.PercentageTextbox) ej.PercentageTextbox.Locale["ko-KR"] = {
     watermarkText: "값을 입력",
 };
-ej.PivotGrid.Locale["ko-KR"] = {
+if (ej.PivotGrid) ej.PivotGrid.Locale["ko-KR"] = {
+    Total: "총",
+    GrandTotal: "총계",
+    DoesNotBeginsWith: "다른 영역들과 나란히 않습니다.",
+    DoesNotEndsWith: "로 끝나지 않는",
+    DoesNotContains: "포함되어 있습니다.",
+    DoesNotEquals: "Equals 않습니다.",
+    IsGreaterThan: "보다 큼",
+    IsGreaterThanOrEqualTo: "는 보다 크거나 같음",
+    IsLessThan: "덜",
+    IsLessThanOrEqualTo: "이 또는 낮거나 같아야",
+
+    NumberFormatting: "번호 형식",
+    FrozenHeaders: "냉동 머리글",
+    CellSelection: "셀 선택",
+    CellContext: "셀 컨텍스트",
+    ColumnResize: "열 크기 조정",
+    ExcelLikeLayout: "레이아웃 같은 Excel",
+    FrozenHeader: "냉동 헤더",
+    AdvancedFiltering: "고급 필터링",
+    Amount: "금액",
+    Quantity: "수량",
+    Measures: "값",
+    NumberFormats: "숫자 형식",
+    Exporting: "내보내기",
+    FileName: "파일 이름",
+    ToolTip: "도구 팁",
+    RTL: "RTL",
+    CollapseByDefault: "기본적으로 축소",
+    EnableDisablePaging: "활성화/비활성화 페이징",
+    PagingOptions: "호출 옵션",
+    CategoricalPageSize: "범주별 페이지 크기",
+    SeriesPageSize: "시리즈 페이지 크기",
+
+    HyperLink: "하이퍼링크",
+    CellEditing: "셀 편집",
+    GroupingBar: "그룹화 바",
+    SummaryCustomization: "요약 정의",
+    SummaryTypes: "요약 형식",
+    SummaryType: "요약 형식",
+    EnableRowHeaderHyperlink: "행 머리글 하이퍼링크 활성화",
+    EnableColumnHeaderHyperlink: "열 머리글을 하이퍼링크 활성화",
+    EnableValueCellHyperlink: "값 셀 하이퍼링크 활성화",
+    EnableSummaryCellHyperlink: "요약 셀 하이퍼링크 활성화",
+    HideGrandTotal: "총합계 숨기기",
+    HideSubTotal: "부분합 숨기기",
+    Both: "모두",
+    Sum: "합계",
+    Average: "평균",
+    Count: "개수",
+    Min: "Min",
+
+    Max: "최대",
+    Excel: "Excel",
+    Word: "단어",
+    PDF: "PDF",
+    CSV: "CSV",
+
     ToolTipRow: "열",
     ToolTipColumn: "기둥",
     ToolTipValue: "값",
@@ -798,7 +929,7 @@ ej.PivotGrid.Locale["ko-KR"] = {
     All: "모든",
     Search: "검색"
 };
-ej.PivotPager.Locale["ko-KR"] = {
+if (ej.PivotPager) ej.PivotPager.Locale["ko-KR"] = {
     SeriesPage: "시리즈 페이지",
     CategoricalPage: "범주 형 페이지",
     Error: "오류",
@@ -806,7 +937,16 @@ ej.PivotPager.Locale["ko-KR"] = {
     Close: "닫기",
     PageCountErrorMsg: "유효한 페이지 번호를 입력하십시오."
 };
-ej.PivotSchemaDesigner.Locale["ko-KR"] = {
+if (ej.PivotSchemaDesigner) ej.PivotSchemaDesigner.Locale["ko-KR"] = {
+    DoesNotBeginsWith: "다른 영역들과 나란히 않습니다.",
+    DoesNotEndsWith: "로 끝나지 않는",
+    DoesNotContains: "포함되어 있습니다.",
+    DoesNotEquals: "Equals 않습니다.",
+    IsGreaterThan: "보다 큼",
+    IsGreaterThanOrEqualTo: "는 보다 크거나 같음",
+    IsLessThan: "덜",
+    IsLessThanOrEqualTo: "이 또는 낮거나 같아야",
+
     PivotTableFieldList: "피벗 테이블 필드 목록",
     ChooseFieldsToAddToReport: "보고서에 추가 할 필드를 선택합니다 :",
     DragFieldBetweenAreasBelow: "아래의 영역 사이 드래그 필드 :",
@@ -853,7 +993,7 @@ ej.PivotSchemaDesigner.Locale["ko-KR"] = {
     Cancel: "취소",
     Search: "검색"
 };
-ej.datavisualization.RangeNavigator.Locale["ko-KR"] = {
+if (ej.datavisualization && ej.datavisualization.RangeNavigator) ej.datavisualization.RangeNavigator.Locale["ko-KR"] = {
     intervals: {
         quarter: {
             longQuarters: "쿼터,",
@@ -865,7 +1005,7 @@ ej.datavisualization.RangeNavigator.Locale["ko-KR"] = {
         },
     },
 };
-ej.ReportViewer.Locale["ko-KR"] = {
+if (ej.ReportViewer) ej.ReportViewer.Locale["ko-KR"] = {
     toolbar: {
         print: {
             headerText: "인쇄",
@@ -961,15 +1101,43 @@ ej.ReportViewer.Locale["ko-KR"] = {
     },
     viewButton: "보고서보기",
 };
-ej.Ribbon.Locale["ko-KR"] = {
+if (ej.Ribbon) ej.Ribbon.Locale["ko-KR"] = {
     CustomizeQuickAccess: "빠른 실행 도구 모음 사용자 정의",
     RemoveFromQuickAccessToolbar: "빠른 실행 도구 모음에서 제거",
     AddToQuickAccessToolbar: "빠른 실행 도구 모음에 추가",
     ShowAboveTheRibbon: "리본 위에 표시",
     ShowBelowTheRibbon: "리본 아래보기",
-    MoreCommands: "더 많은 명령 ...",
+    MoreCommands: "더 많은 명령 ..."
 };
-ej.RTE.Locale["ko-KR"] = {
+if (ej.Kanban) ej.Kanban.Locale["ko-KR"] = {
+    EmptyCard: "표시 할 카드가 없습니다.",
+    SaveButton: "구하다",
+    CancelButton: "취소하다",
+    EditFormTitle: "세부 정보 ",
+    AddFormTitle: "새 카드 추가",
+    SwimlaneCaptionFormat: "- {{:count}}{{if count == 1 }} 목 {{else}} 항목 {{/if}}",
+    FilterSettings: "필터:",
+    FilterOfText: "의",
+    Max: "맥스",
+    Min: "최소",
+    Cards: "  카드",
+    ItemsCount: "아이템 수 :",
+    Unassigned: "할당되지 않은",
+    AddCard: "카드 추가",
+    EditCard: "카드 편집",
+    DeleteCard: "카드 삭제",
+    TopofRow: "행의 맨",
+    BottomofRow: "행의 맨 아래",
+    MoveUp: "위로 이동",
+    MoveDown: "아래로 이동",
+    MoveLeft: "왼쪽으로 이동",
+    MoveRight: "오른쪽으로 이동",
+    MovetoSwimlane: "스윔 레인으로 이동",
+    HideColumn: "열 숨기기",
+    VisibleColumns: "표시되는 열",
+    PrintCard: "인쇄 카드"
+};
+if (ej.RTE) ej.RTE.Locale["ko-KR"] = {
 	bold: "대담한",
 	italic: "이탤릭체",
 	underline: "밑줄",
@@ -1118,7 +1286,7 @@ ej.RTE.Locale["ko-KR"] = {
 	ReplaceAll: "모두 바꾸기",
 	FindErrorMsg: "특정 단어를 찾을 수 없습니다.",
 };
-ej.Schedule.Locale["ko-KR"] = {
+if (ej.Schedule) ej.Schedule.Locale["ko-KR"] = {
     ReminderWindowTitle: "알림 창",
     CreateAppointmentTitle: "약속 만들기",
     RecurrenceEditTitle: "편집 반복 약속",
@@ -1218,7 +1386,7 @@ ej.Schedule.Locale["ko-KR"] = {
     Time: "시각",
     EmptyResultText: "제안 사항이 없습니다",
 };
-ej.Spreadsheet.Locale["ko-KR"] = {
+if (ej.Spreadsheet) ej.Spreadsheet.Locale["ko-KR"] = {
     Cut: "절단",
     Copy: "부",
     FormatPainter: "서식 복사",
@@ -1879,7 +2047,7 @@ ej.Spreadsheet.Locale["ko-KR"] = {
     PivotOverlapAlert: "다른 피벗 테이블 보고서를 겹치지 수있는 피벗 테이블 보고서",
     NoCellFound: "어떤 세포는 발견되지 않았다",
 };
-ej.TreeGrid.Locale["ko-KR"] = {
+if (ej.TreeGrid) ej.TreeGrid.Locale["ko-KR"] = {
     toolboxTooltipTexts: {
         addTool: "더하다",
         editTool: "편집",
@@ -1970,7 +2138,7 @@ ej.TreeGrid.Locale["ko-KR"] = {
     falseText: "그릇된",
     emptyRecord: "레코드 표시 없습니다",
 };
-ej.Uploadbox.Locale["ko-KR"] = {
+if (ej.Uploadbox) ej.Uploadbox.Locale["ko-KR"] = {
     buttonText: {
         upload: "업로드",
         browse: "먹다",
@@ -1995,3 +2163,25 @@ ej.Uploadbox.Locale["ko-KR"] = {
     closeToolTip: "닫기",
 };
 ;
+if (ej.Tile) ej.Tile.Locale["ko-KR"] = {
+    captionText: "본문"
+};
+if (ej.ListView) ej.ListView.Locale["ko-KR"] = {
+    headerTitle: "표제",
+    headerBackButtonText: "뒤로"
+};
+if (ej.SpellCheck) ej.SpellCheck.Locale["ko-KR"] = {
+    SpellCheckButtonText: "철자",
+    NotInDictionary: "사전에 없습니다.",
+    SuggestionLabel: "제안",
+    IgnoreOnceButtonText: "일단 무시",
+    IgnoreAllButtonText: "모두 무시",
+    AddToDictionary: "사전에 추가",
+    ChangeButtonText: "변화",
+    ChangeAllButtonText: "모두 변경",
+    CloseButtonText: "닫기",
+    CompletionPopupMessage: "맞춤법 검사가 완료",
+    CompletionPopupTitle: "맞춤법 검사",
+    Ok: "승인",
+    NoSuggestionMessage: "사용할 수있는 제안 없음"
+};

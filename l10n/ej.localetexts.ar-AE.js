@@ -7,12 +7,13 @@
 *  applicable laws. 
 */
 
-ej.Autocomplete.Locale["ar-AE"] = {
+if (ej.Autocomplete) ej.Autocomplete.Locale["ar-AE"] = {
     addNewText: "اضف جديد",
     emptyResultText: "لا اقتراحات",
     actionFailure: "عدم وجود الحقل المحدد في مصدر البيانات الواردة",
+    watermarkText: " "
 };
-ej.ColorPicker.Locale["ar-AE"] = {
+if (ej.ColorPicker) ej.ColorPicker.Locale["ar-AE"] = {
     buttonText: {
         apply: "تطبيق",
         cancel: "إلغاء",
@@ -37,14 +38,14 @@ ej.ColorPicker.Locale["ar-AE"] = {
         selectedcolor: "اختيار اللون"
     },
 };
-ej.CurrencyTextbox.Locale["ar-AE"] = {
+if (ej.CurrencyTextbox) ej.CurrencyTextbox.Locale["ar-AE"] = {
     watermarkText: "أدخل قيمة",
 };
-ej.DatePicker.Locale["ar-AE"] = {
+if (ej.DatePicker) ej.DatePicker.Locale["ar-AE"] = {
     watermarkText: "حدد تاريخ",
     buttonText: "اليوم",
 };
-ej.DateRangePicker.Locale["ar-AE"] = {
+if (ej.DateRangePicker) ej.DateRangePicker.Locale["ar-AE"] = {
     ButtonText: {
         apply: "تطبيق",
         cancel: "إلغاء",
@@ -53,7 +54,7 @@ ej.DateRangePicker.Locale["ar-AE"] = {
     watermarkText: "حدد المدى",
     customPicker: "المنتقى مخصص",
 };
-ej.DateTimePicker.Locale["ar-AE"] = {
+if (ej.DateTimePicker) ej.DateTimePicker.Locale["ar-AE"] = {
     watermarkText: "حدد التاريخ والوقت",
     buttonText: {
         today: "اليوم",
@@ -62,7 +63,7 @@ ej.DateTimePicker.Locale["ar-AE"] = {
         timeTitle: "مرة"
     },
 };
-ej.datavisualization.Diagram.Locale["ar-AE"] = {
+if (ej.datavisualization && ej.datavisualization.Diagram) ej.datavisualization.Diagram.Locale["ar-AE"] = {
     cut: "قطع",
     copy: "نسخ",
     paste: "معجون",
@@ -78,7 +79,7 @@ ej.datavisualization.Diagram.Locale["ar-AE"] = {
     sendBackward: "إرسال إلى الخلف",
     sendToBack: "إرسال إلى الخلف",
 };
-ej.Dialog.Locale["ar-AE"] = {
+if (ej.Dialog) ej.Dialog.Locale["ar-AE"] = {
     tooltip: {
         close: "قريب",
         collapse: "انهيار",
@@ -91,11 +92,11 @@ ej.Dialog.Locale["ar-AE"] = {
     },
     closeIconTooltip: "أغلق",
 };
-ej.DropDownList.Locale["ar-AE"] = {
+if (ej.DropDownList) ej.DropDownList.Locale["ar-AE"] = {
 	emptyResultText: "لا اقتراحات،",
 	watermarkText: " ",
 };
-ej.ExcelFilter.Locale["ar-AE"] = {
+if (ej.ExcelFilter) ej.ExcelFilter.Locale["ar-AE"] = {
     SortNoSmaller: "نوع من الأصغر إلى الأكبر",
     SortNoLarger: "نوع من الأكبر إلى الأصغر",
     SortTextAscending: "نوع الألف إلى الياء",
@@ -139,7 +140,15 @@ ej.ExcelFilter.Locale["ar-AE"] = {
     True: "صحيح",
     False: "خاطئة",
 };
-ej.FileExplorer.Locale["ar-AE"] = {
+if (ej.FileExplorer) ej.FileExplorer.Locale["ar-AE"] = {
+    EmptyFolder: "هذا المجلد فارغ",
+    ProtectedFolder: "أنت لا تملك حاليا إذن للوصول إلى هذا المجلد",
+    EmptyResult: "لا توجد عناصر تطابق بحثك",
+    ContextMenuSortBy: "ترتيب حسب",
+    InvalidFileName: "لا يمكن أن يحتوي اسم الملف على أي من الأحرف التالية: \\ /: * \ <> |",
+    Selected: "مختار",
+    Permission: "إذن",
+    SortBy: "ترتيب حسب",
     Back: "الى الوراء",
     Forward: "إلى الأمام",
     Upward: "إلى الأعلى",
@@ -197,6 +206,18 @@ ej.FileExplorer.Locale["ar-AE"] = {
     Modified: "تم التعديل",
     DialogCloseToolTip: "قريب",
     UploadSettings: {
+        buttonText: {
+            upload: "تحميل",
+            browse: "تصفح",
+            cancel: "إلغاء",
+            close: "قريب"
+        },
+        dialogText: {
+            title: "تحميل صندوق",
+            name: "اسم",
+            size: "حجم",
+            status: "الحالة"
+        },
         dropAreaText: "إسقاط الملفات أو انقر لتحميل",
         filedetail: "حجم الملف المحدد كبير جدا. يرجى تحديد ملف داخل حجم صالح.",
         denyError: "لا يسمح الملفات ذات الامتدادات #Extension.",
@@ -209,7 +230,7 @@ ej.FileExplorer.Locale["ar-AE"] = {
         closeToolTip: "قريب"
     },
 };
-ej.Gantt.Locale["ar-AE"] = {
+if (ej.Gantt) ej.Gantt.Locale["ar-AE"] = {
     emptyRecord: "عدم وجود سجلات للعرض",
     alertTexts: {
         indentAlert: "وهناك يتم تحديد أي سجل جانت لأداء متساوي الأطراف",
@@ -367,7 +388,7 @@ ej.Gantt.Locale["ar-AE"] = {
             { id: "FF", text: "نهاية-نهاية", value: "نهاية-نهاية" }
         ],   
 };
-ej.Grid.Locale["ar-AE"] = {
+if (ej.Grid) ej.Grid.Locale["ar-AE"] = {
     EmptyRecord: "عدم وجود سجلات للعرض",
     GroupDropArea: "اسحب رأس العمود هنا إلى مجموعة عموده",
     DeleteOperationAlert: "لم يتم تحديد لعملية حذف السجلات",
@@ -480,19 +501,62 @@ if (ej.mobile !== undefined && ej.mobile.TimePicker !== undefined) {
     };
     ;
 }
-ej.NumericTextbox.Locale["ar-AE"] = {
+if (ej.NumericTextbox) ej.NumericTextbox.Locale["ar-AE"] = {
     watermarkText: "أدخل قيمة",
 };
-ej.PivotChart.Locale["ar-AE"] = {
+if (ej.PivotChart) ej.PivotChart.Locale["ar-AE"] = {
     Measure: "قياس - يقيس",
     Row: "صف",
-    Column: "عمود",
     Expand: "وسع",
     Collapse: "انهيار",
     Exit: "خروج",
-    Value: "القيمة"
+    Value: "القيمة",
+    ChartTypes: "انواع المخططات",
+    TDCharts: "خرائط ثلاثية الابعاد",
+    Tooltip: "يظهر تلميح الاداة",
+    Exporting: "تصدير",
+    Line: "خط",
+    Spline: "خدد",
+    Column: "عمود",
+    Area: "منطقة",
+    SplineArea: "المفتاح منطقة",
+    StepLine: "خط خطوة",
+    StepArea: "مساحة خطوة",
+    Pie: "فطيرة",
+    Bar: "بار",
+    StackingArea: "التراص منطقة",
+    StackingColumn: "العمود التراص",
+    StackingBar: "التراص بار",
+    Pyramid: "هرم",
+    Funnel: "قمع",
+    Doughnut: "تبرع",
+    Scatter: "تبعثر",
+    Bubble: "فقاعة",
+    TreeMap: "شجرة الخارطة",
+    ColumnTD: "العمود 3D",
+    PieTD: "فطيرة 3D",
+    BarTD: "بار 3D",
+    StackingBarTD: "بار التجميع 3D",
+    StackingColumnTD: "عمود التجميع 3D",
+    Excel: "اكسل",
+    Word: "كلمة",
+    Pdf: "PDF",
+    PNG: "PNG",
+    EMF: "EMF",
+    GIF: "GIF",
+    JPG: "JPG",
+    BMF: "BMF"
 };
-ej.PivotClient.Locale["ar-AE"] = {
+if (ej.PivotClient) ej.PivotClient.Locale["ar-AE"] = {
+    DoesNotBeginsWith: "لا تبدا",
+    DoesNotEndsWith: "لا تنتهى",
+    DoesNotContains: "لا يحتوى",
+    DoesNotEquals: "لا يساوى",
+    IsGreaterThan: "اكبر من",
+    IsGreaterThanOrEqualTo: "اكبر من او يساوى",
+    IsLessThan: "اقل من",
+    IsLessThanOrEqualTo: "اقل من او يساوى",
+
     DeferUpdate: "تأجيل التحديث",
     MDXQuery: "MDX استعلام",
     Row: "صف",
@@ -616,11 +680,11 @@ ej.PivotClient.Locale["ar-AE"] = {
     SetReportNameAlertMsg: "يرجى تحديد اسم التقرير.",
     Search: "البحث"
 };
-ej.PivotGauge.Locale["ar-AE"] = {
+if (ej.PivotGauge) ej.PivotGauge.Locale["ar-AE"] = {
     RevenueGoal: "دخل هدف",
     RevenueValue: "قيمة الإيرادات"
 };
-ej.Pager.Locale["ar-AE"] = {
+if (ej.Pager) ej.Pager.Locale["ar-AE"] = {
     pagerInfo: "{0} من {1} صفحة ({2} البنود)",
     firstPageTooltip: "الذهاب إلى الصفحة الأولى",
     lastPageTooltip: "الذهاب إلى الصفحة الأخيرة",
@@ -629,7 +693,7 @@ ej.Pager.Locale["ar-AE"] = {
     nextPagerTooltip: "انتقل إلى الصفحة التالية",
     previousPagerTooltip: "الذهاب إلى الصفحة السابقة",
 };
-ej.PdfViewer.Locale["ar-AE"] = {
+if (ej.PdfViewer) ej.PdfViewer.Locale["ar-AE"] = {
     toolbar: {
         print: {
             headerText: "طباعة",
@@ -675,12 +739,80 @@ ej.PdfViewer.Locale["ar-AE"] = {
             headerText: "صالح إلى الصفحة",
             contentText: "تناسب صفحة PDF إلى الحاوية.",
         },
+        search: {
+            headerText: 'عبارة البحث',
+            contentText: 'نص البحث في صفحات PDF.'
+        },
+        download: {
+            headerText: 'تحميل',
+            contentText: 'تحميل وثيقة PDF.'
+        },
     },
 };
-ej.PercentageTextbox.Locale["ar-AE"] = {
+if (ej.PercentageTextbox) ej.PercentageTextbox.Locale["ar-AE"] = {
     watermarkText: "أدخل قيمة",
 };
-ej.PivotGrid.Locale["ar-AE"] = {
+if (ej.PivotGrid) ej.PivotGrid.Locale["ar-AE"] = {
+    Total: "المجموع",
+    GrandTotal: "المجموع الكلى",
+    DoesNotBeginsWith: "لا تبدا",
+    DoesNotEndsWith: "لا تنتهى",
+    DoesNotContains: "لا يحتوى",
+    DoesNotEquals: "لا يساوى",
+    IsGreaterThan: "اكبر من",
+    IsGreaterThanOrEqualTo: "اكبر من او يساوى",
+    IsLessThan: "اقل من",
+    IsLessThanOrEqualTo: "اقل من او يساوى",
+
+    NumberFormatting: "تنسيق الارقام",
+    FrozenHeaders: "رؤوس المجمدة",
+    CellSelection: "اختيار الخلية",
+    CellContext: "وفى سياق الخلية",
+    ColumnResize: "لتغيير حجم عمود",
+    ExcelLikeLayout: "Excel مثل تخطيط",
+    FrozenHeader: "راس المجمدة",
+    AdvancedFiltering: "التصفية المتقدمة",
+    Amount: "المبلغ",
+    Quantity: "الكمية",
+    Measures: "الاجراءات",
+    NumberFormats: "تنسيقات",
+    Exporting: "تصدير",
+    FileName: "اسم الملف",
+    ToolTip: "تلميحات الادوات",
+    RTL: "RTL",
+    CollapseByDefault: "انهيار افتراضيا",
+    EnableDisablePaging: "Enalbe / تعطيل الاستدعاء",
+    PagingOptions: "خيارات التصفح",
+    CategoricalPageSize: "حجم الصفحة القاطع",
+    SeriesPageSize: "سلسلة حجم الصفحة",
+
+    HyperLink: "ارتباط تشعبى",
+    CellEditing: "تحرير الخلية",
+    GroupingBar: "تضم بار",
+    SummaryCustomization: "ملخص التخصيص",
+    SummaryTypes: "ملخص انواع",
+    SummaryType: "ملخص النوع",
+    EnableRowHeaderHyperlink: "تمكين راس الصف ارتباط تشعبى",
+    EnableColumnHeaderHyperlink: "تمكين راس عمود ارتباط تشعبى",
+    EnableValueCellHyperlink: "تمكين قيمة خلية الارتباط التشعبى",
+    EnableSummaryCellHyperlink: "تمكين خلية موجز ارتباط تشعبى",
+    HideGrandTotal: "اخفاء المجموع",
+    HideSubTotal: "اخفاء المجموع الفرعى",
+    Both: "كلا",
+    Sum: "المبلغ",
+    Average: "متوسط",
+    Count: "فرز الاصوات",
+    Min: "دقيقة",
+
+    Max: "ماكس",
+    Row: "صف",
+    Column: "العمود",
+    Both: "كلا",
+    Excel: "اكسل",
+    Word: "كلمة",
+    PDF: "PDF",
+    CSV: "CSV",
+
     ToolTipRow: "صف",
     ToolTipColumn: "عمود",
     ToolTipValue: "القيمة",
@@ -806,7 +938,7 @@ ej.PivotGrid.Locale["ar-AE"] = {
     All: "جميع",
     Search: "البحث"
 };
-ej.PivotPager.Locale["ar-AE"] = {
+if (ej.PivotPager) ej.PivotPager.Locale["ar-AE"] = {
     SeriesPage: "سلسلة الصفحة",
     CategoricalPage: "القاطع الصفحة",
     Error: "خطا",
@@ -814,7 +946,16 @@ ej.PivotPager.Locale["ar-AE"] = {
     Close: "قريب",
     PageCountErrorMsg: "ادخل رقم الصفحة صالحة"
 };
-ej.PivotSchemaDesigner.Locale["ar-AE"] = {
+if (ej.PivotSchemaDesigner) ej.PivotSchemaDesigner.Locale["ar-AE"] = {
+    DoesNotBeginsWith: "لا تبدا",
+    DoesNotEndsWith: "لا تنتهى",
+    DoesNotContains: "لا يحتوى",
+    DoesNotEquals: "لا يساوى",
+    IsGreaterThan: "اكبر من",
+    IsGreaterThanOrEqualTo: "اكبر من او يساوى",
+    IsLessThan: "اقل من",
+    IsLessThanOrEqualTo: "اقل من او يساوى",
+
     PivotTableFieldList: "PivotTable قائمة الحقول",
     ChooseFieldsToAddToReport: "اختيار الميادين إضافة إلى التقرير:",
     DragFieldBetweenAreasBelow: "الحقول السحب بين المناطق أدناه:",
@@ -863,7 +1004,7 @@ ej.PivotSchemaDesigner.Locale["ar-AE"] = {
     Close: "قريب",
     Search: "البحث"
 };
-ej.datavisualization.RangeNavigator.Locale["ar-AE"] = {
+if (ej.datavisualization && ej.datavisualization.RangeNavigator) ej.datavisualization.RangeNavigator.Locale["ar-AE"] = {
     intervals: {
         quarter: {
             longQuarters: "ربع،",
@@ -875,14 +1016,23 @@ ej.datavisualization.RangeNavigator.Locale["ar-AE"] = {
         },
     },
 };
-ej.datavisualization.Chart.Locale["ar-AE"] = {
+if (ej.datavisualization && ej.datavisualization.Chart) ej.datavisualization.Chart.Locale["ar-AE"] = {
     zoomIn: "تكبير",
     zoomOut: "تصغير",
     zoom: "زوم",
     pan: "مقلاة",
     reset: "إعادة تعيين"
 };
-ej.ReportViewer.Locale["ar-AE"] = {
+if (ej.datavisualization && ej.datavisualization.Map) ej.datavisualization.Map.Locale["ar-AE"] = {
+    zoomIn: "تكبير",
+    zoomOut: "تصغير",
+    panTop: "عموم الأعلى",
+    panBottom: "أسفل عموم",
+    panLeft: "عموم اليسار",
+	 panRight: "عموم اليمين",
+	 home: "الصفحة الرئيسية"
+};
+if (ej.ReportViewer) ej.ReportViewer.Locale["ar-AE"] = {
     toolbar: {
         print: {
             headerText: "طباعة",
@@ -978,15 +1128,43 @@ ej.ReportViewer.Locale["ar-AE"] = {
     },
     viewButton: "عرض التقرير",
 };
-ej.Ribbon.Locale["ar-AE"] = {
+if (ej.Ribbon) ej.Ribbon.Locale["ar-AE"] = {
     CustomizeQuickAccess: "تخصيص شريط أدوات الوصول السريع",
     RemoveFromQuickAccessToolbar: "إزالة من شريط أدوات الوصول السريع",
     AddToQuickAccessToolbar: "إضافة إلى شريط أدوات الوصول السريع",
     ShowAboveTheRibbon: "تظهر فوق الشريط",
     ShowBelowTheRibbon: "تظهر بالأسفل الشريط",
-    MoreCommands: "المزيد من أوامر ...",
+    MoreCommands: "المزيد من أوامر ..."
 };
-ej.RTE.Locale["ar-AE"] = {
+if (ej.Kanban) ej.Kanban.Locale["ar-AE"] = {
+    EmptyCard: "لا بطاقات لعرض",
+    SaveButton: "حفظ",
+    CancelButton: "إلغاء",
+    EditFormTitle: "تفاصيل ",
+    AddFormTitle: "إضافة بطاقة جديدة",
+    SwimlaneCaptionFormat: "- {{:count}}{{if count == 1 }} بند {{else}} البنود {{/if}}",
+    FilterSettings: "مرشحات:",
+    FilterOfText: "من",
+    Max: "ماكس",
+    Min: "دقيقة",
+    Cards: "  بطاقات",
+    ItemsCount: "عد البنود :",
+    Unassigned: "غير معين",
+    AddCard: "إضافة بطاقة",
+    EditCard: "تحرير بطاقة",
+    DeleteCard: "حذف بطاقة",
+    TopofRow: "أعلى صف",
+    BottomofRow: "الجزء السفلي من الصف",
+    MoveUp: "تحريك لأعلى",
+    MoveDown: "تحرك لأسفل",
+    MoveLeft: "تحريك لليسار",
+    MoveRight: "نقل لليمين",
+    MovetoSwimlane: "الانتقال إلى Swimlane",
+    HideColumn: "إخفاء العمود",
+    VisibleColumns: "أعمدة مرئية",
+    PrintCard: "PrintCard"
+};
+if (ej.RTE) ej.RTE.Locale["ar-AE"] = {
 	bold: "جريء",
 	italic: "مائل",
 	underline: "أكد",
@@ -1135,7 +1313,7 @@ ej.RTE.Locale["ar-AE"] = {
 	ReplaceAll: "قم باستبدال الجميع",
 	FindErrorMsg: "لا يمكن أن تجد كلمة معينة.",
 };
-ej.Schedule.Locale["ar-AE"] = {
+if (ej.Schedule) ej.Schedule.Locale["ar-AE"] = {
     ReminderWindowTitle: "نافذة تذكير",
     CreateAppointmentTitle: "إنشاء تعيين",
     RecurrenceEditTitle: "تحرير كرر تعيين",
@@ -1235,7 +1413,7 @@ ej.Schedule.Locale["ar-AE"] = {
     Time: "مرة",
     EmptyResultText: "لا اقتراحات",
 };
-ej.Spreadsheet.Locale["ar-AE"] = {
+if (ej.Spreadsheet) ej.Spreadsheet.Locale["ar-AE"] = {
     Cut: "قطع",
     Copy: "نسخ",
     FormatPainter: "نسخ التنسيق",
@@ -1897,7 +2075,7 @@ ej.Spreadsheet.Locale["ar-AE"] = {
     PivotOverlapAlert: "تقرير الجدول المحوري لا يمكن أن تتداخل تقرير آخر الجدول المحوري",
     NoCellFound: "لم يتم العثور على خلايا",
 };
-ej.TreeGrid.Locale["ar-AE"] = {
+if (ej.TreeGrid) ej.TreeGrid.Locale["ar-AE"] = {
     toolboxTooltipTexts: {
         addTool: "إضافة",
         editTool: "تحرير",
@@ -1988,7 +2166,7 @@ ej.TreeGrid.Locale["ar-AE"] = {
     falseText: "خاطئة",
     emptyRecord: "عدم وجود سجلات للعرض",
 };
-ej.Uploadbox.Locale["ar-AE"] = {
+if (ej.Uploadbox) ej.Uploadbox.Locale["ar-AE"] = {
     buttonText: {
         upload: "تحميل",
         browse: "تصفح",
@@ -2013,3 +2191,25 @@ ej.Uploadbox.Locale["ar-AE"] = {
     closeToolTip: "قريب",
 };
 ;
+if (ej.ListView) ej.ListView.Locale["ar-AE"] = {
+    headerTitle: "عنوان",
+    headerBackButtonText: "الى الخلف"
+};
+if (ej.Tile) ej.Tile.Locale["ar-AE"] = {
+    captionText: "نص"
+};
+if (ej.SpellCheck) ej.SpellCheck.Locale["ar-AE"] = {
+    SpellCheckButtonText: "الإملائية",
+    NotInDictionary: "ليس في قاموس",
+    SuggestionLabel: "اقتراحات",
+    IgnoreOnceButtonText: "تجاهل مرة",
+    IgnoreAllButtonText: "تجاهل الكل",
+    AddToDictionary: "إضافة إلى القاموس",
+    ChangeButtonText: "تغيير",
+    ChangeAllButtonText: "تغيير جميع",
+    CloseButtonText: "قريب",
+    CompletionPopupMessage: "التدقيق الإملائي كاملة",
+    CompletionPopupTitle: "التدقيق الإملائي",
+    Ok: "حسنا",
+    NoSuggestionMessage: "لا تتوفر أية اقتراحات",
+};

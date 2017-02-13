@@ -7,12 +7,13 @@
 *  applicable laws. 
 */
 
-ej.Autocomplete.Locale["ja-JP"] = {
+if (ej.Autocomplete) ej.Autocomplete.Locale["ja-JP"] = {
     addNewText: "新しく追加する",
     emptyResultText: "提案なし",
     actionFailure: "指定されたフィールドは、特定のデータ・ソースに存在しません。",
+    watermarkText: " "
 };
-ej.ColorPicker.Locale["ja-JP"] = {
+if (ej.ColorPicker) ej.ColorPicker.Locale["ja-JP"] = {
     buttonText: {
         apply: "適用します",
         cancel: "キャンセル",
@@ -37,14 +38,14 @@ ej.ColorPicker.Locale["ja-JP"] = {
         selectedcolor: "選択した色"
     },
 };
-ej.CurrencyTextbox.Locale["ja-JP"] = {
+if (ej.CurrencyTextbox) ej.CurrencyTextbox.Locale["ja-JP"] = {
     watermarkText: "値を入力します。",
 };
-ej.DatePicker.Locale["ja-JP"] = {
+if (ej.DatePicker) ej.DatePicker.Locale["ja-JP"] = {
     watermarkText: "日付を選択",
     buttonText: "今日",
 };
-ej.DateRangePicker.Locale["ja-JP"] = {
+if (ej.DateRangePicker) ej.DateRangePicker.Locale["ja-JP"] = {
     ButtonText: {
         apply: "適用します",
         cancel: "キャンセル",
@@ -53,7 +54,7 @@ ej.DateRangePicker.Locale["ja-JP"] = {
     watermarkText: "範囲を選択",
     customPicker: "カスタムピッカー",
 };
-ej.DateTimePicker.Locale["ja-JP"] = {
+if (ej.DateTimePicker) ej.DateTimePicker.Locale["ja-JP"] = {
     watermarkText: "選択した日付時刻",
     buttonText: {
         today: "今日",
@@ -62,7 +63,7 @@ ej.DateTimePicker.Locale["ja-JP"] = {
         timeTitle: "時間"
     },
 };
-ej.datavisualization.Diagram.Locale["ja-JP"] = {
+if (ej.datavisualization && ej.datavisualization.Diagram) ej.datavisualization.Diagram.Locale["ja-JP"] = {
     cut: "カット",
     copy: "コピー",
     paste: "ペースト",
@@ -78,7 +79,7 @@ ej.datavisualization.Diagram.Locale["ja-JP"] = {
     sendBackward: "背面へ",
     sendToBack: "SendToBack",
 };
-ej.Dialog.Locale["ja-JP"] = {
+if (ej.Dialog) ej.Dialog.Locale["ja-JP"] = {
     tooltip: {
         close: "閉じる",
         collapse: "崩壊",
@@ -91,11 +92,11 @@ ej.Dialog.Locale["ja-JP"] = {
     },
     closeIconTooltip: "閉じる",
 };
-ej.DropDownList.Locale["ja-JP"] = {
+if (ej.DropDownList) ej.DropDownList.Locale["ja-JP"] = {
 	emptyResultText: "提案なし、",
 	watermarkText: " ",
 };
-ej.ExcelFilter.Locale["ja-JP"] = {
+if (ej.ExcelFilter) ej.ExcelFilter.Locale["ja-JP"] = {
     SortNoSmaller: "ソート最小最大に",
     SortNoLarger: "並び替え最大最小に",
     SortTextAscending: "Zへの並べ替えA",
@@ -139,7 +140,15 @@ ej.ExcelFilter.Locale["ja-JP"] = {
     True: "真",
     False: "偽",
 };
-ej.FileExplorer.Locale["ja-JP"] = {
+if (ej.FileExplorer) ej.FileExplorer.Locale["ja-JP"] = {
+    EmptyFolder: "このフォルダは空だ",
+    ProtectedFolder: "あなたは現在このフォルダにアクセスする権限を持っていません",
+    EmptyResult: "あなたの検索条件に一致するアイテムはありません",
+    ContextMenuSortBy: "並び替え",
+    InvalidFileName: "ファイル名には、次の文字は使用できません。\\ /：*？\ <> |",
+    Selected: "選択された",
+    Permission: "許可",
+    SortBy: "並び替え",
     Back: "後方",
     Forward: "フォワード",
     Upward: "上向きに",
@@ -197,6 +206,18 @@ ej.FileExplorer.Locale["ja-JP"] = {
     Modified: "修正されました",
     DialogCloseToolTip: "閉じる",
     UploadSettings: {
+        buttonText: {
+            upload: "アップロード",
+            browse: "ブラウズ",
+            cancel: "キャンセル",
+            close: "閉じる"
+        },
+        dialogText: {
+            title: "ボックスをアップロードする",
+            name: "名",
+            size: "サイズ",
+            status: "状態"
+        },
         dropAreaText: "ファイルを削除するか、またはアップロードする]をクリックします",
         filedetail: "選択されたファイルのサイズが大きすぎます。有効なサイズ内のファイルを選択してください。",
         denyError: "#Extensionの拡張子を持つファイルが許可されていません。",
@@ -209,7 +230,7 @@ ej.FileExplorer.Locale["ja-JP"] = {
         closeToolTip: "閉じる"
     },
 };
-ej.Gantt.Locale["ja-JP"] = {
+if (ej.Gantt) ej.Gantt.Locale["ja-JP"] = {
     emptyRecord: "レコードは表示されませんします",
     alertTexts: {
         indentAlert: "何ガントレコードはインデントを行うためにそこに選択されていないされています",
@@ -366,7 +387,7 @@ ej.Gantt.Locale["ja-JP"] = {
             { id: "FF", text: "フィニッシュ-フィニッシュ", value: "フィニッシュ-フィニッシュ" }
         ],
 };
-ej.Grid.Locale["ja-JP"] = {
+if (ej.Grid) ej.Grid.Locale["ja-JP"] = {
     EmptyRecord: "レコードは表示されませんします",
     GroupDropArea: "グループの列に、ここで列ヘッダをドラッグします",
     DeleteOperationAlert: "削除操作のために選択されていませレコードはありません",
@@ -479,19 +500,64 @@ if (ej.mobile !== undefined && ej.mobile.TimePicker !== undefined) {
     };
     ;
 }
-ej.NumericTextbox.Locale["ja-JP"] = {
+if (ej.NumericTextbox) ej.NumericTextbox.Locale["ja-JP"] = {
     watermarkText: "値を入力します。",
 };
-ej.PivotChart.Locale["ja-JP"] = {
+if (ej.PivotChart) ej.PivotChart.Locale["ja-JP"] = {
     Measure: "メジャー",
     Row: "行",
     Column: "カラム",
     Expand: "拡大します",
     Collapse: "崩壊",
     Exit: "出口",
-    Value: "値"
+    Value: "値",
+
+    ChartTypes: "グラフの種類",
+    TDCharts: "3 D グラフ",
+    Tooltip: "ツールチップ",
+    Exporting: "のエクスポート",
+    Line: "ライン",
+    Spline: "スプライン",
+    Column: "カラム",
+    Area: "エリア",
+    SplineArea: "スプラインエリア",
+    StepLine: "ステップライン",
+    StepArea: "ステップエリア",
+    Pie: "パイ",
+    Bar: "バー",
+    StackingArea: "スタッキングエリア",
+    StackingColumn: "スタッキングコラム",
+    StackingBar: "スタッキングバー",
+    Pyramid: "ピラミッド",
+    Funnel: "漏斗",
+    Doughnut: "ドーナツ",
+    Scatter: "スキャッター",
+    Bubble: "バブル",
+    TreeMap: "ツリーマップ",
+    ColumnTD: "カラム 3D",
+    PieTD: "パイ 3D",
+    BarTD: "バー' 3D",
+    StackingBarTD: "スタッキングバー 3D",
+    StackingColumnTD: "スタッキングコラム 3D",
+    Excel: "Excel",
+    Word: "Word",
+    Pdf: "PDF",
+    PNG: "PNG",
+    EMF: "EMF",
+    GIF: "GIF",
+    JPG: "JPG",
+    BMF: "BMF"
 };
-ej.PivotClient.Locale["ja-JP"] = {
+if (ej.PivotClient) ej.PivotClient.Locale["ja-JP"] = {
+    DoesNotBeginsWith: "が開始されません",
+    DoesNotEndsWith: "終了しません",
+    DoesNotContains: "が含まれていません",
+    DoesNotEquals: "相当しません",
+    IsGreaterThan: "より大きい",
+    IsGreaterThanOrEqualTo: "が以上に",
+    IsLessThan: "より少なくなります。",
+    IsLessThanOrEqualTo: "は、またはの値以下である",
+
     DeferUpdate: "延期の更新",
     MDXQuery: "MDXクエリ",
     Row: "行",
@@ -608,11 +674,11 @@ ej.PivotClient.Locale["ja-JP"] = {
     SetReportNameAlertMsg: "セットのレポート名を入力してください。",
     Search: "検索"
 };
-ej.PivotGauge.Locale["ja-JP"] = {
+if (ej.PivotGauge) ej.PivotGauge.Locale["ja-JP"] = {
     RevenueGoal: "収益目標",
     RevenueValue: "収益値",
 };
-ej.Pager.Locale["ja-JP"] = {
+if (ej.Pager) ej.Pager.Locale["ja-JP"] = {
     pagerInfo: "{0}{1}ページ（{2}の項目）の",
     firstPageTooltip: "最初のページに移動します",
     lastPageTooltip: "最後のページに移動します",
@@ -621,7 +687,7 @@ ej.Pager.Locale["ja-JP"] = {
     nextPagerTooltip: "次のページに移動します",
     previousPagerTooltip: "前のページに移動します",
 };
-ej.PdfViewer.Locale["ja-JP"] = {
+if (ej.PdfViewer) ej.PdfViewer.Locale["ja-JP"] = {
     toolbar: {
         print: {
             headerText: "印刷",
@@ -667,12 +733,77 @@ ej.PdfViewer.Locale["ja-JP"] = {
             headerText: 'ページに合わせる',
             contentText: 'コンテナにPDFのページを取り付けます。',
         },
+        search: {
+            headerText: 'テキストの検索',
+            contentText: 'PDFページ内のテキストを検索する.'
+        },
+        download: {
+            headerText: 'ダウンロード',
+            contentText: 'PDFドキュメントをダウンロードする.'
+        },
     },
 };
-ej.PercentageTextbox.Locale["ja-JP"] = {
+if (ej.PercentageTextbox) ej.PercentageTextbox.Locale["ja-JP"] = {
     watermarkText: "値を入力します。",
 };
-ej.PivotGrid.Locale["ja-JP"] = {
+if (ej.PivotGrid) ej.PivotGrid.Locale["ja-JP"] = {
+    Total: "合計",
+    GrandTotal: "合計",
+    DoesNotBeginsWith: "が開始されません",
+    DoesNotEndsWith: "終了しません",
+    DoesNotContains: "が含まれていません",
+    DoesNotEquals: "相当しません",
+    IsGreaterThan: "より大きい",
+    IsGreaterThanOrEqualTo: "が以上に",
+    IsLessThan: "より少なくなります。",
+    IsLessThanOrEqualTo: "は、またはの値以下である",
+
+    NumberFormatting: "番号の書式設定",
+    FrozenHeaders: "冷凍のヘッダー",
+    CellSelection: "セルの選択",
+    CellContext: "セルのコンテキスト",
+    ColumnResize: "列のサイズを変更する",
+    ExcelLikeLayout: "レイアウトに似ていますが、 Excel",
+    FrozenHeader: "冷凍のヘッダー",
+    AdvancedFiltering: "高度なフィルタリング",
+    Amount: "量",
+    Quantity: "数量",
+    Measures: "対策",
+    NumberFormats: "番号の形式",
+    Exporting: "のエクスポート",
+    FileName: "ファイル名",
+    ToolTip: "ツールヒント",
+    RTL: "RTL",
+    CollapseByDefault: "デフォルトで崩壊",
+    EnableDisablePaging: "ページング Enalbe / 無効にする",
+    PagingOptions: "ページングオプション",
+    CategoricalPageSize: "カテゴリページのサイズ",
+    SeriesPageSize: "シリーズページサイズ",
+
+    HyperLink: "ハイパーリンク",
+    CellEditing: "セルを編集",
+    GroupingBar: "バーのグループ化",
+    SummaryCustomization: "カスタマイズの概要",
+    SummaryTypes: "サマリのタイプ",
+    SummaryType: "集計タイプ",
+    EnableRowHeaderHyperlink: "行ヘッダのハイパーリンクを有効にする",
+    EnableColumnHeaderHyperlink: "列ヘッダーのハイパーリンクを有効にする",
+    EnableValueCellHyperlink: "値セルハイパーリンクを有効にする",
+    EnableSummaryCellHyperlink: "概要のセルにハイパーリンクを有効にする",
+    HideGrandTotal: "総計を非表示にする",
+    HideSubTotal: "非表示の小計",
+    Both: "両方の",
+    Sum: "合計",
+    Average: "平均",
+    Count: "カウント",
+    Min: "分",
+
+    Max: "Max",
+    Excel: "Excel",
+    Word: "Word",
+    PDF: "PDF",
+    CSV: "CSV",
+
     ToolTipRow: "行",
     ToolTipColumn: "カラム",
     ToolTipValue: "値",
@@ -798,7 +929,7 @@ ej.PivotGrid.Locale["ja-JP"] = {
     All: "すべての",
     Search: "検索"
 };
-ej.PivotPager.Locale["ja-JP"] = {
+if (ej.PivotPager) ej.PivotPager.Locale["ja-JP"] = {
     SeriesPage: "シリーズページ",
     CategoricalPage: "カテゴリカルページ",
     Error: "エラーが発生しました",
@@ -806,7 +937,16 @@ ej.PivotPager.Locale["ja-JP"] = {
     Close: "閉じる",
     PageCountErrorMsg: "有効なページ番号を入力します。"
 };
-ej.PivotSchemaDesigner.Locale["ja-JP"] = {
+if (ej.PivotSchemaDesigner) ej.PivotSchemaDesigner.Locale["ja-JP"] = {
+    DoesNotBeginsWith: "が開始されません",
+    DoesNotEndsWith: "終了しません",
+    DoesNotContains: "が含まれていません",
+    DoesNotEquals: "相当しません",
+    IsGreaterThan: "より大きい",
+    IsGreaterThanOrEqualTo: "が以上に",
+    IsLessThan: "より少なくなります。",
+    IsLessThanOrEqualTo: "は、またはの値以下である",
+
     PivotTableFieldList: "ピボットテーブルのフィールドリスト",
     ChooseFieldsToAddToReport: "レポートに追加するフィールドを選択します。",
     DragFieldBetweenAreasBelow: "以下の地域間のドラッグフィールド：",
@@ -853,7 +993,7 @@ ej.PivotSchemaDesigner.Locale["ja-JP"] = {
     Cancel: "キャンセル",
     Search: "検索"
 };
-ej.datavisualization.RangeNavigator.Locale["ja-JP"] = {
+if (ej.datavisualization && ej.datavisualization.RangeNavigator) ej.datavisualization.RangeNavigator.Locale["ja-JP"] = {
     intervals: {
         quarter: {
             longQuarters: "四半期、",
@@ -865,7 +1005,7 @@ ej.datavisualization.RangeNavigator.Locale["ja-JP"] = {
         },
     },
 };
-ej.ReportViewer.Locale["ja-JP"] = {
+if (ej.ReportViewer) ej.ReportViewer.Locale["ja-JP"] = {
     toolbar: {
         print: {
             headerText: "印刷",
@@ -961,15 +1101,43 @@ ej.ReportViewer.Locale["ja-JP"] = {
     },
     viewButton: "[レポートの表示",
 };
-ej.Ribbon.Locale["ja-JP"] = {
+if (ej.Ribbon) ej.Ribbon.Locale["ja-JP"] = {
     CustomizeQuickAccess: "クイックアクセスツールバーをカスタマイズします",
     RemoveFromQuickAccessToolbar: "クイックアクセスツールバーから削除",
     AddToQuickAccessToolbar: "クイックアクセスツールバーに追加",
     ShowAboveTheRibbon: "リボンの上に表示します",
     ShowBelowTheRibbon: "リボンの下に表示します",
-    MoreCommands: "複数のコマンド...",
+    MoreCommands: "複数のコマンド..."
 };
-ej.RTE.Locale["ja-JP"] = {
+if (ej.Kanban) ej.Kanban.Locale["ja-JP"] = {
+    EmptyCard: "表示するカードがありません",
+    SaveButton: "セーブ",
+    CancelButton: "キャンセル",
+    EditFormTitle: "詳細 ",
+    AddFormTitle: "新しいカードを追加",
+    SwimlaneCaptionFormat: "- {{:count}}{{if count == 1 }} 項目 {{else}} アイテム {{/if}}",
+    FilterSettings: "フィルタ:",
+    FilterOfText: "の",
+    Max: "最大",
+    Min: "分",
+    Cards: "  カード",
+    ItemsCount: "アイテム数 :",
+    Unassigned: "割り当てられていない",
+    AddCard: "カードを追加",
+    EditCard: "カードの編集",
+    DeleteCard: "カードを削除する",
+    TopofRow: "行の先頭",
+    BottomofRow: "行の底",
+    MoveUp: "上に移動",
+    MoveDown: "下に移動",
+    MoveLeft: "左に移動",
+    MoveRight: "右に動く",
+    MovetoSwimlane: "スイムレーンに移動",
+    HideColumn: "列を非表示",
+    VisibleColumns: "表示される列",
+    PrintCard: "プリントカード"
+};
+if (ej.RTE) ej.RTE.Locale["ja-JP"] = {
 	bold: "大胆な",
 	italic: "イタリック",
 	underline: "下線",
@@ -1118,7 +1286,7 @@ ej.RTE.Locale["ja-JP"] = {
 	ReplaceAll: "すべて置換",
 	FindErrorMsg: "指定された単語を見つけることができませんでした。",
 };
-ej.Schedule.Locale["ja-JP"] = {
+if (ej.Schedule) ej.Schedule.Locale["ja-JP"] = {
     ReminderWindowTitle: "リマインダーウィンドウ",
     CreateAppointmentTitle: "予定を作成します。",
     RecurrenceEditTitle: "編集リピート予定",
@@ -1218,7 +1386,7 @@ ej.Schedule.Locale["ja-JP"] = {
     Time: "時間",
     EmptyResultText: "提案なし",
 };
-ej.Spreadsheet.Locale["ja-JP"] = {
+if (ej.Spreadsheet) ej.Spreadsheet.Locale["ja-JP"] = {
     Cut: "カット",
     Copy: "コピー",
     FormatPainter: "書式のコピー",
@@ -1879,7 +2047,7 @@ ej.Spreadsheet.Locale["ja-JP"] = {
     PivotOverlapAlert: "別のピボットテーブルレポートをオーバーラップすることはできませんピボットテーブルレポート",
     NoCellFound: "無細胞が見つかりませんでした",
 };
-ej.TreeGrid.Locale["ja-JP"] = {
+if (ej.TreeGrid) ej.TreeGrid.Locale["ja-JP"] = {
     toolboxTooltipTexts: {
         addTool: "加えます",
         editTool: "編集",
@@ -1970,7 +2138,7 @@ ej.TreeGrid.Locale["ja-JP"] = {
     falseText: "偽",
     emptyRecord: "レコードは表示されませんします",
 };
-ej.Uploadbox.Locale["ja-JP"] = {
+if (ej.Uploadbox) ej.Uploadbox.Locale["ja-JP"] = {
     buttonText: {
         upload: "アップロード",
         browse: "ブラウズ",
@@ -1995,3 +2163,25 @@ ej.Uploadbox.Locale["ja-JP"] = {
     closeToolTip: "閉じる",
 };
 ;
+if (ej.Tile) ej.Tile.Locale["ja-JP"] = {
+    captionText: "テキスト"
+};
+if (ej.ListView) ej.ListView.Locale["ja-JP"] = {
+    headerTitle: "タイトル",
+    headerBackButtonText: "バック"
+};
+if (ej.SpellCheck) ej.SpellCheck.Locale["ja-JP"] = {
+    SpellCheckButtonText: "つづり",
+    NotInDictionary: "辞書にない",
+    SuggestionLabel: "提案",
+    IgnoreOnceButtonText: "いったん無視",
+    IgnoreAllButtonText: "すべて無視",
+    AddToDictionary: "辞書に追加",
+    ChangeButtonText: "変化する",
+    ChangeAllButtonText: "すべて変更",
+    CloseButtonText: "閉じる",
+    CompletionPopupMessage: "スペルチェックが完了しました",
+    CompletionPopupTitle: "スペルチェック",
+    Ok: "[OK]",
+    NoSuggestionMessage: "利用可能な提案なし"
+};

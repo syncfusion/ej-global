@@ -7,12 +7,13 @@
 *  applicable laws. 
 */
 
-ej.Autocomplete.Locale["ru-RU"] = {
+if (ej.Autocomplete) ej.Autocomplete.Locale["ru-RU"] = {
     addNewText: "Добавить новый",
     emptyResultText: "Нет предложений",
     actionFailure: "Указанное поле не существует в данном источнике данных",
+    watermarkText: " "
 };
-ej.ColorPicker.Locale["ru-RU"] = {
+if (ej.ColorPicker) ej.ColorPicker.Locale["ru-RU"] = {
     buttonText: {
         apply: "Подать заявление",
         cancel: "Отмена",
@@ -37,14 +38,14 @@ ej.ColorPicker.Locale["ru-RU"] = {
         selectedcolor: "Выбранный цвет"
     },
 };
-ej.CurrencyTextbox.Locale["ru-RU"] = {
+if (ej.CurrencyTextbox) ej.CurrencyTextbox.Locale["ru-RU"] = {
     watermarkText: "Введите значение",
 };
-ej.DatePicker.Locale["ru-RU"] = {
+if (ej.DatePicker) ej.DatePicker.Locale["ru-RU"] = {
     watermarkText: "Выбрать дату",
     buttonText: "сегодня",
 };
-ej.DateRangePicker.Locale["ru-RU"] = {
+if (ej.DateRangePicker) ej.DateRangePicker.Locale["ru-RU"] = {
     ButtonText: {
         apply: "Подать заявление",
         cancel: "Отмена",
@@ -53,7 +54,7 @@ ej.DateRangePicker.Locale["ru-RU"] = {
     watermarkText: "Выбор диапазона",
     customPicker: "Пользовательские Picker",
 };
-ej.DateTimePicker.Locale["ru-RU"] = {
+if (ej.DateTimePicker) ej.DateTimePicker.Locale["ru-RU"] = {
     watermarkText: "Выбор даты и времени",
     buttonText: {
         today: "сегодня",
@@ -62,7 +63,7 @@ ej.DateTimePicker.Locale["ru-RU"] = {
         timeTitle: "время"
     },
 };
-ej.datavisualization.Diagram.Locale["ru-RU"] = {
+if (ej.datavisualization && ej.datavisualization.Diagram) ej.datavisualization.Diagram.Locale["ru-RU"] = {
     cut: "порез",
     copy: "копия",
     paste: "паста",
@@ -78,7 +79,7 @@ ej.datavisualization.Diagram.Locale["ru-RU"] = {
     sendBackward: "Отправить назад",
     sendToBack: "SendToBack",
 };
-ej.Dialog.Locale["ru-RU"] = {
+if (ej.Dialog) ej.Dialog.Locale["ru-RU"] = {
     tooltip: {
         close: "близко",
         collapse: "коллапс",
@@ -91,11 +92,11 @@ ej.Dialog.Locale["ru-RU"] = {
     },
     closeIconTooltip: "близко",
 };
-ej.DropDownList.Locale["ru-RU"] = {
+if (ej.DropDownList) ej.DropDownList.Locale["ru-RU"] = {
 	emptyResultText: "Нет предложений,",
 	watermarkText: " ",
 };
-ej.ExcelFilter.Locale["ru-RU"] = {
+if (ej.ExcelFilter) ej.ExcelFilter.Locale["ru-RU"] = {
     SortNoSmaller: "Сортировка меньших к большим",
     SortNoLarger: "Сортировка большего к меньшему",
     SortTextAscending: "Сортировать от А до Z",
@@ -139,7 +140,15 @@ ej.ExcelFilter.Locale["ru-RU"] = {
     True: "правда",
     False: "ложный",
 };
-ej.FileExplorer.Locale["ru-RU"] = {
+if (ej.FileExplorer) ej.FileExplorer.Locale["ru-RU"] = {
+    EmptyFolder: "Эта папка пуста",
+    ProtectedFolder: "В настоящее время вы не имеете доступа к этой папке",
+    EmptyResult: "Нет ничего вашему запросу",
+    ContextMenuSortBy: "Сортировать по",
+    InvalidFileName: "Имя файла не может содержать любой из следующих символов: \\ /: * \ <> |",
+    Selected: "выбранный",
+    Permission: "разрешение",
+    SortBy: "Сортировать по",
     Back: "назад",
     Forward: "вперед",
     Upward: "вверх",
@@ -197,6 +206,18 @@ ej.FileExplorer.Locale["ru-RU"] = {
     Modified: "модифицированный",
     DialogCloseToolTip: "близко",
     UploadSettings: {
+        buttonText: {
+            upload: "Загрузить",
+            browse: "Просматривать",
+            cancel: "Отмена",
+            close: "Закрыть"
+        },
+        dialogText: {
+            title: "Загрузить Box",
+            name: "имя",
+            size: "Размер",
+            status: "Положение дел"
+        },
         dropAreaText: "Перетащите файлы или нажмите, чтобы загрузить",
         filedetail: "Выбранный размер файла слишком велик. Выберите файл в рамках допустимого размера.",
         denyError: "Файлы с расширениями #Extension не допускаются.",
@@ -209,7 +230,7 @@ ej.FileExplorer.Locale["ru-RU"] = {
         closeToolTip: "близко"
     },
 };
-ej.Gantt.Locale["ru-RU"] = {
+if (ej.Gantt) ej.Gantt.Locale["ru-RU"] = {
     emptyRecord: "Нет записей для отображения",
     alertTexts: {
         indentAlert: "Там нет Ганта запись выделяется для выполнения отступ",
@@ -365,7 +386,7 @@ ej.Gantt.Locale["ru-RU"] = {
             { id: "FF", text: "Конец-Конец", value: "Конец-Конец" }
         ],
 };
-ej.Grid.Locale["ru-RU"] = {
+if (ej.Grid) ej.Grid.Locale["ru-RU"] = {
     EmptyRecord: "Нет записей для отображения",
     GroupDropArea: "Перетащите сюда заголовок колонки для группировки его колонке",
     DeleteOperationAlert: "Нет записей, выбранные для операции удаления",
@@ -478,19 +499,63 @@ if (ej.mobile !== undefined && ej.mobile.TimePicker !== undefined) {
     };
     ;
 }
-ej.NumericTextbox.Locale["ru-RU"] = {
+if (ej.NumericTextbox) ej.NumericTextbox.Locale["ru-RU"] = {
     watermarkText: "Введите значение",
 };
-ej.PivotChart.Locale["ru-RU"] = {
+if (ej.PivotChart) ej.PivotChart.Locale["ru-RU"] = {
     Measure: "Мера",
     Row: "строка",
     Column: "колонка",
     Expand: "расширять",
     Collapse: "коллапс",
     Exit: "выход",
-    Value: "Значение"
+    Value: "Значение",
+
+    ChartTypes: "Типы диаграмм",
+    TDCharts: "3D-графики",
+    Tooltip: "Всплывающая подсказка",
+    Exporting: "Экспорт",
+    Line: "линия",
+    Spline: "сплайн",
+    Area: "площадь",
+    SplineArea: "сплайн Площадь",
+    StepLine: "Шаг линия",
+    StepArea: "Шаг уголок",
+    Pie: "пирог",
+    Bar: "бар",
+    StackingArea: "Укладка Площадь",
+    StackingColumn: "Укладка Колонка",
+    StackingBar: "Укладка Бар",
+    Pyramid: "пирамида",
+    Funnel: "воронка",
+    Doughnut: "пончик",
+    Scatter: "разброс",
+    Bubble: "Прозрачный купол",
+    TreeMap: "Дерево карты",
+    ColumnTD: "колонка 3D",
+    PieTD: "пирог 3D",
+    BarTD: "бар 3D",
+    StackingBarTD: "Укладка Бар 3D",
+    StackingColumnTD: "Укладка Колонка 3D",
+    Excel: "Excel",
+    Word: "Слово",
+    Pdf: "PDF",
+    PNG: "PNG",
+    EMF: "EMF",
+    GIF: "GIF",
+    JPG: "JPG",
+    BMF: "BMF"
 };
-ej.PivotClient.Locale["ru-RU"] = {
+if (ej.PivotClient) ej.PivotClient.Locale["ru-RU"] = {
+    DoesNotBeginsWith: "Не начинается с",
+    DoesNotEndsWith: "Не заканчивается на",
+    DoesNotContains: "Не содержит",
+    DoesNotEquals: "Не равняется",
+    IsGreaterThan: "Больше чем",
+    IsGreaterThanOrEqualTo: "Больше или равно",
+    IsLessThan: "Меньше",
+    IsLessThanOrEqualTo: "Меньше или равно",­­
+
     DeferUpdate: "Отложить обновление",
     MDXQuery: "MDX запросов",
     Column: "колонка",
@@ -607,11 +672,11 @@ ej.PivotClient.Locale["ru-RU"] = {
     SetReportNameAlertMsg: "Задайте имя отчета.",
     Search: "Поиск"
 };
-ej.PivotGauge.Locale["ru-RU"] = {
+if (ej.PivotGauge) ej.PivotGauge.Locale["ru-RU"] = {
     RevenueGoal: "Выручка Гол",
     RevenueValue: "Доход Значение",
 };
-ej.Pager.Locale["ru-RU"] = {
+if (ej.Pager) ej.Pager.Locale["ru-RU"] = {
     pagerInfo: "{0} {1} страниц ({2} элементов)",
     firstPageTooltip: "Перейти к первой странице",
     lastPageTooltip: "Перейти к последней странице",
@@ -620,7 +685,7 @@ ej.Pager.Locale["ru-RU"] = {
     nextPagerTooltip: "Перейти к следующей странице",
     previousPagerTooltip: "Перейти к предыдущей странице",
 };
-ej.PdfViewer.Locale["ru-RU"] = {
+if (ej.PdfViewer) ej.PdfViewer.Locale["ru-RU"] = {
     toolbar: {
         print: {
             headerText: "печать",
@@ -666,12 +731,77 @@ ej.PdfViewer.Locale["ru-RU"] = {
             headerText: 'По размеру страницы',
             contentText: 'Установить страницу PDF в контейнер .',
         },
+        search: {
+            headerText: 'Текст поиска',
+            contentText: 'Поиск текста в PDF-страниц.'
+        },
+        download: {
+            headerText: 'Скачать',
+            contentText: 'Скачать документ в формате PDF.'
+        },
     },
 };
-ej.PercentageTextbox.Locale["ru-RU"] = {
+if (ej.PercentageTextbox) ej.PercentageTextbox.Locale["ru-RU"] = {
     watermarkText: "Введите значение",
 };
-ej.PivotGrid.Locale["ru-RU"] = {
+if (ej.PivotGrid) ej.PivotGrid.Locale["ru-RU"] = {
+    Total: "Итого",
+    GrandTotal:"Итого",
+    DoesNotBeginsWith: "Не начинается с",
+    DoesNotEndsWith: "Не заканчивается на",
+    DoesNotContains: "Не содержит",
+    DoesNotEquals: "Не равняется",
+    IsGreaterThan: "Больше чем",
+    IsGreaterThanOrEqualTo: "Больше или равно",
+    IsLessThan: "Меньше",
+    IsLessThanOrEqualTo: "Меньше или равно",­­
+
+    NumberFormatting: "Числовое форматирование",
+    FrozenHeaders: "Замороженные жаток",
+    CellSelection: "Выбор ячейки",
+    CellContext: "Сотовый связи",
+    ColumnResize: "Изменение размера столбца",
+    ExcelLikeLayout: "Я хотел бы в Excel отчета",
+    FrozenHeader: "Замороженные жатки",
+    AdvancedFiltering: "Расширенная фильтрация",
+    Amount: "Сумма",
+    Quantity: "Количество",
+    Measures: "Меры",
+    NumberFormats: "Количество форматов",
+    Exporting: "Экспорт",
+    FileName: "Имя файла",
+    ToolTip: "Наконечник инструмента",
+    RTL: "RTL",
+    CollapseByDefault: "Свернуть по умолчанию",
+    EnableDisablePaging: "Enalbe / отключить пейджинг",
+    PagingOptions: "Параметры пейджинга",
+    CategoricalPageSize: "Категорическое размер страницы",
+    SeriesPageSize: "Серия размер страницы",
+
+    HyperLink: "Гиперссылка",
+    CellEditing: "Редактирование ячейки",
+    GroupingBar:"Группировка бар",
+    SummaryCustomization: "Резюме настройки",
+    SummaryTypes: "Типы сводок",
+    SummaryType: "Тип сводки",
+    EnableRowHeaderHyperlink: "Включение жатки приспособления для обработки пропашных культур гиперссылку",
+    EnableColumnHeaderHyperlink: "Включить заголовок столбца щелкните гиперссылку",
+    EnableValueCellHyperlink: "Включить значение ячейки гиперссылку",
+    EnableSummaryCellHyperlink: "Включить резюме ячейке гиперссылку",
+    HideGrandTotal: "Скрыть Итого",
+    HideSubTotal: "Скрыть SubTotal",
+    Both: "Оба",
+    Sum: "Сумма",
+    Average: "Средняя",
+    Count: "Счетчик",
+    Min: "Мин",
+
+    Max: "Max",
+    Excel: "Excel",
+    Word: "Слово",
+    PDF: "PDF",
+    CSV: "CSV",
+
     ToolTipRow: "строка",
     ToolTipColumn: "колонка",
     ToolTipValue: "значение",
@@ -797,7 +927,7 @@ ej.PivotGrid.Locale["ru-RU"] = {
     All: "Все",
     Search: "Поиск"
 };
-ej.PivotPager.Locale["ru-RU"] = {
+if (ej.PivotPager) ej.PivotPager.Locale["ru-RU"] = {
     SeriesPage: "Серия страницу",
     CategoricalPage: "Категорический страницу",
     Error: "Сообщение об ошибке",
@@ -805,7 +935,16 @@ ej.PivotPager.Locale["ru-RU"] = {
     Close: "Закрыть",
     PageCountErrorMsg: "Введите допустимый номер страницы"
 };
-ej.PivotSchemaDesigner.Locale["ru-RU"] = {
+if (ej.PivotSchemaDesigner) ej.PivotSchemaDesigner.Locale["ru-RU"] = {
+    DoesNotBeginsWith: "Не начинается с",
+    DoesNotEndsWith: "Не заканчивается на",
+    DoesNotContains: "Не содержит",
+    DoesNotEquals: "Не равняется",
+    IsGreaterThan: "Больше чем",
+    IsGreaterThanOrEqualTo: "Больше или равно",
+    IsLessThan: "Меньше",
+    IsLessThanOrEqualTo: "Меньше или равно",­­
+
     PivotTableFieldList: "Сводная таблица Список поле",
     ChooseFieldsToAddToReport: "Выберите поля для добавления, чтобы сообщить:",
     DragFieldBetweenAreasBelow: "Перетащите поля между областями ниже:",
@@ -852,7 +991,7 @@ ej.PivotSchemaDesigner.Locale["ru-RU"] = {
     Cancel: "Отмена",
     Search: "Поиск"
 };
-ej.datavisualization.RangeNavigator.Locale["ru-RU"] = {
+if (ej.datavisualization && ej.datavisualization.RangeNavigator) ej.datavisualization.RangeNavigator.Locale["ru-RU"] = {
     intervals: {
         quarter: {
             longQuarters: "Квартал,",
@@ -864,7 +1003,7 @@ ej.datavisualization.RangeNavigator.Locale["ru-RU"] = {
         },
     },
 };
-ej.ReportViewer.Locale["ru-RU"] = {
+if (ej.ReportViewer) ej.ReportViewer.Locale["ru-RU"] = {
     toolbar: {
         print: {
             headerText: "печать",
@@ -960,15 +1099,43 @@ ej.ReportViewer.Locale["ru-RU"] = {
     },
     viewButton: "Просмотреть отчет",
 };
-ej.Ribbon.Locale["ru-RU"] = {
+if (ej.Ribbon) ej.Ribbon.Locale["ru-RU"] = {
     CustomizeQuickAccess: "Настройка панели быстрого доступа",
     RemoveFromQuickAccessToolbar: "Удалить из панели быстрого доступа",
     AddToQuickAccessToolbar: "Добавить на панель быстрого доступа",
     ShowAboveTheRibbon: "Показать Над лентой",
     ShowBelowTheRibbon: "Показать под лентой",
-    MoreCommands: "Дополнительные команды ...",
+    MoreCommands: "Дополнительные команды ..."
 };
-ej.RTE.Locale["ru-RU"] = {
+if (ej.Kanban) ej.Kanban.Locale["ru-RU"] = {
+    EmptyCard: "Нет карт для отображения",
+    SaveButton: "Сохранить",
+    CancelButton: "Отмена",
+    EditFormTitle: "Детали ",
+    AddFormTitle: "Добавить новую карточку",
+    SwimlaneCaptionFormat: "- {{:count}}{{if count == 1 }} пункт {{else}} Предметы {{/if}}",
+    FilterSettings: "фильтры:",
+    FilterOfText: "из",
+    Max: "Максимум",
+    Min: "Min",
+    Cards: "  Карты",
+    ItemsCount: "Пункты Count :",
+    Unassigned: "Неназначенный",
+    AddCard: "Добавить карту",
+    EditCard: "Редактировать карточку",
+    DeleteCard: "Удалить карточку",
+    TopofRow: "Верх-Роу",
+    BottomofRow: "Дно Row",
+    MoveUp: "Переместить вверх",
+    MoveDown: "Переместить вниз",
+    MoveLeft: "Двигай влево",
+    MoveRight: "Двигаться вправо",
+    MovetoSwimlane: "Переместить в Swimlane",
+    HideColumn: "Скрыть столбец",
+    VisibleColumns: "Видимые столбцы",
+    PrintCard: "Печать карты"
+};
+if (ej.RTE) ej.RTE.Locale["ru-RU"] = {
 	bold: "Жирный",
 	italic: "курсив",
 	underline: "подчеркивание",
@@ -1117,7 +1284,7 @@ ej.RTE.Locale["ru-RU"] = {
 	ReplaceAll: "Заменить все",
 	FindErrorMsg: "Не удалось найти указанный слово.",
 };
-ej.Schedule.Locale["ru-RU"] = {
+if (ej.Schedule) ej.Schedule.Locale["ru-RU"] = {
     ReminderWindowTitle: "окно Напоминание",
     CreateAppointmentTitle: "Создать назначение",
     RecurrenceEditTitle: "Редактировать Повторите Назначение",
@@ -1217,7 +1384,7 @@ ej.Schedule.Locale["ru-RU"] = {
     Time: "время",
     EmptyResultText: "Нет предложений",
 };
-ej.Spreadsheet.Locale["ru-RU"] = {
+if (ej.Spreadsheet) ej.Spreadsheet.Locale["ru-RU"] = {
     Cut: "Порез",
     Copy: "копия",
     FormatPainter: "Формат Painter",
@@ -1878,7 +2045,7 @@ ej.Spreadsheet.Locale["ru-RU"] = {
     PivotOverlapAlert: "Отчет сводной таблицы не может перекрывать другой отчет сводной таблицы",
     NoCellFound: "Не было обнаружено ни клетки",
 };
-ej.TreeGrid.Locale["ru-RU"] = {
+if (ej.TreeGrid) ej.TreeGrid.Locale["ru-RU"] = {
     toolboxTooltipTexts: {
         addTool: "добавлять",
         editTool: "редактировать",
@@ -1969,7 +2136,7 @@ ej.TreeGrid.Locale["ru-RU"] = {
     falseText: "ложный",
     emptyRecord: "Нет записей для отображения",
 };
-ej.Uploadbox.Locale["ru-RU"] = {
+if (ej.Uploadbox) ej.Uploadbox.Locale["ru-RU"] = {
     buttonText: {
         upload: "Загрузить",
         browse: "просматривать",
@@ -1994,3 +2161,25 @@ ej.Uploadbox.Locale["ru-RU"] = {
     closeToolTip: "близко",
 };
 ;
+if (ej.Tile) ej.Tile.Locale["ru-RU"] = {
+    captionText: "текст"
+};
+if (ej.ListView) ej.ListView.Locale["ru-RU"] = {
+    headerTitle: "Название",
+    headerBackButtonText: "Назад"
+};
+if (ej.SpellCheck) ej.SpellCheck.Locale["ru-RU"] = {
+    SpellCheckButtonText: "орфография",
+    NotInDictionary: "Не в словаре",
+    SuggestionLabel: "Предложения",
+    IgnoreOnceButtonText: "Игнорировать После",
+    IgnoreAllButtonText: "Игнорировать все",
+    AddToDictionary: "Добавить в словарь",
+    ChangeButtonText: "+ Изменить",
+    ChangeAllButtonText: "Изменить все",
+    CloseButtonText: "Закрыть",
+    CompletionPopupMessage: "Проверка орфографии завершена",
+    CompletionPopupTitle: "Проверка орфографии",
+    Ok: "ОК",
+    NoSuggestionMessage: "Нет предложений, доступных"
+};

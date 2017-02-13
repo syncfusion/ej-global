@@ -7,12 +7,13 @@
 *  applicable laws. 
 */
 
-ej.Autocomplete.Locale["nl-NL"] = {
+if (ej.Autocomplete) ej.Autocomplete.Locale["nl-NL"] = {
     addNewText: "Nieuwe toevoegen",
     emptyResultText: "geen suggesties",
     actionFailure: "Het opgegeven veld bestaat niet in bepaalde gegevensbron",
+    watermarkText: " "
 };
-ej.ColorPicker.Locale["nl-NL"] = {
+if (ej.ColorPicker) ej.ColorPicker.Locale["nl-NL"] = {
     buttonText: {
         apply: "Van toepassing zijn",
         cancel: "Annuleer",
@@ -37,14 +38,14 @@ ej.ColorPicker.Locale["nl-NL"] = {
         selectedcolor: "geselecteerde kleur"
     },
 };
-ej.CurrencyTextbox.Locale["nl-NL"] = {
+if (ej.CurrencyTextbox) ej.CurrencyTextbox.Locale["nl-NL"] = {
     watermarkText: "Voer waarde",
 };
-ej.DatePicker.Locale["nl-NL"] = {
+if (ej.DatePicker) ej.DatePicker.Locale["nl-NL"] = {
     watermarkText: "Selecteer een datum",
     buttonText: "Vandaag",
 };
-ej.DateRangePicker.Locale["nl-NL"] = {
+if (ej.DateRangePicker) ej.DateRangePicker.Locale["nl-NL"] = {
     ButtonText: {
         apply: "Van toepassing zijn",
         cancel: "Annuleer",
@@ -53,7 +54,7 @@ ej.DateRangePicker.Locale["nl-NL"] = {
     watermarkText: "Select Range",
     customPicker: "Custom Picker",
 };
-ej.DateTimePicker.Locale["nl-NL"] = {
+if (ej.DateTimePicker) ej.DateTimePicker.Locale["nl-NL"] = {
     watermarkText: "Selecteer een datum tijd",
     buttonText: {
         today: "Vandaag",
@@ -62,7 +63,7 @@ ej.DateTimePicker.Locale["nl-NL"] = {
         timeTitle: "Tijd"
     },
 };
-ej.datavisualization.Diagram.Locale["nl-NL"] = {
+if (ej.datavisualization && ej.datavisualization.Diagram) ej.datavisualization.Diagram.Locale["nl-NL"] = {
     cut: "Besnoeiing",
     copy: "Kopiëren",
     paste: "Plakken",
@@ -78,7 +79,7 @@ ej.datavisualization.Diagram.Locale["nl-NL"] = {
     sendBackward: "Terug sturen",
     sendToBack: "SendToBack",
 };
-ej.Dialog.Locale["nl-NL"] = {
+if (ej.Dialog) ej.Dialog.Locale["nl-NL"] = {
     tooltip: {
         close: "Dichtbij",
         collapse: "Ineenstorting",
@@ -91,11 +92,11 @@ ej.Dialog.Locale["nl-NL"] = {
     },
     closeIconTooltip: "dichtbij",
 };
-ej.DropDownList.Locale["nl-NL"] = {
+if (ej.DropDownList) ej.DropDownList.Locale["nl-NL"] = {
 	emptyResultText: "Geen suggesties,",
 	watermarkText: " ",
 };
-ej.ExcelFilter.Locale["nl-NL"] = {
+if (ej.ExcelFilter) ej.ExcelFilter.Locale["nl-NL"] = {
     SortNoSmaller: "Sorteer klein naar groot",
     SortNoLarger: "Sorteer grootste naar de kleinste",
     SortTextAscending: "Sorteer A tot Z",
@@ -139,7 +140,15 @@ ej.ExcelFilter.Locale["nl-NL"] = {
     True: "waar",
     False: "vals",
 };
-ej.FileExplorer.Locale["nl-NL"] = {
+if (ej.FileExplorer) ej.FileExplorer.Locale["nl-NL"] = {
+    EmptyFolder: "Deze map is leeg",
+    ProtectedFolder: "Je hoeft geen moment toegang tot deze folder",
+    EmptyResult: "Geen items overeen met uw zoekopdracht",
+    ContextMenuSortBy: "Sorteer op",
+    InvalidFileName: "Een bestandsnaam mag geen van de volgende tekens bevatten: \\ /: * \ <> |",
+    Selected: "gekozen",
+    Permission: "Toestemming",
+    SortBy: "Sorteer op",
     Back: "achterwaarts",
     Forward: "vooruit",
     Upward: "naar boven",
@@ -197,6 +206,18 @@ ej.FileExplorer.Locale["nl-NL"] = {
     Modified: "gewijzigd",
     DialogCloseToolTip: "Dichtbij",
     UploadSettings: {
+        buttonText: {
+            upload: "Uploaden",
+            browse: "Blader",
+            cancel: "Annuleer",
+            close: "Dichtbij"
+        },
+        dialogText: {
+            title: "Upload Box",
+            name: "Naam",
+            size: "Grootte",
+            status: "toestand"
+        },
         dropAreaText: "Drop bestanden of klik om te uploaden",
         filedetail: "Het geselecteerde bestand is te groot. Selecteer een bestand binnen het geldige grootte.",
         denyError: "Bestanden met #Extension extensies zijn niet toegestaan.",
@@ -209,7 +230,7 @@ ej.FileExplorer.Locale["nl-NL"] = {
         closeToolTip: "Dichtbij"
     },
 };
-ej.Gantt.Locale["nl-NL"] = {
+if (ej.Gantt) ej.Gantt.Locale["nl-NL"] = {
     emptyRecord: "Geen records om te laten zien",
     alertTexts: {
         indentAlert: "Er is geen gantt record is geselecteerd om het inspringen te voeren",
@@ -366,7 +387,7 @@ ej.Gantt.Locale["nl-NL"] = {
             { id: "FF", text: "Afwerking-Afwerking", value: "Afwerking-Afwerking" }
         ],
 };
-ej.Grid.Locale["nl-NL"] = {
+if (ej.Grid) ej.Grid.Locale["nl-NL"] = {
     EmptyRecord: "Geen records om te laten zien",
     GroupDropArea: "Sleep een kolomkop hier om de groep haar column",
     DeleteOperationAlert: "Geen records geselecteerd om te verwijderen operatie",
@@ -479,19 +500,64 @@ if (ej.mobile !== undefined && ej.mobile.TimePicker !== undefined) {
     };
     ;
 }
-ej.NumericTextbox.Locale["nl-NL"] = {
+if (ej.NumericTextbox) ej.NumericTextbox.Locale["nl-NL"] = {
     watermarkText: "Voer waarde",
 };
-ej.PivotChart.Locale["nl-NL"] = {
+if (ej.PivotChart) ej.PivotChart.Locale["nl-NL"] = {
     Measure: "Maatregel",
     Row: "Rij",
     Column: "Kolom",
     Expand: "uitbreiden",
     Collapse: "Ineenstorting",
     Exit: "afrit",
-    Value: "Waarde"
+    Value: "Waarde",
+
+    ChartTypes: "Grafiektypen",
+    TDCharts: "3D-kaarten",
+    Tooltip: "Knopinfo",
+    Exporting: "Exporteren",
+    Line: "Lijn",
+    Spline: "spline",
+    Column: "Kolom",
+    Area: "Gebied",
+    SplineArea: "Het spiegebied",
+    StepLine: "Stap Line",
+    StepArea: "Stap gebied",
+    Pie: "Taart",
+    Bar: "Bar",
+    StackingArea: "stapelen Area",
+    StackingColumn: "stapelen Column",
+    StackingBar: "stapelen Bar",
+    Pyramid: "Piramide",
+    Funnel: "Trechter",
+    Doughnut: "donut",
+    Scatter: "verstrooien",
+    Bubble: "Koepel",
+    TreeMap: "Boom kaart",
+    ColumnTD: "Kolom 3D",
+    PieTD: "Taart 3D",
+    BarTD: "Bar 3D",
+    StackingBarTD: "stapelen Bar 3D",
+    StackingColumnTD: "stapelen Column 3D",
+    Excel: "Excel",
+    Word: "Word",
+    Pdf: "PDF",
+    PNG: "PNG",
+    EMF: "EMF",
+    GIF: "GIF",
+    JPG: "JPG",
+    BMF: "BMF"
 };
-ej.PivotClient.Locale["nl-NL"] = {
+if (ej.PivotClient) ej.PivotClient.Locale["nl-NL"] = {
+    DoesNotBeginsWith: "Niet Begint met",
+    DoesNotEndsWith: "Niet Eindigt met",
+    DoesNotContains: "Geen",
+    DoesNotEquals: "Niet gelijk",
+    IsGreaterThan: "Is groter dan",
+    IsGreaterThanOrEqualTo: "Is groter dan of gelijk aan",
+    IsLessThan: "Is minder dan",
+    IsLessThanOrEqualTo: "Is kleiner dan of gelijk aan",
+
     DeferUpdate: "uitstellen update",
     MDXQuery: "MDX-query",
     Row: "Rij",
@@ -608,11 +674,11 @@ ej.PivotClient.Locale["nl-NL"] = {
     SetReportNameAlertMsg: "Stel de rapportnaam.",
     Search: "Zoeken"
 };
-ej.PivotGauge.Locale["nl-NL"] = {
+if (ej.PivotGauge) ej.PivotGauge.Locale["nl-NL"] = {
     RevenueGoal: "inkomsten Goal",
     RevenueValue: "inkomsten Waarde",
 };
-ej.Pager.Locale["nl-NL"] = {
+if (ej.Pager) ej.Pager.Locale["nl-NL"] = {
     pagerInfo: "{0} van {1} pagina ({2} items)",
     firstPageTooltip: "Ga naar de eerste pagina",
     lastPageTooltip: "Ga naar de laatste pagina",
@@ -621,7 +687,7 @@ ej.Pager.Locale["nl-NL"] = {
     nextPagerTooltip: "Ga naar de volgende pagina",
     previousPagerTooltip: "Ga naar vorige pagina",
 };
-ej.PdfViewer.Locale["nl-NL"] = {
+if (ej.PdfViewer) ej.PdfViewer.Locale["nl-NL"] = {
     toolbar: {
         print: {
             headerText: "Afdrukken",
@@ -667,12 +733,77 @@ ej.PdfViewer.Locale["nl-NL"] = {
             headerText: 'Aanpassen aan pagina',
             contentText: 'Monteer de PDF-pagina naar de container.',
         },
+        search: {
+            headerText: 'Zoek tekst',
+            contentText: 'Zoek tekst in de PDF-pagina.'
+        },
+        download: {
+            headerText: 'Download',
+            contentText: 'Download de PDF-document.'
+        },
     },
 };
-ej.PercentageTextbox.Locale["nl-NL"] = {
+if (ej.PercentageTextbox) ej.PercentageTextbox.Locale["nl-NL"] = {
     watermarkText: "Voer waarde",
 };
-ej.PivotGrid.Locale["nl-NL"] = {
+if (ej.PivotGrid) ej.PivotGrid.Locale["nl-NL"] = {
+    Total: "Totaal",
+    GrandTotal: "Algemeen totaal",
+    DoesNotBeginsWith: "Niet Begint met",
+    DoesNotEndsWith: "Niet Eindigt met",
+    DoesNotContains: "Geen",
+    DoesNotEquals: "Niet gelijk",
+    IsGreaterThan: "Is groter dan",
+    IsGreaterThanOrEqualTo: "Is groter dan of gelijk aan",
+    IsLessThan: "Is minder dan",
+    IsLessThanOrEqualTo: "Is kleiner dan of gelijk aan",
+
+    NumberFormatting: "Getalnotatie",
+    FrozenHeaders: "Bevroren maaiborden",
+    CellSelection: "Cel selecteren",
+    CellContext: "Cel context",
+    ColumnResize: "Kolom aanpassen",
+    ExcelLikeLayout: "Excel zoals lay-out",
+    FrozenHeader: "Bevroren voorzetstuk",
+    AdvancedFiltering: "Geavanceerd filteren",
+    Amount: "Bedrag",
+    Quantity: "Hoeveelheid",
+    Measures: "Maatregelen",
+    NumberFormats: "Getalnotaties",
+    Exporting: "Exporteren",
+    FileName: "Bestandsnaam",
+    ToolTip: "Tool Tip",
+    RTL: "RTL",
+    CollapseByDefault: "Instorting Standaard",
+    EnableDisablePaging: "Enalbe / Disable Paging",
+    PagingOptions: "Semafoonberichten",
+    CategoricalPageSize: "Categorische Paginaformaat",
+    SeriesPageSize: "Serie Paginaformaat",
+
+    HyperLink: "HyperLink",
+    CellEditing: "Cel bewerken",
+    GroupingBar: "Samenwerkingsverband Bar",
+    SummaryCustomization: "Samenvatting aanpassingsmogelijkheden",
+    SummaryTypes: "Overzicht soorten",
+    SummaryType: "Overzicht Type",
+    EnableRowHeaderHyperlink: "Enable Rijkop HyperLink",
+    EnableColumnHeaderHyperlink: "Enable kolomkop HyperLink",
+    EnableValueCellHyperlink: "Enable waarde cel HyperLink",
+    EnableSummaryCellHyperlink: "Enable Overzicht cel HyperLink",
+    HideGrandTotal: "Verberg Eindtotaal",
+    HideSubTotal: "Subtotaal verbergen",
+    Both: "Beide",
+    Sum: "Som",
+    Average: "Gemiddelde",
+    Count: "Telling",
+    Min: "Min",
+
+    Max: "Max",
+    Excel: "Excel",
+    Word: "Word",
+    PDF: "PDF",
+    CSV: "CSV",
+
     ToolTipRow: "Rij",
     ToolTipColumn: "Kolom",
     ToolTipValue: "Waarde",
@@ -798,7 +929,7 @@ ej.PivotGrid.Locale["nl-NL"] = {
     All: "Alle",
     Search: "Zoeken"
 };
-ej.PivotPager.Locale["nl-NL"] = {
+if (ej.PivotPager) ej.PivotPager.Locale["nl-NL"] = {
     SeriesPage: "serie Pagina",
     CategoricalPage: "categorische Pagina",
     Error: "Fout",
@@ -806,7 +937,16 @@ ej.PivotPager.Locale["nl-NL"] = {
     Close: "Dicht",
     PageCountErrorMsg: "Voer een geldig paginanummer"
 };
-ej.PivotSchemaDesigner.Locale["nl-NL"] = {
+if (ej.PivotSchemaDesigner) ej.PivotSchemaDesigner.Locale["nl-NL"] = {
+    DoesNotBeginsWith: "Niet Begint met",
+    DoesNotEndsWith: "Niet Eindigt met",
+    DoesNotContains: "Geen",
+    DoesNotEquals: "Niet gelijk",
+    IsGreaterThan: "Is groter dan",
+    IsGreaterThanOrEqualTo: "Is groter dan of gelijk aan",
+    IsLessThan: "Is minder dan",
+    IsLessThanOrEqualTo: "Is kleiner dan of gelijk aan",
+
     PivotTableFieldList: "Draaitabellen Veldenlijst",
     ChooseFieldsToAddToReport: "Kies velden toe te voegen aan te melden:",
     DragFieldBetweenAreasBelow: "Drag velden tussen gebieden hieronder:",
@@ -853,7 +993,7 @@ ej.PivotSchemaDesigner.Locale["nl-NL"] = {
     Cancel: "Annuleren",
     Search: "Zoeken"
 };
-ej.datavisualization.RangeNavigator.Locale["nl-NL"] = {
+if (ej.datavisualization && ej.datavisualization.RangeNavigator) ej.datavisualization.RangeNavigator.Locale["nl-NL"] = {
     intervals: {
         quarter: {
             longQuarters: "Kwartaal,",
@@ -865,7 +1005,7 @@ ej.datavisualization.RangeNavigator.Locale["nl-NL"] = {
         },
     },
 };
-ej.ReportViewer.Locale["nl-NL"] = {
+if (ej.ReportViewer) ej.ReportViewer.Locale["nl-NL"] = {
     toolbar: {
         print: {
             headerText: "Afdrukken",
@@ -961,15 +1101,43 @@ ej.ReportViewer.Locale["nl-NL"] = {
     },
     viewButton: "Rapport weergeven",
 };
-ej.Ribbon.Locale["nl-NL"] = {
+if (ej.Ribbon) ej.Ribbon.Locale["nl-NL"] = {
     CustomizeQuickAccess: "Pas werkbalk Snelle toegang",
     RemoveFromQuickAccessToolbar: "Verwijderen uit werkbalk Snelle toegang",
     AddToQuickAccessToolbar: "Toevoegen aan werkbalk Snelle toegang",
     ShowAboveTheRibbon: "Laat Boven het lint",
     ShowBelowTheRibbon: "Onder het lint weergeven",
-    MoreCommands: "Meer opdrachten ...",
+    MoreCommands: "Meer opdrachten ..."
 };
-ej.RTE.Locale["nl-NL"] = {
+if (ej.Kanban) ej.Kanban.Locale["nl-NL"] = {
+    EmptyCard: "Geen kaarten om te laten zien",
+    SaveButton: "Save",
+    CancelButton: "Annuleer",
+    EditFormTitle: "Details van ",
+    AddFormTitle: "Nieuwe kaart toevoegen",
+    SwimlaneCaptionFormat: "- {{:count}}{{if count == 1 }} item {{else}} items {{/if}}",
+    FilterSettings: "filters:",
+    FilterOfText: "van",
+    Max: "Max",
+    Min: "min",
+    Cards: "  Kaarten",
+    ItemsCount: "items Count :",
+    Unassigned: "Niet-toegewezen",
+    AddCard: "Card",
+    EditCard: "Card bewerken",
+    DeleteCard: "Verwijder Card",
+    TopofRow: "Top of Row",
+    BottomofRow: "Bodem van Rij",
+    MoveUp: "omhoog",
+    MoveDown: "Naar beneden verplaatsen",
+    MoveLeft: "Ga naar links",
+    MoveRight: "Ga naar rechts",
+    MovetoSwimlane: "Verplaatsen naar zwembaan",
+    HideColumn: "Hide Column",
+    VisibleColumns: "Visible Columns",
+    PrintCard: "Print Card"
+};
+if (ej.RTE) ej.RTE.Locale["nl-NL"] = {
 	bold: "Stoutmoedig",
 	italic: "Cursief",
 	underline: "Onderstrepen",
@@ -1118,7 +1286,7 @@ ej.RTE.Locale["nl-NL"] = {
 	ReplaceAll: "Vervang alles",
 	FindErrorMsg: "Kan opgegeven woord niet vinden.",
 };
-ej.Schedule.Locale["nl-NL"] = {
+if (ej.Schedule) ej.Schedule.Locale["nl-NL"] = {
     ReminderWindowTitle: "herinneringsvenster",
     CreateAppointmentTitle: "Maak een Afspraak",
     RecurrenceEditTitle: "Bewerken Herhaal Afspraak",
@@ -1218,7 +1386,7 @@ ej.Schedule.Locale["nl-NL"] = {
     Time: "Tijd",
     EmptyResultText: "geen suggesties",
 };
-ej.Spreadsheet.Locale["nl-NL"] = {
+if (ej.Spreadsheet) ej.Spreadsheet.Locale["nl-NL"] = {
     Cut: "Besnoeiing",
     Copy: "Kopiëren",
     FormatPainter: "format Painter",
@@ -1879,7 +2047,7 @@ ej.Spreadsheet.Locale["nl-NL"] = {
     PivotOverlapAlert: "Een Pivot Table rapport kan niet overlappen andere Pivot Table rapport",
     NoCellFound: "Geen cellen gevonden",
 };
-ej.TreeGrid.Locale["nl-NL"] = {
+if (ej.TreeGrid) ej.TreeGrid.Locale["nl-NL"] = {
     toolboxTooltipTexts: {
         addTool: "Toevoegen",
         editTool: "Bewerk",
@@ -1970,7 +2138,7 @@ ej.TreeGrid.Locale["nl-NL"] = {
     falseText: "vals",
     emptyRecord: "Geen records om te laten zien",
 };
-ej.Uploadbox.Locale["nl-NL"] = {
+if (ej.Uploadbox) ej.Uploadbox.Locale["nl-NL"] = {
     buttonText: {
         upload: "Uploaden",
         browse: "Blader",
@@ -1995,3 +2163,25 @@ ej.Uploadbox.Locale["nl-NL"] = {
     closeToolTip: "Dichtbij",
 };
 ;
+if (ej.Tile) ej.Tile.Locale["nl-NL"] = {
+    captionText: "tekst"
+};
+if (ej.ListView) ej.ListView.Locale["nl-NL"] = {
+    headerTitle: "Titel",
+    headerBackButtonText: "Terug"
+};
+if (ej.SpellCheck) ej.SpellCheck.Locale["nl-NL"] = {
+    SpellCheckButtonText: "Spelling",
+    NotInDictionary: "Niet in Woordenboek",
+    SuggestionLabel: "suggesties",
+    IgnoreOnceButtonText: "Eenmaal negeren",
+    IgnoreAllButtonText: "Negeer alles",
+    AddToDictionary: "Voeg naar Woordenboek",
+    ChangeButtonText: "Verandering",
+    ChangeAllButtonText: "Alles wijzigen",
+    CloseButtonText: "Dichtbij",
+    CompletionPopupMessage: "Spellingcontrole is voltooid",
+    CompletionPopupTitle: "Spellingscontrole",
+    Ok: "OK",
+    NoSuggestionMessage: "Geen suggesties beschikbaar"
+};

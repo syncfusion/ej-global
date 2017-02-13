@@ -7,12 +7,13 @@
 *  applicable laws. 
 */
 
-ej.Autocomplete.Locale["tr-TR"] = {
+if (ej.Autocomplete) ej.Autocomplete.Locale["tr-TR"] = {
     addNewText: "Yeni ekle",
     emptyResultText: "hiçbir öneri",
     actionFailure: "Belirtilen alanı verilen veri kaynağında yok",
+    watermarkText: " "
 };
-ej.ColorPicker.Locale["tr-TR"] = {
+if (ej.ColorPicker) ej.ColorPicker.Locale["tr-TR"] = {
     buttonText: {
         apply: "Uygulamak",
         cancel: "İptal etmek",
@@ -37,14 +38,14 @@ ej.ColorPicker.Locale["tr-TR"] = {
         selectedcolor: "seçilen Renk"
     },
 };
-ej.CurrencyTextbox.Locale["tr-TR"] = {
+if (ej.CurrencyTextbox) ej.CurrencyTextbox.Locale["tr-TR"] = {
     watermarkText: "değeri girin",
 };
-ej.DatePicker.Locale["tr-TR"] = {
+if (ej.DatePicker) ej.DatePicker.Locale["tr-TR"] = {
     watermarkText: "seçin tarih",
     buttonText: "Bugün",
 };
-ej.DateRangePicker.Locale["tr-TR"] = {
+if (ej.DateRangePicker) ej.DateRangePicker.Locale["tr-TR"] = {
     ButtonText: {
         apply: "Uygulamak",
         cancel: "İptal etmek",
@@ -53,7 +54,7 @@ ej.DateRangePicker.Locale["tr-TR"] = {
     watermarkText: "seç Aralığı",
     customPicker: "özel Seçici",
 };
-ej.DateTimePicker.Locale["tr-TR"] = {
+if (ej.DateTimePicker) ej.DateTimePicker.Locale["tr-TR"] = {
     watermarkText: "Seçin tarih saat",
     buttonText: {
         today: "Bugün",
@@ -62,7 +63,7 @@ ej.DateTimePicker.Locale["tr-TR"] = {
         timeTitle: "Zaman"
     },
 };
-ej.datavisualization.Diagram.Locale["tr-TR"] = {
+if (ej.datavisualization && ej.datavisualization.Diagram) ej.datavisualization.Diagram.Locale["tr-TR"] = {
     cut: "kesim",
     copy: "kopya",
     paste: "macun",
@@ -78,7 +79,7 @@ ej.datavisualization.Diagram.Locale["tr-TR"] = {
     sendBackward: "Geri göndermek",
     sendToBack: "Geri gönder",
 };
-ej.Dialog.Locale["tr-TR"] = {
+if (ej.Dialog) ej.Dialog.Locale["tr-TR"] = {
     tooltip: {
         close: "Kapat",
         collapse: "çöküş",
@@ -91,11 +92,11 @@ ej.Dialog.Locale["tr-TR"] = {
     },
     closeIconTooltip: "kapat",
 };
-ej.DropDownList.Locale["tr-TR"] = {
+if (ej.DropDownList) ej.DropDownList.Locale["tr-TR"] = {
 	emptyResultText: "Hiçbir öneri,",
 	watermarkText: " ",
 };
-ej.ExcelFilter.Locale["tr-TR"] = {
+if (ej.ExcelFilter) ej.ExcelFilter.Locale["tr-TR"] = {
     SortNoSmaller: "Sıralama küçük büyük için",
     SortNoLarger: "Sıralama Büyük Küçük için",
     SortTextAscending: "A'dan Z'ye sırala A",
@@ -139,7 +140,15 @@ ej.ExcelFilter.Locale["tr-TR"] = {
     True: "gerçek",
     False: "yanlış",
 };
-ej.FileExplorer.Locale["tr-TR"] = {
+if (ej.FileExplorer) ej.FileExplorer.Locale["tr-TR"] = {
+    EmptyFolder: "Bu klasör boş",
+    ProtectedFolder: "Şu anda bu klasöre erişim izniniz yok",
+    EmptyResult: "Aramanızla eşleşen öğe yok",
+    ContextMenuSortBy: "Göre sırala",
+    InvalidFileName: "Bir dosya adı aşağıdaki karakterlerden herhangi birini içeremez: \\ /: *? \ <> |",
+    Selected: "Seçilmiş",
+    Permission: "İzin",
+    SortBy: "Göre sırala",
     Back: "Geriye",
     Forward: "ileri",
     Upward: "Yukarı",
@@ -197,6 +206,18 @@ ej.FileExplorer.Locale["tr-TR"] = {
     Modified: "modifiye",
     DialogCloseToolTip: "Kapat",
     UploadSettings: {
+        buttonText: {
+            upload: "Yükleme",
+            browse: "Gözat",
+            cancel: "İptal etmek",
+            close: "Kapat"
+        },
+        dialogText: {
+            title: "Yükleme Kutusu",
+            name: "İsim",
+            size: "Boyut",
+            status: "Durum"
+        },
         dropAreaText: "dosyalar açılır veya yüklemek için tıklayın",
         filedetail: "Seçilen dosya boyutu çok büyük. Geçerli boyut içinde bir dosya seçiniz.",
         denyError: "#Extension Uzantılara sahip dosyaları izin verilmez.",
@@ -209,7 +230,7 @@ ej.FileExplorer.Locale["tr-TR"] = {
         closeToolTip: "Kapat"
     },
 };
-ej.Gantt.Locale["tr-TR"] = {
+if (ej.Gantt) ej.Gantt.Locale["tr-TR"] = {
     emptyRecord: "Gösterilecek kayıt yok",
     alertTexts: {
         indentAlert: "Hiçbir gantt kayıt girinti gerçekleştirmek için vardır seçilen edilir",
@@ -366,7 +387,7 @@ ej.Gantt.Locale["tr-TR"] = {
             { id: "FF", text: "Bitiş-Bitiş", value: "Bitiş-Bitiş" }
         ],
 };
-ej.Grid.Locale["tr-TR"] = {
+if (ej.Grid) ej.Grid.Locale["tr-TR"] = {
     EmptyRecord: "Gösterilecek kayıt yok",
     GroupDropArea: "grubuna kendi sütun burada bir sütun başlığını sürükleyin",
     DeleteOperationAlert: "Silme işlemi için seçilen kayıt yok",
@@ -479,19 +500,63 @@ if (ej.mobile !== undefined && ej.mobile.TimePicker !== undefined) {
     };
     ;
 }
-ej.NumericTextbox.Locale["tr-TR"] = {
+if (ej.NumericTextbox) ej.NumericTextbox.Locale["tr-TR"] = {
     watermarkText: "değeri girin",
 };
-ej.PivotChart.Locale["tr-TR"] = {
+if (ej.PivotChart) ej.PivotChart.Locale["tr-TR"] = {
     Measure: "tedbir",
     Row: "sıra",
     Column: "sütun",
     Expand: "genişletmek",
     Collapse: "çöküş",
     Exit: "çıkış",
-    Value: "Değer"
+    Value: "Değer",
+
+    ChartTypes: "Grafik Türleri",
+    TDCharts: "3D Grafikler",
+    Tooltip: "Araç ipucu",
+    Exporting: "Verme",
+    Line: "çizgi",
+    Spline: "kama",
+    Area: "alan",
+    SplineArea: "Spline Alanı",
+    StepLine: "adım Hattı",
+    StepArea: "adım Alanı",
+    Pie: "Turta",
+    Bar: "Bar",
+    StackingArea: "İstifleme Alanı",
+    StackingColumn: "istifleme Sütun",
+    StackingBar: "İstifleme Bar",
+    Pyramid: "Piramit",
+    Funnel: "Huni",
+    Doughnut: "tatlı çörek",
+    Scatter: "dağılım",
+    Bubble: "Bubble",
+    TreeMap: "Ağaç Harita",
+    ColumnTD: "sütun 3D",
+    PieTD: "Turta 3D",
+    BarTD: "Bar 3D",
+    StackingBarTD: "İstifleme Bar 3D",
+    StackingColumnTD: "istifleme Sütun 3D",
+    Excel: "Excel",
+    Word: "Word",
+    Pdf: "PDF",
+    PNG: "PNG",
+    EMF: "EMF",
+    GIF: "GIF",
+    JPG: "JPG",
+    BMF: "BMF"
 };
-ej.PivotClient.Locale["tr-TR"] = {
+if (ej.PivotClient) ej.PivotClient.Locale["tr-TR"] = {
+    DoesNotBeginsWith: "Çalışmıyor ile başlar.",
+    DoesNotEndsWith: "Yok biter.",
+    DoesNotContains: "Çalışmıyor içerir",
+    DoesNotEquals: ", Eşit Değildir",
+    IsGreaterThan: "Daha Yüksek",
+    IsGreaterThanOrEqualTo: "Büyük veya eşit",
+    IsLessThan: "Daha Fazla",
+    IsLessThanOrEqualTo: "Az veya Eşit",­­
+
     DeferUpdate: "Erteleme Güncelleme",
     MDXQuery: "MDX Sorgu",
     Column: "sütun",
@@ -608,11 +673,11 @@ ej.PivotClient.Locale["tr-TR"] = {
     SetReportNameAlertMsg: "Lütfen rapor adı.",
     Search: "Arama"
 };
-ej.PivotGauge.Locale["tr-TR"] = {
+if (ej.PivotGauge) ej.PivotGauge.Locale["tr-TR"] = {
     RevenueGoal: "Gelir Gol",
     RevenueValue: "Gelir Değeri",
 };
-ej.Pager.Locale["tr-TR"] = {
+if (ej.Pager) ej.Pager.Locale["tr-TR"] = {
     pagerInfo: "{0} {1} sayfalar ({2} öğeleri) arasında",
     firstPageTooltip: "İlk sayfaya gidin",
     lastPageTooltip: "Son sayfaya git",
@@ -621,7 +686,7 @@ ej.Pager.Locale["tr-TR"] = {
     nextPagerTooltip: "Bir sonraki sayfaya gitmek",
     previousPagerTooltip: "Önceki Sayfaya Git",
 };
-ej.PdfViewer.Locale["tr-TR"] = {
+if (ej.PdfViewer) ej.PdfViewer.Locale["tr-TR"] = {
     toolbar: {
         print: {
             headerText: "baskı",
@@ -667,12 +732,77 @@ ej.PdfViewer.Locale["tr-TR"] = {
             headerText: 'Sayfaya sığdır',
             contentText: 'kaba PDF sayfasını takın.',
         },
+        search: {
+            headerText: 'Metin Ara',
+            contentText: 'PDF sayfalarında metin ara.'
+        },
+        download: {
+            headerText: 'İndir',
+            contentText: 'PDF belgesini indir.'
+        },
     },
 };
-ej.PercentageTextbox.Locale["tr-TR"] = {
+if (ej.PercentageTextbox) ej.PercentageTextbox.Locale["tr-TR"] = {
     watermarkText: "değeri girin",
 };
-ej.PivotGrid.Locale["tr-TR"] = {
+if (ej.PivotGrid) ej.PivotGrid.Locale["tr-TR"] = {
+    Total: "Toplam",
+    GrandTotal:"Genel Toplam",
+    DoesNotBeginsWith: "Çalışmıyor ile başlar.",
+    DoesNotEndsWith: "Yok biter.",
+    DoesNotContains: "Çalışmıyor içerir",
+    DoesNotEquals: ", Eşit Değildir",
+    IsGreaterThan: "Daha Yüksek",
+    IsGreaterThanOrEqualTo: "Büyük veya eşit",
+    IsLessThan: "Daha Fazla",
+    IsLessThanOrEqualTo: "Az veya Eşit",­­
+
+    NumberFormatting: "Sayı Biçimlendirme",
+    FrozenHeaders: "Donmuş Başlıkları",
+    CellSelection: "Hücre Seçimi",
+    CellContext: "Hücre içeriği",
+    ColumnResize: "Kolonu Yeniden Boyutlandırma",
+    ExcelLikeLayout: "Excel Benzeri Yerleşim",
+    FrozenHeader: "Donmuş Başlığı",
+    AdvancedFiltering: "Gelişmiş Filtreleme",
+    Amount: "Miktarı",
+    Quantity: "Miktar",
+    Measures: "Tedbirler",
+    NumberFormats: "Sayı Formatları",
+    Exporting: "Verme",
+    FileName: "Dosya Adı",
+    ToolTip: "İpucu",
+    RTL: "RTL",
+    CollapseByDefault: "Çöküşü Varsayılan",
+    EnableDisablePaging: "Enalbe / Devre Dışı Bırakmak için çağrı",
+    PagingOptions: "Çağrı Seçenekleri",
+    CategoricalPageSize: "Tetkilerinde Sayfa Boyutu",
+    SeriesPageSize: "Serisi Sayfa Boyutu",
+
+    HyperLink: "Köprü",
+    CellEditing: "Hücre Düzenleme",
+    GroupingBar:"Gruplandırma Bar",
+    SummaryCustomization: "Özet Özelleştirme",
+    SummaryTypes: "Referans Tipleri",
+    SummaryType: "Referans Tipi",
+    EnableRowHeaderHyperlink: "Enable Sıra Takım köprü",
+    EnableColumnHeaderHyperlink: "Enable sütun başlığı köprü",
+    EnableValueCellHyperlink: "Etkin Değer Hücre köprü",
+    EnableSummaryCellHyperlink: "Etkinleştirme Referans Hücre köprü",
+    HideGrandTotal: "GrandTotal gizle",
+    HideSubTotal: "Toplamdan az gizle",
+    Both: "Her ikisi de",
+    Sum: "Toplam",
+    Average: "Ortalama",
+    Count: "Sayısı",
+    Min: "Min",
+
+    Max: "Maks.",
+    Excel: "Excel",
+    Word: "Word",
+    PDF: "PDF",
+    CSV: "CSV",
+
     ToolTipRow: "sıra",
     ToolTipColumn: "sütun",
     ToolTipValue: "değer",
@@ -798,7 +928,7 @@ ej.PivotGrid.Locale["tr-TR"] = {
     All: "Tüm",
     Search: "Arama"
 };
-ej.PivotPager.Locale["tr-TR"] = {
+if (ej.PivotPager) ej.PivotPager.Locale["tr-TR"] = {
     SeriesPage: "Serisi Page",
     CategoricalPage: "kategorik Sayfa",
     Error: "Hata",
@@ -806,7 +936,16 @@ ej.PivotPager.Locale["tr-TR"] = {
     Close: "Close",
     PageCountErrorMsg: "Enter geçerli sayfa sayısı"
 };
-ej.PivotSchemaDesigner.Locale["tr-TR"] = {
+if (ej.PivotSchemaDesigner) ej.PivotSchemaDesigner.Locale["tr-TR"] = {
+    DoesNotBeginsWith: "Çalışmıyor ile başlar.",
+    DoesNotEndsWith: "Yok biter.",
+    DoesNotContains: "Çalışmıyor içerir",
+    DoesNotEquals: ", Eşit Değildir",
+    IsGreaterThan: "Daha Yüksek",
+    IsGreaterThanOrEqualTo: "Büyük veya eşit",
+    IsLessThan: "Daha Fazla",
+    IsLessThanOrEqualTo: "Az veya Eşit",­­
+
     PivotTableFieldList: "Özet Tablo Alan Listesi",
     ChooseFieldsToAddToReport: "rapor eklemek için alanları seçin:",
     DragFieldBetweenAreasBelow: "Aşağıdaki alanlar arasındaki Sürükle alanları:",
@@ -853,7 +992,7 @@ ej.PivotSchemaDesigner.Locale["tr-TR"] = {
     Cancel: "İptal",
     Search: "Arama"
 };
-ej.datavisualization.RangeNavigator.Locale["tr-TR"] = {
+if (ej.datavisualization && ej.datavisualization.RangeNavigator) ej.datavisualization.RangeNavigator.Locale["tr-TR"] = {
     intervals: {
         quarter: {
             longQuarters: "çeyrek,",
@@ -865,7 +1004,7 @@ ej.datavisualization.RangeNavigator.Locale["tr-TR"] = {
         },
     },
 };
-ej.ReportViewer.Locale["tr-TR"] = {
+if (ej.ReportViewer) ej.ReportViewer.Locale["tr-TR"] = {
     toolbar: {
         print: {
             headerText: "baskı",
@@ -961,15 +1100,43 @@ ej.ReportViewer.Locale["tr-TR"] = {
     },
     viewButton: "Raporu görüntüle",
 };
-ej.Ribbon.Locale["tr-TR"] = {
+if (ej.Ribbon) ej.Ribbon.Locale["tr-TR"] = {
     CustomizeQuickAccess: "Hızlı Erişim Araç Çubuğu özelleştirme",
     RemoveFromQuickAccessToolbar: "Hızlı Erişim Araç Çubuğu kaldırmak",
     AddToQuickAccessToolbar: "Hızlı Erişim Araç Çubuğu Ekle",
     ShowAboveTheRibbon: "Şerit üzerinde göster",
     ShowBelowTheRibbon: "Şerit altında göster",
-    MoreCommands: "Daha Komutları ...",
+    MoreCommands: "Daha Komutları ..."
 };
-ej.RTE.Locale["tr-TR"] = {
+if (ej.Kanban) ej.Kanban.Locale["tr-TR"] = {
+    EmptyCard: "Görüntülenecek kart yok",
+    SaveButton: "Kayıt etmek",
+    CancelButton: "İptal etmek",
+    EditFormTitle: "Ayrıntıları ",
+    AddFormTitle: "Yeni Kart Ekle",
+    SwimlaneCaptionFormat: "- {{:count}}{{if count == 1 }} öğe {{else}} öğeler {{/if}}",
+    FilterSettings: "Filtreler:",
+    FilterOfText: "of",
+    Max: "Max",
+    Min: "Min",
+    Cards: "  Kartlar",
+    ItemsCount: "Öğeler Sayısı :",
+    Unassigned: "atanmamış",
+    AddCard: "Kart Ekle",
+    EditCard: "Kartı Düzenle",
+    DeleteCard: "Kartı Sil",
+    TopofRow: "Satır Üstü",
+    BottomofRow: "Satırın Alt kısmı",
+    MoveUp: "Yukarı Taşı",
+    MoveDown: "Aşağı inmek",
+    MoveLeft: "Sola hareket et",
+    MoveRight: "Sağa hareket et",
+    MovetoSwimlane: "Swimlane'e taşı",
+    HideColumn: "Sütun Gizle",
+    VisibleColumns: "Görünür Sütunlar",
+    PrintCard: "Baskı Kartı"
+};
+if (ej.RTE) ej.RTE.Locale["tr-TR"] = {
 	bold: "cesur",
 	italic: "İtalik",
 	underline: "Altını çizmek",
@@ -1118,7 +1285,7 @@ ej.RTE.Locale["tr-TR"] = {
 	ReplaceAll: "Hepsini değiştir",
 	FindErrorMsg: "Belirtilen sözcüğü bulamadı.",
 };
-ej.Schedule.Locale["tr-TR"] = {
+if (ej.Schedule) ej.Schedule.Locale["tr-TR"] = {
     ReminderWindowTitle: "hatırlatma penceresi",
     CreateAppointmentTitle: "Randevu oluşturma",
     RecurrenceEditTitle: "Düzenleme tekrarlayın Randevu",
@@ -1218,7 +1385,7 @@ ej.Schedule.Locale["tr-TR"] = {
     Time: "Zaman",
     EmptyResultText: "hiçbir öneri",
 };
-ej.Spreadsheet.Locale["tr-TR"] = {
+if (ej.Spreadsheet) ej.Spreadsheet.Locale["tr-TR"] = {
     Cut: "kesim",
     Copy: "kopya",
     FormatPainter: "Biçim boyacısı",
@@ -1879,7 +2046,7 @@ ej.Spreadsheet.Locale["tr-TR"] = {
     PivotOverlapAlert: "Başka bir Özet Tablo raporu üst üste olamaz bir Özet Tablo raporu",
     NoCellFound: "Hiçbir hücre bulunamadı",
 };
-ej.TreeGrid.Locale["tr-TR"] = {
+if (ej.TreeGrid) ej.TreeGrid.Locale["tr-TR"] = {
     toolboxTooltipTexts: {
         addTool: "eklemek",
         editTool: "Düzenleme",
@@ -1971,7 +2138,7 @@ ej.TreeGrid.Locale["tr-TR"] = {
     falseText: "yanlış",
     emptyRecord: "Gösterilecek kayıt yok",
 };
-ej.Uploadbox.Locale["tr-TR"] = {
+if (ej.Uploadbox) ej.Uploadbox.Locale["tr-TR"] = {
     buttonText: {
         upload: "yükleme",
         browse: "Araştır",
@@ -1996,3 +2163,25 @@ ej.Uploadbox.Locale["tr-TR"] = {
     closeToolTip: "Kapat",
 };
 ;
+if (ej.Tile) ej.Tile.Locale["tr-TR"] = {
+    captionText: "metin"
+};
+if (ej.ListView) ej.ListView.Locale["tr-TR"] = {
+    headerTitle: "Başlık",
+    headerBackButtonText: "Geri"
+};
+if (ej.SpellCheck) ej.SpellCheck.Locale["tr-TR"] = {
+    SpellCheckButtonText: "Yazım",
+    NotInDictionary: "Sözlükte değil",
+    SuggestionLabel: "Öneriler",
+    IgnoreOnceButtonText: "Bir kez göz ardı",
+    IgnoreAllButtonText: "Hepsini Yoksay",
+    AddToDictionary: "Sözlüğe ekle",
+    ChangeButtonText: "Değişiklik",
+    ChangeAllButtonText: "Değişim Hepsi",
+    CloseButtonText: "Kapat",
+    CompletionPopupMessage: "Yazım denetimi tamamlandı",
+    CompletionPopupTitle: "Yazım denetimi",
+    Ok: "tamam",
+    NoSuggestionMessage: "Henüz öneri"
+};

@@ -7,12 +7,13 @@
 *  applicable laws. 
 */
 
-ej.Autocomplete.Locale["fa-IR"] = {
+if (ej.Autocomplete) ej.Autocomplete.Locale["fa-IR"] = {
     addNewText: "اضافه کردن جدید",
     emptyResultText: "هیچ پیشنهادی",
     actionFailure: "فیلد مشخص می کند در منبع داده داده وجود ندارد",
+    watermarkText: " "
 };
-ej.ColorPicker.Locale["fa-IR"] = {
+if (ej.ColorPicker) ej.ColorPicker.Locale["fa-IR"] = {
     buttonText: {
         apply: "درخواست",
         cancel: "لغو کردن",
@@ -37,14 +38,14 @@ ej.ColorPicker.Locale["fa-IR"] = {
         selectedcolor: "رنگ انتخاب شده"
     },
 };
-ej.CurrencyTextbox.Locale["fa-IR"] = {
+if (ej.CurrencyTextbox) ej.CurrencyTextbox.Locale["fa-IR"] = {
     watermarkText: "مقدار را وارد کنید",
 };
-ej.DatePicker.Locale["fa-IR"] = {
+if (ej.DatePicker) ej.DatePicker.Locale["fa-IR"] = {
     watermarkText: "انتخاب تاریخ",
     buttonText: "امروز",
 };
-ej.DateRangePicker.Locale["fa-IR"] = {
+if (ej.DateRangePicker) ej.DateRangePicker.Locale["fa-IR"] = {
     ButtonText: {
         apply: "درخواست",
         cancel: "لغو کردن",
@@ -53,7 +54,7 @@ ej.DateRangePicker.Locale["fa-IR"] = {
     watermarkText: "انتخاب محدوده",
     customPicker: "جمع سفارشی",
 };
-ej.DateTimePicker.Locale["fa-IR"] = {
+if (ej.DateTimePicker) ej.DateTimePicker.Locale["fa-IR"] = {
     watermarkText: "زمان تاریخ را انتخاب کنید",
     buttonText: {
         today: "امروز",
@@ -62,7 +63,7 @@ ej.DateTimePicker.Locale["fa-IR"] = {
         timeTitle: "زمان"
     },
 };
-ej.datavisualization.Diagram.Locale["fa-IR"] = {
+if (ej.datavisualization && ej.datavisualization.Diagram) ej.datavisualization.Diagram.Locale["fa-IR"] = {
     cut: "برش",
     copy: "نسخه",
     paste: "خمیر",
@@ -78,7 +79,7 @@ ej.datavisualization.Diagram.Locale["fa-IR"] = {
     sendBackward: "ارسال به سمت عقب",
     sendToBack: "SendToBack",
 };
-ej.Dialog.Locale["fa-IR"] = {
+if (ej.Dialog) ej.Dialog.Locale["fa-IR"] = {
     tooltip: {
         close: "نزدیک",
         collapse: "سقوط - فروپاشی - اضمحلال",
@@ -91,11 +92,11 @@ ej.Dialog.Locale["fa-IR"] = {
     },
     closeIconTooltip: "بستن",
 };
-ej.DropDownList.Locale["fa-IR"] = {
+if (ej.DropDownList) ej.DropDownList.Locale["fa-IR"] = {
 	emptyResultText: "هیچ پیشنهادی،",
 	watermarkText: " ",
 };
-ej.ExcelFilter.Locale["fa-IR"] = {
+if (ej.ExcelFilter) ej.ExcelFilter.Locale["fa-IR"] = {
     SortNoSmaller: "مرتب سازی بر کوچکترین تا بزرگترین",
     SortNoLarger: "مرتب سازی بر بزرگ به کوچک",
     SortTextAscending: "مرتب سازی بر A به Z",
@@ -139,8 +140,9 @@ ej.ExcelFilter.Locale["fa-IR"] = {
     True: "درست",
     False: "غلط",
 };
-ej.FileExplorer.Locale["fa-IR"] = {
-    Back: "به عقب",
+if (ej.FileExplorer) ej.FileExplorer.Locale["fa-IR"] = {
+    EmptyFolder:'ین پوشه خالی است,
+   Back: "به عقب",
     Forward: "رو به جلو",
     Upward: "بطرف بالا",
     Refresh: "تازه کردن",
@@ -209,7 +211,7 @@ ej.FileExplorer.Locale["fa-IR"] = {
         closeToolTip: "نزدیک"
     },
 };
-ej.Gantt.Locale["fa-IR"] = {
+if (ej.Gantt) ej.Gantt.Locale["fa-IR"] = {
     emptyRecord: "هیچ پرونده برای نمایش نیست",
     alertTexts: {
         indentAlert: "هیچ سابقه ای گانت انتخاب شده است وجود دارد به انجام تورفتگی",
@@ -366,7 +368,7 @@ ej.Gantt.Locale["fa-IR"] = {
             { id: "FF", text: "پایان-پایان", value: "پایان-پایان" }
         ],
 };
-ej.Grid.Locale["fa-IR"] = {
+if (ej.Grid) ej.Grid.Locale["fa-IR"] = {
     EmptyRecord: "هیچ پرونده برای نمایش نیست",
     GroupDropArea: "کشیدن یک عنوان ستون در اینجا به گروه آن ستون",
     DeleteOperationAlert: "هیچ ثبتی برای عملیات حذف انتخاب",
@@ -479,19 +481,63 @@ if (ej.mobile !== undefined && ej.mobile.TimePicker !== undefined) {
     };
     ;
 }
-ej.NumericTextbox.Locale["fa-IR"] = {
+if (ej.NumericTextbox) ej.NumericTextbox.Locale["fa-IR"] = {
     watermarkText: "مقدار را وارد کنید",
 };
-ej.PivotChart.Locale["fa-IR"] = {
+if (ej.PivotChart) ej.PivotChart.Locale["fa-IR"] = {
     Measure: "اندازه گرفتن",
     Row: "ردیف",
     Column: "ستون",
     Expand: "بسط دادن",
     Collapse: "سقوط - فروپاشی - اضمحلال",
     Exit: "خروج",
-    Value: ""
+    Value: "",
+
+    ChartTypes: "نوع نمودار",
+    TDCharts: "3D نمودارها",
+    Tooltip: "نوک ابزار",
+    Exporting: "صادرات",
+    Line: "خط",
+    Spline: "نوار باریک",
+    Area: "منطقه",
+    SplineArea: "نوار باریک ناحیه",
+    StepLine: "خط مرحله",
+    StepArea: "منطقه گام",
+    Pie: "پای",
+    Bar: "بار",
+    StackingArea: "کشیدن کامیون به فروشگاه منطقه",
+    StackingColumn: "کشیدن کامیون به فروشگاه ستون",
+    StackingBar: "کشیدن کامیون به فروشگاه نوار",
+    Pyramid: "هرم",
+    Funnel: "قیف",
+    Doughnut: "دونات",
+    Scatter: "پخش کردن",
+    Bubble: "حباب",
+    TreeMap: "درخت نقشه",
+    ColumnTD: "ستون 3D",
+    PieTD: "پای 3D",
+    BarTD: "بار 3D",
+    StackingBarTD: "کشیدن کامیون به فروشگاه نوار 3D",
+    StackingColumnTD: "کشیدن کامیون به فروشگاه ستون 3D",
+    Excel: "Excel",
+    Word: "كلمه",
+    Pdf: "PDF",
+    PNG: "PNG",
+    EMF: "EMF",
+    GIF: "GIF",
+    JPG: "JPG",
+    BMF: "BMF"
 };
-ej.PivotClient.Locale["fa-IR"] = {
+if (ej.PivotClient) ej.PivotClient.Locale["fa-IR"] = {
+    DoesNotBeginsWith: "آغاز نيست.",
+    DoesNotEndsWith: "با پايان ندارد.",
+    DoesNotContains: "حاوی ندارد.",
+    DoesNotEquals: "برابري ندارد.",
+    IsGreaterThan: "بیشتر است.",
+    IsGreaterThanOrEqualTo: "بزرگتر یا مساوی با",
+    IsLessThan: "کمتر است.",
+    IsLessThanOrEqualTo: "کمتر یا مساوی با",
+
     DeferUpdate: "تاخیر به روز رسانی",
     MDXQuery: "پرسش MDX",
     Column: "ستون",
@@ -608,11 +654,11 @@ ej.PivotClient.Locale["fa-IR"] = {
     SetReportNameAlertMsg: "لطفاً اسم گزارش تنظیم شده است.",
     Search: "جستجو"
 };
-ej.PivotGauge.Locale["fa-IR"] = {
+if (ej.PivotGauge) ej.PivotGauge.Locale["fa-IR"] = {
     RevenueGoal: "هدف درآمد",
     RevenueValue: "ارزش درآمد",
 };
-ej.Pager.Locale["fa-IR"] = {
+if (ej.Pager) ej.Pager.Locale["fa-IR"] = {
     pagerInfo: "{0} از {1} صفحات ({2} مورد)",
     firstPageTooltip: "برو به صفحه اول",
     lastPageTooltip: "برو به صفحه آخرین",
@@ -621,7 +667,7 @@ ej.Pager.Locale["fa-IR"] = {
     nextPagerTooltip: "برو به صفحه بعدی",
     previousPagerTooltip: "برو به صفحه قبلی",
 };
-ej.PdfViewer.Locale["fa-IR"] = {
+if (ej.PdfViewer) ej.PdfViewer.Locale["fa-IR"] = {
     toolbar: {
         print: {
             headerText: "چاپ",
@@ -667,12 +713,77 @@ ej.PdfViewer.Locale["fa-IR"] = {
             headerText: 'متناسب با صفحه',
             contentText: 'به ظرف مناسب صفحه PDF.',
         },
+        search: {
+            headerText: 'جستجو در متن',
+            contentText: 'متن جستجو در صفحات PDF.'
+        },
+        download: {
+            headerText: 'دانلود',
+            contentText: 'دانلود فایل PDF و.'
+        },
     },
 };
-ej.PercentageTextbox.Locale["fa-IR"] = {
+if (ej.PercentageTextbox) ej.PercentageTextbox.Locale["fa-IR"] = {
     watermarkText: "مقدار را وارد کنید",
 };
-ej.PivotGrid.Locale["fa-IR"] = {
+if (ej.PivotGrid) ej.PivotGrid.Locale["fa-IR"] = {
+    Total: "کل",
+    GrandTotal: "کل بزرگ",
+    DoesNotBeginsWith: "آغاز نيست.",
+    DoesNotEndsWith: "با پايان ندارد.",
+    DoesNotContains: "حاوی ندارد.",
+    DoesNotEquals: "برابري ندارد.",
+    IsGreaterThan: "بیشتر است.",
+    IsGreaterThanOrEqualTo: "بزرگتر یا مساوی با",
+    IsLessThan: "کمتر است.",
+    IsLessThanOrEqualTo: "کمتر یا مساوی با",
+
+    NumberFormatting: "تعداد فرمت کردن",
+    FrozenHeaders: "Headers یخ زده",
+    CellSelection: "انتخاب سلول",
+    CellContext: "سلول های بافت",
+    ColumnResize: "Resize ستون فرمان",
+    ExcelLikeLayout: "طرح مذكور مانند",
+    FrozenHeader: "سربرگ یخ زده",
+    AdvancedFiltering: "تصفیه پیشرفته",
+    Amount: "مقدار",
+    Quantity: "مقدار",
+    Measures: "اقدامات",
+    NumberFormats: "فرمت شماره",
+    Exporting: "صادرات",
+    FileName: "نام فایل",
+    ToolTip: "نوک ابزار",
+    RTL: "RTL",
+    CollapseByDefault: "از سقوط به طور پیش فرض",
+    EnableDisablePaging: "چه شوقی صفحه آرايی می کرد Enalbe / غیرفعال",
+    PagingOptions: "گزینه چه شوقی صفحه آرايی می کرد",
+    CategoricalPageSize: "صفحه اندازه قاطع",
+    SeriesPageSize: "اندازه صفحه سری",
+
+    HyperLink: "سئوال دوم لینک",
+    CellEditing: "ويرايش سلول",
+    GroupingBar: "نوار ربط",
+    SummaryCustomization: "خلاصه سفارشی سازی",
+    SummaryTypes: "خلاصه انواع",
+    SummaryType: "خلاصه نوع",
+    EnableRowHeaderHyperlink: "فعال کردن سربرگ-ايکس ردیف لینک",
+    EnableColumnHeaderHyperlink: "فعال کردن سربرگ-ايکس ستون لینک",
+    EnableValueCellHyperlink: "فعال کردن سلول-ايکس مقدار لینک",
+    EnableSummaryCellHyperlink: "فعال کردن سلول-ايکس خلاصه لینک",
+    HideGrandTotal: "مخفی کردن کل بزرگ",
+    HideSubTotal: "مخفی کردن کل فرعی",
+    Both: "هر دو",
+    Sum: "مجموع",
+    Average: "میانگین",
+    Count: "كنت",
+    Min: "در دقیقه",
+
+    Max: "حداکثر",
+    Excel: "Excel",
+    Word: "كلمه",
+    PDF: "PDF",
+    CSV: "CSV",
+
     ToolTipRow: "ردیف",
     ToolTipColumn: "ستون",
     ToolTipValue: "ارزش",
@@ -798,7 +909,7 @@ ej.PivotGrid.Locale["fa-IR"] = {
     All: "همه",
     Search: "جستجو"
 };
-ej.PivotPager.Locale["fa-IR"] = {
+if (ej.PivotPager) ej.PivotPager.Locale["fa-IR"] = {
     SeriesPage: "سری صفحه",
     CategoricalPage: "طبقه صفحه",
     Error: "خطا",
@@ -806,7 +917,16 @@ ej.PivotPager.Locale["fa-IR"] = {
     Close: "بستن",
     PageCountErrorMsg: "صفحه شماره صحیح را وارد کنید"
 };
-ej.PivotSchemaDesigner.Locale["fa-IR"] = {
+if (ej.PivotSchemaDesigner) ej.PivotSchemaDesigner.Locale["fa-IR"] = {
+    DoesNotBeginsWith: "آغاز نيست.",
+    DoesNotEndsWith: "با پايان ندارد.",
+    DoesNotContains: "حاوی ندارد.",
+    DoesNotEquals: "برابري ندارد.",
+    IsGreaterThan: "بیشتر است.",
+    IsGreaterThanOrEqualTo: "بزرگتر یا مساوی با",
+    IsLessThan: "کمتر است.",
+    IsLessThanOrEqualTo: "کمتر یا مساوی با",
+
     PivotTableFieldList: "فهرست درست جداول محوری",
     ChooseFieldsToAddToReport: "انتخاب زمینه برای اضافه کردن به گزارش:",
     DragFieldBetweenAreasBelow: "زمینه کشیدن بین مناطق زیر:",
@@ -853,7 +973,7 @@ ej.PivotSchemaDesigner.Locale["fa-IR"] = {
     Cancel: "لغو",
     Search: "جستجو"
 };
-ej.datavisualization.RangeNavigator.Locale["fa-IR"] = {
+if (ej.datavisualization && ej.datavisualization.RangeNavigator) ej.datavisualization.RangeNavigator.Locale["fa-IR"] = {
     intervals: {
         quarter: {
             longQuarters: "ربع،",
@@ -865,7 +985,7 @@ ej.datavisualization.RangeNavigator.Locale["fa-IR"] = {
         },
     },
 };
-ej.ReportViewer.Locale["fa-IR"] = {
+if (ej.ReportViewer) ej.ReportViewer.Locale["fa-IR"] = {
     toolbar: {
         print: {
             headerText: "چاپ",
@@ -961,15 +1081,44 @@ ej.ReportViewer.Locale["fa-IR"] = {
     },
     viewButton: "نمایش گزارش",
 };
-ej.Ribbon.Locale["fa-IR"] = {
+if (ej.Ribbon) ej.Ribbon.Locale["fa-IR"] = {
     CustomizeQuickAccess: "سفارشی کردن نوار ابزار دسترسی سریع",
     RemoveFromQuickAccessToolbar: "حذف از نوار ابزار دسترسی سریع",
     AddToQuickAccessToolbar: "اضافه کردن به نوار ابزار دسترسی سریع",
     ShowAboveTheRibbon: "نمایش در بالای روبان",
     ShowBelowTheRibbon: "نمایش پائین روبان",
-    MoreCommands: "دستورات بیشتر ...",
+    MoreCommands: "دستورات بیشتر ..."
 };
-ej.RTE.Locale["fa-IR"] = {
+if (ej.Kanban) ej.Kanban.Locale["fa-IR"] = {
+    EmptyCard: "بدون کارت برای نمایش",
+    SaveButton: "صرفه جویی",
+    CancelButton: "لغو کردن",
+    EditFormTitle: "جزئیات ",
+    AddFormTitle: "اضافه کردن کارت جدید",
+    SwimlaneCaptionFormat: "- {{:count}}{{if count == 1 }} مورد {{else}} موارد {{/if}}",
+    FilterSettings: "فیلترها:",
+    FilterOfText: "از",
+    Max: "حداکثر",
+    Min: "حداقل",
+    Cards: "  کارت",
+    ItemsCount: "تعداد:",
+    Unassigned: "اختصاص داده نشده",
+    AddCard: "اضافه کردن کارت",
+    EditCard: "کارت ویرایش",
+    DeleteCard: "حذف کارت",
+    TopofRow: "بالا ردیف",
+    BottomofRow: "پایین ردیف",
+    MoveUp: "حرکت به بال",
+    MoveDown: "حرکت به پایین",
+    MoveLeft: "حرکت به سمت چپ",
+    MoveRight: "برو راست",
+    MovetoSwimlane: "انتقال به Swimlane",
+    HideColumn: "پنهان کردن ستون",
+    VisibleColumns: "ستونهای قابل مشاهده",
+    PrintCard: "کارت چاپ"
+};
+
+if (ej.RTE) ej.RTE.Locale["fa-IR"] = {
 	bold: "جسور",
 	italic: "حروف کج",
 	underline: "زیر خط دار خط",
@@ -1118,7 +1267,7 @@ ej.RTE.Locale["fa-IR"] = {
 	ReplaceAll: "به جای همه",
 	FindErrorMsg: "می تواند کلمه مشخص شده یافت نشد.",
 };
-ej.Schedule.Locale["fa-IR"] = {
+if (ej.Schedule) ej.Schedule.Locale["fa-IR"] = {
     ReminderWindowTitle: "پنجره یادآوری",
     CreateAppointmentTitle: "درست روزانه",
     RecurrenceEditTitle: "ویرایش روزانه تکرار",
@@ -1218,7 +1367,7 @@ ej.Schedule.Locale["fa-IR"] = {
     Time: "زمان",
     EmptyResultText: "هیچ پیشنهادی",
 };
-ej.Spreadsheet.Locale["fa-IR"] = {
+if (ej.Spreadsheet) ej.Spreadsheet.Locale["fa-IR"] = {
     Cut: "برش",
     Copy: "نسخه",
     FormatPainter: "نقاش فرمت",
@@ -1879,7 +2028,7 @@ ej.Spreadsheet.Locale["fa-IR"] = {
     PivotOverlapAlert: "گزارش Pivot Table و می تواند یکی دیگر گزارش جدول محوری با هم همپوشانی دارند",
     NoCellFound: "هیچ سلول یافت شد",
 };
-ej.TreeGrid.Locale["fa-IR"] = {
+if (ej.TreeGrid) ej.TreeGrid.Locale["fa-IR"] = {
     toolboxTooltipTexts: {
         addTool: "اضافه کردن",
         editTool: "ویرایش",
@@ -1970,7 +2119,7 @@ ej.TreeGrid.Locale["fa-IR"] = {
     falseText: "غلط",
     emptyRecord: "هیچ پرونده برای نمایش نیست",
 };
-ej.Uploadbox.Locale["fa-IR"] = {
+if (ej.Uploadbox) ej.Uploadbox.Locale["fa-IR"] = {
     buttonText: {
         upload: "بارگذاری",
         browse: "مرور کردن",
@@ -1995,3 +2144,10 @@ ej.Uploadbox.Locale["fa-IR"] = {
     closeToolTip: "نزدیک",
 };
 ;
+if (ej.Tile) ej.Tile.Locale["fa-IR"] = {
+    captionText: "متن"
+};
+if (ej.ListView) ej.ListView.Locale["fa-IR"] = {
+    headerTitle: "عنوان",
+    headerBackButtonText: "بازگشت"
+};
