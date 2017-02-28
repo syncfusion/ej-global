@@ -249,6 +249,7 @@ if (ej.Gantt) ej.Gantt.Locale["it-IT"] = {
         resourceInfo: "risorse",
         duration: "Durata",
         status: "Progresso",
+        taskMode: "Modalità Task",
         predecessor: "predecessori",
         type: "Digitare",
         offset: "Compensare",
@@ -672,7 +673,9 @@ if (ej.PivotClient) ej.PivotClient.Locale["it-IT"] = {
     Remove: "Staccare",
     SetRecordNameAlertMsg: "Si prega di registrare il nome.",
     SetReportNameAlertMsg: "Vi preghiamo di impostare nome rapporto.",
-    Search: "Ricerca"
+    Search: "Ricerca",
+    MultipleItems: "Più elementi",
+    All: "Tutti",
 };
 if (ej.PivotGauge) ej.PivotGauge.Locale["it-IT"] = {
     RevenueGoal: "entrate Goal",

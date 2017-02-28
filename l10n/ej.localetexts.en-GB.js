@@ -345,6 +345,7 @@ if (ej.PivotSchemaDesigner) ej.PivotSchemaDesigner.Locale["en-GB"] = {
     AlertMsg: "The field you are moving cannot be placed in that area of the report",
     Goal: "Goal",
     Status: "Status",
+    taskMode: "Task Mode",
     Trend: "Trend",
     Value: "value",
     AddToFilter: "Add to Filter",
@@ -871,7 +872,9 @@ if (ej.PivotClient) ej.PivotClient.Locale["en-GB"] = {
     Remove: "Remove",
     SetRecordNameAlertMsg: "Please set record name.",
     SetReportNameAlertMsg: "Please set report name.",
-    Search: "Search"
+    Search: "Search",
+    MultipleItems: "Multiple items",
+    All: "All"
 };
 if (ej.Autocomplete) ej.Autocomplete.Locale["en-GB"] = {
     addNewText: "Add New",

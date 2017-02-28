@@ -249,6 +249,7 @@ if (ej.Gantt) ej.Gantt.Locale["ru-RU"] = {
         resourceInfo: "ресурсы",
         duration: "продолжительность",
         status: "прогресс",
+        taskMode: "Режим задачи",
         predecessor: "Предшественники",
         type: "тип",
         offset: "смещение",
@@ -670,7 +671,9 @@ if (ej.PivotClient) ej.PivotClient.Locale["ru-RU"] = {
     Remove: "Снимите",
     SetRecordNameAlertMsg: "Задайте имя записи.",
     SetReportNameAlertMsg: "Задайте имя отчета.",
-    Search: "Поиск"
+    Search: "Поиск",
+    MultipleItems: "Несколько пунктов",
+    All: "Все"
 };
 if (ej.PivotGauge) ej.PivotGauge.Locale["ru-RU"] = {
     RevenueGoal: "Выручка Гол",

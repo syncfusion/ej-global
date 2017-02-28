@@ -249,6 +249,7 @@ if (ej.Gantt) ej.Gantt.Locale["cs-CZ"] = {
         resourceInfo: "Zdroje",
         duration: "Trvání",
         status: "Pokrok",
+        taskMode: "úkol Režim",
         predecessor: "předchůdci",
         type: "Typ",
         offset: "ofset",
@@ -671,7 +672,9 @@ if (ej.PivotClient) ej.PivotClient.Locale["cs-CZ"] = {
     Remove: "Demontujte",
     SetRecordNameAlertMsg: "Zadejte název záznamu.",
     SetReportNameAlertMsg: "Zadejte název zprávy.",
-    Search: "Vyhledávání"
+    Search: "Vyhledávání",
+    MultipleItems: "Více položek",
+    All: "Všechny"
 };
 if (ej.PivotGauge) ej.PivotGauge.Locale["cs-CZ"] = {
     RevenueGoal: "výnosy Cíl",

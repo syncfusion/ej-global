@@ -230,6 +230,7 @@ if (ej.Gantt) ej.Gantt.Locale["fa-IR"] = {
         resourceInfo: "منابع",
         duration: "مدت زمان",
         status: "پیش رفتن",
+        taskMode: "حالت وظیفه",
         predecessor: "اجداد",
         type: "نوع",
         offset: "انحراف",
@@ -652,7 +653,9 @@ if (ej.PivotClient) ej.PivotClient.Locale["fa-IR"] = {
     Remove: "حذف کنید",
     SetRecordNameAlertMsg: "لطفا ثبت نام را تنظیم کنید.",
     SetReportNameAlertMsg: "لطفاً اسم گزارش تنظیم شده است.",
-    Search: "جستجو"
+    Search: "جستجو",
+    MultipleItems: "اقلام چندگانه",
+    All: "همه"
 };
 if (ej.PivotGauge) ej.PivotGauge.Locale["fa-IR"] = {
     RevenueGoal: "هدف درآمد",

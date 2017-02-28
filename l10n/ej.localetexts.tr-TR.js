@@ -249,6 +249,7 @@ if (ej.Gantt) ej.Gantt.Locale["tr-TR"] = {
         resourceInfo: "kaynaklar",
         duration: "süre",
         status: "ilerleme",
+        taskMode: "Görev Modu",
         predecessor: "öncekilerden",
         type: "tip",
         offset: "ofset baskı",
@@ -671,7 +672,9 @@ if (ej.PivotClient) ej.PivotClient.Locale["tr-TR"] = {
     Remove: "Kaldır",
     SetRecordNameAlertMsg: "Lütfen kayıt adı.",
     SetReportNameAlertMsg: "Lütfen rapor adı.",
-    Search: "Arama"
+    Search: "Arama",
+    MultipleItems: "Birden fazla öğe",
+    All: "Tüm"
 };
 if (ej.PivotGauge) ej.PivotGauge.Locale["tr-TR"] = {
     RevenueGoal: "Gelir Gol",

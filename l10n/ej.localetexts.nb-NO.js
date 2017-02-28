@@ -249,6 +249,7 @@ if (ej.Gantt) ej.Gantt.Locale["nb-NO"] = {
         resourceInfo: "Resources",
         duration: "Varighet",
         status: "Framgang",
+        taskMode: "Task Mode",
         predecessor: "forgjengere",
         type: "Type",
         offset: "Offset",
@@ -671,7 +672,9 @@ if (ej.PivotClient) ej.PivotClient.Locale["nb-NO"] = {
     Remove: "Fjern",
     SetRecordNameAlertMsg: "Vennligst angi post navn.",
     SetReportNameAlertMsg: "Vennligst angi rapport navn.",
-    Search: "Søk"
+    Search: "Søk",
+    MultipleItems: "Flere elementer",
+    All: "Alle"
 };
 if (ej.PivotGauge) ej.PivotGauge.Locale["nb-NO"] = {
     RevenueGoal: "mål Revenue",

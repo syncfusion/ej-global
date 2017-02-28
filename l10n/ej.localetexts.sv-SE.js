@@ -249,6 +249,7 @@ if (ej.Gantt) ej.Gantt.Locale["sv-SE"] = {
         resourceInfo: "Resurser",
         duration: "Varaktighet",
         status: "Framsteg",
+        taskMode: "uppgift Driftläge",
         predecessor: "Föregångare gångare~~POS=HEADCOMP",
         type: "Typ",
         offset: "Offset",
@@ -671,7 +672,9 @@ if (ej.PivotClient) ej.PivotClient.Locale["sv-SE"] = {
     Remove: "Ta bort",
     SetRecordNameAlertMsg: "Ange postens namn.",
     SetReportNameAlertMsg: "Ange rapportens namn.",
-    Search: "Sök"
+    Search: "Sök",
+    MultipleItems: "Flera objekt",
+    All: "Alla"
 };
 if (ej.PivotGauge) ej.PivotGauge.Locale["sv-SE"] = {
     RevenueGoal: "intäkts mål",

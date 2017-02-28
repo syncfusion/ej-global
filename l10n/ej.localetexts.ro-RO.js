@@ -249,6 +249,7 @@ if (ej.Gantt) ej.Gantt.Locale["ro-RO"] = {
         resourceInfo: "Resurse",
         duration: "Durată",
         status: "progres",
+        taskMode: "Mod de sarcină",
         predecessor: "predecesorii",
         type: "Tip",
         offset: "ofset",
@@ -671,7 +672,9 @@ if (ej.PivotClient) ej.PivotClient.Locale["ro-RO"] = {
     Remove: "Demontaţi",
     SetRecordNameAlertMsg: "Vă rugăm să setaţi numele de înregistrare.",
     SetReportNameAlertMsg: "Vă rugăm să setaţi numele raportului.",
-    Search: "Căutare"
+    Search: "Căutare",
+    MultipleItems: "Mai multe elemente",
+    All: "Toate"
 };
 if (ej.PivotGauge) ej.PivotGauge.Locale["ro-RO"] = {
     RevenueGoal: "venituri Obiectiv",

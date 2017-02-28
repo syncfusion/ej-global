@@ -249,6 +249,7 @@ if (ej.Gantt) ej.Gantt.Locale["da-DK"] = {
         resourceInfo: "Ressourcer",
         duration: "Varighed",
         status: "Fremskridt",
+        taskMode: "Task-tilstand",
         predecessor: "forgængere",
         type: "Type",
         offset: "Offset",
@@ -670,7 +671,9 @@ if (ej.PivotClient) ej.PivotClient.Locale["da-DK"] = {
     Remove: "Fjern",
     SetRecordNameAlertMsg: "Sæt Venligst notér navn.",
     SetReportNameAlertMsg: "Angiv rapportens navn.",
-    Search: "Søg"
+    Search: "Søg",
+    MultipleItems: "Flere emner",
+    All: "Alle"
 };
 if (ej.PivotGauge) ej.PivotGauge.Locale["da-DK"] = {
     RevenueGoal: "Omsætning Goal",

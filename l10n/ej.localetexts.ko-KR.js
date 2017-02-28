@@ -249,6 +249,7 @@ if (ej.Gantt) ej.Gantt.Locale["ko-KR"] = {
         resourceInfo: "자원",
         duration: "지속",
         status: "진행",
+        taskMode: "작업 모드",
         predecessor: "선행",
         type: "유형",
         offset: "오프셋",
@@ -672,7 +673,9 @@ if (ej.PivotClient) ej.PivotClient.Locale["ko-KR"] = {
     Remove: "제거",
     SetRecordNameAlertMsg: "기록을 입력하세요.",
     SetReportNameAlertMsg: "보고서 설정 이름을 입력하십시오.",
-    Search: "검색"
+    Search: "검색",
+    MultipleItems: "여러 항목",
+    All: "모든"
 };
 if (ej.PivotGauge) ej.PivotGauge.Locale["ko-KR"] = {
     RevenueGoal: "수익 목표",

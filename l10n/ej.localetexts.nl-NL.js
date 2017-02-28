@@ -249,6 +249,7 @@ if (ej.Gantt) ej.Gantt.Locale["nl-NL"] = {
         resourceInfo: "Middelen",
         duration: "Duur",
         status: "Vooruitgang",
+        taskMode: "taak modus",
         predecessor: "voorgangers",
         type: "Type",
         offset: "compenseren",
@@ -672,7 +673,9 @@ if (ej.PivotClient) ej.PivotClient.Locale["nl-NL"] = {
     Remove: "Verwijder",
     SetRecordNameAlertMsg: "Stel naam opnemen.",
     SetReportNameAlertMsg: "Stel de rapportnaam.",
-    Search: "Zoeken"
+    Search: "Zoeken",
+    MultipleItems: "Meerdere items",
+    All: "Alle"
 };
 if (ej.PivotGauge) ej.PivotGauge.Locale["nl-NL"] = {
     RevenueGoal: "inkomsten Goal",

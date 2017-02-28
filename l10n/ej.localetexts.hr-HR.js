@@ -249,6 +249,7 @@ if (ej.Gantt) ej.Gantt.Locale["hr-HR"] = {
         resourceInfo: "sredstva",
         duration: "Trajanje",
         status: "Napredak",
+        taskMode: "Zadatak mod",
         predecessor: "prethodnici",
         type: "Tip",
         offset: "ofset",
@@ -671,7 +672,9 @@ if (ej.PivotClient) ej.PivotClient.Locale["hr-HR"] = {
     Remove: "Ukloni",
     SetRecordNameAlertMsg: "Pripremite zna ime.",
     SetReportNameAlertMsg: "Pripremite izvještaj.",
-    Search: "Pretraži"
+    Search: "Pretraži",
+    MultipleItems: "Više stavki",
+    All: "Sve"
 };
 if (ej.PivotGauge) ej.PivotGauge.Locale["hr-HR"] = {
     RevenueGoal: "Cilj prihoda",
