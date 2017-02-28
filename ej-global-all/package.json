@@ -35,8 +35,8 @@
   "homepage": "https://github.com/syncfusion/ej-global#readme",
   
   "files": [
-        "i18n/",
-	"l10n/"
+    "i18n/*.min.js",
+	"l10n/*.min.js"
     ]
 }
 

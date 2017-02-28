@@ -45,20 +45,20 @@
   "homepage": "https://github.com/syncfusion/ej-global#readme",
   
   "files": [
-        	"i18n/ej.culture.ar-AE.js",
-		"i18n/ej.culture.de-DE.js",
-		"i18n/ej.culture.en-US.js",
-		"i18n/ej.culture.es-ES.js",
-		"i18n/ej.culture.fr-FR.js",
-		"i18n/ej.culture.vi-VN.js",
-		"i18n/ej.culture.zh-CN.js",    
-		"l10n/ej.localetexts.ar-AE.js",
-		"l10n/ej.localetexts.de-DE.js",
-		"l10n/ej.localetexts.en-US.js",
-		"l10n/ej.localetexts.es-ES.js",
-		"l10n/ej.localetexts.fr-FR.js",
-		"l10n/ej.localetexts.vi-VN.js",
-		"l10n/ej.localetexts.zh-CN.js"
+        "i18n/ej.culture.ar-AE.min.js",
+		"i18n/ej.culture.de-DE.min.js",
+		"i18n/ej.culture.en-US.min.js",
+		"i18n/ej.culture.es-ES.min.js",
+		"i18n/ej.culture.fr-FR.min.js",
+		"i18n/ej.culture.vi-VN.min.js",
+		"i18n/ej.culture.zh-CN.min.js",    
+		"l10n/ej.localetexts.ar-AE.min.js",
+		"l10n/ej.localetexts.de-DE.min.js",
+		"l10n/ej.localetexts.en-US.min.js",
+		"l10n/ej.localetexts.es-ES.min.js",
+		"l10n/ej.localetexts.fr-FR.min.js",
+		"l10n/ej.localetexts.vi-VN.min.js",
+		"l10n/ej.localetexts.zh-CN.min.js"
     ]
 }
 
