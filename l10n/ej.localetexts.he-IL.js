@@ -250,6 +250,7 @@ if (ej.Gantt) ej.Gantt.Locale["he-IL"] = {
         resourceInfo: "אֶמְצָעִי",
         duration: "מֶשֶׁך",
         status: "התקדמות",
+        taskMode: "מצב המשימות",
         predecessor: "אָבוֹת קַדמוֹנִים",
         type: "סוּג",
         offset: "לְקַזֵז",
@@ -672,7 +673,9 @@ if (ej.PivotClient) ej.PivotClient.Locale["he-IL"] = {
     Remove: "הסר",
     SetRecordNameAlertMsg: "אנא הגדר הקליטו שם.",
     SetReportNameAlertMsg: "אנא הגדר שם דוח.",
-    Search: "חיפוש"
+    Search: "חיפוש",
+    MultipleItems: "פריטים מרובים",
+    All: "כל"
 };
 if (ej.PivotGauge) ej.PivotGauge.Locale["he-IL"] = {
     RevenueGoal: "יעד הכנסה",

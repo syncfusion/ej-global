@@ -249,6 +249,7 @@ if (ej.Gantt) ej.Gantt.Locale["zh-CN"] = {
         resourceInfo: "资源",
         duration: "为期",
         status: "进展",
+        taskMode: "任务模式",
         predecessor: "前辈",
         type: "类型",
         offset: "抵消",
@@ -671,7 +672,9 @@ if (ej.PivotClient) ej.PivotClient.Locale["zh-CN"] = {
     Remove: "移除",
     SetRecordNameAlertMsg: "請設定錄製名稱。",
     SetReportNameAlertMsg: "請設定報表名稱。",
-    Search: "搜尋"
+    Search: "搜尋",
+    MultipleItems: "多個項目",
+    All: "所有"
 };
 if (ej.PivotGauge) ej.PivotGauge.Locale["zh-CN"] = {
     RevenueGoal: "收入目标",

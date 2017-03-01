@@ -249,6 +249,7 @@ if (ej.Gantt) ej.Gantt.Locale["ms-MY"] = {
         resourceInfo: "sumber",
         duration: "Tempoh",
         status: "kemajuan",
+        taskMode: "Mod Task",
         predecessor: "terdahulu",
         type: "Jenis",
         offset: "Offset",
@@ -671,7 +672,9 @@ if (ej.PivotClient) ej.PivotClient.Locale["ms-MY"] = {
     Remove: "Buang",
     SetRecordNameAlertMsg: "Setkan rekod nama.",
     SetReportNameAlertMsg: "Setkan laporan nama.",
-    Search: "Carian"
+    Search: "Carian",
+    MultipleItems: "Berbilang item",
+    All: "Semua"
 };
 if (ej.PivotGauge) ej.PivotGauge.Locale["ms-MY"] = {
     RevenueGoal: "Matlamat hasil",

@@ -249,6 +249,7 @@ if (ej.Gantt) ej.Gantt.Locale["ar-AE"] = {
         resourceInfo: "موارد",
         duration: "مدة",
         status: "تقدم",
+        taskMode: "وضع مهمة",
         predecessor: "سلف",
         type: "اكتب",
         offset: "عوض",
@@ -678,7 +679,9 @@ if (ej.PivotClient) ej.PivotClient.Locale["ar-AE"] = {
     Remove: "قم بازالة",
     SetRecordNameAlertMsg: "يرجى تسجيل الاسم.",
     SetReportNameAlertMsg: "يرجى تحديد اسم التقرير.",
-    Search: "البحث"
+    Search: "البحث",
+    MultipleItems: "عناصر متعددة",
+    All: "جميع"
 };
 if (ej.PivotGauge) ej.PivotGauge.Locale["ar-AE"] = {
     RevenueGoal: "دخل هدف",

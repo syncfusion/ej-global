@@ -249,6 +249,7 @@ if (ej.Gantt) ej.Gantt.Locale["fi-FI"] = {
         resourceInfo: "voimavarat",
         duration: "Kesto",
         status: "edistyminen",
+        taskMode: "tehtävä tila",
         predecessor: "edeltäjät",
         type: "Tyyppi",
         offset: "Offset",
@@ -671,7 +672,9 @@ if (ej.PivotClient) ej.PivotClient.Locale["fi-FI"] = {
     Remove: "Irrota",
     SetRecordNameAlertMsg: "Määritä tallenna nimi.",
     SetReportNameAlertMsg: "Määritä raportin nimi.",
-    Search: "Haku"
+    Search: "Haku",
+    MultipleItems: "Useita kohteita.",
+    All: "Kaikki"
 };
 if (ej.PivotGauge) ej.PivotGauge.Locale["fi-FI"] = {
     RevenueGoal: "tulot Tavoite",

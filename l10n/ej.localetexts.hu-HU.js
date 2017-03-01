@@ -249,6 +249,7 @@ if (ej.Gantt) ej.Gantt.Locale["hu-HU"] = {
         resourceInfo: "Erőforrások",
         duration: "Időtartam",
         status: "Haladás",
+        taskMode: "feladat mód",
         predecessor: "Elődök",
         type: "típus",
         offset: "eltolt",
@@ -671,7 +672,9 @@ if (ej.PivotClient) ej.PivotClient.Locale["hu-HU"] = {
     Remove: "Távolítsa el a",
     SetRecordNameAlertMsg: "Adja meg a felvétel.",
     SetReportNameAlertMsg: "Adja meg a jelentés nevét.",
-    Search: "Keresés"
+    Search: "Keresés",
+    MultipleItems: "Több elem",
+    All: "Minden"
 };
 if (ej.PivotGauge) ej.PivotGauge.Locale["hu-HU"] = {
     RevenueGoal: "bevétel cél",

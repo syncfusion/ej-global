@@ -249,6 +249,7 @@ if (ej.Gantt) ej.Gantt.Locale["vi-VN"] = {
         resourceInfo: "Tài nguyên",
         duration: "thời gian",
         status: "Tiến độ",
+        taskMode: "nhiệm vụ Chế độ",
         predecessor: "người tiền nhiệm",
         type: "Kiểu",
         offset: "Bù lại",
@@ -671,7 +672,9 @@ if (ej.PivotClient) ej.PivotClient.Locale["vi-VN"] = {
     Remove: "Gỡ bỏ",
     SetRecordNameAlertMsg: "Hãy đặt tên kỷ lục.",
     SetReportNameAlertMsg: "Hãy đặt tên báo cáo.",
-    Search: "Tìm kiếm"
+    Search: "Tìm kiếm",
+    MultipleItems: "Nhiều mục",
+    All: "Tất cả"
 };
 if (ej.PivotGauge) ej.PivotGauge.Locale["vi-VN"] = {
     RevenueGoal: "Mục tiêu doanh thu",

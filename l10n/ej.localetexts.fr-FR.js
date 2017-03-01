@@ -249,6 +249,7 @@ if (ej.Gantt) ej.Gantt.Locale["fr-FR"] = {
         resourceInfo: "Ressources",
         duration: "Durée",
         status: "Progrès",
+        taskMode: "Mode tâche",
         predecessor: "Prédécesseurs",
         type: "Type",
         offset: "Offset",
@@ -671,7 +672,9 @@ if (ej.PivotClient) ej.PivotClient.Locale["fr-FR"] = {
     Remove: "Déposer",
     SetRecordNameAlertMsg: "Veuillez définir nom d'enregistrement.",
     SetReportNameAlertMsg: "Veuillez définir le nom du rapport.",
-    Search: "Recherchez"
+    Search: "Recherchez",
+    MultipleItems: "Plusieurs éléments",
+    All: "Tous les"
 };
 if (ej.PivotGauge) ej.PivotGauge.Locale["fr-FR"] = {
     RevenueGoal: "Revenu But",
