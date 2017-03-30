@@ -1108,15 +1108,15 @@ if (ej.Ribbon) ej.Ribbon.Locale["ko-KR"] = {
     CustomizeQuickAccess: "빠른 실행 도구 모음 사용자 정의",
     RemoveFromQuickAccessToolbar: "빠른 실행 도구 모음에서 제거",
     AddToQuickAccessToolbar: "빠른 실행 도구 모음에 추가",
-    ShowAboveTheRibbon: "리본 위에 보여라.",
-    ShowBelowTheRibbon: "리본 아래에 보여라.",
+    ShowAboveTheRibbon: "리본 위에 표시",
+    ShowBelowTheRibbon: "리본 아래보기",
     MoreCommands: "더 많은 명령 ..."
 };
 if (ej.Kanban) ej.Kanban.Locale["ko-KR"] = {
     EmptyCard: "표시 할 카드가 없습니다.",
     SaveButton: "구하다",
-    CancelButton: "취소",
-    EditFormTitle: "세부 내용 ",
+    CancelButton: "취소하다",
+    EditFormTitle: "세부 정보 ",
     AddFormTitle: "새 카드 추가",
     SwimlaneCaptionFormat: "- {{:count}}{{if count == 1 }} 목 {{else}} 항목 {{/if}}",
     FilterSettings: "필터:",
