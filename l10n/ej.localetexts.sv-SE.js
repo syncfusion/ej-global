@@ -130,7 +130,7 @@ if (ej.ExcelFilter) ej.ExcelFilter.Locale["sv-SE"] = {
     title: "anpassat filter",
     PredicateAnd: "OCH",
     PredicateOr: "ELLER",
-    Ok: "ok",
+    OK: "ok",
     MatchCase: "Liknande fall",
     Cancel: "Annullera",
     NoResult: "Inga matchningar funna",
@@ -256,7 +256,7 @@ if (ej.Gantt) ej.Gantt.Locale["sv-SE"] = {
         baselineStartDate: "Baseline Startdatum",
         baselineEndDate: "Baseline Slutdatum",
         WBS: "WBS",
-        WBSpredecessor: "WBS Föregångare",
+        WBSPredecessor: "WBS Föregångare",
         dialogCustomFieldName: "kolonn Namn",
         dialogCustomFieldValue: "Värde",
         notes: "Anmärkningar",
@@ -272,7 +272,8 @@ if (ej.Gantt) ej.Gantt.Locale["sv-SE"] = {
         deleteButton: "Radera",
         cancelButton: "Annullera",
         addPredecessor: "Lägg till ny",
-        removePredecessor: "Avlägsna"
+        removePredecessor: "Avlägsna",
+        addButton: "Lägg till",
     },
     columnDialogTexts: {
         field: "Fält",
@@ -291,7 +292,28 @@ if (ej.Gantt) ej.Gantt.Locale["sv-SE"] = {
         dropdownTableValue: "Värde",
         addData: "Lägg till",
         deleteData: "Avlägsna",
-        allowCellSelection: "Tillåt Cell Selection"
+        allowCellSelection: "Tillåt Cell Selection",
+        displayAsCheckbox: "Visa som Checkbox",
+        clipMode: "Clip-läge",
+        tooltip: "Tooltip",
+        headerTooltip: "Header Tooltip"
+    },
+    editTypeTexts: {
+        string: "Sträng",
+        numeric: "Numerisk",
+        datePicker: "Datumväljare",
+        dateTimePicker: "Datum Tid Picker",
+        dropdown: "Falla ner",
+        boolean: "Boolean"
+    },
+    textAlignTypes: {
+        right: "Höger",
+        left: "Vänster",
+        center: "Centrum"
+    },
+    clipModeTexts: {
+        clip: "Klämma",
+        ellipsis: "Ellips"
     },
     toolboxTooltipTexts: {
         addTool: "Lägg till",
@@ -307,7 +329,8 @@ if (ej.Gantt) ej.Gantt.Locale["sv-SE"] = {
         nextTimeSpanTool: "nästa Timespan",
         prevTimeSpanTool: "föregående Timespan",
         criticalPathTool: "kritiska linjen",
-        excelExportTool: "Excel export"
+        excelExportTool: "Excel export",
+        pdfExportTool: "PDF export"
     },
     durationUnitTexts: {
         days: "dagar",
@@ -394,12 +417,10 @@ if (ej.Grid) ej.Grid.Locale["sv-SE"] = {
     DeleteOperationAlert: "Inga poster som valts ut för radering",
     EditOperationAlert: "Inga poster som valts ut för redigeringsoperation",
     SaveButton: "Spara",
-    OkButton: "ok",
+    OKButton: "ok",
     CancelButton: "Annullera",
     EditFormTitle: "detaljer för",
     AddFormTitle: "Lägg till ny post",
-    Notactionkeyalert: "Detta Key-kombination är inte tillgänglig",
-    Keyconfigalerttext: "Key-kombination har redan tilldelats",
     GroupCaptionFormat: "{{:headerText}}: {{:key}} - {{:count}} {{if count == 1 }} punkt {{else}} objekt {{/if}} ",
     BatchSaveConfirm: "Är du säker på att du vill spara ändringarna?",
     BatchSaveLostChanges: "Osparade ändringar kommer att gå förlorade. Är du säker på att du vill fortsätta?",
@@ -557,6 +578,10 @@ if (ej.PivotClient) ej.PivotClient.Locale["sv-SE"] = {
     IsGreaterThanOrEqualTo: "Är större än eller lika med",
     IsLessThan: "Är mindre än",
     IsLessThanOrEqualTo: "Är mindre än eller lika med",­­
+    ClearSorting: "Klart sortering",
+    ClearFilterFrom: "Rensa filter från",
+    SortAtoZ: "Typ A till Z",
+    SortZtoA: "Sortera Z till A",
 
     DeferUpdate: "Skjuta upp uppdateringen",
     MDXQuery: "MDX urval",
@@ -674,7 +699,19 @@ if (ej.PivotClient) ej.PivotClient.Locale["sv-SE"] = {
     SetReportNameAlertMsg: "Ange rapportens namn.",
     Search: "Sök",
     MultipleItems: "Flera objekt",
-    All: "Alla"
+    All: "Alla",
+    NoReports: "Inga rapporter finns i DB",
+    CalculatedMember: "Beräknad medlem",
+    Caption: "Bildtext:",
+    Expression: "Uttryck:",
+    MemberType: "Typ:",
+    FormatString: "Formatsträngen:",
+    MultipleMeasure: "Mer än en åtgärd kan skivas.",
+    DuplicateCalcMeasure: "Beräknad medlem med samma namn existerar redan.",
+    EmptyField: "Beräknad medlem namn eller uttryck får inte vara tomt.",
+    EmptyFormat: "Formatsträngen för beräknade medlemmen är tom.",
+    Warning: "Varning",
+    Confirm: "Beräknad medlem med samma namn finns redan. På grund vill ersätta?"
 };
 if (ej.PivotGauge) ej.PivotGauge.Locale["sv-SE"] = {
     RevenueGoal: "intäkts mål",
@@ -743,6 +780,85 @@ if (ej.PdfViewer) ej.PdfViewer.Locale["sv-SE"] = {
             headerText: 'Ladda ner',
             contentText: 'Ladda ner PDF-dokumentet.'
         },
+        highlight: {
+            headerText: 'Markera Text',
+            contentText: 'Markera text i PDF-sidor.',
+        },
+        strikeout: {
+            headerText: 'struken text',
+            contentText: 'Slå ut text i PDF-sidor.',
+        },
+        underline: {
+            headerText: 'understruken text',
+            contentText: 'Understruken text i PDF-sidor.',
+        },
+    },
+    contextMenu: {
+        copy: {
+            contentText: 'kopiera',
+        },
+        googleSearch: {
+            contentText: 'Sök google',
+        },
+        Find: {
+            contentText: 'Hitta:',
+        },
+        matchCase: {
+            contentText: 'liknande fall',
+        },
+        auto: {
+            contentText: 'Bil',
+        },
+        openPopup: {
+            contentText: 'Open Pop-Up Note',
+        },
+        Delete: {
+            contentText: 'radera',
+        },
+        properties: {
+            contentText: 'egenskaper....',
+        },
+    },
+    propertyWindow: {
+        underlineProperties: {
+            contentText: "UnderlineProperties"
+        },
+        strikeOutProperties: {
+            contentText: "StrikeOutProperties"
+        },
+        highlightProperties: {
+            contentText: "HighlightProperties"
+        },
+        appearance: {
+            contentText: "utseende"
+        },
+        general: {
+            contentText: "allmän"
+        },
+        color: {
+            contentText: "Färg:"
+        },
+        opacity: {
+            contentText: "opacitet:"
+        },
+        author: {
+            contentText: "författare:"
+        },
+        subject: {
+            contentText: "ämne:"
+        },
+        modified: {
+            contentText: "ändrad:"
+        },
+        ok: {
+            contentText: "ok"
+        },
+        cancel: {
+            contentText: "annullera"
+        },
+        locked: {
+            contentText: "Låst"
+        }
     },
 };
 if (ej.PercentageTextbox) ej.PercentageTextbox.Locale["sv-SE"] = {
@@ -759,6 +875,11 @@ if (ej.PivotGrid) ej.PivotGrid.Locale["sv-SE"] = {
     IsGreaterThanOrEqualTo: "Är större än eller lika med",
     IsLessThan: "Är mindre än",
     IsLessThanOrEqualTo: "Är mindre än eller lika med",­­
+    ClearSorting: "Klart sortering",
+    ClearFilterFrom: "Rensa filter från",
+    SortAtoZ: "Typ A till Z",
+    SortZtoA: "Sortera Z till A",
+    and: "Och",
 
     NumberFormatting: "Talformat",
     FrozenHeaders: "Fryst sidhuvud",
@@ -929,7 +1050,12 @@ if (ej.PivotGrid) ej.PivotGrid.Locale["sv-SE"] = {
     CalcValue: "Beräknat fält kan införas endast i värde i fältet.",
     MultipleItems: "Flera objekt",
     All: "Alla",
-    Search: "Sök"
+    Search: "Sök",
+    ColumnResize: "Kolumnen Resize",
+    Layouts:"Layouter",
+    NormalLayout: "Normal Layout",
+    NormalTopSummary: "Normala övre sammanfattning Layout",
+    NoSummaries:"Inga sammanfattningar Layout"
 };
 if (ej.PivotPager) ej.PivotPager.Locale["sv-SE"] = {
     SeriesPage: "serien Page",
@@ -948,6 +1074,11 @@ if (ej.PivotSchemaDesigner) ej.PivotSchemaDesigner.Locale["sv-SE"] = {
     IsGreaterThanOrEqualTo: "Är större än eller lika med",
     IsLessThan: "Är mindre än",
     IsLessThanOrEqualTo: "Är mindre än eller lika med",­­
+    ClearSorting: "Klart sortering",
+    ClearFilterFrom: "Rensa filter från",
+    SortAtoZ: "Typ A till Z",
+    SortZtoA: "Sortera Z till A",
+    and: "Och",
 
     PivotTableFieldList: "PivotTable Fältlista",
     ChooseFieldsToAddToReport: "Välj fält för att lägga rapportera:",
@@ -1197,7 +1328,7 @@ if (ej.RTE) ej.RTE.Locale["sv-SE"] = {
 	imageBorder: "bild Border",
 	imageStyle: "Stil",
 	linkText: "Text",
-	linkToolTip: "verktygstips",
+	linkTooltipLabel: "verktygstips",
 	html5Support: "Detta verktyg ikon bara aktiverad i HTML5 stöds webbläsare",
 	linkOpenInNewWindow: "Öppna länk i nytt fönster",
 	tableColumns: "No.of Columns",
@@ -1267,7 +1398,7 @@ if (ej.RTE) ej.RTE.Locale["sv-SE"] = {
 	lowerroman: "lägre Roman",
 	upperroman: "övre Roman",
 	none: "Ingen",
-	linktooltip: "Ctrl + klicka för att följa länk",
+	linkTooltip: "Ctrl + klicka för att följa länk",
 	charSpace: "Tecken (med blanksteg )",
 	charNoSpace: "Tecken (utan mellanslag)",
 	wordCount: "Antal ord",
@@ -1287,6 +1418,9 @@ if (ej.RTE) ej.RTE.Locale["sv-SE"] = {
 	Replace: "Byta ut",
 	ReplaceAll: "Ersätt alla",
 	FindErrorMsg: "Det gick inte att hitta angiven ord.",
+	customFontColor:"Fler färger ...",
+	customBGColor:"Fler färger ...",
+	TransBGColor:"Transparent"
 };
 if (ej.Schedule) ej.Schedule.Locale["sv-SE"] = {
     ReminderWindowTitle: "påminnelse fönster",
@@ -1387,6 +1521,10 @@ if (ej.Schedule) ej.Schedule.Locale["sv-SE"] = {
     DeleteConfirmation: "Är du säker på att du vill radera detta möte?",
     Time: "Tid",
     EmptyResultText: "Inga förslag",
+    BlockIntervalAlertTitle: "Varna",
+    BlockIntervalError: "Det valda tidsintervallet har blockerats och är inte tillgängligt för val.",
+    RecurrenceDateValidation: "Några månader har färre än valda datum. För dessa månader kommer förekomsten att falla på sista dagen i månaden.",
+    SeriesChangeAlert: "Ändringarna som gjorts till specifika fall i denna serie kommer att avbrytas och dessa möten matchar serien igen."
 };
 if (ej.Spreadsheet) ej.Spreadsheet.Locale["sv-SE"] = {
     Cut: "Skära",
@@ -1413,20 +1551,25 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["sv-SE"] = {
     SortNewesttoOldest: "Sortera senaste till tidigaste",
     Insert: "Infoga",
     InsertTitle: "Infoga celler",
-    InsertContent: "Lägg till nya celler, rader eller kolumner till arbetsboken <br /> <br /> FYI:. Om du vill infoga flera rader eller kolumner i taget, välja flera rader eller kolumner i arket, och klicka på Infoga.",
+    InsertContent: "Lägg till nya celler, rader eller kolumner till arbetsboken ", 
+    MultipleInsertContent: " FYI:. Om du vill infoga flera rader eller kolumner i taget, välja flera rader eller kolumner i arket, och klicka på Infoga.",
     InsertSBContent: "Lägg till celler, rader, kolumner eller ark till arbetsboken .",
     Delete: "Radera",
     DeleteTitle: "radera Celler",
-    DeleteContent: "Ta bort celler, rader, kolumner eller ark från arbetsboken <br /> <br /> FYI:. Om du vill ta bort flera rader eller kolumner i taget, välja flera rader eller kolumner i arket, och klicka på Ta bort.",
+    DeleteContent: "Ta bort celler, rader, kolumner eller ark från arbetsboken", 
+    MultipleDeleteContent: " FYI:. Om du vill ta bort flera rader eller kolumner i taget, välja flera rader eller kolumner i arket, och klicka på Ta bort.",
     FindSelectTitle: "Sök & Välj",
     FindSelectContent: "Klicka för att se alternativ för att hitta text i dokumentet.",
     CalculationOptions: "beräknings Val",
     CalcOptTitle: "beräknings Val",
-    CalcOptContent: "Välj att beräkna formler automatiskt eller manuellt. <br/> <br/> Om du gör en förändring som påverkar ett värde, kommer kalkylblad automatiskt räkna det.",
+    CalcOptContent: "Välj att beräkna formler automatiskt eller manuellt.", 
+    CalcOptRecalcContent: " Om du gör en förändring som påverkar ett värde, kommer kalkylblad automatiskt räkna det.",
     CalculateSheet: "beräkna Sheet",
     CalculateNow: "beräkna nu",
-    CalculateNowContent: "Beräkna hela arbetsboken nu. <br/> <br/> Du behöver bara använda det om automatisk beräkning är avstängd.",
-    CalculateSheetContent: "Beräkna det aktiva bladet nu. <br/> <br/> Du behöver bara använda det om automatisk beräkning är avstängd.",
+    CalculateNowContent: "Beräkna hela arbetsboken nu.",
+    CalculateNowTurnOffContent: " Du behöver bara använda det om automatisk beräkning är avstängd.",
+    CalculateSheetContent: "Beräkna det aktiva bladet nu.", 
+    CalculateSheetTurnOffContent: " Du behöver bara använda det om automatisk beräkning är avstängd.",
     Title: "kalkylblad",
     Ok: "ok",
     Cancel: "Annullera",
@@ -1594,7 +1737,8 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["sv-SE"] = {
     TableStyleOptions: "Första kolumnen / sista kolumnen / Total Rad / Filter Knapp",
     Format: "Formatera",
     NameManager: "namn manager",
-    NameManagerContent: "Skapa, redigera, ta bort och hitta alla de namn som används i arbetsboken . <br /> <br /> Namn kan användas i formler som substitut för cellreferenser .",
+    NameManagerContent: "Skapa, redigera, ta bort och hitta alla de namn som används i arbetsboken .", 
+    NameManagerFormulaContent: " Namn kan användas i formler som substitut för cellreferenser .",
     DefinedNames: "definierade namn",
     DefineName: "definiera namn",
     DefineNameContent: "Definiera och tillämpa namn.",
@@ -1725,7 +1869,10 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["sv-SE"] = {
     HideSheet: "Dölja",
     UnhideSheet: "Ta fram",
     SheetRenameAlert: "Det namnet är redan taget. Försök med en annan.",
-    SheetRenameEmptyAlert: "Du skrev ett ogiltigt namn på ett ark. Se till att: <ul> <li> Det namn som du skriver inte överstiger 31 tecken </ li> <li> Namnet innehåller inte något av följande tecken:. \ /? * [Eller] </ li> <li> Du lämnade inga namn tomt. </ Li> </ ul>",
+    SheetRenameEmptyAlert: "Du skrev ett ogiltigt namn på ett ark. Se till att:", 
+    SheetRenameEmptyCharExceedAlert: " Det namn som du skriver inte överstiger 31 tecken", 
+    SheetRenameEmptySplCharAlert:" Namnet innehåller inte något av följande tecken:.", 
+    SheetRenameEmptyBlankAlert: " Du lämnade inga namn tomt.",
     SheetDeleteAlert: "Du kan inte ångra borttagningen blad, och du kan ta bort några uppgifter. Om du inte behöver det, klicka på OK för att radera.",
     SheetDeleteErrorAlert: "En arbetsbok måste innehålla åtminstone en synlig kalkylblad. För att dölja, ta bort eller flytta den valda ark, måste du först sätta i ett nytt blad eller visa ett blad som redan är dolt.",
     CtrlKeyErrorAlert: "Detta kommando kan inte användas på flera val.",
@@ -1914,13 +2061,15 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["sv-SE"] = {
     RedoContent: "Gör den senaste åtgärden.",
     TableTitle: "Tabell (Ctrl + T)",
     HyperLinkTitle: "Lägg till en hyperlänk (Ctrl + K)",
-    HyperLinkContent: "Skapa en länk i dokumentet för snabb åtkomst till webbsidor och filer. <br /> <br /> Hyperlänkar kan också ta dig till platser i dokumentet.",
+    HyperLinkContent: "Skapa en länk i dokumentet för snabb åtkomst till webbsidor och filer.", 
+    HyperLinkPlaceContent: " Hyperlänkar kan också ta dig till platser i dokumentet.",
     NewCommentTitle: "Sätt en kommentar",
     NewCommentContent: "Lägg till en anteckning om den här delen av dokumentet.",
     RefreshTitle: "refresh",
     RefreshContent: "Få de senaste uppgifterna från källan som är ansluten till den aktiva cellen",
     FieldListTitle: "fält~~POS=TRUNC",
-    FieldListContent: "Visa eller dölja fältlistan . <br /> <br /> fältlistan kan du lägga till och ta bort fält från pivottabellrapporten",
+    FieldListContent: "Visa eller dölja fältlistan . ", 
+    FieldListRemoveContent: " fältlistan kan du lägga till och ta bort fält från pivottabellrapporten",
     AddChartElement: "Lägg diagram Element",
     AddChartElementContent: "Lägg till element till den skapade diagrammet.",
     SwitchRowColumn: "Växla rad / kolumn",
@@ -2048,6 +2197,36 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["sv-SE"] = {
     CellTypeAlert: "Denna operation är inte tillåten i celltyp tillämpas intervall.",
     PivotOverlapAlert: "En pivottabellrapport kan inte överlappa en annan pivottabellrapporten",
     NoCellFound: "Inga celler hittades",
+    ColorPicker: "Färgväljare",
+    IncreaseIndent: "Öka indrag",
+    IncreaseIndentContent: "Flytta innehåll längre bort från cellgränsen .",
+    DecreaseIndent: "minska indrag",
+    DecreaseIndentContent: "Flytta innehållet närmare cellgränsen .",
+    ExportPdf: "PDF",
+    ClipboardAccessError: "Din webbläsare kan inte få tillgång till Urklipp, så använd dessa kortkommandon:",
+    ClipboardAccessCutError: "Skär = Ctrl + X",
+    ClipboardAccessCopyError: "Kopiera = Ctrl + C",
+    ClipboardAccessPasteError: "Klistra = Ctrl + V",
+    CorrectArgument: "Ange rätt argument",
+    CorrectFormula: "Ange rätt formel",
+    CorrectCellAddress: "Ange rätt celladress",
+    ChartType: "Diagramtyp",
+    NumberValidationAlert: "Maximal måste vara större än eller lika med minimi",
+    DateValidationAlert: "Slutdatumet måste vara större än eller lika med Startdatum",
+    TimeValidationAlert: "Sluttiden måste vara större än eller lika med Starttid",
+    NewRuleAlert: "Theres ett problem med denna formel",
+    DragAlert: "Kommandot kunde inte slutföras som du försöker att flytta celler inom filterområdet. Välj ett område av filterintervall och försök igen.",
+    OR: "eller",
+    HOME: "HEM",
+    INSERT: "FÖRA IN",
+    DATATAB: "DATA",
+    PAGELAYOUT: "SIDLAYOUT",
+    REVIEW: "RECENSION",
+    OTHERS: "ANDRA",
+    FORMAT: "Formatera",
+    DESIGN: "DESIGN",
+    CHARTDESIGN: "diagram Design",
+    ANALYZE: "Analysera"
 };
 if (ej.TreeGrid) ej.TreeGrid.Locale["sv-SE"] = {
     toolboxTooltipTexts: {
@@ -2123,7 +2302,29 @@ if (ej.TreeGrid) ej.TreeGrid.Locale["sv-SE"] = {
         dropdownTableValue: "Värde",
         addData: "Lägg till",
         deleteData: "Avlägsna",
-        allowCellSelection: "Tillåt Cell Selection"
+        allowCellSelection: "Tillåt Cell Selection",
+        showInColumnChooser: "Visa i kolumn Väljaren",
+        displayAsCheckbox: "Visa som Checkbox",
+        clipMode: "Clip-läge",
+        tooltip: "Tooltip",
+        headerTooltip: "Header Tooltip"
+    },
+    editTypeTexts: {
+        string: "Sträng",
+        numeric: "Numerisk",
+        datePicker: "Datumväljare",
+        dateTimePicker: "Datum Tid Picker",
+        dropdown: "Falla ner",
+        boolean: "Boolean"
+    },
+    textAlignTypes: {
+        right: "Höger",
+        left: "Vänster",
+        center: "Centrum"
+    },
+    clipModeTexts: {
+        clip: "Klämma",
+        ellipsis: "Ellips"
     },
     columnDialogTitle: {
         insertColumn: "infoga kolumn",

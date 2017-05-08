@@ -130,7 +130,7 @@ if (ej.ExcelFilter) ej.ExcelFilter.Locale["hu-HU"] = {
     title: "egyéni szűrő",
     PredicateAnd: "ÉS",
     PredicateOr: "VAGY",
-    Ok: "rendben",
+    OK: "rendben",
     MatchCase: "Mérkőzés esetén",
     Cancel: "Törölni",
     NoResult: "Nincs találat",
@@ -256,7 +256,7 @@ if (ej.Gantt) ej.Gantt.Locale["hu-HU"] = {
         baselineStartDate: "Kiindulási kezdési dátum",
         baselineEndDate: "Kiindulási Végdátum",
         WBS: "WBS",
-        WBSpredecessor: "WBS elődje",
+        WBSPredecessor: "WBS elődje",
         dialogCustomFieldName: "oszlop neve",
         dialogCustomFieldValue: "Érték",
         notes: "Megjegyzések",
@@ -272,7 +272,8 @@ if (ej.Gantt) ej.Gantt.Locale["hu-HU"] = {
         deleteButton: "Töröl",
         cancelButton: "Törölni",
         addPredecessor: "Új hozzáadása",
-        removePredecessor: "eltávolít"
+        removePredecessor: "eltávolít",
+        addButton: "hozzáad",
     },
     columnDialogTexts: {
         field: "Mező",
@@ -291,7 +292,28 @@ if (ej.Gantt) ej.Gantt.Locale["hu-HU"] = {
         dropdownTableValue: "Érték",
         addData: "hozzáad",
         deleteData: "eltávolít",
-        allowCellSelection: "Hagyjuk Cell Selection"
+        allowCellSelection: "Hagyjuk Cell Selection",
+        displayAsCheckbox: "Kijelző Amint Checkbox",
+        clipMode: "Clip Mode",
+        tooltip: "Tooltip",
+        headerTooltip: "Fejes Tooltip"
+    },
+    editTypeTexts: {
+        string: "Húr",
+        numeric: "numerikus",
+        datePicker: "Dátum választó",
+        dateTimePicker: "Dátum Időválasztó",
+        dropdown: "Ledob",
+        boolean: "logikai"
+    },
+    textAlignTypes: {
+        right: "Jobb",
+        left: "Balra",
+        center: "Központ"
+    },
+    clipModeTexts: {
+        clip: "Csipesz",
+        ellipsis: "szókihagyás"
     },
     toolboxTooltipTexts: {
         addTool: "hozzáad",
@@ -307,7 +329,8 @@ if (ej.Gantt) ej.Gantt.Locale["hu-HU"] = {
         nextTimeSpanTool: "Következő Timespan",
         prevTimeSpanTool: "Előző Timespan",
         criticalPathTool: "Kritikus út",
-        excelExportTool: "Excel Export"
+        excelExportTool: "Excel Export",
+        pdfExportTool: "PDF exportálása"
     },
     durationUnitTexts: {
         days: "napok",
@@ -394,12 +417,10 @@ if (ej.Grid) ej.Grid.Locale["hu-HU"] = {
     DeleteOperationAlert: "Nincs bejegyzés kiválasztott törlés",
     EditOperationAlert: "Nincs bejegyzés kiválasztott szerkesztési művelet",
     SaveButton: "Mentés",
-    OkButton: "rendben",
+    OKButton: "rendben",
     CancelButton: "Törölni",
     EditFormTitle: "Részletek az",
     AddFormTitle: "Új Record",
-    Notactionkeyalert: "Ez a kulcs-kombináció nem elérhető",
-    Keyconfigalerttext: "Ez a kulcs-kombináció már hozzá van rendelve a",
     GroupCaptionFormat: "{{:headerText}}: {{:key}} - {{:count}} {{if count == 1 }} tétel {{else}} tételek {{/if}} ",
     BatchSaveConfirm: "Biztosan el szeretné menteni a változásokat?",
     BatchSaveLostChanges: "Nem mentett módosítások elvesznek. Biztos benne, hogy folytatja?",
@@ -557,6 +578,10 @@ if (ej.PivotClient) ej.PivotClient.Locale["hu-HU"] = {
     IsGreaterThanOrEqualTo: "Nagyobb vagy egyenlő",
     IsLessThan: "Kisebb, mint",
     IsLessThanOrEqualTo: "Kisebb vagy egyenlő",
+    ClearSorting: "Törölje a válogatás",
+    ClearFilterFrom: "Szűrő törlése",
+    SortAtoZ: "Rendezés A-Z",
+    SortZtoA: "Z rendezése",
 
     DeferUpdate: "elhalasztása frissítése",
     MDXQuery: "MDX lekérdezések",
@@ -674,7 +699,19 @@ if (ej.PivotClient) ej.PivotClient.Locale["hu-HU"] = {
     SetReportNameAlertMsg: "Adja meg a jelentés nevét.",
     Search: "Keresés",
     MultipleItems: "Több elem",
-    All: "Minden"
+    All: "Minden",
+    NoReports: "Nem található a DB",
+    CalculatedMember: "A kiszámított",
+    Caption: "Felirat:",
+    Expression: "A kifejezés:",
+    MemberType: "A típus:",
+    FormatString: "Formátum:",
+    MultipleMeasure: "Több intézkedés nem lehet szeletelni.",
+    DuplicateCalcMeasure: "A kiszámított már létezik.",
+    EmptyField: "A név, vagy kifejezés számított mező nem lehet üres.",
+    EmptyFormat: "A formátumot az üres.",
+    Warning: "Figyelmeztetés",
+    Confirm: "A kiszámított már létezik. Mert ki akarja cserélni?"
 };
 if (ej.PivotGauge) ej.PivotGauge.Locale["hu-HU"] = {
     RevenueGoal: "bevétel cél",
@@ -743,6 +780,85 @@ if (ej.PdfViewer) ej.PdfViewer.Locale["hu-HU"] = {
             headerText: 'Letöltés',
             contentText: 'Töltse le a PDF dokumentum.'
         },
+        highlight: {
+            headerText: 'szöveg kiemelése',
+            contentText: 'Jelölje ki a szöveget a PDF-oldalak.',
+        },
+        strikeout: {
+            headerText: 'szöveg áthúzása',
+            contentText: 'Áthúzott szöveget a PDF-oldalak.',
+        },
+        underline: {
+            headerText: 'aláhúzott szöveg',
+            contentText: 'Aláhúzott szöveg a PDF-oldalak.',
+        },
+    },
+    contextMenu: {
+        copy: {
+            contentText: 'másolat',
+        },
+        googleSearch: {
+            contentText: 'Keresés google',
+        },
+        Find: {
+            contentText: 'Megtalálja:',
+        },
+        matchCase: {
+            contentText: 'mérkőzés esetén',
+        },
+        auto: {
+            contentText: 'kocsi',
+        },
+        openPopup: {
+            contentText: 'OpenPopup',
+        },
+        Delete: {
+            contentText: 'töröl',
+        },
+        properties: {
+            contentText: 'Tulajdonságok....',
+        },
+    },
+    propertyWindow: {
+        underlineProperties: {
+            contentText: "Aláhúzva a tulajdonságokat"
+        },
+        strikeOutProperties: {
+            contentText: "StrikeOutProperties"
+        },
+        highlightProperties: {
+            contentText: "HighlightProperties"
+        },
+        appearance: {
+            contentText: "kinézet"
+        },
+        general: {
+            contentText: "Tábornok"
+        },
+        color: {
+            contentText: "szín:"
+        },
+        opacity: {
+            contentText: "átlátszatlanság:"
+        },
+        author: {
+            contentText: "szerző:"
+        },
+        subject: {
+            contentText: "tantárgy:"
+        },
+        modified: {
+            contentText: "módosított:"
+        },
+        ok: {
+            contentText: "rendben"
+        },
+        cancel: {
+            contentText: "megszünteti"
+        },
+        locked: {
+            contentText: "zárt"
+        }
     },
 };
 if (ej.PercentageTextbox) ej.PercentageTextbox.Locale["hu-HU"] = {
@@ -759,6 +875,11 @@ if (ej.PivotGrid) ej.PivotGrid.Locale["hu-HU"] = {
     IsGreaterThanOrEqualTo: "Nagyobb vagy egyenlő",
     IsLessThan: "Kisebb, mint",
     IsLessThanOrEqualTo: "Kisebb vagy egyenlő",
+    ClearSorting: "Törölje a válogatás",
+    ClearFilterFrom: "Szűrő törlése",
+    SortAtoZ: "Rendezés A-Z",
+    SortZtoA: "Z rendezése",
+    and: "És",
 
     NumberFormatting: "Számformátum",
     FrozenHeaders: "Fagyasztott vágószerkezetek",
@@ -929,7 +1050,12 @@ if (ej.PivotGrid) ej.PivotGrid.Locale["hu-HU"] = {
     CalcValue: "Számított mező csak akkor lehet behelyezni a szántóföldi terület",
     MultipleItems: "Több elem",
     All: "Minden",
-    Search: "Keresés"
+    Search: "Keresés",
+    ColumnResize: "Oszlop átméretezése",
+    Layouts: "Elrendezések",
+    NormalLayout: "Hagyományos elrendezés",
+    NormalTopSummary: "A szokásos felső összefoglaló elrendezés",
+    NoSummaries: "Az összegzések elrendezés"
 };
 if (ej.PivotPager) ej.PivotPager.Locale["hu-HU"] = {
     SeriesPage: "Sorozat Oldal",
@@ -948,6 +1074,11 @@ if (ej.PivotSchemaDesigner) ej.PivotSchemaDesigner.Locale["hu-HU"] = {
     IsGreaterThanOrEqualTo: "Nagyobb vagy egyenlő",
     IsLessThan: "Kisebb, mint",
     IsLessThanOrEqualTo: "Kisebb vagy egyenlő",
+    ClearSorting: "Törölje a válogatás",
+    ClearFilterFrom: "Szűrő törlése",
+    SortAtoZ: "Rendezés A-Z",
+    SortZtoA: "Z rendezése",
+    and: "És",
 
     PivotTableFieldList: "Kimutatás Field List",
     ChooseFieldsToAddToReport: "Válasszon mezőket további jelenteni:",
@@ -1197,7 +1328,7 @@ if (ej.RTE) ej.RTE.Locale["hu-HU"] = {
 	imageBorder: "kép Border",
 	imageStyle: "Stílus",
 	linkText: "Szöveg",
-	linkToolTip: "Tooltip",
+	linkTooltipLabel: "Tooltip",
 	html5Support: "Ez az eszköz ikon csak akkor engedélyezett, a HTML5 támogatott böngészők",
 	linkOpenInNewWindow: "Link megnyitása új ablakban",
 	tableColumns: "száma az oszlopok",
@@ -1267,7 +1398,7 @@ if (ej.RTE) ej.RTE.Locale["hu-HU"] = {
 	lowerroman: "alsó Roman",
 	upperroman: "felső Roman",
 	none: "Egyik sem",
-	linktooltip: "ctrl + klikk, hogy kövesse a linket",
+	linkTooltip: "ctrl + klikk, hogy kövesse a linket",
 	charSpace: "Karakterek (szóköz)",
 	charNoSpace: "Karakterek (szóköz nélkül)",
 	wordCount: "Szavak száma",
@@ -1287,6 +1418,10 @@ if (ej.RTE) ej.RTE.Locale["hu-HU"] = {
 	Replace: "Cserélje",
 	ReplaceAll: "Az összes cseréje",
 	FindErrorMsg: "Nem található a megadott szót.",
+	customFontColor:"További színek...",
+	customBGColor:"További színek...",
+	TransBGColor:"átlátszó"
+    
 };
 if (ej.Schedule) ej.Schedule.Locale["hu-HU"] = {
     ReminderWindowTitle: "emlékeztető ablak",
@@ -1387,6 +1522,10 @@ if (ej.Schedule) ej.Schedule.Locale["hu-HU"] = {
     DeleteConfirmation: "Biztos, hogy törölni akarja ezt a találkozót?",
     Time: "Idő",
     EmptyResultText: "nincs javaslat",
+    BlockIntervalAlertTitle: "Éber",
+    BlockIntervalError: "A kiválasztott időintervallum blokkolt és nem érhető el a kiválasztáshoz.",
+    RecurrenceDateValidation: "Néhány hónapnál kevesebb a kijelölt dátum. Ezekben a hónapokban az esemény bekövetkezik a hónap utolsó napján.",
+    SeriesChangeAlert: "A sorozat konkrét példányaiban végrehajtott módosítások törlődnek, és ezek a találkozók újra megegyeznek a sorozattal."
 };
 if (ej.Spreadsheet) ej.Spreadsheet.Locale["hu-HU"] = {
     Cut: "Vágott",
@@ -1413,21 +1552,27 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["hu-HU"] = {
     SortNewesttoOldest: "Rendezés Legújabb elöl",
     Insert: "Insert",
     InsertTitle: "Cellák beszúrása",
-    InsertContent: "Új cellák, sorok vagy oszlopok a munkafüzet. <br /> <br /> FYI: A be több sort vagy oszlopot egy időben, jelöljön ki több sort, illetve oszlopot a lapot, és kattintson a Beszúrás gombra.",
+    InsertContent: "Új cellák, sorok vagy oszlopok a munkafüzet.",
+    MultipleInsertContent: " FYI: A be több sort vagy oszlopot egy időben, jelöljön ki több sort, illetve oszlopot a lapot, és kattintson a Beszúrás gombra.",
     InsertSBContent: "Add cellák, sorok, oszlopok, vagy lapokat a munkafüzetet.",
     Delete: "Töröl",
     DeleteTitle: "Cellák törlése",
-    DeleteContent: "Törlés cellák, sorok, oszlopok, illetve a lapokat a munkafüzetben. <br /> <br /> FYI: törléséhez több soros vagy oszlopos egy időben, jelöljön ki több sort, illetve oszlopot a lapot, és kattintson a Törlés gombra.",
+    DeleteContent: "Törlés cellák, sorok, oszlopok, illetve a lapokat a munkafüzetben.",
+    MultipleDeleteContent: " FYI: törléséhez több soros vagy oszlopos egy időben, jelöljön ki több sort, illetve oszlopot a lapot, és kattintson a Törlés gombra.",
     FindSelectTitle: "Keresés és kijelölés",
     FindSelectContent: "Kattints ide lehetőségek megtalálására szöveget a dokumentumban.",
     CalculationOptions: "számítási beállítások",
     CalcOptTitle: "számítási beállítások",
-    CalcOptContent: "Válassza képletek kiszámítása automatikusan vagy manuálisan. <br/> Ha a változás, amely befolyásolja az érték, táblázatkezelő automatikusan újratervezi azt.",
+    CalcOptContent: "Válassza képletek kiszámítása automatikusan vagy manuálisan. ",
+    CalcOptRecalcContent: "Ha a változás, amely befolyásolja az érték, táblázatkezelő automatikusan újratervezi azt.",
     CalculateSheet: "Számítsuk Sheet",
     CalculateNow: "Számolás",
-    CalculateNowContent: "Számítsuk ki a teljes munkafüzetet most. <br/> Csak akkor kell használni, ha az automatikus számítás ki van kapcsolva.",
-    CalculateSheetContent: "Számítsuk az aktív lap most. <br/> Csak akkor kell használni, ha az automatikus számítás ki van kapcsolva.",
+    CalculateNowContent: "Számítsuk ki a teljes munkafüzetet most.",
+    CalculateNowTurnOffContent: " Csak akkor kell használni, ha az automatikus számítás ki van kapcsolva.",
+    CalculateSheetContent: "Számítsuk az aktív lap most.",
+    CalculateSheetTurnOffContent: " Csak akkor kell használni, ha az automatikus számítás ki van kapcsolva.",
     Title: "táblázatkezelő",
+    ColorPicker: "Színválasztó",
     Ok: "rendben",
     Cancel: "Törölni",
     Alert: "Nem ezt a kijelölt cellatartomány. Válasszon ki egy cellát tartományon belül az adatokat, majd próbálja újra.",
@@ -1462,6 +1607,10 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["hu-HU"] = {
     AlignCenterContent: "Középre a tartalom.",
     AlignRight: "Jobbra igazítás",
     AlignRightContent: "Állítsa be a tartalmat a jobb oldalon.",
+    IncreaseIndent: "Behúzás növelése",
+    IncreaseIndentContent: "Mozgatni a tartalmat távolabb a cellahatár.",
+    DecreaseIndent: "Behúzás csökkentése",
+    DecreaseIndentContent: "Mozgás a tartalom közelebb az cellahatár.",
     Undo: "kibont",
     Redo: "Újra",
     NumberFormat: "számformátum",
@@ -1482,6 +1631,7 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["hu-HU"] = {
     Fill: "Tölt",
     ExportXL: "Excel",
     ExportCsv: "CSV",
+    ExportPdf: "PDF",
     SaveXml: "Save XML",
     BackgroundColor: "Fill Color",
     BGContent: "Színezd a háttérben a sejtek, hogy azok kitűnjön.",
@@ -1594,7 +1744,8 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["hu-HU"] = {
     TableStyleOptions: "Első oszlop / utolsó oszlop / Total Row / Filter gomb",
     Format: "Formátum",
     NameManager: "név menedzser",
-    NameManagerContent: "Létrehozása, szerkesztése, törlése, és megtalálja az összes használt nevek a munkafüzetben. <br /> <br /> A nevek használhatók képletek helyettesítő cellahivatkozások.",
+    NameManagerContent: "Létrehozása, szerkesztése, törlése, és megtalálja az összes használt nevek a munkafüzetben.",
+    NameManagerFormulaContent: " A nevek használhatók képletek helyettesítő cellahivatkozások.",
     DefinedNames: "megadott nevek",
     DefineName: "Adjuk neve",
     DefineNameContent: "Meghatározása és alkalmazása neveket.",
@@ -1725,10 +1876,17 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["hu-HU"] = {
     HideSheet: "Elrejt",
     UnhideSheet: "felfedése",
     SheetRenameAlert: "Ez a név már foglalt. Próbáljon ki egy másikat.",
-    SheetRenameEmptyAlert: "Beírt érvénytelen név egy lapot. Győződjön meg arról, hogy: <ul> <li> A név a beírt nem haladja meg a 31 karakter. </ Li> <li> A neve nem tartalmazhatja a következő karaktereket: \ /? * [Vagy] </ li> <li> Nem hagyja el a nevét üresen. </ Li> </ ul>",
+    SheetRenameEmptyAlert: "Beírt érvénytelen név egy lapot. Győződjön meg arról, hogy: ",
+    SheetRenameEmptyCharExceedAlert: " A név a beírt nem haladja meg a 31 karakter.",
+    SheetRenameEmptySplCharAlert: " A neve nem tartalmazhatja a következő karaktereket:",
+    SheetRenameEmptyBlankAlert: " Nem hagyja el a nevét üresen.",
     SheetDeleteAlert: "Akkor törlése nem vonható vissza lap, és lehet, hogy eltávolítja néhány adatot. Ha nincs szükség rá, az OK gombra kattintva törölheti.",
     SheetDeleteErrorAlert: "A munkafüzet tartalmaznia kell legalább egy látható munkalap. Elrejteni, törölni vagy áthelyezni a kiválasztott lapot, akkor először be kell helyeznie egy új lapot, vagy megzavar egy lap, amely már el van rejtve.",
     CtrlKeyErrorAlert: "Ez a parancs nem használható a többszörös kiválasztás.",
+    ClipboardAccessError: "Az Ön böngészője nem tud hozzáférni a vágólapra, használja ezeket a hivatkozásokat:",
+    ClipboardAccessCutError: "Vágott = Ctrl + X",
+    ClipboardAccessCopyError: "Másolat = Ctrl + C",
+    ClipboardAccessPasteError: "Paszta = Ctrl + V",
     MoveToEnd: "Move To End",
     Beforesheet: "Mielőtt mérleg:",
     CreateaCopy: "Készítsen másolatot",
@@ -1914,13 +2072,15 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["hu-HU"] = {
     RedoContent: "A legutóbbi művelet.",
     TableTitle: "Táblázat (Ctrl + T)",
     HyperLinkTitle: "Link hozzáadása (Ctrl + K)",
-    HyperLinkContent: "Készítsen egy linket a dokumentum gyors hozzáférést biztosít a weboldalak és fájlok. <br /> <br /> A hivatkozások is eljuthat olyan helyekre, a dokumentumban.",
+    HyperLinkContent: "Készítsen egy linket a dokumentum gyors hozzáférést biztosít a weboldalak és fájlok.",
+    HyperLinkPlaceContent: " A hivatkozások is eljuthat olyan helyekre, a dokumentumban.",
     NewCommentTitle: "Megjegyzés beszúrása",
     NewCommentContent: "Adj hozzá egy megjegyzést erről a dokumentum egy részét.",
     RefreshTitle: "felfrissít",
     RefreshContent: "Szerezd meg a legújabb adatokat a forrás csatlakozik az aktív cella",
     FieldListTitle: "Field List",
-    FieldListContent: "Megjelenítése vagy elrejtése a mezők listája. <br /> <br /> A mező lista lehetővé teszi, hogy adjunk, és távolítsa el mezők a kimutatás",
+    FieldListContent: "Megjelenítése vagy elrejtése a mezők listája.",
+    FieldListRemoveContent: " A mező lista lehetővé teszi, hogy adjunk, és távolítsa el mezők a kimutatás",
     AddChartElement: "Add diagramelemre",
     AddChartElementContent: "Add elemek a létrehozott táblázatot.",
     SwitchRowColumn: "Kapcsoló sor / oszlop",
@@ -2048,6 +2208,26 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["hu-HU"] = {
     CellTypeAlert: "Ez a művelet nem engedélyezett a sejttípus alkalmazott tartományban.",
     PivotOverlapAlert: "Kimutatásjelentések nem nyúlhat más Kimutatásjelentés",
     NoCellFound: "Nem sejtet találtunk",
+    CorrectArgument: "Kérjük, adja meg a helyes érvelés",
+    CorrectFormula: "Kérjük, adja meg a helyes képlet",
+    CorrectCellAddress: "Kérjük, adja meg a helyes cellacímet",
+    ChartType: "Diagramtípus",
+    NumberValidationAlert: "A Maximum nagyobbnak kell lennie, vagy egyenlő, mint minimális",
+    DateValidationAlert: "A befejezés dátuma nem lehet nagyobb vagy egyenlő, mint Kezdés dátuma",
+    TimeValidationAlert: "Az End Time nagyobbnak kell lennie, vagy egyenlő, mint Start Time",
+    NewRuleAlert: "Van egy kis probléma ezzel a képlettel",
+    DragAlert: "A parancs nem lehetett befejezni, ahogy próbál mozogni sejtek a szűrő tartományban. Válassza ki a tartományban ki a szűrőt tartományt, és próbálkozzon újra a parancsot.",
+    OR: "vagy",
+    HOME: "OTTHON",
+    INSERT: "INSERT",
+    DATATAB: "ADAT",
+    PAGELAYOUT: "OLDAL ELRENDEZÉS",
+    REVIEW: "FELÜLVIZSGÁLAT",
+    OTHERS: "EGYÉB",
+    FORMAT: "Formátum",
+    DESIGN: "TERVEZÉS",
+    CHARTDESIGN: "Könyv design",
+    ANALYZE: "elemez"
 };
 if (ej.TreeGrid) ej.TreeGrid.Locale["hu-HU"] = {
     toolboxTooltipTexts: {
@@ -2123,7 +2303,29 @@ if (ej.TreeGrid) ej.TreeGrid.Locale["hu-HU"] = {
         dropdownTableValue: "Érték",
         addData: "hozzáad",
         deleteData: "eltávolít",
-        allowCellSelection: "Hagyjuk Cell Selection"
+        allowCellSelection: "Hagyjuk Cell Selection",
+        showInColumnChooser: "Megjelenítés Oszlopok megjelenítése",
+        displayAsCheckbox: "Kijelző Amint Checkbox",
+        clipMode: "Clip Mode",
+        tooltip: "Tooltip",
+        headerTooltip: "Fejes Tooltip"
+    },
+    editTypeTexts: {
+        string: "Húr",
+        numeric: "numerikus",
+        datePicker: "Dátum választó",
+        dateTimePicker: "Dátum Időválasztó",
+        dropdown: "Ledob",
+        boolean: "logikai"
+    },
+    textAlignTypes: {
+        right: "Jobb",
+        left: "Balra",
+        center: "Központ"
+    },
+    clipModeTexts: {
+        clip: "Csipesz",
+        ellipsis: "szókihagyás"
     },
     columnDialogTitle: {
         insertColumn: "oszlop beszúrása",

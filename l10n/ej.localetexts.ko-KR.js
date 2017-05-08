@@ -130,7 +130,7 @@ if (ej.ExcelFilter) ej.ExcelFilter.Locale["ko-KR"] = {
     title: "사용자 정의 필터",
     PredicateAnd: "과",
     PredicateOr: "또는",
-    Ok: "그래",
+    OK: "그래",
     MatchCase: "경기 케이스",
     Cancel: "취소",
     NoResult: "일치하는 항목 없음",
@@ -256,7 +256,7 @@ if (ej.Gantt) ej.Gantt.Locale["ko-KR"] = {
         baselineStartDate: "베이스 라인 시작 날짜",
         baselineEndDate: "기본 종료 날짜",
         WBS: "WBS",
-        WBSpredecessor: "WBS의 선행",
+        WBSPredecessor: "WBS의 선행",
         dialogCustomFieldName: "열 이름",
         dialogCustomFieldValue: "값",
         notes: "노트",
@@ -272,7 +272,8 @@ if (ej.Gantt) ej.Gantt.Locale["ko-KR"] = {
         deleteButton: "지우다",
         cancelButton: "취소",
         addPredecessor: "새로운 걸 더하다",
-        removePredecessor: "풀다"
+        removePredecessor: "풀다",
+        addButton: "더하다",
     },
     columnDialogTexts: {
         field: "들",
@@ -291,7 +292,28 @@ if (ej.Gantt) ej.Gantt.Locale["ko-KR"] = {
         dropdownTableValue: "값",
         addData: "더하다",
         deleteData: "없애다",
-        allowCellSelection: "셀 선택 허용"
+        allowCellSelection: "셀 선택 허용",
+        displayAsCheckbox: "확인란으로 표시",
+        clipMode: "클립 모드",
+        tooltip: "툴팁",
+        headerTooltip: "머리글 설명"
+    },
+    editTypeTexts: {
+        string: "끈",
+        numeric: "숫자",
+        datePicker: "날짜 선택기",
+        dateTimePicker: "날짜 시간 선택기",
+        dropdown: "쓰러지 다",
+        boolean: "부울"
+    },
+    textAlignTypes: {
+        right: "권리",
+        left: "왼쪽",
+        center: "센터"
+    },
+    clipModeTexts: {
+        clip: "클립",
+        ellipsis: "생략"
     },
     toolboxTooltipTexts: {
         addTool: "더하다",
@@ -307,7 +329,8 @@ if (ej.Gantt) ej.Gantt.Locale["ko-KR"] = {
         nextTimeSpanTool: "다음 시간 범위",
         prevTimeSpanTool: "이전 시간 범위",
         criticalPathTool: "중요 경로",
-        excelExportTool: "엑셀 내보내기"
+        excelExportTool: "엑셀 내보내기",
+        pdfExportTool: "PDF 내보내기"
     },
     durationUnitTexts: {
         days: "일",
@@ -394,12 +417,10 @@ if (ej.Grid) ej.Grid.Locale["ko-KR"] = {
     DeleteOperationAlert: "삭제 작업을 위해 선택된 레코드가 없습니다",
     EditOperationAlert: "편집 작업을 위해 선택된 레코드가 없습니다",
     SaveButton: "구하다",
-    OkButton: "그래",
+    OKButton: "그래",
     CancelButton: "취소",
     EditFormTitle: "의 세부 사항",
     AddFormTitle: "새 레코드 추가",
-    Notactionkeyalert: "이 키 조합을 사용할 수 없습니다",
-    Keyconfigalerttext: "이 키 조합이 이미 할당 된",
     GroupCaptionFormat: "{{:headerText}}: {{:key}} - {{:count}} {{if count == 1 }} 목 {{else}} 항목 {{/if}} ",
     BatchSaveConfirm: "당신은 변경 사항을 저장 하시겠습니까?",
     BatchSaveLostChanges: "저장되지 않은 변경 사항이 손실됩니다. 당신은 당신이 계속 하시겠습니까?",
@@ -558,6 +579,10 @@ if (ej.PivotClient) ej.PivotClient.Locale["ko-KR"] = {
     IsGreaterThanOrEqualTo: "는 보다 크거나 같음",
     IsLessThan: "덜",
     IsLessThanOrEqualTo: "이 또는 낮거나 같아야",
+    ClearSorting: "정렬 지우기",
+    ClearFilterFrom: "지우기 필터에서",
+    SortAtoZ: "A~z 정렬",
+    SortZtoA: "Z 정렬",
 
     DeferUpdate: "연기 업데이트",
     MDXQuery: "MDX 쿼리",
@@ -675,7 +700,19 @@ if (ej.PivotClient) ej.PivotClient.Locale["ko-KR"] = {
     SetReportNameAlertMsg: "보고서 설정 이름을 입력하십시오.",
     Search: "검색",
     MultipleItems: "여러 항목",
-    All: "모든"
+    All: "모든",
+    NoReports: "Db에서 보고서를 찾을 수 없습니다.",
+    CalculatedMember: "계산 멤버",
+    Caption: "캡션:",
+    Expression: "표현식:",
+    MemberType: "멤버 형식:",
+    FormatString: "형식 문자열:",
+    MultipleMeasure: "둘 이상의 측정할 수 없습니다 썬..",
+    DuplicateCalcMeasure: "같은 이름의 계산 멤버 이미 존재합니다.",
+    EmptyField: "계산 멤버 이름 또는 식을 비워 둘 수 없음.",
+    EmptyFormat: "계산 멤버 형식 문자열이 비어 있습니다.",
+    Warning: "경고",
+    Confirm: "계산 멤버 같은 이름이 이미 존재합니다. 그것들을 대체하기 위해 남편의 손에서 인해?"
 };
 if (ej.PivotGauge) ej.PivotGauge.Locale["ko-KR"] = {
     RevenueGoal: "수익 목표",
@@ -744,6 +781,85 @@ if (ej.PdfViewer) ej.PdfViewer.Locale["ko-KR"] = {
             headerText: '다운로드',
             contentText: 'PDF 문서 다운로드.'
         },
+        highlight: {
+            headerText: '텍스트 강조 표시',
+            contentText: 'PDF 페이지에서 텍스트를 강조 표시하십시오.',
+        },
+        strikeout: {
+            headerText: '텍스트를 치십시오',
+            contentText: 'PDF 페이지에서 텍스트를 치십시오.',
+        },
+        underline: {
+            headerText: '밑줄 텍스트',
+            contentText: 'PDF 페이지의 텍스트에 밑줄을 긋습니다.',
+        },
+    },
+    contextMenu: {
+        copy: {
+            contentText: '부',
+        },
+        googleSearch: {
+            contentText: 'Google 검색',
+        },
+        Find: {
+            contentText: '발견:',
+        },
+        matchCase: {
+            contentText: '성냥개비',
+        },
+        auto: {
+            contentText: '자동',
+        },
+        openPopup: {
+            contentText: 'OpenPopup',
+        },
+        Delete: {
+            contentText: '지우다',
+        },
+        properties: {
+            contentText: '속성들....',
+        },
+    },
+    propertyWindow: {
+        underlineProperties: {
+            contentText: "underlineProperties"
+        },
+        strikeOutProperties: {
+            contentText: "StrikeOutProperties"
+        },
+        highlightProperties: {
+            contentText: "HighlightProperties"
+        },
+        appearance: {
+            contentText: "외관"
+        },
+        general: {
+            contentText: "일반"
+        },
+        color: {
+            contentText: "색깔:"
+        },
+        opacity: {
+            contentText: "불투명:"
+        },
+        author: {
+            contentText: "저자:"
+        },
+        subject: {
+            contentText: "제목:"
+        },
+        modified: {
+            contentText: "수정 된:"
+        },
+        ok: {
+            contentText: "승인"
+        },
+        cancel: {
+            contentText: "취소"
+        },
+        locked: {
+            contentText: "잠긴"
+        }
     },
 };
 if (ej.PercentageTextbox) ej.PercentageTextbox.Locale["ko-KR"] = {
@@ -760,6 +876,11 @@ if (ej.PivotGrid) ej.PivotGrid.Locale["ko-KR"] = {
     IsGreaterThanOrEqualTo: "는 보다 크거나 같음",
     IsLessThan: "덜",
     IsLessThanOrEqualTo: "이 또는 낮거나 같아야",
+    ClearSorting: "정렬 지우기",
+    ClearFilterFrom: "지우기 필터에서",
+    SortAtoZ: "A~z 정렬",
+    SortZtoA: "Z 정렬",
+    and: "및",
 
     NumberFormatting: "번호 형식",
     FrozenHeaders: "냉동 머리글",
@@ -930,7 +1051,12 @@ if (ej.PivotGrid) ej.PivotGrid.Locale["ko-KR"] = {
     CalcValue: "계산된 필드 값은 영역 필드에 삽입할 수 있습니다.",
     MultipleItems: "여러 항목",
     All: "모든",
-    Search: "검색"
+    Search: "검색",
+    ColumnResize: "열 크기 조정",
+    Layouts: "레이아웃",
+    NormalLayout: "일반 레이아웃",
+    NormalTopSummary: "일반 최상위 요약 레이아웃",
+    NoSummaries: "요약 레이아웃 없음"
 };
 if (ej.PivotPager) ej.PivotPager.Locale["ko-KR"] = {
     SeriesPage: "시리즈 페이지",
@@ -949,6 +1075,11 @@ if (ej.PivotSchemaDesigner) ej.PivotSchemaDesigner.Locale["ko-KR"] = {
     IsGreaterThanOrEqualTo: "는 보다 크거나 같음",
     IsLessThan: "덜",
     IsLessThanOrEqualTo: "이 또는 낮거나 같아야",
+    ClearSorting: "정렬 지우기",
+    ClearFilterFrom: "지우기 필터에서",
+    SortAtoZ: "A~z 정렬",
+    SortZtoA: "Z 정렬",
+    and: "및",
 
     PivotTableFieldList: "피벗 테이블 필드 목록",
     ChooseFieldsToAddToReport: "보고서에 추가 할 필드를 선택합니다 :",
@@ -1198,7 +1329,7 @@ if (ej.RTE) ej.RTE.Locale["ko-KR"] = {
 	imageBorder: "이미지 테두리",
 	imageStyle: "스타일",
 	linkText: "본문",
-	linkToolTip: "도움말",
+	linkTooltipLabel: "도움말",
 	html5Support: "단지 HTML5에서 사용이 도구 아이콘이 브라우저 지원",
 	linkOpenInNewWindow: "새 창에서 링크 열기",
 	tableColumns: "열 헤아 렸어요",
@@ -1268,7 +1399,7 @@ if (ej.RTE) ej.RTE.Locale["ko-KR"] = {
 	lowerroman: "낮은 로마",
 	upperroman: "위 로마",
 	none: "없음",
-	linktooltip: "Ctrl + 링크를 클릭",
+	linkTooltip: "Ctrl + 링크를 클릭",
 	charSpace: "(공백) 문자",
 	charNoSpace: "문자 (공백 없음)",
 	wordCount: "단어 수",
@@ -1288,6 +1419,10 @@ if (ej.RTE) ej.RTE.Locale["ko-KR"] = {
 	Replace: "바꾸다",
 	ReplaceAll: "모두 바꾸기",
 	FindErrorMsg: "특정 단어를 찾을 수 없습니다.",
+	customFontColor:"더 많은 색상 ...",
+	customBGColor:"더 많은 색상 ...",
+	TransBGColor:"투명한"
+
 };
 if (ej.Schedule) ej.Schedule.Locale["ko-KR"] = {
     ReminderWindowTitle: "알림 창",
@@ -1388,6 +1523,10 @@ if (ej.Schedule) ej.Schedule.Locale["ko-KR"] = {
     DeleteConfirmation: "이 약속을 삭제 하시겠습니까?",
     Time: "시각",
     EmptyResultText: "제안 사항이 없습니다",
+    BlockIntervalAlertTitle: "경보",
+    BlockIntervalError: "선택한 시간 간격이 차단되어 선택할 수 없습니다.",
+    RecurrenceDateValidation: "어떤 달에는 선택한 날짜보다 적은 수가 있습니다. 이 달 동안은 해당 달의 마지막 날짜에 발생합니다.",
+    SeriesChangeAlert: "이 시리즈의 특정 인스턴스에 대한 변경 사항이 취소되고 해당 약속이 시리즈와 다시 일치합니다."
 };
 if (ej.Spreadsheet) ej.Spreadsheet.Locale["ko-KR"] = {
     Cut: "절단",
@@ -1414,20 +1553,25 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["ko-KR"] = {
     SortNewesttoOldest: "정렬 최신 오래된로",
     Insert: "끼워 넣다",
     InsertTitle: "삽입 세포",
-    InsertContent: ". 통합 문서에 새로운 셀, 행 또는 열을 추가 참고 /> <br을 <br : 한 번에 여러 행 또는 열을 삽입 시트에서 여러 행 또는 열을 선택하고 삽입을 클릭합니다.",
+    InsertContent: "새 셀, 행 또는 열을 통합 문서에 추가하십시오.",
+    MultipleInsertContent: "참고 : 한 번에 여러 행이나 열을 삽입하려면 시트에서 여러 행이나 열을 선택하고 삽입을 클릭하십시오.",
     InsertSBContent: "통합 문서에 셀, 행, 열 또는 시트를 추가합니다.",
     Delete: "지우다",
     DeleteTitle: "셀 삭제",
-    DeleteContent: ". 통합 문서에서 셀, 행, 열 또는 시트를 삭제 참고 /> <br을 <br : 한 번에 여러 행 또는 열을 삭제 시트에서 여러 행 또는 열을 선택하고 삭제를 클릭합니다.",
+    DeleteContent: ". 통합 문서에서 셀, 행, 열 또는 시트를 삭제 참고 /> <br을 <br : 한 번에 여러 행 또는 열을 삭제 시트에서 여러 행 또는 열을 선택하고 삭제를 클릭합니다.", DeleteContent: "통합 문서에서 셀, 행, 열 또는 시트를 삭제합니다.",
+    MultipleDeleteContent: "참고 : 한 번에 여러 행이나 열을 삭제하려면 시트에서 여러 행이나 열을 선택한 다음 삭제를 클릭하십시오.",
     FindSelectTitle: "찾기 및 선택",
     FindSelectContent: "문서에서 텍스트를 찾기위한 옵션을 보려면 여기를 클릭.",
     CalculationOptions: "계산 옵션",
     CalcOptTitle: "계산 옵션",
-    CalcOptContent: "자동 또는 수동으로 수식을 계산하기 위해 선택합니다. <BR/> <BR/> 당신이 값에 영향을 미치는 변경하면 스프레드 시트가 자동으로 계산됩니다.",
+    CalcOptContent: "수식을 자동 또는 수동으로 계산하도록 선택하십시오.",
+    CalcOptRecalcContent: "값에 영향을주는 변경을 수행하면 스프레드 시트가 자동으로 값을 다시 계산합니다.",
     CalculateSheet: "시트를 계산",
     CalculateNow: "지금 계산",
-    CalculateNowContent: "이제 전체 통합 문서를 계산합니다. <BR/> <BR/>에만 자동 계산이 꺼진 경우에는이를 사용해야합니다.",
-    CalculateSheetContent: "지금 현재 시트를 계산합니다. <BR/> <BR/>에만 자동 계산이 꺼진 경우에는이를 사용해야합니다.",
+    CalculateNowContent: "전체 통합 문서를 지금 계산하십시오.",
+    CalculateNowTurnOffContent: "자동 계산이 꺼져있는 경우에만 사용하면됩니다.",
+    CalculateSheetContent: "현재 활성 시트를 계산하십시오.",
+    CalculateSheetTurnOffContent: "자동 계산이 꺼져있는 경우에만 사용하면됩니다.",
     Title: "스프레드 시트",
     Ok: "그래",
     Cancel: "취소",
@@ -1595,7 +1739,8 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["ko-KR"] = {
     TableStyleOptions: "첫 번째 열 / 마지막 열 / 총 행 / 필터 버튼",
     Format: "체재",
     NameManager: "이름 관리자",
-    NameManagerContent: "생성, 편집, 삭제하고 통합 문서에 사용 된 모든 이름을 찾을 수 있습니다. /> 이름은 셀 참조에 대한 대체 등의 수식에서 사용할 수있는 /> <br <br.",
+    NameManagerContent: "통합 문서에 사용 된 모든 이름을 작성, 편집, 삭제하고 찾습니다.",
+    NameManagerFormulaContent: "이름은 수식에서 셀 참조의 대용으로 사용될 수 있습니다.",
     DefinedNames: "정의 된 이름",
     DefineName: "이름 정의",
     DefineNameContent: "정의하고 이름을 적용합니다.",
@@ -1726,7 +1871,10 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["ko-KR"] = {
     HideSheet: "숨는 장소",
     UnhideSheet: "숨기기 해제",
     SheetRenameAlert: "그 이름은 이미 사용 중입니다. 다른 하나를 사용해보십시오.",
-    SheetRenameEmptyAlert: "당신은 시트에 대한 잘못된 이름을 입력했습니다. 있는지 확인하십시오 : <UL> <LI> 31자를 초과하지 않는 사용자가 입력 한 이름 </ 리> <리> 이름은 다음과 같은 문자가 포함되어 있지 않습니다. \ /를? * [나] </ 리> <LI> 당신은 이름을 공백으로 남겨 두지 않았다. </ 리> </ UL>",
+    SheetRenameEmptyAlert: "시트에 유효하지 않은 이름을 입력했습니다. 다음 사항을 확인하십시오.",
+    SheetRenameEmptyCharExceedAlert: "입력하는 이름은 31자를 초과 할 수 없습니다.",
+    SheetRenameEmptySplCharAlert: "이름에 다음 문자가 포함되어 있지 않습니다.",
+    SheetRenameEmptyBlankAlert: "이름을 비워 두지 않았습니다.",
     SheetDeleteAlert: "당신은 시트를 삭제 취소 할 수 없습니다, 당신은 몇 가지 데이터를 제거 할 수 있습니다. 당신이 그것을 필요가없는 경우, 삭제 확인을 클릭합니다.",
     SheetDeleteErrorAlert: "통합 문서는 적어도 하나의 볼 워크 시트를 포함해야합니다. , 숨기기, 삭제 또는 선택한 시트를 이동하려면 먼저 새 시트를 삽입하거나 이미 숨겨져 시트 숨기기를 취소해야합니다.",
     CtrlKeyErrorAlert: "그 명령은 여러 선택에 사용할 수 없습니다.",
@@ -1915,13 +2063,15 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["ko-KR"] = {
     RedoContent: "마지막 작업을 다시 실행.",
     TableTitle: "표합니다 (Ctrl + T)",
     HyperLinkTitle: "하이퍼 링크를 추가합니다 (Ctrl + K)",
-    HyperLinkContent: "웹 페이지 및 파일에 빠르게 액세스 할 수 있도록 문서의 링크를 만듭니다. /> <br /> <br 하이퍼 링크는 문서의 장소에 당신을 데려 갈 수 있습니다.",
+    HyperLinkContent: "웹 페이지 및 파일에 빠르게 액세스 할 수 있도록 문서에 링크를 만듭니다.",
+    HyperLinkPlaceContent: "하이퍼 링크를 사용하면 문서의 위치로 이동할 수도 있습니다.",
     NewCommentTitle: "코멘트를 삽입",
     NewCommentContent: "문서의이 부분에 대한 메모를 추가합니다.",
     RefreshTitle: "새롭게 하다",
     RefreshContent: "현재 셀에 연결된 소스에서 최신 데이터를 가져옵니다",
     FieldListTitle: "필드 목록",
-    FieldListContent: "표시 또는 필드 목록을 숨 깁니다. <br /> 필드 목록 /> <br는 추가하고 피벗 테이블 보고서에서 필드를 제거 할 수 있습니다",
+    FieldListContent: "필드 목록을 표시하거나 숨 깁니다.",
+    FieldListRemoveContent: "필드 목록을 사용하여 피벗 테이블 보고서에서 필드를 추가 및 제거 할 수 있습니다.",
     AddChartElement: "차트 요소 추가",
     AddChartElementContent: "생성 된 차트에 요소를 추가합니다.",
     SwitchRowColumn: "스위치 행 / 열",
@@ -2049,6 +2199,36 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["ko-KR"] = {
     CellTypeAlert: "이 작업은 세포 유형 적용 범위에서 허용되지 않습니다.",
     PivotOverlapAlert: "다른 피벗 테이블 보고서를 겹치지 수있는 피벗 테이블 보고서",
     NoCellFound: "어떤 세포는 발견되지 않았다",
+    ColorPicker: "색상 선택기",
+    IncreaseIndent: "들여 쓰기 늘리기",
+    IncreaseIndentContent: "셀 테두리에서 콘텐츠를 멀리 옮깁니다.",
+    DecreaseIndent: "들여 쓰기 줄이기",
+    DecreaseIndentContent: "컨텐츠를 셀 경계에 가깝게 이동하십시오.",
+    ExportPdf: "PDF",
+    ClipboardAccessError: "브라우저가 클립 보드에 액세스 할 수 없으므로 다음 바로 가기를 사용하십시오.",
+    ClipboardAccessCutError: "잘라 내기 = Ctrl + X",
+    ClipboardAccessCopyError: "복사 = Ctrl + C",
+    ClipboardAccessPasteError: "붙여 넣기 = Ctrl + V",
+    CorrectArgument: "올바른 인수를 입력하십시오.",
+    CorrectFormula: "올바른 수식을 입력하십시오.",
+    CorrectCellAddress: "올바른 셀 주소를 입력하십시오.",
+    ChartType: "차트 유형",
+    NumberValidationAlert: "최대 값은 최소값보다 크거나 같아야합니다.",
+    DateValidationAlert: "종료 날짜는 시작 날짜보다 크거나 같아야합니다.",
+    TimeValidationAlert: "종료 시간은 시작 시간보다 크거나 같아야합니다.",
+    NewRuleAlert: "이 공식에 문제가있다.",
+    DragAlert: "필터 범위 내에서 셀을 이동하려고하면 명령을 완료 할 수 없습니다. 필터 범위 밖의 범위를 선택하고 명령을 다시 시도하십시오.",
+    OR: "또는",
+    HOME: "집",
+    INSERT: "끼워 넣다",
+    DATATAB: "데이터",
+    PAGELAYOUT: "페이지 레이아웃",
+    REVIEW: "리뷰",
+    OTHERS: "기타",
+    FORMAT: "체재",
+    DESIGN: "디자인",
+    CHARTDESIGN: "차트 디자인",
+    ANALYZE: "분석"
 };
 if (ej.TreeGrid) ej.TreeGrid.Locale["ko-KR"] = {
     toolboxTooltipTexts: {
@@ -2124,7 +2304,29 @@ if (ej.TreeGrid) ej.TreeGrid.Locale["ko-KR"] = {
         dropdownTableValue: "값",
         addData: "더하다",
         deleteData: "없애다",
-        allowCellSelection: "셀 선택 허용"
+        allowCellSelection: "셀 선택 허용",
+        showInColumnChooser: "열 선택기에 표시",
+        displayAsCheckbox: "확인란으로 표시",
+        clipMode: "클립 모드",
+        tooltip: "툴팁",
+        headerTooltip: "머리글 설명"
+    },
+    editTypeTexts: {
+        string: "끈",
+        numeric: "숫자",
+        datePicker: "날짜 선택기",
+        dateTimePicker: "날짜 시간 선택기",
+        dropdown: "쓰러지 다",
+        boolean: "부울"
+    },
+    textAlignTypes: {
+        right: "권리",
+        left: "왼쪽",
+        center: "센터"
+    },
+    clipModeTexts: {
+        clip: "클립",
+        ellipsis: "생략"
     },
     columnDialogTitle: {
         insertColumn: "열 삽입",

@@ -130,7 +130,7 @@ if (ej.ExcelFilter) ej.ExcelFilter.Locale["sk-SK"] = {
     title: "vlastný filter",
     PredicateAnd: "A",
     PredicateOr: "OR",
-    Ok: "OK",
+    OK: "OK",
     MatchCase: "Match Case",
     Cancel: "Zrušiť",
     NoResult: "Žiadne zhody nenájdené",
@@ -256,7 +256,7 @@ if (ej.Gantt) ej.Gantt.Locale["sk-SK"] = {
         baselineStartDate: "Baseline Start Date",
         baselineEndDate: "Baseline Dátum ukončenia",
         WBS: "WBS",
-        WBSpredecessor: "WBS predchodca",
+        WBSPredecessor: "WBS predchodca",
         dialogCustomFieldName: "Názov stĺpec",
         dialogCustomFieldValue: "hodnota",
         notes: "Poznámky",
@@ -272,7 +272,8 @@ if (ej.Gantt) ej.Gantt.Locale["sk-SK"] = {
         deleteButton: "vymazať",
         cancelButton: "Zrušiť",
         addPredecessor: "Pridať nové",
-        removePredecessor: "odstrániť"
+        removePredecessor: "odstrániť",
+        addButton: "pridať",
     },
     columnDialogTexts: {
         field: "poľa",
@@ -291,7 +292,28 @@ if (ej.Gantt) ej.Gantt.Locale["sk-SK"] = {
         dropdownTableValue: "hodnota",
         addData: "pridať",
         deleteData: "odstrániť",
-        allowCellSelection: "Umožniť výber Cell"
+        allowCellSelection: "Umožniť výber Cell",
+        displayAsCheckbox: "Displej Ako zaškrtávacie políčko",
+        clipMode: "režim clip",
+        tooltip: "popisok",
+        headerTooltip: "header Popisok"
+    },
+    editTypeTexts: {
+        string: "povrázok",
+        numeric: "číselná",
+        datePicker: "date Picker",
+        dateTimePicker: "Date Time Picker",
+        dropdown: "rozbaľovací",
+        boolean: "boolean"
+    },
+    textAlignTypes: {
+        right: "Správny",
+        left: "ľavý",
+        center: "centrum"
+    },
+    clipModeTexts: {
+        clip: "klip",
+        ellipsis: "elipsa"
     },
     toolboxTooltipTexts: {
         addTool: "pridať",
@@ -302,12 +324,13 @@ if (ej.Gantt) ej.Gantt.Locale["sk-SK"] = {
         searchTool: "Vyhľadanie",
         indentTool: "zarážka",
         outdentTool: "predsadiť",
-        expandAllTool: "Rozbaliť všetko",
+        expandAllTool: "Zväčšiť všetko",
         collapseAllTool: "zbaliť všetko",
         nextTimeSpanTool: "vedľa timespan",
         prevTimeSpanTool: "Predchádzajúce OBDOBIE",
         criticalPathTool: "Kritická cesta",
-        excelExportTool: "export excel"
+        excelExportTool: "export excel",
+        pdfExportTool: "Export do formátu PDF"
     },
     durationUnitTexts: {
         days: "dni",
@@ -394,12 +417,10 @@ if (ej.Grid) ej.Grid.Locale["sk-SK"] = {
     DeleteOperationAlert: "vybraté pre operácie odstránenie žiadne záznamy",
     EditOperationAlert: "vybrané pre editačné operácie žiadne záznamy",
     SaveButton: "uložiť",
-    OkButton: "OK",
+    OKButton: "OK",
     CancelButton: "Zrušiť",
     EditFormTitle: "podrobnosti o",
     AddFormTitle: "Pridať nový záznam",
-    Notactionkeyalert: "Tento kľúč Kombinácia nie je k dispozícii",
-    Keyconfigalerttext: "Tento kľúč Kombinácia už bola priradená",
     GroupCaptionFormat: "{{:headerText}}: {{:key}} - {{:count}} {{if count == 1 }} položka {{else}} položky {{/if}} ",
     BatchSaveConfirm: "Ste si istí, že chcete uložiť zmeny?",
     BatchSaveLostChanges: "Neuložené zmeny budú stratené. Ste si istí, že chcete pokračovať?",
@@ -557,6 +578,10 @@ if (ej.PivotClient) ej.PivotClient.Locale["sk-SK"] = {
     IsGreaterThanOrEqualTo: "Je väčší alebo rovný",
     IsLessThan: "Menej než",
     IsLessThanOrEqualTo: "Je menší ako alebo rovný",­­
+    ClearSorting: "Jasné triedenia",
+    ClearFilterFrom: "Čistý filter z",
+    SortAtoZ: "Zoradiť od A po Z",
+    SortZtoA: "Zoradiť od Z po A",
 
     DeferUpdate: "odložiť aktualizácie",
     MDXQuery: "MDX dotazu",
@@ -674,7 +699,19 @@ if (ej.PivotClient) ej.PivotClient.Locale["sk-SK"] = {
     SetReportNameAlertMsg: "Prosím názov zostavy.",
     Search: "Vyhľadávanie",
     MultipleItems: "Viaceré položky",
-    All: "Všetky"
+    All: "Všetky",
+    NoReports: "Žiadne správy v DB",
+    CalculatedMember: "Vypočítajú členské",
+    Caption: "Skryté titulky:",
+    Expression: "Výraz:",
+    MemberType: "Členské typ:",
+    FormatString: "Formát reťazec:",
+    MultipleMeasure: "Viac ako jedno opatrenie nemôže byť plátky.",
+    DuplicateCalcMeasure: "Počíta s rovnakým názvom už existuje.",
+    EmptyField: "Vypočítajú členské výraz alebo názov nesmie byť prázdny.",
+    EmptyFormat: "Formát pre výpočet je prázdna.",
+    Warning: "Varovanie",
+    Confirm: "Počíta s rovnakým názvom už existuje. Z dôvodu chcete nahradiť?"
 };
 if (ej.PivotGauge) ej.PivotGauge.Locale["sk-SK"] = {
     RevenueGoal: "výnosy Cieľ",
@@ -743,6 +780,85 @@ if (ej.PdfViewer) ej.PdfViewer.Locale["sk-SK"] = {
             headerText: 'Stiahnuť ▼',
             contentText: 'Dokument na stiahnutie vo formáte PDF.'
         },
+        highlight: {
+            headerText: 'vrcholom Text',
+            contentText: 'Zvýraznenie textu v stránkach PDF.',
+        },
+        strikeout: {
+            headerText: 'prečiarknutie textu',
+            contentText: 'Nehodiace sa text na stránkach PDF.',
+        },
+        underline: {
+            headerText: 'podčiarknutie Text',
+            contentText: 'Podčiarknuť text v stránok PDF.',
+        },
+    },
+    contextMenu: {
+        copy: {
+            contentText: 'kópie',
+        },
+        googleSearch: {
+            contentText: 'Google Search',
+        },
+        Find: {
+            contentText: 'Nájsť:',
+        },
+        matchCase: {
+            contentText: 'zápas Case',
+        },
+        auto: {
+            contentText: 'Auto',
+        },
+        openPopup: {
+            contentText: 'OpenPopup',
+        },
+        Delete: {
+            contentText: 'Odstrániť',
+        },
+        properties: {
+            contentText: 'Vlastnosti....',
+        },
+    },
+    propertyWindow: {
+        underlineProperties: {
+            contentText: "UnderlineProperties"
+        },
+        strikeOutProperties: {
+            contentText: "StrikeOutProperties"
+        },
+        highlightProperties: {
+            contentText: "HighlightProperties"
+        },
+        appearance: {
+            contentText: "Vzhľad"
+        },
+        general: {
+            contentText: "Všeobecne"
+        },
+        color: {
+            contentText: "Farba:"
+        },
+        opacity: {
+            contentText: "Opacita:"
+        },
+        author: {
+            contentText: "Autor:"
+        },
+        subject: {
+            contentText: "Predmetu:"
+        },
+        modified: {
+            contentText: "Upravené:"
+        },
+        ok: {
+            contentText: "ok"
+        },
+        cancel: {
+            contentText: "Farba"
+        },
+        locked: {
+            contentText: "Zamknuté"
+        }
     },
 };
 if (ej.PercentageTextbox) ej.PercentageTextbox.Locale["sk-SK"] = {
@@ -759,6 +875,11 @@ if (ej.PivotGrid) ej.PivotGrid.Locale["sk-SK"] = {
     IsGreaterThanOrEqualTo: "Je väčší alebo rovný",
     IsLessThan: "Menej než",
     IsLessThanOrEqualTo: "Je menší ako alebo rovný",­­
+    ClearSorting: "Jasné triedenia",
+    ClearFilterFrom: "Čistý filter z",
+    SortAtoZ: "Zoradiť od A po Z",
+    SortZtoA: "Zoradiť od Z po A",
+    and: "A",
 
     NumberFormatting: "Formátovanie čísel",
     FrozenHeaders: "Mrazené hlavičky",
@@ -929,7 +1050,12 @@ if (ej.PivotGrid) ej.PivotGrid.Locale["sk-SK"] = {
     CalcValue: "Vypočítavané polia môžu byť zaradené iba hodnota plochy poľa",
     MultipleItems: "Viaceré položky",
     All: "Všetky",
-    Search: "Vyhľadávanie"
+    Search: "Vyhľadávanie",
+    ColumnResize: "Stĺpec Veľkosť",
+    Layouts:"Rozloženia",
+    NormalLayout: "Normálneho rozloženia",
+    NormalTopSummary: "Normálne hore prehľad usporiadania vodičov",
+    NoSummaries:"Žiadne zhrnutie usporiadania"
 };
 if (ej.PivotPager) ej.PivotPager.Locale["sk-SK"] = {
     SeriesPage: "Séria s",
@@ -948,6 +1074,11 @@ if (ej.PivotSchemaDesigner) ej.PivotSchemaDesigner.Locale["sk-SK"] = {
     IsGreaterThanOrEqualTo: "Je väčší alebo rovný",
     IsLessThan: "Menej než",
     IsLessThanOrEqualTo: "Je menší ako alebo rovný",­­
+    ClearSorting: "Jasné triedenia",
+    ClearFilterFrom: "Čistý filter z",
+    SortAtoZ: "Zoradiť od A po Z",
+    SortZtoA: "Zoradiť od Z po A",
+    and: "A",
 
     PivotTableFieldList: "Kontingenčnej tabuľky Zoznam polí",
     ChooseFieldsToAddToReport: "Zvoľte pole pre pridanie do správy:",
@@ -1197,7 +1328,7 @@ if (ej.RTE) ej.RTE.Locale["sk-SK"] = {
 	imageBorder: "hraničný Image",
 	imageStyle: "Štýl",
 	linkText: "text",
-	linkToolTip: "popisok",
+	linkTooltipLabel: "popisok",
 	html5Support: "Táto ikona nástroj len povolené v HTML5 podporovaných prehliadačov",
 	linkOpenInNewWindow: "Otvoriť odkaz v novom okne",
 	tableColumns: "No.of stĺpce",
@@ -1267,7 +1398,7 @@ if (ej.RTE) ej.RTE.Locale["sk-SK"] = {
 	lowerroman: "Dolné Roman",
 	upperroman: "horný Roman",
 	none: "nikto",
-	linktooltip: "ctrl + klik nasledovať odkaz",
+	linkTooltip: "ctrl + klik nasledovať odkaz",
 	charSpace: "Znakov (vrátane medzier)",
 	charNoSpace: "Znaky (bez medzier)",
 	wordCount: "Počet slov",
@@ -1287,6 +1418,9 @@ if (ej.RTE) ej.RTE.Locale["sk-SK"] = {
 	Replace: "vymeniť",
 	ReplaceAll: "nahradiť všetko",
 	FindErrorMsg: "Nemožno nájsť zadaný slovo.",
+	customFontColor:"Ďalšie farby...",
+	customBGColor:"Ďalšie farby...",
+	TransBGColor:"priehľadný"
 };
 if (ej.Schedule) ej.Schedule.Locale["sk-SK"] = {
     ReminderWindowTitle: "okno pripomienka",
@@ -1387,6 +1521,10 @@ if (ej.Schedule) ej.Schedule.Locale["sk-SK"] = {
     DeleteConfirmation: "Ste si istí, že chcete zmazať túto udalosť?",
     Time: "čas",
     EmptyResultText: "žiadne návrhy",
+    BlockIntervalAlertTitle: "Upozornenie",
+    BlockIntervalError: "Vybraný časový interval bol zablokovaný a nie je k dispozícii na výber.",
+    RecurrenceDateValidation: "Niektoré mesiace majú menej ako vybrané dátumy. V týchto mesiacoch bude výskyt klesnúť na posledný deň v mesiaci.",
+    SeriesChangeAlert: "Zmeny vykonané v konkrétnych prípadoch tejto série budú zrušené a tieto stretnutia sa znova zhodujú s touto sériou."
 };
 if (ej.Spreadsheet) ej.Spreadsheet.Locale["sk-SK"] = {
     Cut: "rez",
@@ -1413,20 +1551,25 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["sk-SK"] = {
     SortNewesttoOldest: "Usporiadať najnovšie až najstaršie",
     Insert: "Insert",
     InsertTitle: "vložiť bunky",
-    InsertContent: "Pridať nové bunky, riadky alebo stĺpce do zošita <br /> <br /> S pozdravom :. Ak chcete vložiť viac riadkov alebo stĺpcov naraz, vyberte viac riadkov alebo stĺpcov v liste a na tlačidlo Vložiť.",
+    InsertContent: "Pridať nové bunky, riadky alebo stĺpce do zošita", 
+    MultipleInsertContent:" S pozdravom :. Ak chcete vložiť viac riadkov alebo stĺpcov naraz, vyberte viac riadkov alebo stĺpcov v liste a na tlačidlo Vložiť.",
     InsertSBContent: "Pridať bunky, riadky, stĺpce alebo listy do zošita.",
     Delete: "vymazať",
     DeleteTitle: "odstrániť bunky",
-    DeleteContent: "Odstrániť bunky, riadky, stĺpce, alebo listov zo zošita <br /> <br /> S pozdravom :. Ak chcete odstrániť viac riadkov alebo stĺpcov naraz, vyberte viac riadkov alebo stĺpcov v liste a stlačte tlačidlo odstrániť.",
+    DeleteContent: "Odstrániť bunky, riadky, stĺpce, alebo listov zo zošita ",
+    MultipleDeleteContent: " S pozdravom :. Ak chcete odstrániť viac riadkov alebo stĺpcov naraz, vyberte viac riadkov alebo stĺpcov v liste a stlačte tlačidlo odstrániť.",
     FindSelectTitle: "Nájsť a vyberte",
     FindSelectContent: "Kliknite pre zobrazenie možností pre hľadanie textu v dokumente.",
     CalculationOptions: "voľby výpočtu",
     CalcOptTitle: "voľby výpočtu",
-    CalcOptContent: "Vyberte, či chcete automaticky alebo manuálne výpočet vzorcov. Práčke Ak urobíte zmenu, ktorá ovplyvňuje hodnotu, tabuľkový procesor ju automaticky prepočíta.",
+    CalcOptContent: "Vyberte, či chcete automaticky alebo manuálne výpočet vzorcov.", 
+    CalcOptRecalcContent: " Práčke Ak urobíte zmenu, ktorá ovplyvňuje hodnotu, tabuľkový procesor ju automaticky prepočíta.",
     CalculateSheet: "vypočítať Sheet",
     CalculateNow: "teraz vypočítať",
-    CalculateNowContent: "Vypočítať celý zošit teraz. Práčke Jediné, čo potrebujete použiť túto možnosť, ak je automatický výpočet vypnutý.",
-    CalculateSheetContent: "Vypočítajte aktívny hárok teraz. Práčke Jediné, čo potrebujete použiť túto možnosť, ak je automatický výpočet vypnutý.",
+    CalculateNowContent: "Vypočítať celý zošit teraz.", 
+    CalculateNowTurnOffContent: " Práčke Jediné, čo potrebujete použiť túto možnosť, ak je automatický výpočet vypnutý.",
+    CalculateSheetContent: "Vypočítajte aktívny hárok teraz. ", 
+    CalculateSheetTurnOffContent: "Práčke Jediné, čo potrebujete použiť túto možnosť, ak je automatický výpočet vypnutý.",
     Title: "tabuľkový procesor",
     Ok: "OK",
     Cancel: "Zrušiť",
@@ -1594,7 +1737,8 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["sk-SK"] = {
     TableStyleOptions: "Prvý stĺpec / Last Stĺpec / Total Row / Filter Button",
     Format: "formát",
     NameManager: "meno manažéra",
-    NameManagerContent: "Vytvárať, upravovať, mazať a nájsť všetky názvy používané v zošite. <br /> <br /> Mená môžu byť použité vo vzorkách ako náhrada za odkazy na bunky.",
+    NameManagerContent: "Vytvárať, upravovať, mazať a nájsť všetky názvy používané v zošite.", 
+    NameManager: "FormulaContent Mená môžu byť použité vo vzorkách ako náhrada za odkazy na bunky.",
     DefinedNames: "definované názvy",
     DefineName: "definovať názov",
     DefineNameContent: "Definovať a aplikovať mená.",
@@ -1725,7 +1869,10 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["sk-SK"] = {
     HideSheet: "skryť",
     UnhideSheet: "odkryť",
     SheetRenameAlert: "Tento názov je už obsadený. Skúste iný.",
-    SheetRenameEmptyAlert: "Zadali ste neplatný názov pre list. Uistite sa, že: <ul> <li> Meno, ktoré zadáte nepresahuje 31 znakov </ li> <li> názov neobsahuje žiadne z nasledujúcich znakov :. \ /? * [Alebo] </ li> <li> neopustil meno prázdne. </ Li> </ ul>",
+    SheetRenameEmptyAlert: "Zadali ste neplatný názov pre list. Uistite sa, že: ", 
+    SheetRenameEmptyCharExceedAlert: " Meno, ktoré zadáte nepresahuje 31 znakov ", 
+    SheetRenameEmptySplCharAlert: " názov neobsahuje žiadne z nasledujúcich znakov : ", 
+    SheetRenameEmptyBlankAlert: " neopustil meno prázdne.",
     SheetDeleteAlert: "Nemožno vrátiť späť zmazanie listy, a tie by mohli byť odstránenie niektoré dáta. Ak nepotrebujete ho kliknutím na tlačidlo OK odstrániť.",
     SheetDeleteErrorAlert: "Zošit musí obsahovať aspoň jeden viditeľný hárok. Ak chcete skryť, odstrániť alebo presunúť vybraný list, musíte najprv vložiť nový list alebo odkryť hárok, ktorý je už skrytý.",
     CtrlKeyErrorAlert: "Tento príkaz nemožno použiť na viac výberov.",
@@ -1914,13 +2061,15 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["sk-SK"] = {
     RedoContent: "Opakovať poslednú akciu.",
     TableTitle: "Tabuľka (Ctrl + T)",
     HyperLinkTitle: "Pridať hypertextový odkaz (Ctrl + K)",
-    HyperLinkContent: "Vytvorenie odkazu v dokumente pre rýchly prístup k webovým stránkam a súborom. <br /> <br /> hypertextové odkazy môžete si tiež vziať na miesta v dokumente.",
+    HyperLinkContent: "Vytvorenie odkazu v dokumente pre rýchly prístup k webovým stránkam a súborom.", 
+    HyperLinkPlaceContent: " hypertextové odkazy môžete si tiež vziať na miesta v dokumente.",
     NewCommentTitle: "Vložiť komentár",
     NewCommentContent: "Pridať poznámku k tejto časti dokumentu.",
     RefreshTitle: "Obnoviť",
     RefreshContent: "Získajte najnovšie dáta zo zdroja pripojeného k aktívnej bunky",
     FieldListTitle: "zoznam polí",
-    FieldListContent: "Zobraziť alebo skryť Zoznam polí. <br /> <br /> V poli so zoznamom umožňuje pridávať a odstraňovať poľa zo kontingenčnej tabuľky",
+    FieldListContent: "Zobraziť alebo skryť Zoznam polí.", 
+    FieldListRemoveContent: " V poli so zoznamom umožňuje pridávať a odstraňovať poľa zo kontingenčnej tabuľky",
     AddChartElement: "Pridajte graf prvkov",
     AddChartElementContent: "Pridať prvky do vytvoreného grafu.",
     SwitchRowColumn: "Prepínač riadok / stĺpec",
@@ -2048,6 +2197,36 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["sk-SK"] = {
     CellTypeAlert: "Táto operácia nie je povolená v bunkového typu použitého rozsahu.",
     PivotOverlapAlert: "Správa o kontingenčnej tabuľky sa nemôžu prekrývať inú zostavu kontingenčnej tabuľky",
     NoCellFound: "Žiadne bunky boli nájdené",
+    ColorPicker: "Color Picker",
+    IncreaseIndent: "Zväčšiť odsadenie",
+    IncreaseIndentContent: "Premiestniť obsah do väčšej vzdialenosti od hranice bunky.",
+    DecreaseIndent: "zmenšiť odsadenie",
+    DecreaseIndentContent: "Presunúť obsah bližšie k hraniciam bunky.",
+    ExportPdf: "PDF",
+    ClipboardAccessError: "Váš prehliadač prevýšenia prístup do schránky, takže používať tieto skratky:",
+    ClipboardAccessCutError: "Cut = Ctrl + X",
+    ClipboardAccessCopyError: "Kopírovať = Ctrl + C",
+    ClipboardAccessPasteError: "Vložiť = Ctrl + V",
+    CorrectArgument: "Zadajte prosím správne tvrdenie,",
+    CorrectFormula: "Prosím, zadajte správny vzorec",
+    CorrectCellAddress: "Zadajte správnu adresu bunky",
+    ChartType: "typ grafu",
+    NumberValidationAlert: "Maximálna musí byť väčšia ako alebo rovná Minimálna",
+    DateValidationAlert: "Koncové dátum musí byť väčšia ako alebo rovná Dátum začatia",
+    TimeValidationAlert: "The End Time musí byť väčšia ako alebo rovná Čas začiatku",
+    NewRuleAlert: "Je tu problém s týmto vzorcom",
+    DragAlert: "Príkaz nemožno dokončiť, ako ste sa snažia presunúť buniek v rozsahu filtra. Vyberte rozsah mimo rozsahu filtra a skúste príkaz znova.",
+    OR: "alebo",
+    HOME: "DOMOV",
+    INSERT: "INSERT",
+    DATATAB: "DATA",
+    PAGELAYOUT: "ROZLOŽENIE STRÁNKY",
+    REVIEW: "PRESKÚMANIE",
+    OTHERS: "OSTATNÉ",
+    FORMAT: "formát",
+    DESIGN: "DESIGN",
+    CHARTDESIGN: "graf dizajn",
+    ANALYZE: "analyzovať"
 };
 if (ej.TreeGrid) ej.TreeGrid.Locale["sk-SK"] = {
     toolboxTooltipTexts: {
@@ -2056,7 +2235,7 @@ if (ej.TreeGrid) ej.TreeGrid.Locale["sk-SK"] = {
         updateTool: "aktualizovať",
         deleteTool: "vymazať",
         cancelTool: "Zrušiť",
-        expandAllTool: "Rozbaliť všetko",
+        expandAllTool: "Zväčšiť všetko",
         collapseAllTool: "zbaliť všetko",
         pdfExportTool: "Export do formátu PDF",
         excelExportTool: "export excel"
@@ -2123,7 +2302,29 @@ if (ej.TreeGrid) ej.TreeGrid.Locale["sk-SK"] = {
         dropdownTableValue: "hodnota",
         addData: "pridať",
         deleteData: "odstrániť",
-        allowCellSelection: "Umožniť výber Cell"
+        allowCellSelection: "Umožniť výber Cell",
+        showInColumnChooser: "Show v stĺpci Chooser",
+        displayAsCheckbox: "Displej Ako zaškrtávacie políčko",
+        clipMode: "režim clip",
+        tooltip: "popisok",
+        headerTooltip: "header Popisok"
+    },
+    editTypeTexts: {
+        string: "povrázok",
+        numeric: "číselná",
+        datePicker: "date Picker",
+        dateTimePicker: "Date Time Picker",
+        dropdown: "rozbaľovací",
+        boolean: "boolean"
+    },
+    textAlignTypes: {
+        right: "Správny",
+        left: "ľavý",
+        center: "centrum"
+    },
+    clipModeTexts: {
+        clip: "klip",
+        ellipsis: "elipsa"
     },
     columnDialogTitle: {
         insertColumn: "vložiť stĺpec",

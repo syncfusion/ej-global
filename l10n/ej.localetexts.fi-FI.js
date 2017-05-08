@@ -130,7 +130,7 @@ if (ej.ExcelFilter) ej.ExcelFilter.Locale["fi-FI"] = {
     title: "Mukautettu suodatin",
     PredicateAnd: "JA",
     PredicateOr: "TAI",
-    Ok: "kunnossa",
+    OK: "kunnossa",
     MatchCase: "Match Case",
     Cancel: "Peruuttaa",
     NoResult: "Ei hakua vastaavia tuloksia",
@@ -256,7 +256,7 @@ if (ej.Gantt) ej.Gantt.Locale["fi-FI"] = {
         baselineStartDate: "Baseline aloituspäivä",
         baselineEndDate: "Baseline Päättymispäivä",
         WBS: "WBS",
-        WBSpredecessor: "WBS edeltäjä",
+        WBSPredecessor: "WBS edeltäjä",
         dialogCustomFieldName: "sarake Name",
         dialogCustomFieldValue: "Arvo",
         notes: "Huomautuksia",
@@ -272,7 +272,8 @@ if (ej.Gantt) ej.Gantt.Locale["fi-FI"] = {
         deleteButton: "Poistaa",
         cancelButton: "Peruuttaa",
         addPredecessor: "Lisää uusi",
-        removePredecessor: "Poistaa"
+        removePredecessor: "Poistaa",
+        addButton: "Lisätä",
     },
     columnDialogTexts: {
         field: "Ala",
@@ -291,7 +292,28 @@ if (ej.Gantt) ej.Gantt.Locale["fi-FI"] = {
         dropdownTableValue: "Arvo",
         addData: "Lisätä",
         deleteData: "Poistaa",
-        allowCellSelection: "Salli Cell Selection"
+        allowCellSelection: "Salli Cell Selection",
+        displayAsCheckbox: "Näyttö Kun valintaruutu",
+        clipMode: "clip-tila",
+        tooltip: "tooltip",
+        headerTooltip: "header Tooltip"
+    },
+    editTypeTexts: {
+        string: "jono",
+        numeric: "numeerinen",
+        datePicker: "Päivämäärävalitsin",
+        dateTimePicker: "Päivämäärä Aika poimija",
+        dropdown: "Pudota alas",
+        boolean: "boolean"
+    },
+    textAlignTypes: {
+        right: "oikea",
+        left: "vasen",
+        center: "Keskusta"
+    },
+    clipModeTexts: {
+        clip: "klipsi",
+        ellipsis: "sananheitto"
     },
     toolboxTooltipTexts: {
         addTool: "Lisätä",
@@ -307,7 +329,8 @@ if (ej.Gantt) ej.Gantt.Locale["fi-FI"] = {
         nextTimeSpanTool: "Seuraava Timespan",
         prevTimeSpanTool: "Edellinen Timespan",
         criticalPathTool: "Kriittinen polku",
-        excelExportTool: "Excel Vie"
+        excelExportTool: "Excel Vie",
+        pdfExportTool: "PDF Export"
     },
     durationUnitTexts: {
         days: "päivää",
@@ -394,12 +417,10 @@ if (ej.Grid) ej.Grid.Locale["fi-FI"] = {
     DeleteOperationAlert: "Ei kirjaa valittu poistotoiminnon",
     EditOperationAlert: "Ei kirjaa valittu muokata toimintaa",
     SaveButton: "Tallentaa",
-    OkButton: "kunnossa",
+    OKButton: "kunnossa",
     CancelButton: "Peruuttaa",
     EditFormTitle: "tiedot",
     AddFormTitle: "Lisää uusi tieto",
-    Notactionkeyalert: "Tämä Key-yhdistelmä ei ole käytettävissä",
-    Keyconfigalerttext: "Key-yhdistelmä on jo määritetty",
     GroupCaptionFormat: "{{:headerText}}: {{:key}} - {{:count}} {{if count == 1 }} erä {{else}} kohdetta {{/if}} ",
     BatchSaveConfirm: "Oletko varma, että haluat tallentaa muutokset?",
     BatchSaveLostChanges: "Tallentamattomat muutokset menetetään. Oletko varma, että haluat jatkaa?",
@@ -557,6 +578,10 @@ if (ej.PivotClient) ej.PivotClient.Locale["fi-FI"] = {
     IsGreaterThanOrEqualTo: "On suurempi tai yhtä suuri kuin",
     IsLessThan: "On alle",
     IsLessThanOrEqualTo: "On pienempi tai yhtä suuri kuin",­­
+    ClearSorting: "Poista lajittelu",
+    ClearFilterFrom: "Tyhjennä suodatin",
+    SortAtoZ: "Lajittele A: sta Z: ksi",
+    SortZtoA: "Lajittele Z A: ksi",
 
     DeferUpdate: "Lykkää Update",
     MDXQuery: "MDX Kyselyn",
@@ -674,7 +699,19 @@ if (ej.PivotClient) ej.PivotClient.Locale["fi-FI"] = {
     SetReportNameAlertMsg: "Määritä raportin nimi.",
     Search: "Haku",
     MultipleItems: "Useita kohteita.",
-    All: "Kaikki"
+    All: "Kaikki",
+    NoReports: "Ei löytynyt DB",
+    CalculatedMember: "Jäsenvaltioiden on laskettu",
+    Caption: "Kuvateksti:",
+    Expression: "Lauseke:",
+    MemberType: "Jäsenvaltioiden tyyppi:",
+    FormatString: "Muotoilumerkkiosio:",
+    MultipleMeasure: "Useamman kuin yhden toimenpidettä ei voida viipaleina.",
+    DuplicateCalcMeasure: "Laskettu arvioija, jolla on sama nimi on jo olemassa.",
+    EmptyField: "Laskettu jäsenen nimen tai lauseke ei voi olla tyhjä.",
+    EmptyFormat: "Muodonmääritys on laskettu jäsenvaltioiden on tyhjä.",
+    Warning: "Varoitus",
+    Confirm: "Laskettu jäsenvaltioiden on jo olemassa. Koska haluat korvata?"
 };
 if (ej.PivotGauge) ej.PivotGauge.Locale["fi-FI"] = {
     RevenueGoal: "tulot Tavoite",
@@ -743,6 +780,85 @@ if (ej.PdfViewer) ej.PdfViewer.Locale["fi-FI"] = {
             headerText: 'Lataa',
             contentText: 'Lataa PDF-dokumentti.'
         },
+        highlight: {
+            headerText: 'korostaa tekstiä',
+            contentText: 'Korostaa tekstiä PDF-sivuja.',
+        },
+        strikeout: {
+            headerText: 'yliviivattu teksti',
+            contentText: 'Iskeä teksti PDF-sivuja.',
+        },
+        underline: {
+            headerText: 'alleviivata tekstiä',
+            contentText: 'Alleviivata tekstiä PDF-sivuja.',
+        },
+    },
+    contextMenu: {
+        copy: {
+            contentText: 'kopio',
+        },
+        googleSearch: {
+            contentText: 'Hae Googlesta',
+        },
+        Find: {
+            contentText: 'Löytö:',
+        },
+        matchCase: {
+            contentText: 'matchCase',
+        },
+        auto: {
+            contentText: 'Auto',
+        },
+        openPopup: {
+            contentText: 'OpenPopup',
+        },
+        Delete: {
+            contentText: 'poistaa',
+        },
+        properties: {
+            contentText: 'Ominaisuuksia....',
+        },
+    },
+    propertyWindow: {
+        underlineProperties: {
+            contentText: "Alleviivausperusteet"
+        },
+        strikeOutProperties: {
+            contentText: "StrikeOutProperties"
+        },
+        highlightProperties: {
+            contentText: "HighlightProperties"
+        },
+        appearance: {
+            contentText: "ulkomuoto"
+        },
+        general: {
+            contentText: "Yleinen"
+        },
+        color: {
+            contentText: "väri:"
+        },
+        opacity: {
+            contentText: "Opasiteetti:"
+        },
+        author: {
+            contentText: "Kirjailija:"
+        },
+        subject: {
+            contentText: "Aihe:"
+        },
+        modified: {
+            contentText: "Muutettu:"
+        },
+        ok: {
+            contentText: "ok"
+        },
+        cancel: {
+            contentText: "peruuttaa"
+        },
+        locked: {
+            contentText: "Lukittu"
+        }
     },
 };
 if (ej.PercentageTextbox) ej.PercentageTextbox.Locale["fi-FI"] = {
@@ -759,6 +875,11 @@ if (ej.PivotGrid) ej.PivotGrid.Locale["fi-FI"] = {
     IsGreaterThanOrEqualTo: "On suurempi tai yhtä suuri kuin",
     IsLessThan: "On alle",
     IsLessThanOrEqualTo: "On pienempi tai yhtä suuri kuin",­­
+    ClearSorting: "Poista lajittelu",
+    ClearFilterFrom: "Tyhjennä suodatin",
+    SortAtoZ: "Lajittele A: sta Z: ksi",
+    SortZtoA: "Lajittele Z A: ksi",
+    and: "Ja",
 
     NumberFormatting: "Numeron muotoilua",
     FrozenHeaders: "Jäädytettyjen leikkuupöydät",
@@ -929,7 +1050,12 @@ if (ej.PivotGrid) ej.PivotGrid.Locale["fi-FI"] = {
     CalcValue: "Laskettu kenttä voidaan lisätä vain arvon alue -kentässä",
     MultipleItems: "Useita kohteita.",
     All: "Kaikki",
-    Search: "Haku"
+    Search: "Haku",
+    ColumnResize: "Sarakkeessa koon muuttaminen",
+    Layouts:"Asettelut",
+    NormalLayout: "Normaali asettelu",
+    NormalTopSummary: "Normaali nostotoiminto yhteenveto asettelu",
+    NoSummaries:"Mitään yhteenvetoja asettelu"
 };
 if (ej.PivotPager) ej.PivotPager.Locale["fi-FI"] = {
     SeriesPage: "Sarja Sivu",
@@ -948,6 +1074,11 @@ if (ej.PivotSchemaDesigner) ej.PivotSchemaDesigner.Locale["fi-FI"] = {
     IsGreaterThanOrEqualTo: "On suurempi tai yhtä suuri kuin",
     IsLessThan: "On alle",
     IsLessThanOrEqualTo: "On pienempi tai yhtä suuri kuin",­­
+    ClearSorting: "Poista lajittelu",
+    ClearFilterFrom: "Tyhjennä suodatin",
+    SortAtoZ: "Lajittele A: sta Z: ksi",
+    SortZtoA: "Lajittele Z A: ksi",
+    and: "Ja",
 
     PivotTableFieldList: "Pivot-taulukon kenttäluettelo",
     ChooseFieldsToAddToReport: "Valitse kentät lisätä raportoida:",
@@ -1197,7 +1328,7 @@ if (ej.RTE) ej.RTE.Locale["fi-FI"] = {
 	imageBorder: "Image Border",
 	imageStyle: "Tyyli",
 	linkText: "Teksti",
-	linkToolTip: "tooltip",
+	linkTooltipLabel: "tooltip",
 	html5Support: "Tämä työkalu kuvake käytössä vain HTML5 tuetut selaimet",
 	linkOpenInNewWindow: "Avaa linkki uudessa ikkunassa",
 	tableColumns: "Koneiden sarakkeet",
@@ -1267,7 +1398,7 @@ if (ej.RTE) ej.RTE.Locale["fi-FI"] = {
 	lowerroman: "alempi Roman",
 	upperroman: "ylempi Roman",
 	none: "Ei mitään",
-	linktooltip: "ctrl + klikkaa seurata linkkiä",
+	linkTooltip: "ctrl + klikkaa seurata linkkiä",
 	charSpace: "Merkit (välilyönteineen)",
 	charNoSpace: "Merkit (ei välilyöntejä)",
 	wordCount: "Sanamäärä",
@@ -1287,6 +1418,9 @@ if (ej.RTE) ej.RTE.Locale["fi-FI"] = {
 	Replace: "Korvata",
 	ReplaceAll: "korvaa kaikki",
 	FindErrorMsg: "Ei löytynyt määritetyn sanan.",
+	customFontColor:"lisää värejä...",
+	customBGColor:"lisää värejä...",
+	TransBGColor:"läpinäkyvä"
 };
 if (ej.Schedule) ej.Schedule.Locale["fi-FI"] = {
     ReminderWindowTitle: "muistutus ikkuna",
@@ -1387,6 +1521,10 @@ if (ej.Schedule) ej.Schedule.Locale["fi-FI"] = {
     DeleteConfirmation: "Oletko varma, että haluat poistaa tämän tapaamisen?",
     Time: "aika",
     EmptyResultText: "ei ehdotuksia",
+    BlockIntervalAlertTitle: "hälytys",
+    BlockIntervalError: "Valittu aikaväli on estetty eikä sitä ole valittu.",
+    RecurrenceDateValidation: "Joillakin kuukausilla on vähemmän valittuja päivämääriä. Näinä kuukausina tapahtuma laskee kuukauden viimeisenä päivänä.",
+    SeriesChangeAlert: "Tämän sarjan yksittäisiin tapauksiin tehdyt muutokset peruutetaan ja nämä nimitykset vastaavat sarjaa uudelleen."
 };
 if (ej.Spreadsheet) ej.Spreadsheet.Locale["fi-FI"] = {
     Cut: "Leikata",
@@ -1413,21 +1551,27 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["fi-FI"] = {
     SortNewesttoOldest: "Lajittelu uusimmasta vanhimpaan",
     Insert: "Insert",
     InsertTitle: "Insert Cells",
-    InsertContent: "Lisää soluja, rivejä tai sarakkeita työkirjan. <br /> <br /> FYI: Jos haluat lisätä useita rivejä tai sarakkeita kerralla, valitse useita rivejä tai sarakkeita arkin, ja klikkaa Lisää.",
+    InsertContent: "Lisää soluja, rivejä tai sarakkeita työkirjan. ",
+    MultipleInsertContent: " FYI: Jos haluat lisätä useita rivejä tai sarakkeita kerralla, valitse useita rivejä tai sarakkeita arkin, ja klikkaa Lisää.",
     InsertSBContent: "Lisää solut, rivit, sarakkeet tai arkkia työkirjan.",
     Delete: "Poistaa",
     DeleteTitle: "Poista solut",
-    DeleteContent: "Poista solut, rivit, sarakkeet tai arkkeja työkirjaan. <br /> <br /> FYI: Jos haluat poistaa useita rivejä tai sarakkeita kerralla, valitse useita rivejä tai sarakkeita arkin, ja valitse Poista.",
+    DeleteContent: "Poista solut, rivit, sarakkeet tai arkkeja työkirjaan. ", 
+    MultipleDeleteContent :"FYI: Jos haluat poistaa useita rivejä tai sarakkeita kerralla, valitse useita rivejä tai sarakkeita arkin, ja valitse Poista.",
     FindSelectTitle: "Etsi & Valitse",
     FindSelectContent: "Klikkaa nähdäksesi vaihtoehdot löytää asiakirjan teksti.",
     CalculationOptions: "laskenta-asetukset",
     CalcOptTitle: "laskenta-asetukset",
-    CalcOptContent: "Valitse laskea kaavoja automaattisesti tai manuaalisesti. <br/> Jos teet muutoksen, joka vaikuttaa arvo, taulukoiden laskee automaattisesti sitä.",
+    CalcOptContent: "Valitse laskea kaavoja automaattisesti tai manuaalisesti.", 
+    CalcOptRecalcContent: " Jos teet muutoksen, joka vaikuttaa arvo, taulukoiden laskee automaattisesti sitä.",
     CalculateSheet: "Laske Sheet",
     CalculateNow: "Laske nyt",
-    CalculateNowContent: "Laske koko työkirjan nyt. <br/> Sinun tarvitsee vain käyttää tätä jos automaattinen laskenta on kytketty pois päältä.",
-    CalculateSheetContent: "Laske aktiivinen levy nyt. <br/> Sinun tarvitsee vain käyttää tätä jos automaattinen laskenta on kytketty pois päältä.",
+    CalculateNowContent: "Laske koko työkirjan nyt. ", 
+    CalculateNowTurnOffContent: " Sinun tarvitsee vain käyttää tätä jos automaattinen laskenta on kytketty pois päältä.",
+    CalculateSheetContent: "Laske aktiivinen levy nyt.", 
+    CalculateSheetTurnOffContent: " Sinun tarvitsee vain käyttää tätä jos automaattinen laskenta on kytketty pois päältä.",
     Title: "taulukkolaskentaohjelma",
+    ColorPicker: "Värinvalitsija",
     Ok: "kunnossa",
     Cancel: "Peruuttaa",
     Alert: "Emme voisi tehdä tätä varten valittujen solualue. Valitse yksittäinen solu on alueella tietojen ja yritä uudelleen.",
@@ -1462,6 +1606,10 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["fi-FI"] = {
     AlignCenterContent: "Keskitätte sisältöä.",
     AlignRight: "Kohdista Oikea",
     AlignRightContent: "Kohdista sisältöä oikealle.",
+    IncreaseIndent: "Kasvata sisennystä",
+    IncreaseIndentContent: "Siirrä sisältö kauemmas solurajaa.",
+    DecreaseIndent: "Pienennäsisennystä",
+    DecreaseIndentContent: "Siirrä sisältöä lähemmäs solun rajan.",
     Undo: "Kumota",
     Redo: "tehdä uudelleen",
     NumberFormat: "lukumuodon",
@@ -1482,6 +1630,7 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["fi-FI"] = {
     Fill: "Täyttää",
     ExportXL: "kunnostautua",
     ExportCsv: "CSV",
+    ExportPdf: "PDF",
     SaveXml: "Tallenna XML",
     BackgroundColor: "täyttöväri",
     BGContent: "Värittää tausta solujen jotta ne erottuvat.",
@@ -1594,7 +1743,8 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["fi-FI"] = {
     TableStyleOptions: "Ensimmäinen sarake / Last sarake / Total rivi / Filter -painike",
     Format: "Muoto",
     NameManager: "name Manager",
-    NameManagerContent: "Luo, muokata, poistaa ja etsiä kaikki käytetyt nimet työkirjan. <br /> <br /> Nimet voidaan käyttää kaavoissa korvikkeina soluviittauksina.",
+    NameManagerContent: "Luo, muokata, poistaa ja etsiä kaikki käytetyt nimet työkirjan.", 
+    NameManagerFormulaContent: " Nimet voidaan käyttää kaavoissa korvikkeina soluviittauksina.",
     DefinedNames: "määritelty nimet",
     DefineName: "Määritä Name",
     DefineNameContent: "Määrittele ja soveltaa nimiä.",
@@ -1725,10 +1875,17 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["fi-FI"] = {
     HideSheet: "Piilottaa",
     UnhideSheet: "unhide",
     SheetRenameAlert: "Nimi on jo käytössä. Kokeile toista.",
-    SheetRenameEmptyAlert: "Kirjoitit virheellisen nimen arkin. Varmista, että: <ul> <li> nimi kirjoitat enintään 31 merkkiä. </ Li> <li> Nimi ei sisällä mitään seuraavista merkeistä: \ /? * [Tai] </ li> <li> Et jättänyt nimen tyhjäksi. </ Li> </ ul>",
+    SheetRenameEmptyAlert: "Kirjoitit virheellisen nimen arkin. Varmista, että: ", 
+    SheetRenameEmptyCharExceedAlert: " nimi kirjoitat enintään 31 merkkiä.", 
+    SheetRenameEmptySplCharAlert: " Nimi ei sisällä mitään seuraavista merkeistä:", 
+    SheetRenameEmptyBlankAlert: " Et jättänyt nimen tyhjäksi.",
     SheetDeleteAlert: "Et voi kumota poistamista levyt, ja saatat olla poistamalla joitakin tietoja. Jos et tarvitse sitä, OK poistaa.",
     SheetDeleteErrorAlert: "Työkirja on oltava vähintään yksi näkyvä taulukkoon. Salattavaa, poistaa tai siirtää valitut levy, sinun täytyy asettaa uusi levy tai Näytä taulukko, joka on jo piilotettu.",
     CtrlKeyErrorAlert: "Tämä komento ei voi käyttää useita valintoja.",
+    ClipboardAccessError: "Selain voi käyttää leikepöydän, joten käytä näitä pikanäppäimiä:",
+    ClipboardAccessCutError: "Leikkaa = Ctrl + X",
+    ClipboardAccessCopyError: "Kopioi = Ctrl + C",
+    ClipboardAccessPasteError: "Liitä = Ctrl + V",
     MoveToEnd: "Siirrä To End",
     Beforesheet: "Ennen arkki:",
     CreateaCopy: "Luo kopio",
@@ -1914,13 +2071,15 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["fi-FI"] = {
     RedoContent: "Tee uudelleen viimeisen toimen.",
     TableTitle: "Taulukko (Ctrl + T)",
     HyperLinkTitle: "Lisää hyperlinkki (Ctrl + K)",
-    HyperLinkContent: "Luo linkki dokumentin nopean pääsyn web-sivuja ja tiedostoja. <br /> <br /> hyperlinkit voi myös viedä sinut paikkoihin asiakirjassa.",
+    HyperLinkContent: "Luo linkki dokumentin nopean pääsyn web-sivuja ja tiedostoja. ", 
+    HyperLinkPlaceContent: " hyperlinkit voi myös viedä sinut paikkoihin asiakirjassa.",
     NewCommentTitle: "Aseta kommentti",
     NewCommentContent: "Lisää huomautus tästä osa asiakirjaa.",
     RefreshTitle: "virkistää",
     RefreshContent: "Hanki viimeisimmät tiedot lähteestä kytketty aktiivisen solun",
     FieldListTitle: "Field List",
-    FieldListContent: "Näytä tai piilota kenttäluettelo. <br /> <br /> kenttää voit lisätä ja poistaa kenttiä omalta pivot",
+    FieldListContent: "Näytä tai piilota kenttäluettelo.", 
+    FieldListRemoveContent: "kenttää voit lisätä ja poistaa kenttiä omalta pivot",
     AddChartElement: "Lisää Chart Element",
     AddChartElementContent: "Lisää elementtejä luotu kaavioon.",
     SwitchRowColumn: "Switch Row / Column",
@@ -2048,6 +2207,26 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["fi-FI"] = {
     CellTypeAlert: "Tämä toiminto ei ole sallittu solutyypissä sovellettu alue.",
     PivotOverlapAlert: "Pivot-taulukon raportti eivät voi mennä päällekkäin toisen pivot-taulukon raportti",
     NoCellFound: "Ei solujen havaittiin",
+    CorrectArgument: "Kirjoita oikea perustelu",
+    CorrectFormula: "Kirjoita oikea kaava",
+    CorrectCellAddress: "Kirjoita oikea solun osoite",
+    ChartType: "Kaavion tyyppi",
+    NumberValidationAlert: "Maximum on oltava suurempi tai yhtä suuri kuin Minimi",
+    DateValidationAlert: "Lopetuspäivä on oltava suurempi tai yhtä suuri kuin Alkamispäivä",
+    TimeValidationAlert: "Lopun ajan on oltava suurempi tai yhtä suuri kuin Start Time",
+    NewRuleAlert: "On ongelma tällä kaavalla",
+    DragAlert: "Komento ei voida toteuttaa yrität siirtää solujen suodatinalueella. Valitse alue ulos suodattimen alue ja yritä komentoa uudelleen.",
+    OR:"tai",
+    HOME: "KOTI",
+    INSERT: "INSERT",
+    DATATAB: "DATA",
+    PAGELAYOUT: "SIVUN ASETTELU",
+    REVIEW: "ARVOSTELU",
+    OTHERS: "MUUT",
+    FORMAT: "Muoto",
+    DESIGN: "DESIGN",
+    CHARTDESIGN: "Kuvio suunnittelu",
+    ANALYZE: "Analysoida"
 };
 if (ej.TreeGrid) ej.TreeGrid.Locale["fi-FI"] = {
     toolboxTooltipTexts: {
@@ -2123,7 +2302,29 @@ if (ej.TreeGrid) ej.TreeGrid.Locale["fi-FI"] = {
         dropdownTableValue: "Arvo",
         addData: "Lisätä",
         deleteData: "Poistaa",
-        allowCellSelection: "Salli Cell Selection"
+        allowCellSelection: "Salli Cell Selection",
+        showInColumnChooser: "Näytä In sarakkeenvalitsimen",
+        displayAsCheckbox: "Näyttö Kun valintaruutu",
+        clipMode: "clip-tila",
+        tooltip: "tooltip",
+        headerTooltip: "header Tooltip"
+    },
+    editTypeTexts: {
+        string: "jono",
+        numeric: "numeerinen",
+        datePicker: "Päivämäärävalitsin",
+        dateTimePicker: "Päivämäärä Aika poimija",
+        dropdown: "Pudota alas",
+        boolean: "boolean"
+    },
+    textAlignTypes: {
+        right: "oikea",
+        left: "vasen",
+        center: "Keskusta"
+    },
+    clipModeTexts: {
+        clip: "klipsi",
+        ellipsis: "sananheitto"
     },
     columnDialogTitle: {
         insertColumn: "Lisää sarake",

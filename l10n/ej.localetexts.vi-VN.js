@@ -130,7 +130,7 @@ if (ej.ExcelFilter) ej.ExcelFilter.Locale["vi-VN"] = {
     title: "bộ lọc tùy chỉnh",
     PredicateAnd: "VÀ",
     PredicateOr: "HOẶC LÀ",
-    Ok: "được",
+    OK: "được",
     MatchCase: "Trường hợp trận đấu",
     Cancel: "hủy bỏ",
     NoResult: "Lọc kết quả tìm thấy",
@@ -145,7 +145,7 @@ if (ej.FileExplorer) ej.FileExplorer.Locale["vi-VN"] = {
     ProtectedFolder: "Bạn hiện dont có quyền truy cập vào thư mục này",
     EmptyResult: "Không có mục nào phù hợp với tìm kiếm của bạn",
     ContextMenuSortBy: "Sắp xếp theo",
-    InvalidFileName: "Một tên tập tin không thể chứa bất kỳ các ký tự sau: \\ /: * \ <> |",
+    InvalidFileName: "Một tên tập tin không thể chứa bất kỳ các ký tự sau: \\/: *? \\ <> |",
     Selected: "đã chọn",
     Permission: "Được thay đổi",
     SortBy: "Sắp xếp theo",
@@ -256,7 +256,7 @@ if (ej.Gantt) ej.Gantt.Locale["vi-VN"] = {
         baselineStartDate: "Baseline Ngày bắt đầu",
         baselineEndDate: "Baseline Cuối Ngày",
         WBS: "WBS",
-        WBSpredecessor: "WBS vị tiền nhiệm",
+        WBSPredecessor: "WBS vị tiền nhiệm",
         dialogCustomFieldName: "Tên cột",
         dialogCustomFieldValue: "Giá trị",
         notes: "Ghi chú",
@@ -272,7 +272,8 @@ if (ej.Gantt) ej.Gantt.Locale["vi-VN"] = {
         deleteButton: "Xóa bỏ",
         cancelButton: "hủy bỏ",
         addPredecessor: "Thêm mới",
-        removePredecessor: "Tẩy"
+        removePredecessor: "Tẩy",
+        addButton:  "Thêm vào"
     },
     columnDialogTexts: {
         field: "Cánh đồng",
@@ -291,7 +292,28 @@ if (ej.Gantt) ej.Gantt.Locale["vi-VN"] = {
         dropdownTableValue: "Giá trị",
         addData: "Thêm vào",
         deleteData: "Tẩy",
-        allowCellSelection: "Cho phép lựa chọn di động"
+        allowCellSelection: "Cho phép lựa chọn di động",
+        displayAsCheckbox: "Hộp kiểm Display as",
+        clipMode: "Chế độ Clip",
+        tooltip: "Chú giải công cụ",
+        headerTooltip: "Chú giải công cụ phần đầu"
+    },
+    editTypeTexts: {
+        string: "Chuỗi",
+        numeric: "Số",
+        datePicker: "Bảng chọn ngày",
+        dateTimePicker: "Bộ chọn Ngày Thời gian",
+        dropdown: "Thả xuống",
+        boolean: "Boolean"
+    },
+    textAlignTypes: {
+        right: "Đúng",
+        left: "Trái",
+        center: "Trung tâm"
+    },
+    clipModeTexts: {
+        clip: "Kẹp",
+        ellipsis: "Ellipse"
     },
     toolboxTooltipTexts: {
         addTool: "Thêm vào",
@@ -303,11 +325,12 @@ if (ej.Gantt) ej.Gantt.Locale["vi-VN"] = {
         indentTool: "lõm vào",
         outdentTool: "Nhô",
         expandAllTool: "Mở rộng tất cả",
-        collapseAllTool: "Thu gọn tất cả",
+        collapseAllTool: "Thu gọn Tất cả",        
         nextTimeSpanTool: "Khoảng thời gian tiếp theo",
         prevTimeSpanTool: "trước Khoảng thời gian",
         criticalPathTool: "Đường dẫn quan trọng",
-        excelExportTool: "xuất khẩu Excel"
+        excelExportTool: "xuất khẩu Excel",
+        pdfExportTool: "Xuất PDF"
     },
     durationUnitTexts: {
         days: "ngày",
@@ -394,12 +417,10 @@ if (ej.Grid) ej.Grid.Locale["vi-VN"] = {
     DeleteOperationAlert: "Không có hồ sơ được lựa chọn cho hoạt động xóa",
     EditOperationAlert: "Không có hồ sơ được lựa chọn để chỉnh sửa hoạt động",
     SaveButton: "Tiết kiệm",
-    OkButton: "được",
+    OKButton: "được",
     CancelButton: "hủy bỏ",
     EditFormTitle: "Chi tiết của",
     AddFormTitle: "Thêm các ghi nhận mới",
-    Notactionkeyalert: "Key-Sự kết hợp này không có sẵn",
-    Keyconfigalerttext: "Key-Sự kết hợp này đã được giao cho",
     GroupCaptionFormat: "{{:headerText}}: {{:key}} - {{:count}} {{if count == 1 }} mục {{else}} mặt hàng {{/if}} ",
     BatchSaveConfirm: "Bạn có chắc chắn muốn lưu các thay đổi?",
     BatchSaveLostChanges: "những thay đổi chưa được lưu sẽ bị mất. Bạn có chắc muốn tiếp tục không?",
@@ -556,7 +577,12 @@ if (ej.PivotClient) ej.PivotClient.Locale["vi-VN"] = {
     IsGreaterThan: "Lớn hơn",
     IsGreaterThanOrEqualTo: "Là Ngắn hơn một năm",
     IsLessThan: "Là ít hơn",
-    IsLessThanOrEqualTo: "Là ít hơn hoặc bằng",­­
+    IsLessThanOrEqualTo: "Là ít hơn hoặc bằng",
+    ClearSorting: "Rõ ràng đang sắp xếp",
+    ClearFilterFrom: "Bộ lọc rõ ràng từ",
+    SortAtoZ: "Sắp xếp một đến Z",
+    SortZtoA: "Sắp xếp Z để một",
+    and: "Và",
 
     DeferUpdate: "Hoãn cập nhật",
     MDXQuery: "MDX truy vấn",
@@ -674,7 +700,19 @@ if (ej.PivotClient) ej.PivotClient.Locale["vi-VN"] = {
     SetReportNameAlertMsg: "Hãy đặt tên báo cáo.",
     Search: "Tìm kiếm",
     MultipleItems: "Nhiều mục",
-    All: "Tất cả"
+    All: "Tất cả",
+    NoReports: "Không có báo cáo nào tìm thấy trong cơ sở dữ liệu",
+    CalculatedMember: "Tính toán thành viên",
+    Caption: "Độ xoay::",
+    Expression: "Biểu thức chính quy:",
+    MemberType: "Kiểu thành viên:",
+    FormatString: "Chuỗi định dạng:",
+    MultipleMeasure: "Nhiều hơn một dự luật này không thể bị cắt mất.",
+    DuplicateCalcMeasure: "Tính toán thành viên với cùng tên đã tồn tại.",
+    EmptyField: "Tính toán tên thành viên hoặc biểu thức không thể là rỗng.",
+    EmptyFormat: "Chuỗi định dạng cho tính toán thành viên là rỗng.",
+    Warning: "Cảnh báo",
+    Confirm: "Tính toán thành viên cùng tên đã có. Do muốn thay thế?"
 };
 if (ej.PivotGauge) ej.PivotGauge.Locale["vi-VN"] = {
     RevenueGoal: "Mục tiêu doanh thu",
@@ -743,6 +781,85 @@ if (ej.PdfViewer) ej.PdfViewer.Locale["vi-VN"] = {
             headerText: 'Tải về',
             contentText: 'Tải tài liệu PDF.'
         },
+        highlight: {
+            headerText: 'Văn bản nổi bật',
+            contentText: 'Đánh dấu văn bản trong các trang PDF.',
+        },
+        strikeout: {
+            headerText: 'Văn bản StrikeOut',
+            contentText: 'Chấm dứt văn bản trong các trang PDF.',
+        },
+        underline: {
+            headerText: 'Gạch dưới văn bản',
+            contentText: 'Gạch dưới văn bản trong các trang PDF.',
+        },
+    },
+    contextMenu: {
+        copy: {
+            contentText: 'Sao chép',
+        },
+        googleSearch: {
+            contentText: 'Tìm kiếm google',
+        },
+        Find: {
+            contentText: 'Tìm thấy:',
+        },
+        matchCase: {
+            contentText: 'Kết hợp Case',
+        },
+        auto: {
+            contentText: 'Tự động',
+        },
+        openPopup: {
+            contentText: 'Open Pop-Up Note',
+        },
+        Delete: {
+            contentText: 'Xóa bỏ',
+        },
+        properties: {
+            contentText: 'tính chất....',
+        },
+    },
+    propertyWindow: {
+        underlineProperties: {
+            contentText: "Gạch dướiTuộc tính"
+        },
+        strikeOutProperties: {
+            contentText: "StrikeOut Properties"
+        },
+        highlightProperties: {
+            contentText: "HighlightProperties"
+        },
+        appearance: {
+            contentText: "xuất hiện"
+        },
+        general: {
+            contentText: "chung"
+        },
+        color: {
+            contentText: "màu:"
+        },
+        opacity: {
+            contentText: "Độ mờ:"
+        },
+        author: {
+            contentText: "Tác giả:"
+        },
+        subject: {
+            contentText: "môn học:"
+        },
+        modified: {
+            contentText: "Sửa đổi:"
+        },
+        ok: {
+            contentText: "được"
+        },
+        cancel: {
+            contentText: "Hủy bỏ"
+        },
+        locked: {
+            contentText: "Bị khóa"
+        }
     },
 };
 if (ej.PercentageTextbox) ej.PercentageTextbox.Locale["vi-VN"] = {
@@ -758,7 +875,12 @@ if (ej.PivotGrid) ej.PivotGrid.Locale["vi-VN"] = {
     IsGreaterThan: "Lớn hơn",
     IsGreaterThanOrEqualTo: "Là Ngắn hơn một năm",
     IsLessThan: "Là ít hơn",
-    IsLessThanOrEqualTo: "Là ít hơn hoặc bằng",­­
+    IsLessThanOrEqualTo: "Là ít hơn hoặc bằng",
+    ClearSorting: "Rõ ràng đang sắp xếp",
+    ClearFilterFrom: "Bộ lọc rõ ràng từ",
+    SortAtoZ: "Sắp xếp một đến Z",
+    SortZtoA: "Sắp xếp Z để một",
+    and: "Và",
 
     NumberFormatting: "Số đang định dạng",
     FrozenHeaders: "Dã²ng Ä'áº§u đông lạnh",
@@ -929,7 +1051,12 @@ if (ej.PivotGrid) ej.PivotGrid.Locale["vi-VN"] = {
     CalcValue: "Tính toán lĩnh vực này chỉ có thể được gắn trong lĩnh vực khu vực giá trị",
     MultipleItems: "Nhiều mục",
     All: "Tất cả",
-    Search: "Tìm kiếm"
+    Search: "Tìm kiếm",
+    ColumnResize: "Cột thay đổi kích cỡ",
+    Layouts: "Bố cục",
+    NormalLayout: "Bố trí bình thường",
+    NormalTopSummary: "Top Tóm Lược bố trí bình thường",
+    NoSummaries: "Không có bố trí bản tóm tắt"
 };
 if (ej.PivotPager) ej.PivotPager.Locale["vi-VN"] = {
     SeriesPage: "Loạt trang",
@@ -947,7 +1074,11 @@ if (ej.PivotSchemaDesigner) ej.PivotSchemaDesigner.Locale["vi-VN"] = {
     IsGreaterThan: "Lớn hơn",
     IsGreaterThanOrEqualTo: "Là Ngắn hơn một năm",
     IsLessThan: "Là ít hơn",
-    IsLessThanOrEqualTo: "Là ít hơn hoặc bằng",­­
+    IsLessThanOrEqualTo: "Là ít hơn hoặc bằng",
+    ClearSorting: "Rõ ràng đang sắp xếp",
+    ClearFilterFrom: "Bộ lọc rõ ràng từ",
+    SortAtoZ: "Sắp xếp một đến Z",
+    SortZtoA: "Sắp xếp Z để một",
 
     PivotTableFieldList: "Pivot FieldList bàn",
     ChooseFieldsToAddToReport: "Chọn lĩnh vực để bổ sung vào báo cáo:",
@@ -1213,7 +1344,7 @@ if (ej.RTE) ej.RTE.Locale["vi-VN"] = {
 	imageBorder: "biên giới ảnh",
 	imageStyle: "Phong cách",
 	linkText: "Bản văn",
-	linkToolTip: "tooltip",
+	linkTooltipLabel: "tooltip",
 	html5Support: "biểu tượng công cụ này chỉ được kích hoạt trong HTML5 hỗ trợ các trình duyệt",
 	linkOpenInNewWindow: "Mở liên kết trong cửa sổ mới",
 	tableColumns: "no.of Cột",
@@ -1283,7 +1414,7 @@ if (ej.RTE) ej.RTE.Locale["vi-VN"] = {
 	lowerroman: "Roman thấp",
 	upperroman: "Upper La Mã",
 	none: "không ai",
-	linktooltip: "Ctrl + click theo liên kết",
+	linkTooltip: "Ctrl + click theo liên kết",
 	charSpace: "Ký tự (có khoảng trắng)",
 	charNoSpace: "Ký tự (không có khoảng trắng)",
 	wordCount: "Số từ",
@@ -1303,6 +1434,40 @@ if (ej.RTE) ej.RTE.Locale["vi-VN"] = {
 	Replace: "Thay thế",
 	ReplaceAll: "Thay thế tất cả",
 	FindErrorMsg: "Không tìm thấy từ xác định.",
+	customFontColor:"Màu sắc khác...",
+	customBGColor:"Màu sắc khác...",
+	TransBGColor:"Trong suốt"
+};
+if (ej.RecurrenceEditor) ej.RecurrenceEditor.Locale["vi-VN"] = {
+    Repeat: "Nói lại",
+    Never: "Không bao giờ",
+    Daily: "hằng ngày",
+    Weekly: "Hàng tuần",
+    Monthly: "Hàng tháng",
+    Yearly: "Hàng năm",
+    First: "Đầu tiên",
+    Second: "Thứ hai",
+    Third: "Thứ ba",
+    Fourth: "Thứ tư",
+    Last: "Cuối cùng",
+    EveryWeekDay: "Moi ngay trong tuân",
+    Every: "Mỗi",
+    RecurrenceDay: "Ngày",
+    RecurrenceWeek: "Tuần",
+    RecurrenceMonth: "Tháng",
+    RecurrenceYear: "Năm",
+    RepeatOn: "Lặp lại vào",
+    RepeatBy: "Lặp lại bằng",
+    StartsOn: "Bắt đầu vào",
+    Times: "Lần",
+    Ends: "Kết thúc",
+    Day: "Ngày",
+    The: "Các",
+    OfEvery: "Của",
+    After: "Sau",
+    On: "Trên",
+    Occurrence: "Số lần xuất hiện",
+    Until: "Cho đến"
 };
 if (ej.Schedule) ej.Schedule.Locale["vi-VN"] = {
     ReminderWindowTitle: "cửa sổ nhắc nhở",
@@ -1403,6 +1568,10 @@ if (ej.Schedule) ej.Schedule.Locale["vi-VN"] = {
     DeleteConfirmation: "Bạn có chắc chắn muốn xóa cuộc hẹn này?",
     Time: "Thời gian",
     EmptyResultText: "Chưa có đề xuất",
+    BlockIntervalAlertTitle: "Cảnh báo",
+    BlockIntervalError: "Khoảng thời gian đã chọn đã bị chặn và không khả dụng cho lựa chọn",
+    RecurrenceDateValidation: "Một số tháng có ít hơn ngày được chọn. Trong những tháng này, sự xuất hiện sẽ rơi vào ngày cuối cùng của tháng",
+    SeriesChangeAlert: "Những thay đổi được thực hiện cho các phiên bản cụ thể của loạt bài này sẽ bị hủy bỏ và các cuộc hẹn đó sẽ kết hợp lại loạt bài"
 };
 if (ej.Spreadsheet) ej.Spreadsheet.Locale["vi-VN"] = {
     Cut: "Cắt tỉa",
@@ -1429,20 +1598,25 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["vi-VN"] = {
     SortNewesttoOldest: "Sắp xếp Mới nhất Cũ nhất",
     Insert: "Chèn",
     InsertTitle: "Chèn ô",
-    InsertContent: "Thêm các tế bào mới, hàng, hoặc cột để bảng tính của bạn <br /> <br /> FYI:. Để chèn nhiều hàng hoặc cột tại một thời điểm, chọn nhiều hàng hay cột trong bảng, và nhấn Insert.",
+    InsertContent: "Thêm các tế bào mới, hàng, hoặc cột để bảng tính của bạn", 
+    MultipleInsertContent: " FYI:. Để chèn nhiều hàng hoặc cột tại một thời điểm, chọn nhiều hàng hay cột trong bảng, và nhấn Insert.",
     InsertSBContent: "Thêm ô, hàng, cột, hoặc tờ để bảng tính của bạn.",
     Delete: "Xóa bỏ",
     DeleteTitle: "xóa ô",
-    DeleteContent: "Xóa ô, hàng, cột, hoặc tờ từ bảng tính của bạn <br /> <br /> FYI:. Để xóa nhiều dòng hoặc cột tại một thời điểm, chọn nhiều hàng hay cột trong bảng, và nhấn Delete.",
+    DeleteContent: "Xóa ô, hàng, cột, hoặc tờ từ bảng tính của bạn",
+    MultipleDeleteContent: " FYI:. Để xóa nhiều dòng hoặc cột tại một thời điểm, chọn nhiều hàng hay cột trong bảng, và nhấn Delete.",
     FindSelectTitle: "Tìm & Chọn",
     FindSelectContent: "Nhấn vào đây để xem các tùy chọn cho việc tìm kiếm văn bản trong tài liệu của bạn.",
     CalculationOptions: "Tùy chọn tính toán",
     CalcOptTitle: "Tùy chọn tính toán",
-    CalcOptContent: "Chọn để tính toán công thức tự động hoặc bằng tay. <br/> <br/> Nếu bạn thực hiện một sự thay đổi có ảnh hưởng đến một giá trị, bảng tính sẽ tự động tính toán lại nó.",
+    CalcOptContent: "Chọn để tính toán công thức tự động hoặc bằng tay.", 
+    CalcOptRecalcContent: " Nếu bạn thực hiện một sự thay đổi có ảnh hưởng đến một giá trị, bảng tính sẽ tự động tính toán lại nó.",
     CalculateSheet: "tính Bảng",
     CalculateNow: "tính Bây giờ",
-    CalculateNowContent: "Tính toàn bộ bảng tính bây giờ. <br/> <br/> Bạn chỉ cần sử dụng này nếu tính toán tự động bị tắt.",
-    CalculateSheetContent: "Tính toán bảng tính hiện tại. <br/> <br/> Bạn chỉ cần sử dụng này nếu tính toán tự động bị tắt.",
+    CalculateNowContent: "Tính toàn bộ bảng tính bây giờ.", 
+    CalculateNowTurnOffContent: " Bạn chỉ cần sử dụng này nếu tính toán tự động bị tắt.",
+    CalculateSheetContent: "Tính toán bảng tính hiện tại.", 
+    CalculateSheetTurnOffContent: " Bạn chỉ cần sử dụng này nếu tính toán tự động bị tắt.",
     Title: "bảng tính",
     Ok: "được",
     Cancel: "hủy bỏ",
@@ -1610,7 +1784,8 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["vi-VN"] = {
     TableStyleOptions: "Đầu cột / Cột cuối / Total Row / Lọc Nút",
     Format: "định dạng",
     NameManager: "Name Manager",
-    NameManagerContent: "Tạo, chỉnh sửa, xóa và tìm thấy tất cả các tên được sử dụng trong bảng tính. <br /> <br /> Tên có thể được sử dụng trong công thức thay thế cho các tham chiếu ô.",
+    NameManagerContent: "Tạo, chỉnh sửa, xóa và tìm thấy tất cả các tên được sử dụng trong bảng tính.",
+    NameManagerFormulaContent: " Tên có thể được sử dụng trong công thức thay thế cho các tham chiếu ô.",
     DefinedNames: "Tên Defined",
     DefineName: "xác định danh",
     DefineNameContent: "Xác định và áp dụng các tên.",
@@ -1741,7 +1916,10 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["vi-VN"] = {
     HideSheet: "Ẩn giấu",
     UnhideSheet: "Bỏ ẩn",
     SheetRenameAlert: "Tên đó đã được lấy. Hãy thử một trong những khác nhau.",
-    SheetRenameEmptyAlert: "Bạn gõ tên không hợp lệ cho một tờ. Hãy chắc chắn rằng: <ul> <li> Tên mà bạn gõ không vượt quá 31 ký tự </ li> <li> Tên không chứa bất kỳ các ký tự sau:. \ /? * [Hoặc] </ li> <li> Bạn đã không để trống tên. </ Li> </ ul>",
+    SheetRenameEmptyAlert: "Bạn gõ tên không hợp lệ cho một tờ. Hãy chắc chắn rằng:",
+    SheetRenameEmptyCharExceedAlert: " Tên mà bạn gõ không vượt quá 31 ký tự", 
+    SheetRenameEmptySplCharAlert: " Tên không chứa bất kỳ các ký tự sau:", 
+    SheetRenameEmptyBlankAlert: " Bạn đã không để trống tên.",
     SheetDeleteAlert: "Bạn không thể hoàn tác xóa tờ, và bạn có thể loại bỏ một số dữ liệu. Nếu bạn không cần nó, bấm OK để xóa.",
     SheetDeleteErrorAlert: "Một bảng tính phải chứa ít nhất một bảng tính có thể nhìn thấy. Để ẩn, xóa, hoặc di chuyển các sheet chọn, đầu tiên bạn phải chèn một trang mới hoặc bỏ ẩn một tờ đó đã được ẩn.",
     CtrlKeyErrorAlert: "lệnh đó không thể được sử dụng trên nhiều lựa chọn.",
@@ -1930,13 +2108,15 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["vi-VN"] = {
     RedoContent: "Làm lại hành động cuối cùng của bạn.",
     TableTitle: "Bảng (Ctrl + T)",
     HyperLinkTitle: "Thêm một Hyperlink (Ctrl + K)",
-    HyperLinkContent: "Tạo một liên kết trong tài liệu của bạn để truy cập nhanh các trang web và các tập tin. <br /> <br /> Các siêu liên kết cũng có thể đưa bạn đến những nơi trong tài liệu của bạn.",
+    HyperLinkContent: "Tạo một liên kết trong tài liệu của bạn để truy cập nhanh các trang web và các tập tin.", 
+    HyperLinkPlaceContent: " Các siêu liên kết cũng có thể đưa bạn đến những nơi trong tài liệu của bạn.",
     NewCommentTitle: "Chèn một Nhận xét",
     NewCommentContent: "Thêm một lưu ý về phần này của tài liệu.",
     RefreshTitle: "Làm mới",
     RefreshContent: "Lấy dữ liệu mới nhất từ các nguồn kết nối với các tế bào hoạt động",
     FieldListTitle: "Danh sách các trường",
-    FieldListContent: "Hiện hoặc ẩn Field List. <br /> <br /> Các danh sách trường cho phép bạn thêm và loại bỏ các lĩnh vực từ báo cáo PivotTable của bạn",
+    FieldListContent: "Hiện hoặc ẩn Field List. ", 
+    FieldListRemoveContent: " Các danh sách trường cho phép bạn thêm và loại bỏ các lĩnh vực từ báo cáo PivotTable của bạn",
     AddChartElement: "Thêm Chart tử",
     AddChartElementContent: "Thêm yếu tố để các biểu đồ được tạo ra.",
     SwitchRowColumn: "Chuyển Row / Column",
@@ -2064,6 +2244,36 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["vi-VN"] = {
     CellTypeAlert: "Thao tác này không được cho phép trong loại tế bào phạm vi áp dụng.",
     PivotOverlapAlert: "Một báo cáo của Pivot Table không thể chồng lên nhau một báo cáo khác Pivot Table",
     NoCellFound: "Không có tế bào được tìm thấy",
+    ColorPicker: "Bộ chọn màu",
+    IncreaseIndent: "Tăng thụt lề",
+    IncreaseIndentContent: "Di chuyển nội dung của bạn xa khỏi biên giới của ô.",
+    DecreaseIndent: "Giảm Thụt lề",
+    DecreaseIndentContent: "Di chuyển nội dung của bạn gần với biên giới của ô.",
+    ExportPdf: "PDF",
+    ClipboardAccessError: "Trình duyệt của bạn không thể truy cập clipboard, vì vậy hãy sử dụng các phím tắt này:",
+    ClipboardAccessCutError: "Cắt = Ctrl + X",
+    ClipboardAccessCopyError: "Copy = Ctrl + C",
+    ClipboardAccessPasteError: "Dán = Ctrl + V",
+    CorrectArgument: "Vui lòng nhập đúng đối số",
+    CorrectFormula: "Vui lòng nhập chính xác công thức",
+    CorrectCellAddress: "Vui lòng nhập đúng địa chỉ ô",
+    ChartType: "Loại biểu đồ",
+    NumberValidationAlert: "Mức tối đa phải lớn hơn hoặc bằng Tối thiểu",
+    DateValidationAlert: "Ngày Kết thúc phải lớn hơn hoặc bằng Ngày bắt đầu",
+    TimeValidationAlert: "Thời gian kết thúc phải lớn hơn hoặc bằng Thời gian bắt đầu",
+    NewRuleAlert: "Có một vấn đề với công thức này",
+    DragAlert: "Lệnh không thể hoàn thành khi bạn đang cố di chuyển các ô trong phạm vi lọc. Chọn một phạm vi trong phạm vi lọc và thử lại lệnh.",
+    OR: "hoặc là",
+    HOME: "NHÀ",
+    INSERT: "CHÈN",
+    DATATAB: "DỮ LIỆU",
+    PAGELAYOUT: "BỐ TRÍ TRANG",
+    REVIEW: "ÔN TẬP",
+    OTHERS: "KHÁC",
+    FORMAT: "định dạng",
+    DESIGN: "THIẾT KẾ",
+    CHARTDESIGN: "Thiết kế biểu đồ",
+    ANALYZE: "Phân tích"
 };
 if (ej.TreeGrid) ej.TreeGrid.Locale["vi-VN"] = {
     toolboxTooltipTexts: {
@@ -2073,7 +2283,7 @@ if (ej.TreeGrid) ej.TreeGrid.Locale["vi-VN"] = {
         deleteTool: "Xóa bỏ",
         cancelTool: "hủy bỏ",
         expandAllTool: "Mở rộng tất cả",
-        collapseAllTool: "Thu gọn tất cả",
+        collapseAllTool: "Thu gọn Tất cả",        
         pdfExportTool: "PDF xuất khẩu",
         excelExportTool: "xuất khẩu Excel"
     },
@@ -2139,7 +2349,29 @@ if (ej.TreeGrid) ej.TreeGrid.Locale["vi-VN"] = {
         dropdownTableValue: "Giá trị",
         addData: "Thêm vào",
         deleteData: "Tẩy",
-        allowCellSelection: "Cho phép lựa chọn di động"
+        allowCellSelection: "Cho phép lựa chọn di động",
+        showInColumnChooser: "Hiển thị trong Cột Chọn",
+        displayAsCheckbox: "Hộp kiểm Display as",
+        clipMode: "Chế độ Clip",
+        tooltip: "Chú giải công cụ",
+        headerTooltip: "Chú giải công cụ phần đầu"
+    },
+    editTypeTexts: {
+        string: "Chuỗi",
+        numeric: "Số",
+        datePicker: "Bảng chọn ngày",
+        dateTimePicker: "Bộ chọn Ngày Thời gian",
+        dropdown: "Thả xuống",
+        boolean: "Boolean"
+    },
+    textAlignTypes: {
+        right: "Đúng",
+        left: "Trái",
+        center: "Trung tâm"
+    },
+    clipModeTexts: {
+        clip: "Kẹp",
+        ellipsis: "Ellipse"
     },
     columnDialogTitle: {
         insertColumn: "chèn cột",

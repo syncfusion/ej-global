@@ -130,7 +130,7 @@ if (ej.ExcelFilter) ej.ExcelFilter.Locale["da-DK"] = {
     title: "Tilpasset filter",
     PredicateAnd: "OG",
     PredicateOr: "ELLER",
-    Ok: "Okay",
+    OK: "Okay",
     MatchCase: "match Case",
     Cancel: "Ophæve",
     NoResult: "Ingen match fundet",
@@ -256,7 +256,7 @@ if (ej.Gantt) ej.Gantt.Locale["da-DK"] = {
         baselineStartDate: "Baseline startdato",
         baselineEndDate: "Baseline Slutdato",
         WBS: "WBS",
-        WBSpredecessor: "WBS forgænger",
+        WBSPredecessor: "WBS forgænger",
         dialogCustomFieldName: "Kolonne Navn",
         dialogCustomFieldValue: "Værdi",
         notes: "Noter",
@@ -272,7 +272,8 @@ if (ej.Gantt) ej.Gantt.Locale["da-DK"] = {
         deleteButton: "Slet",
         cancelButton: "Ophæve",
         addPredecessor: "Tilføj ny",
-        removePredecessor: "Fjerne"
+        removePredecessor: "Fjerne",
+        addButton: "Tilføje"
     },
     columnDialogTexts: {
         field: "Felt",
@@ -291,7 +292,28 @@ if (ej.Gantt) ej.Gantt.Locale["da-DK"] = {
         dropdownTableValue: "Værdi",
         addData: "Tilføje",
         deleteData: "Fjerne",
-        allowCellSelection: "Tillad Cell Selection"
+        allowCellSelection: "Tillad Cell Selection",
+        displayAsCheckbox: "Skærm Som Afkrydsningsfelt",
+        clipMode: "Clip-tilstand",
+        tooltip: "tooltip",
+        headerTooltip: "Header Tooltip"
+    },
+    editTypeTexts: {
+        string: "Snor",
+        numeric: "Numerisk",
+        datePicker: "datovælger",
+        dateTimePicker: "Dato Tid Picker",
+        dropdown: "dropdown",
+        boolean: "Boolesk"
+    },
+    textAlignTypes: {
+        right: "Højre",
+        left: "Venstre",
+        center: "Centrum"
+    },
+    clipModeTexts: {
+        clip: "Clip",
+        ellipsis: "ellipse"
     },
     toolboxTooltipTexts: {
         addTool: "Tilføje",
@@ -307,7 +329,8 @@ if (ej.Gantt) ej.Gantt.Locale["da-DK"] = {
         nextTimeSpanTool: "Næste Timespan",
         prevTimeSpanTool: "Forrige Timespan",
         criticalPathTool: "kritisk sti",
-        excelExportTool: "Excel eksport"
+        excelExportTool: "Excel eksport",
+        pdfExportTool: "PDF Export"
     },
     durationUnitTexts: {
         days: "dage",
@@ -394,12 +417,10 @@ if (ej.Grid) ej.Grid.Locale["da-DK"] = {
     DeleteOperationAlert: "Ingen optegnelser udvalgt til sletning",
     EditOperationAlert: "Ingen optegnelser udvalgt til redigering operation",
     SaveButton: "Spare",
-    OkButton: "Okay",
+    OKButton: "Okay",
     CancelButton: "Ophæve",
     EditFormTitle: "Nærmere oplysninger om",
     AddFormTitle: "Tilføj ny post",
-    Notactionkeyalert: "Denne nøgle-kombination er ikke tilgængelig",
-    Keyconfigalerttext: "Denne nøgle-Kombination er allerede blevet tildelt til",
     GroupCaptionFormat: "{{:headerText}}: {{:key}} - {{:count}} {{if count == 1 }} vare {{else}} emner {{/if}} ",
     BatchSaveConfirm: "Er du sikker på du vil gemme ændringer?",
     BatchSaveLostChanges: "Ikke gemte ændringer vil gå tabt. Er du sikker på du vil fortsætte?",
@@ -556,6 +577,10 @@ if (ej.PivotClient) ej.PivotClient.Locale["da-DK"] = {
     IsGreaterThanOrEqualTo: "Er Større End Eller Lig med",
     IsLessThan: "Er mindre end",
     IsLessThanOrEqualTo: "Er Mindre end eller lig med",
+    ClearSorting: "Klare sortering",
+    ClearFilterFrom: "Ryd filter fra",
+    SortAtoZ: "Sorter A til Z",
+    SortZtoA: "Sorter Z til A",
 
     DeferUpdate: "Udskyd opdatering",
     MDXQuery: "MDX Forespørgsel",
@@ -673,7 +698,19 @@ if (ej.PivotClient) ej.PivotClient.Locale["da-DK"] = {
     SetReportNameAlertMsg: "Angiv rapportens navn.",
     Search: "Søg",
     MultipleItems: "Flere emner",
-    All: "Alle"
+    All: "Alle",
+    NoReports: "Ingen rapporter findes i DB",
+    CalculatedMember: "Beregnede medlem",
+    Caption: "Billedtekst:",
+    Expression: "Udtryk:",
+    MemberType: "Medlem Type:",
+    FormatString: "Formatstrengen:",
+    MultipleMeasure: "Mere end én foranstaltning ikke skiveskæres.",
+    DuplicateCalcMeasure: "Beregnede medlem med samme navn eksisterer allerede.",
+    EmptyField: "Beregnede medlem navn eller udtryk må ikke være tom.",
+    EmptyFormat: "Formatstrengen for beregnede medlem er tom.",
+    Warning: "Advarsel",
+    Confirm: "Beregnede medlem med samme navn eksisterer allerede. Pga vil erstatte?"
 };
 if (ej.PivotGauge) ej.PivotGauge.Locale["da-DK"] = {
     RevenueGoal: "Omsætning Goal",
@@ -742,6 +779,85 @@ if (ej.PdfViewer) ej.PdfViewer.Locale["da-DK"] = {
             headerText: 'Hent',
             contentText: 'Download PDF-dokument.'
         },
+        highlight: {
+            headerText: 'Fremhæv tekst',
+            contentText: 'Fremhæv tekst i PDF-sider.',
+        },
+        strikeout: {
+            headerText: 'strikeout tekst',
+            contentText: 'Strike Out tekst i PDF-sider.',
+        },
+        underline: {
+            headerText: 'Understreget tekst',
+            contentText: 'Understreget tekst i PDF-sider.',
+        },
+    },
+    contextMenu: {
+        copy: {
+            contentText: 'kopi',
+        },
+        googleSearch: {
+            contentText: 'Søg google',
+        },
+        Find: {
+            contentText: 'Trouver:',
+        },
+        matchCase: {
+            contentText: 'cas de correspondance',
+        },
+        auto: {
+            contentText: 'Auto',
+        },
+        openPopup: {
+            contentText: 'Open Pop-Up Note',
+        },
+        Delete: {
+            contentText: 'Ejendomme',
+        },
+        properties: {
+            contentText: 'Slet....',
+        },
+    },
+    propertyWindow: {
+        underlineProperties: {
+            contentText: "Underline Properties"
+        },
+        strikeOutProperties: {
+            contentText: "StrikeOut Properties"
+        },
+        highlightProperties: {
+            contentText: "Highlight Properties"
+        },
+        appearance: {
+            contentText: "udseende"
+        },
+        general: {
+            contentText: "generel"
+        },
+        color: {
+            contentText: "farve:"
+        },
+        opacity: {
+            contentText: "Gennemsigtighed:"
+        },
+        author: {
+            contentText: "forfatter:"
+        },
+        subject: {
+            contentText: "emne:"
+        },
+        modified: {
+            contentText: "modificeret:"
+        },
+        ok: {
+            contentText: "Okay"
+        },
+        cancel: {
+            contentText: "afbestille"
+        },
+        locked: {
+            contentText: "Låst"
+        }
     },
 };
 if (ej.PercentageTextbox) ej.PercentageTextbox.Locale["da-DK"] = {
@@ -758,6 +874,11 @@ if (ej.PivotGrid) ej.PivotGrid.Locale["da-DK"] = {
     IsGreaterThanOrEqualTo: "Er Større End Eller Lig med",
     IsLessThan: "Er mindre end",
     IsLessThanOrEqualTo: "Er Mindre end eller lig med",
+    ClearSorting: "Klare sortering",
+    ClearFilterFrom: "Ryd filter fra",
+    SortAtoZ: "Sorter A til Z",
+    SortZtoA: "Sorter Z til A",
+    and: "Og",
 
     NumberFormatting: "Talformatering",
     FrozenHeaders: "Frosne stiftlister",
@@ -928,7 +1049,12 @@ if (ej.PivotGrid) ej.PivotGrid.Locale["da-DK"] = {
     CalcValue: "Beregnet felt kan indsættes kun i værdi feltet område",
     MultipleItems: "Flere emner",
     All: "Alle",
-    Search: "Søg"
+    Search: "Søg",
+    ColumnResize: "Kolonne Resize",
+    Layouts: "Layout",
+    NormalLayout: "Normal Layout",
+    NormalTopSummary: "Normal Top Layout oversigt",
+    NoSummaries: "Ingen Resuméer Layout"
 };
 if (ej.PivotPager) ej.PivotPager.Locale["da-DK"] = {
     SeriesPage: "Series Side",
@@ -947,6 +1073,11 @@ if (ej.PivotSchemaDesigner) ej.PivotSchemaDesigner.Locale["da-DK"] = {
     IsGreaterThanOrEqualTo: "Er Større End Eller Lig med",
     IsLessThan: "Er mindre end",
     IsLessThanOrEqualTo: "Er Mindre end eller lig med",
+    ClearSorting: "Klare sortering",
+    ClearFilterFrom: "Ryd filter fra",
+    SortAtoZ: "Sorter A til Z",
+    SortZtoA: "Sorter Z til A",
+    and: "Og",
 
     PivotTableFieldList: "Pivottabel Listefelt",
     ChooseFieldsToAddToReport: "Vælg felter at tilføje at rapportere:",
@@ -1196,7 +1327,7 @@ if (ej.RTE) ej.RTE.Locale["da-DK"] = {
 	imageBorder: "Billede Border",
 	imageStyle: "Stil",
 	linkText: "Tekst",
-	linkToolTip: "tooltip",
+	linkTooltipLabel: "tooltip",
 	html5Support: "Dette værktøj ikon kun aktiveret i HTML5 støttede browsere",
 	linkOpenInNewWindow: "Åbn link i nyt vindue",
 	tableColumns: "No.of kolonner",
@@ -1266,7 +1397,7 @@ if (ej.RTE) ej.RTE.Locale["da-DK"] = {
 	lowerroman: "Lavere romersk",
 	upperroman: "Upper Roman",
 	none: "Ingen",
-	linktooltip: "ctrl + klik for at følge link",
+	linkTooltip: "ctrl + klik for at følge link",
 	charSpace: "Tegn (med mellemrum)",
 	charNoSpace: "Tegn (uden mellemrum)",
 	wordCount: "Word Count",
@@ -1286,6 +1417,9 @@ if (ej.RTE) ej.RTE.Locale["da-DK"] = {
 	Replace: "Erstatte",
 	ReplaceAll: "Erstat alle",
 	FindErrorMsg: "Kunne ikke finde den angivne ord.",
+	customFontColor:"flere farver...",
+    customBGColor:"flere farver...",
+    TransBGColor:"Gennemsigtig"
 };
 if (ej.Schedule) ej.Schedule.Locale["da-DK"] = {
     ReminderWindowTitle: "Påmindelse vindue",
@@ -1386,6 +1520,10 @@ if (ej.Schedule) ej.Schedule.Locale["da-DK"] = {
     DeleteConfirmation: "Er du sikker på at du vil slette denne aftale?",
     Time: "Tid",
     EmptyResultText: "Ingen forslag",
+    BlockIntervalAlertTitle: "Alert",
+    BlockIntervalError: "Det valgte tidsinterval er blevet blokeret og er ikke tilgængeligt til valg.",
+    RecurrenceDateValidation: "Nogle måneder har færre end udvalgte datoer. I disse måneder vil forekomsten falde på den sidste dato i måneden.",
+    SeriesChangeAlert: "Ændringerne i specifikke forekomster af denne serie bliver annulleret, og disse aftaler matcher serien igen."
 };
 if (ej.Spreadsheet) ej.Spreadsheet.Locale["da-DK"] = {
     Cut: "Skære",
@@ -1412,21 +1550,27 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["da-DK"] = {
     SortNewesttoOldest: "Sorter nyeste til ældste",
     Insert: "Indsæt",
     InsertTitle: "Indsæt celler",
-    InsertContent: "Tilføj nye celler, rækker eller kolonner til din projektmappe <br /> <br /> FYI:. For at indsætte flere rækker eller kolonner ad gangen, vælge flere rækker eller kolonner i arket, og klik på Indsæt.",
+    InsertContent: "Tilføj nye celler, rækker eller kolonner til din projektmappe",
+    MultipleInsertContent: " FYI:. For at indsætte flere rækker eller kolonner ad gangen, vælge flere rækker eller kolonner i arket, og klik på Indsæt.",
     InsertSBContent: "Tilføj celler, rækker, kolonner eller ark til din projektmappe.",
     Delete: "Slet",
     DeleteTitle: "Slet celler",
-    DeleteContent: "Slet celler, rækker, kolonner eller ark fra din projektmappe <br /> <br /> FYI:. At slette flere rækker eller kolonner ad gangen, vælge flere rækker eller kolonner i arket, og klik på Slet.",
+    DeleteContent: "Slet celler, rækker, kolonner eller ark fra din projektmappe",
+    MultipleDeleteContent: " FYI:. At slette flere rækker eller kolonner ad gangen, vælge flere rækker eller kolonner i arket, og klik på Slet.",
     FindSelectTitle: "Find & Vælg",
     FindSelectContent: "Klik for at se muligheder for at finde tekst i dokumentet.",
     CalculationOptions: "Beregning Indstillinger",
     CalcOptTitle: "Beregning Indstillinger",
-    CalcOptContent: "Vælg at beregne formler automatisk eller manuelt. <br/> Hvis du laver en ændring, der påvirker en værdi, vil regneark automatisk genberegne det.",
+    CalcOptContent: "Vælg at beregne formler automatisk eller manuelt.",
+    CalcOptRecalcContent: " Hvis du laver en ændring, der påvirker en værdi, vil regneark automatisk genberegne det.",
     CalculateSheet: "Beregn Sheet",
     CalculateNow: "Beregn nu",
-    CalculateNowContent: "Beregn hele projektmappen nu. <br/> Du behøver kun at bruge dette, hvis automatisk beregning er slukket.",
-    CalculateSheetContent: "Beregn det aktive ark nu. <br/> Du behøver kun at bruge dette, hvis automatisk beregning er slukket.",
+    CalculateNowContent: "Beregn hele projektmappen nu.",
+    CalculateNowTurnOffContent: "lculateNowTurnOffContent Du behøver kun at bruge dette, hvis automatisk beregning er slukket.",
+    CalculateSheetContent: "Beregn det aktive ark nu.",
+    CalculateSheetTurnOffContent: " Du behøver kun at bruge dette, hvis automatisk beregning er slukket.",
     Title: "regneark",
+    ColorPicker: "Farvevælger",
     Ok: "Okay",
     Cancel: "Ophæve",
     Alert: "Vi kunne ikke gøre dette for det valgte celleområde. Vælg en enkelt celle i en række data og derefter prøve igen.",
@@ -1459,6 +1603,10 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["da-DK"] = {
     AlignCenterContent: "Centrer dit indhold.",
     AlignRight: "Juster Right",
     AlignRightContent: "Juster dit indhold til højre.",
+    IncreaseIndent: "Forøg indrykning",
+    IncreaseIndentContent: "Flytte dit indhold længere væk fra cellekant.",
+    DecreaseIndent: "Forøg indrykning",
+    DecreaseIndentContent: "Flytte dit indhold tættere til cellekant.",
     Undo: "Fortryd",
     Redo: "redo",
     NumberFormat: "talformat",
@@ -1479,6 +1627,7 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["da-DK"] = {
     Fill: "Fylde",
     ExportXL: "Excel",
     ExportCsv: "CSV",
+    ExportPdf: "PDF",
     SaveXml: "Gem XML",
     BGContent: "Farvelægge baggrunden af cellerne for at gøre dem skiller sig ud.",
     ColorContent: "Ændre farven på din tekst.",
@@ -1588,7 +1737,8 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["da-DK"] = {
     TableStyleOptions: "Første Kolonne / Sidste Kolonne / Total Række / Filter Button",
     Format: "Format",
     NameManager: "Navn manager",
-    NameManagerContent: "Oprette, redigere, slette og finde alle de navne, der anvendes i projektmappen. <br /> <br /> Navne kan bruges i formler som erstatninger for cellereferencer.",
+    NameManagerContent: "Oprette, redigere, slette og finde alle de navne, der anvendes i projektmappen.",
+    NameManagerFormulaContent: " Navne kan bruges i formler som erstatninger for cellereferencer.",
     DefinedNames: "defineret navne",
     DefineName: "Definer Navn",
     DefineNameContent: "Definer og anvende navne.",
@@ -1719,10 +1869,17 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["da-DK"] = {
     HideSheet: "Skjule",
     UnhideSheet: "Vis igen",
     SheetRenameAlert: "Dette navn er allerede taget. Prøv en anden.",
-    SheetRenameEmptyAlert: "Du har indtastet et ugyldigt navn for et ark. Sørg for, at: <ul> <li> Det navn, du skriver ikke overstiger 31 tegn </ li> <li> Navnet indeholder ikke nogen af følgende tegn:. \ /? * [Eller] </ li> <li> Du havde ingen navnet blankt. </ Li> </ ul>",
+    SheetRenameEmptyAlert: "Du har indtastet et ugyldigt navn for et ark. Sørg for, at:",
+    SheetRenameEmptyCharExceedAlert: " Det navn, du skriver ikke overstiger 31 tegn :",
+    SheetRenameEmptySplCharAlert: " Navnet indeholder ikke nogen af følgende tegn:.",
+    SheetRenameEmptyBlankAlert: "Du havde ingen navnet blankt.",
     SheetDeleteAlert: "Du kan ikke fortryde sletning ark, og du kan være at fjerne nogle data. Hvis du ikke har brug for det, skal du klikke på OK for at slette.",
     SheetDeleteErrorAlert: "En projektmappe skal indeholde mindst ét synligt regneark. For at skjule, slette eller flytte det valgte ark, skal du først indsætte et nyt ark eller vise et ark, der allerede er gemt.",
     CtrlKeyErrorAlert: "Det kommando kan ikke bruges på flere valg.",
+    ClipboardAccessError: "Din browser kan ikke få adgang til Udklipsholder, så brug disse genveje:",
+    ClipboardAccessCutError: "Skåret = Ctrl + X",
+    ClipboardAccessCopyError: "Copy = Ctrl + C",
+    ClipboardAccessPasteError: "Indsæt = Ctrl + V",
     MoveToEnd: "Flyt til End",
     Beforesheet: "Før ark:",
     CreateaCopy: "Opret en kopi",
@@ -1913,13 +2070,15 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["da-DK"] = {
     RedoContent: "Gentag seneste handling.",
     TableTitle: "Tabel (Ctrl + T)",
     HyperLinkTitle: "Tilføj et hyperlink (Ctrl + K)",
-    HyperLinkContent: "Opret et link i dit dokument for hurtig adgang til websider og filer. <br /> <br /> Hyperlinks kan også tage dig til steder i dit dokument.",
+    HyperLinkContent: "Opret et link i dit dokument for hurtig adgang til websider og filer. ",
+    HyperLinkPlaceContent: " Hyperlinks kan også tage dig til steder i dit dokument.",
     NewCommentTitle: "Indsæt en kommentar",
     NewCommentContent: "Tilføj en note om denne del af dokumentet.",
     RefreshTitle: "Opfriske",
     RefreshContent: "Få de nyeste data fra kilden er tilsluttet til den aktive celle",
     FieldListTitle: "Liste Field",
-    FieldListContent: "Vis eller skjul Field List. <br /> <br /> Feltet liste giver dig mulighed for at tilføje og fjerne felter fra din pivottabel",
+    FieldListContent: "Vis eller skjul Field List.",
+    FieldListRemoveContent: " Feltet liste giver dig mulighed for at tilføje og fjerne felter fra din pivottabel",
     AddChartElement: "Tilføj Chart Element",
     AddChartElementContent: "Tilføj elementer til den oprettede diagram.",
     SwitchRowColumn: "Skift række / kolonne",
@@ -2047,6 +2206,26 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["da-DK"] = {
     CellTypeAlert: "Denne handling er ikke tilladt i celletype anvendt rækkevidde.",
     PivotOverlapAlert: "En pivottabel rapport kan ikke overlappe en anden Pivot Table rapport",
     NoCellFound: "Ingen celler blev fundet",
+    CorrectArgument: "Angiv den korrekte argument",
+    CorrectFormula: "Venligst den korrekte formel",
+    CorrectCellAddress: "Angiv den korrekte celleadresse",
+    ChartType: "Diagramtype",
+    NumberValidationAlert: "Maksimum skal være større end eller lig med Minimum",
+    DateValidationAlert: "Slutdatoen skal være større end eller lig med startdato",
+    TimeValidationAlert: "Sluttidspunktet skal være større end eller lig med Start Time",
+    NewRuleAlert: "Der er et problem med denne formel",
+    DragAlert: "Kommandoen kunne ikke fuldføres, som du forsøger at flytte celler i rækken filter. Vælg en vifte af rækken filter og prøve kommandoen igen.",
+    OR: "eller",
+    HOME: "HJEM",
+    INSERT: "INSERT",
+    DATATAB: "DATA",
+    PAGELAYOUT: "SIDELAYOUT",
+    REVIEW: "ANMELDELSE",
+    OTHERS: "ANDRE",
+    FORMAT: "Format",
+    DESIGN: "DESIGN",
+    CHARTDESIGN: "Chart design",
+    ANALYZE: "Analysere"
 };
 if (ej.TreeGrid) ej.TreeGrid.Locale["da-DK"] = {
     toolboxTooltipTexts: {
@@ -2122,7 +2301,29 @@ if (ej.TreeGrid) ej.TreeGrid.Locale["da-DK"] = {
         dropdownTableValue: "Værdi",
         addData: "Tilføje",
         deleteData: "Fjerne",
-        allowCellSelection: "Tillad Cell Selection"
+        allowCellSelection: "Tillad Cell Selection",
+        showInColumnChooser: "Vis I kolonne Vælger",
+        displayAsCheckbox: "Skærm Som Afkrydsningsfelt",
+        clipMode: "Clip-tilstand",
+        tooltip: "tooltip",
+        headerTooltip: "Header Tooltip"
+    },
+    editTypeTexts: {
+        string: "Snor",
+        numeric: "Numerisk",
+        datePicker: "datovælger",
+        dateTimePicker: "Dato Tid Picker",
+        dropdown: "dropdown",
+        boolean: "Boolesk"
+    },
+    textAlignTypes: {
+        right: "Højre",
+        left: "Venstre",
+        center: "Centrum"
+    },
+    clipModeTexts: {
+        clip: "Clip",
+        ellipsis: "ellipse"
     },
     columnDialogTitle: {
         insertColumn: "Indsæt kolonne",

@@ -130,7 +130,7 @@ if (ej.ExcelFilter) ej.ExcelFilter.Locale["hr-HR"] = {
     title: "Prilagođeni filtar",
     PredicateAnd: "I",
     PredicateOr: "ILI",
-    Ok: "u redu",
+    OK: "u redu",
     MatchCase: "Match Case",
     Cancel: "Otkazati",
     NoResult: "Nije pronađen nijedan rezultat",
@@ -256,7 +256,7 @@ if (ej.Gantt) ej.Gantt.Locale["hr-HR"] = {
         baselineStartDate: "Osnovni Datum početka",
         baselineEndDate: "Osnovni Datum završetka",
         WBS: "WBS",
-        WBSpredecessor: "WBS prethodnik",
+        WBSPredecessor: "WBS prethodnik",
         dialogCustomFieldName: "Naziv Stupac",
         dialogCustomFieldValue: "Vrijednost",
         notes: "Bilješke",
@@ -272,7 +272,8 @@ if (ej.Gantt) ej.Gantt.Locale["hr-HR"] = {
         deleteButton: "Izbrisati",
         cancelButton: "Otkazati",
         addPredecessor: "Dodaj novi",
-        removePredecessor: "Ukloniti"
+        removePredecessor: "Ukloniti",
+        addButton: "Dodati",
     },
     columnDialogTexts: {
         field: "Polje",
@@ -291,7 +292,28 @@ if (ej.Gantt) ej.Gantt.Locale["hr-HR"] = {
         dropdownTableValue: "Vrijednost",
         addData: "Dodati",
         deleteData: "Ukloniti",
-        allowCellSelection: "Dopusti odabir ćelija"
+        allowCellSelection: "Dopusti odabir ćelija",
+        displayAsCheckbox: "Prikaz Kao kućicu",
+        clipMode: "isječak način",
+        tooltip: "Opis",
+        headerTooltip: "zaglavlje Tooltip"
+    },
+    editTypeTexts: {
+        string: "Niz",
+        numeric: "numerički",
+        datePicker: "Date Picker",
+        dateTimePicker: "Datum Vrijeme Picker",
+        dropdown: "padajući",
+        boolean: "Booleova"
+    },
+    textAlignTypes: {
+        right: "Pravo",
+        left: "Lijevo",
+        center: "Centar"
+    },
+    clipModeTexts: {
+        clip: "spojnica",
+        ellipsis: "Elipsa"
     },
     toolboxTooltipTexts: {
         addTool: "Dodati",
@@ -307,7 +329,8 @@ if (ej.Gantt) ej.Gantt.Locale["hr-HR"] = {
         nextTimeSpanTool: "Sljedeća Vremensko razdoblje",
         prevTimeSpanTool: "Prethodna Vremensko razdoblje",
         criticalPathTool: "kritična Put",
-        excelExportTool: "Excel Izvoz"
+        excelExportTool: "Excel Izvoz",
+        pdfExportTool: "PDF Izvoz"
     },
     durationUnitTexts: {
         days: "dana",
@@ -394,12 +417,10 @@ if (ej.Grid) ej.Grid.Locale["hr-HR"] = {
     DeleteOperationAlert: "Nema odabrane za brisanje rad zapisi",
     EditOperationAlert: "Nema odabrane za uređivanje operacija zapisa",
     SaveButton: "Uštedjeti",
-    OkButton: "u redu",
+    OKButton: "u redu",
     CancelButton: "Otkazati",
     EditFormTitle: "Detalji",
     AddFormTitle: "Dodaj novi rekord",
-    Notactionkeyalert: "Ovaj ključ-Kombinacija nije dostupan",
-    Keyconfigalerttext: "Ovaj ključ-Kombinacija je već dodijeljen",
     GroupCaptionFormat: "{{:headerText}}: {{:key}} - {{:count}} {{if count == 1 }} artikal {{else}} stavke {{/if}} ",
     BatchSaveConfirm: "Jeste li sigurni da želite spremiti promjene?",
     BatchSaveLostChanges: "Promjene koje nisu spremljene će biti izgubljene. Jeste li sigurni da želite nastaviti?",
@@ -557,6 +578,10 @@ if (ej.PivotClient) ej.PivotClient.Locale["hr-HR"] = {
     IsGreaterThanOrEqualTo: "Veće ili jednako",
     IsLessThan: "Je manje od",
     IsLessThanOrEqualTo: "Manje ili jednako",
+    ClearSorting: "Jasno sortiranje",
+    ClearFilterFrom: "Čisto iz filtera",
+    SortAtoZ: "Neka vrsta od A do Z",
+    SortZtoA: "Nekako Z do A",
 
     DeferUpdate: "Odgodi Update",
     MDXQuery: "MDX upita",
@@ -674,7 +699,19 @@ if (ej.PivotClient) ej.PivotClient.Locale["hr-HR"] = {
     SetReportNameAlertMsg: "Pripremite izvještaj.",
     Search: "Pretraži",
     MultipleItems: "Više stavki",
-    All: "Sve"
+    All: "Sve",
+    NoReports: "Nema podataka u bazi",
+    CalculatedMember: "Kalkuliran članica",
+    Caption: "Caption:",
+    Expression: "Izraz:",
+    MemberType: "Član grupe:",
+    FormatString: "Format String:",
+    MultipleMeasure: "Više ne možemo izmjeriti.",
+    DuplicateCalcMeasure: "Kalkuliran članica sa istim imenom već postoji.",
+    EmptyField: "Član izračunao ime ili opis ne može biti prazno.",
+    EmptyFormat: "Format string postignuta je prazna.",
+    Warning: "Upozorenje",
+    Confirm: "Kalkuliran članica sa istim imenom već postoji. Zbog želim zamijeniti?"
 };
 if (ej.PivotGauge) ej.PivotGauge.Locale["hr-HR"] = {
     RevenueGoal: "Cilj prihoda",
@@ -743,6 +780,85 @@ if (ej.PdfViewer) ej.PdfViewer.Locale["hr-HR"] = {
             headerText: 'Preuzimanje',
             contentText: 'Preuzmite dokument u PDF formatu.'
         },
+        highlight: {
+            headerText: 'Označite tekst',
+            contentText: 'Označite tekst u PDF stranice.',
+        },
+        strikeout: {
+            headerText: 'Precrtaj tekst',
+            contentText: 'Precrtano tekst u PDF stranice.',
+        },
+        underline: {
+            headerText: 'Podcrtaj tekst',
+            contentText: 'Podcrtaj tekst u PDF stranice.',
+        },
+    },
+    contextMenu: {
+        copy: {
+            contentText: 'kopirati',
+        },
+        googleSearch: {
+            contentText: 'pretraži google',
+        },
+        Find: {
+            contentText: 'Pronaći:',
+        },
+        matchCase: {
+            contentText: 'kutija šibica',
+        },
+        auto: {
+            contentText: 'Auto',
+        },
+        openPopup: {
+            contentText: 'OpenPopup',
+        },
+        Delete: {
+            contentText: 'izbrisati',
+        },
+        properties: {
+            contentText: 'Svojstva....',
+        },
+    },
+    propertyWindow: {
+        underlineProperties: {
+            contentText: "Podcrtavaju svojstva"
+        },
+        strikeOutProperties: {
+            contentText: "StrikeOutProperties"
+        },
+        highlightProperties: {
+            contentText: "HighlightProperties"
+        },
+        appearance: {
+            contentText: "izgled"
+        },
+        general: {
+            contentText: "general"
+        },
+        color: {
+            contentText: "Boja:"
+        },
+        opacity: {
+            contentText: "neprozirnost:"
+        },
+        author: {
+            contentText: "Autor:"
+        },
+        subject: {
+            contentText: "Predmet:"
+        },
+        modified: {
+            contentText: "Modificirano:"
+        },
+        ok: {
+            contentText: "u redu"
+        },
+        cancel: {
+            contentText: "otkazati"
+        },
+        locked: {
+            contentText: "zaključan"
+        }
     },
 };
 if (ej.PercentageTextbox) ej.PercentageTextbox.Locale["hr-HR"] = {
@@ -759,6 +875,11 @@ if (ej.PivotGrid) ej.PivotGrid.Locale["hr-HR"] = {
     IsGreaterThanOrEqualTo: "Veće ili jednako",
     IsLessThan: "Je manje od",
     IsLessThanOrEqualTo: "Manje ili jednako",
+    ClearSorting: "Jasno sortiranje",
+    ClearFilterFrom: "Čisto iz filtera",
+    SortAtoZ: "Neka vrsta od A do Z",
+    SortZtoA: "Nekako Z do A",
+    and: "i",
 
     NumberFormatting: "Broj & formatiranje",
     FrozenHeaders: "Smrznute zaglavlja",
@@ -929,7 +1050,12 @@ if (ej.PivotGrid) ej.PivotGrid.Locale["hr-HR"] = {
     CalcValue: "Izračunato polje može se umetnuti samo u vrijednosti polja području",
     MultipleItems: "Više stavki",
     All: "Sve",
-    Search: "Pretraži"
+    Search: "Pretraži",
+    ColumnResize: "Promijeni veličinu stupca",
+    Layouts: "Osvježi tabulatore",
+    NormalLayout: "Normalni raspored",
+    NormalTopSummary: "Standardne najbolje sažetak layout",
+    NoSummaries: "Ne Summaries layout"
 };
 if (ej.PivotPager) ej.PivotPager.Locale["hr-HR"] = {
     SeriesPage: "Serija stranice",
@@ -948,6 +1074,11 @@ if (ej.PivotSchemaDesigner) ej.PivotSchemaDesigner.Locale["hr-HR"] = {
     IsGreaterThanOrEqualTo: "Veće ili jednako",
     IsLessThan: "Je manje od",
     IsLessThanOrEqualTo: "Manje ili jednako",
+    ClearSorting: "Jasno sortiranje",
+    ClearFilterFrom: "Čisto iz filtera",
+    SortAtoZ: "Neka vrsta od A do Z",
+    SortZtoA: "Nekako Z do A",
+    and: "i",
 
     PivotTableFieldList: "Zaokretne tablice Popis Polje",
     ChooseFieldsToAddToReport: "Odaberite polja za dodavanje prijaviti:",
@@ -1197,7 +1328,7 @@ if (ej.RTE) ej.RTE.Locale["hr-HR"] = {
 	imageBorder: "Granični slike",
 	imageStyle: "Stil",
 	linkText: "Tekst",
-	linkToolTip: "Opis",
+	linkTooltipLabel: "Opis",
 	html5Support: "Ovaj alat ikona omogućen samo u HTML5 Podržani preglednici",
 	linkOpenInNewWindow: "Otvori vezu u novom prozoru",
 	tableColumns: "Broj stupaca",
@@ -1267,7 +1398,7 @@ if (ej.RTE) ej.RTE.Locale["hr-HR"] = {
 	lowerroman: "Donja Roman",
 	upperroman: "gornja Roman",
 	none: "nijedan",
-	linktooltip: "Ctrl + klik slijediti vezu",
+	linkTooltip: "Ctrl + klik slijediti vezu",
 	charSpace: "Znakova (s razmacima)",
 	charNoSpace: "Znakova (bez razmaka)",
 	wordCount: "Brojanje riječi",
@@ -1287,6 +1418,10 @@ if (ej.RTE) ej.RTE.Locale["hr-HR"] = {
 	Replace: "Zamijeniti",
 	ReplaceAll: "Zamijeni sve",
 	FindErrorMsg: "Ne mogu pronaći određenu riječ.",
+	customFontColor:"Više boja...",
+	customBGColor:"Više boja...",
+	TransBGColor:"transparentan"
+   
 };
 if (ej.Schedule) ej.Schedule.Locale["hr-HR"] = {
     ReminderWindowTitle: "prozor Podsjetnik",
@@ -1387,6 +1522,10 @@ if (ej.Schedule) ej.Schedule.Locale["hr-HR"] = {
     DeleteConfirmation: "Jeste li sigurni da želite obrisati ovaj sastanak?",
     Time: "Vrijeme",
     EmptyResultText: "Nema prijedloga",
+    BlockIntervalAlertTitle: "uzbuna",
+    BlockIntervalError: "Odabrani vremenski interval blokiran je i nije dostupan za odabir.",
+    RecurrenceDateValidation: "Neki mjeseci imaju manje od odabranih datuma. Tijekom tih mjeseci, pojava će pasti na zadnji datum u mjesecu.",
+    SeriesChangeAlert: "Promjene na specifičnim primjerima ove serije bit će poništene i te obveze ponovno će odgovarati seriji."
 };
 if (ej.Spreadsheet) ej.Spreadsheet.Locale["hr-HR"] = {
     Cut: "Rez",
@@ -1413,20 +1552,25 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["hr-HR"] = {
     SortNewesttoOldest: "Sort od najnovijeg do najstarijeg",
     Insert: "Umetnuti",
     InsertTitle: "Umetanje Stanice",
-    InsertContent: "Dodajte nove stanice, redaka ili stupaca u radnoj knjizi <br /> <br /> FYI:. Za umetanje više redaka ili stupaca u isto vrijeme, odabrali više redaka ili stupaca u listu, a zatim kliknite Umetni.",
+    InsertContent: "Dodajte nove stanice, redaka ili stupaca u radnoj knjizi",
+    MultipleInsertContent: " FYI:. Za umetanje više redaka ili stupaca u isto vrijeme, odabrali više redaka ili stupaca u listu, a zatim kliknite Umetni.",
     InsertSBContent: "Dodaj stanice, redaka, stupaca, ili listiće na svoju radnu knjigu.",
     Delete: "Izbrisati",
     DeleteTitle: "Brisanje stanice",
-    DeleteContent: "Brisanje ćelija, redaka, stupaca ili listove iz svoje radne knjige <br /> <br /> FYI:. Za brisanje više redaka ili stupaca u isto vrijeme, odabrali više redaka ili stupaca u listu, a zatim kliknite Izbriši.",
+    DeleteContent: "Brisanje ćelija, redaka, stupaca ili listove iz svoje radne knjige",
+    MultipleDeleteContent: " FYI:. Za brisanje više redaka ili stupaca u isto vrijeme, odabrali više redaka ili stupaca u listu, a zatim kliknite Izbriši.",
     FindSelectTitle: "Pronađite i odaberite",
     FindSelectContent: "Kliknite da biste vidjeli opcije za pronalaženje teksta u dokumentu.",
     CalculationOptions: "Izračun Mogućnosti",
     CalcOptTitle: "Izračun Mogućnosti",
-    CalcOptContent: "Odaberite za automatsko ili ručno izračunati formule. <br/> <br/> Ako napravite promjenu koja utječe na vrijednost, proračunske tablice će ga automatski izračun.",
+    CalcOptContent: "Odaberite za automatsko ili ručno izračunati formule.",
+    CalcOptRecalcContent: " Ako napravite promjenu koja utječe na vrijednost, proračunske tablice će ga automatski izračun.",
     CalculateSheet: "Izračunajte list",
     CalculateNow: "Izračunajte sada",
-    CalculateNowContent: "Izračunajte cijelu radnu knjigu sada. <br/> <br/> Vi samo trebate koristiti ako automatski izračun isključen.",
-    CalculateSheetContent: "Izračunajte aktivni list sada. <br/> <br/> Vi samo trebate koristiti ako automatski izračun isključen.",
+    CalculateNowContent: "Izračunajte cijelu radnu knjigu sada.",
+    CalculateNowTurnOffContent: " Vi samo trebate koristiti ako automatski izračun isključen.",
+    CalculateSheetContent: "Izračunajte aktivni list sada. ",
+    CalculateSheetTurnOffContent: " Vi samo trebate koristiti ako automatski izračun isključen.",
     Title: "Spreadsheet",
     Ok: "u redu",
     Cancel: "Otkazati",
@@ -1594,7 +1738,8 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["hr-HR"] = {
     TableStyleOptions: "Prvi stupac / Zadnji stupac / Ukupni Row / gumb Filtar",
     Format: "Format",
     NameManager: "Ime menadžera",
-    NameManagerContent: "Stvaranje, uređivanje, brisanje i pronaći sva imena se koriste u radnoj knjizi. <br /> <br /> Imena se mogu koristiti u formulama kao zamjena za reference na ćelije.",
+    NameManagerContent: "Stvaranje, uređivanje, brisanje i pronaći sva imena se koriste u radnoj knjizi. ",
+    NameManagerFormulaContent: " Imena se mogu koristiti u formulama kao zamjena za reference na ćelije.",
     DefinedNames: "definirani nazivi",
     DefineName: "Odredite Name",
     DefineNameContent: "Definirati i primijeniti imena.",
@@ -1725,7 +1870,10 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["hr-HR"] = {
     HideSheet: "Sakriti",
     UnhideSheet: "Otkrij",
     SheetRenameAlert: "To ime je već zauzeto. Probajte neku drugu.",
-    SheetRenameEmptyAlert: "Upisali ste pogrešan naziv za listu. Provjerite sljedeće: <ul> <li> Naziv koji ste tip ne prelazi 31 znakova </ li> <li> Ime ne sadrži bilo koji od sljedećih znakova:. \ /? * [I] </ li> <li> nije ostavio ime prazan. </ Li> </ ul>",
+    SheetRenameEmptyAlert: "Upisali ste pogrešan naziv za listu. Provjerite sljedeće:",
+    SheetRenameEmptyCharExceedAlert: " Naziv koji ste tip ne prelazi 31 znakova",
+    SheetRenameEmptySplCharAlert: " Ime ne sadrži bilo koji od sljedećih znakova:",
+    SheetRenameEmptyBlankAlert: " nije ostavio ime prazan. ",
     SheetDeleteAlert: "Ne možete poništiti brisanje listova, a možda će ukloniti neke podatke. Ako ne trebate ga, kliknite U redu za brisanje.",
     SheetDeleteErrorAlert: "Radna knjiga mora sadržavati barem jedan vidljivi list. Za skrivanje, izbrisati ili premjestiti odabranu list, morate najprije umetnite novi list ili otkriti list koji je već skriven.",
     CtrlKeyErrorAlert: "Ta naredba se ne može koristiti na više odabire.",
@@ -1914,13 +2062,15 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["hr-HR"] = {
     RedoContent: "Ponovi posljednju radnju.",
     TableTitle: "Tablica (Ctrl + T)",
     HyperLinkTitle: "Dodaj hipervezu (Ctrl + K)",
-    HyperLinkContent: "Stvaranje veze u dokumentu za brzi pristup web-stranice i datoteke. <br /> <br /> hiperveza može vas odvesti do mjesta u dokumentu.",
+    HyperLinkContent: "Stvaranje veze u dokumentu za brzi pristup web-stranice i datoteke.",
+    HyperLinkPlaceContent: " hiperveza može vas odvesti do mjesta u dokumentu.",
     NewCommentTitle: "Umetnite komentar",
     NewCommentContent: "Dodaj bilješku o ovom dijelu dokumenta.",
     RefreshTitle: "Osvježiti",
     RefreshContent: "Nabavite najnovije podatke iz izvora spojenog na aktivne ćelije",
     FieldListTitle: "Lista polje",
-    FieldListContent: "Prikaz ili sakrivanje popisa polja. <br /> <br /> liste terenu omogućava dodavanje i uklanjanje polja iz svog zaokretne tablice izvješća",
+    FieldListContent: "Prikaz ili sakrivanje popisa polja. ",
+    FieldListRemoveContent: " liste terenu omogućava dodavanje i uklanjanje polja iz svog zaokretne tablice izvješća",
     AddChartElement: "Dodaj Grafikon Element",
     AddChartElementContent: "Dodaj elementi se stvorio grafikona.",
     SwitchRowColumn: "Switch redak / stupac",
@@ -2048,6 +2198,36 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["hr-HR"] = {
     CellTypeAlert: "Ova operacija nije dopuštena u tipu stanica primjenjuje raspona.",
     PivotOverlapAlert: "Izvještaj Pivot tablice ne mogu se preklapati još jedno izvješće stožerna tablica",
     NoCellFound: "Bez stanica nije nađena",
+    ColorPicker: "Birač boja",
+    IncreaseIndent: "Povećaj uvlaku",
+    IncreaseIndentContent: "Premještanje sadržaja dalje od granice stanica.",
+    DecreaseIndent: "Smanji uvlaku",
+    DecreaseIndentContent: "Premještanje sadržaja bliže granici stanica.",
+    ExportPdf: "PDF",
+    ClipboardAccessError: "Vaš preglednik ne mogu pristupiti međuspremnika, tako da koristite ove prečace:",
+    ClipboardAccessCutError: "Izrežite = Ctrl + X",
+    ClipboardAccessCopyError: "Kopiraj = Ctrl + C",
+    ClipboardAccessPasteError: "Paste = Ctrl + V",
+    CorrectArgument: "Unesite ispravnu tvrdnju",
+    CorrectFormula: "Unesite ispravnu formulu",
+    CorrectCellAddress: "Unesite ispravnu adresu ćelije",
+    ChartType: "Vrsta grafikona",
+    NumberValidationAlert: "Maksimalna mora biti veća od ili jednaka do minimuma",
+    DateValidationAlert: "Datum završetka mora biti veća od ili jednaka Datum početka",
+    TimeValidationAlert: "Kraj vremena mora biti veća od ili jednaka vrijeme početka",
+    NewRuleAlert: "Tu problem s ovom formulom",
+    DragAlert: "Naredba se ne može izvršiti dok se pokušavao kretati stanice unutar raspona filtra. Odaberite raspon izvan raspona filtra i ponovno pokušajte naredbu.",
+    OR: "ili",
+    HOME: "DOM",
+    INSERT: "UMETNUTI",
+    DATATAB: "PODACI",
+    PAGELAYOUT: "IZGLED STRANICA",
+    REVIEW: "PREGLED",
+    OTHERS: "DRUGI",
+    FORMAT: "Format",
+    DESIGN: "DIZAJN",
+    CHARTDESIGN: "grafikon dizajn",
+    ANALYZE: "Analizirati"
 };
 if (ej.TreeGrid) ej.TreeGrid.Locale["hr-HR"] = {
     toolboxTooltipTexts: {
@@ -2123,7 +2303,29 @@ if (ej.TreeGrid) ej.TreeGrid.Locale["hr-HR"] = {
         dropdownTableValue: "Vrijednost",
         addData: "Dodati",
         deleteData: "Ukloniti",
-        allowCellSelection: "Dopusti odabir ćelija"
+        allowCellSelection: "Dopusti odabir ćelija",
+        showInColumnChooser: "Prikaži u stupcu Biraču",
+        displayAsCheckbox: "Prikaz Kao kućicu",
+        clipMode: "isječak način",
+        tooltip: "Opis",
+        headerTooltip: "zaglavlje Tooltip"
+    },
+    editTypeTexts: {
+        string: "Niz",
+        numeric: "numerički",
+        datePicker: "Date Picker",
+        dateTimePicker: "Datum Vrijeme Picker",
+        dropdown: "padajući",
+        boolean: "Booleova"
+    },
+    textAlignTypes: {
+        right: "Pravo",
+        left: "Lijevo",
+        center: "Centar"
+    },
+    clipModeTexts: {
+        clip: "spojnica",
+        ellipsis: "Elipsa"
     },
     columnDialogTitle: {
         insertColumn: "Umetni stupac",

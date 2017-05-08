@@ -130,7 +130,7 @@ if (ej.ExcelFilter) ej.ExcelFilter.Locale["ro-RO"] = {
     title: "Filtru personalizat",
     PredicateAnd: "ȘI",
     PredicateOr: "SAU",
-    Ok: "bine",
+    OK: "bine",
     MatchCase: "meci Case",
     Cancel: "Anulare",
     NoResult: "Nu s-a gasit nici o potrivire",
@@ -256,7 +256,7 @@ if (ej.Gantt) ej.Gantt.Locale["ro-RO"] = {
         baselineStartDate: "Dată de referință Start",
         baselineEndDate: "Momentul inițial Data de încheiere",
         WBS: "wBS",
-        WBSpredecessor: "wBS predecesor",
+        WBSPredecessor: "wBS predecesor",
         dialogCustomFieldName: "Nume coloană",
         dialogCustomFieldValue: "Valoare",
         notes: "notițe",
@@ -282,7 +282,28 @@ if (ej.Gantt) ej.Gantt.Locale["ro-RO"] = {
         dropdownTableValue: "Valoare",
         addData: "Adăuga",
         deleteData: "Elimina",
-        allowCellSelection: "Permite selectarea de celule"
+        allowCellSelection: "Permite selectarea de celule",
+        displayAsCheckbox: "afișare ca casetă de selectare",
+        clipMode: "Modul Clip",
+        tooltip: "tooltip",
+        headerTooltip: "Antet Tooltip"
+    },
+    editTypeTexts: {
+        string: "Şir",
+        numeric: "Numeric",
+        datePicker: "Date Picker",
+        dateTimePicker: "Data Ora Picker",
+        dropdown: "Scapă jos",
+        boolean: "boolean"
+    },
+    textAlignTypes: {
+        right: "Dreapta",
+        left: "Stânga",
+        center: "Centru"
+    },
+    clipModeTexts: {
+        clip: "Clamă",
+        ellipsis: "Elipsă"
     },
     editDialogTexts: {
         addFormTitle: "Sarcina noua",
@@ -291,7 +312,8 @@ if (ej.Gantt) ej.Gantt.Locale["ro-RO"] = {
         deleteButton: "Șterge",
         cancelButton: "Anulare",
         addPredecessor: "Adăuga nou",
-        removePredecessor: "Elimina"
+        removePredecessor: "Elimina",
+        addButton: "Adăuga"
     },
     toolboxTooltipTexts: {
         addTool: "Adăuga",
@@ -303,11 +325,12 @@ if (ej.Gantt) ej.Gantt.Locale["ro-RO"] = {
         indentTool: "Indentați",
         outdentTool: "fără indentare",
         expandAllTool: "Extinde toate",
-        collapseAllTool: "Reduceți totul În această",
+        collapseAllTool: "Restrângere totală",        
         nextTimeSpanTool: "următor Perioadă de timp",
         prevTimeSpanTool: "anterioară Durata de timp",
         criticalPathTool: "Traiectorie critică",
-        excelExportTool: "Excel Export"
+        excelExportTool: "Excel Export",
+        pdfExportTool: "Export PDF"
     },
     durationUnitTexts: {
         days: "zi",
@@ -394,12 +417,10 @@ if (ej.Grid) ej.Grid.Locale["ro-RO"] = {
     DeleteOperationAlert: "Nu exista inregistrari selectate pentru operație de ștergere",
     EditOperationAlert: "Nu exista inregistrari selectate pentru operație de editare",
     SaveButton: "Salvați",
-    OkButton: "bine",
+    OKButton: "bine",
     CancelButton: "Anulare",
     EditFormTitle: "detalii de",
     AddFormTitle: "Adauga o noua înregistrare",
-    Notactionkeyalert: "Această tastă de combinare nu este disponibilă",
-    Keyconfigalerttext: "Această cheie de-combinată a fost deja atribuită",
     GroupCaptionFormat: "{{:headerText}}: {{:key}} - {{:count}} {{if count == 1 }} articol {{else}} articole {{/if}} ",
     BatchSaveConfirm: "Sunteți sigur că doriți să salvați modificările?",
     BatchSaveLostChanges: "Modificările nesalvate vor fi pierdute. Esti sigur ca vrei sa continui?",
@@ -557,6 +578,10 @@ if (ej.PivotClient) ej.PivotClient.Locale["ro-RO"] = {
     IsGreaterThanOrEqualTo: "Este mai mare sau egală cu",
     IsLessThan: "Este mai mică de",
     IsLessThanOrEqualTo: "Este mai mic sau egal cu",­­
+    ClearSorting: "Ştergeţi sortarea",
+    ClearFilterFrom: "Ştergeţi filtrul de la",
+    SortAtoZ: "Un fel de la A la Z",
+    SortZtoA: "Un fel de la Z la A",
 
     DeferUpdate: "Amânați Actualizare",
     MDXQuery: "MDX Solicitare",
@@ -674,7 +699,19 @@ if (ej.PivotClient) ej.PivotClient.Locale["ro-RO"] = {
     SetReportNameAlertMsg: "Vă rugăm să setaţi numele raportului.",
     Search: "Căutare",
     MultipleItems: "Mai multe elemente",
-    All: "Toate"
+    All: "Toate",
+    NoReports: "Niciun raport de găsit în DB",
+    CalculatedMember: "Calculează statele",
+    Caption: "Subtitrare:",
+    Expression: "Expresia:",
+    MemberType: "Statele tip:",
+    FormatString: "Şirul de format:",
+    MultipleMeasure: "Mai mult de o masura nu poate fi feliată.",
+    DuplicateCalcMeasure: "Calculează Membru cu acelaşi nume există deja.",
+    EmptyField: "Calculează numele de membru sau de exprimare nu poate fi gol.",
+    EmptyFormat: "Şirul de format pentru statele calculată este gol.",
+    Warning: "Avertisment",
+    Confirm: "Calculează Statele cu acelaşi nume există deja. Datorită doriţi să ÎNLOCUIŢI?"
 };
 if (ej.PivotGauge) ej.PivotGauge.Locale["ro-RO"] = {
     RevenueGoal: "venituri Obiectiv",
@@ -743,6 +780,85 @@ if (ej.PdfViewer) ej.PdfViewer.Locale["ro-RO"] = {
             headerText: 'Descarca',
             contentText: 'Descărcați documentul PDF.'
         },
+        highlight: {
+            headerText: 'Text subliniat',
+            contentText: 'Evidențiați text în paginile PDF.',
+        },
+        strikeout: {
+            headerText: 'Text tăiat',
+            contentText: 'Radieze text în paginile PDF.',
+        },
+        underline: {
+            headerText: 'Subliniați Text',
+            contentText: 'Subliniați text în paginile PDF.',
+        },
+    },
+    contextMenu: {
+        copy: {
+            contentText: 'copie',
+        },
+        googleSearch: {
+            contentText: 'Căutare Google',
+        },
+        Find: {
+            contentText: 'Găsi:',
+        },
+        matchCase: {
+            contentText: 'meci de caz',
+        },
+        auto: {
+            contentText: 'Auto',
+        },
+        openPopup: {
+            contentText: 'OpenPopup',
+        },
+        Delete: {
+            contentText: 'Șterge',
+        },
+        properties: {
+            contentText: 'Proprietăți....',
+        },
+    },
+    propertyWindow: {
+        underlineProperties: {
+            contentText: "UnderlineProperties"
+        },
+        strikeOutProperties: {
+            contentText: "StrikeOutProperties"
+        },
+        highlightProperties: {
+            contentText: "HighlightProperties"
+        },
+        appearance: {
+            contentText: "aspect"
+        },
+        general: {
+            contentText: "general"
+        },
+        color: {
+            contentText: "culoare:"
+        },
+        opacity: {
+            contentText: "opacitate:"
+        },
+        author: {
+            contentText: "autor:"
+        },
+        subject: {
+            contentText: "subiect:"
+        },
+        modified: {
+            contentText: "Modificat:"
+        },
+        ok: {
+            contentText: "ok"
+        },
+        cancel: {
+            contentText: "Anulare"
+        },
+        locked: {
+            contentText: "Încuiată"
+        }
     },
 };
 if (ej.PercentageTextbox) ej.PercentageTextbox.Locale["ro-RO"] = {
@@ -759,6 +875,11 @@ if (ej.PivotGrid) ej.PivotGrid.Locale["ro-RO"] = {
     IsGreaterThanOrEqualTo: "Este mai mare sau egală cu",
     IsLessThan: "Este mai mică de",
     IsLessThanOrEqualTo: "Este mai mic sau egal cu",­­
+    ClearSorting: "Ştergeţi sortarea",
+    ClearFilterFrom: "Ştergeţi filtrul de la",
+    SortAtoZ: "Un fel de la A la Z",
+    SortZtoA: "Un fel de la Z la A",
+    and: "Şi",
 
     NumberFormatting: "Formatare numere",
     FrozenHeaders: "Hederele congelate",
@@ -929,7 +1050,12 @@ if (ej.PivotGrid) ej.PivotGrid.Locale["ro-RO"] = {
     CalcValue: "Calculat câmp poate fi introdusă numai în zona de valoare de câmp",
     MultipleItems: "Mai multe elemente",
     All: "Toate",
-    Search: "Căutare"
+    Search: "Căutare",
+    ColumnResize: "Coloana redimensiona",
+    Layouts:"Dispuneri",
+    NormalLayout: "Dispunerea normală",
+    NormalTopSummary: "Dispunerea normală de top sumar",
+    NoSummaries:"Nr. rezumate schemei"
 };
 if (ej.PivotPager) ej.PivotPager.Locale["ro-RO"] = {
     SeriesPage: "seria Pagina",
@@ -948,6 +1074,11 @@ if (ej.PivotSchemaDesigner) ej.PivotSchemaDesigner.Locale["ro-RO"] = {
     IsGreaterThanOrEqualTo: "Este mai mare sau egală cu",
     IsLessThan: "Este mai mică de",
     IsLessThanOrEqualTo: "Este mai mic sau egal cu",­­
+    ClearSorting: "Ştergeţi sortarea",
+    ClearFilterFrom: "Ştergeţi filtrul de la",
+    SortAtoZ: "Un fel de la A la Z",
+    SortZtoA: "Un fel de la Z la A",
+    and: "Şi",
 
     PivotTableFieldList: "Listă de câmp PivotTable",
     ChooseFieldsToAddToReport: "Alege câmpuri pentru a adăuga un raport:",
@@ -1197,7 +1328,7 @@ if (ej.RTE) ej.RTE.Locale["ro-RO"] = {
 	imageBorder: "Border Imagine",
 	imageStyle: "Stil",
 	linkText: "Text",
-	linkToolTip: "tooltip",
+	linkTooltipLabel: "tooltip",
 	html5Support: "Această pictogramă instrument numai activat în HTML5, browserele acceptate",
 	linkOpenInNewWindow: "Deschideți linkul într-o fereastră nouă",
 	tableColumns: "no.of Coloane",
@@ -1267,7 +1398,7 @@ if (ej.RTE) ej.RTE.Locale["ro-RO"] = {
 	lowerroman: "Roman inferior",
 	upperroman: "Roman superior",
 	none: "Nici unul",
-	linktooltip: "Ctrl + clic pentru a urmări link-ul",
+	linkTooltip: "Ctrl + clic pentru a urmări link-ul",
 	charSpace: "Caractere (cu spații)",
 	charNoSpace: "Caractere (fără spații)",
 	wordCount: "Număr de cuvinte",
@@ -1287,6 +1418,9 @@ if (ej.RTE) ej.RTE.Locale["ro-RO"] = {
 	Replace: "A inlocui",
 	ReplaceAll: "Înlocuiește-le pe toate",
 	FindErrorMsg: "Nu a putut găsi cuvântul specificat.",
+	customFontColor:"Mai multe culori...",
+	customBGColor:"Mai multe culori...",
+	TransBGColor:"Transparent"
 };
 if (ej.Schedule) ej.Schedule.Locale["ro-RO"] = {
     ReminderWindowTitle: "fereastră memento",
@@ -1387,6 +1521,10 @@ if (ej.Schedule) ej.Schedule.Locale["ro-RO"] = {
     DeleteConfirmation: "Sunteți sigur că doriți să ștergeți această întâlnire?",
     Time: "Timp",
     EmptyResultText: "Nu există sugestii",
+    BlockIntervalAlertTitle: "Alerta",
+    BlockIntervalError: "Intervalul de timp selectat a fost blocat și nu este disponibil pentru selectare.",
+    RecurrenceDateValidation: "Unele luni au mai puține date decât cele selectate. În aceste luni, apariția va fi în ultima zi a lunii.",
+    SeriesChangeAlert: "Modificările aduse instanțelor specifice din această serie vor fi anulate iar acele întâlniri se vor potrivi din nou seriei."
 };
 if (ej.Spreadsheet) ej.Spreadsheet.Locale["ro-RO"] = {
     Cut: "A taia",
@@ -1413,20 +1551,25 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["ro-RO"] = {
     SortNewesttoOldest: "Sortare Cele mai noi la cele mai vechi",
     Insert: "Introduce",
     InsertTitle: "insera celule",
-    InsertContent: "Adăugați celule noi, rânduri sau coloane pentru registrul dvs. de lucru <br /> <br /> FYI:. Pentru a introduce mai multe rânduri sau coloane la un moment dat, selectați mai multe rânduri sau coloane în foaia, și faceți clic pe Inserare.",
+    InsertContent: "Adăugați celule noi, rânduri sau coloane pentru registrul dvs. de lucru",
+    MultipleInsertContent: " FYI:. Pentru a introduce mai multe rânduri sau coloane la un moment dat, selectați mai multe rânduri sau coloane în foaia, și faceți clic pe Inserare.",
     InsertSBContent: "Adăugați celule, rânduri, coloane sau foi pentru registrul de lucru.",
     Delete: "Șterge",
     DeleteTitle: "Se elimină celulele",
-    DeleteContent: "Ștergeți celule, rânduri, coloane sau foi din registrul de lucru <br /> <br /> FYI:. Pentru a șterge mai multe rânduri sau coloane la un moment dat, selectați mai multe rânduri sau coloane în foaia, și faceți clic pe Ștergere.",
+    DeleteContent: "Ștergeți celule, rânduri, coloane sau foi din registrul de lucru ", 
+    MultipleDeleteContent: " FYI:. Pentru a șterge mai multe rânduri sau coloane la un moment dat, selectați mai multe rânduri sau coloane în foaia, și faceți clic pe Ștergere.",
     FindSelectTitle: "Selectați Find &",
     FindSelectContent: "Click aici pentru a vedea opțiunile pentru găsirea unui text în document.",
     CalculationOptions: "Opțiuni de calcul",
     CalcOptTitle: "Opțiuni de calcul",
-    CalcOptContent: "Alege să calculeze în mod automat sau manual formule. <br/> Dacă faceți o schimbare care afectează o valoare, Spreadsheet se va recalcula în mod automat.",
+    CalcOptContent: "Alege să calculeze în mod automat sau manual formule.", 
+    CalcOptRecalcContent: " Dacă faceți o schimbare care afectează o valoare, Spreadsheet se va recalcula în mod automat.",
     CalculateSheet: "Se calculează Foaie",
     CalculateNow: "Se calculează acum",
-    CalculateNowContent: "Se calculează întregul registru de lucru acum. <br/> Trebuie doar să utilizați această opțiune dacă calcularea automată este dezactivată.",
-    CalculateSheetContent: "Se calculează foaia activă acum. <br/> Trebuie doar să utilizați această opțiune dacă calcularea automată este dezactivată.",
+    CalculateNowContent: "Se calculează întregul registru de lucru acum. ", 
+    CalculateNowTurnOffContent: " Trebuie doar să utilizați această opțiune dacă calcularea automată este dezactivată.",
+    CalculateSheetContent: "Se calculează foaia activă acum.", 
+    CalculateSheetTurnOffContent: " Trebuie doar să utilizați această opțiune dacă calcularea automată este dezactivată.",
     Title: "spreadsheet",
     Ok: "bine",
     Cancel: "Anulare",
@@ -1594,7 +1737,8 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["ro-RO"] = {
     TableStyleOptions: "Prima coloană / ultima coloană / Total Row / Buton Filtru",
     Format: "Format",
     NameManager: "numele managerului",
-    NameManagerContent: "Creați, editați, ștergeți și pentru a găsi toate denumirile utilizate în registrul de lucru. <br /> <br /> Alte denumiri pot fi utilizate în formule ca înlocuitori pentru referințe de celule.",
+    NameManagerContent: "Creați, editați, ștergeți și pentru a găsi toate denumirile utilizate în registrul de lucru.", 
+    NameManagerFormulaContent:" Alte denumiri pot fi utilizate în formule ca înlocuitori pentru referințe de celule.",
     DefinedNames: "Nume definite",
     DefineName: "definiți Nume",
     DefineNameContent: "Să definească și să aplice nume.",
@@ -1725,7 +1869,10 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["ro-RO"] = {
     HideSheet: "Ascunde",
     UnhideSheet: "Reafișați",
     SheetRenameAlert: "Acel nume este deja luat. Încercați unul diferit.",
-    SheetRenameEmptyAlert: "Ați introdus un nume nevalid pentru o foaie. Asigurați-vă că: <ul> <li> Numele pe care îl introduceți nu depășește 31 de caractere </ li> <li> Numele nu conține oricare dintre următoarele caractere:. \ /? * [Sau] </ li> <li> nu lăsați numele martor. </ Li> </ ul>",
+    SheetRenameEmptyAlert: "Ați introdus un nume nevalid pentru o foaie. Asigurați-vă că:", 
+    SheetRenameEmptyCharExceedAlert: " Numele pe care îl introduceți nu depășește 31 de caractere",
+    SheetRenameEmptySplCharAlert: " Numele nu conține oricare dintre următoarele caractere:",
+    SheetRenameEmptyBlankAlert: " nu lăsați numele martor.",
     SheetDeleteAlert: "Nu puteți anula ștergerea foi, și s-ar putea fi eliminarea unor date. Daca nu au nevoie de ea, faceți clic pe OK pentru a șterge.",
     SheetDeleteErrorAlert: "Un registru de lucru trebuie să conțină cel puțin o foaie de lucru vizibil. Pentru a ascunde, șterge, sau mutați foaia selectată, trebuie să introduceți mai întâi o nouă foaie sau o foaie care unhide este deja ascunsă.",
     CtrlKeyErrorAlert: "Această comandă nu poate fi folosit pe mai multe selecții.",
@@ -1914,13 +2061,15 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["ro-RO"] = {
     RedoContent: "Refaceți ultima acțiune.",
     TableTitle: "Tabel (Ctrl + T)",
     HyperLinkTitle: "Se adaugă un Hyperlink (Ctrl + K)",
-    HyperLinkContent: "Creați un link în documentul dvs. pentru a avea acces rapid la paginile web și fișiere. <br /> <br /> Hiperlinkurile puteți lua, de asemenea, locuri în documentul.",
+    HyperLinkContent: "Creați un link în documentul dvs. pentru a avea acces rapid la paginile web și fișiere.", 
+    HyperLinkPlaceContent: " Hiperlinkurile puteți lua, de asemenea, locuri în documentul.",
     NewCommentTitle: "Se introduce un comentariu",
     NewCommentContent: "Adăugați o notă despre această parte a documentului.",
     RefreshTitle: "Reîmprospăta",
     RefreshContent: "Obțineți cele mai recente date de la sursa conectată la celula activă",
     FieldListTitle: "Lista de câmp",
-    FieldListContent: "Afișați sau ascundeți lista de câmpuri. <br /> <br /> Lista câmp vă permite să adăugați și să eliminați câmpurile din raportul PivotTable",
+    FieldListContent: "Afișați sau ascundeți lista de câmpuri. ", 
+    FieldListRemoveContent: " Lista câmp vă permite să adăugați și să eliminați câmpurile din raportul PivotTable",
     AddChartElement: "Add Element Chart",
     AddChartElementContent: "Adăuga elemente la diagrama creată.",
     SwitchRowColumn: "Comutator rând / coloană",
@@ -2048,6 +2197,36 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["ro-RO"] = {
     CellTypeAlert: "Această operațiune nu este permisă în intervalul aplicat tipul de celule.",
     PivotOverlapAlert: "Un raport Tabel pivot nu se poate suprapune un alt raport Tabel pivot",
     NoCellFound: "Nu există celule au fost găsite",
+    ColorPicker: "Selector de culoare",
+    IncreaseIndent: "Mareste indent-ul",
+    IncreaseIndentContent: "Mutați conținutul mai departe de granița celulei.",
+    DecreaseIndent: "Scădere Indentați",
+    DecreaseIndentContent: "Mutați conținutul dvs. mai aproape de granița celulei.",
+    ExportPdf: "PDF",
+    ClipboardAccessError: "Browser-ul dvs. de acces cant clipboard, deci utilizați aceste comenzi rapide:",
+    ClipboardAccessCutError: "Se taie = Ctrl + X",
+    ClipboardAccessCopyError: "Copiere = Ctrl + C",
+    ClipboardAccessPasteError: "= Inserați Ctrl + V",
+    CorrectArgument: "Vă rugăm să introduceți argumentul corect",
+    CorrectFormula: "Vă rugăm să introduceți formula corectă",
+    CorrectCellAddress: "Vă rugăm să introduceți adresa celulei corectă",
+    ChartType: "Grafic Tip",
+    NumberValidationAlert: "Valoarea maximă trebuie să fie mai mare sau egală cu minim",
+    DateValidationAlert: "End Data trebuie să fie mai mare sau egală cu Data începerii",
+    TimeValidationAlert: "Timpul de încheiere trebuie să fie mai mare sau egală cu Ora de incepere",
+    NewRuleAlert: "O problemă cu theres această formulă",
+    DragAlert: "Comanda nu a putut fi finalizată în timp ce încercați să mutați celulele în intervalul de filtru. Selectați o gamă în afara intervalului de filtrare și încercați din nou comanda.",
+    OR: "sau",
+    HOME: "ACASĂ",
+    INSERT: "INTRODUCE",
+    DATATAB: "DATE",
+    PAGELAYOUT: "ARANJAMENT ÎN PAGINĂ",
+    REVIEW: "REVIZUIRE",
+    OTHERS: "ALȚII",
+    FORMAT: "Format",
+    DESIGN: "PROIECTA",
+    CHARTDESIGN: "Grafic de proiectare",
+    ANALYZE: "A analiza"
 };
 if (ej.TreeGrid) ej.TreeGrid.Locale["ro-RO"] = {
     toolboxTooltipTexts: {
@@ -2057,7 +2236,7 @@ if (ej.TreeGrid) ej.TreeGrid.Locale["ro-RO"] = {
         deleteTool: "Șterge",
         cancelTool: "Anulare",
         expandAllTool: "Extinde toate",
-        collapseAllTool: "Reduceți totul În această",
+        collapseAllTool: "Restrângere totală",        
         pdfExportTool: "Export PDF",
         excelExportTool: "Excel Export"
     },
@@ -2123,7 +2302,29 @@ if (ej.TreeGrid) ej.TreeGrid.Locale["ro-RO"] = {
         dropdownTableValue: "Valoare",
         addData: "Adăuga",
         deleteData: "Elimina",
-        allowCellSelection: "Permite selectarea de celule"
+        allowCellSelection: "Permite selectarea de celule",
+        showInColumnChooser: "Afișați în Selectorul de coloane",
+        displayAsCheckbox: "afișare ca casetă de selectare",
+        clipMode: "Modul Clip",
+        tooltip: "tooltip",
+        headerTooltip: "Antet Tooltip"
+    },
+    editTypeTexts: {
+        string: "Şir",
+        numeric: "Numeric",
+        datePicker: "Date Picker",
+        dateTimePicker: "Data Ora Picker",
+        dropdown: "Scapă jos",
+        boolean: "boolean"
+    },
+    textAlignTypes: {
+        right: "Dreapta",
+        left: "Stânga",
+        center: "Centru"
+    },
+    clipModeTexts: {
+        clip: "Clamă",
+        ellipsis: "Elipsă"
     },
     columnDialogTitle: {
         insertColumn: "Inserare coloană",

@@ -130,7 +130,7 @@ if (ej.ExcelFilter) ej.ExcelFilter.Locale["tr-TR"] = {
     title: "özel Filtre",
     PredicateAnd: "VE",
     PredicateOr: "VEYA",
-    Ok: "tamam",
+    OK: "tamam",
     MatchCase: "maç Kılıf",
     Cancel: "İptal",
     NoResult: "Hiçbir sonuç bulunamadı",
@@ -256,7 +256,7 @@ if (ej.Gantt) ej.Gantt.Locale["tr-TR"] = {
         baselineStartDate: "Baseline Başlangıç Tarihi",
         baselineEndDate: "Baseline Bitiş Tarihi",
         WBS: "İDA",
-        WBSpredecessor: "İDA Öncül",
+        WBSPredecessor: "İDA Öncül",
         dialogCustomFieldName: "sütun Adı",
         dialogCustomFieldValue: "değer",
         notes: "notlar",
@@ -272,7 +272,8 @@ if (ej.Gantt) ej.Gantt.Locale["tr-TR"] = {
         deleteButton: "silmek",
         cancelButton: "İptal",
         addPredecessor: "Yeni ekle",
-        removePredecessor: "Kaldır"
+        removePredecessor: "Kaldır",
+        addButton: "eklemek"
     },
     columnDialogTexts: {
         field: "alan",
@@ -291,7 +292,28 @@ if (ej.Gantt) ej.Gantt.Locale["tr-TR"] = {
         dropdownTableValue: "değer",
         addData: "eklemek",
         deleteData: "Kaldır",
-        allowCellSelection: "Hücre seçimine izin"
+        allowCellSelection: "Hücre seçimine izin",
+        displayAsCheckbox: "Onay Kutusu Olarak Görüntüle",
+        clipMode: "Klip Modu",
+        tooltip: "Ipucu",
+        headerTooltip: "Başlık İpucu"
+    },
+    editTypeTexts: {
+        string: "Dize",
+        numeric: "Sayısal",
+        datePicker: "Tarih seçici",
+        dateTimePicker: "Tarih Saat Seçici",
+        dropdown: "Yıkılmak",
+        boolean: "Boolean"
+    },
+    textAlignTypes: {
+        right: "Sağ",
+        left: "Ayrıldı",
+        center: "Merkez"
+    },
+    clipModeTexts: {
+        clip: "Klips",
+        ellipsis: "Elips"
     },
     toolboxTooltipTexts: {
         addTool: "eklemek",
@@ -307,7 +329,8 @@ if (ej.Gantt) ej.Gantt.Locale["tr-TR"] = {
         nextTimeSpanTool: "Sonraki Timespan",
         prevTimeSpanTool: "Önceki Timespan",
         criticalPathTool: "Kritik yol",
-        excelExportTool: "Excel İhracat"
+        excelExportTool: "Excel İhracat",
+        pdfExportTool: "PDF Dışa Aktar"
     },
     durationUnitTexts: {
         days: "günler",
@@ -394,12 +417,10 @@ if (ej.Grid) ej.Grid.Locale["tr-TR"] = {
     DeleteOperationAlert: "Silme işlemi için seçilen kayıt yok",
     EditOperationAlert: "düzenlemek operasyon için seçilen kayıt yok",
     SaveButton: "Kaydet",
-    OkButton: "tamam",
+    OKButton: "tamam",
     CancelButton: "İptal",
     EditFormTitle: "Ayrıntıları",
     AddFormTitle: "Yeni Kayıt Ekle",
-    Notactionkeyalert: "Bu Anahtar Kombinasyonu mevcut değildir",
-    Keyconfigalerttext: "Bu Anahtar Kombinasyonu zaten atanmış",
     GroupCaptionFormat: "{{:headerText}}: {{:key}} - {{:count}} {{if count == 1 }} madde {{else}} ürün {{/if}} ",
     BatchSaveConfirm: "Değişiklikleri kaydetmek istediğinizden emin misiniz?",
     BatchSaveLostChanges: "Kaydedilmemiş değişiklikler kaybolacak. Devam etmek istediğine emin misin?",
@@ -556,7 +577,11 @@ if (ej.PivotClient) ej.PivotClient.Locale["tr-TR"] = {
     IsGreaterThan: "Daha Yüksek",
     IsGreaterThanOrEqualTo: "Büyük veya eşit",
     IsLessThan: "Daha Fazla",
-    IsLessThanOrEqualTo: "Az veya Eşit",­­
+    IsLessThanOrEqualTo: "Az veya Eşit",
+    ClearSorting: "Net bir sıralama.",
+    ClearFilterFrom: "Temiz filtreyi",
+    SortAtoZ: "A'dan Z'ye sırala",
+    SortZtoA: "Z'yi A'ya",­­
 
     DeferUpdate: "Erteleme Güncelleme",
     MDXQuery: "MDX Sorgu",
@@ -674,7 +699,19 @@ if (ej.PivotClient) ej.PivotClient.Locale["tr-TR"] = {
     SetReportNameAlertMsg: "Lütfen rapor adı.",
     Search: "Arama",
     MultipleItems: "Birden fazla öğe",
-    All: "Tüm"
+    All: "Tüm",
+    NoReports: "Rapor Bulunamadı DB",
+    CalculatedMember: "Hesaplanan Üye",
+    Caption: "Başlık:",
+    Expression: "Ifade:",
+    MemberType: "Üye Tipi:",
+    FormatString: "Format String:",
+    MultipleMeasure: "Daha fazla ölçüm yapılamaz. Dilimlenmiş.",
+    DuplicateCalcMeasure: "Hesaplanan Üye aynı adı zaten var.",
+    EmptyField: "Hesaplanan Üye adı veya Expression boş olamaz.",
+    EmptyFormat: "Format String, Hesaplanan Üye boş.",
+    Warning: "Uyarı",
+    Confirm: "Hesaplanan Üye ile aynı adı zaten mevcut. Dolayı değiştirmek istiyor?"
 };
 if (ej.PivotGauge) ej.PivotGauge.Locale["tr-TR"] = {
     RevenueGoal: "Gelir Gol",
@@ -743,6 +780,85 @@ if (ej.PdfViewer) ej.PdfViewer.Locale["tr-TR"] = {
             headerText: 'İndir',
             contentText: 'PDF belgesini indir.'
         },
+        highlight: {
+            headerText: 'Metni vurgulamak',
+            contentText: 'PDF sayfalarındaki metni vurgulayın.',
+        },
+        strikeout: {
+            headerText: 'StrikeOut Metni',
+            contentText: 'PDF sayfalarındaki metinleri kaldırın.',
+        },
+        underline: {
+            headerText: 'Altı Çizgili Metin',
+            contentText: 'PDF sayfalarında metnin altını çizin.',
+        },
+    },
+    contextMenu: {
+        copy: {
+            contentText: 'Kopya',
+        },
+        googleSearch: {
+            contentText: 'Google da ara',
+        },
+        Find: {
+            contentText: 'Bul:',
+        },
+        matchCase: {
+            contentText: 'EşleşmeCase',
+        },
+        auto: {
+            contentText: 'Oto',
+        },
+        openPopup: {
+            contentText: 'Open Pop-Up Note',
+        },
+        Delete: {
+            contentText: 'Sil',
+        },
+        properties: {
+            contentText: 'Özellikleri....',
+        },
+    },
+    propertyWindow: {
+        underlineProperties: {
+            contentText: "UnderlineProperties"
+        },
+        strikeOutProperties: {
+            contentText: "StrikeOutProperties"
+        },
+        highlightProperties: {
+            contentText: "HighlightProperties"
+        },
+        appearance: {
+            contentText: "görünüm"
+        },
+        general: {
+            contentText: "genel"
+        },
+        color: {
+            contentText: "renk:"
+        },
+        opacity: {
+            contentText: "Donukluk:"
+        },
+        author: {
+            contentText: "yazar:"
+        },
+        subject: {
+            contentText: "Konu:"
+        },
+        modified: {
+            contentText: "değiştirilmiş:"
+        },
+        ok: {
+            contentText: "tamam"
+        },
+        cancel: {
+            contentText: "iptal etmek"
+        },
+        locked: {
+            contentText: "kilitli"
+        }
     },
 };
 if (ej.PercentageTextbox) ej.PercentageTextbox.Locale["tr-TR"] = {
@@ -759,6 +875,11 @@ if (ej.PivotGrid) ej.PivotGrid.Locale["tr-TR"] = {
     IsGreaterThanOrEqualTo: "Büyük veya eşit",
     IsLessThan: "Daha Fazla",
     IsLessThanOrEqualTo: "Az veya Eşit",­­
+    ClearSorting: "Net bir sıralama.",
+    ClearFilterFrom: "Temiz filtreyi",
+    SortAtoZ: "A'dan Z'ye sırala",
+    SortZtoA: "Z'yi A'ya",­­
+    and: "Ve",
 
     NumberFormatting: "Sayı Biçimlendirme",
     FrozenHeaders: "Donmuş Başlıkları",
@@ -929,7 +1050,12 @@ if (ej.PivotGrid) ej.PivotGrid.Locale["tr-TR"] = {
     CalcValue: "Hesaplanan alan eklenebilir sadece değer alan alan",
     MultipleItems: "Birden fazla öğe",
     All: "Tüm",
-    Search: "Arama"
+    Search: "Arama",
+    ColumnResize: "Kolonu Yeniden Boyutlandırma",
+    Layouts:"Düzenleri",
+    NormalLayout: "Normal Düzen",
+    NormalTopSummary: "Normal Üst Referans Yerleşimi",
+    NoSummaries:"Hiçbir Özetleri Yerleşimi"
 };
 if (ej.PivotPager) ej.PivotPager.Locale["tr-TR"] = {
     SeriesPage: "Serisi Page",
@@ -948,6 +1074,11 @@ if (ej.PivotSchemaDesigner) ej.PivotSchemaDesigner.Locale["tr-TR"] = {
     IsGreaterThanOrEqualTo: "Büyük veya eşit",
     IsLessThan: "Daha Fazla",
     IsLessThanOrEqualTo: "Az veya Eşit",­­
+    ClearSorting: "Net bir sıralama.",
+    ClearFilterFrom: "Temiz filtreyi",
+    SortAtoZ: "A'dan Z'ye sırala",
+    SortZtoA: "Z'yi A'ya",­­
+    and: "Ve",
 
     PivotTableFieldList: "Özet Tablo Alan Listesi",
     ChooseFieldsToAddToReport: "rapor eklemek için alanları seçin:",
@@ -1197,7 +1328,7 @@ if (ej.RTE) ej.RTE.Locale["tr-TR"] = {
 	imageBorder: "görüntü Sınır",
 	imageStyle: "stil",
 	linkText: "Metin",
-	linkToolTip: "İpucu",
+	linkTooltipLabel: "İpucu",
 	html5Support: "Sadece HTML5 etkinleştirilmiş Bu araç simgesi desteklenen tarayıcılar",
 	linkOpenInNewWindow: "Linki yeni pencerede aç",
 	tableColumns: "Kolonlar sayisi",
@@ -1267,7 +1398,7 @@ if (ej.RTE) ej.RTE.Locale["tr-TR"] = {
 	lowerroman: "alt Roman",
 	upperroman: "üst Roman",
 	none: "Yok",
-	linktooltip: "ctrl + bağlantıyı takip için tıklayın",
+	linkTooltip: "ctrl + bağlantıyı takip için tıklayın",
 	charSpace: "(Boşluklu) Karakterler",
 	charNoSpace: "Karakterler (boşluksuz)",
 	wordCount: "Sözcük sayısı",
@@ -1287,6 +1418,9 @@ if (ej.RTE) ej.RTE.Locale["tr-TR"] = {
 	Replace: "değiştirmek",
 	ReplaceAll: "Hepsini değiştir",
 	FindErrorMsg: "Belirtilen sözcüğü bulamadı.",
+	customFontColor:"Daha Fazla Renk ...",
+	customBGColor:"Daha Fazla Renk ...",
+	TransBGColor:"şeffaf"
 };
 if (ej.Schedule) ej.Schedule.Locale["tr-TR"] = {
     ReminderWindowTitle: "hatırlatma penceresi",
@@ -1387,6 +1521,10 @@ if (ej.Schedule) ej.Schedule.Locale["tr-TR"] = {
     DeleteConfirmation: "Bu randevuyu silmek istediğinizden emin misiniz?",
     Time: "Zaman",
     EmptyResultText: "hiçbir öneri",
+    BlockIntervalAlertTitle: "Alarm",
+    BlockIntervalError: "Seçilen zaman aralığı engellendi ve seçim için kullanılamıyor.",
+    RecurrenceDateValidation: "Bazı aylarda seçilen tarihlerin sayısı daha az. Bu aylar boyunca, olay ayın son gününe düşecektir.",
+    SeriesChangeAlert: "Bu serinin belirli örneklerinde yapılan değişiklikler iptal edilecek ve bu randevular seriye tekrar eşleşecektir."
 };
 if (ej.Spreadsheet) ej.Spreadsheet.Locale["tr-TR"] = {
     Cut: "kesim",
@@ -1413,20 +1551,25 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["tr-TR"] = {
     SortNewesttoOldest: "Sıralama Yeniden Eskiye",
     Insert: "Ekle",
     InsertTitle: "Ekle Hücreler",
-    InsertContent: ". Çalışma kitabınız yeni hücreler, satırlar veya sütunlar ekleme Bilginize /> <br /> <br: Bir defada birden fazla satır veya sütun eklemek sayfasında birden fazla satır veya sütun seçmek için, ve Ekle'yi tıklatın.",
+    InsertContent: "Çalışma kitabınıza yeni hücreler, satırlar veya sütunlar ekleyin.",
+    MultipleInsertContent: "Bilginize: Aynı anda birden fazla satır veya sütun eklemek için, sayfada tek bir satır veya sütun seçin ve Ekle'yi tıklayın.",
     InsertSBContent: "Çalışma kitabınız hücreleri, satır, sütun ya da yaprak ekleyin.",
     Delete: "silmek",
     DeleteTitle: "Hücreleri silmek",
-    DeleteContent: ". Kitabınızdan hücreleri, satır, sütun ya da yaprak sil Bilginize /> <br /> <br: Bir anda birden fazla satır veya sütun silme sayfasında birden fazla satır veya sütun seçin ve Sil'i tıklatın.",
+    DeleteContent: "Çalışma kitabınızdaki hücreleri, satırları, sütunları veya sayfaları silin.",
+    MultipleDeleteContent: "Bilginize: Bir kerede birden çok satırı ya da sütunu silmek için, sayfada yapraktan birden çok satır veya sütun seçin ve Sil'i tıklayın.",
     FindSelectTitle: "Bul & Seç",
     FindSelectContent: "belgenizdeki metin bulma seçeneklerini görmek için tıklayın.",
     CalculationOptions: "hesaplama Seçenekleri",
     CalcOptTitle: "hesaplama Seçenekleri",
-    CalcOptContent: "otomatik veya manuel formülleri hesaplamak için seçin. <br/> bir değer etkileyen bir değişiklik yaparsanız, elektronik tablo otomatik olarak yeniden hesaplar.",
+    CalcOptContent: "Formülleri otomatik veya manuel olarak hesaplamayı seçin.",
+    CalcOptRecalcContent: "Bir değeri etkileyen bir değişiklik yaparsanız, Elektronik Tablo otomatik olarak yeniden hesaplayacaktır.",
     CalculateSheet: "Sheet hesaplayın",
     CalculateNow: "Şimdi hesaplayın",
-    CalculateNowContent: "Şimdi tüm çalışma kitabını hesaplayın. <br/> sadece otomatik hesaplama kapatılırsa bu kullanmanız gerekir.",
-    CalculateSheetContent: "Şimdi etkin sayfayı hesaplayın. <br/> sadece otomatik hesaplama kapatılırsa bu kullanmanız gerekir.",
+    CalculateNowContent: "Şimdi tüm çalışma kitabını hesaplayın.",
+    CalculateNowTurnOffContent: "Otomatik hesaplama kapalıysa, bunu kullanmanız yeterlidir.",
+    CalculateSheetContent: "Aktif sayfayı şimdi hesapla.",
+    CalculateSheetTurnOffContent: "Otomatik hesaplama kapalıysa, bunu kullanmanız yeterlidir.",
     Title: "E-tablo",
     Ok: "tamam",
     Cancel: "İptal",
@@ -1594,7 +1737,8 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["tr-TR"] = {
     TableStyleOptions: "İlk Sütun / Son Sütun / Toplam Satır / Filtre Düğmesi",
     Format: "Biçim",
     NameManager: "Ad Yöneticisi",
-    NameManagerContent: "Oluşturma, düzenleme, silme ve çalışma kitabında kullanılan tüm isimleri bulmak. /> İsimler hücre başvuruları için ikame olarak formüller kullanılabilir <br /> <br.",
+    NameManagerContent: "Çalışma kitabında kullanılan tüm isimleri oluşturun, düzenleyin, silin ve bulun.",
+    NameManagerFormulaContent: "Formüller, hücre referansları yerine kullanılan isimler olarak kullanılabilir.",
     DefinedNames: "tanımlı İsimler",
     DefineName: "Ad tanımla",
     DefineNameContent: "Define ve isimleri geçerlidir.",
@@ -1725,7 +1869,10 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["tr-TR"] = {
     HideSheet: "gizlemek",
     UnhideSheet: "Göster'i",
     SheetRenameAlert: "Bu isim çoktan alınmış. farklı bir deneyin.",
-    SheetRenameEmptyAlert: "Bir sayfa için geçersiz bir isim yazdınız. Emin olun: <ul> <li> 31 karakteri geçmediğinden yazdığınız ad </ li> <li> adı şu karakterlerden herhangi birini içermiyor. \ /? * [Veya] </ li> <li> adı boş bırakmadı. </ Li> </ ul>",
+    SheetRenameEmptyAlert: "Bir sayfa için geçersiz bir ad yazdınız. Emin olun:",
+    SheetRenameEmptyCharExceedAlert: "Yazdığınız ad 31 karakteri aşmamaktadır.",
+    SheetRenameEmptySplCharAlert: "Ad, aşağıdaki karakterlerden hiçbirini içermiyor:",
+    SheetRenameEmptyBlankAlert: "Adını boş bırakmadın.",
     SheetDeleteAlert: "Sen yaprak silme işlemini geri alamazsınız, ve bazı verileri kaldırarak olabilir. Eğer ihtiyacınız yoksa, silmek için Tamam'a tıklayın.",
     SheetDeleteErrorAlert: "Bir çalışma kitabı en az bir görünür çalışma sayfası içermelidir. Gizlemek, silme veya seçilen sayfayı taşımak için, önce yeni bir sayfa eklemek veya zaten gizli bir levha göstermeniz gerekir.",
     CtrlKeyErrorAlert: "Bu komut birden fazla seçim üzerinde kullanılamaz.",
@@ -1914,13 +2061,15 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["tr-TR"] = {
     RedoContent: "Son eylemi yineler.",
     TableTitle: "Tablo (Ctrl + T)",
     HyperLinkTitle: "bir köprü ekleyin (Ctrl + K)",
-    HyperLinkContent: "web sayfaları ve dosyalara hızlı erişim için belgede bir bağlantı oluşturun. <br /> <br /> Köprüler ayrıca belgede yerlere götürebilir.",
+    HyperLinkContent: "Web sayfalarına ve dosyalara hızlı erişmek için dokümanınızda bir bağlantı oluşturun.",
+    HyperLinkPlaceContent: "Köprüler sizi belgenizin yerlerine götürebilir.",
     NewCommentTitle: "Yorum eklemek",
     NewCommentContent: "Belgenin bu bölümü hakkında bir not ekleyin.",
     RefreshTitle: "Yenile",
     RefreshContent: "Etkin hücreye bağlı kaynağından son verileri almak",
     FieldListTitle: "Alan Listesi",
-    FieldListContent: "Göster ya da Alan listesi gizlemek. <br /> alan listesinde <br /> eklemek ve Özet Tablo raporu alanları silinmesini sağlar",
+    FieldListContent: "Alan Listesini gösterin veya gizleyin.",
+    FieldListRemoveContent: "Alan listesi, Özet Tablo raporunuzdaki alanları eklemenize ve kaldırmanıza olanak tanır",
     AddChartElement: "Grafik Eleman ekle",
     AddChartElementContent: "oluşturulan grafik öğeler eklemek.",
     SwitchRowColumn: "Satır / Sütun",
@@ -2048,6 +2197,36 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["tr-TR"] = {
     CellTypeAlert: "Bu işlem, hücre tipi uygulanan aralığında izin verilmez.",
     PivotOverlapAlert: "Başka bir Özet Tablo raporu üst üste olamaz bir Özet Tablo raporu",
     NoCellFound: "Hiçbir hücre bulunamadı",
+    ColorPicker: "Renk seçici",
+    IncreaseIndent: "Girintiyi arttır",
+    IncreaseIndentContent: "İçeriğinizi hücre kenarlığından uzaklaştırın.",
+    DecreaseIndent: "Girintiyi Azalt",
+    DecreaseIndentContent: "İçeriğinizi hücre kenarlığına yaklaştırın.",
+    ExportPdf: "PDF",
+    ClipboardAccessError: "Tarayıcınız panoya erişemiyor, bu kısayolları kullanın:",
+    ClipboardAccessCutError: "Kes = Ctrl + X",
+    ClipboardAccessCopyError: "Kopyala = Ctrl + C",
+    ClipboardAccessPasteError: "Yapıştır = Ctrl + V",
+    CorrectArgument: "Lütfen doğru argümanı girin",
+    CorrectFormula: "Lütfen doğru formülü girin",
+    CorrectCellAddress: "Lütfen doğru hücre adresini girin",
+    ChartType: "Grafik Türü",
+    NumberValidationAlert: "Maksimum, Minimumdan büyük veya ona eşit olmalıdır",
+    DateValidationAlert: "Bitiş Tarihi, Başlangıç Tarihi'ne eşit veya bundan büyük olmalı",
+    TimeValidationAlert: "Bitiş Saati, Başlangıç Saati'nden daha büyük veya ona eşit olmalıdır",
+    NewRuleAlert: "Bu formülle ilgili bir sorun var",
+    DragAlert: "Hücreleri filtre aralığı içinde taşımaya çalışırken komut tamamlanamadı. Filtre aralığından bir aralık seçin ve komutu tekrar deneyin.",
+    OR: "veya",
+    HOME: "EV",
+    INSERT: "Yerleştir",
+    DATATAB: "VERİ",
+    PAGELAYOUT: "SAYFA DÜZENİ",
+    REVIEW: "GÖZDEN GEÇİRMEK",
+    OTHERS: "DİĞERLERİ",
+    FORMAT: "Biçim",
+    DESIGN: "TASARIM",
+    CHARTDESIGN: "Grafik Tasarımı",
+    ANALYZE: "Analiz et"
 };
 if (ej.TreeGrid) ej.TreeGrid.Locale["tr-TR"] = {
     toolboxTooltipTexts: {
@@ -2124,7 +2303,29 @@ if (ej.TreeGrid) ej.TreeGrid.Locale["tr-TR"] = {
         dropdownTableValue: "değer",
         addData: "eklemek",
         deleteData: "Kaldır",
-        allowCellSelection: "Hücre seçimine izin"
+        allowCellSelection: "Hücre seçimine izin",
+        showInColumnChooser: "Sütun Seçicisinde Göster",
+        displayAsCheckbox: "Onay Kutusu Olarak Görüntüle",
+        clipMode: "Klip Modu",
+        tooltip: "Ipucu",
+        headerTooltip: "Başlık İpucu"
+    },
+    editTypeTexts: {
+        string: "Dize",
+        numeric: "Sayısal",
+        datePicker: "Tarih seçici",
+        dateTimePicker: "Tarih Saat Seçici",
+        dropdown: "Yıkılmak",
+        boolean: "Boolean"
+    },
+    textAlignTypes: {
+        right: "Sağ",
+        left: "Ayrıldı",
+        center: "Merkez"
+    },
+    clipModeTexts: {
+        clip: "Klips",
+        ellipsis: "Elips"
     },
     columnDialogTitle: {
         insertColumn: "Sütun Ekle",

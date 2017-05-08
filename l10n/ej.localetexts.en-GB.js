@@ -59,18 +59,60 @@ if (ej.DropDownList) ej.DropDownList.Locale["en-GB"] = {
 	emptyResultText: "No suggestions,",
 	watermarkText: " ",
 };
+if (ej.ExcelFilter) ej.ExcelFilter.Locale["en-GB"] = {
+    SortNoSmaller: "Sort Smallest to Largest",
+    SortNoLarger: "Sort Largest to Smallest",
+    SortTextAscending: "Sort A to Z",
+    SortTextDescending: "Sort Z to A",
+    SortDateOldest: "Sort by Oldest",
+    SortDateNewest: "Sort by Newest",
+    SortByColor: "Sort By Color",
+    SortByCellColor: "Sort by Cell Color",
+    SortByFontColor: "Sort by Font Color",
+    FilterByColor: "Filter By Color",
+    CustomSort: "Custom Sort",
+    FilterByCellColor: "Filter by Cell Color",
+    FilterByFontColor: "Filter by Font Color",
+    ClearFilter: "Clear Filter",
+    NumberFilter: "Number Filters",
+    GuidFilter: "Guid Filters",
+    TextFilter: "Text Filters",
+    DateFilter: "Date Filters",
+    DateTimeFilter: "Date Time Filters",
+    SelectAll: "Select All",
+    Blanks: "Blanks",
+    Search:"Search",
+    Showrowswhere:"Show rows where",
+    NumericTextboxWaterMark:"Enter value",
+    StringMenuOptions: [{ text: "Equal", value: "equal" }, { text: "Not Equal", value: "notequal" }, { text: "Starts With", value: "startswith" }, { text: "Ends With", value: "endswith" }, { text: "Contains", value: "contains" }, { text: "Custom Filter", value: "customfilter" }],
+    NumberMenuOptions: [{ text: "Equal", value: "equal" }, { text: "Not Equal", value: "notequal" }, { text: "Less Than", value: "lessthan" }, { text: "Less Than Or Equal", value: "lessthanorequal" }, { text: "Greater Than", value: "greaterthan" }, { text: "Greater Than Or Equal", value: "greaterthanorequal" }, { text: "Between", value: "between" }, { text: "Custom Filter", value: "customfilter" }],
+    GuidMenuOptions: [{ text: "Equal", value: "equal" }, { text: "Not Equal", value: "notequal" }, { text: "Custom Filter", value: "customfilter" }],
+    DateMenuOptions: [{ text: "Equal", value: "equal" }, { text: "Not Equal", value: "notequal" }, { text: "Less Than", value: "lessthan" }, { text: "Less Than Or Equal", value: "lessthanorequal" }, { text: "Greater Than", value: "greaterthan" }, { text: "Greater Than Or Equal", value: "greaterthanorequal" }, { text: "Between", value: "between" }, { text: "Custom Filter", value: "customfilter" }],
+    DatetimeMenuOptions: [{ text: "Equal", value: "equal" }, { text: "Not Equal", value: "notequal" }, { text: "Less Than", value: "lessthan" }, { text: "Less Than Or Equal", value: "lessthanorequal" }, { text: "Greater Than", value: "greaterthan" }, { text: "Greater Than Or Equal", value: "greaterthanorequal" }, { text: "Between", value: "between" }, { text: "Custom Filter", value: "customfilter" }],
+    Top10MenuOptions: [{ text: "Top", value: "top" }, { text: "Bottom", value: "bottom" }],
+    title:"Custom Filter",
+    PredicateAnd: "AND",
+    PredicateOr: "OR",
+    OK: "OK",
+    MatchCase: "Match Case",
+    Cancel: "Cancel",
+    NoResult: "No Matches Found",
+    CheckBoxStatusMsg: "Not all items showing",
+    DatePickerWaterMark: "Select date",
+    DateTimePickerWaterMark: "Select date time",
+    True: "true",
+    False: "false"
+};
 if (ej.Grid) ej.Grid.Locale["en-GB"] = {
     EmptyRecord: "No records to display",
     GroupDropArea: "Drag a column header here to group its column",
     DeleteOperationAlert: "No records selected for delete operation",
     EditOperationAlert: "No records selected for edit operation",
     SaveButton: "Save",
-    OkButton: "OK",
+    OKButton: "OK",
     CancelButton: "Cancel",
     EditFormTitle: "Details of ",
     AddFormTitle: "Add New Record",
-    Notactionkeyalert: "This Key-Combination is not available",
-    Keyconfigalerttext: "This Key-Combination has already been assigned to ",
     GroupCaptionFormat: "{{:headerText}}: {{:key}} - {{:count}} {{if count == 1 }} item {{else}} items {{/if}} ",
     BatchSaveConfirm: "Are you sure you want to save changes?",
     BatchSaveLostChanges: "Unsaved changes will be lost. Are you sure you want to continue?",
@@ -313,6 +355,11 @@ if (ej.PivotSchemaDesigner) ej.PivotSchemaDesigner.Locale["en-GB"] = {
     IsGreaterThanOrEqualTo: "Is Greater Than Or Equal To",
     IsLessThan: "Is Less Than",
     IsLessThanOrEqualTo: "Is Less Than Or Equal To",
+    ClearSorting: "Clear Sorting",
+    ClearFilterFrom: "Clear Filter From",
+    SortAtoZ: "Sort A to Z",
+    SortZtoA: "Sort Z to A",
+    and: "<u>a</u>nd",
 
     Sort: "Sort",
     SelectField: "select Field",
@@ -405,7 +452,7 @@ if (ej.Gantt) ej.Gantt.Locale["en-GB"] = {
         baselineStartDate: "Baseline Start Date",
         baselineEndDate: "Baseline End Date",
         WBS: "WBS",
-        WBSpredecessor: "WBS Predecessor",
+        WBSPredecessor: "WBS Predecessor",
         dialogCustomFieldName: "Column Name",
         dialogCustomFieldValue: "Value",
         notes: "Notes",
@@ -423,7 +470,8 @@ if (ej.Gantt) ej.Gantt.Locale["en-GB"] = {
         deleteButton: "Delete",
         cancelButton: "Cancel",
         addPredecessor: "Add New",
-        removePredecessor: "Remove"
+        removePredecessor: "Remove",
+        addButton: "Add",
     },
     //string to display in column add dialog 
     columnDialogTexts: {
@@ -443,7 +491,8 @@ if (ej.Gantt) ej.Gantt.Locale["en-GB"] = {
         dropdownTableValue: "Value",
         addData: "Add",
         deleteData: "Remove",
-        allowCellSelection: "Allow Cell Selection"
+        allowCellSelection: "Allow Cell Selection",
+        displayAsCheckbox: "Display As Checkbox"
     },
     //string to be displayed in Toolbox's tooltip 
     toolboxTooltipTexts: {
@@ -455,12 +504,13 @@ if (ej.Gantt) ej.Gantt.Locale["en-GB"] = {
         searchTool: "Search",
         indentTool: "Indent",
         outdentTool: "Outdent",
-        expandAllTool: "ExpandAll",
-        collapseAllTool: "CollapseAll",
+        expandAllTool: "Expand All",
+        collapseAllTool: "Collapse All",
         nextTimeSpanTool: "Next Timespan",
         prevTimeSpanTool: "Previous Timespan",
         criticalPathTool: "Critical Path",
-        excelExportTool: "Excel Export"
+        excelExportTool: "Excel Export",
+        pdfExportTool: "PDF Export"
     },
 
     //string to be displayed in taskbar tooltip for duration unit 
@@ -562,6 +612,11 @@ if (ej.PivotGrid) ej.PivotGrid.Locale["en-GB"] = {
     IsGreaterThanOrEqualTo: "Is Greater Than Or Equal To",
     IsLessThan: "Is Less Than",
     IsLessThanOrEqualTo: "Is Less Than Or Equal To",
+    ClearSorting: "Clear Sorting",
+    ClearFilterFrom: "Clear Filter From",
+    SortAtoZ: "Sort A to Z",
+    SortZtoA: "Sort Z to A",
+    and: "<u>a</u>nd",
 
     NumberFormatting: "Number Formatting",
     FrozenHeaders: "Frozen Headers",
@@ -734,7 +789,12 @@ if (ej.PivotGrid) ej.PivotGrid.Locale["en-GB"] = {
     CalcValue: "Calculated field can be inserted only in value area field",
     MultipleItems: "Multiple items",
     All: "All",
-    Search: "Search"
+    Search: "Search",
+    ColumnResize: "Column Resize",
+    Layouts: "Layouts",
+    NormalLayout: "Normal Layout",
+    NormalTopSummary: "NormalTopSummary Layout",
+    NoSummaries: "NoSummaries Layout"
 };
 if (ej.PivotClient) ej.PivotClient.Locale["en-GB"] = {
     DoesNotBeginsWith: "Does Not Begins With",
@@ -745,6 +805,10 @@ if (ej.PivotClient) ej.PivotClient.Locale["en-GB"] = {
     IsGreaterThanOrEqualTo: "Is Greater Than Or Equal To",
     IsLessThan: "Is Less Than",
     IsLessThanOrEqualTo: "Is Less Than Or Equal To",
+    ClearSorting: "Clear Sorting",
+    ClearFilterFrom: "Clear Filter From",
+    SortAtoZ: "Sort A to Z",
+    SortZtoA: "Sort Z to A",
 
     Sort: "Sort",
     SelectField: "select Field",
@@ -874,7 +938,19 @@ if (ej.PivotClient) ej.PivotClient.Locale["en-GB"] = {
     SetReportNameAlertMsg: "Please set report name.",
     Search: "Search",
     MultipleItems: "Multiple items",
-    All: "All"
+    All: "All",
+    NoReports: "No Reports Found in DB",
+    CalculatedMember: "Calculated Member",
+    Caption: "Caption:",
+    Expression: "Expression:",
+    MemberType: "MemberType:",
+    FormatString: "Format String:",
+    MultipleMeasure: "More than one measure cannot be sliced.",
+    DuplicateCalcMeasure: "Calculated Member with same name already exist.",
+    EmptyField: "Calculated Member name or Expression cannot be empty.",
+    EmptyFormat: "Format String for Calculated Member is empty.",
+    Warning: "Warning",
+    Confirm: "Calculated Member with the same name already exists. Due to want to Replace?"
 };
 if (ej.Autocomplete) ej.Autocomplete.Locale["en-GB"] = {
     addNewText: "Add New",
@@ -1070,7 +1146,9 @@ if (ej.Schedule) ej.Schedule.Locale["en-GB"] = {
     Time: "Time",
     EmptyResultText: "No suggestions",
     BlockIntervalAlertTitle: "Alert",
-    BlockIntervalError: "The selected time interval has been blocked and is unavailable for selection."
+    BlockIntervalError: "The selected time interval has been blocked and is unavailable for selection.",
+    RecurrenceDateValidation: "Some months have fewer than selected dates. For these months, the occurrence will fall on the last date of the month.",
+    SeriesChangeAlert: "The changes made to specific instances of this series will be cancelled and those appointments will match the series again."
 };
 if (ej.TreeGrid) ej.TreeGrid.Locale["en-GB"] = {
     //string to be displayed in Toolbox's tooltip 
@@ -1080,8 +1158,8 @@ if (ej.TreeGrid) ej.TreeGrid.Locale["en-GB"] = {
         updateTool: "Update",
         deleteTool: "Delete",
         cancelTool: "Cancel",
-        expandAllTool: "ExpandAll",
-        collapseAllTool: "CollapseAll",
+        expandAllTool: "Expand All",
+        collapseAllTool: "Collapse All",
         pdfExportTool: "PDF Export",
         excelExportTool: "Excel Export"
     },
@@ -1129,7 +1207,9 @@ if (ej.TreeGrid) ej.TreeGrid.Locale["en-GB"] = {
         dropdownTableValue: "Value",
         addData: "Add",
         deleteData: "Remove",
-        allowCellSelection: "Allow Cell Selection"
+        allowCellSelection: "Allow Cell Selection",
+        showInColumnChooser: "Show In Column Chooser",
+        displayAsCheckbox: "Display As Checkbox"
     },
     //string to be displayed in column add dialog title 
     columnDialogTitle: {
@@ -1223,6 +1303,85 @@ if (ej.TreeGrid) ej.TreeGrid.Locale["en-GB"] = {
         search: {
             headerText: 'Search Text',
             contentText: 'Search text in the PDF pages.',
+        },
+        highlight: {
+            headerText: 'Highlight Text',
+            contentText: 'Highlight text in the PDF pages.',
+        },
+        strikeout: {
+            headerText: 'StrikeOut Text',
+            contentText: 'StrikeOut text in the PDF pages.',
+        },
+        underline: {
+            headerText: 'Underline Text',
+            contentText: 'Underline text in the PDF pages.',
+        },
+    },
+    contextMenu: {
+        copy: {
+            contentText: 'Copy',
+        },
+        googleSearch: {
+            contentText: 'search google',
+        },
+        Find: {
+            contentText: 'Find:',
+        },
+        matchCase: {
+            contentText: 'MatchCase',
+        },
+        auto: {
+            contentText: 'Auto',
+        },
+        openPopup: {
+            contentText: 'Open Pop-Up Note',
+        },
+        Delete: {
+            contentText: 'Delete',
+        },
+        properties: {
+            contentText: 'Properties....',
+        },
+    },
+    propertyWindow: {
+        underlineProperties: {
+            contentText: "Underline Properties"
+        },
+        strikeOutProperties: {
+            contentText: "StrikeOut Properties"
+        },
+        highlightProperties: {
+            contentText: "Highlight Properties"
+        },
+        appearance: {
+            contentText: "Appearance"
+        },
+        general: {
+            contentText: "General"
+        },
+        color: {
+            contentText: "Color:"
+        },
+        opacity: {
+            contentText: "Opacity:"
+        },
+        author: {
+            contentText: "Author:"
+        },
+        subject: {
+            contentText: "Subject:"
+        },
+        modified: {
+            contentText: "Modified:"
+        },
+        ok: {
+            contentText: "OK"
+        },
+        cancel: {
+            contentText: "Cancel"
+        },
+        locked: {
+            contentText: "Locked"
         }
     },
 };
@@ -1408,7 +1567,7 @@ if (ej.RTE) ej.RTE.Locale["en-GB"] = {
 	imageBorder: "Image Border",
 	imageStyle: "Style",
 	linkText: "Text",
-	linkToolTip: "Tooltip",
+	linkTooltipLabel: "Tooltip",
 	html5Support: "This tool icon only enabled in HTML5 supported browsers",
 	linkOpenInNewWindow: "Open link in new window",
 	tableColumns: "No.of Columns",
@@ -1478,7 +1637,7 @@ if (ej.RTE) ej.RTE.Locale["en-GB"] = {
 	lowerroman: "Lower Roman",
 	upperroman: "Upper Roman",
 	none: "None",
-	linktooltip: "ctrl + click to follow link",
+	linkTooltip: "ctrl + click to follow link",
 	charSpace: "Characters (with spaces)",
 	charNoSpace: "Characters (no spaces)",
 	wordCount: "Word Count",
@@ -1498,6 +1657,10 @@ if (ej.RTE) ej.RTE.Locale["en-GB"] = {
 	Replace: "Replace",
 	ReplaceAll: "Replace All",
 	FindErrorMsg: "Couldn't find specified word.",
+	customFontColor:"More Colors...",
+	customBGColor:"More Colors...",
+	TransBGColor:"Transparent"
+    
 };
 if (ej.Spreadsheet) ej.Spreadsheet.Locale["en-GB"] = {
     Cut: "Cut",
@@ -1524,20 +1687,25 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["en-GB"] = {
     SortNewesttoOldest: "Sort newest to Oldest",
     Insert: "Insert",
     InsertTitle: "Insert Cells",
-    InsertContent: "Add new cells, rows, or columns to your workbook.<br /><br />fyi: To insert multiple rows or columns at a time, select multiple rows or columns in the sheet, and click insert.",
+    InsertContent: "Add new cells, rows, or columns to your workbook.",
+    MultipleInsertContent: "fyi: To insert multiple rows or columns at a time, select multiple rows or columns in the sheet, and click insert.",
     InsertSBContent: "Add cells, rows, columns, or sheets to your workbook.",
     Delete: "Delete",
     DeleteTitle: "Delete Cells",
-    DeleteContent: "Delete cells, rows, columns, or sheets from your workbook.<br /><br />fyi: To delete multiple rows or columns at a time, select multiple rows or columns in the sheet, and click delete.",
+    DeleteContent: "Delete cells, rows, columns, or sheets from your workbook.",
+    MultipleDeleteContent: "fyi: To delete multiple rows or columns at a time, select multiple rows or columns in the sheet, and click delete.",
     FindSelectTitle: "Find & Select",
     FindSelectContent: "Click to see options for finding text in your document.",
     CalculationOptions: "Calculation Options",
     CalcOptTitle: "Calculation Options",
-    CalcOptContent: "Choose to calculate formulas automatically or manually.<br/><br/>if you make a change that affects a value, spreadsheet will automatically recalculate it.",
+    CalcOptContent: "Choose to calculate formulas automatically or manually.",
+    CalcOptRecalcContent: "if you make a change that affects a value, spreadsheet will automatically recalculate it.",
     CalculateSheet: "Calculate Sheet",
     CalculateNow: "Calculate Now",
-    CalculateNowContent: "Calculate the entire workbook now.<br/><br/>you only need to use this if automatic calculation is turned off.",
-    CalculateSheetContent: "Calculate the active sheet now.<br/><br/>you only need to use this if automatic calculation is turned off.",
+    CalculateNowContent: "Calculate the entire workbook now.",
+    CalculateNowTurnOffContent: "you only need to use this if automatic calculation is turned off.",
+    CalculateSheetContent: "Calculate the active sheet now.",
+    CalculateSheetTurnOffContent: "you only need to use this if automatic calculation is turned off.",
     Title: "Spreadsheet",
     ColorPicker: "Colour Picker",
     Ok: "Ok",
@@ -1711,7 +1879,8 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["en-GB"] = {
     TableStyleOptions: "First Column/Last Column/Total Row/Filter Button",
     Format: "Format",
     NameManager: "Name Manager",
-    NameManagerContent: "Create, edit, delete and find all the names used in the workbook.<br /><br />Names tin be used in formulas as substitutes for cell references.",
+    NameManagerContent: "Create, edit, delete and find all the names used in the workbook.",
+    NameManagerFormulaContent: "Names tin be used in formulas as substitutes for cell references.",
     DefinedNames: "Defined Names",
     DefineName: "Define Name",
     DefineNameContent: "Define and apply Names.",
@@ -1842,11 +2011,17 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["en-GB"] = {
     HideSheet: "Hide",
     UnhideSheet: "Unhide",
     SheetRenameAlert: "That name is already taken. try a different one.",
-    SheetRenameEmptyAlert: "You typed an invalid name for a sheet. make sure that:the name that you type does not exceed 31 characters.</li><li>the name does not contain any of the following characters: \ / ? * [ or ]</li><li>you did not leave the name blank.</li></ul>",
+    SheetRenameEmptyAlert: "You typed an invalid name for a sheet. make sure that:",
+    SheetRenameEmptyCharExceedAlert: "the name that you type does not exceed 31 characters.",
+    SheetRenameEmptySplCharAlert: "the name does not contain any of the following characters:",
+    SheetRenameEmptyBlankAlert: "you did not leave the name blank.",
     SheetDeleteAlert: "You tin 't undo deleting sheets, and you might be removing some data. if you don't need it, click ok to delete.",
     SheetDeleteErrorAlert: "A workbook must contain at least one visible worksheet. to hide, delete, or move the selected sheet, you must first insert a new sheet or unhide a sheet that is already hidden.",
     CtrlKeyErrorAlert: "That command cannot be used on multiple selections.",
-    ClipboardAccessError: "Your browser tin 't access the clipboard, so use these shortcuts:<br /><br />Cut = Ctrl + X<br />Copy = Ctrl + C<br />Paste = Ctrl + V",
+    ClipboardAccessError: "Your browser tin 't access the clipboard, so use these shortcuts:",
+    ClipboardAccessCutError: "Cut = Ctrl + X",
+    ClipboardAccessCopyError: "Copy = Ctrl + C",
+    ClipboardAccessPasteError: "Paste = Ctrl + V",
     MoveToEnd: "Move to End",
     Beforesheet: "Before Sheet:",
     CreateaCopy: "Create a Copy",
@@ -2032,13 +2207,15 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["en-GB"] = {
     RedoContent: "Redo your last action.",
     TableTitle: "Table (Ctrl+T)",
     HyperLinkTitle: "Add a hyperlink (Ctrl+K)",
-    HyperLinkContent: "Create a link in your document for quick access to webpages and files. <br /><br />hyperlinks tin also take you to places in your document.",
+    HyperLinkContent: "Create a link in your document for quick access to webpages and files.",
+    HyperLinkPlaceContent: "hyperlinks tin also take you to places in your document.",
     NewCommentTitle: "Insert a comment",
     NewCommentContent: "Add a note about this parting of the document.",
     RefreshTitle: "Refresh",
     RefreshContent: "Get the latest data from the source connected to the active cell",
     FieldListTitle: "Field list",
-    FieldListContent: "Show or hide the field list. the field list allows you to add and remove fields from your pivottable report",
+    FieldListContent: "Show or hide the field list. ",
+    FieldListRemoveContent: "the field list allows you to add and remove fields from your pivottable report",
     AddChartElement: "Add Chart Element",
     AddChartElementContent: "Add elements to the created chart.",
     SwitchRowColumn: "Switch Row/ Column",
@@ -2167,13 +2344,26 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["en-GB"] = {
     CellTypeAlert: "This operation is not allowed in cell type applied range.",
     PivotOverlapAlert: "A pivottable report cannot overlap another pivottable report",
     NoCellFound: "No cells were found",
-    CorrectArgument: "To enter the correct argument",
-    CorrectFormula: "To enter the correct formula",
-    CorrectCellAddress: "To enter the correct cell address",
+    CorrectArgument: "Please enter the correct argument",
+    CorrectFormula: "Please enter the correct formula",
+    CorrectCellAddress: "Please enter the correct cell address",
     ChartType: "Chart Type",
     NumberValidationAlert: "The maximum must be greater than or equal to minimum",
     DateValidationAlert: "The end date must be greater than or equal to start date",
-    TimeValidationAlert: "The end time must be greater than or equal to start time"
+    TimeValidationAlert: "The end time must be greater than or equal to start time",
+	NewRuleAlert: "There's a problem with this formula",
+	DragAlert: "The command could not be completed as you are attempting to move cells within the filter range. Select a range out of the filter range and try the command again.",
+    OR: "or",
+    HOME: "HOME",
+    INSERT: "INSERT",
+    DATATAB: "DATA",
+    PAGELAYOUT: "PAGE LAYOUT",
+    REVIEW: "REVIEW",
+    OTHERS: "OTHERS",
+    FORMAT: "Format",
+    DESIGN: "DESIGN",
+    CHARTDESIGN: "Chart Design",
+    ANALYZE: "Analyze"
 };
 if (ej.Uploadbox) ej.Uploadbox.Locale["en-GB"] = {
 	buttonText: {
