@@ -130,7 +130,7 @@ if (ej.ExcelFilter) ej.ExcelFilter.Locale["ru-RU"] = {
     title: "Пользовательский фильтр",
     PredicateAnd: "И",
     PredicateOr: "ИЛИ",
-    Ok: "хорошо",
+    OK: "хорошо",
     MatchCase: "Учитывать регистр",
     Cancel: "отменить",
     NoResult: "Ничего не найдено",
@@ -256,7 +256,7 @@ if (ej.Gantt) ej.Gantt.Locale["ru-RU"] = {
         baselineStartDate: "Базовый дата начала",
         baselineEndDate: "Базовый Окончание",
         WBS: "WBS",
-        WBSpredecessor: "WBS Предшественник",
+        WBSPredecessor: "WBS Предшественник",
         dialogCustomFieldName: "Имя столбца",
         dialogCustomFieldValue: "Стоимость",
         notes: "Заметки",
@@ -272,7 +272,8 @@ if (ej.Gantt) ej.Gantt.Locale["ru-RU"] = {
         deleteButton: "удалять",
         cancelButton: "отменить",
         addPredecessor: "Добавить новый",
-        removePredecessor: "удалять"
+        removePredecessor: "удалять",
+        addButton: "Добавить"
     },
     columnDialogTexts: {
         field: "поле",
@@ -291,7 +292,28 @@ if (ej.Gantt) ej.Gantt.Locale["ru-RU"] = {
         dropdownTableValue: "Стоимость",
         addData: "Добавить",
         deleteData: "Удалить",
-        allowCellSelection: "Разрешить выбор ячеек"
+        allowCellSelection: "Разрешить выбор ячеек",
+        displayAsCheckbox: "Показать как флажок",
+        clipMode: "Режим клипа",
+        tooltip: "Подсказка",
+        headerTooltip: "Подсказка для заголовка"
+    },
+    editTypeTexts: {
+        string: "Строка",
+        numeric: "Числовое значение",
+        datePicker: "Выбор даты",
+        dateTimePicker: "Выбор даты и времени",
+        dropdown: "Падать",
+        boolean: "Логическое значение"
+    },
+    textAlignTypes: {
+        right: "Правильно",
+        left: "Оставил",
+        center: "Центр"
+    },
+    clipModeTexts: {
+        clip: "Клип",
+        ellipsis: "Многоточие"
     },
     toolboxTooltipTexts: {
         addTool: "добавлять",
@@ -302,12 +324,13 @@ if (ej.Gantt) ej.Gantt.Locale["ru-RU"] = {
         searchTool: "поиск",
         indentTool: "отступ",
         outdentTool: "Выступ",
-        expandAllTool: "Развернуть все",
+        expandAllTool: "Расширить все",
         collapseAllTool: "Свернуть все",
         nextTimeSpanTool: "Следующая промежутка времени",
         prevTimeSpanTool: "Предыдущая промежутка времени",
         criticalPathTool: "Критический путь",
-        excelExportTool: "Excel Экспорт"
+        excelExportTool: "Excel Экспорт",
+        pdfExportTool: "Экспорт PDF"
     },
     durationUnitTexts: {
         days: "дней",
@@ -393,12 +416,10 @@ if (ej.Grid) ej.Grid.Locale["ru-RU"] = {
     DeleteOperationAlert: "Нет записей, выбранные для операции удаления",
     EditOperationAlert: "Нет записей, выбранные для операции редактирования",
     SaveButton: "Сохранить",
-    OkButton: "хорошо",
+    OKButton: "хорошо",
     CancelButton: "отменить",
     EditFormTitle: "Подробная информация о",
     AddFormTitle: "Добавить запись",
-    Notactionkeyalert: "Этот ключ-комбинация не доступна",
-    Keyconfigalerttext: "Этот ключ-Комбинация уже назначены",
     GroupCaptionFormat: "{{:headerText}}: {{:key}} - {{:count}} {{if count == 1 }} пункт {{else}} Предметы {{/if}} ",
     BatchSaveConfirm: "Вы уверены, что хотите сохранить изменения?",
     BatchSaveLostChanges: "Несохраненные изменения будут потеряны. Вы уверены, что хотите продолжить?",
@@ -556,6 +577,10 @@ if (ej.PivotClient) ej.PivotClient.Locale["ru-RU"] = {
     IsGreaterThanOrEqualTo: "Больше или равно",
     IsLessThan: "Меньше",
     IsLessThanOrEqualTo: "Меньше или равно",­­
+    ClearSorting: "Очистить сортировка",
+    ClearFilterFrom: "Очистить фильтр от",
+    SortAtoZ: "Сортировать по алфавиту",
+    SortZtoA: "Сортировать Z",
 
     DeferUpdate: "Отложить обновление",
     MDXQuery: "MDX запросов",
@@ -673,7 +698,19 @@ if (ej.PivotClient) ej.PivotClient.Locale["ru-RU"] = {
     SetReportNameAlertMsg: "Задайте имя отчета.",
     Search: "Поиск",
     MultipleItems: "Несколько пунктов",
-    All: "Все"
+    All: "Все",
+    NoReports: "Отчетов не найдено в Дб",
+    CalculatedMember: "Расчетная член",
+    Caption: "Заголовок:",
+    Expression: "Свободное выражение своего мнения:",
+    MemberType: "Тип участника:",
+    FormatString: "Строка формата:",
+    MultipleMeasure: "Более чем одна мера не может быть ломтиками.",
+    DuplicateCalcMeasure: "Рассчитывается с таким же именем уже существует.",
+    EmptyField: "Расчетная имя члена или выражения не может быть пустым.",
+    EmptyFormat: "Строки формата для расчета члена пуст.",
+    Warning: "Предупреждение",
+    Confirm: "Рассчитывается с таким же именем уже существует. Вследствие хотите заменить?"
 };
 if (ej.PivotGauge) ej.PivotGauge.Locale["ru-RU"] = {
     RevenueGoal: "Выручка Гол",
@@ -742,6 +779,85 @@ if (ej.PdfViewer) ej.PdfViewer.Locale["ru-RU"] = {
             headerText: 'Скачать',
             contentText: 'Скачать документ в формате PDF.'
         },
+        highlight: {
+            headerText: 'Выделите текст',
+            contentText: 'Выделение текста на страницах PDF.',
+        },
+        strikeout: {
+            headerText: 'Текст StrikeOut',
+            contentText: 'Удалите текст на страницах PDF.',
+        },
+        underline: {
+            headerText: 'Подчёркнутый текст',
+            contentText: 'Подчеркнуть текст на страницах PDF.',
+        },
+    },
+    contextMenu: {
+        copy: {
+            contentText: 'Копировать',
+        },
+        googleSearch: {
+            contentText: 'Поиск в Google',
+        },
+        Find: {
+            contentText: 'Найти:',
+        },
+        matchCase: {
+            contentText: 'Учитывать регистр',
+        },
+        auto: {
+            contentText: 'авто',
+        },
+        openPopup: {
+            contentText: 'OpenPopup',
+        },
+        Delete: {
+            contentText: 'Удалить',
+        },
+        properties: {
+            contentText: 'Недвижимость....',
+        },
+    },
+    propertyWindow: {
+        underlineProperties: {
+            contentText: "UnderlineProperties"
+        },
+        strikeOutProperties: {
+            contentText: "StrikeOutProperties"
+        },
+        highlightProperties: {
+            contentText: "HighlightProperties"
+        },
+        appearance: {
+            contentText: "появление"
+        },
+        general: {
+            contentText: "Генеральная"
+        },
+        color: {
+            contentText: "цвет:"
+        },
+        opacity: {
+            contentText: "Непрозрачность:"
+        },
+        author: {
+            contentText: "Автор:"
+        },
+        subject: {
+            contentText: "предмет:"
+        },
+        modified: {
+            contentText: "Модифицированный:"
+        },
+        ok: {
+            contentText: "ok"
+        },
+        cancel: {
+            contentText: "Отмена"
+        },
+        locked: {
+            contentText: "Заблокирован"
+        }
     },
 };
 if (ej.PercentageTextbox) ej.PercentageTextbox.Locale["ru-RU"] = {
@@ -758,6 +874,11 @@ if (ej.PivotGrid) ej.PivotGrid.Locale["ru-RU"] = {
     IsGreaterThanOrEqualTo: "Больше или равно",
     IsLessThan: "Меньше",
     IsLessThanOrEqualTo: "Меньше или равно",­­
+    ClearSorting: "Очистить сортировка",
+    ClearFilterFrom: "Очистить фильтр от",
+    SortAtoZ: "Сортировать по алфавиту",
+    SortZtoA: "Сортировать Z",
+    and: "И",
 
     NumberFormatting: "Числовое форматирование",
     FrozenHeaders: "Замороженные жаток",
@@ -928,7 +1049,12 @@ if (ej.PivotGrid) ej.PivotGrid.Locale["ru-RU"] = {
     CalcValue: "Вычисляемое поле может быть вставлен только в значение области",
     MultipleItems: "Несколько пунктов",
     All: "Все",
-    Search: "Поиск"
+    Search: "Поиск",
+    ColumnResize: "Изменение размера столбца",
+    Layouts:"Макеты",
+    NormalLayout: "Нормальный макет",
+    NormalTopSummary: "Нормальной верхней части резюме отчета",
+    NoSummaries:"Нет резюме отчета"
 };
 if (ej.PivotPager) ej.PivotPager.Locale["ru-RU"] = {
     SeriesPage: "Серия страницу",
@@ -947,6 +1073,11 @@ if (ej.PivotSchemaDesigner) ej.PivotSchemaDesigner.Locale["ru-RU"] = {
     IsGreaterThanOrEqualTo: "Больше или равно",
     IsLessThan: "Меньше",
     IsLessThanOrEqualTo: "Меньше или равно",­­
+    ClearSorting: "Очистить сортировка",
+    ClearFilterFrom: "Очистить фильтр от",
+    SortAtoZ: "Сортировать по алфавиту",
+    SortZtoA: "Сортировать Z",
+    and: "И",
 
     PivotTableFieldList: "Сводная таблица Список поле",
     ChooseFieldsToAddToReport: "Выберите поля для добавления, чтобы сообщить:",
@@ -1196,7 +1327,7 @@ if (ej.RTE) ej.RTE.Locale["ru-RU"] = {
 	imageBorder: "изображение Border",
 	imageStyle: "Стиль",
 	linkText: "Текст",
-	linkToolTip: "подсказке",
+	linkTooltipLabel: "подсказке",
 	html5Support: "Этот значок только инструмент включен в HTML5 поддерживаемых браузеров",
 	linkOpenInNewWindow: "Открыть ссылку в новом окне",
 	tableColumns: "No.of Колонны",
@@ -1266,7 +1397,7 @@ if (ej.RTE) ej.RTE.Locale["ru-RU"] = {
 	lowerroman: "Нижняя Римская",
 	upperroman: "Верхняя римская",
 	none: "Никто",
-	linktooltip: "Ctrl + клик, чтобы следовать по ссылке",
+	linkTooltip: "Ctrl + клик, чтобы следовать по ссылке",
 	charSpace: "Символы (с пробелами)",
 	charNoSpace: "нет Персонажи (без пробелов)",
 	wordCount: "Количество слов",
@@ -1286,6 +1417,9 @@ if (ej.RTE) ej.RTE.Locale["ru-RU"] = {
 	Replace: "замещать",
 	ReplaceAll: "Заменить все",
 	FindErrorMsg: "Не удалось найти указанный слово.",
+	customFontColor:"Больше цветов ...",
+	customBGColor:"Больше цветов ...",
+	TransBGColor:"Прозрачный"
 };
 if (ej.Schedule) ej.Schedule.Locale["ru-RU"] = {
     ReminderWindowTitle: "окно Напоминание",
@@ -1386,6 +1520,10 @@ if (ej.Schedule) ej.Schedule.Locale["ru-RU"] = {
     DeleteConfirmation: "Вы уверены, что хотите удалить этот прием?",
     Time: "время",
     EmptyResultText: "Нет предложений",
+    BlockIntervalAlertTitle: "Оповещение",
+    BlockIntervalError: "Выбранный временной интервал заблокирован и недоступен для выбора.",
+    RecurrenceDateValidation: "За несколько месяцев осталось меньше выбранных дат. В течение этих месяцев это событие будет выпадать на последнюю дату месяца.",
+    SeriesChangeAlert: "Изменения, внесенные в конкретные экземпляры этой серии, будут отменены, и эти встречи будут соответствовать серии снова."
 };
 if (ej.Spreadsheet) ej.Spreadsheet.Locale["ru-RU"] = {
     Cut: "Порез",
@@ -1412,20 +1550,25 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["ru-RU"] = {
     SortNewesttoOldest: "Сортировка новых к старым",
     Insert: "Вставить",
     InsertTitle: "Вставить ячейки",
-    InsertContent: "Добавьте новые ячейки, строки или столбцы в книге <br /> <br /> FYI:. Чтобы вставить несколько строк или столбцов в то время, выбрать несколько строк или столбцов в таблице, и нажмите Вставить.",
+    InsertContent: "Добавьте новые ячейки, строки или столбцы в книге ", 
+    MultipleInsertContent: " FYI:. Чтобы вставить несколько строк или столбцов в то время, выбрать несколько строк или столбцов в таблице, и нажмите Вставить.",
     InsertSBContent: "Добавить ячейки, строки, столбцы или листы рабочей книги.",
     Delete: "Удалить",
     DeleteTitle: "Удалить ячейки",
-    DeleteContent: "Удалить ячейки, строки, столбцы или листы из рабочей книги <br /> <br /> FYI:. Чтобы удалить несколько строк или столбцов в то время, выбрать несколько строк или столбцов в таблице, и нажмите кнопку Удалить.",
+    DeleteContent: "Удалить ячейки, строки, столбцы или листы из рабочей книги",
+    MultipleDeleteContent: " FYI:. Чтобы удалить несколько строк или столбцов в то время, выбрать несколько строк или столбцов в таблице, и нажмите кнопку Удалить.",
     FindSelectTitle: "Найти и выберите",
     FindSelectContent: "Нажмите, чтобы увидеть варианты для поиска текста в документе.",
     CalculationOptions: "параметры расчета",
     CalcOptTitle: "параметры расчета",
-    CalcOptContent: "Выберите для расчета формул автоматически или вручную. <br/> <br/> Если вы сделаете изменения, которые влияют на значение, электронная таблица будет автоматически пересчитать его.",
+    CalcOptContent: "Выберите для расчета формул автоматически или вручную.", 
+    CalcOptRecalcContent: " Если вы сделаете изменения, которые влияют на значение, электронная таблица будет автоматически пересчитать его.",
     CalculateSheet: "Подсчитайте Sheet",
     CalculateNow: "Рассчитать сейчас",
-    CalculateNowContent: "Вычислить всю рабочую книгу прямо сейчас. <br/> <br/> Вам нужно всего лишь использовать эту функцию, если автоматический расчет выключен.",
-    CalculateSheetContent: "Вычислить активный лист прямо сейчас. <br/> <br/> Вам нужно всего лишь использовать эту функцию, если автоматический расчет выключен.",
+    CalculateNowContent: "Вычислить всю рабочую книгу прямо сейчас.", 
+    CalculateNowTurnOffContent: " Вам нужно всего лишь использовать эту функцию, если автоматический расчет выключен.",
+    CalculateSheetContent: "Вычислить активный лист прямо сейчас.", 
+    CalculateSheetTurnOffContent: " Вам нужно всего лишь использовать эту функцию, если автоматический расчет выключен.",
     Title: "таблица",
     Ok: "ОК",
     Cancel: "Отмена",
@@ -1593,7 +1736,8 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["ru-RU"] = {
     TableStyleOptions: "Первая колонка / Последняя колонка / Total Row / Кнопка Фильтр",
     Format: "Формат",
     NameManager: "Имя менеджера",
-    NameManagerContent: "Создание, редактирование, удаление и найти все имена, используемые в книге. <br /> <br /> Имена могут быть использованы в формулах в качестве заменителей ссылок на ячейки.",
+    NameManagerContent: "Создание, редактирование, удаление и найти все имена, используемые в книге.",
+    NameManagerFormulaContent: " Имена могут быть использованы в формулах в качестве заменителей ссылок на ячейки.",
     DefinedNames: "Задаваемые Названия",
     DefineName: "Определить имя",
     DefineNameContent: "Определение и применение имен.",
@@ -1724,7 +1868,10 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["ru-RU"] = {
     HideSheet: "Спрятать",
     UnhideSheet: "Unhide",
     SheetRenameAlert: "Это имя уже занято. Попробуйте другой.",
-    SheetRenameEmptyAlert: "Введен недопустимый имя листа. Убедитесь, что: <UL> <LI> Имя, которое вы вводите, не превышает 31 символа </ li> <li> Имя не содержит какой-либо из следующих символов:. \ /? * [Или] </ li> <li> Вы не оставил имя пустым. </ Li> </ UL>",
+    SheetRenameEmptyAlert: "Введен недопустимый имя листа. Убедитесь, что:", 
+    SheetRenameEmptyCharExceedAlert: " Имя, которое вы вводите, не превышает 31 символа ", 
+    SheetRenameEmptySplCharAlert: " Имя не содержит какой-либо из следующих символов:",
+    SheetRenameEmptyBlankAlert: " Вы не оставил имя пустым.",
     SheetDeleteAlert: "Вы не можете отменить удаление листов, и вы можете быть удалить некоторые данные. Если вы не нуждаетесь в этом, нажмите кнопку OK, чтобы удалить.",
     SheetDeleteErrorAlert: "Рабочая книга должна содержать по меньшей мере один видимый рабочий лист. Чтобы скрыть, удалить или переместить выбранный лист, необходимо сначала вставить новый лист или показать лист, который уже скрыто.",
     CtrlKeyErrorAlert: "Эта команда не может быть использована на множественный выбор.",
@@ -1913,13 +2060,15 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["ru-RU"] = {
     RedoContent: "Повторить последнее действие.",
     TableTitle: "Таблица (Ctrl + T)",
     HyperLinkTitle: "Добавление гиперссылки (Ctrl + K)",
-    HyperLinkContent: "Создание ссылки в документе для быстрого доступа к веб-страницам и файлам. <br /> <br /> гиперссылок также может принять вас места в вашем документе.",
+    HyperLinkContent: "Создание ссылки в документе для быстрого доступа к веб-страницам и файлам.", 
+    HyperLinkPlaceContent:" гиперссылок также может принять вас места в вашем документе.",
     NewCommentTitle: "Вставьте комментарий",
     NewCommentContent: "Добавить заметку об этой части документа.",
     RefreshTitle: "обновление",
     RefreshContent: "Получить последние данные от источника, подключенного к активной ячейке",
     FieldListTitle: "Список полей",
-    FieldListContent: "Показать или скрыть список полей. <br /> <br /> В списке поля позволяет добавлять и удалять поля из отчета сводной таблицы",
+    FieldListContent: "Показать или скрыть список полей. ", 
+    FieldListRemoveContent: " В списке поля позволяет добавлять и удалять поля из отчета сводной таблицы",
     AddChartElement: "Добавить элемент диаграммы",
     AddChartElementContent: "Добавление элементов в созданной таблице.",
     SwitchRowColumn: "Переключатель Row / Column",
@@ -2047,6 +2196,36 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["ru-RU"] = {
     CellTypeAlert: "Эта операция не разрешена в прикладной диапазоне типа клеток.",
     PivotOverlapAlert: "Отчет сводной таблицы не может перекрывать другой отчет сводной таблицы",
     NoCellFound: "Не было обнаружено ни клетки",
+    ColorPicker: "Выбор цвета",
+    IncreaseIndent: "Увеличить отступ",
+    IncreaseIndentContent: "Перенесите контент дальше от границы ячейки.",
+    DecreaseIndent: "Уменьшить отступ",
+    DecreaseIndentContent: "Переместите содержимое ближе к границе ячейки.",
+    ExportPdf: "PDF",
+    ClipboardAccessError: "Ваш браузер не может получить доступ к буферу обмена, поэтому используйте следующие сочетания клавиш:",
+    ClipboardAccessCutError: "Вырезать = Ctrl + X",
+    ClipboardAccessCopyError: "Копировать = Ctrl + C",
+    ClipboardAccessPasteError: "Вставить = Ctrl + V",
+    CorrectArgument: "Введите правильный аргумент",
+    CorrectFormula: "Введите правильную формулу",
+    CorrectCellAddress: "Введите правильный адрес ячейки",
+    ChartType: "Тип диаграммы",
+    NumberValidationAlert: "Максимальное значение должно быть больше или равно минимальному",
+    DateValidationAlert: "Дата окончания должна быть больше или равна дате начала.",
+    TimeValidationAlert: "Время окончания должно быть больше или равно стартовому времени",
+    NewRuleAlert: "Проблема с этой формулой",
+    DragAlert: "Не удалось выполнить команду, поскольку вы пытаетесь переместить ячейки в пределах диапазона фильтра. Выберите диапазон из диапазона фильтра и повторите команду.",
+    OR: "или",
+    HOME: "ГЛАВНАЯ",
+    INSERT: "ВСТАВИТЬ",
+    DATATAB: "ДАННЫЕ",
+    PAGELAYOUT: "МАКЕТ СТРАНИЦЫ",
+    REVIEW: "ОБЗОР",
+    OTHERS: "ДРУГИЕ",
+    FORMAT: "Формат",
+    DESIGN: "ДИЗАЙН",
+    CHARTDESIGN: "Графический дизайн",
+    ANALYZE: "Анализ"
 };
 if (ej.TreeGrid) ej.TreeGrid.Locale["ru-RU"] = {
     toolboxTooltipTexts: {
@@ -2055,7 +2234,7 @@ if (ej.TreeGrid) ej.TreeGrid.Locale["ru-RU"] = {
         updateTool: "обновление",
         deleteTool: "удалять",
         cancelTool: "отменить",
-        expandAllTool: "Развернуть все",
+        expandAllTool: "Расширить все",
         collapseAllTool: "Свернуть все",
         pdfExportTool: "Экспорт в PDF",
         excelExportTool: "Excel Экспорт"
@@ -2122,7 +2301,29 @@ if (ej.TreeGrid) ej.TreeGrid.Locale["ru-RU"] = {
         dropdownTableValue: "Стоимость",
         addData: "Добавить",
         deleteData: "Удалить",
-        allowCellSelection: "Разрешить выбор ячеек"
+        allowCellSelection: "Разрешить выбор ячеек",
+        showInColumnChooser: "Показать в столбце Chooser",
+        displayAsCheckbox: "Показать как флажок",
+        clipMode: "Режим клипа",
+        tooltip: "Подсказка",
+        headerTooltip: "Подсказка для заголовка"
+    },
+    editTypeTexts: {
+        string: "Строка",
+        numeric: "Числовое значение",
+        datePicker: "Выбор даты",
+        dateTimePicker: "Выбор даты и времени",
+        dropdown: "Падать",
+        boolean: "Логическое значение"
+    },
+    textAlignTypes: {
+        right: "Правильно",
+        left: "Оставил",
+        center: "Центр"
+    },
+    clipModeTexts: {
+        clip: "Клип",
+        ellipsis: "Многоточие"
     },
     columnDialogTitle: {
         insertColumn: "Вставить столбец",

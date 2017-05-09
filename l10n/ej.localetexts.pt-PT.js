@@ -130,7 +130,7 @@ if (ej.ExcelFilter) ej.ExcelFilter.Locale["pt-PT"] = {
     title: "Filtro personalizado",
     PredicateAnd: "E",
     PredicateOr: "OU",
-    Ok: "Está bem",
+    OK: "Está bem",
     MatchCase: "Caso de compatibilidade",
     Cancel: "Cancelar",
     NoResult: "Nenhuma equivalência encontrada",
@@ -256,7 +256,7 @@ if (ej.Gantt) ej.Gantt.Locale["pt-PT"] = {
         baselineStartDate: "Data de início da linha de base",
         baselineEndDate: "Data-Base End",
         WBS: "WBS",
-        WBSpredecessor: "WBS Predecessor",
+        WBSPredecessor: "WBS Predecessor",
         dialogCustomFieldName: "Nome da coluna",
         dialogCustomFieldValue: "Valor",
         notes: "notas",
@@ -272,7 +272,8 @@ if (ej.Gantt) ej.Gantt.Locale["pt-PT"] = {
         deleteButton: "Excluir",
         cancelButton: "Cancelar",
         addPredecessor: "Adicionar novo",
-        removePredecessor: "Remover"
+        removePredecessor: "Remover",
+        addButton: "Adicionar"
     },
     columnDialogTexts: {
         field: "Campo",
@@ -291,7 +292,28 @@ if (ej.Gantt) ej.Gantt.Locale["pt-PT"] = {
         dropdownTableValue: "Valor",
         addData: "Adicionar",
         deleteData: "Remover",
-        allowCellSelection: "Permitir selecção celular"
+        allowCellSelection: "Permitir selecção celular",
+        displayAsCheckbox: "Caixa de seleção Exibir como",
+        clipMode: "Modo de clipe",
+        tooltip: "Dica de ferramenta",
+        headerTooltip: "Dica do cabeçalho"
+    },
+    editTypeTexts: {
+        string: "Corda",
+        numeric: "Numérico",
+        datePicker: "Seletor de data",
+        dateTimePicker: "Data Tempo Picker",
+        dropdown: "Suspenso",
+        boolean: "boleano"
+    },
+    textAlignTypes: {
+        right: "Certo",
+        left: "Esquerda",
+        center: "Centro"
+    },
+    clipModeTexts: {
+        clip: "Grampo",
+        ellipsis: "Elipse"
     },
     toolboxTooltipTexts: {
         addTool: "Adicionar",
@@ -307,7 +329,8 @@ if (ej.Gantt) ej.Gantt.Locale["pt-PT"] = {
         nextTimeSpanTool: "Próximo Timespan",
         prevTimeSpanTool: "Anterior Timespan",
         criticalPathTool: "Caminho crítico",
-        excelExportTool: "exportação excel"
+        excelExportTool: "exportação excel",
+        pdfExportTool: "Exportação de PDF"
     },
     durationUnitTexts: {
         days: "dias",
@@ -394,12 +417,10 @@ if (ej.Grid) ej.Grid.Locale["pt-PT"] = {
     DeleteOperationAlert: "Não há registros selecionados para a operação de exclusão",
     EditOperationAlert: "Não há registros selecionados para a operação de edição",
     SaveButton: "Salvar",
-    OkButton: "Está bem",
+    OKButton: "Está bem",
     CancelButton: "Cancelar",
     EditFormTitle: "Detalhes de",
     AddFormTitle: "Adicionar novas informações",
-    Notactionkeyalert: "Este-combinação de teclas não está disponível",
-    Keyconfigalerttext: "Este Key-Combination já foi atribuído a",
     GroupCaptionFormat: "{{:headerText}}: {{:key}} - {{:count}} {{if count == 1 }} item {{else}} itens {{/if}} ",
     BatchSaveConfirm: "Tem certeza de que deseja salvar as alterações?",
     BatchSaveLostChanges: "As alterações não salvas serão perdidas. Você tem certeza que quer continuar?",
@@ -557,7 +578,11 @@ if (ej.PivotClient) ej.PivotClient.Locale["pt-PT"] = {
     IsGreaterThan: "É maior que",
     IsGreaterThanOrEqualTo: "É maior que ou igual a",
     IsLessThan: "É menor que",
-    IsLessThanOrEqualTo: "É menor do que ou igual a",­­
+    IsLessThanOrEqualTo: "É menor do que ou igual a",
+    ClearSorting: "Limpar a triagem",
+    ClearFilterFrom: "Limpar Filtro",
+    SortAtoZ: "Ordenar de A a Z",
+    SortZtoA: "Ordenar de Z a A",­­
 
     DeferUpdate: "Adiar Atualização",
     MDXQuery: "consulta MDX",
@@ -675,7 +700,19 @@ if (ej.PivotClient) ej.PivotClient.Locale["pt-PT"] = {
     SetReportNameAlertMsg: "Defina o nome do relatório.",
     Search: "Pesquisar",
     MultipleItems: "Vários itens",
-    All: "Todos os"
+    All: "Todos os",
+    NoReports: "Há relatos encontrados em DB",
+    CalculatedMember: "Calculados os",
+    Caption: "Legenda:",
+    Expression: "Expressão:",
+    MemberType: "Tipo de membro:",
+    FormatString: "String de formato:",
+    MultipleMeasure: "Mais do que uma medida não pode ser cortada.",
+    DuplicateCalcMeasure: "Os calculados com o mesmo nome já existe.",
+    EmptyField: "Nome do membro calculado ou expressão não pode estar vazio.",
+    EmptyFormat: "Formato de String para calculado membro está vazio.",
+    Warning: "Aviso",
+    Confirm: "Os calculados com o mesmo nome já existe. Devido à deseja substituir?"
 };
 if (ej.PivotGauge) ej.PivotGauge.Locale["pt-PT"] = {
     RevenueGoal: "meta de receita",
@@ -744,6 +781,85 @@ if (ej.PdfViewer) ej.PdfViewer.Locale["pt-PT"] = {
             headerText: 'Transferir',
             contentText: 'Faça o download do documento PDF.'
         },
+        highlight: {
+            headerText: 'Realçar texto',
+            contentText: 'Realce texto nas páginas PDF.',
+        },
+        strikeout: {
+            headerText: 'StrikeOut Texto',
+            contentText: 'Strike Out texto nas páginas PDF.',
+        },
+        underline: {
+            headerText: 'Sublinhar texto',
+            contentText: 'Sublinhe o texto nas páginas PDF.',
+        },
+    },
+    contextMenu: {
+        copy: {
+            contentText: 'cópia de',
+        },
+        googleSearch: {
+            contentText: 'Pesquisar no Google',
+        },
+        Find: {
+            contentText: 'Encontrar:',
+        },
+        matchCase: {
+            contentText: 'caso de compatibilidade',
+        },
+        auto: {
+            contentText: 'Auto',
+        },
+        openPopup: {
+            contentText: 'OpenPopup',
+        },
+        Delete: {
+            contentText: 'Excluir',
+        },
+        properties: {
+            contentText: 'Propriedades....',
+        },
+    },
+    propertyWindow: {
+        underlineProperties: {
+            contentText: "UnderlineProperties"
+        },
+        strikeOutProperties: {
+            contentText: "StrikeOutProperties"
+        },
+        highlightProperties: {
+            contentText: "HighlightProperties"
+        },
+        appearance: {
+            contentText: "aparência"
+        },
+        general: {
+            contentText: "geral"
+        },
+        color: {
+            contentText: "cor:"
+        },
+        opacity: {
+            contentText: "opacidade:"
+        },
+        author: {
+            contentText: "autor:"
+        },
+        subject: {
+            contentText: "sujeito:"
+        },
+        modified: {
+            contentText: "Modificado:"
+        },
+        ok: {
+            contentText: "Está bem"
+        },
+        cancel: {
+            contentText: "cancelar"
+        },
+        locked: {
+            contentText: "Trancado"
+        }
     },
 };
 if (ej.PercentageTextbox) ej.PercentageTextbox.Locale["pt-PT"] = {
@@ -760,6 +876,11 @@ if (ej.PivotGrid) ej.PivotGrid.Locale["pt-PT"] = {
     IsGreaterThanOrEqualTo: "É maior que ou igual a",
     IsLessThan: "É menor que",
     IsLessThanOrEqualTo: "É menor do que ou igual a",­­
+    ClearSorting: "Limpar a triagem",
+    ClearFilterFrom: "Limpar Filtro",
+    SortAtoZ: "Ordenar de A a Z",
+    SortZtoA: "Ordenar de Z a A",­­
+    and: "E",
 
     NumberFormatting: "Formatação de número",
     FrozenHeaders: "Cabeçalhos congelados",
@@ -930,7 +1051,12 @@ if (ej.PivotGrid) ej.PivotGrid.Locale["pt-PT"] = {
     CalcValue: "Campo calculado pode ser inserido apenas no campo Área de valor",
     MultipleItems: "Vários itens",
     All: "Todos os",
-    Search: "Pesquisar"
+    Search: "Pesquisar",
+    ColumnResize: "Coluna Redimensionar",
+    Layouts:"Layouts",
+    NormalLayout: "Layout Normal",
+    NormalTopSummary: "Topo normal layout de resumo",
+    NoSummaries:"Nenhum layout de resumos"
 };
 if (ej.PivotPager) ej.PivotPager.Locale["pt-PT"] = {
     SeriesPage: "Página série",
@@ -949,6 +1075,11 @@ if (ej.PivotSchemaDesigner) ej.PivotSchemaDesigner.Locale["pt-PT"] = {
     IsGreaterThanOrEqualTo: "É maior que ou igual a",
     IsLessThan: "É menor que",
     IsLessThanOrEqualTo: "É menor do que ou igual a",­­
+    ClearSorting: "Limpar a triagem",
+    ClearFilterFrom: "Limpar Filtro",
+    SortAtoZ: "Ordenar de A a Z",
+    SortZtoA: "Ordenar de Z a A",­­
+    and: "E",
 
     PivotTableFieldList: "Lista de campos de tabela dinâmica",
     ChooseFieldsToAddToReport: "Escolha campos para adicionar ao relatório:",
@@ -1198,7 +1329,7 @@ if (ej.RTE) ej.RTE.Locale["pt-PT"] = {
 	imageBorder: "Borda da imagem",
 	imageStyle: "Estilo",
 	linkText: "Texto",
-	linkToolTip: "Dica de ferramenta",
+	linkTooltipLabel: "Dica de ferramenta",
 	html5Support: "Este ícone de ferramenta só está habilitado nos navegadores compatíveis com HTML5",
 	linkOpenInNewWindow: "Abrir link em nova janela",
 	tableColumns: "Número de colunas",
@@ -1268,7 +1399,7 @@ if (ej.RTE) ej.RTE.Locale["pt-PT"] = {
 	lowerroman: "Baixa romana",
 	upperroman: "Alto Romano",
 	none: "Nenhum",
-	linktooltip: "Ctrl + clique para seguir o link",
+	linkTooltip: "Ctrl + clique para seguir o link",
 	charSpace: "Caracteres (com espaços)",
 	charNoSpace: "Caracteres (sem espaços)",
 	wordCount: "Contagem de palavras",
@@ -1288,6 +1419,9 @@ if (ej.RTE) ej.RTE.Locale["pt-PT"] = {
 	Replace: "Substituir",
 	ReplaceAll: "Substitua tudo",
 	FindErrorMsg: "Não foi possível encontrar a palavra especificada.",
+	customFontColor:"Mais cores...",
+	customBGColor:"Mais cores...",
+	TransBGColor:"transparente"
 };
 if (ej.Schedule) ej.Schedule.Locale["pt-PT"] = {
     ReminderWindowTitle: "janela lembrete",
@@ -1388,6 +1522,10 @@ if (ej.Schedule) ej.Schedule.Locale["pt-PT"] = {
     DeleteConfirmation: "Tem certeza de que deseja excluir este compromisso?",
     Time: "Tempo",
     EmptyResultText: "Sem sugestões",
+    BlockIntervalAlertTitle: "Alerta",
+    BlockIntervalError: "O intervalo de tempo selecionado foi bloqueado e não está disponível para seleção.",
+    RecurrenceDateValidation: "Alguns meses têm menos datas selecionadas. Durante esses meses, a ocorrência ocorrerá na última data do mês.",
+    SeriesChangeAlert: "As alterações feitas em instâncias específicas desta série serão canceladas e essas nomeações corresponderão à série novamente."
 };
 if (ej.Spreadsheet) ej.Spreadsheet.Locale["pt-PT"] = {
     Cut: "Cortar",
@@ -1414,20 +1552,25 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["pt-PT"] = {
     SortNewesttoOldest: "Classificar mais recente para a mais antiga",
     Insert: "Inserir",
     InsertTitle: "Inserir células",
-    InsertContent: "Adicionar novas células, linhas ou colunas para sua pasta de trabalho <br /> <br /> FYI:. Para inserir várias linhas ou colunas de cada vez, selecionar várias linhas ou colunas na folha, e clique em Inserir.",
+    InsertContent: "Adicionar novas células, linhas ou colunas para sua pasta de trabalho ", 
+    MultipleInsertContent: " FYI:. Para inserir várias linhas ou colunas de cada vez, selecionar várias linhas ou colunas na folha, e clique em Inserir.",
     InsertSBContent: "Adicionar células, linhas, colunas ou folhas para sua pasta de trabalho.",
     Delete: "Excluir",
     DeleteTitle: "Eliminar células",
-    DeleteContent: "Excluir células, linhas, colunas ou folhas a partir de sua pasta de trabalho <br /> <br /> FYI:. Para excluir várias linhas ou colunas de cada vez, selecionar várias linhas ou colunas na folha, e clique em Excluir.",
+    DeleteContent: "Excluir células, linhas, colunas ou folhas a partir de sua pasta de trabalho", 
+    MultipleDeleteContent: " FYI:. Para excluir várias linhas ou colunas de cada vez, selecionar várias linhas ou colunas na folha, e clique em Excluir.",
     FindSelectTitle: "Localizar e Selecionar",
     FindSelectContent: "Clique para ver opções para encontrar o texto do documento.",
     CalculationOptions: "Opções de cálculo",
     CalcOptTitle: "Opções de cálculo",
-    CalcOptContent: "Escolha para calcular fórmulas automaticamente ou manualmente. <br/> Se você fizer uma alteração que afeta um valor, Spreadsheet irá recalcular automaticamente.",
+    CalcOptContent: "Escolha para calcular fórmulas automaticamente ou manualmente. ", 
+    CalcOptRecalcContent: "Se você fizer uma alteração que afeta um valor, Spreadsheet irá recalcular automaticamente.",
     CalculateSheet: "Calcule Sheet",
     CalculateNow: "Calcule Agora",
-    CalculateNowContent: "Calcule o livro inteiro agora. <br/> Você só precisa usar isso se o cálculo automático está desligado.",
-    CalculateSheetContent: "Calcular a planilha ativa agora. <br/> Você só precisa usar isso se o cálculo automático está desligado.",
+    CalculateNowContent: "Calcule o livro inteiro agora.",
+    CalculateNowTurnOffContent: " Você só precisa usar isso se o cálculo automático está desligado.",
+    CalculateSheetContent: "Calcular a planilha ativa agora. ", 
+    CalculateSheetTurnOffContent:" Você só precisa usar isso se o cálculo automático está desligado.",
     Title: "Planilha",
     Ok: "Está bem",
     Cancel: "Cancelar",
@@ -1595,7 +1738,8 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["pt-PT"] = {
     TableStyleOptions: "Primeira Coluna / Última coluna Total da Linha Botão / / Filtro",
     Format: "Formato",
     NameManager: "nome do Gerente",
-    NameManagerContent: "Criar, editar, apagar e encontrar todos os nomes usados no livro. <br /> <br /> Os nomes podem ser usados em fórmulas como substitutos para referências de células.",
+    NameManagerContent: "Criar, editar, apagar e encontrar todos os nomes usados no livro.", 
+    NameManagerFormulaContent: " Os nomes podem ser usados em fórmulas como substitutos para referências de células.",
     DefinedNames: "Nomes definidos",
     DefineName: "definir nome",
     DefineNameContent: "Definir e aplicar nomes.",
@@ -1726,7 +1870,10 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["pt-PT"] = {
     HideSheet: "Esconder",
     UnhideSheet: "unhide",
     SheetRenameAlert: "Este nome já foi escolhido. Tente um diferente.",
-    SheetRenameEmptyAlert: "Escreveu um nome inválido para uma folha. Certifique-se de que: <ul> <li> O nome que você digita não exceda 31 caracteres </ li> <li> O nome não contém qualquer um dos seguintes caracteres:. \ /? * [Ou] </ li> <li> Você não deixou o nome em branco. </ Li> </ ul>",
+    SheetRenameEmptyAlert: "Escreveu um nome inválido para uma folha. Certifique-se de que:", 
+    SheetRenameEmptyCharExceedAlert: " O nome que você digita não exceda 31 caracteres", 
+    SheetRenameEmptySplCharAlert: " O nome não contém qualquer um dos seguintes caracteres:", 
+    SheetRenameEmptyBlankAlert: " Você não deixou o nome em branco.",
     SheetDeleteAlert: "Você não pode desfazer a exclusão de folhas, e você pode ser a remoção de alguns dados. Se você não precisa dele, clique em OK para excluir.",
     SheetDeleteErrorAlert: "A pasta de trabalho deve conter pelo menos uma planilha visível. Para ocultar, excluir ou mover a folha selecionada, você deve primeiro inserir uma nova folha ou mostrar uma folha que já está escondido.",
     CtrlKeyErrorAlert: "Esse comando não pode ser usado em várias seleções.",
@@ -1915,13 +2062,15 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["pt-PT"] = {
     RedoContent: "Refazer a última ação.",
     TableTitle: "Tabela (Ctrl + T)",
     HyperLinkTitle: "Adicionar uma hiperligação (Ctrl + K)",
-    HyperLinkContent: "Criar um link em seu documento para acesso rápido às páginas da web e arquivos. <br /> <br /> As hiperligações também pode levá-lo a lugares em seu documento.",
+    HyperLinkContent: "Criar um link em seu documento para acesso rápido às páginas da web e arquivos.", 
+    HyperLinkPlaceContent: " As hiperligações também pode levá-lo a lugares em seu documento.",
     NewCommentTitle: "Insira um comentário",
     NewCommentContent: "Adicionar uma nota sobre esta parte do documento.",
     RefreshTitle: "refrescar",
     RefreshContent: "Obter os dados mais recentes da fonte ligada à célula ativa",
     FieldListTitle: "Lista de campos",
-    FieldListContent: "Mostrar ou ocultar a lista de campos. <br /> <br /> A lista de campos permite que você adicionar e remover campos de seu relatório de tabela dinâmica",
+    FieldListContent: "Mostrar ou ocultar a lista de campos.", 
+    FieldListRemoveContent: " A lista de campos permite que você adicionar e remover campos de seu relatório de tabela dinâmica",
     AddChartElement: "Adicione a carta Elemento",
     AddChartElementContent: "Adicionar elementos para o gráfico criado.",
     SwitchRowColumn: "Interruptor de linha / coluna",
@@ -2049,6 +2198,36 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["pt-PT"] = {
     CellTypeAlert: "Esta operação não é permitida no tipo de célula gama aplicada.",
     PivotOverlapAlert: "Um relatório de tabela dinâmica não podem se sobrepor um outro relatório de tabela dinâmica",
     NoCellFound: "Não foram encontradas células",
+    ColorPicker: "Selecionador de cores",
+    IncreaseIndent: "Aumentar recuo",
+    IncreaseIndentContent: "Mova o conteúdo para mais longe da borda da célula.",
+    DecreaseIndent: "Recuar devagar",
+    DecreaseIndentContent: "Mova seu conteúdo para mais perto da borda da célula.",
+    ExportPdf: "PDF",
+    ClipboardAccessError: "Seu navegador não pode acessar a área de transferência, então use estes atalhos:",
+    ClipboardAccessCutError: "Cortar = Ctrl + X",
+    ClipboardAccessCopyError: "Copiar = Ctrl + C",
+    ClipboardAccessPasteError: "Colar = Ctrl + V",
+    CorrectArgument: "Insira o argumento correto",
+    CorrectFormula: "Introduza a fórmula correcta",
+    CorrectCellAddress: "Digite o endereço correto da célula",
+    ChartType: "Tipo de Gráfico",
+    NumberValidationAlert: "O máximo deve ser maior ou igual a Mínimo",
+    DateValidationAlert: "A data de término deve ser maior ou igual a data de início",
+    TimeValidationAlert: "A hora de término deve ser maior ou igual a Hora de início",
+    NewRuleAlert: "Há um problema com esta fórmula",
+    DragAlert: "O comando não pôde ser concluído enquanto você está tentando mover células dentro do intervalo do filtro. Selecione um intervalo fora do intervalo do filtro e tente o comando novamente.",
+    OR: "ou",
+    HOME: "CASA",
+    INSERT: "INSERIR",
+    DATATAB: "DADOS",
+    PAGELAYOUT: "LAYOUT DA PÁGINA",
+    REVIEW: "REVEJA",
+    OTHERS: "OUTRAS",
+    FORMAT: "Formato",
+    DESIGN: "DESENHAR",
+    CHARTDESIGN: "Desenho gráfico",
+    ANALYZE: "Analisar"
 };
 if (ej.TreeGrid) ej.TreeGrid.Locale["pt-PT"] = {
     toolboxTooltipTexts: {
@@ -2124,7 +2303,29 @@ if (ej.TreeGrid) ej.TreeGrid.Locale["pt-PT"] = {
         dropdownTableValue: "Valor",
         addData: "Adicionar",
         deleteData: "Remover",
-        allowCellSelection: "Permitir selecção celular"
+        allowCellSelection: "Permitir selecção celular",
+        showInColumnChooser: "Mostrar no seletor de coluna",
+        displayAsCheckbox: "Caixa de seleção Exibir como",
+        clipMode: "Modo de clipe",
+        tooltip: "Dica de ferramenta",
+        headerTooltip: "Dica do cabeçalho"
+    },
+    editTypeTexts: {
+        string: "Corda",
+        numeric: "Numérico",
+        datePicker: "Seletor de data",
+        dateTimePicker: "Data Tempo Picker",
+        dropdown: "Suspenso",
+        boolean: "boleano"
+    },
+    textAlignTypes: {
+        right: "Certo",
+        left: "Esquerda",
+        center: "Centro"
+    },
+    clipModeTexts: {
+        clip: "Grampo",
+        ellipsis: "Elipse"
     },
     columnDialogTitle: {
         insertColumn: "inserir coluna",

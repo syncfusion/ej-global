@@ -130,7 +130,7 @@ if (ej.ExcelFilter) ej.ExcelFilter.Locale["fa-IR"] = {
     title: "فیلتر سفارشی",
     PredicateAnd: "و",
     PredicateOr: "یا",
-    Ok: "خوب",
+    OK: "خوب",
     MatchCase: "مطابقت با مورد",
     Cancel: "لغو کردن",
     NoResult: "جستجو حاصلی دربرنداشت",
@@ -141,7 +141,7 @@ if (ej.ExcelFilter) ej.ExcelFilter.Locale["fa-IR"] = {
     False: "غلط",
 };
 if (ej.FileExplorer) ej.FileExplorer.Locale["fa-IR"] = {
-    EmptyFolder:'ین پوشه خالی است,
+    EmptyFolder:'ین پوشه خالی است',
    Back: "به عقب",
     Forward: "رو به جلو",
     Upward: "بطرف بالا",
@@ -237,7 +237,7 @@ if (ej.Gantt) ej.Gantt.Locale["fa-IR"] = {
         baselineStartDate: "در شروع مطالعه تاریخ شروع",
         baselineEndDate: "در شروع مطالعه تاریخ پایان",
         WBS: "WBS",
-        WBSpredecessor: "سلف WBS",
+        WBSPredecessor: "سلف WBS",
         dialogCustomFieldName: "نام ستون",
         dialogCustomFieldValue: "ارزش",
         notes: "یادداشت",
@@ -253,7 +253,8 @@ if (ej.Gantt) ej.Gantt.Locale["fa-IR"] = {
         deleteButton: "حذف کردن",
         cancelButton: "لغو کردن",
         addPredecessor: "اضافه کردن جدید",
-        removePredecessor: "برداشتن"
+        removePredecessor: "برداشتن",
+        addButton:"اضافه کردن"
     },
     columnDialogTexts: {
         field: "رشته",
@@ -272,7 +273,28 @@ if (ej.Gantt) ej.Gantt.Locale["fa-IR"] = {
         dropdownTableValue: "ارزش",
         addData: "اضافه کردن",
         deleteData: "برداشتن",
-        allowCellSelection: "اجازه می دهد انتخاب سلول"
+        allowCellSelection: "اجازه می دهد انتخاب سلول",
+        displayAsCheckbox: "صفحه نمایش به عنوان جعبه",
+        clipMode: "حالت کلیپ",
+        tooltip: "راهنمای ابزار",
+        headerTooltip: "سربرگ راهنمای ابزار"
+    },
+    editTypeTexts: {
+        string: "رشته",
+        numeric: "عددی",
+        datePicker: "تاریخ کننده",
+        dateTimePicker: "تاریخ زمان جمع",
+        dropdown: "کرکره",
+        boolean: "بولی"
+    },
+    textAlignTypes: {
+        right: "درست",
+        left: "ترک کرد",
+        center: "مرکز"
+    },
+    clipModeTexts: {
+        clip: "کلیپ",
+        ellipsis: "حذف"
     },
     toolboxTooltipTexts: {
         addTool: "اضافه کردن",
@@ -288,7 +310,8 @@ if (ej.Gantt) ej.Gantt.Locale["fa-IR"] = {
         nextTimeSpanTool: "بعدی فاصله زمانی",
         prevTimeSpanTool: "فاصله زمانی قبلی",
         criticalPathTool: "مسیربحرانی",
-        excelExportTool: "اکسل صادرات"
+        excelExportTool: "اکسل صادرات",
+        pdfExportTool: "PDF صادرات"
     },
     durationUnitTexts: {
         days: "روزها",
@@ -375,12 +398,10 @@ if (ej.Grid) ej.Grid.Locale["fa-IR"] = {
     DeleteOperationAlert: "هیچ ثبتی برای عملیات حذف انتخاب",
     EditOperationAlert: "هیچ پرونده برای ویرایش عمل و انتخاب",
     SaveButton: "صرفه جویی",
-    OkButton: "خوب",
+    OKButton: "خوب",
     CancelButton: "لغو کردن",
     EditFormTitle: "جزئیات",
     AddFormTitle: "اضافه کردن رکورد جدید",
-    Notactionkeyalert: "این کلید ترکیبی در دسترس نیست",
-    Keyconfigalerttext: "این کلید ترکیبی در حال حاضر به اختصاص داده شده است",
     GroupCaptionFormat: "{{:headerText}}: {{:key}} - {{:count}} {{if count == 1 }} مورد {{else}} موارد {{/if}} ",
     BatchSaveConfirm: "آیا شما مطمئن هستید که میخواهید تغییرات را ذخیره؟",
     BatchSaveLostChanges: "تغییرات ذخیره نشده از دست خواهد رفت. آیا مطمئن هستید که میخواهید ادامه دهید؟",
@@ -538,6 +559,10 @@ if (ej.PivotClient) ej.PivotClient.Locale["fa-IR"] = {
     IsGreaterThanOrEqualTo: "بزرگتر یا مساوی با",
     IsLessThan: "کمتر است.",
     IsLessThanOrEqualTo: "کمتر یا مساوی با",
+    ClearSorting: "پاک کردن مرتب سازی",
+    ClearFilterFrom: "پاک کردن از فیلتر",
+    SortAtoZ: "يك نوع Z",
+    SortZtoA: "به يك نوع Z",
 
     DeferUpdate: "تاخیر به روز رسانی",
     MDXQuery: "پرسش MDX",
@@ -655,7 +680,19 @@ if (ej.PivotClient) ej.PivotClient.Locale["fa-IR"] = {
     SetReportNameAlertMsg: "لطفاً اسم گزارش تنظیم شده است.",
     Search: "جستجو",
     MultipleItems: "اقلام چندگانه",
-    All: "همه"
+    All: "همه",
+    NoReports: "در گزارش 76 دسی بل پيدا كرد.",
+    CalculatedMember: "عضو محاسبه",
+    Caption: "موکول:",
+    Expression: "عبارت:",
+    MemberType: "نوع عضو:",
+    FormatString: "زهى فرمت:",
+    MultipleMeasure: "بیش از اندازه برش نیست.",
+    DuplicateCalcMeasure: "عضو محاسبه شده با همين نام وجود دارد.",
+    EmptyField: "نام عضو یا محاسبه عبارت نمی تواند خالی باشد.",
+    EmptyFormat: "زهي عضو محاسبه شده برای فرمت خالی است.",
+    Warning: "هشدار",
+    Confirm: "عضو محاسبه شده با این نام از قبل وجود دارد. به دليل می خواهید جایگزین کنید؟"
 };
 if (ej.PivotGauge) ej.PivotGauge.Locale["fa-IR"] = {
     RevenueGoal: "هدف درآمد",
@@ -724,6 +761,85 @@ if (ej.PdfViewer) ej.PdfViewer.Locale["fa-IR"] = {
             headerText: 'دانلود',
             contentText: 'دانلود فایل PDF و.'
         },
+        highlight: {
+            headerText: 'متن برجسته',
+            contentText: 'برجسته کردن متن در صفحات پی دی اف.',
+        },
+        strikeout: {
+            headerText: 'اعتصاب متن',
+            contentText: 'اعتصاب متن در صفحات پی دی اف.',
+        },
+        underline: {
+            headerText: 'خط دار خط متن',
+            contentText: 'خط دار خط متن در صفحات پی دی اف.',
+        },
+    },
+    contextMenu: {
+        copy: {
+            contentText: 'نسخه',
+        },
+        googleSearch: {
+            contentText: 'جستجوی گوگل',
+        },
+        Find: {
+            contentText: 'پیدا کردن:',
+        },
+        matchCase: {
+            contentText: 'matchCase',
+        },
+        auto: {
+            contentText: 'خودکار',
+        },
+        openPopup: {
+            contentText: 'پنجره های باز',
+        },
+        Delete: {
+            contentText: 'حذف',
+        },
+        properties: {
+            contentText: 'خواص....',
+        },
+    },
+    propertyWindow: {
+        underlineProperties: {
+            contentText: "تاکید خواص"
+        },
+        strikeOutProperties: {
+            contentText: "خواص خط زدن"
+        },
+        highlightProperties: {
+            contentText: "خواص برجسته"
+        },
+        appearance: {
+            contentText: "ظاهر"
+        },
+        general: {
+            contentText: "عمومی"
+        },
+        color: {
+            contentText: "رنگ:"
+        },
+        opacity: {
+            contentText: "تاری:"
+        },
+        author: {
+            contentText: "نویسنده:"
+        },
+        subject: {
+            contentText: "موضوع:"
+        },
+        modified: {
+            contentText: "اصلاح شده:"
+        },
+        ok: {
+            contentText: "خوب"
+        },
+        cancel: {
+            contentText: "لغو کردن"
+        },
+        locked: {
+            contentText: "قفل شده"
+        }
     },
 };
 if (ej.PercentageTextbox) ej.PercentageTextbox.Locale["fa-IR"] = {
@@ -740,6 +856,11 @@ if (ej.PivotGrid) ej.PivotGrid.Locale["fa-IR"] = {
     IsGreaterThanOrEqualTo: "بزرگتر یا مساوی با",
     IsLessThan: "کمتر است.",
     IsLessThanOrEqualTo: "کمتر یا مساوی با",
+    ClearSorting: "پاک کردن مرتب سازی",
+    ClearFilterFrom: "پاک کردن از فیلتر",
+    SortAtoZ: "يك نوع Z",
+    SortZtoA: "به يك نوع Z",
+    and: "و",
 
     NumberFormatting: "تعداد فرمت کردن",
     FrozenHeaders: "Headers یخ زده",
@@ -910,7 +1031,12 @@ if (ej.PivotGrid) ej.PivotGrid.Locale["fa-IR"] = {
     CalcValue: "محاسبه میدان را می توان فقط در ناحیه مقدار وارد عرصه",
     MultipleItems: "اقلام چندگانه",
     All: "همه",
-    Search: "جستجو"
+    Search: "جستجو",
+    ColumnResize: "Resize ستون فرمان",
+    Layouts:"جابه جايي ها ي روزمره",
+    NormalLayout: "آرایش طبیعی است",
+    NormalTopSummary: "خلاصه بالای صفحه آرایی عادی است",
+    NoSummaries:"نه طرح خلاصه"
 };
 if (ej.PivotPager) ej.PivotPager.Locale["fa-IR"] = {
     SeriesPage: "سری صفحه",
@@ -929,6 +1055,11 @@ if (ej.PivotSchemaDesigner) ej.PivotSchemaDesigner.Locale["fa-IR"] = {
     IsGreaterThanOrEqualTo: "بزرگتر یا مساوی با",
     IsLessThan: "کمتر است.",
     IsLessThanOrEqualTo: "کمتر یا مساوی با",
+    ClearSorting: "پاک کردن مرتب سازی",
+    ClearFilterFrom: "پاک کردن از فیلتر",
+    SortAtoZ: "يك نوع Z",
+    SortZtoA: "به يك نوع Z",
+    and: "و",
 
     PivotTableFieldList: "فهرست درست جداول محوری",
     ChooseFieldsToAddToReport: "انتخاب زمینه برای اضافه کردن به گزارش:",
@@ -1179,7 +1310,7 @@ if (ej.RTE) ej.RTE.Locale["fa-IR"] = {
 	imageBorder: "مرز تصویر",
 	imageStyle: "سبک",
 	linkText: "متن",
-	linkToolTip: "راهنمای ابزار",
+	linkTooltipLabel: "راهنمای ابزار",
 	html5Support: "این آیکون ابزار تنها در HTML5 فعال مرورگرها پشتیبانی",
 	linkOpenInNewWindow: "باز کردن لینک در پنجره جدید",
 	tableColumns: "No.of ستون",
@@ -1249,7 +1380,7 @@ if (ej.RTE) ej.RTE.Locale["fa-IR"] = {
 	lowerroman: "رومن",
 	upperroman: "روم بالا",
 	none: "هیچ",
-	linktooltip: "کلیدهای Ctrl + کلیک کنید به دنبال لینک",
+	linkTooltip: "کلیدهای Ctrl + کلیک کنید به دنبال لینک",
 	charSpace: "شخصیت (با فاصله)",
 	charNoSpace: "نویسهها (بدون فاصله)",
 	wordCount: "تعداد کلمه",
@@ -1269,6 +1400,10 @@ if (ej.RTE) ej.RTE.Locale["fa-IR"] = {
 	Replace: "جایگزین کردن",
 	ReplaceAll: "به جای همه",
 	FindErrorMsg: "می تواند کلمه مشخص شده یافت نشد.",
+	customFontColor:"بیشتر رنگ...",
+	customBGColor:"بیشتر رنگ...",
+	TransBGColor:"شفاف"
+    
 };
 if (ej.Schedule) ej.Schedule.Locale["fa-IR"] = {
     ReminderWindowTitle: "پنجره یادآوری",
@@ -1369,6 +1504,10 @@ if (ej.Schedule) ej.Schedule.Locale["fa-IR"] = {
     DeleteConfirmation: "آیا شما مطمئن هستید که میخواهید حذف این انتصاب؟",
     Time: "زمان",
     EmptyResultText: "هیچ پیشنهادی",
+    BlockIntervalAlertTitle: "هوشیار",
+    BlockIntervalError: "بازه زمانی انتخاب شده مسدود شده است و برای انتخاب در دسترس نیست.",
+    RecurrenceDateValidation: "چند ماه کمتر از تاریخ انتخاب شده است. برای این ماه، وقوع خواهد در آخرین روز از ماه قرار می گیرند.",
+    SeriesChangeAlert: "تغییرات ایجاد شده به موارد خاص از این سری لغو خواهد شد و آن قرار ملاقات خواهد سری دوباره مطابقت."
 };
 if (ej.Spreadsheet) ej.Spreadsheet.Locale["fa-IR"] = {
     Cut: "برش",
@@ -1395,20 +1534,25 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["fa-IR"] = {
     SortNewesttoOldest: "مرتب سازی بر جدیدتر به قدیمی تر",
     Insert: "درج",
     InsertTitle: "درج سلولها",
-    InsertContent: "اضافه کردن سلول های جدید، ردیف، ستون و یا به کارنامه خود را <br /> <br /> او FYI:. برای وارد کردن چند ردیف یا چند ستون در یک زمان، چند ردیف یا چند ستون را انتخاب کنید در ورق، و قرار دادن کلیک کنید.",
+    InsertContent: "اضافه کردن سلول های جدید، ردیف، ستون و یا به کارنامه خود را ", 
+    MultipleInsertContent:" او FYI:. برای وارد کردن چند ردیف یا چند ستون در یک زمان، چند ردیف یا چند ستون را انتخاب کنید در ورق، و قرار دادن کلیک کنید.",
     InsertSBContent: "اضافه کردن سلول ها، ردیف، ستون یا ورق به کارنامه خود را.",
     Delete: "حذف کردن",
     DeleteTitle: "حذف سلول",
-    DeleteContent: "حذف سلول ها، ردیف، ستون یا ورق از کارنامه خود را <br /> <br /> او FYI: برای حذف ردیف های متعدد و یا ستون در یک زمان، چند ردیف یا چند ستون را انتخاب کنید در ورق، کلیک کنید و حذف کنید.",
+    DeleteContent: "حذف سلول ها، ردیف، ستون یا ورق از کارنامه خود را ", 
+    MultipleDeleteContent: " او FYI: برای حذف ردیف های متعدد و یا ستون در یک زمان، چند ردیف یا چند ستون را انتخاب کنید در ورق، کلیک کنید و حذف کنید.",
     FindSelectTitle: "پیدا کردن و انتخاب کنید",
     FindSelectContent: "برای دیدن گزینه برای پیدا کردن متن در سند خود را کلیک کنید.",
     CalculationOptions: "گزینه های محاسبه",
     CalcOptTitle: "گزینه های محاسبه",
-    CalcOptContent: "انتخاب برای محاسبه فرمول به طور خودکار و یا دستی. <br/> <br/> اگر شما یک تغییر که یک مقدار را تحت تاثیر قرار، صفحه گسترده به طور خودکار آن دوباره حساب.",
+    CalcOptContent: "انتخاب برای محاسبه فرمول به طور خودکار و یا دستی. ", 
+    CalcOptRecalcContent: " اگر شما یک تغییر که یک مقدار را تحت تاثیر قرار، صفحه گسترده به طور خودکار آن دوباره حساب.",
     CalculateSheet: "محاسبه ورق",
     CalculateNow: "محاسبه حالا",
-    CalculateNowContent: "محاسبه کل کتاب در حال حاضر کنید. <br/> <br/> شما فقط نیاز به استفاده از این اگر محاسبه خودکار خاموش است.",
-    CalculateSheetContent: "محاسبه برگه فعال کن کنید. <br/> <br/> شما فقط نیاز به استفاده از این اگر محاسبه خودکار خاموش است.",
+    CalculateNowContent: "محاسبه کل کتاب در حال حاضر کنید. ", 
+    CalculateNowTurnOffContent: " شما فقط نیاز به استفاده از این اگر محاسبه خودکار خاموش است.",
+    CalculateSheetContent: "محاسبه برگه فعال کن کنید. ",
+    CalculateSheetTurnOffContent: " شما فقط نیاز به استفاده از این اگر محاسبه خودکار خاموش است.",
     Title: "صفحه گسترده",
     Ok: "خوب",
     Cancel: "لغو کردن",
@@ -1576,7 +1720,8 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["fa-IR"] = {
     TableStyleOptions: "ستون اول / آخرین ستون / ردیف ها / دکمه فیلتر",
     Format: "قالب",
     NameManager: "نام مدیر",
-    NameManagerContent: "ایجاد، ویرایش، حذف و پیدا کردن تمام نام های مورد استفاده در کارنامه است. <br /> <br /> نام را می توان در فرمول به عنوان جایگزین برای منابع سلول استفاده می شود.",
+    NameManagerContent: "ایجاد، ویرایش، حذف و پیدا کردن تمام نام های مورد استفاده در کارنامه است. ",
+    NameManagerFormulaContent: " نام را می توان در فرمول به عنوان جایگزین برای منابع سلول استفاده می شود.",
     DefinedNames: "نام تعریف شده",
     DefineName: "تعریف نام",
     DefineNameContent: "تعریف و اعمال نام.",
@@ -1707,7 +1852,10 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["fa-IR"] = {
     HideSheet: "پنهان شدن",
     UnhideSheet: "آشکار کردن",
     SheetRenameAlert: "که نام قبلا گرفته شده است. سعی کنید یک متفاوت است.",
-    SheetRenameEmptyAlert: "شما یک نام نامعتبر برای ورق تایپ. مطمئن شوید که از: <ul> <li> به نام که شما تایپ می کند 31 حرف تجاوز نمی کنید </ li> <li> در نام را شامل نمی شود هر یک از شخصیت های زیر است:. \ /. * [یا] </ li> در <li> شما هم نام خالی را ترک کند. </ LI> </ ul> از",
+    SheetRenameEmptyAlert: "شما یک نام نامعتبر برای ورق تایپ. مطمئن شوید که از: ", 
+    SheetRenameEmptyCharExceedAlert: " به نام که شما تایپ می کند 31 حرف تجاوز نمی کنید ", 
+    SheetRenameEmptySplCharAlert: " در نام را شامل نمی شود هر یک از شخصیت های زیر است:. \ /. * [یا] ", 
+    SheetRenameEmptyBlankAlert: " شما هم نام خالی را ترک کند.از",
     SheetDeleteAlert: "شما نمی توانید خنثیسازی حذف ورق، و شما ممکن است از بین بردن برخی از داده ها. اگر شما اصلا نیاز آن، روی OK کلیک کنید را حذف کنید.",
     SheetDeleteErrorAlert: "کارنامه باید حداقل یک کاربرگ قابل مشاهده باشد. برای پنهان کردن، حذف، و یا حرکت برگه انتخاب، شما باید اول وارد کردن یک برگه جدید و یا رویت یک ورق است که در حال حاضر پنهان شده است.",
     CtrlKeyErrorAlert: "که فرمان می توانید در انتخاب چندگانه استفاده شود.",
@@ -1896,13 +2044,15 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["fa-IR"] = {
     RedoContent: "انجام مجدد آخرین عمل خود را.",
     TableTitle: "جدول دهید (Ctrl + T)",
     HyperLinkTitle: "اضافه کردن یک لینک انجام دهید (Ctrl + K)",
-    HyperLinkContent: "ایجاد یک لینک در سند خود را برای دسترسی سریع به صفحات وب و فایل های. <br /> <br /> او لینک همچنین می توانید شما را به مکان در سند خود را.",
+    HyperLinkContent: "ایجاد یک لینک در سند خود را برای دسترسی سریع به صفحات وب و فایل های. ", 
+    HyperLinkPlaceContent: " او لینک همچنین می توانید شما را به مکان در سند خود را.",
     NewCommentTitle: "درج یک نظر",
     NewCommentContent: "اضافه کردن یک یادداشت در مورد این بخش از سند است.",
     RefreshTitle: "تازه کردن",
     RefreshContent: "دریافت آخرین اطلاعات از منبع متصل به سلول فعال",
     FieldListTitle: "فهرست درست",
-    FieldListContent: "نمایش یا عدم نمایش فهرست درست است. <br /> <br /> در لیست فیلد اجازه می دهد تا شما را به اضافه کردن و حذف زمینه از جدول محوری گزارش خود را",
+    FieldListContent: "نمایش یا عدم نمایش فهرست درست است. ",
+    FieldListRemoveContent: " در لیست فیلد اجازه می دهد تا شما را به اضافه کردن و حذف زمینه از جدول محوری گزارش خود را",
     AddChartElement: "اضافه کردن نمودار عنصر",
     AddChartElementContent: "اضافه کردن عناصر به جدول ایجاد شده است.",
     SwitchRowColumn: "سوئیچ سطر / ستون",
@@ -2030,6 +2180,36 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["fa-IR"] = {
     CellTypeAlert: "این عملیات در نوع سلول محدوده اعمال می شود مجاز نیست.",
     PivotOverlapAlert: "گزارش Pivot Table و می تواند یکی دیگر گزارش جدول محوری با هم همپوشانی دارند",
     NoCellFound: "هیچ سلول یافت شد",
+    ColorPicker: "انتخاب کننده رنگ",
+    IncreaseIndent: "افزایش تورفتگی",
+    IncreaseIndentContent: "انتقال محتوای خود را دورتر از مرز سلول است.",
+    DecreaseIndent: "کاهش تورفتگی",
+    DecreaseIndentContent: "انتقال محتوای خود را به مرز سلول نزدیک تر است.",
+    ExportPdf: "PDF",
+    ClipboardAccessError: "مرورگر خود را نمی تونم کلیپ بورد دسترسی داشته باشید، بنابراین استفاده از این کلید های میانبر:",
+    ClipboardAccessCutError: "کات = کلیدهای Ctrl + X",
+    ClipboardAccessCopyError: "کپی کلیدهای Ctrl + C =",
+    ClipboardAccessPasteError: "رب ها و سس = کلیدهای Ctrl + V",
+    CorrectArgument: "لطفا استدلال صحیح را وارد کنید",
+    CorrectFormula: "لطفا فرمول صحیح را وارد کنید",
+    CorrectCellAddress: "لطفا آدرس سلول صحیح را وارد کنید",
+    ChartType: "نمودار نوع",
+    NumberValidationAlert: "حداکثر باید بزرگتر یا مساوی به حداقل باشد",
+    DateValidationAlert: "تاریخ پایان باید بزرگتر یا مساوی به تاریخ شروع تاریخ شود",
+    TimeValidationAlert: "زمان پایان باید بزرگتر یا مساوی به زمان شروع می شود",
+    NewRuleAlert: "انگار یک مشکل با این فرمول",
+    DragAlert: "دستور نمی تواند تکمیل شود که شما در حال تلاش برای حرکت سلول در محدوده فیلتر. طیف خارج از محدوده فیلتر را انتخاب کنید و فرمان را دوباره امتحان کنید.",
+    OR: "یا",
+    HOME: "صفحه اصلی",
+    INSERT: "INSERT",
+    DATATAB: "داده ها",
+    PAGELAYOUT: "طرح بندی صفحه",
+    REVIEW: "مرور",
+    OTHERS: "دیگران",
+    FORMAT: "قالب",
+    DESIGN: "طرح",
+    CHARTDESIGN: "طراحی نمودار",
+    ANALYZE: "تجزیه و تحلیل"
 };
 if (ej.TreeGrid) ej.TreeGrid.Locale["fa-IR"] = {
     toolboxTooltipTexts: {
@@ -2105,7 +2285,29 @@ if (ej.TreeGrid) ej.TreeGrid.Locale["fa-IR"] = {
         dropdownTableValue: "ارزش",
         addData: "اضافه کردن",
         deleteData: "برداشتن",
-        allowCellSelection: "اجازه می دهد انتخاب سلول"
+        allowCellSelection: "اجازه می دهد انتخاب سلول",
+        showInColumnChooser: "نمایش در انتخاب ستون",
+        displayAsCheckbox: "صفحه نمایش به عنوان جعبه",
+        clipMode: "حالت کلیپ",
+        tooltip: "راهنمای ابزار",
+        headerTooltip: "سربرگ راهنمای ابزار"
+    },
+    editTypeTexts: {
+        string: "رشته",
+        numeric: "عددی",
+        datePicker: "تاریخ کننده",
+        dateTimePicker: "تاریخ زمان جمع",
+        dropdown: "کرکره",
+        boolean: "بولی"
+    },
+    textAlignTypes: {
+        right: "درست",
+        left: "ترک کرد",
+        center: "مرکز"
+    },
+    clipModeTexts: {
+        clip: "کلیپ",
+        ellipsis: "حذف"
     },
     columnDialogTitle: {
         insertColumn: "درج ستون",

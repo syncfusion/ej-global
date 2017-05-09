@@ -130,7 +130,7 @@ if (ej.ExcelFilter) ej.ExcelFilter.Locale["ja-JP"] = {
     title: "カスタムフィルタ",
     PredicateAnd: "そして",
     PredicateOr: "OR",
-    Ok: "[OK]",
+    OK: "[OK]",
     MatchCase: "マッチケース",
     Cancel: "キャンセル",
     NoResult: "一致が見つかりませんでした",
@@ -256,7 +256,7 @@ if (ej.Gantt) ej.Gantt.Locale["ja-JP"] = {
         baselineStartDate: "ベースライン開始日",
         baselineEndDate: "ベースライン終了日",
         WBS: "WBS",
-        WBSpredecessor: "WBSの前身",
+        WBSPredecessor: "WBSの前身",
         dialogCustomFieldName: "列名",
         dialogCustomFieldValue: "値",
         notes: "ノート",
@@ -272,7 +272,8 @@ if (ej.Gantt) ej.Gantt.Locale["ja-JP"] = {
         deleteButton: "削除",
         cancelButton: "キャンセル",
         addPredecessor: "新しく追加する",
-        removePredecessor: "削除します"
+        removePredecessor: "削除します",
+        addButton: "加えます",
     },
     columnDialogTexts: {
         field: "フィールド",
@@ -291,7 +292,28 @@ if (ej.Gantt) ej.Gantt.Locale["ja-JP"] = {
         dropdownTableValue: "値",
         addData: "加えます",
         deleteData: "削除します",
-        allowCellSelection: "セルの選択を許可します"
+        allowCellSelection: "セルの選択を許可します",
+        displayAsCheckbox: "チェックボックスとして表示",
+        clipMode: "クリップモード",
+        tooltip: "ツールチップ",
+        headerTooltip: "ヘッダーのツールチップ"
+    },
+    editTypeTexts: {
+        string: "文字列",
+        numeric: "数値",
+        datePicker: "日付ピッカー",
+        dateTimePicker: "日付時刻ピッカー",
+        dropdown: "落ちる",
+        boolean: "ブール"
+    },
+    textAlignTypes: {
+        right: "右",
+        left: "左",
+        center: "センター"
+    },
+    clipModeTexts: {
+        clip: "クリップ",
+        ellipsis: "省略記号"
     },
     toolboxTooltipTexts: {
         addTool: "加えます",
@@ -303,11 +325,12 @@ if (ej.Gantt) ej.Gantt.Locale["ja-JP"] = {
         indentTool: "インデント",
         outdentTool: "インデント解除",
         expandAllTool: "すべて展開",
-        collapseAllTool: "すべて折りたたみます",
+        collapseAllTool: "すべてを折りたたむ",        
         nextTimeSpanTool: "次のタイムスパン",
         prevTimeSpanTool: "前のタイムスパン",
         criticalPathTool: "クリティカルパス",
-        excelExportTool: "Excelのエクスポート"
+        excelExportTool: "Excelのエクスポート",
+        pdfExportTool: "PDFエクスポート"
     },
     durationUnitTexts: {
         days: "日々",
@@ -394,12 +417,10 @@ if (ej.Grid) ej.Grid.Locale["ja-JP"] = {
     DeleteOperationAlert: "削除操作のために選択されていませレコードはありません",
     EditOperationAlert: "編集操作のために選択した情報はありませんありません",
     SaveButton: "セーブ",
-    OkButton: "[OK]",
+    OKButton: "[OK]",
     CancelButton: "キャンセル",
     EditFormTitle: "の詳細",
     AddFormTitle: "新しいレコードを追加",
-    Notactionkeyalert: "このキーの組み合わせは使用できません",
-    Keyconfigalerttext: "このキーの組み合わせは、すでに割り当てられています",
     GroupCaptionFormat: "{{:headerText}}: {{:key}} - {{:count}} {{if count == 1 }} 項目 {{else}} アイテム {{/if}} ",
     BatchSaveConfirm: "変更を保存してもよろしいですか？",
     BatchSaveLostChanges: "未保存の変更は失われます。あなたが継続してもよろしいですか？",
@@ -558,6 +579,10 @@ if (ej.PivotClient) ej.PivotClient.Locale["ja-JP"] = {
     IsGreaterThanOrEqualTo: "が以上に",
     IsLessThan: "より少なくなります。",
     IsLessThanOrEqualTo: "は、またはの値以下である",
+    ClearSorting: "ソートを消去する",
+    ClearFilterFrom: "フィルタから削除します。",
+    SortAtoZ: "は、 A ～ Z の並べ替え",
+    SortZtoA: "Z ソートに",
 
     DeferUpdate: "延期の更新",
     MDXQuery: "MDXクエリ",
@@ -675,7 +700,19 @@ if (ej.PivotClient) ej.PivotClient.Locale["ja-JP"] = {
     SetReportNameAlertMsg: "セットのレポート名を入力してください。",
     Search: "検索",
     MultipleItems: "複数のアイテム",
-    All: "すべての"
+    All: "すべての",
+    NoReports: "DB でのレポートは見つかりませんでした。",
+    CalculatedMember: "計算されたメンバ",
+    Caption: "キャプション:",
+    Expression: "式:",
+    MemberType: "メンバータイプ:",
+    FormatString: "形式文字列:",
+    MultipleMeasure: "1 つ以上の測定はできませんがスライスされています。",
+    DuplicateCalcMeasure: "同じ名前の計算されたメンバが既に存在している。",
+    EmptyField: "計算されたメンバー名または式は空にできません。",
+    EmptyFormat: "計算されたメンバの形式の文字列が空になっています。",
+    Warning: "警告",
+    Confirm: "計算されたメンバが同じ名前ですでに存在しています。 を交換するためにしますか？"
 };
 if (ej.PivotGauge) ej.PivotGauge.Locale["ja-JP"] = {
     RevenueGoal: "収益目標",
@@ -744,6 +781,85 @@ if (ej.PdfViewer) ej.PdfViewer.Locale["ja-JP"] = {
             headerText: 'ダウンロード',
             contentText: 'PDFドキュメントをダウンロードする.'
         },
+        highlight: {
+            headerText: 'ハイライトテキスト',
+            contentText: 'PDFページのテキストを強調表示します。',
+        },
+        strikeout: {
+            headerText: 'テキストを打ち消す',
+            contentText: 'PDFページ内のテキストを取り除く。',
+        },
+        underline: {
+            headerText: '下線テキスト',
+            contentText: 'PDFページのテキストに下線を引く',
+        },
+    },
+    contextMenu: {
+        copy: {
+            contentText: 'コピー',
+        },
+        googleSearch: {
+            contentText: 'Google検索',
+        },
+        Find: {
+            contentText: '検索:',
+        },
+        matchCase: {
+            contentText: 'マッチケース',
+        },
+        auto: {
+            contentText: 'オート',
+        },
+        openPopup: {
+            contentText: 'OpenPopup',
+        },
+        Delete: {
+            contentText: '削除',
+        },
+        properties: {
+            contentText: 'プロパティ....',
+        },
+    },
+    propertyWindow: {
+        underlineProperties: {
+            contentText: "underlineProperties"
+        },
+        strikeOutProperties: {
+            contentText: "StrikeOutProperties"
+        },
+        highlightProperties: {
+            contentText: "HighlightProperties"
+        },
+        appearance: {
+            contentText: "外観"
+        },
+        general: {
+            contentText: "一般"
+        },
+        color: {
+            contentText: "色:"
+        },
+        opacity: {
+            contentText: "不透明度:"
+        },
+        author: {
+            contentText: "著者:"
+        },
+        subject: {
+            contentText: "主題:"
+        },
+        modified: {
+            contentText: "変更された:"
+        },
+        ok: {
+            contentText: "ok"
+        },
+        cancel: {
+            contentText: "キャンセル"
+        },
+        locked: {
+            contentText: "ロックされた"
+        }
     },
 };
 if (ej.PercentageTextbox) ej.PercentageTextbox.Locale["ja-JP"] = {
@@ -760,6 +876,11 @@ if (ej.PivotGrid) ej.PivotGrid.Locale["ja-JP"] = {
     IsGreaterThanOrEqualTo: "が以上に",
     IsLessThan: "より少なくなります。",
     IsLessThanOrEqualTo: "は、またはの値以下である",
+    ClearSorting: "ソートを消去する",
+    ClearFilterFrom: "フィルタから削除します。",
+    SortAtoZ: "は、 A ～ Z の並べ替え",
+    SortZtoA: "Z ソートに",
+    and: "および",
 
     NumberFormatting: "番号の書式設定",
     FrozenHeaders: "冷凍のヘッダー",
@@ -930,7 +1051,12 @@ if (ej.PivotGrid) ej.PivotGrid.Locale["ja-JP"] = {
     CalcValue: "計算されたフィールドの値の領域のフィールドだけを挿入することができます",
     MultipleItems: "複数のアイテム",
     All: "すべての",
-    Search: "検索"
+    Search: "検索",
+    ColumnResize: "列のサイズを変更する",
+    Layouts: "レイアウト",
+    NormalLayout: "通常のレイアウト",
+    NormalTopSummary: "通常の最上位のレイアウトの概要",
+    NoSummaries: "サマリーのレイアウトがありません"
 };
 if (ej.PivotPager) ej.PivotPager.Locale["ja-JP"] = {
     SeriesPage: "シリーズページ",
@@ -949,6 +1075,11 @@ if (ej.PivotSchemaDesigner) ej.PivotSchemaDesigner.Locale["ja-JP"] = {
     IsGreaterThanOrEqualTo: "が以上に",
     IsLessThan: "より少なくなります。",
     IsLessThanOrEqualTo: "は、またはの値以下である",
+    ClearSorting: "ソートを消去する",
+    ClearFilterFrom: "フィルタから削除します。",
+    SortAtoZ: "は、 A ～ Z の並べ替え",
+    SortZtoA: "Z ソートに",
+    and: "および",
 
     PivotTableFieldList: "ピボットテーブルのフィールドリスト",
     ChooseFieldsToAddToReport: "レポートに追加するフィールドを選択します。",
@@ -1198,7 +1329,7 @@ if (ej.RTE) ej.RTE.Locale["ja-JP"] = {
 	imageBorder: "画像境界",
 	imageStyle: "スタイル",
 	linkText: "テキスト",
-	linkToolTip: "ツールチップ",
+	linkTooltipLabel: "ツールチップ",
 	html5Support: "HTML5のみで有効にこのツールのアイコンは、ブラウザをサポート",
 	linkOpenInNewWindow: "新しいウィンドウでリンクを開きます",
 	tableColumns: "列は、No.of",
@@ -1268,7 +1399,7 @@ if (ej.RTE) ej.RTE.Locale["ja-JP"] = {
 	lowerroman: "下のローマ",
 	upperroman: "アッパーローマ",
 	none: "なし",
-	linktooltip: "Ctrlキーを押しながらリンクをたどるためにクリック",
+	linkTooltip: "Ctrlキーを押しながらリンクをたどるためにクリック",
 	charSpace: "（スペースを含む）文字",
 	charNoSpace: "文字（スペースなしません）",
 	wordCount: "ワードカウント",
@@ -1288,6 +1419,9 @@ if (ej.RTE) ej.RTE.Locale["ja-JP"] = {
 	Replace: "置き換える",
 	ReplaceAll: "すべて置換",
 	FindErrorMsg: "指定された単語を見つけることができませんでした。",
+	customFontColor:"より多くの色...",
+	customBGColor:"より多くの色...",
+	TransBGColor:"トランスペアレント"
 };
 if (ej.Schedule) ej.Schedule.Locale["ja-JP"] = {
     ReminderWindowTitle: "リマインダーウィンドウ",
@@ -1388,6 +1522,10 @@ if (ej.Schedule) ej.Schedule.Locale["ja-JP"] = {
     DeleteConfirmation: "あなたはこの予定を削除してもよろしいですか？",
     Time: "時間",
     EmptyResultText: "提案なし",
+    BlockIntervalAlertTitle: "アラート",
+    BlockIntervalError: "選択した時間間隔がブロックされ、選択できません。",
+    RecurrenceDateValidation: "いくつかの月は選択された日付よりも少ない。 これらの月は、その月の最終日に発生します。",
+    SeriesChangeAlert: "このシリーズの特定のインスタンスに加えられた変更はキャンセルされ、それらのアポイントはシリーズに再度一致します。"
 };
 if (ej.Spreadsheet) ej.Spreadsheet.Locale["ja-JP"] = {
     Cut: "カット",
@@ -1414,20 +1552,25 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["ja-JP"] = {
     SortNewesttoOldest: "並び替え新しい順に",
     Insert: "インサート",
     InsertTitle: "セルの挿入",
-    InsertContent: "。ブックに新しいセル、行、または列を追加FYI/><brを<br：、一度に複数の行または列を挿入するシートに複数の行または列を選択するには、[挿入]をクリックします。",
+    InsertContent: "新しいセル、行、または列をブックに追加します。",
+    MultipleInsertContent: "参考：複数の行または列を一度に挿入するには、シート内の複数の行または列を選択し、「挿入」をクリックします。",
     InsertSBContent: "ワークブックにセル、行、列、またはシートを追加します。",
     Delete: "削除",
     DeleteTitle: "セルを削除します",
-    DeleteContent: "。あなたのワークブックからのセル、行、列、またはシートを削除FYI/><brを<br：、一度に複数の行または列を削除するシートに複数の行または列を選択し、[削除]をクリックします。",
+    DeleteContent: "ワークブックからセル、行、列、またはシートを削除します。",
+    MultipleDeleteContent: "参考：複数の行または列を一度に削除するには、シート内の複数の行または列を選択し、「削除」をクリックします。",
     FindSelectTitle: "検索＆選択",
     FindSelectContent: "文書内のテキストを検索するためのオプションを見るにはクリックしてください。",
     CalculationOptions: "計算オプション",
     CalcOptTitle: "計算オプション",
-    CalcOptContent: "自動または手動で数式を計算する場合に選択します。<BR/>はあなたが値に影響を与える変更を行う場合は、スプレッドシートが自動的に再計算します。",
+    CalcOptContent: "計算式を自動的または手動で計算するかを選択します。",
+    CalcOptRecalcContent: "値に影響を与える変更を行うと、スプレッドシートは自動的にその値を再計算します。",
     CalculateSheet: "シートを計算します",
     CalculateNow: "今すぐ計算します",
-    CalculateNowContent: "今ブック全体を計算します。<BR/>はあなたが唯一の自動計算がオフになっている場合は、これを使用する必要があります。",
-    CalculateSheetContent: "今アクティブなシートを計算します。<BR/>はあなたが唯一の自動計算がオフになっている場合は、これを使用する必要があります。",
+    CalculateNowContent: "今すぐブック全体を計算してください。",
+    CalculateNowTurnOffContent: "自動計算がオフになっている場合は、これを使用する必要があります。",
+    CalculateSheetContent: "今すぐアクティブシートを計算します。",
+    CalculateSheetTurnOffContent: "自動計算がオフになっている場合は、これを使用する必要があります。",
     Title: "スプレッドシート",
     Ok: "[OK]",
     Cancel: "キャンセル",
@@ -1595,7 +1738,8 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["ja-JP"] = {
     TableStyleOptions: "最初の列/最後の列/合計行/フィルターボタン",
     Format: "フォーマット",
     NameManager: "[名前の管理",
-    NameManagerContent: "作成、編集、削除、およびワークブックで使用されるすべての名前を見つける。/>名前はセル参照の代用として、式で使用することができ/><br<br。",
+    NameManagerContent: "ワークブックで使用されているすべての名前を作成、編集、削除、検索します。",
+    NameManagerFormulaContent: "名前はセル参照の代用として式で使用できます。",
     DefinedNames: "定義名",
     DefineName: "名前の定義",
     DefineNameContent: "定義し、名前を適用します。",
@@ -1726,7 +1870,10 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["ja-JP"] = {
     HideSheet: "隠す",
     UnhideSheet: "再表示",
     SheetRenameAlert: "その名前が既に使用されています。別のものを試してみてください。",
-    SheetRenameEmptyAlert: "あなたはシートに無効な名前を入力しました。ていることを確認します。<ul> <li>31文字を超えることはできませんが、入力した名前</ LI><LI>は名前が次のいずれかの文字が含まれていません：。\/を？ * [または]</ LI> <LI>あなたが名前を空白のままにしませんでしたします。</ li> </ ulの>",
+    SheetRenameEmptyAlert: "シートの無効な名前を入力しました。 以下を確認してください：",
+    SheetRenameEmptyCharExceedAlert: "入力する名前は31文字を超えません。",
+    SheetRenameEmptySplCharAlert: "名前には、次の文字は含まれません。",
+    SheetRenameEmptyBlankAlert: "あなたは名前を空白のままにしませんでした。",
     SheetDeleteAlert: "あなたはシートを削除する元に戻すことはできません、あなたはいくつかのデータを削除することがあります。あなたがそれを必要といけない場合は、削除するには、[OK]をクリックします。",
     SheetDeleteErrorAlert: "ワークブックには、少なくとも1の可視ワークシートが含まれている必要があります。 、非表示、削除、または選択したシートを移動するには、まず新しいシートを挿入するか、すでに隠されているシートを再表示しなければなりません。",
     CtrlKeyErrorAlert: "そのコマンドは複数選択で使用することはできません。",
@@ -1915,13 +2062,15 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["ja-JP"] = {
     RedoContent: "最後の操作をやり直します。",
     TableTitle: "表（Ctrlキー+ T）",
     HyperLinkTitle: "ハイパーリンクを追加します（Ctrl+ K）",
-    HyperLinkContent: "Webページやファイルにすばやくアクセスするため、ドキュメント内のリンクを作成します。 /><br/><brハイパーリンクはまた、ドキュメント内の場所に行くことができます。",
+    HyperLinkContent: "Webページやファイルにすばやくアクセスできるように、ドキュメントにリンクを作成します。",
+    HyperLinkPlaceContent: "ハイパーリンクを使用すると、ドキュメント内の場所に移動することもできます。",
     NewCommentTitle: "コメントを挿入",
     NewCommentContent: "ドキュメントのこの部分についてのメモを追加します。",
     RefreshTitle: "リフレッシュ",
     RefreshContent: "アクティブセルに接続されたソースから最新のデータを取得します",
     FieldListTitle: "フィールドリスト",
-    FieldListContent: "表示またはフィールドリストを非表示にします。 <br/>フィールドリスト/><brは、あなたが追加して、ピボットテーブルレポートからフィールドを削除することができます",
+    FieldListContent: "フィールドリストの表示/非表示を切り替えます。",
+    FieldListRemoveContent: "フィールドリストを使用すると、ピボットテーブルレポートにフィールドを追加したり削除したりすることができます",
     AddChartElement: "チャート要素を追加します。",
     AddChartElementContent: "作成したグラフに要素を追加します。",
     SwitchRowColumn: "スイッチの行/列",
@@ -2049,6 +2198,36 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["ja-JP"] = {
     CellTypeAlert: "この操作は、細胞型適用範囲内で許可されていません。",
     PivotOverlapAlert: "別のピボットテーブルレポートをオーバーラップすることはできませんピボットテーブルレポート",
     NoCellFound: "無細胞が見つかりませんでした",
+    ColorPicker: "カラーピッカー",
+    IncreaseIndent: "インデントを増やす",
+    IncreaseIndentContent: "セルの境界線からコンテンツを遠くに移動します。",
+    DecreaseIndent: "インデントを減らす",
+    DecreaseIndentContent: "コンテンツをセル境界に近づけます。",
+    ExportPdf: "PDF",
+    ClipboardAccessError: "あなたのブラウザはクリップボードにアクセスできませんので、以下のショートカットを使用してください：",
+    ClipboardAccessCutError: "カット= Ctrl + X",
+    ClipboardAccessCopyError: "コピー= Ctrl + C",
+    ClipboardAccessPasteError: "貼り付け= Ctrl + V",
+    CorrectArgument: "正しい引数を入力してください",
+    CorrectFormula: "正しい数式を入力してください",
+    CorrectCellAddress: "正しいセルアドレスを入力してください",
+    ChartType: "グラフの種類",
+    NumberValidationAlert: "最大値は最小値以上でなければなりません",
+    DateValidationAlert: "終了日は開始日以上でなければなりません",
+    TimeValidationAlert: "終了時間は開始時間以上でなければなりません",
+    NewRuleAlert: "この式に問題があります",
+    DragAlert: "フィルタ範囲内でセルを移動しようとすると、コマンドを完了できませんでした。 フィルター範囲外の範囲を選択し、コマンドを再試行してください。",
+    OR: "または",
+    HOME: "ホーム",
+    INSERT: "インサート",
+    DATATAB: "データ",
+    PAGELAYOUT: "ページレイアウト",
+    REVIEW: "レビュー",
+    OTHERS: "その他",
+    FORMAT: "フォーマット",
+    DESIGN: "設計",
+    CHARTDESIGN: "チャートデザイン",
+    ANALYZE: "分析する"
 };
 if (ej.TreeGrid) ej.TreeGrid.Locale["ja-JP"] = {
     toolboxTooltipTexts: {
@@ -2058,7 +2237,7 @@ if (ej.TreeGrid) ej.TreeGrid.Locale["ja-JP"] = {
         deleteTool: "削除",
         cancelTool: "キャンセル",
         expandAllTool: "すべて展開",
-        collapseAllTool: "すべて折りたたみます",
+        collapseAllTool: "すべてを折りたたむ",       
         pdfExportTool: "PDFエクスポート",
         excelExportTool: "Excelのエクスポート"
     },
@@ -2124,7 +2303,29 @@ if (ej.TreeGrid) ej.TreeGrid.Locale["ja-JP"] = {
         dropdownTableValue: "値",
         addData: "加えます",
         deleteData: "削除します",
-        allowCellSelection: "セルの選択を許可します"
+        allowCellSelection: "セルの選択を許可します",
+        showInColumnChooser: "列セレクタで表示",
+        displayAsCheckbox: "チェックボックスとして表示",
+        clipMode: "クリップモード",
+        tooltip: "ツールチップ",
+        headerTooltip: "ヘッダーのツールチップ"
+    },
+    editTypeTexts: {
+        string: "文字列",
+        numeric: "数値",
+        datePicker: "日付ピッカー",
+        dateTimePicker: "日付時刻ピッカー",
+        dropdown: "落ちる",
+        boolean: "ブール"
+    },
+    textAlignTypes: {
+        right: "右",
+        left: "左",
+        center: "センター"
+    },
+    clipModeTexts: {
+        clip: "クリップ",
+        ellipsis: "省略記号"
     },
     columnDialogTitle: {
         insertColumn: "列の挿入",

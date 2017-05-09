@@ -130,7 +130,7 @@ if (ej.ExcelFilter) ej.ExcelFilter.Locale["nl-NL"] = {
     title: "Aangepast filter",
     PredicateAnd: "EN",
     PredicateOr: "OF",
-    Ok: "OK",
+    OK: "OK",
     MatchCase: "match Case",
     Cancel: "Annuleer",
     NoResult: "Geen overeenkomsten gevonden",
@@ -256,7 +256,7 @@ if (ej.Gantt) ej.Gantt.Locale["nl-NL"] = {
         baselineStartDate: "Baseline Startdatum",
         baselineEndDate: "Baseline Einddatum",
         WBS: "WBS",
-        WBSpredecessor: "WBS voorganger",
+        WBSPredecessor: "WBS voorganger",
         dialogCustomFieldName: "Kolomnaam",
         dialogCustomFieldValue: "Waarde",
         notes: "Notes",
@@ -272,7 +272,8 @@ if (ej.Gantt) ej.Gantt.Locale["nl-NL"] = {
         deleteButton: "Verwijder",
         cancelButton: "Annuleer",
         addPredecessor: "Nieuwe toevoegen",
-        removePredecessor: "Verwijderen"
+        removePredecessor: "Verwijderen",
+        addButton: "Toevoegen"
     },
     columnDialogTexts: {
         field: "Veld",
@@ -291,7 +292,28 @@ if (ej.Gantt) ej.Gantt.Locale["nl-NL"] = {
         dropdownTableValue: "Waarde",
         addData: "Toevoegen",
         deleteData: "Verwijderen",
-        allowCellSelection: "Laat Cell Selection"
+        allowCellSelection: "Laat Cell Selection",
+        displayAsCheckbox: "Weergeven als Checkbox",
+        clipMode: "clip Mode",
+        tooltip: "tooltip",
+        headerTooltip: "header Tooltip"
+    },
+    editTypeTexts: {
+        string: "Draad",
+        numeric: "numerieke",
+        datePicker: "Datumkiezer",
+        dateTimePicker: "Datum Tijd Picker",
+        dropdown: "Laten vallen",
+        boolean: "Boolean"
+    },
+    textAlignTypes: {
+        right: "Rechts",
+        left: "Links",
+        center: "Centrum"
+    },
+    clipModeTexts: {
+        clip: "Klem",
+        ellipsis: "ellipsis"
     },
     toolboxTooltipTexts: {
         addTool: "Toevoegen",
@@ -307,7 +329,8 @@ if (ej.Gantt) ej.Gantt.Locale["nl-NL"] = {
         nextTimeSpanTool: "Volgende Tijdsduur",
         prevTimeSpanTool: "vorige Tijdsduur",
         criticalPathTool: "kritieke pad",
-        excelExportTool: "Excel exporteren"
+        excelExportTool: "Excel exporteren",
+        pdfExportTool: "PDF exporteren"
     },
     durationUnitTexts: {
         days: "dagen",
@@ -394,12 +417,10 @@ if (ej.Grid) ej.Grid.Locale["nl-NL"] = {
     DeleteOperationAlert: "Geen records geselecteerd om te verwijderen operatie",
     EditOperationAlert: "Geen records geselecteerd voor bewerken operatie",
     SaveButton: "Save",
-    OkButton: "OK",
+    OKButton: "OK",
     CancelButton: "Annuleer",
     EditFormTitle: "Details van",
     AddFormTitle: "Nieuw record toevoegen",
-    Notactionkeyalert: "Dit Key-combinatie is niet beschikbaar",
-    Keyconfigalerttext: "Dit Key-Combinatie is al toegewezen aan",
     GroupCaptionFormat: "{{:headerText}}: {{:key}} - {{:count}} {{if count == 1 }} item {{else}} items {{/if}} ",
     BatchSaveConfirm: "Bent u zeker dat u de wijzigingen opslaan?",
     BatchSaveLostChanges: "Opgeslagen wijzigingen gaan verloren. Weet je zeker dat je door wilt gaan?",
@@ -558,6 +579,10 @@ if (ej.PivotClient) ej.PivotClient.Locale["nl-NL"] = {
     IsGreaterThanOrEqualTo: "Is groter dan of gelijk aan",
     IsLessThan: "Is minder dan",
     IsLessThanOrEqualTo: "Is kleiner dan of gelijk aan",
+    ClearSorting: "Wis sorteren",
+    ClearFilterFrom: "Clear Filter uit",
+    SortAtoZ: "Sorteren A tot Z",
+    SortZtoA: "Sorteer Z tot A",
 
     DeferUpdate: "uitstellen update",
     MDXQuery: "MDX-query",
@@ -675,7 +700,19 @@ if (ej.PivotClient) ej.PivotClient.Locale["nl-NL"] = {
     SetReportNameAlertMsg: "Stel de rapportnaam.",
     Search: "Zoeken",
     MultipleItems: "Meerdere items",
-    All: "Alle"
+    All: "Alle",
+    NoReports: "Geen verslagen gevonden in DB",
+    CalculatedMember: "Berekende lid",
+    Caption: "Bijschrift:",
+    Expression: "Expressie:",
+    MemberType: "Type:",
+    FormatString: "Formaattekenreeks :",
+    MultipleMeasure: "Meer dan één maatregel kan worden gesneden.",
+    DuplicateCalcMeasure: "Berekend met deze naam bestaat al.",
+    EmptyField: "Berekende lidnaam of uitdrukking mag niet leeg zijn.",
+    EmptyFormat: "Formaattekenreeks berekende lid is leeg.",
+    Warning: "Waarschuwing",
+    Confirm: "Berekende lid met dezelfde naam bestaat reeds. Vanwege wilt vervangen?"
 };
 if (ej.PivotGauge) ej.PivotGauge.Locale["nl-NL"] = {
     RevenueGoal: "inkomsten Goal",
@@ -744,6 +781,85 @@ if (ej.PdfViewer) ej.PdfViewer.Locale["nl-NL"] = {
             headerText: 'Download',
             contentText: 'Download de PDF-document.'
         },
+        highlight: {
+            headerText: 'Tekst markeren',
+            contentText: 'Markeer tekst in het PDF-pagina.',
+        },
+        strikeout: {
+            headerText: 'Doorstreepte tekst',
+            contentText: 'Doorhalen tekst in de PDF-pagina.',
+        },
+        underline: {
+            headerText: 'tekst onderstrepen',
+            contentText: 'Onderstreep tekst in de PDF-pagina.',
+        },
+    },
+    contextMenu: {
+        copy: {
+            contentText: 'kopiëren',
+        },
+        googleSearch: {
+            contentText: 'Zoeken op Google',
+        },
+        Find: {
+            contentText: 'Vind:',
+        },
+        matchCase: {
+            contentText: 'matchCase',
+        },
+        auto: {
+            contentText: 'Auto',
+        },
+        openPopup: {
+            contentText: 'OpenPopup',
+        },
+        Delete: {
+            contentText: 'Verwijderen',
+        },
+        properties: {
+            contentText: 'Eigenschappen....',
+        },
+    },
+    propertyWindow: {
+        underlineProperties: {
+            contentText: "OnderstreepProperties"
+        },
+        strikeOutProperties: {
+            contentText: "StrikeOutProperties"
+        },
+        highlightProperties: {
+            contentText: "HighlightProperties"
+        },
+        appearance: {
+            contentText: "uiterlijk"
+        },
+        general: {
+            contentText: "algemeen"
+        },
+        color: {
+            contentText: "kleur:"
+        },
+        opacity: {
+            contentText: "Opaciteit:"
+        },
+        author: {
+            contentText: "auteur:"
+        },
+        subject: {
+            contentText: "onderwerpen:"
+        },
+        modified: {
+            contentText: "Gewijzigd:"
+        },
+        ok: {
+            contentText: "ok"
+        },
+        cancel: {
+            contentText: "Annuleer"
+        },
+        locked: {
+            contentText: "Vergrendeld"
+        }
     },
 };
 if (ej.PercentageTextbox) ej.PercentageTextbox.Locale["nl-NL"] = {
@@ -760,6 +876,11 @@ if (ej.PivotGrid) ej.PivotGrid.Locale["nl-NL"] = {
     IsGreaterThanOrEqualTo: "Is groter dan of gelijk aan",
     IsLessThan: "Is minder dan",
     IsLessThanOrEqualTo: "Is kleiner dan of gelijk aan",
+    ClearSorting: "Wis sorteren",
+    ClearFilterFrom: "Clear Filter uit",
+    SortAtoZ: "Sorteren A tot Z",
+    SortZtoA: "Sorteer Z tot A",
+    and: "En",
 
     NumberFormatting: "Getalnotatie",
     FrozenHeaders: "Bevroren maaiborden",
@@ -930,7 +1051,12 @@ if (ej.PivotGrid) ej.PivotGrid.Locale["nl-NL"] = {
     CalcValue: "Berekend veld kan worden ingevoegd in het veld",
     MultipleItems: "Meerdere items",
     All: "Alle",
-    Search: "Zoeken"
+    Search: "Zoeken",
+    ColumnResize: "Kolom aanpassen",
+    Layouts: "Lay-outs",
+    NormalLayout: "Normale lay-out",
+    NormalTopSummary: "Normaal Top Overzicht Layout",
+    NoSummaries: "Geen overzichten lay-out"
 };
 if (ej.PivotPager) ej.PivotPager.Locale["nl-NL"] = {
     SeriesPage: "serie Pagina",
@@ -949,6 +1075,11 @@ if (ej.PivotSchemaDesigner) ej.PivotSchemaDesigner.Locale["nl-NL"] = {
     IsGreaterThanOrEqualTo: "Is groter dan of gelijk aan",
     IsLessThan: "Is minder dan",
     IsLessThanOrEqualTo: "Is kleiner dan of gelijk aan",
+    ClearSorting: "Wis sorteren",
+    ClearFilterFrom: "Clear Filter uit",
+    SortAtoZ: "Sorteren A tot Z",
+    SortZtoA: "Sorteer Z tot A",
+    and: "En",
 
     PivotTableFieldList: "Draaitabellen Veldenlijst",
     ChooseFieldsToAddToReport: "Kies velden toe te voegen aan te melden:",
@@ -1198,7 +1329,7 @@ if (ej.RTE) ej.RTE.Locale["nl-NL"] = {
 	imageBorder: "afbeelding Border",
 	imageStyle: "Stijl",
 	linkText: "Tekst",
-	linkToolTip: "tooltip",
+	linkTooltipLabel: "tooltip",
 	html5Support: "Deze tool icoon alleen actief in HTML5 ondersteunde browsers",
 	linkOpenInNewWindow: "Open link in new window",
 	tableColumns: "No.of Columns",
@@ -1268,7 +1399,7 @@ if (ej.RTE) ej.RTE.Locale["nl-NL"] = {
 	lowerroman: "lagere Roman",
 	upperroman: "Upper Roman",
 	none: "Geen",
-	linktooltip: "ctrl + klik om de link te volgen",
+	linkTooltip: "ctrl + klik om de link te volgen",
 	charSpace: "Tekens (met spaties)",
 	charNoSpace: "Tekens (zonder spaties)",
 	wordCount: "Aantal woorden",
@@ -1288,6 +1419,10 @@ if (ej.RTE) ej.RTE.Locale["nl-NL"] = {
 	Replace: "Vervangen",
 	ReplaceAll: "Vervang alles",
 	FindErrorMsg: "Kan opgegeven woord niet vinden.",
+	customFontColor:"Meer kleuren...",
+	customBGColor:"Meer kleuren...",
+	TransBGColor:"transparant"
+   
 };
 if (ej.Schedule) ej.Schedule.Locale["nl-NL"] = {
     ReminderWindowTitle: "herinneringsvenster",
@@ -1388,6 +1523,10 @@ if (ej.Schedule) ej.Schedule.Locale["nl-NL"] = {
     DeleteConfirmation: "Bent u zeker dat u deze afspraak wilt verwijderen?",
     Time: "Tijd",
     EmptyResultText: "geen suggesties",
+    BlockIntervalAlertTitle: "alarm",
+    BlockIntervalError: "Het geselecteerde tijdsinterval is geblokkeerd en is niet beschikbaar voor selectie.",
+    RecurrenceDateValidation: "Enkele maanden hebben minder dan geselecteerde data. Voor deze maanden valt de gebeurtenis op de laatste datum van de maand.",
+    SeriesChangeAlert: "De wijzigingen die zijn aangebracht aan specifieke gevallen van deze serie worden geannuleerd en deze afspraken komen weer overeen met de serie."
 };
 if (ej.Spreadsheet) ej.Spreadsheet.Locale["nl-NL"] = {
     Cut: "Besnoeiing",
@@ -1414,20 +1553,25 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["nl-NL"] = {
     SortNewesttoOldest: "Sorteren nieuw naar oud",
     Insert: "invoegen",
     InsertTitle: "Cellen invoegen",
-    InsertContent: "Voeg nieuwe cellen, rijen of kolommen om uw werkmap <br /> <br /> FYI:. Om meerdere rijen of kolommen in te voegen op een moment, selecteer meerdere rijen of kolommen in het blad, en klik op Invoegen.",
+    InsertContent: "Voeg nieuwe cellen, rijen of kolommen om uw werkmap ",
+    MultipleInsertContent: " FYI:. Om meerdere rijen of kolommen in te voegen op een moment, selecteer meerdere rijen of kolommen in het blad, en klik op Invoegen.",
     InsertSBContent: "cellen, rijen, kolommen, of vellen toe te voegen aan uw werkmap.",
     Delete: "Verwijder",
     DeleteTitle: "Cellen verwijderen",
-    DeleteContent: "Verwijder cellen, rijen, kolommen of vellen uit uw werkmap <br /> <br /> FYI:. Om meerdere rijen of kolommen te verwijderen op een moment, selecteer meerdere rijen of kolommen in het blad, en klik op Verwijderen.",
+    DeleteContent: "Verwijder cellen, rijen, kolommen of vellen uit uw werkmap",
+    MultipleDeleteContent: " FYI:. Om meerdere rijen of kolommen te verwijderen op een moment, selecteer meerdere rijen of kolommen in het blad, en klik op Verwijderen.",
     FindSelectTitle: "Zoek & Kies",
     FindSelectContent: "Klik om opties voor de tekst te vinden in uw document te bekijken.",
     CalculationOptions: "berekening Opties",
     CalcOptTitle: "berekening Opties",
-    CalcOptContent: "Kies ervoor om formules automatisch of handmatig te berekenen. <br/> Als u een verandering die een waarde van invloed te maken, zal Spreadsheet automatisch herberekenen.",
+    CalcOptContent: "Kies ervoor om formules automatisch of handmatig te berekenen. ",
+    CalcOptRecalcContent: "Als u een verandering die een waarde van invloed te maken, zal Spreadsheet automatisch herberekenen.",
     CalculateSheet: "Bereken Sheet",
     CalculateNow: "Bereken nu",
-    CalculateNowContent: "Bereken de hele werkmap nu. <br/> U hoeft alleen maar om dit te gebruiken als automatische berekening is uitgeschakeld.",
-    CalculateSheetContent: "Bereken het actieve blad nu. <br/> U hoeft alleen maar om dit te gebruiken als automatische berekening is uitgeschakeld.",
+    CalculateNowContent: "Bereken de hele werkmap nu. ",
+    CalculateNowTurnOffContent: " U hoeft alleen maar om dit te gebruiken als automatische berekening is uitgeschakeld.",
+    CalculateSheetContent: "Bereken het actieve blad nu.",
+    CalculateSheetTurnOffContent: " U hoeft alleen maar om dit te gebruiken als automatische berekening is uitgeschakeld.",
     Title: "spreadsheet",
     Ok: "OK",
     Cancel: "Annuleer",
@@ -1595,7 +1739,8 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["nl-NL"] = {
     TableStyleOptions: "Eerste Column / laatste kolom / Total Row / knop Filter",
     Format: "Formaat",
     NameManager: "Name Manager",
-    NameManagerContent: "Aanmaken, bewerken, verwijderen en vind alle namen die worden gebruikt in de werkmap. <br /> <br /> De namen kunnen worden gebruikt in formules als substituten voor cel gevonden.",
+    NameManagerContent: "Aanmaken, bewerken, verwijderen en vind alle namen die worden gebruikt in de werkmap.",
+    NameManagerFormulaContent: " De namen kunnen worden gebruikt in formules als substituten voor cel gevonden.",
     DefinedNames: "gedefinieerde namen",
     DefineName: "Definieer Naam",
     DefineNameContent: "Definiëren en namen toe te passen.",
@@ -1726,7 +1871,10 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["nl-NL"] = {
     HideSheet: "Verbergen",
     UnhideSheet: "unhide",
     SheetRenameAlert: "Die naam is al in gebruik. Probeer een ander.",
-    SheetRenameEmptyAlert: "U hebt getypt een ongeldige naam voor een blad. Zorg ervoor dat: <ul> <li> De naam die u typt niet meer dan 31 tekens </ li> <li> De naam geen van de volgende tekens bevatten. \ /? * [Of] </ li> <li> U heeft geen reactie de naam leeg. </ Li> </ ul>",
+    SheetRenameEmptyAlert: "U hebt getypt een ongeldige naam voor een blad. Zorg ervoor dat:",
+    SheetRenameEmptyCharExceedAlert: " De naam die u typt niet meer dan 31 tekens ",
+    SheetRenameEmptySplCharAlert: " De naam geen van de volgende tekens bevatten.",
+    SheetRenameEmptyBlankAlert: " U heeft geen reactie de naam leeg.",
     SheetDeleteAlert: "Je kunt niet ongedaan maken verwijderen van bladen, en je zou kunnen worden het verwijderen van een aantal gegevens. Als je niet nodig hebt, klikt u op OK om te verwijderen.",
     SheetDeleteErrorAlert: "Een werkboek moet ten minste één zichtbare werkblad bevatten. Om te verbergen, verwijderen of verplaatsen van de geselecteerde blad, moet u eerst een nieuw vel of unhide een blad dat al is verborgen.",
     CtrlKeyErrorAlert: "Deze opdracht kan niet worden gebruikt op meerdere selecties.",
@@ -1915,13 +2063,15 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["nl-NL"] = {
     RedoContent: "Opnieuw uw laatste actie.",
     TableTitle: "Table (Ctrl + T)",
     HyperLinkTitle: "Voeg een hyperlink (Ctrl + K)",
-    HyperLinkContent: "Maak een link in uw document voor snelle toegang tot webpagina's en bestanden. <br /> <br /> Hyperlinks kunt u ook naar plaatsen in uw document.",
+    HyperLinkContent: "Maak een link in uw document voor snelle toegang tot webpagina's en bestanden.",
+    HyperLinkPlaceContent: " Hyperlinks kunt u ook naar plaatsen in uw document.",
     NewCommentTitle: "Plaats een reactie",
     NewCommentContent: "Voeg een nota over dit deel van het document.",
     RefreshTitle: "verversen",
     RefreshContent: "Klik hier voor de meest recente gegevens van de bron die op de actieve cel",
     FieldListTitle: "Field List",
-    FieldListContent: "Weergeven of verbergen van de Field List. <br /> <br /> Het veld lijst kunt u toe te voegen en velden te verwijderen uit uw draaitabelrapport",
+    FieldListContent: "Weergeven of verbergen van de Field List. ",
+    FieldListRemoveContent: " Het veld lijst kunt u toe te voegen en velden te verwijderen uit uw draaitabelrapport",
     AddChartElement: "Voeg Grafiek Element",
     AddChartElementContent: "elementen aan de gemaakte diagram toe te voegen.",
     SwitchRowColumn: "Switch Rij / Kolom",
@@ -2049,6 +2199,36 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["nl-NL"] = {
     CellTypeAlert: "Deze bewerking is niet toegestaan in celtype toegepast bereik.",
     PivotOverlapAlert: "Een Pivot Table rapport kan niet overlappen andere Pivot Table rapport",
     NoCellFound: "Geen cellen gevonden",
+    ColorPicker: "Kleur kiezer",
+    IncreaseIndent: "Inspringing vergroten",
+    IncreaseIndentContent: "Beweeg uw inhoud verder weg van de cel grens.",
+    DecreaseIndent: "inspringen verkleinen",
+    DecreaseIndentContent: "Beweeg uw content dichter bij de cel grens.",
+    ExportPdf: "PDF",
+    ClipboardAccessError: "Uw browser kan niet toegang tot het klembord, zodat het gebruik van deze sneltoetsen:",
+    ClipboardAccessCutError: "Snijd = Ctrl + X",
+    ClipboardAccessCopyError: "Copy = Ctrl + C",
+    ClipboardAccessPasteError: "Plakken = Ctrl + V",
+    CorrectArgument: "Vul de juiste argument",
+    CorrectFormula: "Vul de juiste formule",
+    CorrectCellAddress: "Vul de juiste cel adres",
+    ChartType: "grafiek Type",
+    NumberValidationAlert: "Maximale groter dan of gelijk aan minimum",
+    DateValidationAlert: "De einddatum moet groter dan of gelijk aan Date beginnen",
+    TimeValidationAlert: "De Eindtijd moet groter dan of gelijk aan starttijd",
+    NewRuleAlert: "Er is een probleem met deze formule",
+    DragAlert: "De opdracht kan niet worden voltooid als u probeert om cellen binnen het filter bereik bewegen. Selecteer een bereik uit het filter bereik en probeer de opdracht opnieuw.",
+    OR: "of",
+    HOME: "HUIS",
+    INSERT: "INSERT",
+    DATATAB: "GEGEVENS",
+    PAGELAYOUT: "PAGINA LAYOUT",
+    REVIEW: "BEOORDELING",
+    OTHERS: "ANDEREN",
+    FORMAT: "Formaat",
+    DESIGN: "ONTWERP",
+    CHARTDESIGN: "grafiek Ontwerp",
+    ANALYZE: "Analyseren"
 };
 if (ej.TreeGrid) ej.TreeGrid.Locale["nl-NL"] = {
     toolboxTooltipTexts: {
@@ -2124,7 +2304,29 @@ if (ej.TreeGrid) ej.TreeGrid.Locale["nl-NL"] = {
         dropdownTableValue: "Waarde",
         addData: "Toevoegen",
         deleteData: "Verwijderen",
-        allowCellSelection: "Laat Cell Selection"
+        allowCellSelection: "Laat Cell Selection",
+        showInColumnChooser: "Toon In Column Kiezer",
+        displayAsCheckbox: "Weergeven als Checkbox",
+        clipMode: "clip Mode",
+        tooltip: "tooltip",
+        headerTooltip: "header Tooltip"
+    },
+    editTypeTexts: {
+        string: "Draad",
+        numeric: "numerieke",
+        datePicker: "Datumkiezer",
+        dateTimePicker: "Datum Tijd Picker",
+        dropdown: "Laten vallen",
+        boolean: "Boolean"
+    },
+    textAlignTypes: {
+        right: "Rechts",
+        left: "Links",
+        center: "Centrum"
+    },
+    clipModeTexts: {
+        clip: "Klem",
+        ellipsis: "ellipsis"
     },
     columnDialogTitle: {
         insertColumn: "Kolom invoegen",

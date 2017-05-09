@@ -130,7 +130,7 @@ if (ej.ExcelFilter) ej.ExcelFilter.Locale["ms-MY"] = {
     title: "Custom Penapis",
     PredicateAnd: "DAN",
     PredicateOr: "ATAU",
-    Ok: "okey",
+    OK: "okey",
     MatchCase: "kes perlawanan",
     Cancel: "Batal",
     NoResult: "Tiada padanan ditemui",
@@ -256,7 +256,7 @@ if (ej.Gantt) ej.Gantt.Locale["ms-MY"] = {
         baselineStartDate: "Baseline Tarikh Mula",
         baselineEndDate: "Baseline Tarikh Tamat",
         WBS: "WBS",
-        WBSpredecessor: "WBS Pendahulu",
+        WBSPredecessor: "WBS Pendahulu",
         dialogCustomFieldName: "ruangan Nama",
         dialogCustomFieldValue: "nilai",
         notes: "Nota",
@@ -272,7 +272,8 @@ if (ej.Gantt) ej.Gantt.Locale["ms-MY"] = {
         deleteButton: "Padam",
         cancelButton: "Batal",
         addPredecessor: "Tambah baru",
-        removePredecessor: "Buang"
+        removePredecessor: "Buang",
+        addButton: "Tambah",
     },
     columnDialogTexts: {
         field: "Field",
@@ -291,7 +292,28 @@ if (ej.Gantt) ej.Gantt.Locale["ms-MY"] = {
         dropdownTableValue: "nilai",
         addData: "Tambah",
         deleteData: "Buang",
-        allowCellSelection: "Benarkan Pemilihan Cell"
+        allowCellSelection: "Benarkan Pemilihan Cell",
+        displayAsCheckbox: "Paparan Sebagai Kotak",
+        clipMode: "Mod music",
+        tooltip: "petua alat",
+        headerTooltip: "Tandukan Tooltip"
+    },
+    editTypeTexts: {
+        string: "Tali",
+        numeric: "angka",
+        datePicker: "tarikh Picker",
+        dateTimePicker: "Tarikh Masa Picker",
+        dropdown: "jatuh turun",
+        boolean: "Boolean"
+    },
+    textAlignTypes: {
+        right: "betul",
+        left: "Dibiarkan",
+        center: "Pusat"
+    },
+    clipModeTexts: {
+        clip: "music",
+        ellipsis: "elipsis"
     },
     toolboxTooltipTexts: {
         addTool: "Tambah",
@@ -303,11 +325,12 @@ if (ej.Gantt) ej.Gantt.Locale["ms-MY"] = {
         indentTool: "inden",
         outdentTool: "engsot keluar",
         expandAllTool: "Buka Semua",
-        collapseAllTool: "Tutup Semua",
+        collapseAllTool: "runtuh Semua",       
         nextTimeSpanTool: "Timespan Next",
         prevTimeSpanTool: "sebelum Timespan",
         criticalPathTool: "Laluan kritikal",
-        excelExportTool: "eksport excel"
+        excelExportTool: "eksport excel",
+        pdfExportTool: "PDF Eksport"
     },
     durationUnitTexts: {
         days: "hari",
@@ -394,12 +417,10 @@ if (ej.Grid) ej.Grid.Locale["ms-MY"] = {
     DeleteOperationAlert: "Tiada rekod yang dipilih untuk operasi padam",
     EditOperationAlert: "Tiada rekod yang dipilih untuk mengedit operasi",
     SaveButton: "Simpan",
-    OkButton: "okey",
+    OKButton: "okey",
     CancelButton: "Batal",
     EditFormTitle: "butiran",
     AddFormTitle: "Tambah Rekod Baru",
-    Notactionkeyalert: "Key-Gabungan tidak boleh didapati",
-    Keyconfigalerttext: "Key-Gabungan telah pun diperuntukkan kepada",
     GroupCaptionFormat: "{{:headerText}}: {{:key}} - {{:count}} {{if count == 1 }} item {{else}} barangan {{/if}} ",
     BatchSaveConfirm: "Adakah anda pasti anda mahu menyimpan perubahan?",
     BatchSaveLostChanges: "perubahan yang tidak disimpan akan hilang. Adakah anda pasti anda mahu teruskan?",
@@ -557,6 +578,10 @@ if (ej.PivotClient) ej.PivotClient.Locale["ms-MY"] = {
     IsGreaterThanOrEqualTo: "Lebih Besar daripada atau sama dengan",
     IsLessThan: "Kurang Daripada",
     IsLessThanOrEqualTo: "Kurang daripada atau sama dengan",
+    ClearSorting: "Kosongkan Isihan",
+    ClearFilterFrom: "Kosongkan penapis Dari",
+    SortAtoZ: "Isih A ke Z",
+    SortZtoA: "Isih Z ke A",
 
     DeferUpdate: "Tangguh Update",
     MDXQuery: "MDX Pertanyaan",
@@ -674,7 +699,19 @@ if (ej.PivotClient) ej.PivotClient.Locale["ms-MY"] = {
     SetReportNameAlertMsg: "Setkan laporan nama.",
     Search: "Carian",
     MultipleItems: "Berbilang item",
-    All: "Semua"
+    All: "Semua",
+    NoReports: "Tidak ada Laporan ditemui dalam DB",
+    CalculatedMember: "Anggota mengira taburan",
+    Caption: "Kapsyen:",
+    Expression: "Ungkapan Biasa:",
+    MemberType: "Anggota Jenis:",
+    FormatString: "Rentetan format:",
+    MultipleMeasure: "Lebih daripada satu mengukur boleh kerat.",
+    DuplicateCalcMeasure: "Mengira Anggota dengan nama yang sama sudah wujud.",
+    EmptyField: "Mengira Anggota nama atau tidak boleh kosong.",
+    EmptyFormat: "Rentetan format untuk mengira taburan Anggota kosong.",
+    Warning: "Amaran",
+    Confirm: "Mengira Anggota dengan nama yang sama sudah wujud. Karena ingin ganti?"
 };
 if (ej.PivotGauge) ej.PivotGauge.Locale["ms-MY"] = {
     RevenueGoal: "Matlamat hasil",
@@ -743,6 +780,85 @@ if (ej.PdfViewer) ej.PdfViewer.Locale["ms-MY"] = {
             headerText: 'muat turun',
             contentText: 'Muat turun dokumen PDF.'
         },
+        highlight: {
+            headerText: 'Highlight Text',
+            contentText: 'Menyerlahkan teks dalam halaman PDF.',
+        },
+        strikeout: {
+            headerText: 'StrikeOut Text',
+            contentText: 'Pembatalan teks dalam halaman PDF.',
+        },
+        underline: {
+            headerText: 'garis Text',
+            contentText: 'Menggariskan teks di muka surat PDF.',
+        },
+    },
+    contextMenu: {
+        copy: {
+            contentText: 'Salinan',
+        },
+        googleSearch: {
+            contentText: 'carian google',
+        },
+        Find: {
+            contentText: 'Cari:',
+        },
+        matchCase: {
+            contentText: 'matchCase',
+        },
+        auto: {
+            contentText: 'Auto',
+        },
+        openPopup: {
+            contentText: 'OpenPopup',
+        },
+        Delete: {
+            contentText: 'Padam',
+        },
+        properties: {
+            contentText: 'hartanah....',
+        },
+    },
+    propertyWindow: {
+        underlineProperties: {
+            contentText: "underlineProperties"
+        },
+        strikeOutProperties: {
+            contentText: "StrikeOutProperties"
+        },
+        highlightProperties: {
+            contentText: "HighlightProperties"
+        },
+        appearance: {
+            contentText: "penampilan"
+        },
+        general: {
+            contentText: "umum"
+        },
+        color: {
+            contentText: "warna:"
+        },
+        opacity: {
+            contentText: "kelegapan:"
+        },
+        author: {
+            contentText: "penulis:"
+        },
+        subject: {
+            contentText: "tertakluk:"
+        },
+        modified: {
+            contentText: "diubahsuai:"
+        },
+        ok: {
+            contentText: "okey"
+        },
+        cancel: {
+            contentText: "membatalkan"
+        },
+        locked: {
+            contentText: "terkunci"
+        }
     },
 };
 if (ej.PercentageTextbox) ej.PercentageTextbox.Locale["ms-MY"] = {
@@ -759,6 +875,11 @@ if (ej.PivotGrid) ej.PivotGrid.Locale["ms-MY"] = {
     IsGreaterThanOrEqualTo: "Lebih Besar daripada atau sama dengan",
     IsLessThan: "Kurang Daripada",
     IsLessThanOrEqualTo: "Kurang daripada atau sama dengan",
+    ClearSorting: "Kosongkan Isihan",
+    ClearFilterFrom: "Kosongkan penapis Dari",
+    SortAtoZ: "Isih A ke Z",
+    SortZtoA: "Isih Z ke A",
+    and: "Dan",
 
     NumberFormatting: "Nombor Pemformatan",
     FrozenHeaders: "Beku Pengepala",
@@ -929,7 +1050,12 @@ if (ej.PivotGrid) ej.PivotGrid.Locale["ms-MY"] = {
     CalcValue: "Mengira medan boleh disisipkan hanya dalam nilai kawasan medan",
     MultipleItems: "Berbilang item",
     All: "Semua",
-    Search: "Carian"
+    Search: "Carian",
+    ColumnResize: "Saiz Semula Lajur",
+    Layouts: "Bentangan",
+    NormalLayout: "Normal Bentangan",
+    NormalTopSummary: "Normal Atas Ringkasan Bentangan",
+    NoSummaries: "Tiada Paparan Ringkasancomment Bentangan"
 };
 if (ej.PivotPager) ej.PivotPager.Locale["ms-MY"] = {
     SeriesPage: "Siri Page",
@@ -948,6 +1074,11 @@ if (ej.PivotSchemaDesigner) ej.PivotSchemaDesigner.Locale["ms-MY"] = {
     IsGreaterThanOrEqualTo: "Lebih Besar daripada atau sama dengan",
     IsLessThan: "Kurang Daripada",
     IsLessThanOrEqualTo: "Kurang daripada atau sama dengan",
+    ClearSorting: "Kosongkan Isihan",
+    ClearFilterFrom: "Kosongkan penapis Dari",
+    SortAtoZ: "Isih A ke Z",
+    SortZtoA: "Isih Z ke A",
+    and: "Dan",
 
     PivotTableFieldList: "Senarai Medan Jadual Pangsi",
     ChooseFieldsToAddToReport: "Pilih medan untuk menambah melaporkan:",
@@ -1197,7 +1328,7 @@ if (ej.RTE) ej.RTE.Locale["ms-MY"] = {
 	imageBorder: "Border Image",
 	imageStyle: "Style",
 	linkText: "teks",
-	linkToolTip: "tooltip",
+	linkTooltipLabel: "tooltip",
 	html5Support: "Ini icon alat hanya dibolehkan di HTML5 disokong pelayar",
 	linkOpenInNewWindow: "Buka pautan dalam tetingkap baru",
 	tableColumns: "NO.of Columns",
@@ -1267,7 +1398,7 @@ if (ej.RTE) ej.RTE.Locale["ms-MY"] = {
 	lowerroman: "Roman lebih rendah",
 	upperroman: "Upper Roman",
 	none: "Tiada",
-	linktooltip: "ctrl + klik untuk mengikuti pautan",
+	linkTooltip: "ctrl + klik untuk mengikuti pautan",
 	charSpace: "Aksara (dengan ruang)",
 	charNoSpace: "Watak (tiada ruang)",
 	wordCount: "Word Count",
@@ -1287,6 +1418,9 @@ if (ej.RTE) ej.RTE.Locale["ms-MY"] = {
 	Replace: "Ganti",
 	ReplaceAll: "Ganti Semua",
 	FindErrorMsg: "Tidak dapat mencari perkataan yang ditetapkan.",
+	customFontColor:"Lebih banyak warna ...",
+	customBGColor:"Lebih banyak warna ...",
+	TransBGColor:"telus"
 };
 if (ej.Schedule) ej.Schedule.Locale["ms-MY"] = {
     ReminderWindowTitle: "tetingkap peringatan",
@@ -1387,6 +1521,10 @@ if (ej.Schedule) ej.Schedule.Locale["ms-MY"] = {
     DeleteConfirmation: "Adakah anda pasti anda mahu memadam pelantikan ini?",
     Time: "masa",
     EmptyResultText: "Tiada cadangan",
+    BlockIntervalAlertTitle: "Amaran",
+    BlockIntervalError: "selang masa yang dipilih telah disekat dan tidak tersedia untuk pilihan.",
+    RecurrenceDateValidation: "Beberapa bulan mempunyai kurang daripada tarikh yang dipilih. Untuk bulan ini, kejadian itu akan jatuh pada tarikh terakhir bulan tersebut.",
+    SeriesChangeAlert: "Perubahan yang dibuat kepada keadaan tertentu siri ini akan dibatalkan dan segala pemilihan akan sepadan dengan siri lagi."
 };
 if (ej.Spreadsheet) ej.Spreadsheet.Locale["ms-MY"] = {
     Cut: "Cut",
@@ -1413,20 +1551,25 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["ms-MY"] = {
     SortNewesttoOldest: "Jenis baru kepada lama",
     Insert: "Insert",
     InsertTitle: "Sel Insert",
-    InsertContent: "Menambah sel-sel baru, baris atau lajur untuk buku kerja anda <br /> <br /> FYI:. Untuk memasukkan berbilang baris atau lajur pada satu masa, memilih berbilang baris atau lajur dalam lembaran, dan klik Selitkan.",
+    InsertContent: "Menambah sel-sel baru, baris atau lajur untuk buku kerja anda",
+    MultipleInsertContent: " FYI:. Untuk memasukkan berbilang baris atau lajur pada satu masa, memilih berbilang baris atau lajur dalam lembaran, dan klik Selitkan.",
     InsertSBContent: "Menambah sel-sel, baris, lajur, atau kunci untuk buku kerja anda.",
     Delete: "Padam",
     DeleteTitle: "Padam Sel",
-    DeleteContent: "Padamkan sel, baris, lajur, atau kepingan dari buku kerja anda <br /> <br /> FYI:. Untuk memadam berbilang baris atau lajur pada satu masa, memilih berbilang baris atau lajur dalam lembaran, dan klik Padam.",
+    DeleteContent: "Padamkan sel, baris, lajur, atau kepingan dari buku kerja anda",
+    MultipleDeleteContent: " FYI:. Untuk memadam berbilang baris atau lajur pada satu masa, memilih berbilang baris atau lajur dalam lembaran, dan klik Padam.",
     FindSelectTitle: "Cari & Pilih",
     FindSelectContent: "Klik untuk melihat pilihan untuk mencari teks dalam dokumen anda.",
     CalculationOptions: "Pilihan pengiraan",
     CalcOptTitle: "Pilihan pengiraan",
-    CalcOptContent: "Pilih untuk mengira formula secara automatik atau manual. <br/> <br/> Jika anda membuat perubahan yang memberi kesan nilai, lembaran kerja secara automatik akan mengira semula ia.",
+    CalcOptContent: "Pilih untuk mengira formula secara automatik atau manual.",
+    CalcOptRecalcContent: " Jika anda membuat perubahan yang memberi kesan nilai, lembaran kerja secara automatik akan mengira semula ia.",
     CalculateSheet: "Kira Lembaran",
     CalculateNow: "Kira sekarang",
-    CalculateNowContent: "Kira keseluruhan buku kerja sekarang. <br/> <br/> Anda hanya perlu menggunakan ini jika pengiraan automatik dimatikan.",
-    CalculateSheetContent: "Kira helaian aktif sekarang. <br/> <br/> Anda hanya perlu menggunakan ini jika pengiraan automatik dimatikan.",
+    CalculateNowContent: "Kira keseluruhan buku kerja sekarang.",
+    CalculateNowTurnOffContent: " Anda hanya perlu menggunakan ini jika pengiraan automatik dimatikan.",
+    CalculateSheetContent: "Kira helaian aktif sekarang.",
+    CalculateSheetTurnOffContent: " Anda hanya perlu menggunakan ini jika pengiraan automatik dimatikan.",
     Title: "spreadsheet",
     Ok: "okey",
     Cancel: "Batal",
@@ -1594,7 +1737,8 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["ms-MY"] = {
     TableStyleOptions: "Ruang Pertama / lajur Terkini / Jumlah Row / Button Filter",
     Format: "format",
     NameManager: "Nama pengurus",
-    NameManagerContent: "Membuat, mengedit, memadam dan mencari semua nama yang digunakan dalam buku kerja. <br /> <br /> Nama boleh digunakan dalam formula sebagai gantian untuk rujukan sel.",
+    NameManagerContent: "Membuat, mengedit, memadam dan mencari semua nama yang digunakan dalam buku kerja.",
+    NameManagerFormulaContent: " Nama boleh digunakan dalam formula sebagai gantian untuk rujukan sel.",
     DefinedNames: "ditakrifkan Nama",
     DefineName: "Tentukan Nama",
     DefineNameContent: "Menentukan dan memohon nama.",
@@ -1725,7 +1869,10 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["ms-MY"] = {
     HideSheet: "Sembunyi",
     UnhideSheet: "Jangan sembunyikan",
     SheetRenameAlert: "Nama itu sudah diambil. Cuba yang berlainan.",
-    SheetRenameEmptyAlert: "Anda telah menaip nama tidak sah untuk helaian. Pastikan bahawa: <ul> <li> Nama yang anda taip tidak melebihi 31 aksara </ li> <li> nama ini tidak mengandungi mana-mana ciri yang berikut:. \ /? * [Atau] </ li> <li> Anda tidak kosongkan nama. </ Li> </ ul>",
+    SheetRenameEmptyAlert: "Anda telah menaip nama tidak sah untuk helaian. Pastikan bahawa:",
+    SheetRenameEmptyCharExceedAlert: " Nama yang anda taip tidak melebihi 31 aksara",
+    SheetRenameEmptySplCharAlert: " nama ini tidak mengandungi mana-mana ciri yang berikut:",
+    SheetRenameEmptyBlankAlert: " Anda tidak kosongkan nama.",
     SheetDeleteAlert: "Anda tidak boleh membatalkan memotong kepingan, dan anda mungkin akan mengeluarkan beberapa data. Jika anda tidak memerlukannya, klik OK untuk memadam.",
     SheetDeleteErrorAlert: "Buku kerja mesti mengandungi sekurang-kurangnya satu lembaran kerja yang boleh dilihat. Untuk menyembunyikan, memadam, atau memindahkan kunci yang dipilih, anda perlu memasukkan kunci baru atau menyahsembunyi lembaran yang sudah tersembunyi.",
     CtrlKeyErrorAlert: "Perintah yang tersebut tidak boleh digunakan pada pelbagai pilihan.",
@@ -1914,13 +2061,15 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["ms-MY"] = {
     RedoContent: "Buat semula tindakan terakhir anda.",
     TableTitle: "Jadual (Ctrl + T)",
     HyperLinkTitle: "Tambah Pautan yang (Ctrl + K)",
-    HyperLinkContent: "Cipta pautan dalam dokumen anda untuk akses pantas ke laman web dan fail. <br /> <br /> Hyperlinks juga boleh membawa anda ke tempat-tempat dalam dokumen anda.",
+    HyperLinkContent: "Cipta pautan dalam dokumen anda untuk akses pantas ke laman web dan fail.",
+    HyperLinkPlaceContent: " Hyperlinks juga boleh membawa anda ke tempat-tempat dalam dokumen anda.",
     NewCommentTitle: "Memasukkan komen kepada",
     NewCommentContent: "Menambah nota mengenai bahagian dokumen itu.",
     RefreshTitle: "Muat semula",
     RefreshContent: "Dapatkan data terkini dari sumber yang berkaitan dengan sel yang aktif",
     FieldListTitle: "Senarai medan",
-    FieldListContent: "Tunjukkan atau sembunyikan Senarai Medan. <br /> <br /> Senarai bidang membolehkan anda menambah dan mengeluarkan bidang dari laporan Jadual Pangsi anda",
+    FieldListContent: "Tunjukkan atau sembunyikan Senarai Medan.",
+    FieldListRemoveContent: " Senarai bidang membolehkan anda menambah dan mengeluarkan bidang dari laporan Jadual Pangsi anda",
     AddChartElement: "Tambahkan Chart Element",
     AddChartElementContent: "Menambah unsur-unsur carta yang dicipta.",
     SwitchRowColumn: "Tukar Row / lajur",
@@ -2048,6 +2197,36 @@ if (ej.Spreadsheet) ej.Spreadsheet.Locale["ms-MY"] = {
     CellTypeAlert: "Operasi ini tidak dibenarkan dalam jenis sel pelbagai digunakan.",
     PivotOverlapAlert: "Laporan Pivot Table tidak boleh bertindih satu lagi laporan Jadual Pangsi",
     NoCellFound: "No sel ditemui",
+    ColorPicker: "Color Picker",
+    IncreaseIndent: "meningkatkan Inden",
+    IncreaseIndentContent: "Memindahkan kandungan anda lebih jauh dari sempadan sel.",
+    DecreaseIndent: "Kurangkan Inden",
+    DecreaseIndentContent: "Memindahkan kandungan anda lebih dekat dengan sempadan sel.",
+    ExportPdf: "PDF",
+    ClipboardAccessError: "Penyemak imbas anda cant mengakses papan klip, jadi menggunakan pintasan ini:",
+    ClipboardAccessCutError: "Potong = Ctrl + X",
+    ClipboardAccessCopyError: "Copy = Ctrl + C",
+    ClipboardAccessPasteError: "Tampal = Ctrl + V",
+    CorrectArgument: "Sila masukkan hujah yang betul",
+    CorrectFormula: "Sila masukkan formula yang betul",
+    CorrectCellAddress: "Sila masukkan alamat sel yang betul",
+    ChartType: "Jenis Carta",
+    NumberValidationAlert: "Maksimum mesti lebih besar daripada atau sama dengan Minimum",
+    DateValidationAlert: "Tarikh akhir mesti lebih besar daripada atau sama dengan Tarikh Mula",
+    TimeValidationAlert: "The End Time mesti lebih besar daripada atau sama dengan Mula Masa",
+    NewRuleAlert: "Theres masalah dengan formula ini",
+    DragAlert: "Arahan ini tidak dapat disiapkan seperti yang anda cuba untuk bergerak sel-sel dalam julat penapis. Pilih pelbagai daripada pelbagai penapis dan cuba arahan lagi.",
+    OR: "atau",
+    HOME: "HOME",
+    INSERT: "INSERT",
+    DATATAB: "DATA",
+    PAGELAYOUT: "PAGE LAYOUT",
+    REVIEW: "TINJAUAN",
+    OTHERS: "LAIN-LAIN",
+    FORMAT: "format",
+    DESIGN: "DESIGN",
+    CHARTDESIGN: "Carta Design",
+    ANALYZE: "menganalisis"
 };
 if (ej.TreeGrid) ej.TreeGrid.Locale["ms-MY"] = {
     toolboxTooltipTexts: {
@@ -2057,7 +2236,7 @@ if (ej.TreeGrid) ej.TreeGrid.Locale["ms-MY"] = {
         deleteTool: "Padam",
         cancelTool: "Batal",
         expandAllTool: "Buka Semua",
-        collapseAllTool: "Tutup Semua",
+        collapseAllTool: "runtuh Semua",        
         pdfExportTool: "PDF Eksport",
         excelExportTool: "eksport excel"
     },
@@ -2123,7 +2302,29 @@ if (ej.TreeGrid) ej.TreeGrid.Locale["ms-MY"] = {
         dropdownTableValue: "nilai",
         addData: "Tambah",
         deleteData: "Buang",
-        allowCellSelection: "Benarkan Pemilihan Cell"
+        allowCellSelection: "Benarkan Pemilihan Cell",
+        showInColumnChooser: "Show In Chooser Ruangan",
+        displayAsCheckbox: "Paparan Sebagai Kotak",
+        clipMode: "Mod music",
+        tooltip: "petua alat",
+        headerTooltip: "Tandukan Tooltip"
+    },
+    editTypeTexts: {
+        string: "Tali",
+        numeric: "angka",
+        datePicker: "tarikh Picker",
+        dateTimePicker: "Tarikh Masa Picker",
+        dropdown: "jatuh turun",
+        boolean: "Boolean"
+    },
+    textAlignTypes: {
+        right: "betul",
+        left: "Dibiarkan",
+        center: "Pusat"
+    },
+    clipModeTexts: {
+        clip: "music",
+        ellipsis: "elipsis"
     },
     columnDialogTitle: {
         insertColumn: "masukkan Ruangan",
