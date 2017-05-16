@@ -7,6 +7,14 @@
   "version": "15.2.40",
 
   "description": "Bower package of localized texts of the Syncfusion Essential JavaScript widgets in various languages.",
+	
+  "authors": [
+    "Syncfusion Inc"
+  ],
+  
+  "license": "https://www.syncfusion.com/content/downloads/syncfusion_license.pdf",
+	
+  "homepage": "https://github.com/syncfusion/ej-global#readme",
 
   "ignore": [
 
