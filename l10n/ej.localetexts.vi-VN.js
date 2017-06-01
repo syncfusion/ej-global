@@ -141,6 +141,7 @@ if (ej.ExcelFilter) ej.ExcelFilter.Locale["vi-VN"] = {
     False: "sai",
 };
 if (ej.FileExplorer) ej.FileExplorer.Locale["vi-VN"] = {
+    Folder: "Thư mục",
     EmptyFolder: "Thư mục này trống",
     ProtectedFolder: "Bạn hiện dont có quyền truy cập vào thư mục này",
     EmptyResult: "Không có mục nào phù hợp với tìm kiếm của bạn",

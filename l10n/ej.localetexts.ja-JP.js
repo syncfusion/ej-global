@@ -141,6 +141,7 @@ if (ej.ExcelFilter) ej.ExcelFilter.Locale["ja-JP"] = {
     False: "偽",
 };
 if (ej.FileExplorer) ej.FileExplorer.Locale["ja-JP"] = {
+    Folder: "フォルダ",
     EmptyFolder: "このフォルダは空だ",
     ProtectedFolder: "あなたは現在このフォルダにアクセスする権限を持っていません",
     EmptyResult: "あなたの検索条件に一致するアイテムはありません",

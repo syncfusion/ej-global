@@ -141,6 +141,7 @@ if (ej.ExcelFilter) ej.ExcelFilter.Locale["hu-HU"] = {
     False: "hamis",
 };
 if (ej.FileExplorer) ej.FileExplorer.Locale["hu-HU"] = {
+    Folder: "Folder",
     EmptyFolder: "Ez a mappa üres",
     ProtectedFolder: "Ön dont jelenleg jogosultsága hozzáférni ehhez a mappához",
     EmptyResult: "Egyetlen elem sem felel meg a keresési",

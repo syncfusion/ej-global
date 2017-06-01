@@ -141,6 +141,7 @@ if (ej.ExcelFilter) ej.ExcelFilter.Locale["sv-SE"] = {
     False: "falsk",
 };
 if (ej.FileExplorer) ej.FileExplorer.Locale["sv-SE"] = {
+    Folder: "Mapp",
     EmptyFolder: "Denna mapp är tom",
     ProtectedFolder: "Du gör inte närvarande behörighet till den här mappen",
     EmptyResult: "Inga objekt matchar din sökning",

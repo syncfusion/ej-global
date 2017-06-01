@@ -141,6 +141,7 @@ if (ej.ExcelFilter) ej.ExcelFilter.Locale["ar-AE"] = {
     False: "خاطئة",
 };
 if (ej.FileExplorer) ej.FileExplorer.Locale["ar-AE"] = {
+    Folder: "مجلد",
     EmptyFolder: "هذا المجلد فارغ",
     ProtectedFolder: "أنت لا تملك حاليا إذن للوصول إلى هذا المجلد",
     EmptyResult: "لا توجد عناصر تطابق بحثك",

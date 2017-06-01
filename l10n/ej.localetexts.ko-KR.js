@@ -141,6 +141,7 @@ if (ej.ExcelFilter) ej.ExcelFilter.Locale["ko-KR"] = {
     False: "그릇된",
 };
 if (ej.FileExplorer) ej.FileExplorer.Locale["ko-KR"] = {
+    Folder: "폴더",
     EmptyFolder: "이 폴더는 비어 있습니다",
     ProtectedFolder: "현재이 폴더에 액세스 할 수있는 권한이 없습니다.",
     EmptyResult: "검색과 일치하는 항목이 없습니다.",

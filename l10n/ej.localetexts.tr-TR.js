@@ -141,6 +141,7 @@ if (ej.ExcelFilter) ej.ExcelFilter.Locale["tr-TR"] = {
     False: "yanlış",
 };
 if (ej.FileExplorer) ej.FileExplorer.Locale["tr-TR"] = {
+    Folder: "Klasör",
     EmptyFolder: "Bu klasör boş",
     ProtectedFolder: "Şu anda bu klasöre erişim izniniz yok",
     EmptyResult: "Aramanızla eşleşen öğe yok",

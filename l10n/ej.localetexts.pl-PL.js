@@ -143,6 +143,7 @@ if (ej.ExcelFilter) ej.ExcelFilter.Locale["pl-PL"] = {
     False: "fałszywy",
 };
 if (ej.FileExplorer) ej.FileExplorer.Locale["pl-PL"] = {
+    Folder: "Teczka",
     EmptyFolder: "Ten folder jest pusty",
     ProtectedFolder: "Li nie mają obecnie dostępu do tego folderu",
     EmptyResult: "Brak elementów poszukiwania",

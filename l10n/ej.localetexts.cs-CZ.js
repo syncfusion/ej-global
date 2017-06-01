@@ -141,6 +141,7 @@ if (ej.ExcelFilter) ej.ExcelFilter.Locale["cs-CZ"] = {
     False: "falešný",
 };
 if (ej.FileExplorer) ej.FileExplorer.Locale["cs-CZ"] = {
+    Folder : "Složka",
     EmptyFolder	:"Tato složka je prázdná",
     ProtectedFolder	:"Nemáte v současné době mají oprávnění pro přístup k této složce",
     EmptyResult:"Žádné položky Vašemu vyhledávání",

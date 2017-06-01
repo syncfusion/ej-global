@@ -141,6 +141,7 @@ if (ej.ExcelFilter) ej.ExcelFilter.Locale["fr-FR"] = {
     False: "faux",
 };
 if (ej.FileExplorer) ej.FileExplorer.Locale["fr-FR"] = {
+    Folder: "Dossier",
     EmptyFolder: "Ce dossier est vide",
     ProtectedFolder: "Vous ne possédez pas actuellement l'autorisation d'accéder à ce dossier",
     EmptyResult: "Aucun élément ne correspond à votre recherche",

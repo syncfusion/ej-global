@@ -141,6 +141,7 @@ if (ej.ExcelFilter) ej.ExcelFilter.Locale["ro-RO"] = {
     False: "fals",
 };
 if (ej.FileExplorer) ej.FileExplorer.Locale["ro-RO"] = {
+    Folder : "Pliant",
     EmptyFolder: "Acest dosar este gol",
     ProtectedFolder: "Tu dont prezent aveți permisiunea de a accesa acest dosar",
     EmptyResult: "Nu există elemente care să corespundă dvs. de căutare",

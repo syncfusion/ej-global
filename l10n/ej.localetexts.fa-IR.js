@@ -141,6 +141,7 @@ if (ej.ExcelFilter) ej.ExcelFilter.Locale["fa-IR"] = {
     False: "غلط",
 };
 if (ej.FileExplorer) ej.FileExplorer.Locale["fa-IR"] = {
+    Folder: "پوشه",
     EmptyFolder:'ین پوشه خالی است',
    Back: "به عقب",
     Forward: "رو به جلو",

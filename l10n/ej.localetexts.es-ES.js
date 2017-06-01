@@ -141,6 +141,7 @@ if (ej.ExcelFilter) ej.ExcelFilter.Locale["es-ES"] = {
     False: "falso",
 };
 if (ej.FileExplorer) ej.FileExplorer.Locale["es-ES"] = {
+    Folder: "Carpeta",
     EmptyResult: "Ningun articulo concuerda con su busqueda",
     EmptyFolder: "Esta carpeta está vacía",
     ProtectedFolder: "Sie ist nicht die Berechtigung diesen Ordner zugreifen",

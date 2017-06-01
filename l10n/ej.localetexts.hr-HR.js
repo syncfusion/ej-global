@@ -141,6 +141,7 @@ if (ej.ExcelFilter) ej.ExcelFilter.Locale["hr-HR"] = {
     False: "lažan",
 };
 if (ej.FileExplorer) ej.FileExplorer.Locale["hr-HR"] = {
+    Folder: "mapa",
     EmptyFolder: "Ova mapa je prazna",
     ProtectedFolder: "Vi ne trenutno imaju dozvolu za pristup ovoj mapu",
     EmptyResult: "Nema stavki odgovara vašem upitu",
