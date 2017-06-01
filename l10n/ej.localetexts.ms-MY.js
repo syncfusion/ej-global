@@ -141,6 +141,7 @@ if (ej.ExcelFilter) ej.ExcelFilter.Locale["ms-MY"] = {
     False: "salah",
 };
 if (ej.FileExplorer) ej.FileExplorer.Locale["ms-MY"] = {
+    Folder: "folder",
     EmptyFolder: "Fail ini kosong",
     ProtectedFolder: "Anda dont mempunyai kebenaran untuk mengakses folder ini",
     EmptyResult: "Tiada perkara yang memenuhi carian anda",

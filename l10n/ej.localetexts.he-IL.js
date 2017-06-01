@@ -142,6 +142,7 @@ if (ej.ExcelFilter) ej.ExcelFilter.Locale["he-IL"] = {
     False: "שֶׁקֶר",
 };
 if (ej.FileExplorer) ej.FileExplorer.Locale["he-IL"] = {
+    Folder: "תיקייה",
     EmptyFolder: "התיקיה הזו ריקה",
     ProtectedFolder: "אין לך כרגע הרשאה לגשת לתיקייה זו",
     EmptyResult: "אין פריטים שמתאימים לחיפוש שלך",

@@ -141,6 +141,7 @@ if (ej.ExcelFilter) ej.ExcelFilter.Locale["da-DK"] = {
     False: "falsk",
 };
 if (ej.FileExplorer) ej.FileExplorer.Locale["da-DK"] = {
+    Folder: "Folder",
     Back: "bagud",
     Forward: "Forward",
     Upward: "Opadgående",

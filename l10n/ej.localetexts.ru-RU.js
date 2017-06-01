@@ -141,6 +141,7 @@ if (ej.ExcelFilter) ej.ExcelFilter.Locale["ru-RU"] = {
     False: "ложный",
 };
 if (ej.FileExplorer) ej.FileExplorer.Locale["ru-RU"] = {
+    Folder: "скоросшиватель",
     EmptyFolder: "Эта папка пуста",
     ProtectedFolder: "В настоящее время вы не имеете доступа к этой папке",
     EmptyResult: "Нет ничего вашему запросу",

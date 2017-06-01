@@ -141,6 +141,7 @@ if (ej.ExcelFilter) ej.ExcelFilter.Locale["fi-FI"] = {
     False: "väärä",
 };
 if (ej.FileExplorer) ej.FileExplorer.Locale["fi-FI"] = {
+    Folder: "Kansio",
     EmptyFolder: "Tämä kansio on tyhjä",
     ProtectedFolder: "Et tällä hetkellä ole lupaa käyttää tätä kansiota",
     EmptyResult: "Kohteita ei vastaa hakuasi",

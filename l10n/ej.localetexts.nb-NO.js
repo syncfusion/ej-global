@@ -141,6 +141,7 @@ if (ej.ExcelFilter) ej.ExcelFilter.Locale["nb-NO"] = {
     False: "falsk",
 };
 if (ej.FileExplorer) ej.FileExplorer.Locale["nb-NO"] = {
+    Folder: "Mappe",
     EmptyFolder: "Denne mappen er tom",
     ProtectedFolder: "Du har for øyeblikket tillatelse til å få tilgang til denne mappen",
     EmptyResult: "Ingenting passer ditt søk",

@@ -141,6 +141,7 @@ if (ej.ExcelFilter) ej.ExcelFilter.Locale["zh-CN"] = {
     False: "假",
 };
 if (ej.FileExplorer) ej.FileExplorer.Locale["zh-CN"] = {
+    Folder: "夹",
     EmptyFolder: "这个文件夹是空的",
     ProtectedFolder: "您目前没有访问此文件夹的权限",
     EmptyResult: "没有符合您搜索的项",

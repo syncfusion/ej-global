@@ -149,6 +149,7 @@ if (ej.ExcelFilter) ej.ExcelFilter.Locale["en-US"] = {
     False: "false"
 };
 if (ej.FileExplorer) ej.FileExplorer.Locale["en-US"] = {
+    Folder: "Folder",
     EmptyFolder: "This folder is empty",
     ProtectedFolder: "You don't currently have permission to access this folder",
     EmptyResult: "No items match your search",

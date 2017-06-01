@@ -141,6 +141,7 @@ if (ej.ExcelFilter) ej.ExcelFilter.Locale["nl-NL"] = {
     False: "vals",
 };
 if (ej.FileExplorer) ej.FileExplorer.Locale["nl-NL"] = {
+    Folder: "Map",
     EmptyFolder: "Deze map is leeg",
     ProtectedFolder: "Je hoeft geen moment toegang tot deze folder",
     EmptyResult: "Geen items overeen met uw zoekopdracht",
