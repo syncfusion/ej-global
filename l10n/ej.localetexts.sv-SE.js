@@ -443,7 +443,7 @@ if (ej.Grid) ej.Grid.Locale["sv-SE"] = {
     ExcelExport: "Excel export",
     WordExport: "ordet export",
     PdfExport: "PDF export",
-    StringMenuOptions: [{ text: "Börjar med", value: "Starts With" }, { text: "endswith", value: "Ends With" }, { text: "innehåller", value: "Contains" }, { text: "Lika", value: "Equal" }, { text: "Inte jämnlikt", value: "NotEqual" }, ],
+    StringMenuOptions: [{ text: "Börjar med", value: "startswith" }, { text: "endswith", value: "endswith" }, { text: "innehåller", value: "contains" }, { text: "Lika", value: "equal" }, { text: "Inte jämnlikt", value: "notequal" }, ],
     NumberMenuOptions: [{ text: "Mindre än", value: "LessThan" }, { text: "Större än", value: "GreaterThan" }, { text: "Mindre än eller equal", value: "LessThanOrEqual" }, { text: "Större än eller equal", value: "GreaterThanOrEqual" }, { text: "Lika", value: "Equal" }, { text: "Inte jämnlikt", value: "NotEqual" }, ],
     PredicateAnd: "OCH",
     PredicateOr: "ELLER",

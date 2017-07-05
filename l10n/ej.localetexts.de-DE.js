@@ -454,7 +454,7 @@ if (ej.Grid) ej.Grid.Locale["de-DE"] = {
     ExcelExport: "Excel Export",
     WordExport: "Word-Export",
     PdfExport: "PDF-Export",
-    StringMenuOptions: [{ text: "Beginnt mit", value: "Starts With"},{ text: "Endet mit", value: "Ends With"},{ text: "Enthält", value: "Contains"},{ text: "Gleich", value: "Equal"},{ text: "Nicht equal", value: "NotEqual"},],
+    StringMenuOptions: [{ text: "Beginnt mit", value: "startswith"},{ text: "Endet mit", value: "endswith"},{ text: "Enthält", value: "contains"},{ text: "Gleich", value: "equal"},{ text: "Nicht equal", value: "notequal"},],
     NumberMenuOptions: [{ text: "Weniger als", value: "LessThan" }, { text: "Größer als", value: "GreaterThan" }, { text: "Kleiner als oder equal", value: "LessThanOrEqual" }, { text: "Größer als oder equal", value: "GreaterThanOrEqual" }, { text: "Gleich", value: "Equal" }, { text: "Nicht equal", value: "NotEqual" }, ],
     PredicateAnd: "UND",
     PredicateOr: "ODER",

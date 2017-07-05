@@ -443,7 +443,7 @@ if (ej.Grid) ej.Grid.Locale["ms-MY"] = {
     ExcelExport: "Excel Export",
     WordExport: "Eksport Word",
     PdfExport: "PDF Eksport",
-    StringMenuOptions: [{ text: "Bermula Dengan", value: "Starts With" }, { text: "tamat Dengan", value: "Ends With" }, { text: "mengandungi", value: "Contains" }, { text: "sama", value: "Equal" }, { text: "tidak Sama", value: "NotEqual" }, ],
+    StringMenuOptions: [{ text: "Bermula Dengan", value: "startswith" }, { text: "tamat Dengan", value: "endswith" }, { text: "mengandungi", value: "contains" }, { text: "sama", value: "equal" }, { text: "tidak Sama", value: "notequal" }, ],
     NumberMenuOptions: [{ text: "Kurang daripada", value: "LessThan" }, { text: "Lebih besar daripada", value: "GreaterThan" }, { text: "Kurang Atau Sama", value: "LessThanOrEqual" }, { text: "Lebih daripada atau sama", value: "GreaterThanOrEqual" }, { text: "sama", value: "Equal" }, { text: "tidak Sama", value: "NotEqual" }, ],
     PredicateAnd: "DAN",
     PredicateOr: "ATAU",

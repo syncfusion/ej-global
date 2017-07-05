@@ -442,7 +442,7 @@ if (ej.Grid) ej.Grid.Locale["ru-RU"] = {
     ExcelExport: "Excel Экспорт",
     WordExport: "Слово Экспорт",
     PdfExport: "Экспорт в PDF",
-    StringMenuOptions: [{ text: "Начинается с", value: "Starts With" }, { text: "Окончание: С", value: "Ends With" }, { text: "Содержит", value: "Contains" }, { text: "равным", value: "Equal" }, { text: "Не равно", value: "NotEqual" }, ],
+    StringMenuOptions: [{ text: "Начинается с", value: "startswith" }, { text: "Окончание: С", value: "endswith" }, { text: "Содержит", value: "contains" }, { text: "равным", value: "equal" }, { text: "Не равно", value: "notequal" }, ],
     NumberMenuOptions: [{ text: "Меньше", value: "LessThan" }, { text: "Больше чем", value: "GreaterThan" }, { text: "Меньше или равно", value: "LessThanOrEqual" }, { text: "Больше или равно", value: "GreaterThanOrEqual" }, { text: "равным", value: "Equal" }, { text: "Не равно", value: "NotEqual" }, ],
     PredicateAnd: "И",
     PredicateOr: "ИЛИ",

@@ -443,7 +443,7 @@ if (ej.Grid) ej.Grid.Locale["ro-RO"] = {
     ExcelExport: "Excel Export",
     WordExport: "cuvânt Export",
     PdfExport: "Export PDF",
-    StringMenuOptions: [{ text: "Incepe cu", value: "Starts With" }, { text: "Se termină cu", value: "Ends With" }, { text: "conţine", value: "Contains" }, { text: "Egal", value: "Equal" }, { text: "Nu este equal", value: "NotEqual" }, ],
+    StringMenuOptions: [{ text: "Incepe cu", value: "startswith" }, { text: "Se termină cu", value: "endswith" }, { text: "conţine", value: "contains" }, { text: "Egal", value: "equal" }, { text: "Nu este equal", value: "notequal" }, ],
     NumberMenuOptions: [{ text: "Mai puțin decât", value: "LessThan" }, { text: "Mai mare ca", value: "GreaterThan" }, { text: "Mai mic sau equal", value: "LessThanOrEqual" }, { text: "Mai mare sau equal", value: "GreaterThanOrEqual" }, { text: "Egal", value: "Equal" }, { text: "Nu este equal", value: "NotEqual" }, ],
     PredicateAnd: "ȘI",
     PredicateOr: "SAU",

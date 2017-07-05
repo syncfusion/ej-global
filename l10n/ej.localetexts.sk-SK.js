@@ -443,7 +443,7 @@ if (ej.Grid) ej.Grid.Locale["sk-SK"] = {
     ExcelExport: "Excel Export",
     WordExport: "Word Export",
     PdfExport: "Export do formátu PDF",
-    StringMenuOptions: [{ text: "začína s", value: "Starts With" }, { text: "končí", value: "Ends With" }, { text: "obsahuje", value: "Contains" }, { text: "rovný", value: "Equal" }, { text: "nerovná", value: "NotEqual" }, ],
+    StringMenuOptions: [{ text: "začína s", value: "startswith" }, { text: "končí", value: "endswith" }, { text: "obsahuje", value: "contains" }, { text: "rovný", value: "equal" }, { text: "nerovná", value: "notequal" }, ],
     NumberMenuOptions: [{ text: "Menej ako", value: "LessThan" }, { text: "Väčší než", value: "GreaterThan" }, { text: "Menšie alebo rovné", value: "LessThanOrEqual" }, { text: "Väčší alebo rovné", value: "GreaterThanOrEqual" }, { text: "rovný", value: "Equal" }, { text: "nerovná", value: "NotEqual" }, ],
     PredicateAnd: "A",
     PredicateOr: "OR",
