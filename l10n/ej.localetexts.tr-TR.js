@@ -443,7 +443,7 @@ if (ej.Grid) ej.Grid.Locale["tr-TR"] = {
     ExcelExport: "Excel İhracat",
     WordExport: "word İhracat",
     PdfExport: "PDF İhracat",
-    StringMenuOptions: [{ text: "İle başlar", value: "Starts With" }, { text: "İle bitiyor", value: "Ends With" }, { text: "içeriyor", value: "Contains" }, { text: "Eşit", value: "Equal" }, { text: "Eşit değil", value: "NotEqual" }, ],
+    StringMenuOptions: [{ text: "İle başlar", value: "startswith" }, { text: "İle bitiyor", value: "endswith" }, { text: "içeriyor", value: "contains" }, { text: "Eşit", value: "equal" }, { text: "Eşit değil", value: "notequal" }, ],
     NumberMenuOptions: [{ text: "Daha az", value: "LessThan" }, { text: "Daha harika", value: "GreaterThan" }, { text: "Veya Eşit Less Than", value: "LessThanOrEqual" }, { text: "Veya Eşit Daha Büyük", value: "GreaterThanOrEqual" }, { text: "Eşit", value: "Equal" }, { text: "Eşit değil", value: "NotEqual" }, ],
     PredicateAnd: "VE",
     PredicateOr: "VEYA",

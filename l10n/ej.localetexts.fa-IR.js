@@ -424,7 +424,7 @@ if (ej.Grid) ej.Grid.Locale["fa-IR"] = {
     ExcelExport: "اکسل صادرات",
     WordExport: "کلمه صادرات",
     PdfExport: "PDF صادرات",
-    StringMenuOptions: [{ text: "شروع می شود با", value: "Starts With"},{ text: "به پایان می رسد با", value: "Ends With"},{ text: "شامل", value: "Contains"},{ text: "برابر", value: "Equal"},{ text: "نا برابر", value: "NotEqual"},],
+    StringMenuOptions: [{ text: "شروع می شود با", value: "startswith"},{ text: "به پایان می رسد با", value: "endswith"},{ text: "شامل", value: "contains"},{ text: "برابر", value: "equal"},{ text: "نا برابر", value: "notequal"},],
     NumberMenuOptions: [{ text: "کمتر از", value: "LessThan" }, { text: "بزرگتر از", value: "GreaterThan" }, { text: "کمتر یا مساوی", value: "LessThanOrEqual" }, { text: "بزرگتر یا مساوی", value: "GreaterThanOrEqual" }, { text: "برابر", value: "Equal" }, { text: "نا برابر", value: "NotEqual" }, ],
     PredicateAnd: "و",
     PredicateOr: "یا",

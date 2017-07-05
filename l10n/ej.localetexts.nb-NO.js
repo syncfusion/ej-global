@@ -443,7 +443,7 @@ if (ej.Grid) ej.Grid.Locale["nb-NO"] = {
     ExcelExport: "Excel Export",
     WordExport: "Word Export",
     PdfExport: "PDF Export",
-    StringMenuOptions: [{ text: "begynner med", value: "Starts With" }, { text: "slutter med", value: "Ends With" }, { text: "inneholder", value: "Contains" }, { text: "Lik", value: "Equal" }, { text: "Ikke equal", value: "NotEqual" }, ],
+    StringMenuOptions: [{ text: "begynner med", value: "startswith" }, { text: "slutter med", value: "endswith" }, { text: "inneholder", value: "contains" }, { text: "Lik", value: "equal" }, { text: "Ikke equal", value: "notequal" }, ],
     NumberMenuOptions: [{ text: "Mindre enn", value: "LessThan" }, { text: "Større enn", value: "GreaterThan" }, { text: "Mindre enn eller equal", value: "LessThanOrEqual" }, { text: "Større enn eller equal", value: "GreaterThanOrEqual" }, { text: "Lik", value: "Equal" }, { text: "Ikke equal", value: "NotEqual" }, ],
     PredicateAnd: "OG",
     PredicateOr: "ELLER",

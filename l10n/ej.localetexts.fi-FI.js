@@ -443,7 +443,7 @@ if (ej.Grid) ej.Grid.Locale["fi-FI"] = {
     ExcelExport: "Excel Vie",
     WordExport: "Word Export",
     PdfExport: "PDF Export",
-    StringMenuOptions: [{ text: "alkaa", value: "Starts With"},{ text: "Ends With", value: "Ends With"},{ text: "Sisältää", value: "Contains"},{ text: "yhtäläinen", value: "Equal"},{ text: "ei Equal", value: "NotEqual"},],
+    StringMenuOptions: [{ text: "alkaa", value: "startswith"},{ text: "Ends With", value: "endswith"},{ text: "Sisältää", value: "contains"},{ text: "yhtäläinen", value: "equal"},{ text: "ei Equal", value: "notequal"},],
     NumberMenuOptions: [{ text: "Vähemmän kuin", value: "LessThan" }, { text: "Suurempi kuin", value: "GreaterThan" }, { text: "Pienempi tai yhtä suuri", value: "LessThanOrEqual" }, { text: "Suurempi tai yhtä suuri", value: "GreaterThanOrEqual" }, { text: "yhtäläinen", value: "Equal" }, { text: "ei Equal", value: "NotEqual" }, ],
     PredicateAnd: "JA",
     PredicateOr: "TAI",

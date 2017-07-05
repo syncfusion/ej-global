@@ -444,7 +444,7 @@ if (ej.Grid) ej.Grid.Locale["ar-AE"] = {
     ExcelExport: "تصدير إكسل",
     WordExport: "تصدير كلمة",
     PdfExport: "PDF تصدير",
-    StringMenuOptions: [{ text: "ابدا ب", value: "Starts With" }, { text: "ينتهي مع", value: "Ends With" }, { text: "يحتوي على", value: "Contains" }, { text: "متساوي", value: "Equal" }, { text: "غير متساوي", value: "NotEqual" }, ],
+    StringMenuOptions: [{ text: "ابدا ب", value: "startswith" }, { text: "ينتهي مع", value: "endswith" }, { text: "يحتوي على", value: "contains" }, { text: "متساوي", value: "equal" }, { text: "غير متساوي", value: "notequal" }, ],
     NumberMenuOptions: [{ text: "أقل من", value: "LessThan" }, { text: "اعظم من", value: "GreaterThan" }, { text: "أقل من أو يساوي", value: "LessThanOrEqual" }, { text: "أكبر من أو يساوي", value: "GreaterThanOrEqual" }, { text: "متساوي", value: "Equal" }, { text: "غير متساوي", value: "NotEqual" }, ],
     PredicateAnd: "و",
     PredicateOr: "أو",
