@@ -443,7 +443,7 @@ if (ej.Grid) ej.Grid.Locale["hu-HU"] = {
     ExcelExport: "Excel Export",
     WordExport: "szó Export",
     PdfExport: "PDF exportálása",
-    StringMenuOptions: [{ text: "Kezdődik", value: "startswith" }, { text: "Végződik", value: "endswith" }, { text: "tartalmaz", value: "contains" }, { text: "Egyenlő", value: "equal" }, { text: "Nem equal", value: "notequal" }, ],
+    StringMenuOptions: [{ text: "Kezdődik", value: "StartsWith" }, { text: "Végződik", value: "EndsWith" }, { text: "tartalmaz", value: "Contains" }, { text: "Egyenlő", value: "Equal" }, { text: "Nem equal", value: "NotEqual" }, ],
     NumberMenuOptions: [{ text: "Kevesebb, mint", value: "LessThan" }, { text: "Nagyobb, mint", value: "GreaterThan" }, { text: "Kisebb vagy equal", value: "LessThanOrEqual" }, { text: "Nagyobb vagy equal", value: "GreaterThanOrEqual" }, { text: "Egyenlő", value: "Equal" }, { text: "Nem equal", value: "NotEqual" }, ],
     PredicateAnd: "ÉS",
     PredicateOr: "VAGY",

@@ -443,7 +443,7 @@ if (ej.Grid) ej.Grid.Locale["ko-KR"] = {
     ExcelExport: "엑셀 내보내기",
     WordExport: "워드 내보내기",
     PdfExport: "PDF 내보내기",
-    StringMenuOptions: [{ text: "시작", value: "startswith" }, { text: "로 종료", value: "endswith" }, { text: "포함", value: "contains" }, { text: "같은", value: "equal" }, { text: "같지 않음", value: "notequal" }, ],
+    StringMenuOptions: [{ text: "시작", value: "StartsWith" }, { text: "로 종료", value: "EndsWith" }, { text: "포함", value: "Contains" }, { text: "같은", value: "Equal" }, { text: "같지 않음", value: "NotEqual" }, ],
     NumberMenuOptions: [{ text: "보다 작음", value: "LessThan" }, { text: "보다 큰", value: "GreaterThan" }, { text: "거나 같음보다 적은", value: "LessThanOrEqual" }, { text: "아니면보다 크", value: "GreaterThanOrEqual" }, { text: "같은", value: "Equal" }, { text: "같지 않음", value: "NotEqual" }, ],
     PredicateAnd: "과",
     PredicateOr: "또는",

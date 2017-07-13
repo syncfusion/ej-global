@@ -443,7 +443,7 @@ if (ej.Grid) ej.Grid.Locale["ja-JP"] = {
     ExcelExport: "Excelのエクスポート",
     WordExport: "Wordのエクスポート",
     PdfExport: "PDFエクスポート",
-    StringMenuOptions: [{ text: "で始まります", value: "startswith" }, { text: "で終わります", value: "endswith" }, { text: "含まれています", value: "contains" }, { text: "等しい", value: "equal" }, { text: "等しくありません", value: "notequal" }, ],
+    StringMenuOptions: [{ text: "で始まります", value: "StartsWith" }, { text: "で終わります", value: "EndsWith" }, { text: "含まれています", value: "Contains" }, { text: "等しい", value: "Equal" }, { text: "等しくありません", value: "NotEqual" }, ],
     NumberMenuOptions: [{ text: "未満", value: "LessThan" }, { text: "より大きい", value: "GreaterThan" }, { text: "か等しいより小さい", value: "LessThanOrEqual" }, { text: "か等しいより大きい", value: "GreaterThanOrEqual" }, { text: "等しい", value: "Equal" }, { text: "等しくありません", value: "NotEqual" }, ],
     PredicateAnd: "そして",
     PredicateOr: "OR",

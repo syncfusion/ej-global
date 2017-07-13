@@ -443,7 +443,7 @@ if (ej.Grid) ej.Grid.Locale["hr-HR"] = {
     ExcelExport: "Excel Izvoz",
     WordExport: "Riječ izvoz",
     PdfExport: "PDF Izvoz",
-    StringMenuOptions: [{ text: "počinje s", value: "startswith" }, { text: "završava sa", value: "endswith" }, { text: "sadrži", value: "contains" }, { text: "Jednak", value: "equal" }, { text: "nije equalo", value: "notequal" }, ],
+    StringMenuOptions: [{ text: "počinje s", value: "StartsWith" }, { text: "završava sa", value: "EndsWith" }, { text: "sadrži", value: "Contains" }, { text: "Jednak", value: "Equal" }, { text: "nije equalo", value: "NotEqual" }, ],
     NumberMenuOptions: [{ text: "Manje od", value: "LessThan" }, { text: "veće od", value: "GreaterThan" }, { text: "Manje ili equalo", value: "LessThanOrEqual" }, { text: "Veće ili equalo", value: "GreaterThanOrEqual" }, { text: "Jednak", value: "Equal" }, { text: "nije equalo", value: "NotEqual" }, ],
     PredicateAnd: "I",
     PredicateOr: "ILI",

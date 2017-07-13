@@ -443,7 +443,7 @@ if (ej.Grid) ej.Grid.Locale["zh-CN"] = {
     ExcelExport: "Excel导出",
     WordExport: "字出口",
     PdfExport: "PDF导出",
-    StringMenuOptions: [{ text: "以。。开始", value: "startswith" }, { text: "的endsWith", value: "endswith" }, { text: "包含", value: "contains" }, { text: "等于", value: "equal" }, { text: "不平等", value: "notequal" }, ],
+    StringMenuOptions: [{ text: "以。。开始", value: "StartsWith" }, { text: "的endsWith", value: "EndsWith" }, { text: "包含", value: "Contains" }, { text: "等于", value: "Equal" }, { text: "不平等", value: "NotEqual" }, ],
     NumberMenuOptions: [{ text: "少于", value: "LessThan" }, { text: "比...更棒", value: "GreaterThan" }, { text: "小于或等于", value: "LessThanOrEqual" }, { text: "大于或等于", value: "GreaterThanOrEqual" }, { text: "等于", value: "Equal" }, { text: "不平等", value: "NotEqual" }, ],
     PredicateAnd: "和",
     PredicateOr: "要么",
