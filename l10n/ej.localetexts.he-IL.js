@@ -444,7 +444,7 @@ if (ej.Grid) ej.Grid.Locale["he-IL"] = {
     ExcelExport: "Excel ייצוא",
     WordExport: "Word יצוא",
     PdfExport: "ייצוא PDF",
-    StringMenuOptions: [{ text: "מתחיל עם", value: "startswith" }, { text: "מסתיים", value: "endswith" }, { text: "מכיל", value: "contains" }, { text: "שווה", value: "equal" }, { text: "לא שווה", value: "notequal" }, ],
+    StringMenuOptions: [{ text: "מתחיל עם", value: "StartsWith" }, { text: "מסתיים", value: "EndsWith" }, { text: "מכיל", value: "Contains" }, { text: "שווה", value: "Equal" }, { text: "לא שווה", value: "NotEqual" }, ],
     NumberMenuOptions: [{ text: "פחות מ", value: "LessThan" }, { text: "גדול מ", value: "GreaterThan" }, { text: "קטן או שווה", value: "LessThanOrEqual" }, { text: "גדול או שווה", value: "GreaterThanOrEqual" }, { text: "שווה", value: "Equal" }, { text: "לא שווה", value: "NotEqual" }, ],
     PredicateAnd: "ו",
     PredicateOr: "אוֹ",

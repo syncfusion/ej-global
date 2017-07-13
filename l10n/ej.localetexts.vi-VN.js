@@ -443,7 +443,7 @@ if (ej.Grid) ej.Grid.Locale["vi-VN"] = {
     ExcelExport: "Excel Export",
     WordExport: "lời khẩu",
     PdfExport: "PDF xuất khẩu",
-    StringMenuOptions: [{ text: "Bắt đầu với", value: "startswith" }, { text: "Kết thúc Với", value: "endswith" }, { text: "Chứa đựng", value: "contains" }, { text: "bằng", value: "equal" }, { text: "Không công bằng", value: "notequal" }, ],
+    StringMenuOptions: [{ text: "Bắt đầu với", value: "StartsWith" }, { text: "Kết thúc Với", value: "EndsWith" }, { text: "Chứa đựng", value: "Contains" }, { text: "bằng", value: "Equal" }, { text: "Không công bằng", value: "NotEqual" }, ],
     NumberMenuOptions: [{ text: "Ít hơn", value: "LessThan" }, { text: "Lớn hơn", value: "GreaterThan" }, { text: "Less Than Hoặc bình đẳng", value: "LessThanOrEqual" }, { text: "Lớn hơn hoặc bằng", value: "GreaterThanOrEqual" }, { text: "bằng", value: "Equal" }, { text: "Không công bằng", value: "NotEqual" }, ],
     PredicateAnd: "VÀ",
     PredicateOr: "HOẶC LÀ",
