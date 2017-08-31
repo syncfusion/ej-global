@@ -732,7 +732,8 @@
                     EmptyFormat: "Formát pre výpočet je prázdna.",
                     Warning: "Varovanie",
                     Confirm: "Počíta s rovnakým názvom už existuje. Z dôvodu chcete nahradiť?",
-					KPIs: "KPI"
+                    KPIs: "KPI",
+                    AddCurrentSelectionToFilter: "Pridajte aktuálny výber na filtrovanie"
                 };
                 break;
             case "ejPivotGauge":
@@ -1114,7 +1115,8 @@
                     NormalLayout: "Normálneho rozloženia",
                     NormalTopSummary: "Normálne hore prehľad usporiadania vodičov",
                     NoSummaries:"Žiadne zhrnutie usporiadania",
-					Fontcolor: "Farba písma"
+                    Fontcolor: "Farba písma",
+                    AddCurrentSelectionToFilter: "Pridajte aktuálny výber na filtrovanie"
                 };
                 break;
             case "ejPivotPager":
@@ -1187,7 +1189,8 @@
                     Warning: "Varovanie",
                     OK: "Tlačidlo OK",
                     Cancel: "Zrušenie",
-                    Search: "Vyhľadávanie"
+                    Search: "Vyhľadávanie",
+                    AddCurrentSelectionToFilter: "Pridajte aktuálny výber na filtrovanie"
                 };
                 break;
             case "ejdatavisualization":

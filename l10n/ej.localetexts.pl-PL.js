@@ -734,7 +734,8 @@
                     EmptyFormat: "Format String obliczana dla Państwa jest pusty.",
                     Warning: "Ostrzeżenie",
                     Confirm: "Oblicza Państwa o tej samej nazwie już istnieje. Z powodu chcesz się wymienić?",
-					KPIs: "KPI"
+                    KPIs: "KPI",
+                    AddCurrentSelectionToFilter: "Dodaj bieżący wybór do filtrowania"
                 };
                 break;
             case "ejPivotGauge":
@@ -1115,7 +1116,8 @@
                     NormalLayout: "Normalny układ",
                     NormalTopSummary: "Normalne Góra zestawienie rozkładu",
                     NoSummaries: "Nr Streszczeniami rozkład",
-					Fontcolor: "Kolor czcionki"
+                    Fontcolor: "Kolor czcionki",
+                    AddCurrentSelectionToFilter: "Dodaj bieżący wybór do filtrowania"
                 };
                 break;
             case "ejPivotPager":
@@ -1188,7 +1190,8 @@
                     Warning: "Ostrzeżenie",
                     OK: "OK",
                     Cancel: "Anuluj",
-                    Search: "Wyszukiwanie"
+                    Search: "Wyszukiwanie",
+                    AddCurrentSelectionToFilter: "Dodaj bieżący wybór do filtrowania"
                 };
                 break;
             case "ejdatavisualization":

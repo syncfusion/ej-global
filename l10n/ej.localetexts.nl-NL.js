@@ -734,7 +734,8 @@
                     EmptyFormat: "Formaattekenreeks berekende lid is leeg.",
                     Warning: "Waarschuwing",
                     Confirm: "Berekende lid met dezelfde naam bestaat reeds. Vanwege wilt vervangen?",
-					KPIs: "KPI's"
+                    KPIs: "KPI's",
+                    AddCurrentSelectionToFilter: "Voeg huidige selectie toe om te filteren"
                 };
                 break;
             case "ejPivotGauge":
@@ -1115,7 +1116,8 @@
                     NormalLayout: "Normale lay-out",
                     NormalTopSummary: "Normaal Top Overzicht Layout",
                     NoSummaries: "Geen overzichten lay-out",
-					Fontcolor: "Tekstkleur"
+                    Fontcolor: "Tekstkleur",
+                    AddCurrentSelectionToFilter: "Voeg huidige selectie toe om te filteren"
                 };
                 break;
             case "ejPivotPager":
@@ -1188,7 +1190,8 @@
                     Warning: "Waarschuwing",
                     OK: "OK",
                     Cancel: "Annuleren",
-                    Search: "Zoeken"
+                    Search: "Zoeken",
+                    AddCurrentSelectionToFilter: "Voeg huidige selectie toe om te filteren"
                 };
                 break;
             case "ejdatavisualization":

@@ -748,7 +748,8 @@
                         EmptyFormat: "格式字串對計算會員是空的。",
                         Warning: "警告訊息",
                         Confirm: "計算會員與同名設定檔已經存在。 因為想要更換嗎 ?",
-						KPIs: "關鍵績效指標"
+                        KPIs: "關鍵績效指標",
+                        AddCurrentSelectionToFilter: "添加當前選擇進行過濾"
                     };
                     break;
                 case "ejPivotGauge":
@@ -1134,7 +1135,8 @@
                         NormalLayout: "標準配置",
                         NormalTopSummary: "正常上摘要版面配置",
                         NoSummaries: "無摘要版面配置",
-						Fontcolor: "字体颜色"
+                        Fontcolor: "字体颜色",
+                        AddCurrentSelectionToFilter: "添加當前選擇進行過濾"
                     };
                     break;
                 case "ejPivotPager":
@@ -1209,7 +1211,8 @@
                         Warning: "警告",
                         OK: "“确定” 按钮",
                         Cancel: "取消",
-                        Search: "搜尋"
+                        Search: "搜尋",
+                        AddCurrentSelectionToFilter: "添加當前選擇進行過濾"
                     };
                     break;
                 case "ejdatavisualization":

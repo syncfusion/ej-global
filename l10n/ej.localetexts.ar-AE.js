@@ -756,7 +756,8 @@
                         EmptyFormat: "شكل سلسلة محسوبة عضو فارغ",
                         Warning: "تحذير",
                         Confirm: "حساب العضو الذى يحمل نفس الاسم موجود مسبقا. بسبب تريد استبدال?",
-						KPIs: "مؤشرات الأداء الرئيسية"
+                        KPIs: "مؤشرات الأداء الرئيسية",
+                        AddCurrentSelectionToFilter: "أضف التحديد الحالي للتصفية"
                     };
                     break;
                 case "ejPivotGauge":
@@ -1145,7 +1146,8 @@
                         NormalLayout: "تخطيط العادى",
                         NormalTopSummary: "التشغيل الطبيعى موجز للمكونات",
                         NoSummaries: "اى تصميم ملخصات",
-						Fontcolor: "لون الخط"
+                        Fontcolor: "لون الخط",
+                        AddCurrentSelectionToFilter: "أضف التحديد الحالي للتصفية"
                     };
                     break;
                 case "ejPivotPager":
@@ -1222,7 +1224,8 @@
                         OK: "موافق",
                         Cancel: "الغاء",
                         Close: "قريب",
-                        Search: "البحث"
+                        Search: "البحث",
+                        AddCurrentSelectionToFilter: "أضف التحديد الحالي للتصفية"
                     };
                     break;
                 case "ejdatavisualization":

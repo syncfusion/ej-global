@@ -744,7 +744,8 @@
                     EmptyFormat: "Cadena de formato para miembro calculado está vacía.",
                     Warning: "Advertencia",
                     Confirm: "Miembro calculado con el mismo nombre ya existe. Debido a que desea reemplazar ?",
-					KPIs: "KPI"
+                    KPIs: "KPI",
+                    AddCurrentSelectionToFilter: "Añadir la selección actual al filtro"
                 };
                 break;
             case "ejPivotGauge":
@@ -1126,7 +1127,8 @@
                     MultipleItems: "Varios elementos",
                     All: "Todos",
                     Search: "Buscar",
-					Fontcolor: "Color de fuente"
+                    Fontcolor: "Color de fuente",
+                    AddCurrentSelectionToFilter: "Añadir la selección actual al filtro"
                 };
                 break;
             case "ejPivotPager":
@@ -1201,7 +1203,8 @@
                     OK: "OK",
                     Cancel: "Cancelar",
                     Close: "Cerrar",
-                    Search: "Buscar"
+                    Search: "Buscar",
+                    AddCurrentSelectionToFilter: "Añadir la selección actual al filtro"
                 };
                 break;
             case "ejdatavisualization":

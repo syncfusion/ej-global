@@ -733,7 +733,8 @@
                     EmptyFormat: "Formato de String para calculado membro está vazio.",
                     Warning: "Aviso",
                     Confirm: "Os calculados com o mesmo nome já existe. Devido à deseja substituir?",
-					KPIs: "KPIs"
+                    KPIs: "KPIs",
+                    AddCurrentSelectionToFilter: "Adicionar seleção atual ao filtro"
                 };
                 break;
             case "ejPivotGauge":
@@ -1114,7 +1115,8 @@
                     NormalLayout: "Layout Normal",
                     NormalTopSummary: "Topo normal layout de resumo",
                     NoSummaries:"Nenhum layout de resumos",
-					Fontcolor: "Cor da fonte"
+                    Fontcolor: "Cor da fonte",
+                    AddCurrentSelectionToFilter: "Adicionar seleção atual ao filtro"
                 };
                 break;
             case "ejPivotPager":
@@ -1187,7 +1189,8 @@
                     Warning: "Aviso",
                     OK: "OK",
                     Cancel: "Cancelar",
-                    Search: "Pesquisar"
+                    Search: "Pesquisar",
+                    AddCurrentSelectionToFilter: "Adicionar seleção atual ao filtro"
                 };
                 break;
             case "ejdatavisualization":

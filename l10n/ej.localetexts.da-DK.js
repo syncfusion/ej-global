@@ -729,7 +729,8 @@
                     EmptyFormat: "Formatstrengen for beregnede medlem er tom.",
                     Warning: "Advarsel",
                     Confirm: "Beregnede medlem med samme navn eksisterer allerede. Pga vil erstatte?",
-					KPIs: "KPI'er"
+                    KPIs: "KPI'er",
+                    AddCurrentSelectionToFilter: "Tilføj nuværende valg for at filtrere"
                 };
                 break;
             case "ejPivotGauge":
@@ -1110,7 +1111,8 @@
                     NormalLayout: "Normal Layout",
                     NormalTopSummary: "Normal Top Layout oversigt",
                     NoSummaries: "Ingen Resuméer Layout",
-					Fontcolor: "skriftfarve"
+                    Fontcolor: "skriftfarve",
+                    AddCurrentSelectionToFilter: "Tilføj nuværende valg for at filtrere"
                 };
                 break;
             case "ejPivotPager":
@@ -1183,7 +1185,8 @@
                     Warning: "Advarsel",
                     OK: "OK",
                     Cancel: "Annuller",
-                    Search: "Søg"
+                    Search: "Søg",
+                    AddCurrentSelectionToFilter: "Tilføj nuværende valg for at filtrere"
                 };
                 break;
             case "ejdatavisualization":

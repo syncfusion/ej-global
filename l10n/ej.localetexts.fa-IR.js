@@ -715,7 +715,8 @@
                     EmptyFormat: "زهي عضو محاسبه شده برای فرمت خالی است.",
                     Warning: "هشدار",
                     Confirm: "عضو محاسبه شده با این نام از قبل وجود دارد. به دليل می خواهید جایگزین کنید؟",
-					KPIs: "KPIs"
+                    KPIs: "KPIs",
+                    AddCurrentSelectionToFilter: "اضافه کردن انتخاب فعلی برای فیلتر کردن"
                 };
                 break;
             case "ejPivotGauge":
@@ -1096,7 +1097,8 @@
                     NormalLayout: "آرایش طبیعی است",
                     NormalTopSummary: "خلاصه بالای صفحه آرایی عادی است",
                     NoSummaries: "نه طرح خلاصه",
-					Fontcolor: "رنگ قلم"
+                    Fontcolor: "رنگ قلم",
+                    AddCurrentSelectionToFilter: "اضافه کردن انتخاب فعلی برای فیلتر کردن"
                 };
                 break;
             case "ejPivotPager":
@@ -1169,7 +1171,8 @@
                     Warning: "هشدار",
                     OK: "OK",
                     Cancel: "لغو",
-                    Search: "جستجو"
+                    Search: "جستجو",
+                    AddCurrentSelectionToFilter: "اضافه کردن انتخاب فعلی برای فیلتر کردن"
                 };
                 break;
             case "ejdatavisualization":

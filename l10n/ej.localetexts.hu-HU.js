@@ -732,7 +732,8 @@
                     EmptyFormat: "A formátumot az üres.",
                     Warning: "Figyelmeztetés",
                     Confirm: "A kiszámított már létezik. Mert ki akarja cserélni?",
-					KPIs: "KPI"
+                    KPIs: "KPI",
+                    AddCurrentSelectionToFilter: "Az aktuális szűrő hozzáadása a szűrőhöz"
                 };
                 break;
             case "ejPivotGauge":
@@ -1113,7 +1114,8 @@
                     NormalLayout: "Hagyományos elrendezés",
                     NormalTopSummary: "A szokásos felső összefoglaló elrendezés",
                     NoSummaries: "Az összegzések elrendezés",
-					Fontcolor: "Betű szín"
+                    Fontcolor: "Betű szín",
+                    AddCurrentSelectionToFilter: "Az aktuális szűrő hozzáadása a szűrőhöz"
                 };
                 break;
             case "ejPivotPager":
@@ -1186,7 +1188,8 @@
                     Warning: "Figyelmeztetés",
                     OK: "OK",
                     Cancel: "Törlés",
-                    Search: "Keresés"
+                    Search: "Keresés",
+                    AddCurrentSelectionToFilter: "Az aktuális szűrő hozzáadása a szűrőhöz"
                 };
                 break;
             case "ejdatavisualization":

@@ -746,7 +746,8 @@
                     EmptyFormat: "Format String für berechnete Mitglied ist leer.",
                     Warning: "Warnung",
                     Confirm: "Berechnete Member mit demselben Namen ist bereits vorhanden. Durch ersetzen möchten?",
-					KPIs: "KPIs"
+                    KPIs: "KPIs",
+                    AddCurrentSelectionToFilter: "Aktuelle Auswahl zum Filtern hinzufügen"
                 };
                 break;
             case "ejPivotGauge":
@@ -1130,7 +1131,8 @@
                     NormalLayout: "Normale Layout",
                     NormalTopSummary: "Normal nach oben Layout",
                     NoSummaries: "Keine Zusammenfassungen Layout",
-					Fontcolor: "Schriftfarbe"
+                    Fontcolor: "Schriftfarbe",
+                    AddCurrentSelectionToFilter: "Aktuelle Auswahl zum Filtern hinzufügen"
                 };
                 break;
             case "ejPivotPager":
@@ -1209,7 +1211,8 @@
                     OK: "OK",
                     Cancel: "Abbrechen",
                     Close: "In der Nähe",
-                    Search: "Suche"
+                    Search: "Suche",
+                    AddCurrentSelectionToFilter: "Aktuelle Auswahl zum Filtern hinzufügen"
                 };
                 break;
             case "ejdatavisualization":

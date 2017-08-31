@@ -732,7 +732,8 @@
                     EmptyFormat: "Formatsträngen för beräknade medlemmen är tom.",
                     Warning: "Varning",
                     Confirm: "Beräknad medlem med samma namn finns redan. På grund vill ersätta?",
-					KPIs: "KPIs"
+                    KPIs: "KPIs",
+                    AddCurrentSelectionToFilter: "Lägg till aktuellt urval för att filtrera"
                 };
                 break;
             case "ejPivotGauge":
@@ -1113,7 +1114,8 @@
                     NormalLayout: "Normal Layout",
                     NormalTopSummary: "Normala övre sammanfattning Layout",
                     NoSummaries:"Inga sammanfattningar Layout",
-					Fontcolor: "Fontfärg"
+                    Fontcolor: "Fontfärg",
+                    AddCurrentSelectionToFilter: "Lägg till aktuellt urval för att filtrera"
                 };
                 break;
             case "ejPivotPager":
@@ -1186,7 +1188,8 @@
                     Warning: "Varning",
                     OK: "OK",
                     Cancel: "Avbryt",
-                    Search: "Sök"
+                    Search: "Sök",
+                    AddCurrentSelectionToFilter: "Lägg till aktuellt urval för att filtrera"
                 };
                 break;
             case "ejdatavisualization":

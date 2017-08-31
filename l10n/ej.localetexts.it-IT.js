@@ -734,7 +734,8 @@
                     EmptyFormat: "Stringa di formato per membro calcolato è vuota.",
                     Warning: "Avvertenza",
                     Confirm: "Membro calcolato con lo stesso nome esiste già. A causa desidera sostituire?",
-					KPIs: "KPI"
+                    KPIs: "KPI",
+                    AddCurrentSelectionToFilter: "Aggiungi la selezione corrente per filtrare"
                 };
                 break;
             case "ejPivotGauge":
@@ -1115,7 +1116,8 @@
                     NormalLayout: "Layout normale",
                     NormalTopSummary: "Alla parte superiore normale layout Riepilogo",
                     NoSummaries: "Nessuna disposizione riepiloghi",
-					Fontcolor: "Colore del carattere"
+                    Fontcolor: "Colore del carattere",
+                    AddCurrentSelectionToFilter: "Aggiungi la selezione corrente per filtrare"
                 };
                 break;
 

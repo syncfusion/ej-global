@@ -734,7 +734,8 @@
                     EmptyFormat: "Chuỗi định dạng cho tính toán thành viên là rỗng.",
                     Warning: "Cảnh báo",
                     Confirm: "Tính toán thành viên cùng tên đã có. Do muốn thay thế?",
-					KPIs: "KPIs"
+                    KPIs: "KPIs",
+                    AddCurrentSelectionToFilter: "Thêm lựa chọn hiện tại để lọc"
                 };
                 break;
             case "ejPivotGauge":
@@ -1115,7 +1116,8 @@
                     NormalLayout: "Bố trí bình thường",
                     NormalTopSummary: "Top Tóm Lược bố trí bình thường",
                     NoSummaries: "Không có bố trí bản tóm tắt",
-					Fontcolor: "Màu chữ"
+                    Fontcolor: "Màu chữ",
+                    AddCurrentSelectionToFilter: "Thêm lựa chọn hiện tại để lọc"
                 };
                 break;
             case "ejPivotPager":
@@ -1187,7 +1189,8 @@
                     Warning: "Cảnh báo",
                     OK: "OK",
                     Cancel: "Thã'i",
-                    Search: "Tìm kiếm"
+                    Search: "Tìm kiếm",
+                    AddCurrentSelectionToFilter: "Thêm lựa chọn hiện tại để lọc"
                 };
                 break;
             case "ejdatavisualization":

@@ -733,7 +733,8 @@
                     EmptyFormat: "계산 멤버 형식 문자열이 비어 있습니다.",
                     Warning: "경고",
                     Confirm: "계산 멤버 같은 이름이 이미 존재합니다. 그것들을 대체하기 위해 남편의 손에서 인해?",
-					KPIs: "KPI"
+                    KPIs: "KPI",
+                    AddCurrentSelectionToFilter: "현재 선택 항목을 필터에 추가"
                 };
                 break;
             case "ejPivotGauge":
@@ -1114,7 +1115,8 @@
                     NormalLayout: "일반 레이아웃",
                     NormalTopSummary: "일반 최상위 요약 레이아웃",
                     NoSummaries: "요약 레이아웃 없음",
-					Fontcolor: "글꼴 색상"
+                    Fontcolor: "글꼴 색상",
+                    AddCurrentSelectionToFilter: "현재 선택 항목을 필터에 추가"
                 };
                 break;
             case "ejPivotPager":
@@ -1187,7 +1189,8 @@
                     Warning: "경고",
                     OK: "확인",
                     Cancel: "취소",
-                    Search: "검색"
+                    Search: "검색",
+                    AddCurrentSelectionToFilter: "현재 선택 항목을 필터에 추가"
                 };
                 break;
             case "ejdatavisualization":

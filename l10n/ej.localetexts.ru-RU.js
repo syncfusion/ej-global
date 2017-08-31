@@ -730,7 +730,8 @@
                     EmptyFormat: "Строки формата для расчета члена пуст.",
                     Warning: "Предупреждение",
                     Confirm: "Рассчитывается с таким же именем уже существует. Вследствие хотите заменить?",
-					KPIs: "КПЭ"
+                    KPIs: "КПЭ",
+                    AddCurrentSelectionToFilter: "Добавить текущий выбор для фильтрации"
                 };
                 break;
             case "ejPivotGauge":
@@ -1111,7 +1112,8 @@
                     NormalLayout: "Нормальный макет",
                     NormalTopSummary: "Нормальной верхней части резюме отчета",
                     NoSummaries:"Нет резюме отчета",
-					Fontcolor: "Цвет шрифта"
+                    Fontcolor: "Цвет шрифта",
+                    AddCurrentSelectionToFilter: "Добавить текущий выбор для фильтрации"
                 };
                 break;
             case "ejPivotPager":
@@ -1184,7 +1186,8 @@
                     Warning: "Предупреждение",
                     OK: "OK",
                     Cancel: "Отмена",
-                    Search: "Поиск"
+                    Search: "Поиск",
+                    AddCurrentSelectionToFilter: "Добавить текущий выбор для фильтрации"
                 };
                 break;
             case "ejdatavisualization":

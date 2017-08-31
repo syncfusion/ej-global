@@ -731,7 +731,8 @@
                     EmptyFormat: "Rentetan format untuk mengira taburan Anggota kosong.",
                     Warning: "Amaran",
                     Confirm: "Mengira Anggota dengan nama yang sama sudah wujud. Karena ingin ganti?",
-					KPIs: "KPIs"
+                    KPIs: "KPIs",
+                    AddCurrentSelectionToFilter: "Tambah pemilihan semasa ke penapis"
                 };
                 break;
             case "ejPivotGauge":
@@ -1112,7 +1113,8 @@
                     NormalLayout: "Normal Bentangan",
                     NormalTopSummary: "Normal Atas Ringkasan Bentangan",
                     NoSummaries: "Tiada Paparan Ringkasancomment Bentangan",
-					Fontcolor: "font Warna"
+                    Fontcolor: "font Warna",
+                    AddCurrentSelectionToFilter: "Tambah pemilihan semasa ke penapis"
                 };
                 break;
             case "ejPivotPager":
@@ -1185,7 +1187,8 @@
                     Warning: "Amaran",
                     OK: "OK",
                     Cancel: "Batalkan",
-                    Search: "Carian"
+                    Search: "Carian",
+                    AddCurrentSelectionToFilter: "Tambah pemilihan semasa ke penapis"
                 };
                 break;
             case "ejdatavisualization":

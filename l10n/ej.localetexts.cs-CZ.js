@@ -743,7 +743,8 @@
                             EmptyFormat: "Textový řetězec formátu pro vypočtená je prázdná.",
                             Warning: "Varování",
                             Confirm: "Vypočítané se stejným názvem již existuje. V důsledku chcete nahradit?",
-							KPIs: "KPI"
+                            KPIs: "KPI",
+                            AddCurrentSelectionToFilter: "Přidat aktuální výběr k filtrování"
                         };
                         break;
                     case "ejPivotGauge":
@@ -1131,7 +1132,8 @@
                             NormalLayout: "Normální vzhled",
                             NormalTopSummary: "Normální Souhrn uspořádání",
                             NoSummaries: "Žádné souhrny uspořádání",
-							Fontcolor: "Barva fontu"
+                            Fontcolor: "Barva fontu",
+                            AddCurrentSelectionToFilter: "Přidat aktuální výběr k filtrování"
                         };
                         break;
                     case "ejPivotPager":
@@ -1205,7 +1207,8 @@
                             OK: "Tlačítko OK",
                             Cancel: "Zrušit",
                             Close: "Zavřete",
-                            Search: "Vyhledávání"
+                            Search: "Vyhledávání",
+                            AddCurrentSelectionToFilter: "Přidat aktuální výběr k filtrování"
                         };
                         break;
                     case "ejdatavisualization":

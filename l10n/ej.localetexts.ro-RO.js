@@ -731,7 +731,8 @@
                     EmptyFormat: "Şirul de format pentru statele calculată este gol.",
                     Warning: "Avertisment",
                     Confirm: "Calculează Statele cu acelaşi nume există deja. Datorită doriţi să ÎNLOCUIŢI?",
-					KPIs: "KPI-uri"
+                    KPIs: "KPI-uri",
+                    AddCurrentSelectionToFilter: "Adaugă selecția curentă pentru a filtra"
                 };
                 break;
             case "ejPivotGauge":
@@ -1112,7 +1113,8 @@
                     NormalLayout: "Dispunerea normală",
                     NormalTopSummary: "Dispunerea normală de top sumar",
                     NoSummaries:"Nr. rezumate schemei",
-					Fontcolor: "Culoarea fontului"
+                    Fontcolor: "Culoarea fontului",
+                    AddCurrentSelectionToFilter: "Adaugă selecția curentă pentru a filtra"
                 };
                 break;
             case "ejPivotPager":
@@ -1185,7 +1187,8 @@
                     Warning: "Avertisment",
                     OK: "OK",
                     Cancel: "Anula",
-                    Search: "Căutare"
+                    Search: "Căutare",
+                    AddCurrentSelectionToFilter: "Adaugă selecția curentă pentru a filtra"
                 };
                 break;
             case "ejdatavisualization":

@@ -732,7 +732,8 @@
                     EmptyFormat: "Muodonmääritys on laskettu jäsenvaltioiden on tyhjä.",
                     Warning: "Varoitus",
                     Confirm: "Laskettu jäsenvaltioiden on jo olemassa. Koska haluat korvata?",
-					KPIs: "KPI"
+                    KPIs: "KPI",
+                    AddCurrentSelectionToFilter: "Lisää nykyinen valinta suodatukseen"
                 };
                 break;
             case "ejPivotGauge":
@@ -1113,7 +1114,8 @@
                     NormalLayout: "Normaali asettelu",
                     NormalTopSummary: "Normaali nostotoiminto yhteenveto asettelu",
                     NoSummaries:"Mitään yhteenvetoja asettelu",
-					Fontcolor: "Fontin väri"
+                    Fontcolor: "Fontin väri",
+                    AddCurrentSelectionToFilter: "Lisää nykyinen valinta suodatukseen"
                 };
                 break;
             case "ejPivotPager":
@@ -1186,7 +1188,8 @@
                     Warning: "Varoitus",
                     OK: "OK",
                     Cancel: "Peruuta",
-                    Search: "Haku"
+                    Search: "Haku",
+                    AddCurrentSelectionToFilter: "Lisää nykyinen valinta suodatukseen"
                 };
                 break;
             case "ejdatavisualization":

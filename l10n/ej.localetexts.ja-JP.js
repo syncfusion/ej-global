@@ -734,7 +734,8 @@
                     EmptyFormat: "計算されたメンバの形式の文字列が空になっています。",
                     Warning: "警告",
                     Confirm: "計算されたメンバが同じ名前ですでに存在しています。 を交換するためにしますか？",
-					KPIs: "KPI"
+                    KPIs: "KPI",
+                    AddCurrentSelectionToFilter: "フィルタに現在の選択範囲を追加する"
                 };
                 break;
             case "ejPivotGauge":
@@ -1115,7 +1116,8 @@
                     NormalLayout: "通常のレイアウト",
                     NormalTopSummary: "通常の最上位のレイアウトの概要",
                     NoSummaries: "サマリーのレイアウトがありません",
-					Fontcolor: "フォントの色"
+                    Fontcolor: "フォントの色",
+                    AddCurrentSelectionToFilter: "フィルタに現在の選択範囲を追加する"
                 };
                 break;
             case "ejPivotPager":
@@ -1188,7 +1190,8 @@
                     Warning: "警告",
                     OK: "OK をクリック",
                     Cancel: "キャンセル",
-                    Search: "検索"
+                    Search: "検索",
+                    AddCurrentSelectionToFilter: "フィルタに現在の選択範囲を追加する"
                 };
                 break;
             case "ejdatavisualization":

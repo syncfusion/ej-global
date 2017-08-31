@@ -734,7 +734,8 @@
                     EmptyFormat: "מחרוזת התבנית עבור חבר מחושבים ריק.",
                     Warning: "אזהרה",
                     Confirm: "מחושב חבר עם שם זהה קיים כבר. עקב ברצונך להחליף?",
-					KPIs: "KPIs"
+                    KPIs: "KPIs",
+                    AddCurrentSelectionToFilter: "הוסף את הבחירה הנוכחית לסנן"
                 };
                 break;
             case "ejPivotGauge":
@@ -1115,7 +1116,8 @@
                     NormalLayout: "פריסת רגילה",
                     NormalTopSummary: "פריסת סיכום העליון רגילה",
                     NoSummaries: "אין תקצירים פריסה",
-					Fontcolor: "צבע גופן"
+                    Fontcolor: "צבע גופן",
+                    AddCurrentSelectionToFilter: "הוסף את הבחירה הנוכחית לסנן"
                 };
                 break;
             case "ejPivotPager":
@@ -1188,7 +1190,8 @@
                     Warning: "אזהרה",
                     OK: "אישור",
                     Cancel: "ביטול",
-                    Search: "חיפוש"
+                    Search: "חיפוש",
+                    AddCurrentSelectionToFilter: "הוסף את הבחירה הנוכחית לסנן"
                 };
                 break;
             case "ejdatavisualization":

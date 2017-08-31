@@ -430,7 +430,8 @@
                     OK: "OK",
                     Cancel: "Cancel",
                     Close: "Close",
-                    Search: "Search"
+                    Search: "Search",
+                    AddCurrentSelectionToFilter: "Ychwanegwch y dewis cyfredol i hidlo"
                 };
                 break;
             case "ejPivotPager":
@@ -820,7 +821,8 @@
                     NormalLayout: "Normal Layout",
                     NormalTopSummary: "NormalTopSummary Layout",
                     NoSummaries: "NoSummaries Layout",
-					Fontcolor: "Font Colour"
+                    Fontcolor: "Font Colour",
+                    AddCurrentSelectionToFilter: "Ychwanegwch y dewis cyfredol i hidlo"
                 };
                 break;
             case "ejPivotClient":
@@ -979,7 +981,8 @@
                     EmptyFormat: "Format String for Calculated Member is empty.",
                     Warning: "Warning",
                     Confirm: "Calculated Member with the same name already exists. Due to want to Replace?",
-					KPIs: "KPIs"
+                    KPIs: "KPIs",
+                    AddCurrentSelectionToFilter: "Ychwanegwch y dewis cyfredol i hidlo"
                 };
                 break;
             case "ejAutocomplete":

@@ -733,7 +733,8 @@
                     EmptyFormat: "Format string postignuta je prazna.",
                     Warning: "Upozorenje",
                     Confirm: "Kalkuliran članica sa istim imenom već postoji. Zbog želim zamijeniti?",
-					KPIs: "KPI"
+                    KPIs: "KPI",
+                    AddCurrentSelectionToFilter: "Dodaj trenutni odabir za filtriranje"
                 };
                 break;
             case "ejPivotGauge":
@@ -1114,7 +1115,8 @@
                     NormalLayout: "Normalni raspored",
                     NormalTopSummary: "Standardne najbolje sažetak layout",
                     NoSummaries: "Ne Summaries layout",
-					Fontcolor: "Boja fonta"
+                    Fontcolor: "Boja fonta",
+                    AddCurrentSelectionToFilter: "Dodaj trenutni odabir za filtriranje"
                 };
                 break;
             case "ejPivotPager":
@@ -1187,7 +1189,8 @@
                     Warning: "Upozorenje",
                     OK: "u redu",
                     Cancel: "Otkazati",
-                    Search: "Pretraži"
+                    Search: "Pretraži",
+                    AddCurrentSelectionToFilter: "Dodaj trenutni odabir za filtriranje"
                 };
                 break;
             case "ejdatavisualization":

@@ -731,7 +731,8 @@
                     EmptyFormat: "Format String, Hesaplanan Üye boş.",
                     Warning: "Uyarı",
                     Confirm: "Hesaplanan Üye ile aynı adı zaten mevcut. Dolayı değiştirmek istiyor?",
-					KPIs: "APG"
+                    KPIs: "APG",
+                    AddCurrentSelectionToFilter: "Geçerli seçimi filtrelere ekle"
                 };
                 break;
             case "ejPivotGauge":
@@ -1113,7 +1114,8 @@
                     NormalLayout: "Normal Düzen",
                     NormalTopSummary: "Normal Üst Referans Yerleşimi",
                     NoSummaries:"Hiçbir Özetleri Yerleşimi",
-					Fontcolor: "Yazı rengi"
+                    Fontcolor: "Yazı rengi",
+                    AddCurrentSelectionToFilter: "Geçerli seçimi filtrelere ekle"
                 };
                 break;
             case "ejPivotPager":
@@ -1186,7 +1188,8 @@
                     Warning: "Uyarı",
                     OK: "OK",
                     Cancel: "İptal",
-                    Search: "Arama"
+                    Search: "Arama",
+                    AddCurrentSelectionToFilter: "Geçerli seçimi filtrelere ekle"
                 };
                 break;
             case "ejdatavisualization":
