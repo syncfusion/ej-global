@@ -602,7 +602,6 @@
                     ClearFilterFrom: "Rensa filter från",
                     SortAtoZ: "Typ A till Z",
                     SortZtoA: "Sortera Z till A",
-
                     DeferUpdate: "Skjuta upp uppdateringen",
                     MDXQuery: "MDX urval",
                     Column: "Kolumn",
@@ -932,13 +931,12 @@
                     IsGreaterThan: "Är större än",
                     IsGreaterThanOrEqualTo: "Är större än eller lika med",
                     IsLessThan: "Är mindre än",
-                    IsLessThanOrEqualTo: "Är mindre än eller lika med",­­
+                    IsLessThanOrEqualTo: "Är mindre än eller lika med",
                     ClearSorting: "Klart sortering",
                     ClearFilterFrom: "Rensa filter från",
                     SortAtoZ: "Typ A till Z",
                     SortZtoA: "Sortera Z till A",
                     and: "Och",
-
                     NumberFormatting: "Talformat",
                     FrozenHeaders: "Fryst sidhuvud",
                     CellSelection: "Cell urval",
@@ -960,7 +958,6 @@
                     PagingOptions: "Paging-alternativ",
                     CategoricalPageSize: "Kategoriska sidstorlek",
                     SeriesPageSize: "Serien sidstorlek",
-
                     HyperLink: "Hyperlänk",
                     CellEditing: "Cellen redigera",
                     GroupingBar:"Gruppera Bar",
@@ -978,13 +975,11 @@
                     Average: "Genomsnittlig",
                     Count: "Räkna",
                     Min: "Min",
-
                     Max: "Max",
                     Excel: "Excel",
                     Word: "Word",
                     PDF: "PDF",
                     CSV: "CSV",
-
                     ToolTipRow: "Rad",
                     ToolTipColumn: "Kolumn",
                     ToolTipValue: "Värde",
@@ -1054,19 +1049,19 @@
                     Format: "Format",
                     NoMeasure: "Lägg till en åtgärd",
                     AliceBlue: "AliceBlue",
-                    Black: "Svart",
-                    Blue: "Blå",
-                    Brown: "Brun",
-                    Gold: "Guld",
-                    Green: "Grön",
+                    Black: "Black",
+                    Blue: "Blue",
+                    Brown: "Brown",
+                    Gold: "Gold",
+                    Green: "Green",
                     Lime: "Lime",
                     Maroon: "Maroon",
                     Orange: "Orange",
-                    Pink: "Rosa",
-                    Red: "Röd",
-                    Violet: "Violett",
-                    White: "Vit",
-                    Yellow: "Gul",
+                    Pink: "Pink",
+                    Red: "Red",
+                    Violet: "Violet",
+                    White: "White",
+                    Yellow: "Yellow",
                     Solid: "Fast",
                     Dashed: "Streckad",
                     Dotted: "Streckad",
@@ -1076,7 +1071,7 @@
                     Outset: "Början",
                     Ridge: "Ås",
                     None: "Ingen",
-                    Algerian: "Algeriska",
+                    Algerian: "Algerian",
                     Arial: "Arial",
                     BodoniMT: "Bodoni MT",
                     BritannicBold: "Britannic Bold",
@@ -1086,7 +1081,7 @@
                     DejaVuSans: "DejaVu Sans",
                     Forte: "Forte",
                     Gerogia: "Gerogia",
-                    Impact: "Krock",
+                    Impact: "Impact",
                     SegoeUI: "Segoe UI",
                     Tahoma: "Tahoma",
                     TimesNewRoman: "Times New Roman",
@@ -1115,7 +1110,14 @@
                     NormalTopSummary: "Normala övre sammanfattning Layout",
                     NoSummaries:"Inga sammanfattningar Layout",
                     Fontcolor: "Fontfärg",
-                    AddCurrentSelectionToFilter: "Lägg till aktuellt urval för att filtrera"
+                    AddCurrentSelectionToFilter: "Lägg till aktuellt urval för att filtrera",
+					Months: "månader",
+					Days: "dagar",
+					Quarters: "Kvartal",
+					Years: "år",
+					Qtr: "kv",
+					Quarter: "Fjärdedel",
+					NoRecordsToDisplay: "Inga poster att visa."
                 };
                 break;
             case "ejPivotPager":
@@ -1137,13 +1139,12 @@
                     IsGreaterThan: "Är större än",
                     IsGreaterThanOrEqualTo: "Är större än eller lika med",
                     IsLessThan: "Är mindre än",
-                    IsLessThanOrEqualTo: "Är mindre än eller lika med",­­
+                    IsLessThanOrEqualTo: "Är mindre än eller lika med",
                     ClearSorting: "Klart sortering",
                     ClearFilterFrom: "Rensa filter från",
                     SortAtoZ: "Typ A till Z",
                     SortZtoA: "Sortera Z till A",
                     and: "Och",
-
                     PivotTableFieldList: "PivotTable Fältlista",
                     ChooseFieldsToAddToReport: "Välj fält för att lägga rapportera:",
                     DragFieldBetweenAreasBelow: "Dra fält mellan områdena nedan:",
@@ -2521,4 +2522,6 @@
     widgets = ej.widget.registeredWidgets;
     for (name in widgets)
         $.fn.Locale_svSE(name);
+    if(ej.ExcelFilter)
+        $.fn.Locale_svSE("ejExcelFilter");
 })(window.jQuery, window.Syncfusion);

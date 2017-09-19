@@ -566,7 +566,6 @@
                         Collapse: "崩溃",
                         Exit: "出口",
                         Value: "值",
-
                         ChartTypes: "圖表類型",
                         TDCharts: "3 D 圖表",
                         Tooltip: "工具提示",
@@ -618,7 +617,6 @@
                         ClearFilterFrom: "清除濾網",
                         SortAtoZ: "排序 A 到 Z",
                         SortZtoA: "排序 Z 到 A",
-
                         DeferUpdate: "推迟更新",
                         MDXQuery: "MDX查询",
                         Column: "柱",
@@ -959,7 +957,6 @@
                         SortAtoZ: "排序 A 到 Z",
                         SortZtoA: "排序 Z 到 A",
                         and: "和",
-
                         NumberFormatting: "數字格式",
                         FrozenHeaders: "冷凍標頭",
                         CellSelection: "手機選項",
@@ -981,7 +978,6 @@
                         PagingOptions: "分頁選項",
                         CategoricalPageSize: "對於頁面大小",
                         SeriesPageSize: "系列頁面大小",
-
                         HyperLink: "超連結",
                         CellEditing: "編輯儲存格",
                         GroupingBar: "分組列",
@@ -999,13 +995,11 @@
                         Average: "平均時間",
                         Count: "計數",
                         Min: "最小值",
-
                         Max: "最大值",
                         Excel: "Excel",
                         Word: "Word",
                         PDF: "PDF",
                         CSV: "CSV",
-
                         ToolTipRow: "行",
                         ToolTipColumn: "柱",
                         ToolTipValue: "值",
@@ -1074,20 +1068,20 @@
                         AddNew: "添加新的",
                         Format: "格式",
                         NoMeasure: "请添加任何措施。",
-                        AliceBlue: "爱丽丝蓝",
-                        Black: "黑色",
-                        Blue: "蓝色",
-                        Brown: "Brown",
-                        Gold: "金牌服务",
-                        Green: "绿色",
-                        Lime: "浅绿色",
-                        Maroon: "栗色",
-                        Orange: "橙色",
-                        Pink: "粉红色",
-                        Red: "红色",
-                        Violet: "紫",
-                        White: "白色",
-                        Yellow: "黄色",
+                        AliceBlue: "AliceBlue",
+						Black: "Black",
+						Blue: "Blue",
+						Brown: "Brown",
+						Gold: "Gold",
+						Green: "Green",
+						Lime: "Lime",
+						Maroon: "Maroon",
+						Orange: "Orange",
+						Pink: "Pink",
+						Red: "Red",
+						Violet: "Violet",
+						White: "White",
+						Yellow: "Yellow",
                         Solid: "固体",
                         Dashed: "虚线",
                         Dotted: "带点",
@@ -1097,21 +1091,21 @@
                         Outset: "一开始",
                         Ridge: "Ridge",
                         None: "无",
-                        Algerian: "阿尔及利亚",
-                        Arial: "Arial",
-                        BodoniMT: "Bodoni MT",
-                        BritannicBold: "英国粗体",
-                        Cambria: "Cambria",
-                        Calibri: "Calibri",
-                        CourierNew: "Courier New",
-                        DejaVuSans: "DejaVu Sans",
-                        Forte: "Forte",
-                        Gerogia: "Gerogia",
-                        Impact: "影响。",
-                        SegoeUI: "Segoe UI",
-                        Tahoma: "Tahoma",
-                        TimesNewRoman: "Times New Roman",
-                        Verdana: "Verdana",
+                        Algerian: "Algerian",
+						Arial: "Arial",
+						BodoniMT: "Bodoni MT",
+						BritannicBold: "Britannic Bold",
+						Cambria: "Cambria",
+						Calibri: "Calibri",
+						CourierNew: "Courier New",
+						DejaVuSans: "DejaVu Sans",
+						Forte: "Forte",
+						Gerogia: "Gerogia",
+						Impact: "Impact",
+						SegoeUI: "Segoe UI",
+						Tahoma: "Tahoma",
+						TimesNewRoman: "Times New Roman",
+						Verdana: "Verdana",
                         CubeDimensionBrowser: "多维数据集维度浏览器",
                         SelectHierarchy: "请选择层次结构",
                         CalculatedField: "经过计算的字段",
@@ -1136,7 +1130,14 @@
                         NormalTopSummary: "正常上摘要版面配置",
                         NoSummaries: "無摘要版面配置",
                         Fontcolor: "字体颜色",
-                        AddCurrentSelectionToFilter: "添加當前選擇進行過濾"
+                        AddCurrentSelectionToFilter: "添加當前選擇進行過濾",
+						Months: "月",
+						Days: "天",
+						Quarters: "住处",
+						Years: "年份",
+						Qtr: "Qtr",
+						Quarter: "25美分硬币",
+						NoRecordsToDisplay: "无记录可显示。"
                     };
                     break;
                 case "ejPivotPager":
@@ -2553,5 +2554,7 @@
 			}
 			widgets = ej.widget.registeredWidgets;
 	          for(name in widgets)
-			  $.fn.Locale_zhCN(name);
+              $.fn.Locale_zhCN(name);
+              if(ej.ExcelFilter)
+                $.fn.Locale_zhCN("ejExcelFilter");
 })(window.jQuery, window.Syncfusion);

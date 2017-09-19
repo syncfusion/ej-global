@@ -578,7 +578,7 @@
                     StackingBarTD: "stivuirea Bari 3D",
                     StackingColumnTD: "coloană de stivuire 3D",
                     Excel: "Excel",
-                    Word: "Cuvânt",
+                    Word: "Word",
                     Pdf: "PDF",
                     PNG: "PNG",
                     EMF: "EMF",
@@ -596,12 +596,11 @@
                     IsGreaterThan: "Este mai mare de",
                     IsGreaterThanOrEqualTo: "Este mai mare sau egală cu",
                     IsLessThan: "Este mai mică de",
-                    IsLessThanOrEqualTo: "Este mai mic sau egal cu",­­
+                    IsLessThanOrEqualTo: "Este mai mic sau egal cu",
                     ClearSorting: "Ştergeţi sortarea",
                     ClearFilterFrom: "Ştergeţi filtrul de la",
                     SortAtoZ: "Un fel de la A la Z",
                     SortZtoA: "Un fel de la Z la A",
-
                     DeferUpdate: "Amânați Actualizare",
                     MDXQuery: "MDX Solicitare",
                     Column: "Coloană",
@@ -931,13 +930,12 @@
                     IsGreaterThan: "Este mai mare de",
                     IsGreaterThanOrEqualTo: "Este mai mare sau egală cu",
                     IsLessThan: "Este mai mică de",
-                    IsLessThanOrEqualTo: "Este mai mic sau egal cu",­­
+                    IsLessThanOrEqualTo: "Este mai mic sau egal cu",
                     ClearSorting: "Ştergeţi sortarea",
                     ClearFilterFrom: "Ştergeţi filtrul de la",
                     SortAtoZ: "Un fel de la A la Z",
                     SortZtoA: "Un fel de la Z la A",
                     and: "Şi",
-
                     NumberFormatting: "Formatare numere",
                     FrozenHeaders: "Hederele congelate",
                     CellSelection: "Selectarea celulei",
@@ -959,7 +957,6 @@
                     PagingOptions: "Opţiuni de paging",
                     CategoricalPageSize: "Categorica a dimensiunii",
                     SeriesPageSize: "Serie a dimensiunii",
-
                     HyperLink: "Hiperlegătură",
                     CellEditing: "Editare celulă",
                     GroupingBar:"Gruparea bari",
@@ -977,13 +974,11 @@
                     Average: "Media",
                     Count: "Număraţi",
                     Min: "Min",
-
                     Max: "Max",
                     Excel: "Excel",
-                    Word: "Cuvânt",
+                    Word: "Word",
                     PDF: "PDF",
                     CSV: "CSV",
-
                     ToolTipRow: "Rând",
                     ToolTipColumn: "Coloană",
                     ToolTipValue: "Valoare",
@@ -1052,20 +1047,20 @@
                     AddNew: "Adăugaţi noi",
                     Format: "Format",
                     NoMeasure: "Vă rugăm să adăugaţi orice măsură",
-                    AliceBlue: "Alice albastru",
-                    Black: "Negru",
-                    Blue: "Albastru",
-                    Brown: "Culoare maro",
-                    Gold: "Aur",
-                    Green: "În verde",
-                    Lime: "Lămâie verde",
-                    Maroon: "Castaniu",
-                    Orange: "Portocaliu",
-                    Pink: "Roz",
-                    Red: "Roşu",
+                    AliceBlue: "AliceBlue",
+                    Black: "Black",
+                    Blue: "Blue",
+                    Brown: "Brown",
+                    Gold: "Gold",
+                    Green: "Green",
+                    Lime: "Lime",
+                    Maroon: "Maroon",
+                    Orange: "Orange",
+                    Pink: "Pink",
+                    Red: "Red",
                     Violet: "Violet",
-                    White: "Alb",
-                    Yellow: "Galben",
+                    White: "White",
+                    Yellow: "Yellow",
                     Solid: "Continuu",
                     Dashed: "Linie întreruptă",
                     Dotted: "Linie punctată",
@@ -1075,17 +1070,17 @@
                     Outset: "Început",
                     Ridge: "Muchie",
                     None: "Nici unul",
-                    Algerian: "Algerianul",
+                    Algerian: "Algerian",
                     Arial: "Arial",
                     BodoniMT: "Bodoni MT",
                     BritannicBold: "Britannic Bold",
                     Cambria: "Cambria",
                     Calibri: "Calibri",
-                    CourierNew: "Curier nou",
+                    CourierNew: "Courier New",
                     DejaVuSans: "DejaVu Sans",
                     Forte: "Forte",
                     Gerogia: "Gerogia",
-                    Impact: "Şoc",
+                    Impact: "Impact",
                     SegoeUI: "Segoe UI",
                     Tahoma: "Tahoma",
                     TimesNewRoman: "Times New Roman",
@@ -1114,7 +1109,14 @@
                     NormalTopSummary: "Dispunerea normală de top sumar",
                     NoSummaries:"Nr. rezumate schemei",
                     Fontcolor: "Culoarea fontului",
-                    AddCurrentSelectionToFilter: "Adaugă selecția curentă pentru a filtra"
+                    AddCurrentSelectionToFilter: "Adaugă selecția curentă pentru a filtra",
+					Months: "Luni",
+					Days: "Zile",
+					Quarters: "Sferturi",
+					Years: "Ani",
+					Qtr: "Og vops",
+					Quarter: "Sfert",
+					NoRecordsToDisplay: "Nu există înregistrări pentru a afişa."
                 };
                 break;
             case "ejPivotPager":
@@ -1136,13 +1138,12 @@
                     IsGreaterThan: "Este mai mare de",
                     IsGreaterThanOrEqualTo: "Este mai mare sau egală cu",
                     IsLessThan: "Este mai mică de",
-                    IsLessThanOrEqualTo: "Este mai mic sau egal cu",­­
+                    IsLessThanOrEqualTo: "Este mai mic sau egal cu",
                     ClearSorting: "Ştergeţi sortarea",
                     ClearFilterFrom: "Ştergeţi filtrul de la",
                     SortAtoZ: "Un fel de la A la Z",
                     SortZtoA: "Un fel de la Z la A",
                     and: "Şi",
-
                     PivotTableFieldList: "Listă de câmp PivotTable",
                     ChooseFieldsToAddToReport: "Alege câmpuri pentru a adăuga un raport:",
                     DragFieldBetweenAreasBelow: "câmpuri trageți între zonele de mai jos:",
@@ -2520,4 +2521,6 @@
     widgets = ej.widget.registeredWidgets;
     for (name in widgets)
         $.fn.Locale_roRO(name);
+    if(ej.ExcelFilter)
+        $.fn.Locale_roRO("ejExcelFilter");
 })(window.jQuery, window.Syncfusion);

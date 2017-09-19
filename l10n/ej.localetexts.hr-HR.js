@@ -552,7 +552,6 @@
                     Collapse: "Kolaps",
                     Exit: "Izlaz",
                     Value: "Vrijednost",
-
                     ChartTypes: "Grafikon types",
                     TDCharts: "3D mapa",
                     Tooltip: "Naziv alata",
@@ -580,7 +579,7 @@
                     StackingBarTD: "slaganje Bar 3D",
                     StackingColumnTD: "Slaganje Stupac 3D",
                     Excel: "Excel",
-                    Word: "Riječ",
+                    Word: "Word",
                     Pdf: "PDF",
                     PNG: "PNG",
                     EMF: "EMF",
@@ -603,7 +602,6 @@
                     ClearFilterFrom: "Čisto iz filtera",
                     SortAtoZ: "Neka vrsta od A do Z",
                     SortZtoA: "Nekako Z do A",
-
                     DeferUpdate: "Odgodi Update",
                     MDXQuery: "MDX upita",
                     Column: "Kolona",
@@ -939,7 +937,6 @@
                     SortAtoZ: "Neka vrsta od A do Z",
                     SortZtoA: "Nekako Z do A",
                     and: "i",
-
                     NumberFormatting: "Broj & formatiranje",
                     FrozenHeaders: "Smrznute zaglavlja",
                     CellSelection: "Selekcije ćelija",
@@ -961,7 +958,6 @@
                     PagingOptions: "Opcije poziva",
                     CategoricalPageSize: "Podrazumijeva & Poloå¾eno",
                     SeriesPageSize: "Serije & Poloå¾eno",
-
                     HyperLink: "Poveäaj veliäinu fonta",
                     CellEditing: "Uređivanje stanica",
                     GroupingBar: "Bar grupiranja",
@@ -979,13 +975,11 @@
                     Average: "Average",
                     Count: "Grof",
                     Min: "Min",
-
                     Max: "Max",
                     Excel: "Excel",
                     Word: "Word",
                     PDF: "PDF",
                     CSV: "CSV",
-
                     ToolTipRow: "Red",
                     ToolTipColumn: "Kolona",
                     ToolTipValue: "Vrijednost",
@@ -1054,20 +1048,20 @@
                     AddNew: "Dodaj novi",
                     Format: "Format",
                     NoMeasure: "Molimo dodajte bilo koju mjeru",
-                    AliceBlue: "Alice Plava",
-                    Black: "Crno",
-                    Blue: "plava",
-                    Brown: "smeđ",
-                    Gold: "Zlato",
-                    Green: "zelena",
-                    Lime: "Vapno",
-                    Maroon: "Kesten",
-                    Orange: "narančasta",
-                    Pink: "roze",
-                    Red: "crvena",
-                    Violet: "ljubičasta",
-                    White: "bijela",
-                    Yellow: "Žuta boja",
+                    AliceBlue: "AliceBlue",
+                    Black: "Black",
+                    Blue: "Blue",
+                    Brown: "Brown",
+                    Gold: "Gold",
+                    Green: "Green",
+                    Lime: "Lime",
+                    Maroon: "Maroon",
+                    Orange: "Orange",
+                    Pink: "Pink",
+                    Red: "Red",
+                    Violet: "Violet",
+                    White: "White",
+                    Yellow: "Yellow",
                     Solid: "solidan",
                     Dashed: "isprekidana",
                     Dotted: "točkast",
@@ -1077,17 +1071,17 @@
                     Outset: "Početku",
                     Ridge: "Greben",
                     None: "nijedan",
-                    Algerian: "alžirski",
+                    Algerian: "Algerian",
                     Arial: "Arial",
                     BodoniMT: "Bodoni MT",
-                    BritannicBold: "britanski Bold",
-                    Cambria: "Vels",
+                    BritannicBold: "Britannic Bold",
+                    Cambria: "Cambria",
                     Calibri: "Calibri",
                     CourierNew: "Courier New",
                     DejaVuSans: "DejaVu Sans",
                     Forte: "Forte",
                     Gerogia: "Gerogia",
-                    Impact: "Udar",
+                    Impact: "Impact",
                     SegoeUI: "Segoe UI",
                     Tahoma: "Tahoma",
                     TimesNewRoman: "Times New Roman",
@@ -1116,7 +1110,14 @@
                     NormalTopSummary: "Standardne najbolje sažetak layout",
                     NoSummaries: "Ne Summaries layout",
                     Fontcolor: "Boja fonta",
-                    AddCurrentSelectionToFilter: "Dodaj trenutni odabir za filtriranje"
+                    AddCurrentSelectionToFilter: "Dodaj trenutni odabir za filtriranje",
+					Months: "Mjeseci",
+					Days: "Dana",
+					Quarters: "Smještaj",
+					Years: "godina",
+					Qtr: "četv",
+					Quarter: "Četvrtina",
+					NoRecordsToDisplay: "Nema zapisa da prikaže."
                 };
                 break;
             case "ejPivotPager":
@@ -1519,7 +1520,6 @@
                     TransBGColor: "transparentan",
                     addtodictionary: "Dodaj u rječnik",
                     ignoreall: "zanemari sve"
-
                 };
                 break;
             case "ejSchedule":
@@ -1591,7 +1591,7 @@
                     Detailed: "Uredi Imenovanje",
                     EventBeginsin: "Imenovanje počinje u",
                     Editevent: "Uredi Imenovanje",
-                    Editfollowingevent: "Sljedeći događaji,
+                    Editfollowingevent: "Sljedeći događaji",
                     Editseries: "Uredi serije",
                     Times: "puta",
                     Until: "do",
@@ -2517,11 +2517,12 @@
                     Ok: "u redu",
                     NoSuggestionMessage: "Nema dostupnih prijedloga"
                 };
-
                 break;
         }
     }
     widgets = ej.widget.registeredWidgets;
     for (name in widgets)
         $.fn.Locale_hrHR(name);
+    if(ej.ExcelFilter)
+        $.fn.Locale_hrHR("ejExcelFilter");
 })(window.jQuery, window.Syncfusion);

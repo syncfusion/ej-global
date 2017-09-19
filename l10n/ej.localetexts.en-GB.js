@@ -379,12 +379,10 @@
                     SortAtoZ: "Sort A to Z",
                     SortZtoA: "Sort Z to A",
                     and: "<u>a</u>nd",
-
                     Sort: "Sort",
                     SelectField: "select Field",
                     LabelFilterLabel: "Show the items for which the label",
                     ValueFilterLabel: "Show the items for which",
-
                     LabelFilters: "Label Filters  ",
                     BeginsWith: "Begins With",
                     NotBeginsWith: "Not Begins With",
@@ -392,7 +390,6 @@
                     NotEndsWith: "Not Ends With",
                     Contains: "Contains",
                     NotContains: "Not Contains",
-
                     ValueFilters: "Value Filters",
                     ClearFilter: "Clear Filter",
                     Equals: "Equals",
@@ -403,7 +400,6 @@
                     LessThanOrEqualTo: "Less Than Or Equal To ",
                     Between: "Between",
                     NotBetween: "Not Between",
-
                     ClearFilter: "Clear Filter",
                     SelectField: "select Field",
                     Measures: "Measures",
@@ -643,7 +639,6 @@
                     SortAtoZ: "Sort A to Z",
                     SortZtoA: "Sort Z to A",
                     and: "<u>a</u>nd",
-
                     NumberFormatting: "Number Formatting",
                     FrozenHeaders: "Frozen Headers",
                     CellSelection: "Cell Selection",
@@ -665,7 +660,6 @@
                     PagingOptions: "Paging Options",
                     CategoricalPageSize: "Categorical Page Size",
                     SeriesPageSize: "Series Page Size",
-
                     HyperLink: "HyperLink",
                     CellEditing: "Cell Editing",
                     GroupingBar: "Grouping Bar",
@@ -683,18 +677,15 @@
                     Average: "Average",
                     Count: "Count",
                     Min: "Min",
-
                     Max: "Max",
                     Excel: "Excel",
                     Word: "Word",
                     PDF: "PDF",
                     CSV: "CSV",
-
                     Sort: "Sort",
                     SelectField: "select Field",
                     LabelFilterLabel: "Show the items for which the label",
                     ValueFilterLabel: "Show the items for which",
-
                     LabelFilters: "Label Filters  ",
                     BeginsWith: "Begins With",
                     NotBeginsWith: "Not Begins With",
@@ -702,7 +693,6 @@
                     NotEndsWith: "Not Ends With",
                     Contains: "Contains",
                     NotContains: "Not Contains",
-
                     ValueFilters: "Value Filters",
                     ClearFilter: "Clear Filter",
                     Equals: "Equals",
@@ -713,7 +703,6 @@
                     LessThanOrEqualTo: "Less Than Or Equal To ",
                     Between: "Between",
                     NotBetween: "Not Between",
-
                     AddToFilter: "Add to Filter",
                     AddToRow: "Add to Row",
                     AddToColumn: "Add to Column",
@@ -822,7 +811,14 @@
                     NormalTopSummary: "NormalTopSummary Layout",
                     NoSummaries: "NoSummaries Layout",
                     Fontcolor: "Font Colour",
-                    AddCurrentSelectionToFilter: "Ychwanegwch y dewis cyfredol i hidlo"
+                    AddCurrentSelectionToFilter: "Ychwanegwch y dewis cyfredol i hidlo",
+					Months: "Months",
+					Days: "Days",
+					Quarters: "Quarters",
+					Years: "Years",
+					Qtr: "Qtr",
+					Quarter: "Quarter",
+					NoRecordsToDisplay: "No records to display."
                 };
                 break;
             case "ejPivotClient":
@@ -839,12 +835,10 @@
                     ClearFilterFrom: "Clear Filter From",
                     SortAtoZ: "Sort A to Z",
                     SortZtoA: "Sort Z to A",
-
                     Sort: "Sort",
                     SelectField: "select Field",
                     LabelFilterLabel: "Show the items for which the label",
                     ValueFilterLabel: "Show the items for which",
-
                     LabelFilters: "Label Filters  ",
                     BeginsWith: "Begins With",
                     NotBeginsWith: "Not Begins With",
@@ -852,7 +846,6 @@
                     NotEndsWith: "Not Ends With",
                     Contains: "Contains",
                     NotContains: "Not Contains",
-
                     ValueFilters: "Value Filters",
                     ClearFilter: "Clear Filter",
                     Equals: "Equals",
@@ -864,7 +857,6 @@
                     Between: "Between",
                     NotBetween: "Not Between",
                     Top10: "Top Count",
-
                     DeferUpdate: "Defer Update",
                     MDXQuery: "MDX Query",
                     Column: "Column",
@@ -2527,4 +2519,6 @@
     widgets = ej.widget.registeredWidgets;
     for (name in widgets)
         $.fn.Locale_enGB(name);
+    if(ej.ExcelFilter)
+        $.fn.Locale_enGB("ejExcelFilter");
 })(window.jQuery, window.Syncfusion);

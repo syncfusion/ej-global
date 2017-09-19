@@ -551,7 +551,6 @@
                     Collapse: "무너짐",
                     Exit: "출구",
                     Value: "값",
-
                     ChartTypes: "차트 유형",
                     TDCharts: "3D 차트",
                     Tooltip: "도구 설명",
@@ -580,7 +579,7 @@
                     StackingBarTD: "스태킹 바 3D",
                     StackingColumnTD: "스태킹 열 3D",
                     Excel: "Excel",
-                    Word: "단어",
+                    Word: "Word",
                     Pdf: "PDF",
                     PNG: "PNG",
                     EMF: "EMF",
@@ -603,7 +602,6 @@
                     ClearFilterFrom: "지우기 필터에서",
                     SortAtoZ: "A~z 정렬",
                     SortZtoA: "Z 정렬",
-
                     DeferUpdate: "연기 업데이트",
                     MDXQuery: "MDX 쿼리",
                     Row: "열",
@@ -619,8 +617,8 @@
                     RenameReport: "보고서의 이름을 바꿉니다",
                     ChartTypes: "차트 유형",
                     ToggleAxis: "전환 축",
-                    ExportToExcel: "수출 엑셀",
-                    ExportToWord: "수출로 말씀",
+                    ExportToExcel: "Excel로 내보내기",
+                    ExportToWord: "Word로 내보내기",
                     ExportToPdf: "PDF로 내보내기",
                     FullScreen: "전체 화면",
                     Grid: "그리드",
@@ -939,7 +937,6 @@
                     SortAtoZ: "A~z 정렬",
                     SortZtoA: "Z 정렬",
                     and: "및",
-
                     NumberFormatting: "번호 형식",
                     FrozenHeaders: "냉동 머리글",
                     CellSelection: "셀 선택",
@@ -961,7 +958,6 @@
                     PagingOptions: "호출 옵션",
                     CategoricalPageSize: "범주별 페이지 크기",
                     SeriesPageSize: "시리즈 페이지 크기",
-
                     HyperLink: "하이퍼링크",
                     CellEditing: "셀 편집",
                     GroupingBar: "그룹화 바",
@@ -979,13 +975,11 @@
                     Average: "평균",
                     Count: "개수",
                     Min: "Min",
-
                     Max: "최대",
                     Excel: "Excel",
-                    Word: "단어",
+                    Word: "Word",
                     PDF: "PDF",
                     CSV: "CSV",
-
                     ToolTipRow: "열",
                     ToolTipColumn: "기둥",
                     ToolTipValue: "값",
@@ -1054,20 +1048,20 @@
                     AddNew: "새로 추가",
                     Format: "형식",
                     NoMeasure: "어떠한 평가로서의 추가하십시오.",
-                    AliceBlue: "앨리스 블루",
-                    Black: "블랙",
-                    Blue: "블루",
-                    Brown: "갈색",
-                    Gold: "골드",
-                    Green: "녹색",
-                    Lime: "라임",
+                    AliceBlue: "AliceBlue",
+                    Black: "Black",
+                    Blue: "Blue",
+                    Brown: "Brown",
+                    Gold: "Gold",
+                    Green: "Green",
+                    Lime: "Lime",
                     Maroon: "Maroon",
-                    Orange: "오렌지",
-                    Pink: "핑크",
-                    Red: "레드",
-                    Violet: "바이올렛",
-                    White: "흰색",
-                    Yellow: "노란색",
+                    Orange: "Orange",
+                    Pink: "Pink",
+                    Red: "Red",
+                    Violet: "Violet",
+                    White: "White",
+                    Yellow: "Yellow",
                     Solid: "솔리드 스테이트 드라이브",
                     Dashed: "파선",
                     Dotted: "점점이",
@@ -1077,17 +1071,17 @@
                     Outset: "애초에",
                     Ridge: "존 포터 우정국장은",
                     None: "없음",
-                    Algerian: "알제리",
+                    Algerian: "Algerian",
                     Arial: "Arial",
                     BodoniMT: "Bodoni MT",
                     BritannicBold: "Britannic Bold",
                     Cambria: "Cambria",
                     Calibri: "Calibri",
                     CourierNew: "Courier New",
-                    DejaVuSans: "똑같은 모습 보다니 SAN",
+                    DejaVuSans: "DejaVu Sans",
                     Forte: "Forte",
                     Gerogia: "Gerogia",
-                    Impact: "영향",
+                    Impact: "Impact",
                     SegoeUI: "Segoe UI",
                     Tahoma: "Tahoma",
                     TimesNewRoman: "Times New Roman",
@@ -1116,7 +1110,14 @@
                     NormalTopSummary: "일반 최상위 요약 레이아웃",
                     NoSummaries: "요약 레이아웃 없음",
                     Fontcolor: "글꼴 색상",
-                    AddCurrentSelectionToFilter: "현재 선택 항목을 필터에 추가"
+                    AddCurrentSelectionToFilter: "현재 선택 항목을 필터에 추가",
+					Months: "개월",
+					Days: "일",
+					Quarters: "분기",
+					Years: "년",
+					Qtr: "Qtr",
+					Quarter: "분기",
+					NoRecordsToDisplay: "표시할 레코드가 없습니다."
                 };
                 break;
             case "ejPivotPager":
@@ -1144,7 +1145,6 @@
                     SortAtoZ: "A~z 정렬",
                     SortZtoA: "Z 정렬",
                     and: "및",
-
                     PivotTableFieldList: "피벗 테이블 필드 목록",
                     ChooseFieldsToAddToReport: "보고서에 추가 할 필드를 선택합니다 :",
                     DragFieldBetweenAreasBelow: "아래의 영역 사이 드래그 필드 :",
@@ -2523,4 +2523,6 @@
     widgets = ej.widget.registeredWidgets;
     for (name in widgets)
         $.fn.Locale_koKR(name);
+    if(ej.ExcelFilter)
+        $.fn.Locale_koKR("ejExcelFilter");
 })(window.jQuery, window.Syncfusion);

@@ -630,7 +630,6 @@
                     ClearFilterFrom: "Clear Filter From",
                     SortAtoZ: "Sort A to Z",
                     SortZtoA: "Sort Z to A",
-
                     LabelFilters: "Label Filters",
                     BeginsWith: "Begins With",
                     NotBeginsWith: "Not Begins With",
@@ -638,7 +637,6 @@
                     NotEndsWith: "Not Ends With",
                     Contains: "Contains",
                     NotContains: "Not Contains",
-
                     ValueFilters: "Value Filters",
                     ClearFilter: "Clear Filter",
                     Equals: "Equals",
@@ -650,7 +648,6 @@
                     Between: "Between",
                     NotBetween: "Not Between",
                     Top10: "Top Count",
-
                     DoesNotBeginsWith: "Does Not Begins With",
                     DoesNotEndsWith: "Does Not Ends With",
                     DoesNotContains: "Does Not Contains",
@@ -659,7 +656,6 @@
                     IsGreaterThanOrEqualTo: "Is Greater Than Or Equal To",
                     IsLessThan: "Is Less Than",
                     IsLessThanOrEqualTo: "Is Less Than Or Equal To",
-
                     DeferUpdate: "Defer Update",
                     MDXQuery: "MDX Query",
                     Column: "Column",
@@ -962,7 +958,6 @@
                 ej.PivotGrid.Locale["en-US"] = {
                     Total: "Total",
                     GrandTotal:"Grand Total",
-
                     Sort:"Sort",
                     SelectField: "select Field",
                     LabelFilterLabel:"Show the items for which the label",
@@ -972,7 +967,6 @@
                     SortAtoZ: "Sort A to Z",
                     SortZtoA: "Sort Z to A",
                     and: "<u>a</u>nd",
-
                     LabelFilters: "Label Filters  ",
                     BeginsWith: "Begins With",
                     NotBeginsWith: "Not Begins With",
@@ -980,7 +974,6 @@
                     NotEndsWith: "Not Ends With",
                     Contains: "Contains",
                     NotContains: "Not Contains",
-
                     ValueFilters: "Value Filters",
                     ClearFilter: "Clear Filter",
                     Equals: "Equals",
@@ -991,7 +984,6 @@
                     LessThanOrEqualTo: "Less Than Or Equal To ",
                     Between: "Between",
                     NotBetween: "Not Between",
-
                     DoesNotBeginsWith: "Does Not Begins With",
                     DoesNotEndsWith: "Does Not Ends With",
                     DoesNotContains: "Does Not Contains",
@@ -1000,7 +992,6 @@
                     IsGreaterThanOrEqualTo: "Is Greater Than Or Equal To",
                     IsLessThan: "Is Less Than",
                     IsLessThanOrEqualTo: "Is Less Than Or Equal To",
-
                     NumberFormatting: "Number Formatting",
                     FrozenHeaders: "Frozen Headers",
                     CellSelection: "Cell Selection",
@@ -1026,7 +1017,6 @@
                     PagingOptions: "Paging Options",
                     CategoricalPageSize: "Categorical Page Size",
                     SeriesPageSize: "Series Page Size",
-
                     HyperLink: "HyperLink",
                     CellEditing: "Cell Editing",
                     GroupingBar:"Grouping Bar",
@@ -1046,7 +1036,6 @@
                     Average: "Average",
                     Count: "Count",
                     Min: "Min",
-
                     Max: "Max",
                     Row: "Row",
                     Column: "Column",
@@ -1055,7 +1044,6 @@
                     Word: "Word",
                     PDF: "PDF",
                     CSV: "CSV",
-
                     AddToFilter: "Add to Filter",
                     AddToRow: "Add to Row",
                     AddToColumn: "Add to Column",
@@ -1159,7 +1147,14 @@
                     All: "All",
                     Search: "Search",
                     Fontcolor: "Font Color",
-                    AddCurrentSelectionToFilter: "Add current selection to filter"
+                    AddCurrentSelectionToFilter: "Add current selection to filter",
+					Months: "Months",
+					Days: "Days",
+					Quarters: "Quarters",
+					Years: "Years",
+					Qtr: "Qtr",
+					Quarter: "Quarter",
+					NoRecordsToDisplay: "No records to display.",
                 };
                 break;
             case "ejPivotPager":
@@ -2634,4 +2629,6 @@
     widgets = ej.widget.registeredWidgets;
     for (name in widgets)
         $.fn.Locale_enUS(name);
+    if(ej.ExcelFilter)
+        $.fn.Locale_enUS("ejExcelFilter");
 })(window.jQuery, window.Syncfusion);

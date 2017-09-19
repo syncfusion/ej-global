@@ -550,7 +550,6 @@
                     Collapse: "Kollapse",
                     Exit: "Exit",
                     Value: "Verdi",
-
                     ChartTypes: "Diagramtyper",
                     TDCharts: "3D-kart",
                     Tooltip: "Verktøytips",
@@ -601,7 +600,6 @@
                     ClearFilterFrom: "Fjern filteret fra",
                     SortAtoZ: "Sorter A til Z",
                     SortZtoA: "Sorter Z til A",
-
                     DeferUpdate: "Utsett Update",
                     MDXQuery: "MDX spørring",
                     Column: "Søyle",
@@ -937,7 +935,6 @@
                     SortAtoZ: "Sorter A til Z",
                     SortZtoA: "Sorter Z til A",
                     and: "Og",
-
                     NumberFormatting: "Tallformatering",
                     FrozenHeaders: "Frosne hoder",
                     CellSelection: "Celle utvalg",
@@ -959,7 +956,6 @@
                     PagingOptions: "§Alternativer",
                     CategoricalPageSize: "Categorical sidestørrelse",
                     SeriesPageSize: "Serien sidestørrelse",
-
                     HyperLink: "Hyperkobling",
                     CellEditing: "Celle for redigering",
                     GroupingBar: "Gruppering av Bar",
@@ -977,13 +973,11 @@
                     Average: "Gjennomsnittlig",
                     Count: "Teller",
                     Min: "Min",
-
                     Max: "Maks.",
                     Excel: "Excel",
                     Word: "Word",
                     PDF: "PDF",
                     CSV: "CSV",
-
                     ToolTipRow: "Rad",
                     ToolTipColumn: "Søyle",
                     ToolTipValue: "Verdi",
@@ -1052,20 +1046,20 @@
                     AddNew: "Legg til ny",
                     Format: "Format",
                     NoMeasure: "Legg til noen mål",
-                    AliceBlue: "Alice blå",
-                    Black: "Svart",
-                    Blue: "Blå",
-                    Brown: "Brun",
-                    Gold: "Gull",
-                    Green: "Grønn",
+                    AliceBlue: "AliceBlue",
+                    Black: "Black",
+                    Blue: "Blue",
+                    Brown: "Brown",
+                    Gold: "Gold",
+                    Green: "Green",
                     Lime: "Lime",
                     Maroon: "Maroon",
-                    Orange: "Oransje",
-                    Pink: "Rosa",
-                    Red: "Rød",
-                    Violet: "Fiolett",
-                    White: "Hvit",
-                    Yellow: "Gul",
+                    Orange: "Orange",
+                    Pink: "Pink",
+                    Red: "Red",
+                    Violet: "Violet",
+                    White: "White",
+                    Yellow: "Yellow",
                     Solid: "Solid",
                     Dashed: "Stiplet",
                     Dotted: "Prikket",
@@ -1075,7 +1069,7 @@
                     Outset: "Begynnelsen",
                     Ridge: "Ridge",
                     None: "Ingen",
-                    Algerian: "Algerie",
+                    Algerian: "Algerian",
                     Arial: "Arial",
                     BodoniMT: "Bodoni MT",
                     BritannicBold: "Britannic Bold",
@@ -1085,9 +1079,9 @@
                     DejaVuSans: "DejaVu Sans",
                     Forte: "Forte",
                     Gerogia: "Gerogia",
-                    Impact: "Effekt",
+                    Impact: "Impact",
                     SegoeUI: "Segoe UI",
-                    Tahoma: "Skrifttypen Tahoma",
+                    Tahoma: "Tahoma",
                     TimesNewRoman: "Times New Roman",
                     Verdana: "Verdana",
                     CubeDimensionBrowser: "Cube dimensjon webleser",
@@ -1114,7 +1108,14 @@
                     NormalTopSummary: "Normal toppen sammendrag layout",
                     NoSummaries: "Ingen oversikter layout",
                     Fontcolor: "Skriftfarge",
-                    AddCurrentSelectionToFilter: "Legg til nåværende utvalg for å filtrere"
+                    AddCurrentSelectionToFilter: "Legg til nåværende utvalg for å filtrere",
+					Months: "Måneder",
+					Days: "Dager",
+					Quarters: "Kvartalene",
+					Years: "År",
+					Qtr: "Qtr",
+					Quarter: "Kvartal",
+					NoRecordsToDisplay: "Ingen poster for å vise."
                 };
                 break;
             case "ejPivotPager":
@@ -1142,7 +1143,6 @@
                     SortAtoZ: "Sorter A til Z",
                     SortZtoA: "Sorter Z til A",
                     and: "Og",
-
                     PivotTableFieldList: "Pivottabell Feltet List",
                     ChooseFieldsToAddToReport: "Velg felt for å legge til rapport:",
                     DragFieldBetweenAreasBelow: "Dra felt mellom områdene nedenfor:",
@@ -2516,4 +2516,6 @@
     widgets = ej.widget.registeredWidgets;
     for (name in widgets)
         $.fn.Locale_nbNO(name);
+    if(ej.ExcelFilter)
+        $.fn.Locale_nbNO("ejExcelFilter");
 })(window.jQuery, window.Syncfusion);

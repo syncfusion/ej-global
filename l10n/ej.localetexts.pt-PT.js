@@ -506,7 +506,6 @@
                         filterOk: "Está bem",
                         filterWarning: "Aviso"
                     };
-                    ;
                 }
                 if (ej.mobile.DatePicker) {
                     ej.mobile.DatePicker.Locale["pt-PT"] = {
@@ -518,7 +517,6 @@
                             toolbarCancelText: "Fechar"
                         },
                     };
-                    ;
                 }
                 if (ej.mobile.TimePicker) {
                     ej.mobile.TimePicker.Locale["pt-PT"] = {
@@ -551,7 +549,6 @@
                     Collapse: "Colapso",
                     Exit: "Saída",
                     Value: "Valor",
-
                     ChartTypes: "Tipos de gráfico",
                     TDCharts: "Os gráficos 3D",
                     Tooltip: "Dica de Ferramenta",
@@ -580,7 +577,7 @@
                     StackingBarTD: "empilhamento Bar 3D",
                     StackingColumnTD: "empilhamento Coluna 3D",
                     Excel: "Excel",
-                    Word: "Palavra",
+                    Word: "Word",
                     Pdf: "PDF",
                     PNG: "PNG",
                     EMF: "EMF",
@@ -602,8 +599,7 @@
                     ClearSorting: "Limpar a triagem",
                     ClearFilterFrom: "Limpar Filtro",
                     SortAtoZ: "Ordenar de A a Z",
-                    SortZtoA: "Ordenar de Z a A",­­
-
+                    SortZtoA: "Ordenar de Z a A",
                     DeferUpdate: "Adiar Atualização",
                     MDXQuery: "consulta MDX",
                     Row: "Linha",
@@ -933,13 +929,12 @@
                     IsGreaterThan: "É maior que",
                     IsGreaterThanOrEqualTo: "É maior que ou igual a",
                     IsLessThan: "É menor que",
-                    IsLessThanOrEqualTo: "É menor do que ou igual a",­­
+                    IsLessThanOrEqualTo: "É menor do que ou igual a",
                     ClearSorting: "Limpar a triagem",
                     ClearFilterFrom: "Limpar Filtro",
                     SortAtoZ: "Ordenar de A a Z",
-                    SortZtoA: "Ordenar de Z a A",­­
+                    SortZtoA: "Ordenar de Z a A",
                     and: "E",
-
                     NumberFormatting: "Formatação de número",
                     FrozenHeaders: "Cabeçalhos congelados",
                     CellSelection: "Seleção de células",
@@ -961,7 +956,6 @@
                     PagingOptions: "Opções de paginação",
                     CategoricalPageSize: "Tamanho de Página categóricas",
                     SeriesPageSize: "Tamanho de Página da série",
-
                     HyperLink: "O hiperlink",
                     CellEditing: "Edição de células",
                     GroupingBar:"Barra de agrupamento",
@@ -979,13 +973,11 @@
                     Average: "Média",
                     Count: "Contagem",
                     Min: "Min",
-
                     Max: "Max",
                     Excel: "Excel",
                     Word: "Word",
                     PDF: "PDF",
                     CSV: "CSV",
-
                     ToolTipRow: "Linha",
                     ToolTipColumn: "Coluna",
                     ToolTipValue: "Valor",
@@ -1054,20 +1046,20 @@
                     AddNew: "Adicionar Novo",
                     Format: "Formato",
                     NoMeasure: "Adicione qualquer medida",
-                    AliceBlue: "Alice azul",
-                    Black: "Preto",
-                    Blue: "Azul",
+                    AliceBlue: "AliceBlue",
+                    Black: "Black",
+                    Blue: "Blue",
                     Brown: "Brown",
                     Gold: "Gold",
-                    Green: "Livro Verde",
-                    Lime: "Cal",
+                    Green: "Green",
+                    Lime: "Lime",
                     Maroon: "Maroon",
-                    Orange: "Cor-de-laranja",
-                    Pink: "Rosa",
-                    Red: "Vermelho",
-                    Violet: "Violeta",
-                    White: "Branco",
-                    Yellow: "Amarelo",
+                    Orange: "Orange",
+                    Pink: "Pink",
+                    Red: "Red",
+                    Violet: "Violet",
+                    White: "White",
+                    Yellow: "Yellow",
                     Solid: "Sólido",
                     Dashed: "Tracejado",
                     Dotted: "Tracejado",
@@ -1077,17 +1069,17 @@
                     Outset: "Início",
                     Ridge: "Ridge",
                     None: "Nenhum",
-                    Algerian: "Argélia",
+                    Algerian: "Algerian",
                     Arial: "Arial",
                     BodoniMT: "Bodoni MT",
-                    BritannicBold: "Britânica a negrito",
+                    BritannicBold: "Britannic Bold",
                     Cambria: "Cambria",
                     Calibri: "Calibri",
                     CourierNew: "Courier New",
                     DejaVuSans: "DejaVu Sans",
                     Forte: "Forte",
                     Gerogia: "Gerogia",
-                    Impact: "Impacto",
+                    Impact: "Impact",
                     SegoeUI: "Segoe UI",
                     Tahoma: "Tahoma",
                     TimesNewRoman: "Times New Roman",
@@ -1138,13 +1130,12 @@
                     IsGreaterThan: "É maior que",
                     IsGreaterThanOrEqualTo: "É maior que ou igual a",
                     IsLessThan: "É menor que",
-                    IsLessThanOrEqualTo: "É menor do que ou igual a",­­
+                    IsLessThanOrEqualTo: "É menor do que ou igual a",
                     ClearSorting: "Limpar a triagem",
                     ClearFilterFrom: "Limpar Filtro",
                     SortAtoZ: "Ordenar de A a Z",
-                    SortZtoA: "Ordenar de Z a A",­­
+                    SortZtoA: "Ordenar de Z a A",
                     and: "E",
-
                     PivotTableFieldList: "Lista de campos de tabela dinâmica",
                     ChooseFieldsToAddToReport: "Escolha campos para adicionar ao relatório:",
                     DragFieldBetweenAreasBelow: "Arraste os campos entre as áreas abaixo:",
@@ -1190,7 +1181,14 @@
                     OK: "OK",
                     Cancel: "Cancelar",
                     Search: "Pesquisar",
-                    AddCurrentSelectionToFilter: "Adicionar seleção atual ao filtro"
+                    AddCurrentSelectionToFilter: "Adicionar seleção atual ao filtro",
+					Months: "Meses",
+					Days: "Dias",
+					Quarters: "Trimestres",
+					Years: "Anos",
+					Qtr: "Trim",
+					Quarter: "Trimestre",
+					NoRecordsToDisplay: "Não há registros para exibir."
                 };
                 break;
             case "ejdatavisualization":
@@ -2522,4 +2520,6 @@
     widgets = ej.widget.registeredWidgets;
     for (name in widgets)
         $.fn.Locale_ptPT(name);
+    if(ej.ExcelFilter)
+        $.fn.Locale_ptPT("ejExcelFilter");
 })(window.jQuery, window.Syncfusion);

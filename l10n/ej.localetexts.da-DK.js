@@ -550,7 +550,7 @@
                     Exit: "Udgang",
                     Value: "Værdi",
                     ChartTypes: "Diagramtyperne",
-                    TDCharts: "3D-diagrammer",
+                    TDCharts: "3D Diagrammer",
                     Tooltip: "Værktøjstip",
                     Exporting: "Eksport",
                     Line: "linje",
@@ -599,7 +599,6 @@
                     ClearFilterFrom: "Ryd filter fra",
                     SortAtoZ: "Sorter A til Z",
                     SortZtoA: "Sorter Z til A",
-
                     DeferUpdate: "Udskyd opdatering",
                     MDXQuery: "MDX Forespørgsel",
                     Column: "Kolonne",
@@ -618,7 +617,7 @@
                     ToggleAxis: "Skifte akse",
                     ExportToExcel: "Eksporter til Excel",
                     ExportToWord: "Eksporter til Word",
-                    ExportToPdf: "Eksport til PDF",
+                    ExportToPdf: "Eksporter til PDF",
                     FullScreen: "Fuld skærm",
                     Grid: "Gitter",
                     Chart: "Diagram",
@@ -935,7 +934,6 @@
                     SortAtoZ: "Sorter A til Z",
                     SortZtoA: "Sorter Z til A",
                     and: "Og",
-
                     NumberFormatting: "Talformatering",
                     FrozenHeaders: "Frosne stiftlister",
                     CellSelection: "Cell Selection",
@@ -957,7 +955,6 @@
                     PagingOptions: "Indstillinger for personsøgning",
                     CategoricalPageSize: "Kategoriske Sidestørrelse",
                     SeriesPageSize: "Serie Sidestørrelse",
-
                     HyperLink: "HyperLink",
                     CellEditing: "Cell redigering",
                     GroupingBar: "Gruppering Bar",
@@ -975,13 +972,11 @@
                     Average: "Gennemsnitlig",
                     Count: "Tæl",
                     Min: "Min",
-
                     Max: "Max",
                     Excel: "Excel",
                     Word: "Word",
                     PDF: "PDF",
                     CSV: "CSV",
-
                     ToolTipRow: "Række",
                     ToolTipColumn: "Kolonne",
                     ToolTipValue: "Værdi",
@@ -1051,19 +1046,19 @@
                     Format: "Format",
                     NoMeasure: "Please add any mål",
                     AliceBlue: "AliceBlue",
-                    Black: "Sort",
-                    Blue: "Blå",
-                    Brown: "Brun",
-                    Gold: "Guld",
-                    Green: "Grøn",
+                    Black: "Black",
+                    Blue: "Blue",
+                    Brown: "Brown",
+                    Gold: "Gold",
+                    Green: "Green",
                     Lime: "Lime",
                     Maroon: "Maroon",
                     Orange: "Orange",
                     Pink: "Pink",
-                    Red: "Rød",
+                    Red: "Red",
                     Violet: "Violet",
-                    White: "Hvid",
-                    Yellow: "Gul",
+                    White: "White",
+                    Yellow: "Yellow",
                     Solid: "Solid",
                     Dashed: "Stiplet",
                     Dotted: "Stiplet",
@@ -1073,7 +1068,7 @@
                     Outset: "Starten",
                     Ridge: "Ridge",
                     None: "Ingen",
-                    Algerian: "Algeriske",
+                    Algerian: "Algerian",
                     Arial: "Arial",
                     BodoniMT: "Bodoni MT",
                     BritannicBold: "Britannic Bold",
@@ -1083,7 +1078,7 @@
                     DejaVuSans: "DejaVu Sans",
                     Forte: "Forte",
                     Gerogia: "Gerogia",
-                    Impact: "Effekt",
+                    Impact: "Impact",
                     SegoeUI: "Segoe UI",
                     Tahoma: "Tahoma",
                     TimesNewRoman: "Times New Roman",
@@ -1112,7 +1107,14 @@
                     NormalTopSummary: "Normal Top Layout oversigt",
                     NoSummaries: "Ingen Resuméer Layout",
                     Fontcolor: "skriftfarve",
-                    AddCurrentSelectionToFilter: "Tilføj nuværende valg for at filtrere"
+                    AddCurrentSelectionToFilter: "Tilføj nuværende valg for at filtrere",
+					Months: "Måneder",
+					Days: "Dage",
+					Quarters: "Kvartaler",
+					Years: "År",
+					Qtr: "Kvt",
+					Quarter: "Kvartal",
+					NoRecordsToDisplay: "No records to display."
                 };
                 break;
             case "ejPivotPager":
@@ -2517,4 +2519,6 @@
     widgets = ej.widget.registeredWidgets;
     for (name in widgets)
         $.fn.Locale_daDK(name);
+    if(ej.ExcelFilter)
+        $.fn.Locale_daDK("ejExcelFilter");
 })(window.jQuery, window.Syncfusion);

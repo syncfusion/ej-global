@@ -551,7 +551,6 @@
                     Collapse: "Romahdus",
                     Exit: "poistuminen",
                     Value: "Arvo",
-
                     ChartTypes: "Kaavion tyypit",
                     TDCharts: "3D-näkymä",
                     Tooltip: "Työkaluvihje",
@@ -597,12 +596,11 @@
                     IsGreaterThan: "On yli",
                     IsGreaterThanOrEqualTo: "On suurempi tai yhtä suuri kuin",
                     IsLessThan: "On alle",
-                    IsLessThanOrEqualTo: "On pienempi tai yhtä suuri kuin",­­
+                    IsLessThanOrEqualTo: "On pienempi tai yhtä suuri kuin",
                     ClearSorting: "Poista lajittelu",
                     ClearFilterFrom: "Tyhjennä suodatin",
                     SortAtoZ: "Lajittele A: sta Z: ksi",
                     SortZtoA: "Lajittele Z A: ksi",
-
                     DeferUpdate: "Lykkää Update",
                     MDXQuery: "MDX Kyselyn",
                     Column: "sarake",
@@ -621,7 +619,7 @@
                     ToggleAxis: "Ota akseli",
                     ExportToExcel: "Vie Excel",
                     ExportToWord: "Vie Word",
-                    ExportToPdf: "Vie pdf",
+                    ExportToPdf: "Vie Pdf",
                     FullScreen: "Koko näyttö",
                     Grid: "ruudukko",
                     Chart: "Kartoittaa",
@@ -932,13 +930,12 @@
                     IsGreaterThan: "On yli",
                     IsGreaterThanOrEqualTo: "On suurempi tai yhtä suuri kuin",
                     IsLessThan: "On alle",
-                    IsLessThanOrEqualTo: "On pienempi tai yhtä suuri kuin",­­
+                    IsLessThanOrEqualTo: "On pienempi tai yhtä suuri kuin",
                     ClearSorting: "Poista lajittelu",
                     ClearFilterFrom: "Tyhjennä suodatin",
                     SortAtoZ: "Lajittele A: sta Z: ksi",
                     SortZtoA: "Lajittele Z A: ksi",
                     and: "Ja",
-
                     NumberFormatting: "Numeron muotoilua",
                     FrozenHeaders: "Jäädytettyjen leikkuupöydät",
                     CellSelection: "Solujen valinta",
@@ -960,7 +957,6 @@
                     PagingOptions: "Haun asetukset",
                     CategoricalPageSize: "Ehdoton sivukoko.",
                     SeriesPageSize: "Series Page Size",
-
                     HyperLink: "Avattu hyperlinkki",
                     CellEditing: "Solun muokkaaminen",
                     GroupingBar:"Sopimuspuoleksi valittavalta bar",
@@ -978,13 +974,11 @@
                     Average: "Keskimääräinen",
                     Count: "Nimikekohtainen inventointi",
                     Min: "Min",
-
                     Max: "Maks.",
                     Excel: "Excel",
                     Word: "Word",
                     PDF: "PDF",
                     CSV: "CSV",
-
                     ToolTipRow: "Rivi",
                     ToolTipColumn: "sarake",
                     ToolTipValue: "Arvo",
@@ -1053,20 +1047,20 @@
                     AddNew: "Lisää uusi",
                     Format: "Muoto",
                     NoMeasure: "Lisätkää soveltamisaikana.",
-                    AliceBlue: "Alice sininen",
-                    Black: "Musta",
-                    Blue: "Sininen",
-                    Brown: "Ruskea",
+                    AliceBlue: "AliceBlue",
+                    Black: "Black",
+                    Blue: "Blue",
+                    Brown: "Brown",
                     Gold: "Gold",
-                    Green: "Vihreä",
-                    Lime: "Kalkkia.",
+                    Green: "Green",
+                    Lime: "Lime",
                     Maroon: "Maroon",
-                    Orange: "Oranssi",
-                    Pink: "Vaaleanpunainen",
-                    Red: "Punainen",
-                    Violet: "Violetti",
-                    White: "Valkoinen",
-                    Yellow: "Keltainen",
+                    Orange: "Orange",
+                    Pink: "Pink",
+                    Red: "Red",
+                    Violet: "Violet",
+                    White: "White",
+                    Yellow: "Yellow",
                     Solid: "Kiinteät",
                     Dashed: "Totuuden paljastuessa",
                     Dotted: "Katkoviivan kohdalta.",
@@ -1080,13 +1074,13 @@
                     Arial: "Arial",
                     BodoniMT: "Bodoni MT",
                     BritannicBold: "Britannic Bold",
-                    Cambria: "Esimerkiksi Vaasan",
+                    Cambria: "Cambria",
                     Calibri: "Calibri",
                     CourierNew: "Courier New",
                     DejaVuSans: "DejaVu Sans",
                     Forte: "Forte",
                     Gerogia: "Gerogia",
-                    Impact: "Törmäyksen jälkeen",
+                    Impact: "Impact",
                     SegoeUI: "Segoe UI",
                     Tahoma: "Tahoma",
                     TimesNewRoman: "Times New Roman",
@@ -1115,7 +1109,14 @@
                     NormalTopSummary: "Normaali nostotoiminto yhteenveto asettelu",
                     NoSummaries:"Mitään yhteenvetoja asettelu",
                     Fontcolor: "Fontin väri",
-                    AddCurrentSelectionToFilter: "Lisää nykyinen valinta suodatukseen"
+                    AddCurrentSelectionToFilter: "Lisää nykyinen valinta suodatukseen",
+					Months: "Kuukausi",
+					Days: "Päivien lukumäärä",
+					Quarters: "Vuosineljännes",
+					Years: "Vuotta",
+					Qtr: "Neljännes",
+					Quarter: "Vuosineljännes",
+					NoRecordsToDisplay: "Yhtään tietuetta."
                 };
                 break;
             case "ejPivotPager":
@@ -1137,7 +1138,7 @@
                     IsGreaterThan: "On yli",
                     IsGreaterThanOrEqualTo: "On suurempi tai yhtä suuri kuin",
                     IsLessThan: "On alle",
-                    IsLessThanOrEqualTo: "On pienempi tai yhtä suuri kuin",­­
+                    IsLessThanOrEqualTo: "On pienempi tai yhtä suuri kuin",
                     ClearSorting: "Poista lajittelu",
                     ClearFilterFrom: "Tyhjennä suodatin",
                     SortAtoZ: "Lajittele A: sta Z: ksi",
@@ -2521,4 +2522,6 @@
     widgets = ej.widget.registeredWidgets;
     for (name in widgets)
         $.fn.Locale_fiFI(name);
+    if(ej.ExcelFilter)
+        $.fn.Locale_fiFI("ejExcelFilter");
 })(window.jQuery, window.Syncfusion);

@@ -600,8 +600,7 @@
                     ClearSorting: "Net bir sıralama.",
                     ClearFilterFrom: "Temiz filtreyi",
                     SortAtoZ: "A'dan Z'ye sırala",
-                    SortZtoA: "Z'yi A'ya",­­
-
+                    SortZtoA: "Z'yi A'ya",
                     DeferUpdate: "Erteleme Güncelleme",
                     MDXQuery: "MDX Sorgu",
                     Column: "sütun",
@@ -932,13 +931,12 @@
                     IsGreaterThan: "Daha Yüksek",
                     IsGreaterThanOrEqualTo: "Büyük veya eşit",
                     IsLessThan: "Daha Fazla",
-                    IsLessThanOrEqualTo: "Az veya Eşit",­­
+                    IsLessThanOrEqualTo: "Az veya Eşit",
                     ClearSorting: "Net bir sıralama.",
                     ClearFilterFrom: "Temiz filtreyi",
                     SortAtoZ: "A'dan Z'ye sırala",
-                    SortZtoA: "Z'yi A'ya",­­
+                    SortZtoA: "Z'yi A'ya",
                     and: "Ve",
-
                     NumberFormatting: "Sayı Biçimlendirme",
                     FrozenHeaders: "Donmuş Başlıkları",
                     CellSelection: "Hücre Seçimi",
@@ -960,7 +958,6 @@
                     PagingOptions: "Çağrı Seçenekleri",
                     CategoricalPageSize: "Tetkilerinde Sayfa Boyutu",
                     SeriesPageSize: "Serisi Sayfa Boyutu",
-
                     HyperLink: "Köprü",
                     CellEditing: "Hücre Düzenleme",
                     GroupingBar:"Gruplandırma Bar",
@@ -978,13 +975,11 @@
                     Average: "Ortalama",
                     Count: "Sayısı",
                     Min: "Min",
-
                     Max: "Maks.",
                     Excel: "Excel",
                     Word: "Word",
                     PDF: "PDF",
                     CSV: "CSV",
-
                     ToolTipRow: "sıra",
                     ToolTipColumn: "sütun",
                     ToolTipValue: "değer",
@@ -1053,20 +1048,20 @@
                     AddNew: "Yeni ekle",
                     Format: "Biçimi",
                     NoMeasure: "Lütfen herhangi bir ölçünüz",
-                    AliceBlue: "Alice Mavi",
-                    Black: "Siyah",
-                    Blue: "Mavi",
-                    Brown: "Kahverengi",
-                    Gold: "Altın",
-                    Green: "Yeşil",
-                    Lime: "Limon",
+                    AliceBlue: "AliceBlue",
+                    Black: "Black",
+                    Blue: "Blue",
+                    Brown: "Brown",
+                    Gold: "Gold",
+                    Green: "Green",
+                    Lime: "Lime",
                     Maroon: "Maroon",
-                    Orange: "Turuncu",
-                    Pink: "Pembe",
-                    Red: "Kırmızı",
-                    Violet: "Menekşe",
-                    White: "Beyaz",
-                    Yellow: "Sarı",
+                    Orange: "Orange",
+                    Pink: "Pink",
+                    Red: "Red",
+                    Violet: "Violet",
+                    White: "White",
+                    Yellow: "Yellow",
                     Solid: "Katı",
                     Dashed: "Kesikli",
                     Dotted: "Kesik",
@@ -1076,7 +1071,7 @@
                     Outset: "Durmasalardı",
                     Ridge: "Ridge",
                     None: "Yok",
-                    Algerian: "Cezayirli",
+                    Algerian: "Algerian",
                     Arial: "Arial",
                     BodoniMT: "Bodoni MT",
                     BritannicBold: "Britannic Bold",
@@ -1086,7 +1081,7 @@
                     DejaVuSans: "DejaVu Sans",
                     Forte: "Forte",
                     Gerogia: "Gerogia",
-                    Impact: "Darbe",
+                    Impact: "Impact",
                     SegoeUI: "Segoe UI",
                     Tahoma: "Tahoma",
                     TimesNewRoman: "Times New Roman",
@@ -1115,7 +1110,14 @@
                     NormalTopSummary: "Normal Üst Referans Yerleşimi",
                     NoSummaries:"Hiçbir Özetleri Yerleşimi",
                     Fontcolor: "Yazı rengi",
-                    AddCurrentSelectionToFilter: "Geçerli seçimi filtrelere ekle"
+                    AddCurrentSelectionToFilter: "Geçerli seçimi filtrelere ekle",
+					Months: "aylar",
+					Days: "günler",
+					Quarters: "kışla",
+					Years: "yıl",
+					Qtr: "Çeyrek",
+					Quarter: "çeyrek",
+					NoRecordsToDisplay: "Gösterilecek kayıt yok."
                 };
                 break;
             case "ejPivotPager":
@@ -1137,13 +1139,12 @@
                     IsGreaterThan: "Daha Yüksek",
                     IsGreaterThanOrEqualTo: "Büyük veya eşit",
                     IsLessThan: "Daha Fazla",
-                    IsLessThanOrEqualTo: "Az veya Eşit",­­
+                    IsLessThanOrEqualTo: "Az veya Eşit",
                     ClearSorting: "Net bir sıralama.",
                     ClearFilterFrom: "Temiz filtreyi",
                     SortAtoZ: "A'dan Z'ye sırala",
-                    SortZtoA: "Z'yi A'ya",­­
+                    SortZtoA: "Z'yi A'ya",
                     and: "Ve",
-
                     PivotTableFieldList: "Özet Tablo Alan Listesi",
                     ChooseFieldsToAddToReport: "rapor eklemek için alanları seçin:",
                     DragFieldBetweenAreasBelow: "Aşağıdaki alanlar arasındaki Sürükle alanları:",
@@ -2522,4 +2523,6 @@
     widgets = ej.widget.registeredWidgets;
     for (name in widgets)
         $.fn.Locale_trTR(name);
+    if(ej.ExcelFilter)
+        $.fn.Locale_trTR("ejExcelFilter");
 })(window.jQuery, window.Syncfusion);

@@ -604,7 +604,6 @@
                     ClearFilterFrom: "Clear Filter uit",
                     SortAtoZ: "Sorteren A tot Z",
                     SortZtoA: "Sorteer Z tot A",
-
                     DeferUpdate: "uitstellen update",
                     MDXQuery: "MDX-query",
                     Row: "Rij",
@@ -940,7 +939,6 @@
                     SortAtoZ: "Sorteren A tot Z",
                     SortZtoA: "Sorteer Z tot A",
                     and: "En",
-
                     NumberFormatting: "Getalnotatie",
                     FrozenHeaders: "Bevroren maaiborden",
                     CellSelection: "Cel selecteren",
@@ -962,7 +960,6 @@
                     PagingOptions: "Semafoonberichten",
                     CategoricalPageSize: "Categorische Paginaformaat",
                     SeriesPageSize: "Serie Paginaformaat",
-
                     HyperLink: "HyperLink",
                     CellEditing: "Cel bewerken",
                     GroupingBar: "Samenwerkingsverband Bar",
@@ -980,13 +977,11 @@
                     Average: "Gemiddelde",
                     Count: "Telling",
                     Min: "Min",
-
                     Max: "Max",
                     Excel: "Excel",
                     Word: "Word",
                     PDF: "PDF",
                     CSV: "CSV",
-
                     ToolTipRow: "Rij",
                     ToolTipColumn: "Kolom",
                     ToolTipValue: "Waarde",
@@ -1056,19 +1051,19 @@
                     Format: "Formaat",
                     NoMeasure: "Voeg elke maatregel",
                     AliceBlue: "AliceBlue",
-                    Black: "Zwart",
-                    Blue: "Blauw",
-                    Brown: "Bruin",
+                    Black: "Black",
+                    Blue: "Blue",
+                    Brown: "Brown",
                     Gold: "Gold",
-                    Green: "Groen",
-                    Lime: "Kalk",
+                    Green: "Green",
+                    Lime: "Lime",
                     Maroon: "Maroon",
-                    Orange: "Oranje",
-                    Pink: "Roze",
-                    Red: "Rood",
-                    Violet: "Paars",
-                    White: "Wit",
-                    Yellow: "Geel",
+                    Orange: "Orange",
+                    Pink: "Pink",
+                    Red: "Red",
+                    Violet: "Violet",
+                    White: "White",
+                    Yellow: "Yellow",
                     Solid: "Solide",
                     Dashed: "Onderbroken",
                     Dotted: "Gestippeld",
@@ -1078,7 +1073,7 @@
                     Outset: "Begin",
                     Ridge: "Ridge",
                     None: "Geen",
-                    Algerian: "Algerijnse",
+                    Algerian: "Algerian",
                     Arial: "Arial",
                     BodoniMT: "Bodoni MT",
                     BritannicBold: "Britannic Bold",
@@ -1088,9 +1083,9 @@
                     DejaVuSans: "DejaVu Sans",
                     Forte: "Forte",
                     Gerogia: "Gerogia",
-                    Impact: "Botsing",
+                    Impact: "Impact",
                     SegoeUI: "Segoe UI",
-                    Tahoma: "Lettertype tahoma",
+                    Tahoma: "Tahoma",
                     TimesNewRoman: "Times New Roman",
                     Verdana: "Verdana",
                     CubeDimensionBrowser: "Kubus dimensie Browser",
@@ -1117,7 +1112,14 @@
                     NormalTopSummary: "Normaal Top Overzicht Layout",
                     NoSummaries: "Geen overzichten lay-out",
                     Fontcolor: "Tekstkleur",
-                    AddCurrentSelectionToFilter: "Voeg huidige selectie toe om te filteren"
+                    AddCurrentSelectionToFilter: "Voeg huidige selectie toe om te filteren",
+					Months: "Maanden",
+					Days: "Dagen",
+					Quarters: "Kwartalen",
+					Years: "Jaar",
+					Qtr: "Qtr",
+					Quarter: "Kwartaal",
+					NoRecordsToDisplay: "Geen records weer te geven."
                 };
                 break;
             case "ejPivotPager":
@@ -2524,4 +2526,6 @@
     widgets = ej.widget.registeredWidgets;
     for (name in widgets)
         $.fn.Locale_nlNL(name);
+    if(ej.ExcelFilter)
+        $.fn.Locale_nlNL("ejExcelFilter");
 })(window.jQuery, window.Syncfusion);

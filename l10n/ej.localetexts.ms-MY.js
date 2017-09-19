@@ -550,7 +550,6 @@
                     Collapse: "Ditweet",
                     Exit: "keluar",
                     Value: "Nilai",
-
                     ChartTypes: "Jenis Carta",
                     TDCharts: "3D Carta",
                     Tooltip: "Tip alat",
@@ -577,8 +576,8 @@
                     BarTD: "Bar 3D",
                     StackingBarTD: "menyusun Bar 3D",
                     StackingColumnTD: "menyusun Ruangan 3D",
-                    Excel: "Excelname",
-                    Word: "Perkataan",
+                    Excel: "Excel",
+                    Word: "Word",
                     Pdf: "PDF",
                     PNG: "PNG",
                     EMF: "EMF",
@@ -601,7 +600,6 @@
                     ClearFilterFrom: "Kosongkan penapis Dari",
                     SortAtoZ: "Isih A ke Z",
                     SortZtoA: "Isih Z ke A",
-
                     DeferUpdate: "Tangguh Update",
                     MDXQuery: "MDX Pertanyaan",
                     Column: "Kolum",
@@ -937,7 +935,6 @@
                     SortAtoZ: "Isih A ke Z",
                     SortZtoA: "Isih Z ke A",
                     and: "Dan",
-
                     NumberFormatting: "Nombor Pemformatan",
                     FrozenHeaders: "Beku Pengepala",
                     CellSelection: "Sel Pilihan",
@@ -959,7 +956,6 @@
                     PagingOptions: "Pagingprocess status Opsyen",
                     CategoricalPageSize: "Categorical Saiz Halaman",
                     SeriesPageSize: "Siri Saiz Halaman",
-
                     HyperLink: "Hiperpautan",
                     CellEditing: "Sel Suntingan",
                     GroupingBar: "Groupware Bar",
@@ -977,13 +973,11 @@
                     Average: "Purata",
                     Count: "Count",
                     Min: "Min",
-
                     Max: "Max",
-                    Excel: "Excelname",
-                    Word: "Perkataan",
+                    Excel: "Excel",
+                    Word: "Word",
                     PDF: "PDF",
                     CSV: "CSV",
-
                     ToolTipRow: "Baris",
                     ToolTipColumn: "Kolum",
                     ToolTipValue: "nilai",
@@ -1052,20 +1046,20 @@
                     AddNew: "Tambah Baru",
                     Format: "Format",
                     NoMeasure: "Sila tambah sebarang mengukur",
-                    AliceBlue: "Biru Alicecolor",
-                    Black: "Hitam",
-                    Blue: "Biru",
+                    AliceBlue: "AliceBlue",
+                    Black: "Black",
+                    Blue: "Blue",
                     Brown: "Brown",
-                    Gold: "Emas",
-                    Green: "Hijau",
+                    Gold: "Gold",
+                    Green: "Green",
                     Lime: "Lime",
-                    Maroon: "Color",
-                    Orange: "Oren",
-                    Pink: "Merah jambucolor",
-                    Red: "Merah",
+                    Maroon: "Maroon",
+                    Orange: "Orange",
+                    Pink: "Pink",
+                    Red: "Red",
                     Violet: "Violet",
-                    White: "Putih",
-                    Yellow: "Kuning",
+                    White: "White",
+                    Yellow: "Yellow",
                     Solid: "Padu",
                     Dashed: "2 menulis cepat",
                     Dotted: "Putus",
@@ -1078,17 +1072,17 @@
                     Algerian: "Algerian",
                     Arial: "Arial",
                     BodoniMT: "Bodoni MT",
-                    BritannicBold: "Britannic Tebal",
+                    BritannicBold: "Britannic Bold",
                     Cambria: "Cambria",
                     Calibri: "Calibri",
-                    CourierNew: "Courier Baru",
+                    CourierNew: "Courier New",
                     DejaVuSans: "DejaVu Sans",
-                    Forte: "Fortegenericname",
+                    Forte: "Forte",
                     Gerogia: "Gerogia",
-                    Impact: "Benturan",
+                    Impact: "Impact",
                     SegoeUI: "Segoe UI",
                     Tahoma: "Tahoma",
-                    TimesNewRoman: "Kali Baru Roman",
+                    TimesNewRoman: "Times New Roman",
                     Verdana: "Verdana",
                     CubeDimensionBrowser: "Kiub Dimensi Pelayar",
                     SelectHierarchy: "Pilih Hierarki",
@@ -1114,7 +1108,14 @@
                     NormalTopSummary: "Normal Atas Ringkasan Bentangan",
                     NoSummaries: "Tiada Paparan Ringkasancomment Bentangan",
                     Fontcolor: "font Warna",
-                    AddCurrentSelectionToFilter: "Tambah pemilihan semasa ke penapis"
+                    AddCurrentSelectionToFilter: "Tambah pemilihan semasa ke penapis",
+					Months: "Bulan",
+					Days: "Hari",
+					Quarters: "Suku",
+					Years: "Tahun",
+					Qtr: "Qtr",
+					Quarter: "Seperempat",
+					NoRecordsToDisplay: "Tiada rekod untuk paparan."
                 };
                 break;
             case "ejPivotPager":
@@ -1142,7 +1143,6 @@
                     SortAtoZ: "Isih A ke Z",
                     SortZtoA: "Isih Z ke A",
                     and: "Dan",
-
                     PivotTableFieldList: "Senarai Medan Jadual Pangsi",
                     ChooseFieldsToAddToReport: "Pilih medan untuk menambah melaporkan:",
                     DragFieldBetweenAreasBelow: "bidang Drag antara kawasan di bawah:",
@@ -2520,4 +2520,6 @@
     widgets = ej.widget.registeredWidgets;
     for (name in widgets)
         $.fn.Locale_msMY(name);
+    if(ej.ExcelFilter)
+        $.fn.Locale_msMY("ejExcelFilter");
 })(window.jQuery, window.Syncfusion);

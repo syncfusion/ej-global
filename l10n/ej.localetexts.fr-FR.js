@@ -552,7 +552,6 @@
                     Expand: "Développer",
                     Collapse: "Effondrement",
                     Exit: "Sortie",
-
                     ChartTypes: "Les types de graphique",
                     TDCharts: "Les graphiques 3D",
                     Tooltip: "Info-bulle",
@@ -937,7 +936,6 @@
                     SortAtoZ: "Trier de A à Z",
                     SortZtoA: "De Z à A Tri",
                     and: "<U> a </ u> e",
-
                     NumberFormatting: "Formatage des chiffres",
                     FrozenHeaders: "En-têtes congelé",
                     CellSelection: "Sélection de cellules",
@@ -963,7 +961,6 @@
                     PagingOptions: "Options d'appel",
                     CategoricalPageSize: "Taille de page catégorique",
                     SeriesPageSize: "Taille de page série",
-
                     HyperLink: "Hyper Link",
                     CellEditing: "Montage de cellules",
                     GroupingBar: "Bar de groupement",
@@ -981,13 +978,11 @@
                     Average: "La moyenne",
                     Count: "Count",
                     Min: "Min",
-
                     Max: "Max",
                     Excel: "Excel",
-                    Word: "Mot",
+                    Word: "Word",
                     PDF: "PDF",
                     CSV: "CSV",
-
                     Sort: "Tri",
                     SelectField: "sélectionnez Champ",
                     LabelFilterLabel: "Afficher les éléments pour lesquels l'étiquette",
@@ -1055,19 +1050,19 @@
                     Fontstyle: "aille de la police",
                     Bordercolor: "Couleur Bordure",
                     AliceBlue: "AliceBlue",
-                    Black: "Noir",
-                    Blue: "Bleu",
+                    Black: "Black",
+                    Blue: "Blue",
                     Brown: "Brown",
                     Gold: "Gold",
                     Green: "Green",
                     Lime: "Lime",
-                    Maroon: "Bordeaux",
+                    Maroon: "Maroon",
                     Orange: "Orange",
                     Pink: "Pink",
-                    Red: "rouge",
+                    Red: "Red",
                     Violet: "Violet",
-                    White: "Blanc",
-                    Yellow: "Jaune",
+                    White: "White",
+                    Yellow: "Yellow",
                     Solid: "Solid",
                     Dashed: "pointillée",
                     Dotted: "Dotted",
@@ -1077,7 +1072,7 @@
                     Outset: "Outset",
                     Ridge: "Ridge",
                     None: "Aucun",
-                    Algerian: "Algérie",
+                    Algerian: "Algerian",
                     Arial: "Arial",
                     BodoniMT: "Bodoni MT",
                     BritannicBold: "Britannic Bold",
@@ -1111,7 +1106,14 @@
                     All: "Tous les",
                     Search: "Recherchez",
                     Fontcolor: "Couleur de la police",
-                    AddCurrentSelectionToFilter: "Ajouter la sélection actuelle au filtre"
+                    AddCurrentSelectionToFilter: "Ajouter la sélection actuelle au filtre",
+					Months: "Mois",
+					Days: "Jours",
+					Quarters: "Quarts",
+					Years: "Ans",
+					Qtr: "Trim",
+					Quarter: "Trimestre",
+					NoRecordsToDisplay: "Pas d'enregistrements à afficher."
                 };
                 break;
             case "ejPivotPager":
@@ -2574,4 +2576,6 @@
     widgets = ej.widget.registeredWidgets;
     for (name in widgets)
         $.fn.Locale_frFR(name);
+    if(ej.ExcelFilter)
+        $.fn.Locale_frFR("ejExcelFilter");
 })(window.jQuery, window.Syncfusion);

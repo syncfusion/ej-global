@@ -950,7 +950,6 @@
                     SortAtoZ: "Ordenar de la A a la Z",
                     SortZtoA: "Ordenar de la Z a la A",
                     and: "y",
-
                     NumberFormatting: "Formato de número",
                     FrozenHeaders: "Encabezados congelados",
                     CellSelection: "Selección de celdas",
@@ -976,7 +975,6 @@
                     PagingOptions: "Opciones de paginación",
                     CategoricalPageSize: "Tamaño de página categórica",
                     SeriesPageSize: "Tamaño de página de la serie",
-
                     HyperLink: "Hipervínculo",
                     CellEditing: "La edición de celdas",
                     GroupingBar: "Barra de agrupamiento",
@@ -994,18 +992,15 @@
                     Average: "Promedio",
                     Count: "Contar",
                     Min: "Min",
-
                     Max: "Máx.",
                     Excel: "Excel",
                     Word: "Word",
                     PDF: "PDF",
                     CSV: "CSV",
-
                     Sort: "Ordenar",
                     SelectField: "Seleccione el campo",
                     LabelFilterLabel: "Mostrar los elementos para los que la etiqueta",
                     ValueFilterLabel: "Mostrar los elementos para los que la etiqueta",
-
                     LabelFilters: "Los filtros de etiqueta  ",
                     BeginsWith: "Comienza con",
                     NotBeginsWith: "No comienza con",
@@ -1013,7 +1008,6 @@
                     NotEndsWith: "No termina con",
                     Contains: "Contiene",
                     NotContains: "No contiene",
-
                     ValueFilters: "Filtros de valor",
                     ClearFilter: "Borrar filtro",
                     Equals: "Es igual a",
@@ -1024,7 +1018,6 @@
                     LessThanOrEqualTo: "Menor o igual a ",
                     Between: "Entre",
                     NotBetween: "No entre",
-
                     AddToFilter: "Añadir al filtro",
                     AddToRow: "Agregar fila",
                     AddToColumn: "Agregar columna",
@@ -1072,19 +1065,19 @@
                     Bordercolor: "Color del borde",
                     NoMeasure: "Por favor agregue cualquier medida",
                     AliceBlue: "AliceBlue",
-                    Black: "Negro",
+                    Black: "Black",
                     Blue: "Blue",
                     Brown: "Brown",
-                    Gold: "Oro",
+                    Gold: "Gold",
                     Green: "Green",
-                    Lime: "Cal",
-                    Maroon: "Granate",
-                    Orange: "Naranja",
-                    Pink: "Rosa",
-                    Red: "Rojo",
-                    Violet: "Violeta",
-                    White: "Blanco",
-                    Yellow: "Amarillo",
+                    Lime: "Lime",
+                    Maroon: "Maroon",
+                    Orange: "Orange",
+                    Pink: "Pink",
+                    Red: "Red",
+                    Violet: "Violet",
+                    White: "White",
+                    Yellow: "Yellow",
                     Solid: "Solid",
                     Dashed: "Dashed",
                     Dotted: "Salpicada",
@@ -1094,7 +1087,7 @@
                     Outset: "Inicio",
                     Ridge: "Ridge",
                     None: "Ninguno",
-                    Algerian: "Argelia",
+                    Algerian: "Algerian",
                     Arial: "Arial",
                     BodoniMT: "Bodoni MT",
                     BritannicBold: "Britannic Bold",
@@ -1104,7 +1097,7 @@
                     DejaVuSans: "DejaVu Sans",
                     Forte: "Forte",
                     Gerogia: "Gerogia",
-                    Impact: "Impacto",
+                    Impact: "Impact",
                     SegoeUI: "Segoe UI",
                     Tahoma: "Tahoma",
                     TimesNewRoman: "Times New Roman",
@@ -1128,7 +1121,14 @@
                     All: "Todos",
                     Search: "Buscar",
                     Fontcolor: "Color de fuente",
-                    AddCurrentSelectionToFilter: "Añadir la selección actual al filtro"
+                    AddCurrentSelectionToFilter: "Añadir la selección actual al filtro",
+					Months: "Meses",
+					Days: "Días",
+					Quarters: "Cuartos",
+					Years: "Años",
+					Qtr: "Trim.",
+					Quarter: "Trimestre",
+					NoRecordsToDisplay: "No hay registros que mostrar."
                 };
                 break;
             case "ejPivotPager":
@@ -1156,7 +1156,6 @@
                     SortAtoZ: "Ordenar de la A a la Z",
                     SortZtoA: "Ordenar de la Z a la A",
                     and: "y",
-
                     PivotTableFieldList: "Lista de campos de tabla dinámica",
                     ChooseFieldsToAddToReport: "Elija los campos para añadir a reportar:",
                     DragFieldBetweenAreasBelow: "Arrastre los campos entre las áreas a continuación:",
@@ -2592,4 +2591,6 @@
     widgets = ej.widget.registeredWidgets;
     for (name in widgets)
         $.fn.Locale_esES(name);
+    if(ej.ExcelFilter)
+        $.fn.Locale_esES("ejExcelFilter");
 })(window.jQuery, window.Syncfusion);

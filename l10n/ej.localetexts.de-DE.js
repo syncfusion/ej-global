@@ -565,7 +565,7 @@
                     Collapse: "Zusammenbruch",
                     Exit: "Ausgang",
                     ChartTypes: "Diagramm Typen",
-                    TDCharts: "3D-Diagramme",
+                    TDCharts: "3D Diagramme",
                     Tooltip: "Quickinfo",
                     Exporting: "Exportieren",
                     Line: "Linie",
@@ -592,7 +592,7 @@
                     StackingBarTD: "StackingBar 3D",
                     StackingColumnTD: "Stapelsäule 3D",
                     Excel: "Excel",
-                    Word: "Wort",
+                    Word: "Word",
                     Pdf: "PDF",
                     PNG: "PNG",
                     EMF: "EMF",
@@ -615,7 +615,6 @@
                     ClearFilterFrom: "Filter löschen aus",
                     SortAtoZ: "Sortieren A-Z",
                     SortZtoA: "Sortieren Z bis A",
-
                     DeferUpdate: "Aktualisierung aufschieben",
                     MDXQuery: "MDX-Abfrage",
                     Row: "Reihe",
@@ -631,9 +630,9 @@
                     RenameReport: "Benennen Bericht",
                     ChartTypes: "Diagrammtypen",
                     ToggleAxis: "Toggle-Achse",
-                    ExportToExcel: "Nach Excel exportieren",
-                    ExportToWord: "Export nach Word",
-                    ExportToPdf: "Als PDF-Datei",
+                    ExportToExcel: "Exportieren nach Excel",
+                    ExportToWord: "Exportieren nach Word",
+                    ExportToPdf: "Exportieren nach Pdf",
                     FullScreen: "Vollbild",
                     Grid: "Gitter",
                     Chart: "Diagramm",
@@ -674,7 +673,6 @@
                     Scatter: "streuen",
                     Bubble: "Bubble",
                     TreeMap: "Baum Karte",
-
                     Sort: "Sortieren",
                     SelectField: "Wählen Sie das Feld aus",
                     LabelFilterLabel: "Zeigen Sie die Elemente aus, für die das Etikett",
@@ -952,7 +950,6 @@
                     SortAtoZ: "Sortieren A-Z",
                     SortZtoA: "Sortieren Z bis A",
                     and: "<U> </ u> nd",
-
                     NumberFormatting: "Zahlenformatierung.",
                     FrozenHeaders: "Gefrorene Header",
                     CellSelection: "Die Auswahl der Zelle",
@@ -974,7 +971,6 @@
                     PagingOptions: "Paging-optionen",
                     CategoricalPageSize: "Kategorische Seite Größe",
                     SeriesPageSize: "Seite Größe",
-
                     HyperLink: "HyperLink",
                     CellEditing: "Zelle bearbeiten",
                     GroupingBar: "Die Gruppierung der Bar",
@@ -992,13 +988,11 @@
                     Average: "Durchschnitt",
                     Count: "Count",
                     Min: "Min",
-
                     Max: "Max",
                     Excel: "Excel",
-                    Word: "Wort",
+                    Word: "Word",
                     PDF: "PDF",
                     CSV: "CSV",
-
                     ToolTipRow: "Reihe",
                     ToolTipColumn: "Spalte",
                     ToolTipValue: "Wert",
@@ -1022,12 +1016,10 @@
                     Fontsize: "Schriftgröße",
                     Fontstyle: "Schriftstil",
                     Bordercolor: "Randfarbe",
-
                     Sort: "Sortieren",
                     SelectField: "Wählen Sie das Feld aus",
                     LabelFilterLabel: "Zeigen Sie die Elemente aus, für die das Etikett",
                     ValueFilterLabel: "Zeigen Sie die Elemente, die für die",
-
                     LabelFilters: "Label Filter  ",
                     BeginsWith: "Beginnt mit",
                     NotBeginsWith: "Beginnt nicht mit",
@@ -1035,7 +1027,6 @@
                     NotEndsWith: "Endet nicht mit",
                     Contains: "Enthält",
                     NotContains: "Enthält nicht",
-
                     ValueFilters: "Wert Filter",
                     ClearFilter: "Filter löschen",
                     Equals: "Ist gleich",
@@ -1046,7 +1037,6 @@
                     LessThanOrEqualTo: "Kleiner als oder Gleich",
                     Between: "Zwischen",
                     NotBetween: "Nicht zwischen",
-
                     AddToFilter: "Zu Filter hinzufügen",
                     AddToRow: "Zeile hinzufügen",
                     AddToColumn: "Spalte hinzufügen",
@@ -1071,19 +1061,19 @@
                     Format: "Format",
                     NoMeasure: "Bitte fügen Sie jede Maßnahme",
                     AliceBlue: "AliceBlue",
-                    Black: "Schwarz",
-                    Blue: "Blau",
-                    Brown: "Braun",
+                    Black: "Black",
+                    Blue: "Blue",
+                    Brown: "Brown",
                     Gold: "Gold",
-                    Green: "Grün",
-                    Lime: "Kalk",
-                    Maroon: "Kastanienbraun",
+                    Green: "Green",
+                    Lime: "Lime",
+                    Maroon: "Maroon",
                     Orange: "Orange",
-                    Pink: "Rosa",
-                    Red: "Rot",
-                    Violet: "Violett",
-                    White: "Weiß",
-                    Yellow: "Gelb",
+                    Pink: "Pink",
+                    Red: "Red",
+                    Violet: "Violet",
+                    White: "White",
+                    Yellow: "Yellow",
                     Solid: "Solide",
                     Dashed: "Gestrichelt",
                     Dotted: "Gepunktet",
@@ -1093,7 +1083,7 @@
                     Outset: "Anfang",
                     Ridge: "Ridge",
                     None: "Keine",
-                    Algerian: "Algerische",
+                    Algerian: "Algerian",
                     Arial: "Arial",
                     BodoniMT: "Bodoni MT",
                     BritannicBold: "Britannic Bold",
@@ -1103,7 +1093,7 @@
                     DejaVuSans: "DejaVu Sans",
                     Forte: "Forte",
                     Gerogia: "Gerogia",
-                    Impact: "Auswirkungen",
+                    Impact: "Impact",
                     SegoeUI: "Segoe UI",
                     Tahoma: "Tahoma",
                     TimesNewRoman: "Times New Roman",
@@ -1132,7 +1122,14 @@
                     NormalTopSummary: "Normal nach oben Layout",
                     NoSummaries: "Keine Zusammenfassungen Layout",
                     Fontcolor: "Schriftfarbe",
-                    AddCurrentSelectionToFilter: "Aktuelle Auswahl zum Filtern hinzufügen"
+                    AddCurrentSelectionToFilter: "Aktuelle Auswahl zum Filtern hinzufügen",
+					Months: "Monate",
+					Days: "Tage",
+					Quarters: "Viertel",
+					Years: "Jahre",
+					Qtr: "Mit einem Nenneingangspegel von -10DBV.",
+					Quarter: "Quartal",
+					NoRecordsToDisplay: "Keine Datensätze anzuzeigen."
                 };
                 break;
             case "ejPivotPager":
@@ -2599,4 +2596,6 @@
     widgets = ej.widget.registeredWidgets;
     for (name in widgets)
         $.fn.Locale_deDE(name);
+    if(ej.ExcelFilter)
+        $.fn.Locale_deDE("ejExcelFilter");
 })(window.jQuery, window.Syncfusion)

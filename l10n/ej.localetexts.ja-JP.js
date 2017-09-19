@@ -552,7 +552,6 @@
                     Collapse: "崩壊",
                     Exit: "出口",
                     Value: "値",
-
                     ChartTypes: "グラフの種類",
                     TDCharts: "3 D グラフ",
                     Tooltip: "ツールチップ",
@@ -604,7 +603,6 @@
                     ClearFilterFrom: "フィルタから削除します。",
                     SortAtoZ: "は、 A ～ Z の並べ替え",
                     SortZtoA: "Z ソートに",
-
                     DeferUpdate: "延期の更新",
                     MDXQuery: "MDXクエリ",
                     Row: "行",
@@ -940,7 +938,6 @@
                     SortAtoZ: "は、 A ～ Z の並べ替え",
                     SortZtoA: "Z ソートに",
                     and: "および",
-
                     NumberFormatting: "番号の書式設定",
                     FrozenHeaders: "冷凍のヘッダー",
                     CellSelection: "セルの選択",
@@ -962,7 +959,6 @@
                     PagingOptions: "ページングオプション",
                     CategoricalPageSize: "カテゴリページのサイズ",
                     SeriesPageSize: "シリーズページサイズ",
-
                     HyperLink: "ハイパーリンク",
                     CellEditing: "セルを編集",
                     GroupingBar: "バーのグループ化",
@@ -980,13 +976,11 @@
                     Average: "平均",
                     Count: "カウント",
                     Min: "分",
-
                     Max: "Max",
                     Excel: "Excel",
                     Word: "Word",
                     PDF: "PDF",
                     CSV: "CSV",
-
                     ToolTipRow: "行",
                     ToolTipColumn: "カラム",
                     ToolTipValue: "値",
@@ -1055,20 +1049,20 @@
                     AddNew: "新規追加",
                     Format: "フォーマット",
                     NoMeasure: "いずれかの測定値を追加してください。",
-                    AliceBlue: "アリスブルー",
-                    Black: "黒",
-                    Blue: "青",
-                    Brown: "茶色の",
-                    Gold: "ゴールド",
-                    Green: "緑の",
-                    Lime: "ライム",
-                    Maroon: "マルーン",
-                    Orange: "オレンジ色の",
-                    Pink: "ピンク",
-                    Red: "赤",
-                    Violet: "むらさきいろ",
-                    White: "白",
-                    Yellow: "黄色",
+                    AliceBlue: "AliceBlue",
+                    Black: "Black",
+                    Blue: "Blue",
+                    Brown: "Brown",
+                    Gold: "Gold",
+                    Green: "Green",
+                    Lime: "Lime",
+                    Maroon: "Maroon",
+                    Orange: "Orange",
+                    Pink: "Pink",
+                    Red: "Red",
+                    Violet: "Violet",
+                    White: "White",
+                    Yellow: "Yellow",
                     Solid: "ソリッド",
                     Dashed: "点線",
                     Dotted: "ドットで区切られた",
@@ -1078,17 +1072,17 @@
                     Outset: "当初",
                     Ridge: "リッジ",
                     None: "なし",
-                    Algerian: "アルジェリア",
+                    Algerian: "Algerian",
                     Arial: "Arial",
-                    BodoniMT: "代表格としては Bodoni MT",
-                    BritannicBold: "サンリット太字",
-                    Cambria: "カンブリア",
+                    BodoniMT: "Bodoni MT",
+                    BritannicBold: "Britannic Bold",
+                    Cambria: "Cambria",
                     Calibri: "Calibri",
                     CourierNew: "Courier New",
                     DejaVuSans: "DejaVu Sans",
                     Forte: "Forte",
                     Gerogia: "Gerogia",
-                    Impact: "影響",
+                    Impact: "Impact",
                     SegoeUI: "Segoe UI",
                     Tahoma: "Tahoma",
                     TimesNewRoman: "Times New Roman",
@@ -1117,7 +1111,14 @@
                     NormalTopSummary: "通常の最上位のレイアウトの概要",
                     NoSummaries: "サマリーのレイアウトがありません",
                     Fontcolor: "フォントの色",
-                    AddCurrentSelectionToFilter: "フィルタに現在の選択範囲を追加する"
+                    AddCurrentSelectionToFilter: "フィルタに現在の選択範囲を追加する",
+					Months: "か月",
+					Days: "日",
+					Quarters: "4 分の 3",
+					Years: "年",
+					Qtr: "Qtr",
+					Quarter: "四半期",
+					NoRecordsToDisplay: "表示するレコードはありません。"
                 };
                 break;
             case "ejPivotPager":
@@ -2523,4 +2524,6 @@
     widgets = ej.widget.registeredWidgets;
     for (name in widgets)
         $.fn.Locale_jaJP(name);
+    if(ej.ExcelFilter)
+        $.fn.Locale_jaJP("ejExcelFilter");
 })(window.jQuery, window.Syncfusion);

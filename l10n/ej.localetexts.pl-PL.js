@@ -581,7 +581,7 @@
                     StackingBarTD: "Układanie Bar 3D",
                     StackingColumnTD: "Układanie Column 3D",
                     Excel: "Excel",
-                    Word: "Słowo",
+                    Word: "Word",
                     Pdf: "PDF",
                     PNG: "PNG",
                     EMF: "EMF",
@@ -604,7 +604,6 @@
                     ClearFilterFrom: "Wyczyść filtr z",
                     SortAtoZ: "Sortowanie od A do Z.",
                     SortZtoA: "Sortuj od Z do A",
-
                     DeferUpdate: "Wstrzymaj Aktualizacja",
                     MDXQuery: "Zapytań MDX",
                     Column: "Kolumna",
@@ -621,8 +620,8 @@
                     RenameReport: "Zmiana nazwy raport",
                     ChartTypes: "Rodzaje wykres",
                     ToggleAxis: "Stosuj Axis",
-                    ExportToExcel: "Eksport do Excela",
-                    ExportToWord: "Eksport do programu Word",
+                    ExportToExcel: "Eksport do Excel",
+                    ExportToWord: "Eksport do Word",
                     ExportToPdf: "Eksport do PDF",
                     FullScreen: "Pełny ekran",
                     Grid: "Krata",
@@ -940,7 +939,6 @@
                     SortAtoZ: "Sortowanie od A do Z.",
                     SortZtoA: "Sortuj od Z do A",
                     and: "I",
-
                     NumberFormatting: "Formatowanie liczb",
                     FrozenHeaders: "Zamrożone hederów",
                     CellSelection: "Wybór komórki",
@@ -962,7 +960,6 @@
                     PagingOptions: "Opcje powiadomień",
                     CategoricalPageSize: "Kategoryczne rozmiar strony",
                     SeriesPageSize: "Seria rozmiar strony",
-
                     HyperLink: "Hiperłącze",
                     CellEditing: "Komórka Edycja",
                     GroupingBar: "Grupowanie Bar",
@@ -980,13 +977,11 @@
                     Average: "Średnia",
                     Count: "Pobrań",
                     Min: "Min",
-
                     Max: "Max",
                     Excel: "Excel",
-                    Word: "Słowo",
+                    Word: "Word",
                     PDF: "PDF",
                     CSV: "CSV",
-
                     ToolTipRow: "Rząd",
                     ToolTipColumn: "Kolumna",
                     ToolTipValue: "Wartość",
@@ -1055,20 +1050,20 @@
                     AddNew: "Dodaj nowy",
                     Format: "Format",
                     NoMeasure: "Proszę dodać jakikolwiek środek",
-                    AliceBlue: "Alice niebieskie",
-                    Black: "Czarny",
-                    Blue: "Niebieski",
-                    Brown: "Brązowy",
-                    Gold: "Złoto",
-                    Green: "Zielony",
-                    Lime: "Łyko",
-                    Maroon: "Bordowa",
-                    Orange: "Pomarańczowy",
-                    Pink: "Różowy",
-                    Red: "Czerwony",
-                    Violet: "Fioletowy",
-                    White: "Biały",
-                    Yellow: "Żółty",
+                    AliceBlue: "AliceBlue",
+                    Black: "Black",
+                    Blue: "Blue",
+                    Brown: "Brown",
+                    Gold: "Gold",
+                    Green: "Green",
+                    Lime: "Lime",
+                    Maroon: "Maroon",
+                    Orange: "Orange",
+                    Pink: "Pink",
+                    Red: "Red",
+                    Violet: "Violet",
+                    White: "White",
+                    Yellow: "Yellow",
                     Solid: "Solid",
                     Dashed: "Marnie",
                     Dotted: "Kropkowane",
@@ -1078,7 +1073,7 @@
                     Outset: "Początku",
                     Ridge: "Ridge",
                     None: "Brak",
-                    Algerian: "Khelil",
+                    Algerian: "Algerian",
                     Arial: "Arial",
                     BodoniMT: "Bodoni MT",
                     BritannicBold: "Britannic Bold",
@@ -1088,9 +1083,9 @@
                     DejaVuSans: "DejaVu Sans",
                     Forte: "Forte",
                     Gerogia: "Gerogia",
-                    Impact: "Wpływ",
+                    Impact: "Impact",
                     SegoeUI: "Segoe UI",
-                    Tahoma: "Nowa turbosprężarka",
+                    Tahoma: "Tahoma",
                     TimesNewRoman: "Times New Roman",
                     Verdana: "Verdana",
                     CubeDimensionBrowser: "Cube Dimension przeglądarki",
@@ -1117,7 +1112,14 @@
                     NormalTopSummary: "Normalne Góra zestawienie rozkładu",
                     NoSummaries: "Nr Streszczeniami rozkład",
                     Fontcolor: "Kolor czcionki",
-                    AddCurrentSelectionToFilter: "Dodaj bieżący wybór do filtrowania"
+                    AddCurrentSelectionToFilter: "Dodaj bieżący wybór do filtrowania",
+					Months: "Miesięcy",
+					Days: "Dni",
+					Quarters: "Kwatery",
+					Years: "Lat",
+					Qtr: "Kwartał",
+					Quarter: "Kwartał",
+					NoRecordsToDisplay: "Brak rekordów do wyświetlenia."
                 };
                 break;
             case "ejPivotPager":
@@ -1145,7 +1147,6 @@
                     SortAtoZ: "Sortowanie od A do Z.",
                     SortZtoA: "Sortuj od Z do A",
                     and: "I",
-
                     PivotTableFieldList: "Lista pól tabeli przestawnej",
                     ChooseFieldsToAddToReport: "Wybierz pola, aby dodać zgłosić:",
                     DragFieldBetweenAreasBelow: "Przeciągnij pola między obszarami poniżej:",
@@ -2523,4 +2524,6 @@
     widgets = ej.widget.registeredWidgets;
     for (name in widgets)
         $.fn.Locale_plPL(name);
+    if(ej.ExcelFilter)
+        $.fn.Locale_plPL("ejExcelFilter");
 })(window.jQuery, window.Syncfusion);

@@ -552,7 +552,6 @@
                     Collapse: "Crollo",
                     Exit: "Uscita",
                     Value: "Valore",
-
                     ChartTypes: "Tipi di grafico",
                     TDCharts: "I grafici 3D",
                     Tooltip: "Descrizione dei comandi",
@@ -581,7 +580,7 @@
                     StackingBarTD: "Barra di impilamento 3D",
                     StackingColumnTD: "Colonna impilabile 3D",
                     Excel: "Excel",
-                    Word: "Parola",
+                    Word: "Word",
                     Pdf: "PDF",
                     PNG: "PNG",
                     EMF: "EMF",
@@ -604,7 +603,6 @@
                     ClearFilterFrom: "Cancella filtro da",
                     SortAtoZ: "Ordina dalla A alla Z",
                     SortZtoA: "Ordina dalla Z alla A",
-
                     DeferUpdate: "Posticipa aggiornamento",
                     MDXQuery: "MDX Query",
                     Row: "Riga",
@@ -940,7 +938,6 @@
                     SortAtoZ: "Ordina dalla A alla Z",
                     SortZtoA: "Ordina dalla Z alla A",
                     and: "E",
-
                     NumberFormatting: "Formattazione numeri",
                     FrozenHeaders: "Le intestazioni bloccate",
                     CellSelection: "La selezione di una cella",
@@ -962,7 +959,6 @@
                     PagingOptions: "Opzioni di cercapersone",
                     CategoricalPageSize: "Categorico di dimensioni di pagina",
                     SeriesPageSize: "Serie di dimensioni di pagina",
-
                     HyperLink: "Collegamento ipertestuale",
                     CellEditing: "Modifica cella",
                     GroupingBar: "Barra di raggruppamento",
@@ -980,13 +976,11 @@
                     Average: "Media",
                     Count: "Contare",
                     Min: "Min",
-
                     Max: "Max",
                     Excel: "Excel",
                     Word: "Word",
                     PDF: "PDF",
                     CSV: "CSV",
-
                     ToolTipRow: "Riga",
                     ToolTipColumn: "Colonna",
                     ToolTipValue: "Valore",
@@ -1055,20 +1049,20 @@
                     AddNew: "Aggiungi nuovo",
                     Format: "Formato",
                     NoMeasure: "Si prega di aggiungere qualsiasi misura",
-                    AliceBlue: "Alice blu",
-                    Black: "Nero",
+                    AliceBlue: "AliceBlue",
+                    Black: "Black",
                     Blue: "Blue",
                     Brown: "Brown",
-                    Gold: "Oro",
-                    Green: "Verde",
+                    Gold: "Gold",
+                    Green: "Green",
                     Lime: "Lime",
-                    Maroon: "Il marrone rossiccio",
-                    Orange: "Arancione",
-                    Pink: "Rosa",
-                    Red: "Rosso",
-                    Violet: "Violetta",
-                    White: "Bianco",
-                    Yellow: "Giallo",
+                    Maroon: "Maroon",
+                    Orange: "Orange",
+                    Pink: "Pink",
+                    Red: "Red",
+                    Violet: "Violet",
+                    White: "White",
+                    Yellow: "Yellow",
                     Solid: "Solido",
                     Dashed: "Tratteggio",
                     Dotted: "Punteggiato",
@@ -1078,7 +1072,7 @@
                     Outset: "Inizio",
                     Ridge: "Cresta",
                     None: "Nessuno",
-                    Algerian: "In Algeria",
+                    Algerian: "Algerian",
                     Arial: "Arial",
                     BodoniMT: "Bodoni MT",
                     BritannicBold: "Britannic Bold",
@@ -1088,7 +1082,7 @@
                     DejaVuSans: "DejaVu Sans",
                     Forte: "Forte",
                     Gerogia: "Gerogia",
-                    Impact: "Impatto",
+                    Impact: "Impact",
                     SegoeUI: "Segoe UI",
                     Tahoma: "Tahoma",
                     TimesNewRoman: "Times New Roman",
@@ -1117,7 +1111,14 @@
                     NormalTopSummary: "Alla parte superiore normale layout Riepilogo",
                     NoSummaries: "Nessuna disposizione riepiloghi",
                     Fontcolor: "Colore del carattere",
-                    AddCurrentSelectionToFilter: "Aggiungi la selezione corrente per filtrare"
+                    AddCurrentSelectionToFilter: "Aggiungi la selezione corrente per filtrare",
+					Months: "Mesi",
+					Days: "Giorni",
+					Quarters: "Quarti",
+					Years: "Anni",
+					Qtr: "Qtr",
+					Quarter: "Trimestre",
+					NoRecordsToDisplay: "Nessun record da visualizzare."
                 };
                 break;
 
@@ -2518,4 +2519,6 @@
     widgets = ej.widget.registeredWidgets;
     for (name in widgets)
         $.fn.Locale_itIT(name);
+    if(ej.ExcelFilter)
+        $.fn.Locale_itIT("ejExcelFilter");
 })(window.jQuery, window.Syncfusion);

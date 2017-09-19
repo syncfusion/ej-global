@@ -552,7 +552,6 @@
                     Collapse: "Sự sụp đổ",
                     Exit: "Lối thoát",
                     Value: "Giá trị",
-
                     ChartTypes: "Kiểu biểu đồ",
                     TDCharts: "Bản đồ 3D",
                     Tooltip: "Văn bản tiêu đề chọn",
@@ -604,7 +603,6 @@
                     SortAtoZ: "Sắp xếp một đến Z",
                     SortZtoA: "Sắp xếp Z để một",
                     and: "Và",
-
                     DeferUpdate: "Hoãn cập nhật",
                     MDXQuery: "MDX truy vấn",
                     Column: "Cột",
@@ -940,7 +938,6 @@
                     SortAtoZ: "Sắp xếp một đến Z",
                     SortZtoA: "Sắp xếp Z để một",
                     and: "Và",
-
                     NumberFormatting: "Số đang định dạng",
                     FrozenHeaders: "Dã²ng Ä'áº§u đông lạnh",
                     CellSelection: "Tế bào phần chọn",
@@ -962,7 +959,6 @@
                     PagingOptions: "Chúng tôi đặt cái máy nghe lén tùy chọn",
                     CategoricalPageSize: "Sự phân loại kích cỡ trang",
                     SeriesPageSize: "Loạt kích cỡ trang",
-
                     HyperLink: "Siêu liên kết",
                     CellEditing: "Tế bào hiệu chỉnh.",
                     GroupingBar: "Thanh chân trang",
@@ -980,13 +976,11 @@
                     Average: "Trung bình",
                     Count: "Đếm",
                     Min: "Min",
-
                     Max: "Max",
                     Excel: "Excel",
                     Word: "Word",
                     PDF: "PDF",
                     CSV: "CSV",
-
                     ToolTipRow: "hàng",
                     ToolTipColumn: "Cột",
                     ToolTipValue: "Giá trị",
@@ -1055,20 +1049,20 @@
                     AddNew: "Thêm mới",
                     Format: "Định dạng",
                     NoMeasure: "Làm ơn thêm bất cứ dự luật này",
-                    AliceBlue: "Xanh da trời sángcolor",
-                    Black: "Đen",
-                    Blue: "Xanh nước biển",
+                    AliceBlue: "AliceBlue",
+                    Black: "Black",
+                    Blue: "Blue",
                     Brown: "Brown",
-                    Gold: "Vàng",
-                    Green: "Xanh lá cây nhạtcolor",
-                    Lime: "Quất",
-                    Maroon: "Color",
-                    Orange: "Cam",
-                    Pink: "Màu hồng",
-                    Red: "Màu đỏ",
-                    Violet: "Tím xanhcolor",
-                    White: "Trắng",
-                    Yellow: "Vàng",
+                    Gold: "Gold",
+                    Green: "Green",
+                    Lime: "Lime",
+                    Maroon: "Maroon",
+                    Orange: "Orange",
+                    Pink: "Pink",
+                    Red: "Red",
+                    Violet: "Violet",
+                    White: "White",
+                    Yellow: "Yellow",
                     Solid: "Rắn chắc",
                     Dashed: "Đường gạch gạch",
                     Dotted: "Kết thúc bằng chữ",
@@ -1078,20 +1072,20 @@
                     Outset: "Khi bắt đầu",
                     Ridge: "Ridge",
                     None: "Không ai",
-                    Algerian: "Algeria",
+                    Algerian: "Algerian",
                     Arial: "Arial",
                     BodoniMT: "Bodoni MT",
-                    BritannicBold: "Britannic đậm",
+                    BritannicBold: "Britannic Bold",
                     Cambria: "Cambria",
                     Calibri: "Calibri",
-                    CourierNew: "Courier mới",
-                    DejaVuSans: "Like DejaVu chữ không",
-                    Forte: "Fortegenericname",
+                    CourierNew: "Courier New",
+                    DejaVuSans: "DejaVu Sans",
+                    Forte: "Forte",
                     Gerogia: "Gerogia",
-                    Impact: "Tác động",
+                    Impact: "Impact",
                     SegoeUI: "Segoe UI",
                     Tahoma: "Tahoma",
-                    TimesNewRoman: "Lần người La Mã mới",
+                    TimesNewRoman: "Times New Roman",
                     Verdana: "Verdana",
                     CubeDimensionBrowser: "Lập phương trình duyệt chiều",
                     SelectHierarchy: "Chọn hệ thống phân cấp",
@@ -1117,7 +1111,14 @@
                     NormalTopSummary: "Top Tóm Lược bố trí bình thường",
                     NoSummaries: "Không có bố trí bản tóm tắt",
                     Fontcolor: "Màu chữ",
-                    AddCurrentSelectionToFilter: "Thêm lựa chọn hiện tại để lọc"
+                    AddCurrentSelectionToFilter: "Thêm lựa chọn hiện tại để lọc",
+					Months: "Tháng",
+					Days: "Ngày",
+					Quarters: "Khu phố",
+					Years: "Năm",
+					Qtr: "Qtr",
+					Quarter: "Phần tư",
+					NoRecordsToDisplay: "Không có hồ sơ để hiển thị."
                 };
                 break;
             case "ejPivotPager":
@@ -1144,7 +1145,6 @@
                     ClearFilterFrom: "Bộ lọc rõ ràng từ",
                     SortAtoZ: "Sắp xếp một đến Z",
                     SortZtoA: "Sắp xếp Z để một",
-
                     PivotTableFieldList: "Pivot FieldList bàn",
                     ChooseFieldsToAddToReport: "Chọn lĩnh vực để bổ sung vào báo cáo:",
                     DragFieldBetweenAreasBelow: "lĩnh vực Kéo giữa các khu vực dưới đây:",
@@ -2575,4 +2575,6 @@
     widgets = ej.widget.registeredWidgets;
     for (name in widgets)
         $.fn.Locale_viVN(name);
+    if(ej.ExcelFilter)
+        $.fn.Locale_viVN("ejExcelFilter");
 })(window.jQuery, window.Syncfusion);

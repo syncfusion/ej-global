@@ -553,7 +553,6 @@
                     Collapse: "הִתמוֹטְטוּת",
                     Exit: "יְצִיאָה",
                     Value: "ערך",
-
                     ChartTypes: "סוגי תרשימים",
                     TDCharts: "3D תרשימים",
                     Tooltip: "תיאור כלי",
@@ -604,7 +603,6 @@
                     ClearFilterFrom: "נקה מסנן",
                     SortAtoZ: "מיין לפי A עד Z",
                     SortZtoA: "מיין לפי Z אל",
-
                     DeferUpdate: "עיכוב עדכון",
                     MDXQuery: "שאילתת MDX",
                     Column: "טור",
@@ -940,7 +938,6 @@
                     SortAtoZ: "מיין לפי A עד Z",
                     SortZtoA: "מיין לפי Z אל",
                     and: "ו",
-
                     NumberFormatting: "עיצוב מספרים",
                     FrozenHeaders: "כותרות קפוא",
                     CellSelection: "בחירת תאים",
@@ -962,7 +959,6 @@
                     PagingOptions: "אפשרויות כריזה אוטומטית",
                     CategoricalPageSize: "הציווי המוחלט גודל דף",
                     SeriesPageSize: "Series גודל דף",
-
                     HyperLink: "היפר קישור",
                     CellEditing: "עריכת תאים",
                     GroupingBar: "קיבוץ בר",
@@ -980,13 +976,11 @@
                     Average: "ממוצע",
                     Count: "ספירה",
                     Min: "דקות",
-
                     Max: "לכל היותר",
                     Excel: "Excel",
                     Word: "Word",
                     PDF: "PDF",
                     CSV: "CSV",
-
                     ToolTipRow: "שׁוּרָה",
                     ToolTipColumn: "טור",
                     ToolTipValue: "ערך",
@@ -1055,20 +1049,20 @@
                     AddNew: "הוסף חדש",
                     Format: "תבנית",
                     NoMeasure: "אנא הוסף בכל מידה",
-                    AliceBlue: "אליס כחול",
-                    Black: "שחור",
-                    Blue: "כחול",
-                    Brown: "חום",
-                    Gold: "זהב",
-                    Green: "ירוק",
-                    Lime: "ליים",
-                    Maroon: "חום אדמדם",
-                    Orange: "כתום",
-                    Pink: "ורוד",
-                    Red: "אדום",
-                    Violet: "סגולה",
-                    White: "לבן",
-                    Yellow: "צהוב",
+                    AliceBlue: "AliceBlue",
+                    Black: "Black",
+                    Blue: "Blue",
+                    Brown: "Brown",
+                    Gold: "Gold",
+                    Green: "Green",
+                    Lime: "Lime",
+                    Maroon: "Maroon",
+                    Orange: "Orange",
+                    Pink: "Pink",
+                    Red: "Red",
+                    Violet: "Violet",
+                    White: "White",
+                    Yellow: "Yellow",
                     Solid: "קבוע",
                     Dashed: "מדוכא",
                     Dotted: "מרוסק",
@@ -1078,20 +1072,20 @@
                     Outset: "מלכתחילה",
                     Ridge: "רכס",
                     None: "אף אחד",
-                    Algerian: "אלג'יריה",
+                    Algerian: "Algerian",
                     Arial: "Arial",
-                    BodoniMT: "Bodoni הר",
+                    BodoniMT: "Bodoni MT",
                     BritannicBold: "Britannic Bold",
-                    Cambria: "מביקור במפרץ קמבריה",
+                    Cambria: "Cambria",
                     Calibri: "Calibri",
-                    CourierNew: "שליח חדש",
+                    CourierNew: "Courier New",
                     DejaVuSans: "DejaVu Sans",
-                    Forte: "פורטה",
+                    Forte: "Forte",
                     Gerogia: "Gerogia",
-                    Impact: "ההשפעה",
+                    Impact: "Impact",
                     SegoeUI: "Segoe UI",
                     Tahoma: "Tahoma",
-                    TimesNewRoman: "פעמים רומאי חדש",
+                    TimesNewRoman: "Times New Roman",
                     Verdana: "Verdana",
                     CubeDimensionBrowser: "קוביה Dimension הדפדפן",
                     SelectHierarchy: "בחר היררכיה",
@@ -1117,7 +1111,14 @@
                     NormalTopSummary: "פריסת סיכום העליון רגילה",
                     NoSummaries: "אין תקצירים פריסה",
                     Fontcolor: "צבע גופן",
-                    AddCurrentSelectionToFilter: "הוסף את הבחירה הנוכחית לסנן"
+                    AddCurrentSelectionToFilter: "הוסף את הבחירה הנוכחית לסנן",
+					Months: "חודשים",
+					Days: "ימים",
+					Quarters: "רבעים",
+					Years: "שנים",
+					Qtr: "Qtr",
+					Quarter: "רבע",
+					NoRecordsToDisplay: "אין רשומות להצגה."
                 };
                 break;
             case "ejPivotPager":
@@ -2517,4 +2518,6 @@
     widgets = ej.widget.registeredWidgets;
     for (name in widgets)
         $.fn.Locale_heIL(name);
+    if(ej.ExcelFilter)
+        $.fn.Locale_heIL("ejExcelFilter");
 })(window.jQuery, window.Syncfusion);
