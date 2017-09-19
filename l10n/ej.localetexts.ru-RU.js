@@ -595,7 +595,7 @@
                     IsGreaterThan: "Больше чем",
                     IsGreaterThanOrEqualTo: "Больше или равно",
                     IsLessThan: "Меньше",
-                    IsLessThanOrEqualTo: "Меньше или равно",­­
+                    IsLessThanOrEqualTo: "Меньше или равно",
                     ClearSorting: "Очистить сортировка",
                     ClearFilterFrom: "Очистить фильтр от",
                     SortAtoZ: "Сортировать по алфавиту",
@@ -930,7 +930,7 @@
                     IsGreaterThan: "Больше чем",
                     IsGreaterThanOrEqualTo: "Больше или равно",
                     IsLessThan: "Меньше",
-                    IsLessThanOrEqualTo: "Меньше или равно",­­
+                    IsLessThanOrEqualTo: "Меньше или равно",
                     ClearSorting: "Очистить сортировка",
                     ClearFilterFrom: "Очистить фильтр от",
                     SortAtoZ: "Сортировать по алфавиту",
@@ -1135,7 +1135,7 @@
                     IsGreaterThan: "Больше чем",
                     IsGreaterThanOrEqualTo: "Больше или равно",
                     IsLessThan: "Меньше",
-                    IsLessThanOrEqualTo: "Меньше или равно",­­
+                    IsLessThanOrEqualTo: "Меньше или равно",
                     ClearSorting: "Очистить сортировка",
                     ClearFilterFrom: "Очистить фильтр от",
                     SortAtoZ: "Сортировать по алфавиту",

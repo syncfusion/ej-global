@@ -597,7 +597,7 @@
                     IsGreaterThan: "On yli",
                     IsGreaterThanOrEqualTo: "On suurempi tai yhtä suuri kuin",
                     IsLessThan: "On alle",
-                    IsLessThanOrEqualTo: "On pienempi tai yhtä suuri kuin",­­
+                    IsLessThanOrEqualTo: "On pienempi tai yhtä suuri kuin",
                     ClearSorting: "Poista lajittelu",
                     ClearFilterFrom: "Tyhjennä suodatin",
                     SortAtoZ: "Lajittele A: sta Z: ksi",
@@ -932,7 +932,7 @@
                     IsGreaterThan: "On yli",
                     IsGreaterThanOrEqualTo: "On suurempi tai yhtä suuri kuin",
                     IsLessThan: "On alle",
-                    IsLessThanOrEqualTo: "On pienempi tai yhtä suuri kuin",­­
+                    IsLessThanOrEqualTo: "On pienempi tai yhtä suuri kuin",
                     ClearSorting: "Poista lajittelu",
                     ClearFilterFrom: "Tyhjennä suodatin",
                     SortAtoZ: "Lajittele A: sta Z: ksi",
@@ -1137,7 +1137,7 @@
                     IsGreaterThan: "On yli",
                     IsGreaterThanOrEqualTo: "On suurempi tai yhtä suuri kuin",
                     IsLessThan: "On alle",
-                    IsLessThanOrEqualTo: "On pienempi tai yhtä suuri kuin",­­
+                    IsLessThanOrEqualTo: "On pienempi tai yhtä suuri kuin",
                     ClearSorting: "Poista lajittelu",
                     ClearFilterFrom: "Tyhjennä suodatin",
                     SortAtoZ: "Lajittele A: sta Z: ksi",

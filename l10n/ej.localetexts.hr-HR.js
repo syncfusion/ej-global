@@ -1591,7 +1591,7 @@
                     Detailed: "Uredi Imenovanje",
                     EventBeginsin: "Imenovanje počinje u",
                     Editevent: "Uredi Imenovanje",
-                    Editfollowingevent: "Sljedeći događaji,
+                    Editfollowingevent: "Sljedeći događaji",
                     Editseries: "Uredi serije",
                     Times: "puta",
                     Until: "do",

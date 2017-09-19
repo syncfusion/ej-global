@@ -602,7 +602,7 @@
                     ClearSorting: "Limpar a triagem",
                     ClearFilterFrom: "Limpar Filtro",
                     SortAtoZ: "Ordenar de A a Z",
-                    SortZtoA: "Ordenar de Z a A",­­
+                    SortZtoA: "Ordenar de Z a A",
 
                     DeferUpdate: "Adiar Atualização",
                     MDXQuery: "consulta MDX",
@@ -933,11 +933,11 @@
                     IsGreaterThan: "É maior que",
                     IsGreaterThanOrEqualTo: "É maior que ou igual a",
                     IsLessThan: "É menor que",
-                    IsLessThanOrEqualTo: "É menor do que ou igual a",­­
+                    IsLessThanOrEqualTo: "É menor do que ou igual a",
                     ClearSorting: "Limpar a triagem",
                     ClearFilterFrom: "Limpar Filtro",
                     SortAtoZ: "Ordenar de A a Z",
-                    SortZtoA: "Ordenar de Z a A",­­
+                    SortZtoA: "Ordenar de Z a A",
                     and: "E",
 
                     NumberFormatting: "Formatação de número",
@@ -1138,11 +1138,11 @@
                     IsGreaterThan: "É maior que",
                     IsGreaterThanOrEqualTo: "É maior que ou igual a",
                     IsLessThan: "É menor que",
-                    IsLessThanOrEqualTo: "É menor do que ou igual a",­­
+                    IsLessThanOrEqualTo: "É menor do que ou igual a",
                     ClearSorting: "Limpar a triagem",
                     ClearFilterFrom: "Limpar Filtro",
                     SortAtoZ: "Ordenar de A a Z",
-                    SortZtoA: "Ordenar de Z a A",­­
+                    SortZtoA: "Ordenar de Z a A",
                     and: "E",
 
                     PivotTableFieldList: "Lista de campos de tabela dinâmica",
