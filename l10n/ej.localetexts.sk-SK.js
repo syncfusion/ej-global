@@ -597,7 +597,7 @@
                     IsGreaterThan: "Je väčší ako",
                     IsGreaterThanOrEqualTo: "Je väčší alebo rovný",
                     IsLessThan: "Menej než",
-                    IsLessThanOrEqualTo: "Je menší ako alebo rovný",­­
+                    IsLessThanOrEqualTo: "Je menší ako alebo rovný",
                     ClearSorting: "Jasné triedenia",
                     ClearFilterFrom: "Čistý filter z",
                     SortAtoZ: "Zoradiť od A po Z",
@@ -933,7 +933,7 @@
                     IsGreaterThan: "Je väčší ako",
                     IsGreaterThanOrEqualTo: "Je väčší alebo rovný",
                     IsLessThan: "Menej než",
-                    IsLessThanOrEqualTo: "Je menší ako alebo rovný",­­
+                    IsLessThanOrEqualTo: "Je menší ako alebo rovný",
                     ClearSorting: "Jasné triedenia",
                     ClearFilterFrom: "Čistý filter z",
                     SortAtoZ: "Zoradiť od A po Z",
@@ -1138,7 +1138,7 @@
                     IsGreaterThan: "Je väčší ako",
                     IsGreaterThanOrEqualTo: "Je väčší alebo rovný",
                     IsLessThan: "Menej než",
-                    IsLessThanOrEqualTo: "Je menší ako alebo rovný",­­
+                    IsLessThanOrEqualTo: "Je menší ako alebo rovný",
                     ClearSorting: "Jasné triedenia",
                     ClearFilterFrom: "Čistý filter z",
                     SortAtoZ: "Zoradiť od A po Z",

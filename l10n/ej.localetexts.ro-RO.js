@@ -596,7 +596,7 @@
                     IsGreaterThan: "Este mai mare de",
                     IsGreaterThanOrEqualTo: "Este mai mare sau egală cu",
                     IsLessThan: "Este mai mică de",
-                    IsLessThanOrEqualTo: "Este mai mic sau egal cu",­­
+                    IsLessThanOrEqualTo: "Este mai mic sau egal cu",
                     ClearSorting: "Ştergeţi sortarea",
                     ClearFilterFrom: "Ştergeţi filtrul de la",
                     SortAtoZ: "Un fel de la A la Z",
@@ -931,7 +931,7 @@
                     IsGreaterThan: "Este mai mare de",
                     IsGreaterThanOrEqualTo: "Este mai mare sau egală cu",
                     IsLessThan: "Este mai mică de",
-                    IsLessThanOrEqualTo: "Este mai mic sau egal cu",­­
+                    IsLessThanOrEqualTo: "Este mai mic sau egal cu",
                     ClearSorting: "Ştergeţi sortarea",
                     ClearFilterFrom: "Ştergeţi filtrul de la",
                     SortAtoZ: "Un fel de la A la Z",
@@ -1136,7 +1136,7 @@
                     IsGreaterThan: "Este mai mare de",
                     IsGreaterThanOrEqualTo: "Este mai mare sau egală cu",
                     IsLessThan: "Este mai mică de",
-                    IsLessThanOrEqualTo: "Este mai mic sau egal cu",­­
+                    IsLessThanOrEqualTo: "Este mai mic sau egal cu",
                     ClearSorting: "Ştergeţi sortarea",
                     ClearFilterFrom: "Ştergeţi filtrul de la",
                     SortAtoZ: "Un fel de la A la Z",
