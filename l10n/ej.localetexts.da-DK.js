@@ -160,6 +160,11 @@
                     Delete: "Slet",
                     Download: "Hent",
                     Error: "Fejl",
+                    PasteError: "Fejl",
+                    UploadError: "Fejl",
+                    RenameError: "Fejl",
+                    PasteReplaceAlert: "Filnavnet eksisterer allerede. Erstat gammel fil med ny?",
+                    UploadReplaceAlert:"Filnavnet eksisterer allerede. Erstat gammel fil med ny?",
                     Cut: "Skære",
                     Copy: "Kopi",
                     Paste: "Indsæt",
@@ -2517,4 +2522,6 @@
     widgets = ej.widget.registeredWidgets;
     for (name in widgets)
         $.fn.Locale_daDK(name);
+    if(ej.ExcelFilter)
+        $.fn.Locale_daDK("ejExcelFilter");
 })(window.jQuery, window.Syncfusion);

@@ -168,6 +168,9 @@
                     Delete: "Radera",
                     Download: "Ladda ner",
                     Error: "Fel",
+                    PasteError: "Fel",
+                    UploadError: "Fel",
+                    RenameError: "Fel",
                     Cut: "Skära",
                     Copy: "Kopiera",
                     Paste: "Klistra",
@@ -179,6 +182,8 @@
                     Size: "Storlek",
                     RenameAlert: "Ange nytt namn",
                     NewFolderAlert: "Ange nytt mappnamn ,",
+                    PasteReplaceAlert: "Filnamn finns redan. Ersätt gammal fil med ny?",
+                    UploadReplaceAlert: "Filnamn finns redan. Ersätt gammal fil med ny?",
                     ContextMenuOpen: "Öppen",
                     ContextMenuNewFolder: "Ny mapp",
                     ContextMenuDelete: "Radera",
@@ -2521,4 +2526,6 @@
     widgets = ej.widget.registeredWidgets;
     for (name in widgets)
         $.fn.Locale_svSE(name);
+    if(ej.ExcelFilter)
+        $.fn.Locale_svSE("ejExcelFilter");
 })(window.jQuery, window.Syncfusion);

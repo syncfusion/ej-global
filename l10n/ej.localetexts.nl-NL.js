@@ -169,6 +169,9 @@
                     Delete: "Verwijder",
                     Download: "Download",
                     Error: "Fout",
+                    PasteError: "Fout",
+                    UploadError: "Fout",
+                    RenameError: "Fout",
                     Cut: "Besnoeiing",
                     Copy: "Kopiëren",
                     Paste: "Plakken",
@@ -180,6 +183,8 @@
                     Size: "Grootte",
                     RenameAlert: "Voer een nieuwe naam",
                     NewFolderAlert: "Voer een nieuwe naam van de map,",
+                    PasteReplaceAlert: "Bestandsnaam bestaat al. Vervang oud bestand met nieuwe?",
+                    UploadReplaceAlert: "Bestandsnaam bestaat al. Vervang oud bestand met nieuwe?",
                     ContextMenuOpen: "Open",
                     ContextMenuNewFolder: "nieuwe map",
                     ContextMenuDelete: "Verwijder",
@@ -2524,4 +2529,6 @@
     widgets = ej.widget.registeredWidgets;
     for (name in widgets)
         $.fn.Locale_nlNL(name);
+    if(ej.ExcelFilter)
+        $.fn.Locale_nlNL("ejExcelFilter");
 })(window.jQuery, window.Syncfusion);

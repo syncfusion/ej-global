@@ -168,6 +168,9 @@
                     Delete: "vymazať",
                     Download: "Stiahnuť ▼",
                     Error: "chyba",
+                    PasteError: "chyba",
+                    UploadError: "chyba",
+                    RenameError: "chyba",
                     Cut: "rez",
                     Copy: "kópie",
                     Paste: "pasta",
@@ -179,6 +182,8 @@
                     Size: "veľkosť",
                     RenameAlert: "Prosím, zadajte nový názov",
                     NewFolderAlert: "Prosím, zadajte nový názov zložky,",
+                    PasteReplaceAlert: "Súbor s názvom už existuje. Nahradiť starý súbor za nový?",
+                    UploadReplaceAlert: "Súbor s názvom už existuje. Nahradiť starý súbor za nový?",
                     ContextMenuOpen: "otvorené",
                     ContextMenuNewFolder: "Nový priečinok",
                     ContextMenuDelete: "vymazať",
@@ -2522,4 +2527,6 @@
     widgets = ej.widget.registeredWidgets;
     for (name in widgets)
         $.fn.Locale_skSK(name);
+    if(ej.ExcelFilter)
+        $.fn.Locale_skSK("ejExcelFilter");
 })(window.jQuery, window.Syncfusion);

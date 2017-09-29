@@ -162,6 +162,9 @@
                     Delete: "حذف کردن",
                     Download: "دانلود",
                     Error: "خطا",
+                    PasteError: "خطا",
+                    UploadError: "خطا",
+                    RenameError: "خطا",
                     Cut: "برش",
                     Copy: "نسخه",
                     Paste: "خمیر",
@@ -172,6 +175,8 @@
                     NewFolder: "فولدر جدید",
                     Size: "اندازه",
                     RenameAlert: "لطفا نام جدید را وارد کنید",
+                    PasteReplaceAlert: "را وارد کنید  نام پوشه جدید را وارد کنی",
+                    UploadReplaceAlert: "را وارد کنید  نام پوشه جدید را وارد کنی",
                     NewFolderAlert: "لطفا نام پوشه جدید را وارد کنید،",
                     ContextMenuOpen: "باز کن",
                     ContextMenuNewFolder: "فولدر جدید",
@@ -2489,4 +2494,6 @@
     widgets = ej.widget.registeredWidgets;
     for (name in widgets)
         $.fn.Locale_faIR(name);
+    if(ej.ExcelFilter)
+        $.fn.Locale_faIR("ejExcelFilter");
 })(window.jQuery, window.Syncfusion);

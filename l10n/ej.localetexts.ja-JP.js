@@ -168,6 +168,9 @@
                     Delete: "削除",
                     Download: "ダウンロード",
                     Error: "エラー",
+                    PasteError: "エラー",
+                    UploadError: "エラー",
+                    RenameError: "エラー",
                     Cut: "カット",
                     Copy: "コピー",
                     Paste: "ペースト",
@@ -179,6 +182,8 @@
                     Size: "サイズ",
                     RenameAlert: "新しい名前を入力してください。",
                     NewFolderAlert: "新しいフォルダ名を入力してください、",
+                    PasteReplaceAlert: "すでに指定されたファイルが存在します。古いファイルを新しいファイルに置き換えますか？",
+                    UploadReplaceAlert: "すでに指定されたファイルが存在します。古いファイルを新しいファイルに置き換えますか？",
                     ContextMenuOpen: "開いた",
                     ContextMenuNewFolder: "新規フォルダ",
                     ContextMenuDelete: "削除",
@@ -2523,4 +2528,6 @@
     widgets = ej.widget.registeredWidgets;
     for (name in widgets)
         $.fn.Locale_jaJP(name);
+    if(ej.ExcelFilter)
+        $.fn.Locale_jaJP("ejExcelFilter");
 })(window.jQuery, window.Syncfusion);

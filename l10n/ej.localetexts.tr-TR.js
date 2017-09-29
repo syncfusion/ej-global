@@ -168,6 +168,9 @@
                     Delete: "Sil",
                     Download: "İndir",
                     Error: "Hata",
+                    PasteError: "Hata",
+                    UploadError: "Hata",
+                    RenameError: "Hata",
                     Cut: "Kes",
                     Copy: "Kopyala",
                     Paste: "Yapıştır",
@@ -179,6 +182,8 @@
                     Size: "Boyut",
                     RenameAlert: "Yeni adı girin",
                     NewFolderAlert: "Yeni klasör adını girin,",
+                    PasteReplaceAlert: "Adlı dosya var. Eski dosyayı yenisiyle değiştirin mi?",
+                    UploadReplaceAlert: "Adlı dosya var. Eski dosyayı yenisiyle değiştirin mi?",
                     ContextMenuOpen: "Açık",
                     ContextMenuNewFolder: "Yeni Dosya",
                     ContextMenuDelete: "Sil",
@@ -2521,4 +2526,6 @@
     widgets = ej.widget.registeredWidgets;
     for (name in widgets)
         $.fn.Locale_trTR(name);
+    if(ej.ExcelFilter)
+        $.fn.Locale_trTR("ejExcelFilter");
 })(window.jQuery, window.Syncfusion);

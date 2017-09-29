@@ -168,6 +168,9 @@
                     Delete: "удалять",
                     Download: "скачать",
                     Error: "ошибка",
+                    PasteError: "ошибка",
+                    UploadError: "ошибка",
+                    RenameError: "ошибка",
                     Cut: "порез",
                     Copy: "копия",
                     Paste: "паста",
@@ -179,6 +182,8 @@
                     Size: "размер",
                     RenameAlert: "Пожалуйста, введите новое имя",
                     NewFolderAlert: "Пожалуйста, введите имя новой папки,",
+                    PasteReplaceAlert: "Имя файла уже существует. Заменить старый файл на новый?",
+                    UploadReplaceAlert: "Имя файла уже существует. Заменить старый файл на новый?",
                     ContextMenuOpen: "открытым",
                     ContextMenuNewFolder: "Новая папка",
                     ContextMenuDelete: "удалять",
@@ -2519,4 +2524,6 @@
     widgets = ej.widget.registeredWidgets;
     for (name in widgets)
         $.fn.Locale_ruRU(name);
+    if(ej.ExcelFilter)
+        $.fn.Locale_ruRU("ejExcelFilter");
 })(window.jQuery, window.Syncfusion);

@@ -178,6 +178,9 @@
                         Delete: "删除",
                         Download: "下载",
                         Error: "错误",
+                        PasteError: "错误",
+                        UploadError: "错误",
+                        RenameError: "错误",
                         Cut: "切",
                         Copy: "复制",
                         Paste: "糊",
@@ -189,6 +192,8 @@
                         Size: "尺寸",
                         RenameAlert: "请输入新的名称",
                         NewFolderAlert: "请输入新的文件夹名称，",
+                        PasteReplaceAlert: "文件命名已存在。用新的文件替換舊的文件？",
+                        UploadReplaceAlert: "文件命名已存在。用新的文件替換舊的文件？",
                         ContextMenuOpen: "打开",
                         ContextMenuNewFolder: "新建文件夹",
                         ContextMenuDelete: "删除",
@@ -2553,5 +2558,7 @@
 			}
 			widgets = ej.widget.registeredWidgets;
 	          for(name in widgets)
-			  $.fn.Locale_zhCN(name);
+              $.fn.Locale_zhCN(name);
+              if(ej.ExcelFilter)
+                $.fn.Locale_zhCN("ejExcelFilter");
 })(window.jQuery, window.Syncfusion);

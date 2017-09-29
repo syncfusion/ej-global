@@ -169,6 +169,9 @@
                     Delete: "Izbrisati",
                     Download: "Preuzimanje",
                     Error: "greška",
+                    PasteError: "greška",
+                    UploadError: "greška",
+                    RenameError: "greška",
                     Cut: "Rez",
                     Copy: "Kopirati",
                     Paste: "Zalijepiti",
@@ -180,6 +183,8 @@
                     Size: "Veličina",
                     RenameAlert: "Unesite novi naziv",
                     NewFolderAlert: "Unesite novi naziv mape,",
+                    PasteReplaceAlert: "Datoteka s imenom već postoji. Želite li zamijeniti staru datoteku novom?",
+                    UploadReplaceAlert: "Datoteka s imenom već postoji. Želite li zamijeniti staru datoteku novom?",
                     ContextMenuOpen: "Otvoren",
                     ContextMenuNewFolder: "Nova mapa",
                     ContextMenuDelete: "Izbrisati",
@@ -2524,4 +2529,6 @@
     widgets = ej.widget.registeredWidgets;
     for (name in widgets)
         $.fn.Locale_hrHR(name);
+    if(ej.ExcelFilter)
+        $.fn.Locale_hrHR("ejExcelFilter");
 })(window.jQuery, window.Syncfusion);

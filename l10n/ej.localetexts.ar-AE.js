@@ -180,6 +180,9 @@
                         Delete: "حذف",
                         Download: "تحميل",
                         Error: "خطأ",
+                        PasteError: "خطأ",
+                        UploadError: "خطأ",
+                        RenameError: "خطأ",
                         Cut: "قطع",
                         Copy: "نسخ",
                         Paste: "معجون",
@@ -190,6 +193,8 @@
                         NewFolder: "ملف جديد",
                         Size: "حجم",
                         RenameAlert: "الرجاء إدخال اسم جديد",
+                        PasteReplaceAlert: "الملف المسمى موجود من قبل. هل تريد استبدال الملف القديم بأحد الملفات الجديدة؟",
+                        UploadReplaceAlert: "الملف المسمى  موجود من قبل. هل تريد استبدال الملف القديم بأحد الملفات الجديدة؟",
                         NewFolderAlert: "الرجاء إدخال اسم المجلد الجديد،",
                         ContextMenuOpen: "فتح",
                         ContextMenuNewFolder: "ملف جديد",
@@ -2628,5 +2633,7 @@
 			 }
 			widgets = ej.widget.registeredWidgets;
 	          for(name in widgets)
-			  $.fn.Locale_arAE(name);
+              $.fn.Locale_arAE(name);
+            if(ej.ExcelFilter)
+                $.fn.Locale_arAE("ejExcelFilter");
 })(window.jQuery, window.Syncfusion);

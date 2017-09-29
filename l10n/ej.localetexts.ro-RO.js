@@ -168,6 +168,9 @@
                     Delete: "Șterge",
                     Download: "Descarca",
                     Error: "Eroare",
+                    PasteError: "Eroare",
+                    UploadError: "Eroare",
+                    RenameError: "Eroare",
                     Cut: "A taia",
                     Copy: "Copie",
                     Paste: "Pastă",
@@ -179,6 +182,8 @@
                     Size: "mărimea",
                     RenameAlert: "Vă rugăm să introduceți numele nou",
                     NewFolderAlert: "Vă rugăm să introduceți numele nou dosar,",
+                    PasteReplaceAlert: "Numele fișierului există deja. Înlocuiți fișierul vechi cu unul nou?",
+                    UploadReplaceAlert: "Numele fișierului există deja. Înlocuiți fișierul vechi cu unul nou?",
                     ContextMenuOpen: "Deschis",
                     ContextMenuNewFolder: "Dosar nou",
                     ContextMenuDelete: "Șterge",
@@ -2520,4 +2525,6 @@
     widgets = ej.widget.registeredWidgets;
     for (name in widgets)
         $.fn.Locale_roRO(name);
+    if(ej.ExcelFilter)
+        $.fn.Locale_roRO("ejExcelFilter");
 })(window.jQuery, window.Syncfusion);

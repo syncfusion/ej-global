@@ -168,6 +168,9 @@
                     Delete: "cancellare",
                     Download: "Scaricare",
                     Error: "Errore",
+                    PasteError: "Errore",
+                    UploadError: "Errore",
+                    RenameError: "Errore",
                     Cut: "Tagliare",
                     Copy: "Copia",
                     Paste: "Incolla",
@@ -179,6 +182,8 @@
                     Size: "Dimensione",
                     RenameAlert: "Inserisci il nuovo nome",
                     NewFolderAlert: "Inserisci il nuovo nome della cartella,",
+                    PasteReplaceAlert: "File denominato già esiste. Sostituire il vecchio file con uno nuovo?",
+                    UploadReplaceAlert: "File denominato già esiste. Sostituire il vecchio file con uno nuovo?",
                     ContextMenuOpen: "aperto",
                     ContextMenuNewFolder: "Nuova cartella",
                     ContextMenuDelete: "cancellare",
@@ -2518,4 +2523,6 @@
     widgets = ej.widget.registeredWidgets;
     for (name in widgets)
         $.fn.Locale_itIT(name);
+    if(ej.ExcelFilter)
+        $.fn.Locale_itIT("ejExcelFilter");
 })(window.jQuery, window.Syncfusion);

@@ -168,6 +168,9 @@
                     Delete: "Slett",
                     Download: "Nedlasting",
                     Error: "Feil",
+                    PasteError: "Feil",
+                    UploadError: "Feil",
+                    RenameError: "Feil",
                     Cut: "Kutt",
                     Copy: "Kopiere",
                     Paste: "lim",
@@ -179,6 +182,8 @@
                     Size: "Størrelse",
                     RenameAlert: "Fyll inn nytt navn",
                     NewFolderAlert: "Fyll inn nytt mappenavn ,",
+                    PasteReplaceAlert: "Filen heter allerede finnes. Erstatt gammel fil med ny?",
+                    UploadReplaceAlert: "Filen heter allerede finnes. Erstatt gammel fil med ny?",
                     ContextMenuOpen: "Åpne",
                     ContextMenuNewFolder: "Ny mappe",
                     ContextMenuDelete: "Slett",
@@ -2516,4 +2521,6 @@
     widgets = ej.widget.registeredWidgets;
     for (name in widgets)
         $.fn.Locale_nbNO(name);
+    if(ej.ExcelFilter)
+        $.fn.Locale_nbNO("ejExcelFilter");
 })(window.jQuery, window.Syncfusion);

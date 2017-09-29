@@ -167,6 +167,9 @@
                     Delete: "Poistaa",
                     Download: "Lataa",
                     Error: "Virhe",
+                    PasteError: "Virhe",
+                    UploadError: "Virhe",
+                    RenameError: "Virhe",
                     Cut: "Leikata",
                     Copy: "Kopioida",
                     Paste: "tahna",
@@ -178,6 +181,8 @@
                     Size: "Koko",
                     RenameAlert: "Anna uusi nimi",
                     NewFolderAlert: "Anna uuden kansion nimi,",
+                    PasteReplaceAlert: "Tiedosto nimeltä on jo olemassa. Korvaa vanha tiedosto uudella?",
+                    UploadReplaceAlert: "Tiedosto nimeltä on jo olemassa. Korvaa vanha tiedosto uudella?",
                     ContextMenuOpen: "Avata",
                     ContextMenuNewFolder: "Uusi kansio",
                     ContextMenuDelete: "Poistaa",
@@ -2521,4 +2526,6 @@
     widgets = ej.widget.registeredWidgets;
     for (name in widgets)
         $.fn.Locale_fiFI(name);
+    if(ej.ExcelFilter)
+        $.fn.Locale_fiFI("ejExcelFilter");
 })(window.jQuery, window.Syncfusion);

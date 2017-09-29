@@ -168,6 +168,9 @@
                     Delete: "Effacer",
                     Download: "Télécharger",
                     Error: "Erreur",
+                    PasteError: "Erreur",
+                    UploadError: "Erreur",
+                    RenameError: "Erreur",
                     Cut: "Coupe",
                     Copy: "Copie",
                     Paste: "Pâte",
@@ -178,6 +181,8 @@
                     NewFolder: "Nouveau dossier",
                     Size: "Taille",
                     RenameAlert: "S'il vous plaît entrer un nouveau nom",
+                    PasteReplaceAlert: "Le fichier nommé existe déjà. Remplacez l'ancien fichier par un nouveau?",
+                    UploadReplaceAlert: "Le fichier nommé existe déjà. Remplacez l'ancien fichier par un nouveau?",
                     NewFolderAlert: "S'il vous plaît entrer un nouveau nom de dossier,",
                     ContextMenuOpen: "Ouvert",
                     ContextMenuNewFolder: "Nouveau dossier",
@@ -2574,4 +2579,6 @@
     widgets = ej.widget.registeredWidgets;
     for (name in widgets)
         $.fn.Locale_frFR(name);
+    if(ej.ExcelFilter)
+        $.fn.Locale_frFR("ejExcelFilter");
 })(window.jQuery, window.Syncfusion);

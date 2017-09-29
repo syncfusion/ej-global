@@ -168,6 +168,9 @@
                     Delete: "Xóa bỏ",
                     Download: "Tải về",
                     Error: "lỗi",
+                    PasteError: "lỗi",
+                    UploadError: "lỗi",
+                    RenameError: "lỗi",
                     Cut: "Cắt tỉa",
                     Copy: "bản sao",
                     Paste: "dán",
@@ -179,6 +182,8 @@
                     Size: "Kích thước",
                     RenameAlert: "Vui lòng nhập tên mới",
                     NewFolderAlert: "Vui lòng nhập tên thư mục mới,",
+                    PasteReplaceAlert: "Tệp có tên đã tồn tại. Thay thế tệp cũ bằng tệp mới?",
+                    UploadReplaceAlert: "Tệp có tên đã tồn tại. Thay thế tệp cũ bằng tệp mới?",
                     ContextMenuOpen: "Mở",
                     ContextMenuNewFolder: "Thư mục mới",
                     ContextMenuDelete: "Xóa bỏ",
@@ -2575,4 +2580,6 @@
     widgets = ej.widget.registeredWidgets;
     for (name in widgets)
         $.fn.Locale_viVN(name);
+    if(ej.ExcelFilter)
+        $.fn.Locale_viVN("ejExcelFilter");
 })(window.jQuery, window.Syncfusion);

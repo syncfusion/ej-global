@@ -168,6 +168,9 @@
                     Delete: "지우다",
                     Download: "다운로드",
                     Error: "오류",
+                    PasteError: "오류",
+                    UploadError: "오류",
+                    RenameError: "오류",
                     Cut: "절단",
                     Copy: "부",
                     Paste: "풀",
@@ -179,6 +182,8 @@
                     Size: "크기",
                     RenameAlert: "새 이름을 입력하세요",
                     NewFolderAlert: "새 폴더 이름을 입력하세요,",
+                    PasteReplaceAlert: "이미 명명 된 파일이 존재합니다. 이전 파일을 새 파일로 교체 하시겠습니까?",
+                    UploadReplaceAlert: "이미 명명 된 파일이 존재합니다. 이전 파일을 새 파일로 교체 하시겠습니까?",
                     ContextMenuOpen: "열린",
                     ContextMenuNewFolder: "새 폴더",
                     ContextMenuDelete: "지우다",
@@ -2523,4 +2528,6 @@
     widgets = ej.widget.registeredWidgets;
     for (name in widgets)
         $.fn.Locale_koKR(name);
+    if(ej.ExcelFilter)
+        $.fn.Locale_koKR("ejExcelFilter");
 })(window.jQuery, window.Syncfusion);

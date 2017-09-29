@@ -168,6 +168,9 @@
                     Delete: "Töröl",
                     Download: "Letöltés",
                     Error: "Hiba",
+                    PasteError: "Hiba",
+                    UploadError: "Hiba",
+                    RenameError: "Hiba",
                     Cut: "Vágott",
                     Copy: "Másolat",
                     Paste: "Paszta",
@@ -179,6 +182,8 @@
                     Size: "Méret",
                     RenameAlert: "Kérjük, írja be az új nevet",
                     NewFolderAlert: "Kérjük, adja meg az új mappa nevét,",
+                    PasteReplaceAlert: "A fájl neve már létezik. Cserélje le a régi fájlt egy újabbra?",
+                    UploadReplaceAlert: "A fájl neve már létezik. Cserélje le a régi fájlt egy újabbra?",
                     ContextMenuOpen: "Nyisd ki",
                     ContextMenuNewFolder: "Új mappa",
                     ContextMenuDelete: "Töröl",
@@ -2522,4 +2527,6 @@
     widgets = ej.widget.registeredWidgets;
     for (name in widgets)
         $.fn.Locale_huHU(name);
+    if(ej.ExcelFilter)
+        $.fn.Locale_huHU("ejExcelFilter");
 })(window.jQuery, window.Syncfusion);

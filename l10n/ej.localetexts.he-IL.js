@@ -170,6 +170,9 @@
                     Delete: "לִמְחוֹק",
                     Download: "הורדה",
                     Error: "שְׁגִיאָה",
+                    PasteError: "שְׁגִיאָה",
+                    UploadError: "שְׁגִיאָה",
+                    RenameError: "שְׁגִיאָה",
                     Cut: "גְזִירָה",
                     Copy: "עותק",
                     Paste: "לְהַדבִּיק",
@@ -181,6 +184,8 @@
                     Size: "גודל",
                     RenameAlert: "נא להזין את השם החדש",
                     NewFolderAlert: "נא להזין את שם תיקייה חדשה,",
+                    PasteReplaceAlert: "קובץ בשם כבר קיים. להחליף את הקובץ הישן עם אחד חדש?",
+                    UploadReplaceAlert: "קובץ בשם כבר קיים. להחליף את הקובץ הישן עם אחד חדש?",
                     ContextMenuOpen: "לִפְתוֹחַ",
                     ContextMenuNewFolder: "תיקייה חדשה",
                     ContextMenuDelete: "לִמְחוֹק",
@@ -2517,4 +2522,6 @@
     widgets = ej.widget.registeredWidgets;
     for (name in widgets)
         $.fn.Locale_heIL(name);
+    if(ej.ExcelFilter)
+        $.fn.Locale_heIL("ejExcelFilter");
 })(window.jQuery, window.Syncfusion);

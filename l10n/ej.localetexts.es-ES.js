@@ -163,6 +163,9 @@
                     Delete: "borrar",
                     Download: "Descargar",
                     Error: "error",
+                    PasteError: "error",
+                    UploadError: "error",
+                    RenameError: "error",
                     Cut: "cortada",
                     Copy: "copia",
                     Paste: "pasta",
@@ -208,7 +211,8 @@
                     InvalidFileName: "Un nombre de archivo no puede contener ninguno de los siguientes caracteres: \\/: *? \\ <> |",
                     GeneralError: "Por favor, vea ventana de la consola del navegador para obtener más información",
                     ErrorPath: "FileExplorer no puede encontrar '{0}'. Revisa la ortografía y vuelva a intentarlo.",
-                    ReplaceAlert: "Archivo llamado '{0}' ya existe. Reemplazar archivo antiguo por uno nuevo?",
+                    UploadReplaceAlert: "Archivo llamado '{0}' ya existe. Reemplazar archivo antiguo por uno nuevo?",
+                    PasteReplaceAlert: "Archivo llamado '{0}' ya existe. Reemplazar archivo antiguo por uno nuevo?",
                     DuplicateAlert: "Ya existe un archivo con el mismo nombre '{0}'. ¿Quieres crear el archivo con nombre duplicado",
                     DuplicateFileCreation: "Ya existe un archivo con el mismo nombre en esta ubicación. ¿Quieres cambiar el nombre de '{0}' a '{1}'?",
                     DeleteFolder: " Estas seguro que quieres borrarlo ",
@@ -2592,4 +2596,6 @@
     widgets = ej.widget.registeredWidgets;
     for (name in widgets)
         $.fn.Locale_esES(name);
+    if(ej.ExcelFilter)
+        $.fn.Locale_esES("ejExcelFilter");
 })(window.jQuery, window.Syncfusion);

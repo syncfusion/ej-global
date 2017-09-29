@@ -168,6 +168,9 @@
                     Delete: "Padam",
                     Download: "muat turun",
                     Error: "ralat",
+                    PasteError: "ralat",
+                    UploadError: "ralat",
+                    RenameError: "ralat",
                     Cut: "Cut",
                     Copy: "Salinan",
                     Paste: "paste",
@@ -179,6 +182,8 @@
                     Size: "saiz",
                     RenameAlert: "Sila masukkan nama baru",
                     NewFolderAlert: "Sila masukkan nama folder baru,",
+                    PasteReplaceAlert: "Nama fail telah wujud. Gantikan fail lama dengan yang baru?",
+                    UploadReplaceAlert: "Nama fail telah wujud. Gantikan fail lama dengan yang baru?",
                     ContextMenuOpen: "Dibuka",
                     ContextMenuNewFolder: "Fail baharu",
                     ContextMenuDelete: "Padam",
@@ -2520,4 +2525,6 @@
     widgets = ej.widget.registeredWidgets;
     for (name in widgets)
         $.fn.Locale_msMY(name);
+    if(ej.ExcelFilter)
+        $.fn.Locale_msMY("ejExcelFilter");
 })(window.jQuery, window.Syncfusion);

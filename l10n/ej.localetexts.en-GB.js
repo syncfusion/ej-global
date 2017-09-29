@@ -203,6 +203,11 @@
                     Delete: "Delete",
                     Download: "Download",
                     Error: "Error",
+                    PasteError: "Error",
+                    UploadError: "Error",
+                    RenameError: "Error",
+                    PasteReplaceAlert: "File named already exists. Replace old file with new one?",
+                    UploadReplaceAlert:"File named already exists. Replace old file with new one?",
                     Cut: "Cut",
                     Copy: "Copy",
                     Paste: "Paste",
@@ -234,7 +239,6 @@
                     InvalidFileName: "A file name can't contain any of the following characters: \\/:*?\"<>|",
                     GeneralError: "Please see browser console window for more information",
                     ErrorPath: "FileExplorer can't find '{0}'. Check the spelling and try again.",
-                    ReplaceAlert: "File named '{0}' already exists. Replace old file with new one?",
                     DuplicateAlert: "There is already a file with the same name '{0}'. Do you want to create file with duplicate name",
                     DuplicateFileCreation: "There is already a file with the same name in this location. Do you want to rename '{0}' to '{1}'?",
                     DeleteFolder: " Are you sure you want to delete ",
@@ -2527,4 +2531,6 @@
     widgets = ej.widget.registeredWidgets;
     for (name in widgets)
         $.fn.Locale_enGB(name);
+    if(ej.ExcelFilter)
+        $.fn.Locale_enGB("ejExcelFilter");
 })(window.jQuery, window.Syncfusion);

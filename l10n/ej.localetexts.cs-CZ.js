@@ -172,6 +172,9 @@
                             Delete: "Vymazat",
                             Download: "Ke stažení",
                             Error: "Chyba",
+                            PasteError: "Chyba",
+                            UploadError: "Chyba",
+                            RenameError: "Chyba",
                             Cut: "Střih",
                             Copy: "Kopírovat",
                             Paste: "Vložit",
@@ -1526,6 +1529,8 @@
                             wordExport: "Export jako dokument Word",
                             pdfExport: "Exportovat jako soubor PDF",
                             FindAndReplace: "Najít a nahradit",
+                            PasteReplaceAlert: "Soubor s názvem již existuje. Nahradit starý soubor novým?",
+                            UploadReplaceAlert:"Soubor s názvem již existuje. Nahradit starý soubor novým?",
                             Find: "Nalézt",
                             MatchCase: "Shodný případ",
                             WholeWord: "celé slovo",
@@ -2548,5 +2553,7 @@
 			}
 				widgets = ej.widget.registeredWidgets;
 	          for(name in widgets)
-			  $.fn.Locale_csCZ(name);
+              $.fn.Locale_csCZ(name);
+            if(ej.ExcelFilter)
+                $.fn.Locale_csCZ("ejExcelFilter");
     })(window.jQuery, window.Syncfusion);
