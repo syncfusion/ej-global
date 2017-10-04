@@ -480,7 +480,7 @@
                     False: "faux",
                     UnGroup: "Cliquez ici pour dégrouper",
                     AddRecord: "Ajouter un enregistrement",
-                    EditRecord: "edit Record",
+                    EditRecord: "Modifier l'enregistrement",
                     DeleteRecord: "supprimer l'enregistrement",
                     Save: "sauvegarder",
                     Grouping: "Groupe",
