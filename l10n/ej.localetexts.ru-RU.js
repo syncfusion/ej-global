@@ -439,7 +439,7 @@
                     CancelButton: "отменить",
                     EditFormTitle: "Подробная информация о",
                     AddFormTitle: "Добавить запись",
-                    GroupCaptionFormat: "{{:headerText}}: {{:key}} - {{:count}} {{if count == 1 }} пункт {{else}} Предметы {{/if}} ",
+                    GroupCaptionFormat: "{{:headerText}}: {{:key}} - {{:count}} {{if count == 1 }} элемент {{else count > 1 && count < 5 }} элемента {{else}} элементов {{/if}} ",
                     BatchSaveConfirm: "Вы уверены, что хотите сохранить изменения?",
                     BatchSaveLostChanges: "Несохраненные изменения будут потеряны. Вы уверены, что хотите продолжить?",
                     ConfirmDelete: "Вы уверены, что хотите удалить запись?",
