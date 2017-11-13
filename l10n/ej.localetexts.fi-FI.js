@@ -29,21 +29,21 @@
                     },
                     tooltipText: {
                         switcher: "vaihtaja",
-                        addbutton: "Lisää Color",
+                        addButton: "Lisää Color",
                         basic: "perustiedot",
-                        monochrome: "Yksivärinen",
-                        flatcolors: "Flat Colors",
-                        seawolf: "Sea Wolf",
-                        webcolors: "Web Colors",
+                        monoChrome: "Yksivärinen",
+                        flatColors: "Flat Colors",
+                        seaWolf: "Sea Wolf",
+                        webColors: "Web Colors",
                         sandy: "hiekkainen",
-                        pinkshades: "Pink Shades",
+                        pinkShades: "Pink Shades",
                         misty: "Sumuinen",
                         citrus: "Citrus",
                         vintage: "vuosikerta",
-                        moonlight: "Kuutamo",
-                        candycrush: "Candy Crush",
-                        currentcolor: "nykyinen Color",
-                        selectedcolor: "valittu Color"
+                        moonLight: "Kuutamo",
+                        candyCrush: "Candy Crush",
+                        currentColor: "nykyinen Color",
+                        selectedColor: "valittu Color"
                     },
                 };
                 break;
@@ -67,7 +67,7 @@
                     },
                     watermarkText: "Valitse alue",
                     customPicker: "Custom Picker",
-                };break;
+                }; break;
             case "ejDateTimePicker":
                 ej.DateTimePicker.Locale["fi-FI"] = {
                     watermarkText: "Valitse päivämäärä aika",
@@ -126,12 +126,12 @@
                     Search: "Haku",
                     Showrowswhere: "Näytä rivit, joissa",
                     NumericTextboxWaterMark: "Anna arvo",
-                    StringMenuOptions: [{ text: "yhtäläinen", value: "equal" }, { text: "ei Equal", value: "notequal" }, { text: "alkaa", value: "startswith" }, { text: "Ends With", value: "endswith" }, { text: "Sisältää", value: "contains" }, { text: "Mukautettu suodatin", value: "customfilter" }, ],
-                    NumberMenuOptions: [{ text: "yhtäläinen", value: "equal" }, { text: "ei Equal", value: "notequal" }, { text: "Vähemmän kuin", value: "lessthan" }, { text: "Pienempi tai yhtä suuri", value: "lessthanorequal" }, { text: "Suurempi kuin", value: "greaterthan" }, { text: "Suurempi tai yhtä suuri", value: "greaterthanorequal" }, { text: "Välillä", value: "between" }, { text: "Mukautettu suodatin", value: "customfilter" }, ],
-                    GuidMenuOptions: [{ text: "yhtäläinen", value: "equal" }, { text: "ei Equal", value: "notequal" }, { text: "Mukautettu suodatin", value: "customfilter" }, ],
-                    DateMenuOptions: [{ text: "yhtäläinen", value: "equal" }, { text: "ei Equal", value: "notequal" }, { text: "Vähemmän kuin", value: "lessthan" }, { text: "Pienempi tai yhtä suuri", value: "lessthanorequal" }, { text: "Suurempi kuin", value: "greaterthan" }, { text: "Suurempi tai yhtä suuri", value: "greaterthanorequal" }, { text: "Välillä", value: "between" }, { text: "Mukautettu suodatin", value: "customfilter" }, ],
-                    DatetimeMenuOptions: [{ text: "yhtäläinen", value: "equal" }, { text: "ei Equal", value: "notequal" }, { text: "Vähemmän kuin", value: "lessthan" }, { text: "Pienempi tai yhtä suuri", value: "lessthanorequal" }, { text: "Suurempi kuin", value: "greaterthan" }, { text: "Suurempi tai yhtä suuri", value: "greaterthanorequal" }, { text: "Välillä", value: "between" }, { text: "Mukautettu suodatin", value: "customfilter" }, ],
-                    Top10MenuOptions: [{ text: "ylin", value: "top" }, { text: "pohja", value: "bottom" }, ],
+                    StringMenuOptions: [{ text: "yhtäläinen", value: "equal" }, { text: "ei Equal", value: "notequal" }, { text: "alkaa", value: "startswith" }, { text: "Ends With", value: "endswith" }, { text: "Sisältää", value: "contains" }, { text: "Mukautettu suodatin", value: "customfilter" }],
+                    NumberMenuOptions: [{ text: "yhtäläinen", value: "equal" }, { text: "ei Equal", value: "notequal" }, { text: "Vähemmän kuin", value: "lessthan" }, { text: "Pienempi tai yhtä suuri", value: "lessthanorequal" }, { text: "Suurempi kuin", value: "greaterthan" }, { text: "Suurempi tai yhtä suuri", value: "greaterthanorequal" }, { text: "Välillä", value: "between" }, { text: "Mukautettu suodatin", value: "customfilter" }],
+                    GuidMenuOptions: [{ text: "yhtäläinen", value: "equal" }, { text: "ei Equal", value: "notequal" }, { text: "Mukautettu suodatin", value: "customfilter" }],
+                    DateMenuOptions: [{ text: "yhtäläinen", value: "equal" }, { text: "ei Equal", value: "notequal" }, { text: "Vähemmän kuin", value: "lessthan" }, { text: "Pienempi tai yhtä suuri", value: "lessthanorequal" }, { text: "Suurempi kuin", value: "greaterthan" }, { text: "Suurempi tai yhtä suuri", value: "greaterthanorequal" }, { text: "Välillä", value: "between" }, { text: "Mukautettu suodatin", value: "customfilter" }],
+                    DatetimeMenuOptions: [{ text: "yhtäläinen", value: "equal" }, { text: "ei Equal", value: "notequal" }, { text: "Vähemmän kuin", value: "lessthan" }, { text: "Pienempi tai yhtä suuri", value: "lessthanorequal" }, { text: "Suurempi kuin", value: "greaterthan" }, { text: "Suurempi tai yhtä suuri", value: "greaterthanorequal" }, { text: "Välillä", value: "between" }, { text: "Mukautettu suodatin", value: "customfilter" }],
+                    Top10MenuOptions: [{ text: "ylin", value: "top" }, { text: "pohja", value: "bottom" }],
                     title: "Mukautettu suodatin",
                     PredicateAnd: "JA",
                     PredicateOr: "TAI",
@@ -144,6 +144,7 @@
                     DateTimePickerWaterMark: "Valitse päivämäärä aika",
                     True: "totta",
                     False: "väärä",
+                    AddToFilter: "Lisää nykyinen valinta suodatukseen"
                 };
                 break;
             case "ejFileExplorer":
@@ -247,6 +248,7 @@
             case "ejGantt":
                 ej.Gantt.Locale["fi-FI"] = {
                     emptyRecord: "Ei näytettäviä tietueita",
+                    unassignedTask: "Määrittämätön tehtävä",
                     alertTexts: {
                         indentAlert: "Ei ole gantt tiedosto on valittu suorittamaan sisennystä",
                         outdentAlert: "Ei ole gantt tiedosto on valittu suorittamaan Ulonna",
@@ -278,7 +280,8 @@
                         taskType: "Task Type",
                         work: "Tehdä työtä",
                         unit: "yksikkö",
-                        effortDriven: "vaivaa Driven"
+                        effortDriven: "vaivaa Driven",
+                        resourceName: "Resurssin nimi",
                     },
                     editDialogTexts: {
                         addFormTitle: "uusi tehtävä",
@@ -345,8 +348,9 @@
                         nextTimeSpanTool: "Seuraava Timespan",
                         prevTimeSpanTool: "Edellinen Timespan",
                         criticalPathTool: "Kriittinen polku",
-                        excelExportTool: "Excel Vie",
-                        pdfExportTool: "PDF Export"
+                        excelExportTool: "Excel viedä",
+                        printTool: "Tulosta",
+                        pdfExportTool: "PDF viedä"
                     },
                     durationUnitTexts: {
                         days: "päivää",
@@ -460,12 +464,14 @@
                     ExcelExport: "Excel Vie",
                     WordExport: "Word Export",
                     PdfExport: "PDF Export",
-                    StringMenuOptions: [{ text: "alkaa", value: "StartsWith"},{ text: "Ends With", value: "EndsWith"},{ text: "Sisältää", value: "Contains"},{ text: "yhtäläinen", value: "Equal"},{ text: "ei Equal", value: "NotEqual"},],
-                    NumberMenuOptions: [{ text: "Vähemmän kuin", value: "LessThan" }, { text: "Suurempi kuin", value: "GreaterThan" }, { text: "Pienempi tai yhtä suuri", value: "LessThanOrEqual" }, { text: "Suurempi tai yhtä suuri", value: "GreaterThanOrEqual" }, { text: "yhtäläinen", value: "Equal" }, { text: "ei Equal", value: "NotEqual" }, ],
+                    StringMenuOptions: [{ text: "alkaa", value: "StartsWith" }, { text: "Ends With", value: "EndsWith" }, { text: "Sisältää", value: "Contains" }, { text: "yhtäläinen", value: "Equal" }, { text: "ei Equal", value: "NotEqual" }],
+                    NumberMenuOptions: [{ text: "Vähemmän kuin", value: "LessThan" }, { text: "Suurempi kuin", value: "GreaterThan" }, { text: "Pienempi tai yhtä suuri", value: "LessThanOrEqual" }, { text: "Suurempi tai yhtä suuri", value: "GreaterThanOrEqual" }, { text: "yhtäläinen", value: "Equal" }, { text: "ei Equal", value: "NotEqual" }, { text: "Välillä", value: "Between" }],
                     PredicateAnd: "JA",
                     PredicateOr: "TAI",
                     Filter: "Suodattaa",
                     FilterMenuCaption: "suodattimen Arvo",
+                    FilterMenuFromCaption: "alkaen",
+                    FilterMenuToCaption: "että",
                     FilterbarTitle: "s suodatin bar solu",
                     MatchCase: "Match Case",
                     Clear: "selvä",
@@ -507,7 +513,7 @@
                     };
                     ;
                 }
-                if ( ej.mobile.Grid) {
+                if (ej.mobile.Grid) {
                     ej.mobile.Grid.Locale["fi-FI"] = {
                         emptyResult: "Ei näytettäviä tietueita",
                         filterValidation: "Anna kelvollinen suodatin data",
@@ -539,7 +545,7 @@
                             toolbarConfirmText: "tehty"
                         },
                     };
-    
+
                 }
                 break;
             case "ejNumericTextbox":
@@ -556,7 +562,6 @@
                     Collapse: "Romahdus",
                     Exit: "poistuminen",
                     Value: "Arvo",
-
                     ChartTypes: "Kaavion tyypit",
                     TDCharts: "3D-näkymä",
                     Tooltip: "Työkaluvihje",
@@ -607,7 +612,6 @@
                     ClearFilterFrom: "Tyhjennä suodatin",
                     SortAtoZ: "Lajittele A: sta Z: ksi",
                     SortZtoA: "Lajittele Z A: ksi",
-
                     DeferUpdate: "Lykkää Update",
                     MDXQuery: "MDX Kyselyn",
                     Column: "sarake",
@@ -626,7 +630,7 @@
                     ToggleAxis: "Ota akseli",
                     ExportToExcel: "Vie Excel",
                     ExportToWord: "Vie Word",
-                    ExportToPdf: "Vie pdf",
+                    ExportToPdf: "Vie Pdf",
                     FullScreen: "Koko näyttö",
                     Grid: "ruudukko",
                     Chart: "Kartoittaa",
@@ -738,7 +742,14 @@
                     Warning: "Varoitus",
                     Confirm: "Laskettu jäsenvaltioiden on jo olemassa. Koska haluat korvata?",
                     KPIs: "KPI",
-                    AddCurrentSelectionToFilter: "Lisää nykyinen valinta suodatukseen"
+					Collection: "Kokoelma",
+					Report: "raportin",
+                    AddCurrentSelectionToFilter: "Lisää nykyinen valinta suodatukseen",
+                    SaveMsg: "Raportti on tallennettu!",
+                    RenameMsg: "Raportti nimettiin uudelleen!",
+                    RemoveMsg: "Mietintö poistettiin onnistuneesti!",
+                    Success: "Menestystä",
+                    KpiAlertMsg: "Kentässä siirrät ei voi asettaa, raportin alue"
                 };
                 break;
             case "ejPivotGauge":
@@ -828,17 +839,17 @@
                         signature: {
                             headerText: 'Allekirjoitus',
                             contentText: 'Lisää tai luo käsin kirjoitettu allekirjoitus.',
-        },
-        select: {
-            headerText: 'Valinta',
-            contentText: 'Tekstin valintatyökalu.',
-        },
-        scroll: {
-            headerText: 'panorointi',
-            contentText: 'Napsauttamalla panoroi asiakirjan ympärillä',
-        },
-                  
-                    },  contextMenu: {
+                        },
+                        select: {
+                            headerText: 'Valinta',
+                            contentText: 'Tekstin valintatyökalu.',
+                        },
+                        scroll: {
+                            headerText: 'panorointi',
+                            contentText: 'Napsauttamalla panoroi asiakirjan ympärillä',
+                        },
+
+                    }, contextMenu: {
                         copy: {
                             contentText: 'kopio',
                         },
@@ -929,7 +940,7 @@
             case "ejPivotGrid":
                 ej.PivotGrid.Locale["fi-FI"] = {
                     Total: "Yhteensä",
-                    GrandTotal:"Kaikki yhteensä",
+                    GrandTotal: "Kaikki yhteensä",
                     DoesNotBeginsWith: "Ei alkaa",
                     DoesNotEndsWith: "Ei lopu",
                     DoesNotContains: "Ei sisältää",
@@ -943,7 +954,6 @@
                     SortAtoZ: "Lajittele A: sta Z: ksi",
                     SortZtoA: "Lajittele Z A: ksi",
                     and: "Ja",
-
                     NumberFormatting: "Numeron muotoilua",
                     FrozenHeaders: "Jäädytettyjen leikkuupöydät",
                     CellSelection: "Solujen valinta",
@@ -965,10 +975,9 @@
                     PagingOptions: "Haun asetukset",
                     CategoricalPageSize: "Ehdoton sivukoko.",
                     SeriesPageSize: "Series Page Size",
-
                     HyperLink: "Avattu hyperlinkki",
                     CellEditing: "Solun muokkaaminen",
-                    GroupingBar:"Sopimuspuoleksi valittavalta bar",
+                    GroupingBar: "Sopimuspuoleksi valittavalta bar",
                     SummaryCustomization: "Yhteenveto räätälöinti",
                     SummaryTypes: "Yhteenveto tyypit",
                     SummaryType: "Yhteenveto tyyppi",
@@ -983,13 +992,11 @@
                     Average: "Keskimääräinen",
                     Count: "Nimikekohtainen inventointi",
                     Min: "Min",
-
                     Max: "Maks.",
                     Excel: "Excel",
                     Word: "Word",
                     PDF: "PDF",
                     CSV: "CSV",
-
                     ToolTipRow: "Rivi",
                     ToolTipColumn: "sarake",
                     ToolTipValue: "Arvo",
@@ -1058,20 +1065,20 @@
                     AddNew: "Lisää uusi",
                     Format: "Muoto",
                     NoMeasure: "Lisätkää soveltamisaikana.",
-                    AliceBlue: "Alice sininen",
-                    Black: "Musta",
-                    Blue: "Sininen",
-                    Brown: "Ruskea",
+                    AliceBlue: "AliceBlue",
+                    Black: "Black",
+                    Blue: "Blue",
+                    Brown: "Brown",
                     Gold: "Gold",
-                    Green: "Vihreä",
-                    Lime: "Kalkkia.",
+                    Green: "Green",
+                    Lime: "Lime",
                     Maroon: "Maroon",
-                    Orange: "Oranssi",
-                    Pink: "Vaaleanpunainen",
-                    Red: "Punainen",
-                    Violet: "Violetti",
-                    White: "Valkoinen",
-                    Yellow: "Keltainen",
+                    Orange: "Orange",
+                    Pink: "Pink",
+                    Red: "Red",
+                    Violet: "Violet",
+                    White: "White",
+                    Yellow: "Yellow",
                     Solid: "Kiinteät",
                     Dashed: "Totuuden paljastuessa",
                     Dotted: "Katkoviivan kohdalta.",
@@ -1085,13 +1092,13 @@
                     Arial: "Arial",
                     BodoniMT: "Bodoni MT",
                     BritannicBold: "Britannic Bold",
-                    Cambria: "Esimerkiksi Vaasan",
+                    Cambria: "Cambria",
                     Calibri: "Calibri",
                     CourierNew: "Courier New",
                     DejaVuSans: "DejaVu Sans",
                     Forte: "Forte",
                     Gerogia: "Gerogia",
-                    Impact: "Törmäyksen jälkeen",
+                    Impact: "Impact",
                     SegoeUI: "Segoe UI",
                     Tahoma: "Tahoma",
                     TimesNewRoman: "Times New Roman",
@@ -1115,12 +1122,24 @@
                     All: "Kaikki",
                     Search: "Haku",
                     ColumnResize: "Sarakkeessa koon muuttaminen",
-                    Layouts:"Asettelut",
+                    Layouts: "Asettelut",
                     NormalLayout: "Normaali asettelu",
                     NormalTopSummary: "Normaali nostotoiminto yhteenveto asettelu",
-                    NoSummaries:"Mitään yhteenvetoja asettelu",
+                    NoSummaries: "Mitään yhteenvetoja asettelu",
                     Fontcolor: "Fontin väri",
-                    AddCurrentSelectionToFilter: "Lisää nykyinen valinta suodatukseen"
+                    AddCurrentSelectionToFilter: "Lisää nykyinen valinta suodatukseen",
+                    Months: "Kuukausi",
+                    Days: "Päivien lukumäärä",
+                    Quarters: "Vuosineljännes",
+                    Years: "Vuotta",
+                    Qtr: "Neljännes",
+                    Quarter: "Vuosineljännes",
+                    NoRecordsToDisplay: "Yhtään tietuetta.",
+                    EnterFormatName: "Kirjoita muotoilun nimi",
+                    FormatName: "Tiedostomuodon nimestä",
+                    RemoveFormat: "Irrota muoto",
+                    Edit: "Muokkaa",
+                    DuplicateFormatName: "Sama nimi"
                 };
                 break;
             case "ejPivotPager":
@@ -1216,7 +1235,7 @@
                         sendToBack: "SendToBack",
                     };
                 }
-                if (ej.datavisualization.RangeNavigator){
+                if (ej.datavisualization.RangeNavigator) {
                     ej.datavisualization.RangeNavigator.Locale["fi-FI"] = {
                         intervals: {
                             quarter: {
@@ -1246,6 +1265,7 @@
                             Word: "Sana",
                             Html: "html",
                             PPT: 'PPT',
+                            CSV: 'CSV'
                         },
                         first: {
                             headerText: "Ensimmäinen",
@@ -1518,9 +1538,9 @@
                     Replace: "Korvata",
                     ReplaceAll: "korvaa kaikki",
                     FindErrorMsg: "Ei löytynyt määritetyn sanan.",
-                    customFontColor:"lisää värejä...",
-                    customBGColor:"lisää värejä...",
-                    TransBGColor:"läpinäkyvä",
+                    customFontColor: "lisää värejä...",
+                    customBGColor: "lisää värejä...",
+                    TransBGColor: "läpinäkyvä",
                     addtodictionary: "Lisää Dictionary",
                     ignoreall: "sivuuttaa kaikki"
                 };
@@ -1664,19 +1684,19 @@
                     InsertSBContent: "Lisää solut, rivit, sarakkeet tai arkkia työkirjan.",
                     Delete: "Poistaa",
                     DeleteTitle: "Poista solut",
-                    DeleteContent: "Poista solut, rivit, sarakkeet tai arkkeja työkirjaan. ", 
-                    MultipleDeleteContent :"FYI: Jos haluat poistaa useita rivejä tai sarakkeita kerralla, valitse useita rivejä tai sarakkeita arkin, ja valitse Poista.",
+                    DeleteContent: "Poista solut, rivit, sarakkeet tai arkkeja työkirjaan. ",
+                    MultipleDeleteContent: "FYI: Jos haluat poistaa useita rivejä tai sarakkeita kerralla, valitse useita rivejä tai sarakkeita arkin, ja valitse Poista.",
                     FindSelectTitle: "Etsi & Valitse",
                     FindSelectContent: "Klikkaa nähdäksesi vaihtoehdot löytää asiakirjan teksti.",
                     CalculationOptions: "laskenta-asetukset",
                     CalcOptTitle: "laskenta-asetukset",
-                    CalcOptContent: "Valitse laskea kaavoja automaattisesti tai manuaalisesti.", 
+                    CalcOptContent: "Valitse laskea kaavoja automaattisesti tai manuaalisesti.",
                     CalcOptRecalcContent: " Jos teet muutoksen, joka vaikuttaa arvo, taulukoiden laskee automaattisesti sitä.",
                     CalculateSheet: "Laske Sheet",
                     CalculateNow: "Laske nyt",
-                    CalculateNowContent: "Laske koko työkirjan nyt. ", 
+                    CalculateNowContent: "Laske koko työkirjan nyt. ",
                     CalculateNowTurnOffContent: " Sinun tarvitsee vain käyttää tätä jos automaattinen laskenta on kytketty pois päältä.",
-                    CalculateSheetContent: "Laske aktiivinen levy nyt.", 
+                    CalculateSheetContent: "Laske aktiivinen levy nyt.",
                     CalculateSheetTurnOffContent: " Sinun tarvitsee vain käyttää tätä jos automaattinen laskenta on kytketty pois päältä.",
                     Title: "taulukkolaskentaohjelma",
                     ColorPicker: "Värinvalitsija",
@@ -1739,7 +1759,6 @@
                     ExportXL: "kunnostautua",
                     ExportCsv: "CSV",
                     ExportPdf: "PDF",
-                    SaveXml: "Tallenna XML",
                     BackgroundColor: "täyttöväri",
                     BGContent: "Värittää tausta solujen jotta ne erottuvat.",
                     ColorContent: "Muuta tekstin väriä.",
@@ -1787,9 +1806,6 @@
                     Validation: "Validation",
                     DataValidation: "data Validation",
                     DVContent: "Pick luettelosta sääntöjä rajoittamaan tietojen tyyppi voidaan syöttää soluun.",
-                    A4: "A4",
-                    A3: "A3",
-                    Letter: "Kirje",
                     PageSize: "sivun koko",
                     PageSizeContent: "Valitse sivun koko asiakirjan.",
                     FormatCells: "Muotoile solut",
@@ -1824,7 +1840,7 @@
                     Custom: "Kirjoita lukumuodon koodin, jollakin olemassa olevien koodien lähtökohtana.",
                     CellStyleGBN: "Normaali / Bad / Good / neutraali",
                     CellStyleTH: "Otsake 4 / Otsikko",
-                    CellsStyleTCS: "20% - Accent1 / 20% - Accent2 / 20% - Accent3 / 20% - Accent4 / 60% - Accent1 / 60% - Accent2 / 60% - Accent3 / 60% - Accent4 / Accent1 / Accent2 / Accent3 / Accent4",
+                    Accent: "aksentti",
                     Style: "Tyyli",
                     FormatAsTable: "Muoto Kuten taulukosta",
                     FormatasTable: "Muoto taulukkona",
@@ -1851,7 +1867,7 @@
                     TableStyleOptions: "Ensimmäinen sarake / Last sarake / Total rivi / Filter -painike",
                     Format: "Muoto",
                     NameManager: "name Manager",
-                    NameManagerContent: "Luo, muokata, poistaa ja etsiä kaikki käytetyt nimet työkirjan.", 
+                    NameManagerContent: "Luo, muokata, poistaa ja etsiä kaikki käytetyt nimet työkirjan.",
                     NameManagerFormulaContent: " Nimet voidaan käyttää kaavoissa korvikkeina soluviittauksina.",
                     DefinedNames: "määritelty nimet",
                     DefineName: "Määritä Name",
@@ -1866,7 +1882,7 @@
                     NMRangeAlert: "Anna kelvollinen alue",
                     FORMULAS: "LASKENTAPERIAATTEET",
                     DataValue: "arvot:",
-                    Value:"arvot",
+                    Value: "arvot",
                     Formula: "kaavat",
                     MissingParenthesisAlert: "Kaavassa puuttuu parenthesis--) tai (. Tarkista kaava, ja lisää sitten suluissa sopiva paikka.",
                     UnsupportedFile: "Unsupported File",
@@ -1983,17 +1999,14 @@
                     HideSheet: "Piilottaa",
                     UnhideSheet: "unhide",
                     SheetRenameAlert: "Nimi on jo käytössä. Kokeile toista.",
-                    SheetRenameEmptyAlert: "Kirjoitit virheellisen nimen arkin. Varmista, että: ", 
-                    SheetRenameEmptyCharExceedAlert: " nimi kirjoitat enintään 31 merkkiä.", 
-                    SheetRenameEmptySplCharAlert: " Nimi ei sisällä mitään seuraavista merkeistä:", 
+                    SheetRenameEmptyAlert: "Kirjoitit virheellisen nimen arkin. Varmista, että: ",
+                    SheetRenameEmptyCharExceedAlert: " nimi kirjoitat enintään 31 merkkiä.",
+                    SheetRenameEmptySplCharAlert: " Nimi ei sisällä mitään seuraavista merkeistä:",
                     SheetRenameEmptyBlankAlert: " Et jättänyt nimen tyhjäksi.",
                     SheetDeleteAlert: "Et voi kumota poistamista levyt, ja saatat olla poistamalla joitakin tietoja. Jos et tarvitse sitä, OK poistaa.",
                     SheetDeleteErrorAlert: "Työkirja on oltava vähintään yksi näkyvä taulukkoon. Salattavaa, poistaa tai siirtää valitut levy, sinun täytyy asettaa uusi levy tai Näytä taulukko, joka on jo piilotettu.",
                     CtrlKeyErrorAlert: "Tämä komento ei voi käyttää useita valintoja.",
                     ClipboardAccessError: "Selain voi käyttää leikepöydän, joten käytä näitä pikanäppäimiä:",
-                    ClipboardAccessCutError: "Leikkaa = Ctrl + X",
-                    ClipboardAccessCopyError: "Kopioi = Ctrl + C",
-                    ClipboardAccessPasteError: "Liitä = Ctrl + V",
                     MoveToEnd: "Siirrä To End",
                     Beforesheet: "Ennen arkki:",
                     CreateaCopy: "Luo kopio",
@@ -2023,7 +2036,6 @@
                     Overline: "overline",
                     NormalFont: "normaali fontti",
                     Preview: "preview",
-                    PreviewText: "AaBbCc ZyZz",
                     Line: "Linja",
                     Presets: "Esiasetukset",
                     None: "Ei mitään",
@@ -2101,19 +2113,19 @@
                     NoOutline: "ei Outline",
                     Weight: "Paino",
                     Dashes: "Viivat",
-                    ColumnChart: "2-D sarake / 3D sarake",
+                    ColumnChart: "sarake",
                     ColumnChartTitle: "Lisää sarake Chart",
                     ColumnChartContent: "Tämän kaaviotyyppi visuaalisesti vertailla arvoja poikki muutamaan luokkaan.",
-                    BarChart: "2-D Bar / 3D Bar",
+                    BarChart: "Bar",
                     BarChartTitle: "Insert Pylväsdiagrammi",
                     BarChartContent: "Tämän kaaviotyyppi visuaalisesti vertailla arvoja poikki muutamaan luokkaan, kun kaavion kesto tai kategoria teksti on pitkä.",
                     StockChart: "Tutka",
                     StockChartTitle: "Aseta Radar Chart",
                     StockChartContent: "Tämän kaaviotyyppi näyttää arvoiltaan keskipisteestä.",
-                    LineChart: "2-D Line",
+                    LineChart: "Line",
                     LineChartTitle: "Aseta Viivakaavio",
                     LineChartContent: "Tämän kaaviotyyppi näyttää trendejä ajan (vuosia, kuukausia, ja päivää) tai luokkia.",
-                    AreaChart: "2-D Alue / 3D Area",
+                    AreaChart: "Alue",
                     AreaChartTitle: "Insert Aluekaavio",
                     AreaChartContent: "Tämän kaaviotyyppi näyttää trendejä ajan (vuosia, kuukausia, ja päivää) tai luokkia. Käytä sitä esiin suuruuden muuttuvat ajan myötä.",
                     ComboChart: "Combo",
@@ -2123,26 +2135,16 @@
                     ScatterChart: "Hajaantua",
                     ScatterChartTitle: "Aseta Scatter (X, Y) Chart",
                     ScatterChartContent: "Tämän kaaviotyyppi osoittaa suhdetta arvomaailmaa.",
-                    ClusteredColumn: "Klusteroitu & nbsp; sarake",
-                    StackedColumn: "Pinottu & nbsp; sarake",
-                    Stacked100Column: "100% & nbsp; pinottu & nbsp; sarake",
-                    Cluster3DColumn: "3D & nbsp; Clustered & nbsp; sarake",
-                    Stacked3DColumn: "3D & nbsp; pinottu & nbsp; sarake",
-                    Stacked100Column3D: "3D & nbsp; 100% & nbsp; pinottu & nbsp; sarake",
-                    ClusteredBar: "Klusteroitu & nbsp; Bar",
-                    StackedBar: "Pinottu & nbsp; Bar",
-                    Stacked100Bar: "100% & nbsp; pinottu & nbsp; Bar",
-                    Cluster3DBar: "3D & nbsp; Clustered & nbsp; Bar",
-                    Stacked3DBar: "3D & nbsp; pinottu & nbsp; Bar",
-                    Stacked100Bar3D: "3D & nbsp; 100% & nbsp; pinottu & nbsp; Bar",
+                    ClusteredColumn: "Klusteroitu&nbsp;sarake",
+                    StackedColumn: "Pinottu&nbsp;sarake",
+                    ClusteredBar: "Klusteroitu&nbsp;Bar",
+                    StackedBar: "Pinottu&nbsp;Bar",
                     Radar: "Tutka",
-                    RadarMarkers: "Tutka & nbsp; leveys & nbsp; tussit",
-                    LineMarkers: "Line & nbsp; leveys & nbsp; tussit",
+                    RadarMarkers: "Tutka&nbsp;leveys&nbsp;tussit",
+                    LineMarkers: "Line&nbsp;leveys&nbsp;tussit",
                     Area: "alue",
-                    StackedArea: "Pinottu & nbsp; Area",
-                    Stacked100Area: "100% & nbsp; pinottu & nbsp; Area",
+                    StackedArea: "Pinottu&nbsp;Area",
                     Pie: "Piirakka",
-                    Pie3D: "3-D & nbsp; Pie",
                     Doughnut: "Donitsi",
                     Scatter: "Hajaantua",
                     ChartRange: "Kaavio Range",
@@ -2156,37 +2158,27 @@
                     InvalidXAxisColumns: "X-akseli välillä tulee olla yhden sarakkeen",
                     FreezePanes: "Kiinnitä ruudut",
                     FreezePanesContent: "Freeze osa levyn pitää sen näkyvissä vieritettäessä loput levyn.",
-                    PasteTitle: "Liitä (Ctrl + V)",
                     PasteContent: "Lisää sisältöä leikepöydälle dokumenttiin.",
                     PasteSplitContent: "Valitse tahna vaihtoehto, kuten pitäminen muotoilua tai liittämällä vain sisältöä.",
-                    CutTitle: "Leikkaa (Ctrl + X)",
                     CutContent: "Poista valinta ja laita se leikepöydälle, jotta voit liittää sen jonnekin muualle.",
-                    CopyTitle: "Kopioi (Ctrl + C)",
                     CopyContent: "Laita kopio valinta leikepöydälle, jotta voit liittää sen jonnekin muualle.",
                     FPTitle: "Muotoilusivellin",
                     FPContent: "Kuten ulkoasua tietyn valinnan? Voit soveltaa tätä ilmeen muuta sisältöä asiakirjassa.",
-                    BoldTitle: "Bold (Ctrl + B)",
                     BoldContent: "Tee teksti lihavoitu.",
-                    ItalicTitle: "Kursivoitu (Ctrl + I)",
                     ItalicContent: "Kursivoida tekstiä.",
-                    ULineTitle: "Alleviivaus (Ctrl + U)",
                     ULineContent: "Alleviivaa tekstiä.",
-                    LineTrTitle: "Yliviivaus (Ctrl + 5)",
                     LineTrContent: "Cross jotain vetämällä lakko läpi.",
-                    UndoTitle: "Kumoa (Ctrl + Z)",
                     UndoContent: "Viimeisimmän toiminnon peruminen.",
-                    RedoTitle: "Redo (Ctrl + Y)",
                     RedoContent: "Tee uudelleen viimeisen toimen.",
-                    TableTitle: "Taulukko (Ctrl + T)",
-                    HyperLinkTitle: "Lisää hyperlinkki (Ctrl + K)",
-                    HyperLinkContent: "Luo linkki dokumentin nopean pääsyn web-sivuja ja tiedostoja. ", 
+                    HyperLinkTitle: "Lisää hyperlinkki",
+                    HyperLinkContent: "Luo linkki dokumentin nopean pääsyn web-sivuja ja tiedostoja. ",
                     HyperLinkPlaceContent: " hyperlinkit voi myös viedä sinut paikkoihin asiakirjassa.",
                     NewCommentTitle: "Aseta kommentti",
                     NewCommentContent: "Lisää huomautus tästä osa asiakirjaa.",
                     RefreshTitle: "virkistää",
                     RefreshContent: "Hanki viimeisimmät tiedot lähteestä kytketty aktiivisen solun",
                     FieldListTitle: "Field List",
-                    FieldListContent: "Näytä tai piilota kenttäluettelo.", 
+                    FieldListContent: "Näytä tai piilota kenttäluettelo.",
                     FieldListRemoveContent: "kenttää voit lisätä ja poistaa kenttiä omalta pivot",
                     AddChartElement: "Lisää Chart Element",
                     AddChartElementContent: "Lisää elementtejä luotu kaavioon.",
@@ -2239,13 +2231,6 @@
                     InvalidSheetIndex: "Määritä oikea SheetIndex",
                     HugeDataAlert: "Tiedosto liian suuri avattavaksi.",
                     ImportExportUrl: "Anna tuonti / vienti URL ja yritä uudelleen.",
-                    TitleColumnChart: "Klusteroitu sarake / pinottu sarake / 100% pinottu sarake / 3D ryhmittyneet Pylväs / 3D Pinottu / 3D 100% pinottu sarake",
-                    TitleBarChart: "Klusteroitu Baari / pinottu palkkikaavio / 100% pinottu palkkikaavio / 3D Clustered baari / 3D pinottu palkkikaavio / 3D 100% Pinottu Bar",
-                    TitleRadarChart: "Tutka / Tutka kanssa Markers",
-                    TitleLineChart: "Line / Line Markers",
-                    TitleAreaChart: "Alue / Pinottu Area / 100% Pinottu alue",
-                    TitlePieChart: "Pie / 3D Pie / donitsi",
-                    TitleScatterChart: "Hajaantua",
                     BetweenAlert: "Maximum on oltava suurempi tai yhtä suuri kuin pienin.",
                     BorderStyles: "Solid / Katkoviiva / pilkullinen",
                     FPaneAlert: "Freeze Pane ei vaatinut ensimmäisen Cell",
@@ -2253,6 +2238,7 @@
                     BlankWorkbook: "tyhjä työkirja",
                     SaveAsExcel: "Tallenna nimellä Excel",
                     SaveAsCsv: "Tallenna nimellä CSV",
+                    SaveAsPdf: "Tallenna nimellä PDF",
                     Design: "DESIGN",
                     NewName: "uusi nimi",
                     FormulaBar: "Formula Bar",
@@ -2324,7 +2310,7 @@
                     TimeValidationAlert: "Lopun ajan on oltava suurempi tai yhtä suuri kuin Start Time",
                     NewRuleAlert: "On ongelma tällä kaavalla",
                     DragAlert: "Komento ei voida toteuttaa yrität siirtää solujen suodatinalueella. Valitse alue ulos suodattimen alue ja yritä komentoa uudelleen.",
-                    OR:"tai",
+                    OR: "tai",
                     HOME: "KOTI",
                     INSERT: "INSERT",
                     DATATAB: "DATA",
@@ -2349,7 +2335,49 @@
                     Line: "Linja",
                     DataValidationType: "Numero / desimaali / Date / Time / TextLength / List",
                     DataValidationAction: "Suurempi / pienempi tai yhtä suuri / pienempi / pienempi tai yhtä suuri / yhtä suuri / ei yhtä suuri kuin / välillä / ei",
-                    SaveAsPdf: "Tallenna PDF-muodossa"
+                    Modify: "Muuttaa",
+                    Apply: "Käytä",
+                    NewCellStyle: "Uusi solutyyli",
+                    cellStyleAlert: "Tämä tyyli on jo olemassa",
+                    modifyCellStyleAlert: "Tämä tyyli ei ole olemassa",
+                    Color: "Väri",
+                    StyleName: "Tyylien nimi",
+                    LShortdate: "Lyhyt päivämäärä",
+                    LLongdate: "Pitkä päivämäärä",
+                    Clipboard: "leikepöydälle",
+                    Font: "kirjasinlaji",
+                    Actions: "Toiminnot",
+                    Styles: "tyylit",
+                    Editing: "editointi",
+                    Tables: "taulukot",
+                    Illustrations: "kuvitukset",
+                    Links: "vasen",
+                    Charts: "kaavioita",
+                    DataTools: "tietojen hallintatyökalut",
+                    Show: "show",
+                    PageLayout: "Sivun asettelu",
+                    Changes: "muutokset",
+                    Window: "ikkuna",
+                    Cells: "solut",
+                    Calculation: "laskelma",
+                    Properties: "ominaisuudet",
+                    Tools: "Työkalut",
+                    TableStyleOption: "Taulukkotyyliasetukset",
+                    ChartLayouts: "Kaaviot",
+                    ChartDesignData: "data",
+                    ChartDesignType: "arvosana",
+                    ChartDesignSize: "koko",
+                    Adjust: "säätää",
+                    FormatSize: "koko",
+                    AnalyzePivotTable: "PivotTable",
+                    DataSource: "DataSource",
+                    FATTitlePrefix: "Pöytästyyli",
+                };
+                break;
+            case "ejTimePicker":
+                ej.TimePicker.Locale = ej.TimePicker.Locale || {};
+                ej.TimePicker.Locale["fi-FI"] = {
+                    watermarkText: "valitse aika",
                 };
                 break;
             case "ejTreeGrid":
@@ -2363,7 +2391,8 @@
                         expandAllTool: "Laajenna kaikki",
                         collapseAllTool: "Tiivistä kaikki",
                         pdfExportTool: "PDF Export",
-                        excelExportTool: "Excel Vie"
+                        excelExportTool: "Excel Vie",
+                        printTool: "Tulosta",
                     },
                     contextMenuTexts: {
                         addRowText: "Lisää rivi",
@@ -2457,11 +2486,12 @@
                         renameColumn: "Nimeä sarake"
                     },
                     deleteColumnText: "Oletko varma, että haluat poistaa tämän sarakkeen?",
+                    deleteRecordText: "Haluatko varmasti poistaa tietueen?",
                     okButtonText: "kunnossa",
                     cancelButtonText: "Peruuttaa",
                     confirmDeleteText: "vahvista poistaminen",
                     dropDownListBlanksText: "(Aihiot)",
-                    dropDownListClearText: "(Clear Filter)",
+                    dropDownListClearText: "(Tyhjennä suodatin)",
                     trueText: "Totta",
                     falseText: "Väärä",
                     emptyRecord: "Ei näytettäviä tietueita",
@@ -2521,11 +2551,41 @@
                     NoSuggestionMessage: "Ehdotuksia ei ole saatavilla"
                 };
                 break;
+            case "ejMediaPlayer":
+                ej.MediaPlayer.Locale = ej.MediaPlayer.Locale || {};
+                ej.MediaPlayer.Locale["fi-FI"] = {
+                    "Play": "pelata",
+                    "Pause": "Tauko",
+                    "Mute": "mykkä",
+                    "Unmute": "unmute",
+                    "Settings": "asetukset",
+                    "FullScreen": "Koko näyttö",
+                    "ExitFullScreen": "Poistu koko näytöstä",
+                    "HidePlaylist": "Piilota soittolista",
+                    "Previous": "Edellinen",
+                    "Next": "Seuraava",
+                    "TogglePlaylist": "Vaihda soittolista",
+                    "Rewind": "Rewind",
+                    "Forward": "Eteenpäin",
+                    "Playlist": "soittolista",
+                    "RepeatPlaylist": "Toista soittolista",
+                    "Shuffle": "sekoittaa",
+                    "VideoTitle": "Video",
+                    "PlaylistTitle": "soittolista",
+                    "PlaylistItemName": "Listan kohde",
+                    "PlaylistItemAuthor": "kirjailija",
+                    "Media": "tiedotusvälineet",
+                    "Speed": "Nopeus",
+                    "Quality": "Laatu",
+                    "Normal": "normaali",
+                    "Auto": "Auto"
+                };
+                break;
         }
     }
     widgets = ej.widget.registeredWidgets;
     for (name in widgets)
         $.fn.Locale_fiFI(name);
-    if(ej.ExcelFilter)
+    if (ej.ExcelFilter)
         $.fn.Locale_fiFI("ejExcelFilter");
 })(window.jQuery, window.Syncfusion);

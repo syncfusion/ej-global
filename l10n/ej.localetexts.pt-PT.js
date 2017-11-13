@@ -29,21 +29,21 @@
                     },
                     tooltipText: {
                         switcher: "Interruptor",
-                        addbutton: "Adicionar cor",
+                        addButton: "Adicionar cor",
                         basic: "Básico",
-                        monochrome: "Monocromático",
-                        flatcolors: "Cores planas",
-                        seawolf: "Lobo do mar",
-                        webcolors: "Cores Web",
+                        monoChrome: "Monocromático",
+                        flatColors: "Cores planas",
+                        seaWolf: "Lobo do mar",
+                        webColors: "Cores Web",
                         sandy: "arenoso",
-                        pinkshades: "máscaras cor de rosa",
+                        pinkShades: "máscaras cor de rosa",
                         misty: "enevoado",
                         citrus: "citrino",
                         vintage: "Vintage",
-                        moonlight: "Luar",
-                        candycrush: "Candy Crush",
-                        currentcolor: "Cor atual",
-                        selectedcolor: "Cor selecionada"
+                        moonLight: "Luar",
+                        candyCrush: "Candy Crush",
+                        currentColor: "Cor atual",
+                        selectedColor: "Cor selecionada"
                     },
                 };
                 break;
@@ -127,12 +127,12 @@
                     Search: "Pesquisa",
                     Showrowswhere: "Mostrar linhas onde",
                     NumericTextboxWaterMark: "Introduzir o valor",
-                    StringMenuOptions: [{ text: "Igual", value: "equal" }, { text: "Não equal", value: "notequal" }, { text: "Começa com", value: "startswith" }, { text: "Termina com", value: "endswith" }, { text: "contém", value: "contains" }, { text: "Filtro personalizado", value: "customfilter" }, ],
-                    NumberMenuOptions: [{ text: "Igual", value: "equal" }, { text: "Não equal", value: "notequal" }, { text: "Menos que", value: "lessthan" }, { text: "Menor ou equal", value: "lessthanorequal" }, { text: "Melhor que", value: "greaterthan" }, { text: "Maior ou equal", value: "greaterthanorequal" }, { text: "Entre", value: "between" }, { text: "Filtro personalizado", value: "customfilter" }, ],
-                    GuidMenuOptions: [{ text: "Igual", value: "equal" }, { text: "Não equal", value: "notequal" }, { text: "Filtro personalizado", value: "customfilter" }, ],
-                    DateMenuOptions: [{ text: "Igual", value: "equal" }, { text: "Não equal", value: "notequal" }, { text: "Menos que", value: "lessthan" }, { text: "Menor ou equal", value: "lessthanorequal" }, { text: "Melhor que", value: "greaterthan" }, { text: "Maior ou equal", value: "greaterthanorequal" }, { text: "Entre", value: "between" }, { text: "Filtro personalizado", value: "customfilter" }, ],
-                    DatetimeMenuOptions: [{ text: "Igual", value: "equal" }, { text: "Não equal", value: "notequal" }, { text: "Menos que", value: "lessthan" }, { text: "Menor ou equal", value: "lessthanorequal" }, { text: "Melhor que", value: "greaterthan" }, { text: "Maior ou equal", value: "greaterthanorequal" }, { text: "Entre", value: "between" }, { text: "Filtro personalizado", value: "customfilter" }, ],
-                    Top10MenuOptions: [{ text: "Topo", value: "top" }, { text: "Inferior", value: "bottom" }, ],
+                    StringMenuOptions: [{ text: "Igual", value: "equal" }, { text: "Não equal", value: "notequal" }, { text: "Começa com", value: "startswith" }, { text: "Termina com", value: "endswith" }, { text: "contém", value: "contains" }, { text: "Filtro personalizado", value: "customfilter" }],
+                    NumberMenuOptions: [{ text: "Igual", value: "equal" }, { text: "Não equal", value: "notequal" }, { text: "Menos que", value: "lessthan" }, { text: "Menor ou equal", value: "lessthanorequal" }, { text: "Melhor que", value: "greaterthan" }, { text: "Maior ou equal", value: "greaterthanorequal" }, { text: "Entre", value: "between" }, { text: "Filtro personalizado", value: "customfilter" }],
+                    GuidMenuOptions: [{ text: "Igual", value: "equal" }, { text: "Não equal", value: "notequal" }, { text: "Filtro personalizado", value: "customfilter" }],
+                    DateMenuOptions: [{ text: "Igual", value: "equal" }, { text: "Não equal", value: "notequal" }, { text: "Menos que", value: "lessthan" }, { text: "Menor ou equal", value: "lessthanorequal" }, { text: "Melhor que", value: "greaterthan" }, { text: "Maior ou equal", value: "greaterthanorequal" }, { text: "Entre", value: "between" }, { text: "Filtro personalizado", value: "customfilter" }],
+                    DatetimeMenuOptions: [{ text: "Igual", value: "equal" }, { text: "Não equal", value: "notequal" }, { text: "Menos que", value: "lessthan" }, { text: "Menor ou equal", value: "lessthanorequal" }, { text: "Melhor que", value: "greaterthan" }, { text: "Maior ou equal", value: "greaterthanorequal" }, { text: "Entre", value: "between" }, { text: "Filtro personalizado", value: "customfilter" }],
+                    Top10MenuOptions: [{ text: "Topo", value: "top" }, { text: "Inferior", value: "bottom" }],
                     title: "Filtro personalizado",
                     PredicateAnd: "E",
                     PredicateOr: "OU",
@@ -145,6 +145,7 @@
                     DateTimePickerWaterMark: "Escolha um tempo de data",
                     True: "verdade",
                     False: "falso",
+                    AddToFilter: "Adicione a seleção atual para o filtro"
                 };
                 break;
             case "ejFileExplorer":
@@ -248,6 +249,7 @@
             case "ejGantt":
                 ej.Gantt.Locale["pt-PT"] = {
                     emptyRecord: "Não há registros a serem exibidos",
+                    unassignedTask: "Tarefa não atribuída",
                     alertTexts: {
                         indentAlert: "Não há registro de Gantt é selecionada para executar o recuo",
                         outdentAlert: "Não há registro de Gantt é selecionado para executar a Outdent",
@@ -272,14 +274,15 @@
                         baselineStartDate: "Data de início da linha de base",
                         baselineEndDate: "Data-Base End",
                         WBS: "WBS",
-                        WBSPredecessor: "WBS Predecessor",
+                        WBSPredecessor: "WBS antecessor",
                         dialogCustomFieldName: "Nome da coluna",
                         dialogCustomFieldValue: "Valor",
                         notes: "notas",
                         taskType: "Tipo de tarefa",
                         work: "Trabalho",
                         unit: "Unidade",
-                        effortDriven: "esforço Impulsionada"
+                        effortDriven: "esforço Impulsionada",
+                        resourceName: "Nome do recurso"
                     },
                     editDialogTexts: {
                         addFormTitle: "Nova tarefa",
@@ -347,6 +350,7 @@
                         prevTimeSpanTool: "Anterior Timespan",
                         criticalPathTool: "Caminho crítico",
                         excelExportTool: "exportação excel",
+                        printTool: "Impressão",
                         pdfExportTool: "Exportação de PDF"
                     },
                     durationUnitTexts: {
@@ -461,12 +465,14 @@
                     ExcelExport: "Excel Export",
                     WordExport: "palavra Export",
                     PdfExport: "PDF Export",
-                    StringMenuOptions: [{ text: "Começa com", value: "StartsWith" }, { text: "Termina com", value: "EndsWith" }, { text: "contém", value: "Contains" }, { text: "Igual", value: "Equal" }, { text: "Não equal", value: "NotEqual" }, ],
-                    NumberMenuOptions: [{ text: "Menos que", value: "LessThan" }, { text: "Melhor que", value: "GreaterThan" }, { text: "Menor ou equal", value: "LessThanOrEqual" }, { text: "Maior ou equal", value: "GreaterThanOrEqual" }, { text: "Igual", value: "Equal" }, { text: "Não equal", value: "NotEqual" }, ],
+                    StringMenuOptions: [{ text: "Começa com", value: "StartsWith" }, { text: "Termina com", value: "EndsWith" }, { text: "contém", value: "Contains" }, { text: "Igual", value: "Equal" }, { text: "Não equal", value: "NotEqual" }],
+                    NumberMenuOptions: [{ text: "Menos que", value: "LessThan" }, { text: "Melhor que", value: "GreaterThan" }, { text: "Menor ou equal", value: "LessThanOrEqual" }, { text: "Maior ou equal", value: "GreaterThanOrEqual" }, { text: "Igual", value: "Equal" }, { text: "Não equal", value: "NotEqual" },{ text: "Entre", value: "Between" }],
                     PredicateAnd: "E",
                     PredicateOr: "OU",
                     Filter: "Filtro",
                     FilterMenuCaption: "Valor de filtro",
+                    FilterMenuFromCaption: "A partir de",
+                    FilterMenuToCaption: "Para",                    
                     FilterbarTitle: "celular barra de filtragem s",
                     MatchCase: "Caso de compatibilidade",
                     Clear: "Claro",
@@ -511,7 +517,6 @@
                         filterOk: "Está bem",
                         filterWarning: "Aviso"
                     };
-                    ;
                 }
                 if (ej.mobile.DatePicker) {
                     ej.mobile.DatePicker.Locale["pt-PT"] = {
@@ -523,7 +528,6 @@
                             toolbarCancelText: "Fechar"
                         },
                     };
-                    ;
                 }
                 if (ej.mobile.TimePicker) {
                     ej.mobile.TimePicker.Locale["pt-PT"] = {
@@ -556,7 +560,6 @@
                     Collapse: "Colapso",
                     Exit: "Saída",
                     Value: "Valor",
-
                     ChartTypes: "Tipos de gráfico",
                     TDCharts: "Os gráficos 3D",
                     Tooltip: "Dica de Ferramenta",
@@ -585,7 +588,7 @@
                     StackingBarTD: "empilhamento Bar 3D",
                     StackingColumnTD: "empilhamento Coluna 3D",
                     Excel: "Excel",
-                    Word: "Palavra",
+                    Word: "Word",
                     Pdf: "PDF",
                     PNG: "PNG",
                     EMF: "EMF",
@@ -608,7 +611,6 @@
                     ClearFilterFrom: "Limpar Filtro",
                     SortAtoZ: "Ordenar de A a Z",
                     SortZtoA: "Ordenar de Z a A",
-
                     DeferUpdate: "Adiar Atualização",
                     MDXQuery: "consulta MDX",
                     Row: "Linha",
@@ -739,7 +741,14 @@
                     Warning: "Aviso",
                     Confirm: "Os calculados com o mesmo nome já existe. Devido à deseja substituir?",
                     KPIs: "KPIs",
-                    AddCurrentSelectionToFilter: "Adicionar seleção atual ao filtro"
+					Collection: "Coleção",
+					Report: "Relatório",
+                    AddCurrentSelectionToFilter: "Adicionar seleção atual ao filtro",
+                    SaveMsg: "Relatório salvo com êxito!!!",
+                    RenameMsg: "Relatório renomeada com sucesso!!!",
+                    RemoveMsg: "Relatório removido com êxito!!!",
+                    Success: "Sucesso",
+                    KpiAlertMsg: "O campo que você está movendo não podem ser colocados em que área do relatório"
                 };
                 break;
             case "ejPivotGauge":
@@ -944,7 +953,6 @@
                     SortAtoZ: "Ordenar de A a Z",
                     SortZtoA: "Ordenar de Z a A",
                     and: "E",
-
                     NumberFormatting: "Formatação de número",
                     FrozenHeaders: "Cabeçalhos congelados",
                     CellSelection: "Seleção de células",
@@ -966,7 +974,6 @@
                     PagingOptions: "Opções de paginação",
                     CategoricalPageSize: "Tamanho de Página categóricas",
                     SeriesPageSize: "Tamanho de Página da série",
-
                     HyperLink: "O hiperlink",
                     CellEditing: "Edição de células",
                     GroupingBar:"Barra de agrupamento",
@@ -984,13 +991,11 @@
                     Average: "Média",
                     Count: "Contagem",
                     Min: "Min",
-
                     Max: "Max",
                     Excel: "Excel",
                     Word: "Word",
                     PDF: "PDF",
                     CSV: "CSV",
-
                     ToolTipRow: "Linha",
                     ToolTipColumn: "Coluna",
                     ToolTipValue: "Valor",
@@ -1059,20 +1064,20 @@
                     AddNew: "Adicionar Novo",
                     Format: "Formato",
                     NoMeasure: "Adicione qualquer medida",
-                    AliceBlue: "Alice azul",
-                    Black: "Preto",
-                    Blue: "Azul",
+                    AliceBlue: "AliceBlue",
+                    Black: "Black",
+                    Blue: "Blue",
                     Brown: "Brown",
                     Gold: "Gold",
-                    Green: "Livro Verde",
-                    Lime: "Cal",
+                    Green: "Green",
+                    Lime: "Lime",
                     Maroon: "Maroon",
-                    Orange: "Cor-de-laranja",
-                    Pink: "Rosa",
-                    Red: "Vermelho",
-                    Violet: "Violeta",
-                    White: "Branco",
-                    Yellow: "Amarelo",
+                    Orange: "Orange",
+                    Pink: "Pink",
+                    Red: "Red",
+                    Violet: "Violet",
+                    White: "White",
+                    Yellow: "Yellow",
                     Solid: "Sólido",
                     Dashed: "Tracejado",
                     Dotted: "Tracejado",
@@ -1082,17 +1087,17 @@
                     Outset: "Início",
                     Ridge: "Ridge",
                     None: "Nenhum",
-                    Algerian: "Argélia",
+                    Algerian: "Algerian",
                     Arial: "Arial",
                     BodoniMT: "Bodoni MT",
-                    BritannicBold: "Britânica a negrito",
+                    BritannicBold: "Britannic Bold",
                     Cambria: "Cambria",
                     Calibri: "Calibri",
                     CourierNew: "Courier New",
                     DejaVuSans: "DejaVu Sans",
                     Forte: "Forte",
                     Gerogia: "Gerogia",
-                    Impact: "Impacto",
+                    Impact: "Impact",
                     SegoeUI: "Segoe UI",
                     Tahoma: "Tahoma",
                     TimesNewRoman: "Times New Roman",
@@ -1121,7 +1126,12 @@
                     NormalTopSummary: "Topo normal layout de resumo",
                     NoSummaries:"Nenhum layout de resumos",
                     Fontcolor: "Cor da fonte",
-                    AddCurrentSelectionToFilter: "Adicionar seleção atual ao filtro"
+                    AddCurrentSelectionToFilter: "Adicionar seleção atual ao filtro",
+                    EnterFormatName: "Digite o nome do formato",
+                    FormatName: "Nome do formato",
+                    RemoveFormat: "Remova o formato",
+                    Edit: "Editar",
+                    DuplicateFormatName: "Nome do formato duplicados"
                 };
                 break;
             case "ejPivotPager":
@@ -1149,7 +1159,6 @@
                     SortAtoZ: "Ordenar de A a Z",
                     SortZtoA: "Ordenar de Z a A",
                     and: "E",
-
                     PivotTableFieldList: "Lista de campos de tabela dinâmica",
                     ChooseFieldsToAddToReport: "Escolha campos para adicionar ao relatório:",
                     DragFieldBetweenAreasBelow: "Arraste os campos entre as áreas abaixo:",
@@ -1195,7 +1204,14 @@
                     OK: "OK",
                     Cancel: "Cancelar",
                     Search: "Pesquisar",
-                    AddCurrentSelectionToFilter: "Adicionar seleção atual ao filtro"
+                    AddCurrentSelectionToFilter: "Adicionar seleção atual ao filtro",
+					Months: "Meses",
+					Days: "Dias",
+					Quarters: "Trimestres",
+					Years: "Anos",
+					Qtr: "Trim",
+					Quarter: "Trimestre",
+					NoRecordsToDisplay: "Não há registros para exibir."
                 };
                 break;
             case "ejdatavisualization":
@@ -1246,7 +1262,8 @@
                             Excel: "sobressair",
                             Word: "Palavra",
                             Html: "html",
-                            PPT: 'PPT'
+                            PPT: 'PPT',
+                            CSV: 'CSV'
                         },
                         first: {
                             headerText: "Primeiro",
@@ -1734,7 +1751,6 @@
                     Fill: "Preencher",
                     ExportXL: "sobressair",
                     ExportCsv: "CSV",
-                    SaveXml: "Salvar XML",
                     BackgroundColor: "Cor de preenchimento",
                     BGContent: "Colorir o fundo das células para torná-los se destacam.",
                     ColorContent: "Mude a cor do seu texto.",
@@ -1782,9 +1798,6 @@
                     Validation: "Validação",
                     DataValidation: "Data de validade",
                     DVContent: "Escolher a partir de uma lista de regras para limitar o tipo de dados que podem ser inseridos em uma célula.",
-                    A4: "A4",
-                    A3: "A3",
-                    Letter: "Carta",
                     PageSize: "Tamanho da página",
                     PageSizeContent: "Escolha um tamanho de página para o documento.",
                     FormatCells: "Formatar celulas",
@@ -1819,7 +1832,7 @@
                     Custom: "Digite o código de formato de número, usando um dos códigos existentes como ponto de partida.",
                     CellStyleGBN: "Normal / Bad / Good / Neutro",
                     CellStyleTH: "Rubrica 4 / Título",
-                    CellsStyleTCS: "20% - Accent1 / 20% - Accent2 / 20% - Accent3 / 20% - Accent4 / 60% - Accent1 / 60% - Accent2 / 60% - Accent3 / 60% - Accent4 / Accent1 / Accent2 / Accent3 / Accent4",
+                    Accent:"Sotaque",
                     Style: "Estilo",
                     FormatAsTable: "Formatar como Tabela",
                     FormatasTable: "Formatar como Tabela",
@@ -2014,7 +2027,6 @@
                     Overline: "overline",
                     NormalFont: "fonte normal",
                     Preview: "visualização",
-                    PreviewText: "AaBbCc zyzz",
                     Line: "Linha",
                     Presets: "presets",
                     None: "Nenhum",
@@ -2092,19 +2104,19 @@
                     NoOutline: "nenhum esboço",
                     Weight: "Peso",
                     Dashes: "traços",
-                    ColumnChart: "2-D Coluna / coluna 3D",
+                    ColumnChart: "Coluna",
                     ColumnChartTitle: "Inserir coluna Chart",
                     ColumnChartContent: "Use este tipo de gráfico para valores comparar visualmente através de algumas categorias.",
-                    BarChart: "2-D Bar / Bar 3D",
+                    BarChart: "Bar",
                     BarChartTitle: "Inserir Gráfico de Barras",
                     BarChartContent: "Use este tipo de gráfico para valores comparar visualmente através de algumas categorias quando o gráfico mostra a duração ou o texto categoria é longa.",
                     StockChart: "Radar",
                     StockChartTitle: "Insira Radar Chart",
                     StockChartContent: "Use este tipo de gráfico para mostrar valores relativos a um ponto central.",
-                    LineChart: "2-D Linha",
+                    LineChart: "Linha",
                     LineChartTitle: "Inserir Linha Gráfico",
                     LineChartContent: "Use este tipo de gráfico para mostrar as tendências ao longo do tempo (anos, meses e dias) ou categorias.",
-                    AreaChart: "2-D Area / Área 3D",
+                    AreaChart: "Área",
                     AreaChartTitle: "Inserir Gráfico Área",
                     AreaChartContent: "Use este tipo de gráfico para mostrar as tendências ao longo do tempo (anos, meses e dias) ou categorias. Use-o para destacar a magnitude da mudança ao longo do tempo.",
                     ComboChart: "Combo",
@@ -2114,26 +2126,16 @@
                     ScatterChart: "espalhar",
                     ScatterChartTitle: "Inserir Scatter (X, Y) Gráfico",
                     ScatterChartContent: "Use este tipo de gráfico para mostrar a relação entre conjuntos de valores.",
-                    ClusteredColumn: "Agrupado & nbsp; Coluna",
-                    StackedColumn: "Empilhado & nbsp; Coluna",
-                    Stacked100Column: "100% & nbsp; Stacked & nbsp; Coluna",
-                    Cluster3DColumn: "3D & nbsp; cluster & nbsp; Coluna",
-                    Stacked3DColumn: "3D & nbsp; Stacked & nbsp; Coluna",
-                    Stacked100Column3D: "3D & nbsp; 100% & nbsp; Stacked & nbsp; Coluna",
-                    ClusteredBar: "Agrupado & nbsp; Bar",
-                    StackedBar: "Empilhado & nbsp; Bar",
-                    Stacked100Bar: "100% & nbsp; Stacked & nbsp; Bar",
-                    Cluster3DBar: "3D & nbsp; cluster & nbsp; Bar",
-                    Stacked3DBar: "3D & nbsp; Stacked & nbsp; Bar",
-                    Stacked100Bar3D: "3D & nbsp; 100% & nbsp; Stacked & nbsp; Bar",
+                    ClusteredColumn: "Agrupado&nbsp;Coluna",
+                    StackedColumn: "Empilhado&nbsp;Coluna",
+                    ClusteredBar: "Agrupado&nbsp;Bar",
+                    StackedBar: "Empilhado&nbsp;Bar",
                     Radar: "Radar",
-                    RadarMarkers: "Radar & nbsp; & nbsp largura; Markers",
-                    LineMarkers: "Line & nbsp; & nbsp largura; Markers",
+                    RadarMarkers: "Radar&nbsp;largura&nbsp;Markers",
+                    LineMarkers: "Line&nbsp;largura&nbsp;Markers",
                     Area: "Área",
-                    StackedArea: "Empilhado & nbsp; Área",
-                    Stacked100Area: "100% & nbsp; Stacked & nbsp; Área",
+                    StackedArea: "Empilhado&nbsp;Área",
                     Pie: "Torta",
-                    Pie3D: "3-D & nbsp; Pie",
                     Doughnut: "Rosquinha",
                     Scatter: "espalhar",
                     ChartRange: "Faixa Gráfico",
@@ -2147,29 +2149,19 @@
                     InvalidXAxisColumns: "intervalo do eixo-X deve estar dentro de uma única coluna",
                     FreezePanes: "congelar painéis",
                     FreezePanesContent: "Congelar uma parte da folha para mantê-lo visível enquanto você percorrer o resto da folha.",
-                    PasteTitle: "Colar (Ctrl + V)",
                     PasteContent: "Adicionar conteúdo na área de transferência para o seu documento.",
                     PasteSplitContent: "Escolha uma opção de colagem, tais como manter a formatação ou colar apenas o conteúdo.",
-                    CutTitle: "Cortar (Ctrl + X)",
                     CutContent: "Remova a seleção e colocá-lo na área de transferência para que possa colá-lo em outro lugar.",
-                    CopyTitle: "Copiar (Ctrl + C)",
                     CopyContent: "Coloque uma cópia da seleção na área de transferência para que possa colá-lo em outro lugar.",
                     FPTitle: "Pincel",
                     FPContent: "Como o olhar de uma seleção particular? Você pode aplicar esse olhar para outro conteúdo no documento.",
-                    BoldTitle: "Bold (Ctrl + B)",
                     BoldContent: "Faça o seu texto em negrito.",
-                    ItalicTitle: "Itálico (Ctrl + I)",
                     ItalicContent: "Itálico seu texto.",
-                    ULineTitle: "Sublinhe (Ctrl + U)",
                     ULineContent: "Sublinhar o seu texto.",
-                    LineTrTitle: "Tachado (Ctrl + 5)",
                     LineTrContent: "Atravessar algo fora pelo desenho de um ataque através dele.",
-                    UndoTitle: "Desfazer (Ctrl + Z)",
                     UndoContent: "Desfazer a última ação.",
-                    RedoTitle: "Refazer (Ctrl + Y)",
                     RedoContent: "Refazer a última ação.",
-                    TableTitle: "Tabela (Ctrl + T)",
-                    HyperLinkTitle: "Adicionar uma hiperligação (Ctrl + K)",
+                    HyperLinkTitle: "Adicionar uma hiperligação",
                     HyperLinkContent: "Criar um link em seu documento para acesso rápido às páginas da web e arquivos.", 
                     HyperLinkPlaceContent: " As hiperligações também pode levá-lo a lugares em seu documento.",
                     NewCommentTitle: "Insira um comentário",
@@ -2230,13 +2222,6 @@
                     InvalidSheetIndex: "Especifique SheetIndex adequada",
                     HugeDataAlert: "Arquivo muito grande para abrir.",
                     ImportExportUrl: "Dê importação / exportação URL e tente novamente.",
-                    TitleColumnChart: "Coluna agrupado / colunas empilhadas / 100% empilhadas Coluna / 3D agrupado Coluna / 3D Empilhados Coluna / coluna 3D 100% empilhada",
-                    TitleBarChart: "Agrupado Bar / Stacked Bar / 100% Stacked Bar / aglomerada 3D Bar / 3D Stacked Bar / 3D 100% empilhadas Bar",
-                    TitleRadarChart: "Radar / Radar com Marcadores",
-                    TitleLineChart: "Line / linha com marcadores",
-                    TitleAreaChart: "Área / Stacked Area / 100% Stacked Area",
-                    TitlePieChart: "Pie / 3D Pie / filhós",
-                    TitleScatterChart: "espalhar",
                     BetweenAlert: "A máxima deve ser maior ou igual ao mínimo.",
                     BorderStyles: "Sólido / tracejado / pontilhada",
                     FPaneAlert: "Pane congelamento não é aplicada para a primeira célula",
@@ -2244,6 +2229,7 @@
                     BlankWorkbook: "livro em branco",
                     SaveAsExcel: "Salvar como Excel",
                     SaveAsCsv: "Salvar como CSV",
+                    SaveAsPdf: "Salvar como PDF",
                     Design: "PROJETO",
                     NewName: "Novo nome",
                     FormulaBar: "Barra de Fórmula",
@@ -2313,9 +2299,6 @@
                     DecreaseIndentContent: "Mova seu conteúdo para mais perto da borda da célula.",
                     ExportPdf: "PDF",
                     ClipboardAccessError: "Seu navegador não pode acessar a área de transferência, então use estes atalhos:",
-                    ClipboardAccessCutError: "Cortar = Ctrl + X",
-                    ClipboardAccessCopyError: "Copiar = Ctrl + C",
-                    ClipboardAccessPasteError: "Colar = Ctrl + V",
                     CorrectArgument: "Insira o argumento correto",
                     CorrectFormula: "Introduza a fórmula correcta",
                     CorrectCellAddress: "Digite o endereço correto da célula",
@@ -2350,9 +2333,50 @@
                     Line: "Linha",
                     DataValidationType: "Número / Decimal / Data / Hora / TextLength / Lista",
                     DataValidationAction: "Maior que / maior ou igual a / menor que / menor ou igual a / igual a / não igual a / entre / não entre",
-                    SaveAsPdf: "Salvar como PDF"
+                    Modify:"Modificar",
+                    Apply:"Aplique",
+                    NewCellStyle:"Novo estilo celular",
+                    cellStyleAlert:"Esse nome de estilo já existe",
+                    modifyCellStyleAlert:"Esse nome de estilo não existe",
+                    Color:"Cor",
+                    StyleName:"Nome do estilo",
+                    LShortdate:"Data curta",
+                    LLongdate:"Data longa",
+                    Clipboard:"prancheta",
+                    Font:"fonte",
+                    Actions:"ações",
+                    Styles:"estilos",
+                    Editing:"edição",
+                    Tables:"tabelas",
+                    Illustrations:"Ilustrações",
+                    Links:"esquerda",
+                    Charts:"gráficos",
+                    DataTools:"Ferramentas de dados",
+                    Show:"espetáculo",
+                    PageLayout:"Layout de página",
+                    Changes:"alterações",
+                    Window:"janela",
+                    Cells:"células",
+                    Calculation:"cálculo",
+                    Properties:"propriedades",
+                    Tools:"ferramentas",
+                    TableStyleOption:"Opções de estilo de tabela",
+                    ChartLayouts:"Layouts de gráficos",
+                    ChartDesignData:"dados",
+                    ChartDesignType:"grau",
+                    ChartDesignSize:"tamanho",
+                    Adjust:"ajustar",
+                    FormatSize:"tamanho",
+                    AnalyzePivotTable:"Tabela giratória",
+                    DataSource:"Fonte de dados",
+                    FATTitlePrefix:"Estilo de tabela",
                 };
                 break;
+			case "ejTimePicker":
+                ej.TimePicker.Locale["pt-PT"] = {
+                  watermarkText: "selecione o tempo",
+                };
+                break;		
             case "ejTreeGrid":
                 ej.TreeGrid.Locale["pt-PT"] = {
                     toolboxTooltipTexts: {
@@ -2365,6 +2389,7 @@
                         collapseAllTool: "Recolher todos",
                         pdfExportTool: "exportação de PDF",
                         excelExportTool: "exportação excel",
+                        printTool: "Impressão",
                     },
                     contextMenuTexts: {
                         addRowText: "Adicionar linha",
@@ -2458,6 +2483,7 @@
                         renameColumn: "renomear Coluna"
                     },
                     deleteColumnText: "Tem certeza de que deseja excluir esta coluna?",
+                    deleteRecordText: "Tem certeza de que deseja excluir o registro?",
                     okButtonText: "Está bem",
                     cancelButtonText: "Cancelar",
                     confirmDeleteText: "confirmar Apagar",
@@ -2520,6 +2546,36 @@
                     CompletionPopupTitle: "Verificação ortográfica",
                     Ok: "Está bem",
                     NoSuggestionMessage: "Não há sugestões disponíveis"
+                };
+                break;
+            case "ejMediaPlayer":
+                ej.MediaPlayer.Locale = ej.MediaPlayer.Locale || {};
+                ej.MediaPlayer.Locale["pt-PT"] = {
+                    "Play": "Toque",
+                    "Pause": "Pausa",
+                    "Mute": "Mudo",
+                    "Unmute": "Unmute",
+                    "Settings": "Configurações",
+                    "FullScreen": "Tela cheia",
+                    "ExitFullScreen": "Sair do ecrã inteiro",
+                    "HidePlaylist": "Ocultar lista de reprodução",
+                    "Previous": "Anterior",
+                    "Next": "Próximo",
+                    "TogglePlaylist": "Toggle Playlist",
+                    "Rewind": "Rebobinar",
+                    "Forward": "progressivo",
+                    "Playlist": "Lista de reprodução",
+                    "RepeatPlaylist": "Repetir lista de reprodução",
+                    "Shuffle": "Shuffle",
+                    "VideoTitle": "Vídeo",
+                    "PlaylistTitle": "Lista de reprodução",
+                    "PlaylistItemName": "Item da lista",
+                    "PlaylistItemAuthor": "Autor",
+                    "Media": "meios de comunicação",
+                    "Speed": "Rapidez",
+                    "Quality": "Qualidade",
+                    "Normal": "Normal",
+                    "Auto": "Auto"
                 };
                 break;
         }

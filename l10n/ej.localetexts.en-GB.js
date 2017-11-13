@@ -22,21 +22,21 @@
 
                     tooltipText: {
                         switcher: "Switcher",
-                        addbutton: "Add colour",
+                        addButton: "Add colour",
                         basic: "Basic",
-                        monochrome: "Mono Chrome",
-                        flatcolors: "Flat colours",
-                        seawolf: "Sea Wolf",
-                        webcolors: "Web colours",
+                        monoChrome: "Mono Chrome",
+                        flatColors: "Flat colours",
+                        seaWolf: "Sea Wolf",
+                        webColors: "Web colours",
                         sandy: "Sandy",
-                        pinkshades: "Pink Shades",
+                        pinkShades: "Pink Shades",
                         misty: "Misty",
                         citrus: "Citrus",
                         vintage: "Vintage",
-                        moonlight: "Moon Light",
-                        candycrush: "Candy Crush",
-                        currentcolor: "Current colour",
-                        selectedcolor: "Selected colour",
+                        moonLight: "Moon Light",
+                        candyCrush: "Candy Crush",
+                        currentColor: "Current colour",
+                        selectedColor: "Selected colour",
                     }
                 };
                 break;
@@ -117,7 +117,8 @@
                     DatePickerWaterMark: "Select date",
                     DateTimePickerWaterMark: "Select date time",
                     True: "true",
-                    False: "false"
+                    False: "false",
+                    AddToFilter: "Add current selection to filter"
                 };
                 break;
             case "ejGrid":
@@ -153,11 +154,13 @@
                     WordExport: "Word Export",
                     PdfExport: "PDF Export",
                     StringMenuOptions: [{ text: "StartsWith", value: "StartsWith" }, { text: "EndsWith", value: "EndsWith" }, { text: "Contains", value: "Contains" }, { text: "Equal", value: "Equal" }, { text: "NotEqual", value: "NotEqual" }],
-                    NumberMenuOptions: [{ text: "LessThan", value: "LessThan" }, { text: "GreaterThan", value: "GreaterThan" }, { text: "LessThanOrEqual", value: "LessThanOrEqual" }, { text: "GreaterThanOrEqual", value: "GreaterThanOrEqual" }, { text: "Equal", value: "Equal" }, { text: "NotEqual", value: "NotEqual" }],
+                    NumberMenuOptions: [{ text: "LessThan", value: "LessThan" }, { text: "GreaterThan", value: "GreaterThan" }, { text: "LessThanOrEqual", value: "LessThanOrEqual" }, { text: "GreaterThanOrEqual", value: "GreaterThanOrEqual" }, { text: "Equal", value: "Equal" }, { text: "NotEqual", value: "NotEqual" }, { text: "Between", value: "Between" }],
                     PredicateAnd: "AND",
                     PredicateOr: "OR",
                     Filter: "Filter",
                     FilterMenuCaption: "Filter Value",
+                    FilterMenuFromCaption: "From",
+                    FilterMenuToCaption: "To",
                     FilterbarTitle: "'s filter bar cell",
                     MatchCase: "Match Case",
                     Clear: "Clear",
@@ -207,7 +210,7 @@
                     UploadError: "Error",
                     RenameError: "Error",
                     PasteReplaceAlert: "File named already exists. Replace old file with new one?",
-                    UploadReplaceAlert:"File named already exists. Replace old file with new one?",
+                    UploadReplaceAlert: "File named already exists. Replace old file with new one?",
                     Cut: "Cut",
                     Copy: "Copy",
                     Paste: "Paste",
@@ -383,12 +386,10 @@
                     SortAtoZ: "Sort A to Z",
                     SortZtoA: "Sort Z to A",
                     and: "<u>a</u>nd",
-
                     Sort: "Sort",
                     SelectField: "select Field",
                     LabelFilterLabel: "Show the items for which the label",
                     ValueFilterLabel: "Show the items for which",
-
                     LabelFilters: "Label Filters  ",
                     BeginsWith: "Begins With",
                     NotBeginsWith: "Not Begins With",
@@ -396,7 +397,6 @@
                     NotEndsWith: "Not Ends With",
                     Contains: "Contains",
                     NotContains: "Not Contains",
-
                     ValueFilters: "Value Filters",
                     ClearFilter: "Clear Filter",
                     Equals: "Equals",
@@ -407,7 +407,6 @@
                     LessThanOrEqualTo: "Less Than Or Equal To ",
                     Between: "Between",
                     NotBetween: "Not Between",
-
                     ClearFilter: "Clear Filter",
                     SelectField: "select Field",
                     Measures: "Measures",
@@ -454,7 +453,7 @@
 
                     //string to display with dataSource contains 0 objects
                     emptyRecord: "No records to display",
-
+                    unassignedTask: "Unassigned Task",
                     alertTexts: {
                         indentAlert: "There is no gantt record is selected to perform the Indent",
                         outdentAlert: "There is no gantt record is selected to perform the Outdent",
@@ -487,7 +486,8 @@
                         taskType: "Task Type",
                         work: "Work",
                         unit: "Unit",
-                        effortDriven: "Effort Driven"
+                        effortDriven: "Effort Driven",
+                        resourceName: "Resource Name"
                     },
 
                     //string to display in dialog 
@@ -539,7 +539,8 @@
                         prevTimeSpanTool: "Previous Timespan",
                         criticalPathTool: "Critical Path",
                         excelExportTool: "Excel Export",
-                        pdfExportTool: "PDF Export"
+                        pdfExportTool: "PDF Export",
+                        printTool: "Print"
                     },
 
                     //string to be displayed in taskbar tooltip for duration unit 
@@ -647,7 +648,6 @@
                     SortAtoZ: "Sort A to Z",
                     SortZtoA: "Sort Z to A",
                     and: "<u>a</u>nd",
-
                     NumberFormatting: "Number Formatting",
                     FrozenHeaders: "Frozen Headers",
                     CellSelection: "Cell Selection",
@@ -669,7 +669,6 @@
                     PagingOptions: "Paging Options",
                     CategoricalPageSize: "Categorical Page Size",
                     SeriesPageSize: "Series Page Size",
-
                     HyperLink: "HyperLink",
                     CellEditing: "Cell Editing",
                     GroupingBar: "Grouping Bar",
@@ -687,18 +686,15 @@
                     Average: "Average",
                     Count: "Count",
                     Min: "Min",
-
                     Max: "Max",
                     Excel: "Excel",
                     Word: "Word",
                     PDF: "PDF",
                     CSV: "CSV",
-
                     Sort: "Sort",
                     SelectField: "select Field",
                     LabelFilterLabel: "Show the items for which the label",
                     ValueFilterLabel: "Show the items for which",
-
                     LabelFilters: "Label Filters  ",
                     BeginsWith: "Begins With",
                     NotBeginsWith: "Not Begins With",
@@ -706,7 +702,6 @@
                     NotEndsWith: "Not Ends With",
                     Contains: "Contains",
                     NotContains: "Not Contains",
-
                     ValueFilters: "Value Filters",
                     ClearFilter: "Clear Filter",
                     Equals: "Equals",
@@ -717,7 +712,6 @@
                     LessThanOrEqualTo: "Less Than Or Equal To ",
                     Between: "Between",
                     NotBetween: "Not Between",
-
                     AddToFilter: "Add to Filter",
                     AddToRow: "Add to Row",
                     AddToColumn: "Add to Column",
@@ -826,7 +820,19 @@
                     NormalTopSummary: "NormalTopSummary Layout",
                     NoSummaries: "NoSummaries Layout",
                     Fontcolor: "Font Colour",
-                    AddCurrentSelectionToFilter: "Ychwanegwch y dewis cyfredol i hidlo"
+                    AddCurrentSelectionToFilter: "Ychwanegwch y dewis cyfredol i hidlo",
+                    Months: "Months",
+                    Days: "Days",
+                    Quarters: "Quarters",
+                    Years: "Years",
+                    Qtr: "Qtr",
+                    Quarter: "Quarter",
+                    NoRecordsToDisplay: "No records to display.",
+                    EnterFormatName: "Enter Format Name",
+                    FormatName: "Format Name",
+                    RemoveFormat: "Remove Format",
+                    Edit: "Edit",
+                    DuplicateFormatName: "Duplicate Format Name"
                 };
                 break;
             case "ejPivotClient":
@@ -843,12 +849,10 @@
                     ClearFilterFrom: "Clear Filter From",
                     SortAtoZ: "Sort A to Z",
                     SortZtoA: "Sort Z to A",
-
                     Sort: "Sort",
                     SelectField: "select Field",
                     LabelFilterLabel: "Show the items for which the label",
                     ValueFilterLabel: "Show the items for which",
-
                     LabelFilters: "Label Filters  ",
                     BeginsWith: "Begins With",
                     NotBeginsWith: "Not Begins With",
@@ -856,7 +860,6 @@
                     NotEndsWith: "Not Ends With",
                     Contains: "Contains",
                     NotContains: "Not Contains",
-
                     ValueFilters: "Value Filters",
                     ClearFilter: "Clear Filter",
                     Equals: "Equals",
@@ -868,7 +871,6 @@
                     Between: "Between",
                     NotBetween: "Not Between",
                     Top10: "Top Count",
-
                     DeferUpdate: "Defer Update",
                     MDXQuery: "MDX Query",
                     Column: "Column",
@@ -986,7 +988,14 @@
                     Warning: "Warning",
                     Confirm: "Calculated Member with the same name already exists. Due to want to Replace?",
                     KPIs: "KPIs",
-                    AddCurrentSelectionToFilter: "Ychwanegwch y dewis cyfredol i hidlo"
+					Collection: "Collection",
+					Report: "Report",
+                    AddCurrentSelectionToFilter: "Ychwanegwch y dewis cyfredol i hidlo",
+                    SaveMsg: "Report saved successfully!!!",
+                    RenameMsg: "Report renamed successfully!!!",
+                    RemoveMsg: "Report removed successfully!!!",
+                    Success: "Success",
+                    KpiAlertMsg: "The field you are moving cannot be placed in that area of the report"
                 };
                 break;
             case "ejAutocomplete":
@@ -1205,6 +1214,12 @@
                     SeriesChangeAlert: "The changes made to specific instances of this series will be cancelled and those appointments will match the series again."
                 };
                 break;
+            case "ejTimePicker":
+                ej.TimePicker.Locale = ej.DatePicker.Locale || {};
+                ej.TimePicker.Locale["en-GB"] = {
+                    watermarkText: "select a time",
+                };
+                break;
             case "ejTreeGrid":
                 ej.TreeGrid.Locale["en-GB"] = {
                     //string to be displayed in Toolbox's tooltip 
@@ -1217,7 +1232,8 @@
                         expandAllTool: "Expand All",
                         collapseAllTool: "Collapse All",
                         pdfExportTool: "PDF Export",
-                        excelExportTool: "Excel Export"
+                        excelExportTool: "Excel Export",
+                        printTool: "Print"
                     },
                     //string to be displayed in context menu 
                     contextMenuTexts: {
@@ -1293,6 +1309,7 @@
                     },
                     //Locale Text for delete confirm dialog
                     deleteColumnText: "Are you sure you want to delete this column?",
+                    deleteRecordText: "Are you sure you want to delete record?",
                     okButtonText: "OK",
                     cancelButtonText: "Cancel",
                     confirmDeleteText: "Confirm Delete",
@@ -1377,19 +1394,19 @@
                         },
                         signature: {
                             headerText: 'Signature',
-                            contentText: 'Add or create the hand-written signature.',
-        },
-        select: {
-            headerText: 'Selection',
-            contentText: 'Selection tool for text.',
-        },
-        scroll: {
-            headerText: 'Panning',
-            contentText: 'click to pan around the document',
-        },
-    },
-    contextMenu: {
-        copy: {
+                            contentText: 'Add or create hand-written signature.',
+                        },
+                        select: {
+                            headerText: 'Selection',
+                            contentText: 'Selection tool for text.',
+                        },
+                        scroll: {
+                            headerText: 'Panning',
+                            contentText: 'click to pan around the document',
+                        },
+                    },
+                    contextMenu: {
+                        copy: {
                             contentText: 'Copy',
                         },
                         googleSearch: {
@@ -1468,8 +1485,8 @@
                         clear: {
                             contentText: "Clear"
                         },
-    },
-};
+                    },
+                };
                 break;
             case "ejdatavisualization":
                 if (ej.datavisualization.Diagram) {
@@ -1540,6 +1557,7 @@
                             Word: 'Word',
                             Html: 'Html',
                             PPT: 'PPT',
+                            CSV: 'CSV'
                         },
                         first: {
                             headerText: 'First',
@@ -1886,7 +1904,6 @@
                     ExportXL: "Excel",
                     ExportCsv: "Csv",
                     ExportPdf: "Pdf",
-                    SaveXml: "Save Xml",
                     BackgroundColor: "Fill Colour",
                     BGContent: "Colour the background of the cells to make them stand out.",
                     ColorContent: "Change the colour of your text.",
@@ -1934,9 +1951,6 @@
                     Validation: "Validation",
                     DataValidation: "Data Validation",
                     DVContent: "Pick from a list of rules to limit the type of data that tin be entered in a cell.",
-                    A4: "A4",
-                    A3: "A3",
-                    Letter: "Letter",
                     PageSize: "Page Sise",
                     PageSizeContent: "Choose a page sise for your document.",
                     FormatCells: "Formatcells",
@@ -1971,7 +1985,7 @@
                     Custom: "Type the number format code, using one of the existing codes as starting point.",
                     CellStyleGBN: "Normal/Bad/Good/Neutral",
                     CellStyleTH: "Heading 4/Title",
-                    CellsStyleTCS: "20% - Accent1/20% - Accent2/20% - Accent3/20% - Accent4/60% - Accent1/60% - Accent2/60% - Accent3/60% - Accent4/Accent1/Accent2/Accent3/Accent4",
+                    Accent: "Accent",
                     Style: "Style",
                     FormatAsTable: "Format As Table",
                     FormatasTable: "Format As Table",
@@ -2138,9 +2152,6 @@
                     SheetDeleteErrorAlert: "A workbook must contain at least one visible worksheet. to hide, delete, or move the selected sheet, you must first insert a new sheet or unhide a sheet that is already hidden.",
                     CtrlKeyErrorAlert: "That command cannot be used on multiple selections.",
                     ClipboardAccessError: "Your browser tin 't access the clipboard, so use these shortcuts:",
-                    ClipboardAccessCutError: "Cut = Ctrl + X",
-                    ClipboardAccessCopyError: "Copy = Ctrl + C",
-                    ClipboardAccessPasteError: "Paste = Ctrl + V",
                     MoveToEnd: "Move to End",
                     Beforesheet: "Before Sheet:",
                     CreateaCopy: "Create a Copy",
@@ -2170,7 +2181,6 @@
                     Overline: "Overline",
                     NormalFont: "Normal Font",
                     Preview: "Preview",
-                    PreviewText: "aabbccyyzz",
                     Line: "Queue",
                     Presets: "Presets",
                     None: "None",
@@ -2248,19 +2258,19 @@
                     NoOutline: "No outline",
                     Weight: "Weight",
                     Dashes: "Dashes",
-                    ColumnChart: "2-d Column/3-d Column",
+                    ColumnChart: "Column",
                     ColumnChartTitle: "Insert Column Chart",
                     ColumnChartContent: "Use this chart type to visually compare values across a few categories.",
-                    BarChart: "2-d Bar /3-d Bar",
+                    BarChart: "Bar",
                     BarChartTitle: "Insert Bar Chart",
                     BarChartContent: "Use this chart type to visually compare values across a few categories when the chart shows duration or the category text is long.",
                     StockChart: "Radar",
                     StockChartTitle: "Insert Radar Chart",
                     StockChartContent: "Use this chart type to show values relative to a centre point.",
-                    LineChart: "2-d Queue",
+                    LineChart: "Queue",
                     LineChartTitle: "Insert Queue chart",
                     LineChartContent: "Use this chart type to show trends over time (years, months, and days) or categories.",
-                    AreaChart: "2-d Area/3-d Area",
+                    AreaChart: "Area",
                     AreaChartTitle: "Insert Area Chart",
                     AreaChartContent: "Use this chart type to show trends over time (years, months, and days) or categories. use it to highlight the magnitude of change over time.",
                     ComboChart: "Combo",
@@ -2272,24 +2282,14 @@
                     ScatterChartContent: "Use this chart type to show the relationship between sets of values.",
                     ClusteredColumn: "Clustered&nbsp;Column",
                     StackedColumn: "Stacked&nbsp;Column",
-                    Stacked100Column: "100%&nbsp;Stacked&nbsp;Column",
-                    Cluster3DColumn: "3-D&nbsp;Clustered&nbsp;Column",
-                    Stacked3DColumn: "3-D&nbsp;Stacked&nbsp;Column",
-                    Stacked100Column3D: "3-D&nbsp;100%&nbsp;Stacked&nbsp;Column",
                     ClusteredBar: "Clustered&nbsp;Bar",
                     StackedBar: "Stacked&nbsp;Bar",
-                    Stacked100Bar: "100%&nbsp;Stacked&nbsp;Bar",
-                    Cluster3DBar: "3-D&nbsp;Clustered&nbsp;Bar",
-                    Stacked3DBar: "3-D&nbsp;Stacked&nbsp;Bar",
-                    Stacked100Bar3D: "3-D&nbsp;100%&nbsp;Stacked&nbsp;Bar",
                     Radar: "Radar",
                     RadarMarkers: "Radar&nbsp;with&nbsp;Markers",
                     LineMarkers: "Queue&nbsp;with&nbsp;Markers",
                     Area: "Area",
                     StackedArea: "Stacked&nbsp;Area",
-                    Stacked100Area: "100%&nbsp;Stacked&nbsp;Area",
                     Pie: "Pie",
-                    Pie3D: "3-D&nbsp;Pie",
                     Doughnut: "Doughnut",
                     Scatter: "Scatter",
                     ChartRange: "Chart range",
@@ -2303,29 +2303,19 @@
                     InvalidXAxisColumns: "X-axis range should be within a single column",
                     FreezePanes: "Freeze panes",
                     FreezePanesContent: "Freeze a portion of the sheet to keep it visible whilst you scroll through the rest of the sheet.",
-                    PasteTitle: "Paste (ctrl+V)",
                     PasteContent: "Add content on the clipboard to your document.",
                     PasteSplitContent: "Pick a paste option, such as keeping formatting or pasting only content.",
-                    CutTitle: "Cut (Ctrl+X)",
                     CutContent: "Remove the selection and put it on the clipboard so you tin paste it somewhere else.",
-                    CopyTitle: "Copy (Ctrl+C)",
                     CopyContent: "Put a copy of the selection on the clipboard so you tin paste it somewhere else.",
                     FPTitle: "Format painter",
                     FPContent: "Like the look of a particular selection? you tin apply that look to other content in the document.",
-                    BoldTitle: "Bold (Ctrl+B)",
                     BoldContent: "Make your text bold.",
-                    ItalicTitle: "Italic (Ctrl+I)",
                     ItalicContent: "Italicise your text.",
-                    ULineTitle: "Underline (Ctrl+U)",
                     ULineContent: "Underline your text.",
-                    LineTrTitle: "Strike Through (Ctrl+5)",
                     LineTrContent: "Cross something out by drawing a strike through it.",
-                    UndoTitle: "Undo (Ctrl+Z)",
                     UndoContent: "Undo your last action.",
-                    RedoTitle: "Redo (Ctrl+Y)",
                     RedoContent: "Redo your last action.",
-                    TableTitle: "Table (Ctrl+T)",
-                    HyperLinkTitle: "Add a hyperlink (Ctrl+K)",
+                    HyperLinkTitle: "Add a hyperlink",
                     HyperLinkContent: "Create a link in your document for quick access to webpages and files.",
                     HyperLinkPlaceContent: "hyperlinks tin also take you to places in your document.",
                     NewCommentTitle: "Insert a comment",
@@ -2386,13 +2376,6 @@
                     InvalidSheetIndex: "Specify proper sheetindex",
                     HugeDataAlert: "File too large to open.",
                     ImportExportUrl: "Give import/export url and try again.",
-                    TitleColumnChart: "Clustered Column/Stacked Column/100% Stacked Column/3d Clustered Column/3d Stacked Column/ 3d 100% Stacked Column",
-                    TitleBarChart: "Clustered Bar /Stacked Bar /100% Stacked Bar /3d Clustered Bar /3d Stacked Bar /3d 100% Stacked Bar",
-                    TitleRadarChart: "Radar/Radar with Markers",
-                    TitleLineChart: "Queue / Queue with markers",
-                    TitleAreaChart: "Area/Stacked Area/100% Stacked Area",
-                    TitlePieChart: "Pie/3d Pie/Doughnut",
-                    TitleScatterChart: "Scatter",
                     BetweenAlert: "The maximum must be greater or equal to the minimum.",
                     BorderStyles: "Solid/Dashed/Dotted",
                     FPaneAlert: "Freeze pane is not applied for the first cell",
@@ -2496,7 +2479,44 @@
                     Bar: "Bar",
                     Line: "Line",
                     DataValidationType: "Number/Decimal/Date/Time/TextLength/List",
-                    DataValidationAction: "greater than/greater than or equal to/less than/less than or equal to/equal to/not equal to/between/not between"
+                    DataValidationAction: "greater than/greater than or equal to/less than/less than or equal to/equal to/not equal to/between/not between",
+                    Modify: "Modify",
+                    Apply: "Apply",
+                    NewCellStyle: "New Cell Style",
+                    cellStyleAlert: "This style name already exists",
+                    modifyCellStyleAlert: "This style name does not exists",
+                    Color: "Color",
+                    StyleName: "Style Name",
+                    LShortdate: "Short Date",
+                    LLongdate: "Long Datum",
+                    Clipboard: "Clipboard",
+                    Font: "Font",
+                    Actions: "Actions",
+                    Styles: "Styles",
+                    Editing: "Editing",
+                    Tables: "Tables",
+                    Illustrations: "Illustrations",
+                    Links: "Links",
+                    Charts: "Charts",
+                    DataTools: "Data Tools",
+                    Show: "Show",
+                    PageLayout: "Page Layout",
+                    Changes: "Changes",
+                    Window: "Window",
+                    Cells: "Cells",
+                    Calculation: "Calculation",
+                    Properties: "Properties",
+                    Tools: "Tools",
+                    TableStyleOption: "Table Style Options",
+                    ChartLayouts: "Chart Layouts",
+                    ChartDesignData: "Data",
+                    ChartDesignType: "Type",
+                    ChartDesignSize: "Size",
+                    Adjust: "Adjust",
+                    FormatSize: "Size",
+                    AnalyzePivotTable: "PivotTable",
+                    DataSource: "DataSource",
+                    FATTitlePrefix: "Table Style",
                 };
                 break;
             case "ejUploadbox":
@@ -2526,11 +2546,41 @@
                 };
 
                 break;
+            case "ejMediaPlayer":
+                ej.MediaPlayer.Locale = ej.MediaPlayer.Locale || {};
+                ej.MediaPlayer.Locale["en-GB"] = {
+                    "Play": "Play",
+                    "Pause": "Pause",
+                    "Mute": "Mute",
+                    "Unmute": "Unmute",
+                    "Settings": "Settings",
+                    "FullScreen": "Full Screen",
+                    "ExitFullScreen": "Exit Full Screen",
+                    "HidePlaylist": "Hide Playlist",
+                    "Previous": "Previous",
+                    "Next": "Next",
+                    "TogglePlaylist": "Toggle Playlist",
+                    "Rewind": "Rewind",
+                    "Forward": "Forward",
+                    "Playlist": "Playlist",
+                    "RepeatPlaylist": "Repeat Playlist",
+                    "Shuffle": "Shuffle",
+                    "VideoTitle": "Video",
+                    "PlaylistTitle": "Playlist",
+                    "PlaylistItemName": "List Item",
+                    "PlaylistItemAuthor": "Author",
+                    "Media": "Media",
+                    "Speed": "Speed",
+                    "Quality": "Quality",
+                    "Normal": "Normal",
+                    "Auto": "Auto"
+                };
+                break;
         }
     }
     widgets = ej.widget.registeredWidgets;
     for (name in widgets)
         $.fn.Locale_enGB(name);
-    if(ej.ExcelFilter)
+    if (ej.ExcelFilter)
         $.fn.Locale_enGB("ejExcelFilter");
 })(window.jQuery, window.Syncfusion);

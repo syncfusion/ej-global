@@ -29,21 +29,21 @@
                     },
                     tooltipText: {
                         switcher: "Switcher",
-                        addbutton: "Tilføj farve",
+                        addButton: "Tilføj farve",
                         basic: "Grundlæggende",
-                        monochrome: "Monochrome",
-                        flatcolors: "Flade Farver",
-                        seawolf: "Sea Wolf",
-                        webcolors: "Web Farver",
+                        monoChrome: "Monochrome",
+                        flatColors: "Flade Farver",
+                        seaWolf: "Sea Wolf",
+                        webColors: "Web Farver",
                         sandy: "Sandet",
-                        pinkshades: "Pink Shades",
+                        pinkShades: "Pink Shades",
                         misty: "diset",
                         citrus: "Citrus",
                         vintage: "Årgang",
-                        moonlight: "Moonlight",
-                        candycrush: "Slik ødelæggelse",
-                        currentcolor: "Aktuel Color",
-                        selectedcolor: "Selected Color"
+                        moonLight: "Moonlight",
+                        candyCrush: "Slik ødelæggelse",
+                        currentColor: "Aktuel Color",
+                        selectedColor: "Selected Color"
                     },
                 };
                 break;
@@ -127,12 +127,12 @@
                     Search: "Søge",
                     Showrowswhere: "Vis rækker, hvor",
                     NumericTextboxWaterMark: "Indtast værdi",
-                    StringMenuOptions: [{ text: "Lige", value: "equal" }, { text: "Ikke lig", value: "notequal" }, { text: "begynder med", value: "startswith" }, { text: "slutter med", value: "endswith" }, { text: "indeholder", value: "contains" }, { text: "Tilpasset filter", value: "customfilter" }, ],
-                    NumberMenuOptions: [{ text: "Lige", value: "equal" }, { text: "Ikke lig", value: "notequal" }, { text: "Mindre end", value: "lessthan" }, { text: "Mindre end eller lig", value: "lessthanorequal" }, { text: "Bedre end", value: "greaterthan" }, { text: "Større end eller lig", value: "greaterthanorequal" }, { text: "Mellem", value: "between" }, { text: "Tilpasset filter", value: "customfilter" }, ],
-                    GuidMenuOptions: [{ text: "Lige", value: "equal" }, { text: "Ikke lig", value: "notequal" }, { text: "Tilpasset filter", value: "customfilter" }, ],
-                    DateMenuOptions: [{ text: "Lige", value: "equal" }, { text: "Ikke lig", value: "notequal" }, { text: "Mindre end", value: "lessthan" }, { text: "Mindre end eller lig", value: "lessthanorequal" }, { text: "Bedre end", value: "greaterthan" }, { text: "Større end eller lig", value: "greaterthanorequal" }, { text: "Mellem", value: "between" }, { text: "Tilpasset filter", value: "customfilter" }, ],
-                    DatetimeMenuOptions: [{ text: "Lige", value: "equal" }, { text: "Ikke lig", value: "notequal" }, { text: "Mindre end", value: "lessthan" }, { text: "Mindre end eller lig", value: "lessthanorequal" }, { text: "Bedre end", value: "greaterthan" }, { text: "Større end eller lig", value: "greaterthanorequal" }, { text: "Mellem", value: "between" }, { text: "Tilpasset filter", value: "customfilter" }, ],
-                    Top10MenuOptions: [{ text: "Top", value: "top" }, { text: "Bund", value: "bottom" }, ],
+                    StringMenuOptions: [{ text: "Lige", value: "equal" }, { text: "Ikke lig", value: "notequal" }, { text: "begynder med", value: "startswith" }, { text: "slutter med", value: "endswith" }, { text: "indeholder", value: "contains" }, { text: "Tilpasset filter", value: "customfilter" }],
+                    NumberMenuOptions: [{ text: "Lige", value: "equal" }, { text: "Ikke lig", value: "notequal" }, { text: "Mindre end", value: "lessthan" }, { text: "Mindre end eller lig", value: "lessthanorequal" }, { text: "Bedre end", value: "greaterthan" }, { text: "Større end eller lig", value: "greaterthanorequal" }, { text: "Mellem", value: "between" }, { text: "Tilpasset filter", value: "customfilter" }],
+                    GuidMenuOptions: [{ text: "Lige", value: "equal" }, { text: "Ikke lig", value: "notequal" }, { text: "Tilpasset filter", value: "customfilter" }],
+                    DateMenuOptions: [{ text: "Lige", value: "equal" }, { text: "Ikke lig", value: "notequal" }, { text: "Mindre end", value: "lessthan" }, { text: "Mindre end eller lig", value: "lessthanorequal" }, { text: "Bedre end", value: "greaterthan" }, { text: "Større end eller lig", value: "greaterthanorequal" }, { text: "Mellem", value: "between" }, { text: "Tilpasset filter", value: "customfilter" }],
+                    DatetimeMenuOptions: [{ text: "Lige", value: "equal" }, { text: "Ikke lig", value: "notequal" }, { text: "Mindre end", value: "lessthan" }, { text: "Mindre end eller lig", value: "lessthanorequal" }, { text: "Bedre end", value: "greaterthan" }, { text: "Større end eller lig", value: "greaterthanorequal" }, { text: "Mellem", value: "between" }, { text: "Tilpasset filter", value: "customfilter" }],
+                    Top10MenuOptions: [{ text: "Top", value: "top" }, { text: "Bund", value: "bottom" }],
                     title: "Tilpasset filter",
                     PredicateAnd: "OG",
                     PredicateOr: "ELLER",
@@ -145,6 +145,7 @@
                     DateTimePickerWaterMark: "Vælg dato tid",
                     True: "rigtigt",
                     False: "falsk",
+                    AddToFilter: "Tilføj nuværende valg for at filtrere"
                 };
                 break;
             case "ejFileExplorer":
@@ -164,7 +165,7 @@
                     UploadError: "Fejl",
                     RenameError: "Fejl",
                     PasteReplaceAlert: "Filnavnet eksisterer allerede. Erstat gammel fil med ny?",
-                    UploadReplaceAlert:"Filnavnet eksisterer allerede. Erstat gammel fil med ny?",
+                    UploadReplaceAlert: "Filnavnet eksisterer allerede. Erstat gammel fil med ny?",
                     Cut: "Skære",
                     Copy: "Kopi",
                     Paste: "Indsæt",
@@ -248,6 +249,7 @@
             case "ejGantt":
                 ej.Gantt.Locale["da-DK"] = {
                     emptyRecord: "Ingen poster at vise",
+                    unassignedTask: "Ikke-tildelt opgave",
                     alertTexts: {
                         indentAlert: "Der er ingen gantt rekord er valgt til at udføre indrykning",
                         outdentAlert: "Der er ingen gantt rekord er valgt til at udføre Ryk",
@@ -279,7 +281,8 @@
                         taskType: "Task type",
                         work: "Arbejde",
                         unit: "Enhed",
-                        effortDriven: "Indsats Driven"
+                        effortDriven: "Indsats Driven",
+                        resourceName: "Ressource navn"
                     },
                     editDialogTexts: {
                         addFormTitle: "Ny opgave",
@@ -347,7 +350,8 @@
                         prevTimeSpanTool: "Forrige Timespan",
                         criticalPathTool: "kritisk sti",
                         excelExportTool: "Excel eksport",
-                        pdfExportTool: "PDF Export"
+                        printTool: "Print",
+                        pdfExportTool: "PDF eksport"
                     },
                     durationUnitTexts: {
                         days: "dage",
@@ -359,7 +363,7 @@
                     },
                     durationUnitEditText: {
                         minute: ["m", "min", "minut", "minutter"],
-                        hour: ["h", "t", "time", "timer"],
+                        hour: ["h", "hr", "time", "timer"],
                         day: ["d", "dy", "dag", "dage"]
                     },
                     workUnitTexts: {
@@ -461,12 +465,14 @@
                     ExcelExport: "Excel Export",
                     WordExport: "Word Export",
                     PdfExport: "PDF Export",
-                    StringMenuOptions: [{ text: "begynder med", value: "StartsWith" }, { text: "slutter med", value: "EndsWith" }, { text: "Indeholder", value: "Contains" }, { text: "Lige", value: "Equal" }, { text: "Ikke lig", value: "NotEqual" }, ],
-                    NumberMenuOptions: [{ text: "Mindre end", value: "LessThan" }, { text: "Bedre end", value: "GreaterThan" }, { text: "Mindre end eller lig", value: "LessThanOrEqual" }, { text: "Større end eller lig", value: "GreaterThanOrEqual" }, { text: "Lige", value: "Equal" }, { text: "Ikke lig", value: "NotEqual" }, ],
+                    StringMenuOptions: [{ text: "begynder med", value: "StartsWith" }, { text: "slutter med", value: "EndsWith" }, { text: "Indeholder", value: "Contains" }, { text: "Lige", value: "Equal" }, { text: "Ikke lig", value: "NotEqual" }],
+                    NumberMenuOptions: [{ text: "Mindre end", value: "LessThan" }, { text: "Bedre end", value: "GreaterThan" }, { text: "Mindre end eller lig", value: "LessThanOrEqual" }, { text: "Større end eller lig", value: "GreaterThanOrEqual" }, { text: "Lige", value: "Equal" }, { text: "Ikke lig", value: "NotEqual" }, { text: "Mellem", value: "Between" }],
                     PredicateAnd: "OG",
                     PredicateOr: "ELLER",
                     Filter: "Filter",
                     FilterMenuCaption: "filterværdi",
+                    FilterMenuFromCaption: "Fra",
+                    FilterMenuToCaption: "Til",
                     FilterbarTitle: "s filter bar celle",
                     MatchCase: "match Case",
                     Clear: "Klar",
@@ -555,7 +561,7 @@
                     Exit: "Udgang",
                     Value: "Værdi",
                     ChartTypes: "Diagramtyperne",
-                    TDCharts: "3D-diagrammer",
+                    TDCharts: "3D Diagrammer",
                     Tooltip: "Værktøjstip",
                     Exporting: "Eksport",
                     Line: "linje",
@@ -604,7 +610,6 @@
                     ClearFilterFrom: "Ryd filter fra",
                     SortAtoZ: "Sorter A til Z",
                     SortZtoA: "Sorter Z til A",
-
                     DeferUpdate: "Udskyd opdatering",
                     MDXQuery: "MDX Forespørgsel",
                     Column: "Kolonne",
@@ -623,7 +628,7 @@
                     ToggleAxis: "Skifte akse",
                     ExportToExcel: "Eksporter til Excel",
                     ExportToWord: "Eksporter til Word",
-                    ExportToPdf: "Eksport til PDF",
+                    ExportToPdf: "Eksporter til PDF",
                     FullScreen: "Fuld skærm",
                     Grid: "Gitter",
                     Chart: "Diagram",
@@ -735,7 +740,14 @@
                     Warning: "Advarsel",
                     Confirm: "Beregnede medlem med samme navn eksisterer allerede. Pga vil erstatte?",
                     KPIs: "KPI'er",
-                    AddCurrentSelectionToFilter: "Tilføj nuværende valg for at filtrere"
+					Collection: "Collection",
+					Report: "Rapport",
+                    AddCurrentSelectionToFilter: "Tilføj nuværende valg for at filtrere",
+                    SaveMsg: "Rapporten er gemt!!!",
+                    RenameMsg: "Rapporten er omdøbt med succes!!!",
+                    RemoveMsg: "Rapport fjernet!!!",
+                    Success: "Succes",
+                    KpiAlertMsg: "Inden du bevæger dig kan placeres i dette område i rapporten"
                 };
                 break;
             case "ejPivotGauge":
@@ -825,15 +837,15 @@
                         signature: {
                             headerText: 'Underskrift',
                             contentText: 'Tilføj eller opret den håndskrevne underskrift.',
-        },
-        select: {
-            headerText: 'Udvælgelse',
-            contentText: 'Valgværktøj til tekst.',
-        },
-        scroll: {
-            headerText: 'Panorering',
-            contentText: 'Klik for at panorere rundt i dokumentet',
-        },
+                        },
+                        select: {
+                            headerText: 'Udvælgelse',
+                            contentText: 'Valgværktøj til tekst.',
+                        },
+                        scroll: {
+                            headerText: 'Panorering',
+                            contentText: 'Klik for at panorere rundt i dokumentet',
+                        },
                     },
                     contextMenu: {
                         copy: {
@@ -940,7 +952,6 @@
                     SortAtoZ: "Sorter A til Z",
                     SortZtoA: "Sorter Z til A",
                     and: "Og",
-
                     NumberFormatting: "Talformatering",
                     FrozenHeaders: "Frosne stiftlister",
                     CellSelection: "Cell Selection",
@@ -962,7 +973,6 @@
                     PagingOptions: "Indstillinger for personsøgning",
                     CategoricalPageSize: "Kategoriske Sidestørrelse",
                     SeriesPageSize: "Serie Sidestørrelse",
-
                     HyperLink: "HyperLink",
                     CellEditing: "Cell redigering",
                     GroupingBar: "Gruppering Bar",
@@ -980,13 +990,11 @@
                     Average: "Gennemsnitlig",
                     Count: "Tæl",
                     Min: "Min",
-
                     Max: "Max",
                     Excel: "Excel",
                     Word: "Word",
                     PDF: "PDF",
                     CSV: "CSV",
-
                     ToolTipRow: "Række",
                     ToolTipColumn: "Kolonne",
                     ToolTipValue: "Værdi",
@@ -1056,19 +1064,19 @@
                     Format: "Format",
                     NoMeasure: "Please add any mål",
                     AliceBlue: "AliceBlue",
-                    Black: "Sort",
-                    Blue: "Blå",
-                    Brown: "Brun",
-                    Gold: "Guld",
-                    Green: "Grøn",
+                    Black: "Black",
+                    Blue: "Blue",
+                    Brown: "Brown",
+                    Gold: "Gold",
+                    Green: "Green",
                     Lime: "Lime",
                     Maroon: "Maroon",
                     Orange: "Orange",
                     Pink: "Pink",
-                    Red: "Rød",
+                    Red: "Red",
                     Violet: "Violet",
-                    White: "Hvid",
-                    Yellow: "Gul",
+                    White: "White",
+                    Yellow: "Yellow",
                     Solid: "Solid",
                     Dashed: "Stiplet",
                     Dotted: "Stiplet",
@@ -1078,7 +1086,7 @@
                     Outset: "Starten",
                     Ridge: "Ridge",
                     None: "Ingen",
-                    Algerian: "Algeriske",
+                    Algerian: "Algerian",
                     Arial: "Arial",
                     BodoniMT: "Bodoni MT",
                     BritannicBold: "Britannic Bold",
@@ -1088,7 +1096,7 @@
                     DejaVuSans: "DejaVu Sans",
                     Forte: "Forte",
                     Gerogia: "Gerogia",
-                    Impact: "Effekt",
+                    Impact: "Impact",
                     SegoeUI: "Segoe UI",
                     Tahoma: "Tahoma",
                     TimesNewRoman: "Times New Roman",
@@ -1117,7 +1125,19 @@
                     NormalTopSummary: "Normal Top Layout oversigt",
                     NoSummaries: "Ingen Resuméer Layout",
                     Fontcolor: "skriftfarve",
-                    AddCurrentSelectionToFilter: "Tilføj nuværende valg for at filtrere"
+                    AddCurrentSelectionToFilter: "Tilføj nuværende valg for at filtrere",
+                    Months: "Måneder",
+                    Days: "Dage",
+                    Quarters: "Kvartaler",
+                    Years: "År",
+                    Qtr: "Kvt",
+                    Quarter: "Kvartal",
+                    NoRecordsToDisplay: "No records to display.",
+                    EnterFormatName: "Indtast formatnavn",
+                    FormatName: "Formatnavn",
+                    RemoveFormat: "Fjern Format",
+                    Edit: "Rediger",
+                    DuplicateFormatName: "Duplikér Formatnavn"
                 };
                 break;
             case "ejPivotPager":
@@ -1241,7 +1261,8 @@
                             Excel: "Excel",
                             Word: "Ord",
                             Html: "Html",
-                            PPT: 'PPT'
+                            PPT: 'PPT',
+                            CSV: 'CSV'
                         },
                         first: {
                             headerText: "Først",
@@ -1733,7 +1754,6 @@
                     ExportXL: "Excel",
                     ExportCsv: "CSV",
                     ExportPdf: "PDF",
-                    SaveXml: "Gem XML",
                     BGContent: "Farvelægge baggrunden af cellerne for at gøre dem skiller sig ud.",
                     ColorContent: "Ændre farven på din tekst.",
                     BorderContent: "Anvend grænser til de markerede celler.",
@@ -1779,9 +1799,6 @@
                     Validation: "Validering",
                     DataValidation: "data Validering",
                     DVContent: "Vælg fra en liste over regler for at begrænse den type data, der kan indtastes i en celle.",
-                    A4: "A4",
-                    A3: "A3",
-                    Letter: "Bogstav",
                     PageSize: "Sidestørrelse",
                     PageSizeContent: "Vælg en sidestørrelse til dokumentet.",
                     FormatCells: "Formater celler",
@@ -1816,7 +1833,7 @@
                     Custom: "Indtast talformatkode, ved hjælp af en af de eksisterende koder som udgangspunkt.",
                     CellStyleGBN: "Normal / Bad / god / Neutral",
                     CellStyleTH: "Udgiftsområde 4 / Titel",
-                    CellsStyleTCS: "20% - Accent1 / 20% - Accent2 / 20% - Accent3 / 20% - Accent4 / 60% - Accent1 / 60% - Accent2 / 60% - Accent3 / 60% - Accent4 / Accent1 / Accent2 / Accent3 / Accent4",
+                    Accent: "Accent",
                     FormatAsTable: "Format Som tabel",
                     FormatasTable: "Format som tabel",
                     FATContent: "Hurtigt konvertere et celleområde til en tabel med sin egen stil.",
@@ -1982,9 +1999,6 @@
                     SheetDeleteErrorAlert: "En projektmappe skal indeholde mindst ét synligt regneark. For at skjule, slette eller flytte det valgte ark, skal du først indsætte et nyt ark eller vise et ark, der allerede er gemt.",
                     CtrlKeyErrorAlert: "Det kommando kan ikke bruges på flere valg.",
                     ClipboardAccessError: "Din browser kan ikke få adgang til Udklipsholder, så brug disse genveje:",
-                    ClipboardAccessCutError: "Skåret = Ctrl + X",
-                    ClipboardAccessCopyError: "Copy = Ctrl + C",
-                    ClipboardAccessPasteError: "Indsæt = Ctrl + V",
                     MoveToEnd: "Flyt til End",
                     Beforesheet: "Før ark:",
                     CreateaCopy: "Opret en kopi",
@@ -2016,7 +2030,6 @@
                     Overline: "overlinie",
                     NormalFont: "Normal skrifttype",
                     Preview: "Eksempel",
-                    PreviewText: "AaBbCc ZyZz",
                     Line: "linje",
                     Style: "Stil:",
                     Presets: "Presets",
@@ -2097,19 +2110,19 @@
                     NoOutline: "ingen Outline",
                     Weight: "Vægt",
                     Dashes: "streger",
-                    ColumnChart: "2-D Kolonne / 3D Column",
+                    ColumnChart: "Kolonne",
                     ColumnChartTitle: "Indsæt kolonne Chart",
                     ColumnChartContent: "Brug denne diagramtype til visuelt sammenligne værdier på tværs af et par kategorier.",
-                    BarChart: "2-D Bar / 3D Bar",
+                    BarChart: "Bar",
                     BarChartTitle: "Indsæt Bar Chart",
                     BarChartContent: "Brug denne diagramtype til visuelt sammenligne værdier på tværs af et par kategorier, når diagrammet viser varigheden eller kategorien teksten er lang.",
                     StockChart: "Radar",
                     StockChartTitle: "Indsæt Radar Chart",
                     StockChartContent: "Brug denne diagramtype at vise værdier i forhold til et midtpunkt.",
-                    LineChart: "2-D Linje",
+                    LineChart: "Linje",
                     LineChartTitle: "Indsæt Linje Chart",
                     LineChartContent: "Brug denne diagramtype at vise tendenser over tid (år, måneder og dage) eller kategorier.",
-                    AreaChart: "2-D Area / 3D Area",
+                    AreaChart: "Areal",
                     AreaChartTitle: "Indsæt Area Chart",
                     AreaChartContent: "Brug denne diagramtype at vise tendenser over tid (år, måneder og dage) eller kategorier. Brug den til at fremhæve omfanget af ændringer over tid.",
                     ComboChart: "Combo",
@@ -2119,26 +2132,16 @@
                     ScatterChart: "Sprede",
                     ScatterChartTitle: "Indsæt Scatter (X, Y) Chart",
                     ScatterChartContent: "Brug denne diagramtype at vise sammenhængen mellem sæt af værdier.",
-                    ClusteredColumn: "Grupperet & nbsp; kolonne",
-                    StackedColumn: "Stacked & nbsp; kolonne",
-                    Stacked100Column: "100% & nbsp; Stacked & nbsp; kolonne",
-                    Cluster3DColumn: "3D & nbsp; Clustered & nbsp; kolonne",
-                    Stacked3DColumn: "3D & nbsp; Stacked & nbsp; kolonne",
-                    Stacked100Column3D: "3D & nbsp; 100% & nbsp; Stacked & nbsp; kolonne",
-                    ClusteredBar: "Grupperet & nbsp; Bar",
-                    StackedBar: "Stacked & nbsp; Bar",
-                    Stacked100Bar: "100% & nbsp; Stacked & nbsp; Bar",
-                    Cluster3DBar: "3D & nbsp; Clustered & nbsp; Bar",
-                    Stacked3DBar: "3D & nbsp; Stacked & nbsp; Bar",
-                    Stacked100Bar3D: "3D & nbsp; 100% & nbsp; Stacked & nbsp; Bar",
+                    ClusteredColumn: "Grupperet&nbsp;kolonne",
+                    StackedColumn: "Stacked&nbsp;kolonne",
+                    ClusteredBar: "Grupperet&nbsp;Bar",
+                    StackedBar: "Stacked&nbsp;Bar",
                     Radar: "Radar",
-                    RadarMarkers: "Radar & nbsp; bredde & nbsp; Markers",
-                    LineMarkers: "Line & nbsp; bredde & nbsp; Markers",
+                    RadarMarkers: "Radar&nbsp;bredde&nbsp;Markers",
+                    LineMarkers: "Line&nbsp;bredde&nbsp;Markers",
                     Area: "Areal",
-                    StackedArea: "Stacked & nbsp; Area",
-                    Stacked100Area: "100% & nbsp; Stacked & nbsp; Area",
+                    StackedArea: "Stacked&nbsp;Area",
                     Pie: "Pie",
-                    Pie3D: "3-D & nbsp; Pie",
                     Doughnut: "Doughnut",
                     Scatter: "Sprede",
                     ChartRange: "Chart Range",
@@ -2152,29 +2155,19 @@
                     InvalidXAxisColumns: "X-aksen interval bør være inden for en enkelt kolonne",
                     FreezePanes: "Frys ruder",
                     FreezePanesContent: "Frys en del af arket for at holde det synlige, mens du ruller gennem resten af arket.",
-                    PasteTitle: "Indsæt (Ctrl + V)",
                     PasteContent: "Tilføj indhold i Udklipsholder til dit dokument.",
                     PasteSplitContent: "Vælg en pasta indstilling, såsom at holde formatering eller indsætte kun indhold.",
-                    CutTitle: "Klip (Ctrl + X)",
                     CutContent: "Fjern markeringen, og sætte det på Udklipsholder, så du kan indsætte den et andet sted.",
-                    CopyTitle: "Kopiér (Ctrl + C)",
                     CopyContent: "Sæt en kopi af markeringen i udklipsholderen, så du kan indsætte den et andet sted.",
                     FPTitle: "Formatpensel",
                     FPContent: "Ligesom udseendet af et bestemt valg? Du kan anvende denne udseende til andet indhold i dokumentet.",
-                    BoldTitle: "Fed (Ctrl + B)",
                     BoldContent: "Gør din tekst fed.",
-                    ItalicTitle: "Kursiv (Ctrl + I)",
                     ItalicContent: "Kursiv din tekst.",
-                    ULineTitle: "Understreget (Ctrl + U)",
                     ULineContent: "Understreget din tekst.",
-                    LineTrTitle: "Gennemstreget (Ctrl + 5)",
                     LineTrContent: "Kryds noget ud ved at trække en strejke gennem det.",
-                    UndoTitle: "Fortryd (Ctrl + Z)",
                     UndoContent: "Fortryd din sidste handling.",
-                    RedoTitle: "Redo (Ctrl + Y)",
                     RedoContent: "Gentag seneste handling.",
-                    TableTitle: "Tabel (Ctrl + T)",
-                    HyperLinkTitle: "Tilføj et hyperlink (Ctrl + K)",
+                    HyperLinkTitle: "Tilføj et hyperlink",
                     HyperLinkContent: "Opret et link i dit dokument for hurtig adgang til websider og filer. ",
                     HyperLinkPlaceContent: " Hyperlinks kan også tage dig til steder i dit dokument.",
                     NewCommentTitle: "Indsæt en kommentar",
@@ -2235,13 +2228,6 @@
                     InvalidSheetIndex: "Angiv korrekt SheetIndex",
                     HugeDataAlert: "Filen er for stor til at åbne.",
                     ImportExportUrl: "Giv import / eksport URL og prøv igen.",
-                    TitleColumnChart: "Grupperet Kolonne / Stablet Kolonne / 100% stablet Kolonne / 3D Clustered Kolonne / 3D Stablet Kolonne / 3D 100% stablet kolonne",
-                    TitleBarChart: "Grupperet Bar / Stacked Bar / 100% stablet Bar / 3D Clustered Bar / 3D Stacked Bar / 3D 100% stablet Bar",
-                    TitleRadarChart: "Radar / Radar med markører",
-                    TitleLineChart: "Linie / Line med Markers",
-                    TitleAreaChart: "Område / Stacked Area / 100% stablet Area",
-                    TitlePieChart: "Pie / 3D Pie / Doughnut",
-                    TitleScatterChart: "Sprede",
                     BetweenAlert: "Maksimum skal være større eller lig med Minimum.",
                     BorderStyles: "Solid / Stiplet / Dotted",
                     FPaneAlert: "Freeze Pane anvendes ikke for den første celle",
@@ -2249,6 +2235,7 @@
                     BlankWorkbook: "Blank projektmappe",
                     SaveAsExcel: "Gem som Excel",
                     SaveAsCsv: "Gem som CSV",
+                    SaveAsPdf: "Gem som PDF",
                     Design: "DESIGN",
                     NewName: "nyt navn",
                     FormulaBar: "formel Bar",
@@ -2345,7 +2332,50 @@
                     Line: "linje",
                     DataValidationType: "Antal / Decimal / Dato / tid / TextLength / liste",
                     DataValidationAction: "Større end / større end eller lig med / mindre end / mindre end eller lig med / lig med / ikke lig med / mellem / ikke mellem",
-                    SaveAsPdf: "Gem som PDF"
+                    Modify: "Modificere",
+                    Apply: "ansøge",
+                    NewCellStyle: "Ny celle stil",
+                    cellStyleAlert: "Dette stilnavn eksisterer allerede",
+                    modifyCellStyleAlert: "Dette stilnavn findes ikke",
+                    Color: "Farve",
+                    StyleName: "Stilnavn",
+                    LShortdate: "Kort dato",
+                    LLongdate: "Lang dato",
+                    Clipboard: "Udklipsholder",
+                    Font: "Skrifttype",
+                    Actions: "Handlinger",
+                    Styles: "Estils",
+                    Editing: "Redigering",
+                    Tables: "Borde",
+                    Illustrations: "Illustrationer",
+                    Links: "enllaços",
+                    Charts: "Gràfics",
+                    DataTools: "Eines de dades",
+                    Show: "Espectacle",
+                    PageLayout: "Disseny de pàgina",
+                    Changes: "canvis",
+                    Window: "Finestra",
+                    Cells: "cèl · lules",
+                    Calculation: "Càlcul",
+                    Properties: "Propietats",
+                    Tools: "Eines",
+                    TableStyleOption: "Opció d'estil de la taula",
+                    ChartLayouts: "Layouts de gràfics",
+                    ChartDesignData: "Dades",
+                    ChartDesignType: "Escriviu",
+                    ChartDesignSize: "Mida",
+                    Adjust: "Ajust",
+                    FormatSize: "Mida",
+                    AnalyzePivotTable: "Taula dinàmica",
+                    DataSource: "Font de dades",
+                    Actions: "Accions",
+                    FATTitlePrefix: "Estil de taula",
+                };
+                break;
+            case "ejTimePicker":
+                ej.TimePicker.Locale = ej.TimePicker.Locale || {};
+                ej.TimePicker.Locale["da-DK"] = {
+                    watermarkText: "vælg en tid",
                 };
                 break;
             case "ejTreeGrid":
@@ -2359,7 +2389,8 @@
                         expandAllTool: "Udvid alle",
                         collapseAllTool: "Skjul alle",
                         pdfExportTool: "PDF eksport",
-                        excelExportTool: "Excel eksport"
+                        excelExportTool: "Excel eksport",
+                        printTool: "Print"
                     },
                     contextMenuTexts: {
                         addRowText: "Tilføj række",
@@ -2453,6 +2484,7 @@
                         renameColumn: "Omdøb kolonne"
                     },
                     deleteColumnText: "Er du sikker på at du vil slette denne kolonne?",
+                    deleteRecordText: "Er du sikker på, at du vil slette posten?",
                     okButtonText: "Okay",
                     cancelButtonText: "Ophæve",
                     confirmDeleteText: "Bekræft Slet",
@@ -2517,11 +2549,41 @@
                     NoSuggestionMessage: "Ingen forslag til rådighed"
                 };
                 break;
+            case "ejMediaPlayer":
+                ej.MediaPlayer.Locale = ej.MediaPlayer.Locale || {};
+                ej.MediaPlayer.Locale["da-DK"] = {
+                    "Play": "Spille",
+                    "Pause": "Pause",
+                    "Mute": "Stum",
+                    "Unmute": "Lyd til",
+                    "Settings": "Indstillinger",
+                    "FullScreen": "Fuld skærm",
+                    "ExitFullScreen": "Afslut fuld skærm",
+                    "HidePlaylist": "Skjul spilleliste",
+                    "Previous": "Tidligere",
+                    "Next": "Næste",
+                    "TogglePlaylist": "Skift afspilningsliste",
+                    "Rewind": "Spole tilbage",
+                    "Forward": "Frem",
+                    "Playlist": "afspilningsliste",
+                    "RepeatPlaylist": "Gentag afspilningsliste",
+                    "Shuffle": "Shuffle",
+                    "VideoTitle": "video",
+                    "PlaylistTitle": "afspilningsliste",
+                    "PlaylistItemName": "Listepost",
+                    "PlaylistItemAuthor": "Forfatter",
+                    "Media": "Medier",
+                    "Speed": "Fart",
+                    "Quality": "Kvalitet",
+                    "Normal": "Normal",
+                    "Auto": "Auto"
+                };
+                break;
         }
     }
     widgets = ej.widget.registeredWidgets;
     for (name in widgets)
         $.fn.Locale_daDK(name);
-    if(ej.ExcelFilter)
+    if (ej.ExcelFilter)
         $.fn.Locale_daDK("ejExcelFilter");
 })(window.jQuery, window.Syncfusion);
