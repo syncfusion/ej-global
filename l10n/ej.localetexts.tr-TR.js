@@ -13,7 +13,6 @@
     $.fn.Locale_trTR = function (pluginName) {
         switch (pluginName) {
             case "ejAutocomplete":
-                ej.Autocomplete.Locale = ej.Autocomplete.Locale || {};
                 ej.Autocomplete.Locale["tr-TR"] = {
                     addNewText: "Yeni ekle",
                     emptyResultText: "hiçbir öneri",
@@ -22,7 +21,6 @@
                 };
                 break;
             case "ejColorPicker":
-                ej.ColorPicker.Locale = ej.ColorPicker.Locale || {};
                 ej.ColorPicker.Locale["tr-TR"] = {
                     buttonText: {
                         apply: "Uygulamak",
@@ -50,20 +48,17 @@
                 };
                 break;
             case "ejCurrencyTextbox":
-                ej.CurrencyTextbox.Locale = ej.CurrencyTextbox.Locale || {};
                 ej.CurrencyTextbox.Locale["tr-TR"] = {
                     watermarkText: "değeri girin",
                 };
                 break;
             case "ejDatePicker":
-                ej.DatePicker.Locale = ej.DatePicker.Locale || {};
                 ej.DatePicker.Locale["tr-TR"] = {
                     watermarkText: "seçin tarih",
                     buttonText: "Bugün",
                 };
                 break;
             case "ejDateRangePicker":
-                ej.DateRangePicker.Locale = ej.DateRangePicker.Locale || {};
                 ej.DateRangePicker.Locale["tr-TR"] = {
                     ButtonText: {
                         apply: "Uygulamak",
@@ -75,7 +70,6 @@
                 };
                 break;
             case "ejDateTimePicker":
-                ej.DateTimePicker.Locale = ej.DateTimePicker.Locale || {};
                 ej.DateTimePicker.Locale["tr-TR"] = {
                     watermarkText: "Seçin tarih saat",
                     buttonText: {
@@ -87,7 +81,6 @@
                 };
                 break;
             case "ejDialog":
-                ej.Dialog.Locale = ej.Dialog.Locale || {};
                 ej.Dialog.Locale["tr-TR"] = {
                     tooltip: {
                         close: "Kapat",
@@ -103,14 +96,12 @@
                 };
                 break;
             case "ejDropDownList":
-                ej.DropDownList.Locale = ej.DropDownList.Locale || {};
                 ej.DropDownList.Locale["tr-TR"] = {
                     emptyResultText: "Hiçbir öneri,",
                     watermarkText: " ",
                 };
                 break;
             case "ejExcelFilter":
-                ej.ExcelFilter.Locale = ej.ExcelFilter.Locale || {};
                 ej.ExcelFilter.Locale["tr-TR"] = {
                     SortNoSmaller: "Sıralama küçük büyük için",
                     SortNoLarger: "Sıralama Büyük Küçük için",
@@ -158,7 +149,6 @@
                 };
                 break;
             case "ejFileExplorer":
-                ej.FileExplorer.Locale = ej.FileExplorer.Locale || {};
                 ej.FileExplorer.Locale["tr-TR"] = {
                     Folder: "Klasör",
                     EmptyFolder: "Bu klasör boş",
@@ -257,7 +247,6 @@
                 };
                 break;
             case "ejGantt":
-                ej.Gantt.Locale = ej.Gantt.Locale || {};
                 ej.Gantt.Locale["tr-TR"] = {
                     emptyRecord: "Gösterilecek kayıt yok",
                     unassignedTask: "Atanmamış Görev",
@@ -445,7 +434,6 @@
                 };
                 break;
             case "ejGrid":
-                ej.Grid.Locale = ej.Grid.Locale || {};
                 ej.Grid.Locale["tr-TR"] = {
                     EmptyRecord: "Gösterilecek kayıt yok",
                     GroupDropArea: "grubuna kendi sütun burada bir sütun başlığını sürükleyin",
@@ -515,7 +503,6 @@
                 break;
             case "ejmobile":
                 if (ej.mobile.Grid) {
-                    ej.mobile.Grid.Locale = ej.mobile.Grid.Locale || {};
                     ej.mobile.Grid.Locale["tr-TR"] = {
                         emptyResult: "Gösterilecek kayıt yok",
                         filterValidation: "Geçerli filtre verileri girin",
@@ -533,7 +520,6 @@
                 }
 
                 if (ej.mobile.DatePicker) {
-                    ej.mobile.DatePicker.Locale =  ej.mobile.DatePicker.Locale || {};
                     ej.mobile.DatePicker.Locale["tr-TR"] = {
                         confirmText: "tamam",
                         Windows: {
@@ -545,7 +531,6 @@
                     };
                 }
                 if ( ej.mobile.TimePicker) {
-                    ej.mobile.TimePicker.Locale = ej.mobile.TimePicker.Locale || {};
                     ej.mobile.TimePicker.Locale["tr-TR"] = {
                         confirmText: "tamam",
                         AM: "AM",
@@ -563,13 +548,11 @@
                 }
                 break;
             case "ejNumericTextbox":
-                ej.NumericTextbox.Locale = ej.NumericTextbox.Locale || {};
                 ej.NumericTextbox.Locale["tr-TR"] = {
                     watermarkText: "değeri girin",
                 };
                 break;
             case "ejPivotChart":
-                ej.PivotChart.Locale = ej.PivotChart.Locale || {};
                 ej.PivotChart.Locale["tr-TR"] = {
                     Measure: "tedbir",
                     Row: "sıra",
@@ -616,7 +599,6 @@
                 };
                 break;
             case "ejPivotClient":
-                ej.PivotClient.Locale = ej.PivotClient.Locale || {};
                 ej.PivotClient.Locale["tr-TR"] = {
                     DoesNotBeginsWith: "Çalışmıyor ile başlar.",
                     DoesNotEndsWith: "Yok biter.",
@@ -771,14 +753,12 @@
                 };
                 break;
             case "ejPivotGauge":
-                ej.PivotGauge.Locale = ej.PivotGauge.Locale || {};
                 ej.PivotGauge.Locale["tr-TR"] = {
                     RevenueGoal: "Gelir Gol",
                     RevenueValue: "Gelir Değeri",
                 };
                 break;
             case "ejPager":
-                ej.Pager.Locale = ej.Pager.Locale || {};
                 if (ej.Pager) ej.Pager.Locale["tr-TR"] = {
                     pagerInfo: "{0} {1} sayfalar ({2} öğeleri) arasında",
                     firstPageTooltip: "İlk sayfaya gidin",
@@ -790,7 +770,6 @@
                 };
                 break;
             case "ejPdfViewer":
-                ej.PdfViewer.Locale = ej.PdfViewer.Locale || {};
                 ej.PdfViewer.Locale["tr-TR"] = {
                     toolbar: {
                         print: {
@@ -955,13 +934,11 @@
                 };
                 break;
             case "ejPercentageTextbox":
-                ej.PercentageTextbox.Locale = ej.PercentageTextbox.Locale || {};
                 ej.PercentageTextbox.Locale["tr-TR"] = {
                     watermarkText: "değeri girin",
                 };
                 break;
             case "ejPivotGrid":
-                ej.PivotGrid.Locale = ej.PivotGrid.Locale || {};
                 ej.PivotGrid.Locale["tr-TR"] = {
                     Total: "Toplam",
                     GrandTotal:"Genel Toplam",
@@ -1167,7 +1144,6 @@
                 };
                 break;
             case "ejPivotPager":
-                ej.PivotPager.Locale = ej.PivotPager.Locale || {};
                 ej.PivotPager.Locale["tr-TR"] = {
                     SeriesPage: "Serisi Page",
                     CategoricalPage: "kategorik Sayfa",
@@ -1178,7 +1154,6 @@
                 };
                 break;
             case "ejPivotSchemaDesigner":
-                ej.PivotSchemaDesigner.Locale = ej.PivotSchemaDesigner.Locale || {};
                 ej.PivotSchemaDesigner.Locale["tr-TR"] = {
                     DoesNotBeginsWith: "Çalışmıyor ile başlar.",
                     DoesNotEndsWith: "Yok biter.",
@@ -1243,7 +1218,6 @@
                 break;
             case "ejdatavisualization":
                 if (ej.datavisualization.Diagram) {
-                    ej.datavisualization.Diagram.Locale = ej.datavisualization.Diagram.Locale || {};
                     ej.datavisualization.Diagram.Locale["tr-TR"] = {
                         cut: "kesim",
                         copy: "kopya",
@@ -1277,7 +1251,6 @@
                 }
                 break;
             case "ejReportViewer":
-                ej.ReportViewer.Locale = ej.ReportViewer.Locale || {};
                 ej.ReportViewer.Locale["tr-TR"] = {
                     toolbar: {
                         print: {
@@ -1377,7 +1350,6 @@
                 };
                 break;
             case "ejRibbon":
-                ej.Ribbon.Locale = ej.Ribbon.Locale || {};
                 ej.Ribbon.Locale["tr-TR"] = {
                     CustomizeQuickAccess: "Hızlı Erişim Araç Çubuğu özelleştirme",
                     RemoveFromQuickAccessToolbar: "Hızlı Erişim Araç Çubuğu kaldırmak",
@@ -1388,7 +1360,6 @@
                 };
                 break;
             case "ejKanban":
-                ej.Kanban.Locale = ej.Kanban.Locale || {};
                 ej.Kanban.Locale["tr-TR"] = {
                     EmptyCard: "Görüntülenecek kart yok",
                     SaveButton: "Kayıt etmek",
@@ -1419,7 +1390,6 @@
                 };
                 break;
             case "ejRTE":
-                ej.RTE.Locale = ej.RTE.Locale || {};
                 ej.RTE.Locale["tr-TR"] = {
                     bold: "cesur",
                     italic: "İtalik",
@@ -1576,7 +1546,6 @@
                 };
                 break;
             case "ejSchedule":
-                ej.Schedule.Locale = ej.Schedule.Locale || {};
                 ej.Schedule.Locale["tr-TR"] = {
                     ReminderWindowTitle: "hatırlatma penceresi",
                     CreateAppointmentTitle: "Randevu oluşturma",
@@ -1685,7 +1654,6 @@
                 };
                 break;
             case "ejSpreadsheet":
-                ej.Spreadsheet.Locale = ej.Spreadsheet.Locale || {};
                 ej.Spreadsheet.Locale["tr-TR"] = {
                     Cut: "kesim",
                     Copy: "kopya",
@@ -2407,13 +2375,11 @@
                 };
                 break;
 			case "ejTimePicker":
-                ej.TimePicker.Locale = ej.TimePicker.Locale || {};
                 ej.TimePicker.Locale["tr-TR"] = {
                     watermarkText: "bir zaman seç",
                 };
                 break;	
             case "ejTreeGrid":
-                ej.TreeGrid.Locale = ej.TreeGrid.Locale || {};
                 ej.TreeGrid.Locale["tr-TR"] = {
                     toolboxTooltipTexts: {
                         addTool: "eklemek",
@@ -2532,7 +2498,6 @@
                 };
                 break;
             case "ejUploadbox":
-                ej.Uploadbox.Locale = ej.Uploadbox.Locale || {};
                 ej.Uploadbox.Locale["tr-TR"] = {
                     buttonText: {
                         upload: "yükleme",
@@ -2559,20 +2524,17 @@
                 };
                 break;
             case "ejTile":
-                ej.Tile.Locale = ej.Tile.Locale || {};
                 ej.Tile.Locale["tr-TR"] = {
                     captionText: "metin"
                 };
                 break;
             case "ejListView":
-                ej.ListView.Locale = ej.ListView.Locale || {};
                 ej.ListView.Locale["tr-TR"] = {
                     headerTitle: "Başlık",
                     headerBackButtonText: "Geri"
                 };
                 break;
             case "ejSpellCheck":
-                ej.SpellCheck.Locale = ej.SpellCheck.Locale || {};
                 ej.SpellCheck.Locale["tr-TR"] = {
                     SpellCheckButtonText: "Yazım",
                     NotInDictionary: "Sözlükte değil",
