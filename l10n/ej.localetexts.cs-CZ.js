@@ -1,11 +1,3 @@
-/*!
-*  filename: ej.localetexts.cs-CZ.js
-*  Copyright Syncfusion Inc. 2001 - 2016. All rights reserved.
-*  Use of this code is subject to the terms of our license.
-*  A copy of the current license can be obtained at any time by e-mailing
-*  licensing@syncfusion.com. Any infringement will be prosecuted under
-*  applicable laws. 
-*/
 (function ($, ej, undefined) {
     var name, widgets;
     ej.locales.push("csCZ");
@@ -106,6 +98,26 @@
                 ej.DropDownList.Locale["cs-CZ"] = {
                     emptyResultText: "Žádné návrhy,",
                     watermarkText: " ",
+                };
+                break;
+			case "ejComboBox":
+                ej.ComboBox.Locale = ej.ComboBox.Locale || {};
+                ej.ComboBox.Locale["cs-CZ"] = {
+                    noRecordsTemplate: "Nenalezeny žádné záznamy",
+					actionFailureTemplate: "Žádost se nezdařila"
+                };
+                break;
+			case "ejMenu":
+                ej.Menu.Locale = ej.Menu.Locale || {};
+                ej.Menu.Locale["cs-CZ"] = {
+                    titleText: "Jídelní lístek"
+                };
+                break;
+			case "ejCaptcha":
+                ej.Captcha.Locale = ej.Captcha.Locale || {};
+                ej.Captcha.Locale["cs-CZ"] = {
+					placeHolderText: "Napište zobrazený kód",
+					CustomErrorMessage: "Neplatný kód Captcha"
                 };
                 break;
             case "ejExcelFilter":
@@ -439,6 +451,30 @@
                             { id: "FS", text: "Dokončit-Start", value: "Dokončit-Start" },
                             { id: "FF", text: "Dokončit-Dokončit", value: "Dokončit-Dokončit" }
                     ],
+                 
+                    linkValidationRuleText: {
+                        taskBeforePredecessor: "Přesunuli jste '{0}' 'a začali před tím, než' '{1}' 'skončí a obě úlohy jsou propojeny. Výsledkem je, že odkazy nelze respektovat. Zvolte jednu akci níže, kterou chcete provést",
+                        taskAfterPredecessor: "Přesunuli jste '{0}' od '{1}' a tyto dvě úlohy jsou propojeny. Výsledkem je, že odkazy nelze respektovat. Zvolte jednu akci níže, kterou chcete provést",
+                    },
+
+                    linkValidationDialogTitle: "Ověřit úpravu",
+
+                    
+                    linkValidationRuleOptions: {
+                        cancel: "Zrušit, zachovat existující odkaz",
+                        removeLink: "Odpojte odkaz a přesuňte '{0}' a začněte na '{1}'.",
+                        preserveLink: "Přesuňte '{0}' a začněte na '{1}' a nechte odkaz."
+                    },
+                    connectorLineDialogText: {
+                        from: "Z",
+                        to: "Na",
+                        taskLink: "Odkaz na úlohu",
+                        lag: "Zpoždění",
+                        okButtonText: "OK",
+                        cancelButtonText: "Zrušit",
+                        deleteButtonText: "Vymazat",
+						title: "Závislost úkolů"
+                    }
                 };
                 break;
             case "ejGrid":
@@ -513,7 +549,7 @@
                 break;
             case "ejmobile":
                 if (ej.mobile.Grid)
-                    ej.CurrencyTextbox.Locale = ej.CurrencyTextbox.Locale || {};
+                ej.mobile.Grid.Locale = ej.mobile.Grid.Locale || {};
                 ej.mobile.Grid.Locale["cs-CZ"] = {
                     emptyResult: "Žádné záznamy k zobrazení",
                     filterValidation: "Zadejte platná data filtru",
@@ -529,6 +565,7 @@
                     filterWarning: "Varování"
                 };
                 if (ej.mobile.DatePicker)
+                    ej.mobile.DatePicker.Locale =  ej.mobile.DatePicker.Locale || {};
                     ej.mobile.DatePicker.Locale["cs-CZ"] = {
                         confirmText: "hotový",
                         Windows: {
@@ -539,6 +576,7 @@
                         },
                     };
                 if (ej.mobile.TimePicker)
+                    ej.mobile.TimePicker.Locale = ej.mobile.TimePicker.Locale || {};
                     ej.mobile.TimePicker.Locale["cs-CZ"] = {
                         confirmText: "hotový",
                         AM: "DOPOLEDNE",
@@ -758,7 +796,10 @@
                     RenameMsg: "Zpráva byl přejmenován!!!",
                     RemoveMsg: "Zpráva byla úspěšně odebrána!!!",
                     Success: "Úspěch",
-                    KpiAlertMsg: "V oblasti pohybu nesmí být umístěny v oblasti zpráva"
+                    KpiAlertMsg: "V oblasti pohybu nesmí být umístěny v oblasti zpráva",
+                    NotAllItemsShowing: "Ne všechny děti jsou uzly na obrázku",
+                    EditorLinkPanelAlert: "Členové má více než tisíc položek v rámci jednoho nebo více mateřských. Pouze první 1000 položky jsou zobrazeny v rámci každého rodiče.",
+                    NamedSetAlert:"Pojmenovaný nemohou být přidány do obsahujícího kontingenční tabulku se zobrazí zpráva ve stejné době jako další s názvem založené na stejném poli. Klepnutím na tlačítko OK odeberte ' <Set 1> ' pojmenovanou množinu a přidejte ' <Set 2> ' s názvem."
                 };
                 break;
             case "ejPivotGauge":
@@ -1155,7 +1196,9 @@
                     FormatName: "Název formátu",
                     RemoveFormat: "Demontujte formát",
                     Edit: "Upravit",
-                    DuplicateFormatName: "Duplicitní název formátu"
+                    DuplicateFormatName: "Duplicitní název formátu",
+                    NotAllItemsShowing: "Ne všechny děti jsou uzly na obrázku",
+                    EditorLinkPanelAlert: "Členové má více než tisíc položek v rámci jednoho nebo více mateřských. Pouze první 1000 položky jsou zobrazeny v rámci každého rodiče."
                 };
                 break;
             case "ejPivotPager":
@@ -1229,12 +1272,15 @@
                     Cancel: "Zrušit",
                     Close: "Zavřete",
                     Search: "Vyhledávání",
-                    AddCurrentSelectionToFilter: "Přidat aktuální výběr k filtrování"
+                    AddCurrentSelectionToFilter: "Přidat aktuální výběr k filtrování",
+                    NotAllItemsShowing: "Ne všechny děti jsou uzly na obrázku",
+                    EditorLinkPanelAlert: "Členové má více než tisíc položek v rámci jednoho nebo více mateřských. Pouze první 1000 položky jsou zobrazeny v rámci každého rodiče.",
+                    NamedSetAlert: "Pojmenovaný nemohou být přidány do obsahujícího kontingenční tabulku se zobrazí zpráva ve stejné době jako další s názvem založené na stejném poli. Klepnutím na tlačítko OK odeberte ' <Set 1> ' pojmenovanou množinu a přidejte ' <Set 2> ' s názvem."
                 };
                 break;
-            case "ejdatavisualization":
-                ej.CurrencyTextbox.Locale = ej.CurrencyTextbox.Locale || {};
-                if (ej.datavisualization.RangeNavigator) ej.datavisualization.RangeNavigator.Locale["cs-CZ"] = {
+            case "ejRangeNavigator":
+                ej.datavisualization.RangeNavigator.Locale = ej.datavisualization.RangeNavigator.Locale || {};
+                ej.datavisualization.RangeNavigator.Locale["cs-CZ"] = {
                     intervals: {
                         quarter: {
                             longQuarters: "Čtvrtletí,",
@@ -1246,7 +1292,10 @@
                         },
                     },
                 };
-                if (ej.datavisualization.Diagram) ej.datavisualization.Diagram.Locale["cs-CZ"] = {
+				break;
+			case "ejDiagram":
+				ej.datavisualization.Diagram.Locale = ej.datavisualization.Diagram.Locale || {};
+                ej.datavisualization.Diagram.Locale["cs-CZ"] = {
                     cut: "Střih",
                     copy: "Kopie",
                     paste: "Vložit",
@@ -1785,6 +1834,8 @@
                     ThickBoxBorder: "Silný Box Border",
                     ThickBottomBorder: "Silný Dolní ohraničení",
                     TopandThickBottomBorder: "Horní a Dolní ohraničení Thick",
+                    BottomDoubleBorder: "Dolní hranice dvojitého",
+                    TopandBottomDoubleBorder: "Horní a dolní dvojité ohraničení",
                     DrawBorderGrid: "Nakreslit mřížku ohraničení",
                     DrawBorder: "nakreslit ohraničení",
                     TopandBottomBorder: "Horní a Dolní ohraničení",
@@ -2247,7 +2298,7 @@
                     HugeDataAlert: "Soubor je příliš velké otevřít.",
                     ImportExportUrl: "Dejte import / export URL a zkuste to znovu.",
                     BetweenAlert: "Maximální musí být větší nebo rovna minimální.",
-                    BorderStyles: "Solid / Přerušované / tečkované",
+                    BorderStyles: "Solid / Přerušované / tečkované/Dvojitý",
                     FPaneAlert: "Freeze Pane není použita pro první buňku",
                     ReplaceNotFound: "Tabulkový procesor nemůže najít shodu.",
                     BlankWorkbook: "prázdný sešit",
@@ -2395,6 +2446,45 @@
                     DataSource: "Zdroj dat",
                     Actions: "Akce",
                     FATTitlePrefix: "Styl tabulky",
+                    HighPoint: "Vysoký bod",
+                    LowPoint: "Nízký bod",
+                    FirstPoint: "První bod",
+                    LastPoint: "Poslední bod",
+                    NegativePoint: "Negativní body",
+                    Markers: "markery",
+                    NegativePoints: "Negativní body",
+                    LineSparklineTitle: "Vložte linku Sparkline",
+                    LineSparklineContent: "Sparklines jsou mini grafy umístěné v jedné buňce, každá představuje řadu dat ve vašem výběru",
+                    ColumnSparklineTitle: "Vložit sloupec Sparkline",
+                    ColumnSparklineContent: "Sparklines jsou mini grafy umístěné v jedné buňce, každá představuje řadu dat ve vašem výběru",
+                    WinLossSparklineTitle: "Vložte Win / Loss Sparkline",
+                    WinLossSparklineContent: "Sparklines jsou mini grafy umístěné v jedné buňce, z nichž každá reprezentuje řadu dat ve vašem výběru,",
+                    Line: "Čára",
+                    SparklineColor: "Sparkline Color",
+                    SparklineColorTitle: "Sparkline Color",
+                    SparklineColorContent: "Určete barvu jiskřiček ve vybrané skupině sparkline",
+                    MarkerColor: "Barva značky",
+                    MarkerColorContent: "Změňte barvu záporných bodů, značek a všech ostatních bodů pro vybranou skupinu sparkline",
+                    ChooseDataRange: "Zvolte rozsah dat",
+                    ChooseLocationRange: "Zvolte oblast umístění",
+                    DataRange: "Rozsah dat",
+                    LocationRange: "Rozsah umístění",
+                    EmptyDLRnge: "Zdroj dat nebo odkaz na umístění není platný",
+                    SourceDataRange: "Zvolte zdrojový datový rozsah pro sparkline",
+                    SparklineAlert: "Místo odkaz není platný, protože buňky nejsou všechny ve stejném sloupci nebo stejný řádek. Vyberte buňky, které jsou všechny v jednom řádku nebo jediném sloupci",
+                    SparklineDataAlert: "Zadejte formát správných dat",
+                    SparklineLocAlert: "Odkaz na umístění nebo rozsah dat není platný",
+                    SDataRangeAlert: "Odkaz na zdroj dat není platný",
+                    LineAlert: "Nelze vytvořit řádkovou tabulku pro jednu hodnotu",
+                    EditData: "Upravit data",
+                    EditDataContent: "Upravit umístění a data skupiny",
+                    EditSingleSparklineData: "Upravit jednotlivé data sparkline",
+                    EditSparklineData: "Upravit data sparkline",
+                    HiddenEmptyCells: "Skryté a prázdné buňky",
+                    SwitchRowCol: "Přepnout řádek / sloupec",
+                    CreateSparkline: "Vytvořte Sparkline",
+                    SelectDataSource: "Zvolte zdrojový datový rozsah pro sparkline",
+                    SPARKLINEDESIGN: "Sparkline Design",
                 };
                 break;
             case "ejTimePicker":
@@ -2416,7 +2506,8 @@
                         collapseAllTool: "Sbalit vše",
                         pdfExportTool: "Export do formátu PDF",
                         excelExportTool: "export excel",
-                        printTool: "Tisk"
+                        printTool: "Tisk",
+                        searchTool: "Vyhledávání"
                     },
                     contextMenuTexts: {
                         addRowText: "Přidat řádek",

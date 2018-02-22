@@ -1,11 +1,3 @@
-/*!
-*  filename: ej.localetexts.ru-RU.js
-*  Copyright Syncfusion Inc. 2001 - 2016. All rights reserved.
-*  Use of this code is subject to the terms of our license.
-*  A copy of the current license can be obtained at any time by e-mailing
-*  licensing@syncfusion.com. Any infringement will be prosecuted under
-*  applicable laws. 
-*/
 (function ($, ej, undefined) {
     var name, widgets;
     if (ej.locales.indexOf("ruRU") < 0)
@@ -13,6 +5,7 @@
     $.fn.Locale_ruRU = function (pluginName) {
         switch (pluginName) {
             case "ejAutocomplete":
+                ej.Autocomplete.Locale = ej.Autocomplete.Locale || {};
                 ej.Autocomplete.Locale["ru-RU"] = {
                     addNewText: "Добавить новый",
                     emptyResultText: "Нет предложений",
@@ -21,6 +14,7 @@
                 };
                 break;
             case "ejColorPicker":
+                ej.ColorPicker.Locale = ej.ColorPicker.Locale || {};
                 ej.ColorPicker.Locale["ru-RU"] = {
                     buttonText: {
                         apply: "Подать заявление",
@@ -48,17 +42,20 @@
                 };
                 break;
             case "ejCurrencyTextbox":
+                ej.CurrencyTextbox.Locale = ej.CurrencyTextbox.Locale || {};
                 ej.CurrencyTextbox.Locale["ru-RU"] = {
                     watermarkText: "Введите значение",
                 };
                 break;
             case "ejDatePicker":
+                ej.DatePicker.Locale = ej.DatePicker.Locale || {};
                 ej.DatePicker.Locale["ru-RU"] = {
                     watermarkText: "Выбрать дату",
                     buttonText: "сегодня",
                 };
                 break;
             case "ejDateRangePicker":
+                ej.DateRangePicker.Locale = ej.DateRangePicker.Locale || {};
                 ej.DateRangePicker.Locale["ru-RU"] = {
                     ButtonText: {
                         apply: "Подать заявление",
@@ -70,6 +67,7 @@
                 };
                 break;
             case "ejDateTimePicker":
+                ej.DateTimePicker.Locale = ej.DateTimePicker.Locale || {};
                 ej.DateTimePicker.Locale["ru-RU"] = {
                     watermarkText: "Выбор даты и времени",
                     buttonText: {
@@ -81,6 +79,7 @@
                 };
                 break;
             case "ejDialog":
+                ej.Dialog.Locale = ej.Dialog.Locale || {};
                 ej.Dialog.Locale["ru-RU"] = {
                     tooltip: {
                         close: "близко",
@@ -96,12 +95,31 @@
                 };
                 break;
             case "ejDropDownList":
+                ej.DropDownList.Locale = ej.DropDownList.Locale || {};
                 ej.DropDownList.Locale["ru-RU"] = {
                     emptyResultText: "Нет предложений,",
                     watermarkText: " ",
                 };
                 break;
+			case "ejComboBox":
+                ej.ComboBox.Locale["ru-RU"] = {
+                    noRecordsTemplate: "Записей не найдено",
+					actionFailureTemplate: "Ошибка запроса"
+                };
+                break;
+			case "ejMenu":
+                ej.Menu.Locale["ru-RU"] = {
+                    titleText: "Меню"
+                };
+                break;
+			case "ejCaptcha":
+                ej.Captcha.Locale["ru-RU"] = {
+					placeHolderText: "Введите указанный код",
+					CustomErrorMessage: "Неверная капча"
+                };
+                break;
             case "ejExcelFilter":
+                ej.ExcelFilter.Locale = ej.ExcelFilter.Locale || {};
                 ej.ExcelFilter.Locale["ru-RU"] = {
                     SortNoSmaller: "Сортировка меньших к большим",
                     SortNoLarger: "Сортировка большего к меньшему",
@@ -149,6 +167,7 @@
                 };
                 break;
             case "ejFileExplorer":
+                ej.FileExplorer.Locale = ej.FileExplorer.Locale || {};
                 ej.FileExplorer.Locale["ru-RU"] = {
                     Folder: "скоросшиватель",
                     EmptyFolder: "Эта папка пуста",
@@ -247,6 +266,7 @@
                 };
                 break;
             case "ejGantt":
+                ej.Gantt.Locale = ej.Gantt.Locale || {};
                 ej.Gantt.Locale["ru-RU"] = {
                     emptyRecord: "Нет записей для отображения",
                     unassignedTask: "Не назначенная задача",
@@ -430,9 +450,31 @@
                             { id: "FS", text: "Конец-Начало", value: "Конец-Начало" },
                             { id: "FF", text: "Конец-Конец", value: "Конец-Конец" }
                     ],
+
+                    linkValidationRuleText: {
+                        taskBeforePredecessor: "Вы переместили '{0}', чтобы начать до окончания '{1}' ', и две задачи связаны. В результате ссылки не могут быть выполнены. Выберите одно действие ниже для выполнения",
+                        taskAfterPredecessor: "Вы переместили '{0}' в сторону от '{1}', и две задачи связаны. В результате ссылки не могут быть выполнены. Выберите одно действие ниже для выполнения",
+                    },
+                    linkValidationDialogTitle: "Подтвердить редактирование",
+                    linkValidationRuleOptions: {
+                        cancel: "Отменить, сохранить существующую ссылку",
+                        removeLink: "Удалите ссылку и переместите '{0}' для начала '{1}'.",
+                        preserveLink: "Переместите '{0}', чтобы начать с '{1}' и сохраните ссылку."
+                    },
+                    connectorLineDialogText: {
+                        from: "от",
+                        to: "к",
+                        taskLink: "Ссылка на задачу",
+                        lag: "отставать",
+                        okButtonText: "хорошо",
+                        cancelButtonText: "отменить",
+                        deleteButtonText: "удалять",
+                        title: "Зависимость задач"
+                    }
                 };
                 break;
             case "ejGrid":
+                ej.Grid.Locale = ej.Grid.Locale || {};
                 ej.Grid.Locale["ru-RU"] = {
                     EmptyRecord: "Нет записей для отображения",
                     GroupDropArea: "Перетащите сюда заголовок колонки для группировки его колонке",
@@ -502,6 +544,7 @@
                 break;
             case "ejmobile":
                 if (ej.mobile.Grid) {
+                    ej.mobile.Grid.Locale = ej.mobile.Grid.Locale || {};
                     ej.mobile.Grid.Locale["ru-RU"] = {
                         emptyResult: "Нет записей для отображения",
                         filterValidation: "Введите достоверные данные фильтра",
@@ -518,6 +561,7 @@
                     };
                 }
                 if (ej.mobile.DatePicker) {
+                    ej.mobile.DatePicker.Locale =  ej.mobile.DatePicker.Locale || {};
                     ej.mobile.DatePicker.Locale["ru-RU"] = {
                         confirmText: "сделано",
                         Windows: {
@@ -530,6 +574,7 @@
                     ;
                 }
                 if (ej.mobile.TimePicker) {
+                    ej.mobile.TimePicker.Locale = ej.mobile.TimePicker.Locale || {};
                     ej.mobile.TimePicker.Locale["ru-RU"] = {
                         confirmText: "сделано",
                         AM: "А.М.",
@@ -547,11 +592,13 @@
                 }
                 break;
             case "ejNumericTextbox":
+                ej.NumericTextbox.Locale = ej.NumericTextbox.Locale || {};
                 ej.NumericTextbox.Locale["ru-RU"] = {
                     watermarkText: "Введите значение",
                 };
                 break;
             case "ejPivotChart":
+                ej.PivotChart.Locale = ej.PivotChart.Locale || {};
                 ej.PivotChart.Locale["ru-RU"] = {
                     Measure: "Мера",
                     Row: "строка",
@@ -598,6 +645,7 @@
                 };
                 break;
             case "ejPivotClient":
+                ej.PivotClient.Locale = ej.PivotClient.Locale || {};
                 ej.PivotClient.Locale["ru-RU"] = {
                     DoesNotBeginsWith: "Не начинается с",
                     DoesNotEndsWith: "Не заканчивается на",
@@ -748,16 +796,21 @@
                     RenameMsg: "Отчет успешно переименован!!!!",
                     RemoveMsg: "Отчет успешно удален!!!!",
                     Success: "Успех",
-                    KpiAlertMsg: "Поле вы сдвигаете не могут быть помещены в этой области в докладе"
+                    KpiAlertMsg: "Поле вы сдвигаете не могут быть помещены в этой области в докладе",
+                    NotAllItemsShowing: "Не все детские узлов показаны",
+                    EditorLinkPanelAlert: "Членов насчитывает более 1000 предметов под один или несколько родителей. Только первые 1000 элементы отображаются в соответствии с каждого родителя.",
+                    NamedSetAlert: "Именованный набор не может быть добавлен в список сводных таблиц отчета одновременно с другим именем на базе одной и той же области. Щелкните OK , чтобы удалить ' <Set 1> ' название комплекта и добавить в ' <Set 2> ' назвал."
                 };
                 break;
             case "ejPivotGauge":
+                ej.PivotGauge.Locale = ej.PivotGauge.Locale || {};
                 ej.PivotGauge.Locale["ru-RU"] = {
                     RevenueGoal: "Выручка Гол",
                     RevenueValue: "Доход Значение",
                 };
                 break;
             case "ejPager":
+                ej.Pager.Locale = ej.Pager.Locale || {};
                 ej.Pager.Locale["ru-RU"] = {
                     pagerInfo: "{0} {1} страниц ({2} элементов)",
                     firstPageTooltip: "Перейти к первой странице",
@@ -769,6 +822,7 @@
                 };
                 break;
             case "ejPdfViewer":
+                ej.PdfViewer.Locale = ej.PdfViewer.Locale || {};
                 ej.PdfViewer.Locale["ru-RU"] = {
                     toolbar: {
                         print: {
@@ -932,11 +986,13 @@
                 };
                 break;
             case "ejPercentageTextbox":
+                ej.PercentageTextbox.Locale = ej.PercentageTextbox.Locale || {};
                 ej.PercentageTextbox.Locale["ru-RU"] = {
                     watermarkText: "Введите значение",
                 };
                 break;
             case "ejPivotGrid":
+                ej.PivotGrid.Locale = ej.PivotGrid.Locale || {};
                 ej.PivotGrid.Locale["ru-RU"] = {
                     Total: "Итого",
                     GrandTotal:"Итого",
@@ -1138,10 +1194,13 @@
 					FormatName: "Имя формата",
 					RemoveFormat: "Снимите формат",
 					Edit: "Изменить",
-					DuplicateFormatName: "Дублировать имя формата"
+					DuplicateFormatName: "Дублировать имя формата",
+					NotAllItemsShowing: "Не все детские узлов показаны",
+					EditorLinkPanelAlert: "Членов насчитывает более 1000 предметов под один или несколько родителей. Только первые 1000 элементы отображаются в соответствии с каждого родителя."
                 };
                 break;
             case "ejPivotPager":
+                ej.PivotPager.Locale = ej.PivotPager.Locale || {};
                 ej.PivotPager.Locale["ru-RU"] = {
                     SeriesPage: "Серия страницу",
                     CategoricalPage: "Категорический страницу",
@@ -1152,6 +1211,7 @@
                 };
                 break;
             case "ejPivotSchemaDesigner":
+                ej.PivotSchemaDesigner.Locale = ej.PivotSchemaDesigner.Locale || {};
                 ej.PivotSchemaDesigner.Locale["ru-RU"] = {
                     DoesNotBeginsWith: "Не начинается с",
                     DoesNotEndsWith: "Не заканчивается на",
@@ -1211,44 +1271,48 @@
                     OK: "OK",
                     Cancel: "Отмена",
                     Search: "Поиск",
-                    AddCurrentSelectionToFilter: "Добавить текущий выбор для фильтрации"
+                    AddCurrentSelectionToFilter: "Добавить текущий выбор для фильтрации",
+                    NotAllItemsShowing: "Не все детские узлов показаны",
+                    EditorLinkPanelAlert: "Членов насчитывает более 1000 предметов под один или несколько родителей. Только первые 1000 элементы отображаются в соответствии с каждого родителя.",
+                    NamedSetAlert: "Именованный набор не может быть добавлен в список сводных таблиц отчета одновременно с другим именем на базе одной и той же области. Щелкните OK , чтобы удалить ' <Set 1> ' название комплекта и добавить в ' <Set 2> ' назвал."
                 };
                 break;
-            case "ejdatavisualization":
-                if (ej.datavisualization.Diagram){
-                    ej.datavisualization.Diagram.Locale["ru-RU"] = {
-                        cut: "порез",
-                        copy: "копия",
-                        paste: "паста",
-                        undo: "расстегивать",
-                        redo: "переделывать",
-                        selectAll: "Выбрать все",
-                        grouping: "группировка",
-                        group: "группа",
-                        ungroup: "Разгруппировать",
-                        order: "порядок",
-                        bringToFront: "BringToFront",
-                        moveForward: "двигаться вперед",
-                        sendBackward: "Отправить назад",
-                        sendToBack: "SendToBack",
-                    };
-                }
-                if (ej.datavisualization.RangeNavigator) {
-                    ej.datavisualization.RangeNavigator.Locale["ru-RU"] = {
-                        intervals: {
-                            quarter: {
-                                longQuarters: "Квартал,",
-                                shortQuarters: "Q"
-                            },
-                            week: {
-                                longWeeks: "Неделя,",
-                                shortWeeks: "W"
-                            },
+            case "ejDiagram":
+                ej.datavisualization.Diagram.Locale = ej.datavisualization.Diagram.Locale || {};
+                ej.datavisualization.Diagram.Locale["ru-RU"] = {
+                    cut: "порез",
+                    copy: "копия",
+                    paste: "паста",
+                    undo: "расстегивать",
+                    redo: "переделывать",
+                    selectAll: "Выбрать все",
+                    grouping: "группировка",
+                    group: "группа",
+                    ungroup: "Разгруппировать",
+                    order: "порядок",
+                    bringToFront: "BringToFront",
+                    moveForward: "двигаться вперед",
+                    sendBackward: "Отправить назад",
+                    sendToBack: "SendToBack",
+                };
+                break;
+            case "ejRangeNavigator":
+                ej.datavisualization.RangeNavigator.Locale = ej.datavisualization.RangeNavigator.Locale || {};
+                ej.datavisualization.RangeNavigator.Locale["ru-RU"] = {
+                    intervals: {
+                        quarter: {
+                            longQuarters: "Квартал,",
+                            shortQuarters: "Q"
                         },
-                    };
-                }
+                        week: {
+                            longWeeks: "Неделя,",
+                            shortWeeks: "W"
+                        },
+                    },
+                };
                 break;
             case "ejReportViewer":
+                ej.ReportViewer.Locale = ej.ReportViewer.Locale || {};
                 ej.ReportViewer.Locale["ru-RU"] = {
                     toolbar: {
                         print: {
@@ -1348,6 +1412,7 @@
                 };
                 break;
             case "ejRibbon":
+                ej.Ribbon.Locale = ej.Ribbon.Locale || {};
                 ej.Ribbon.Locale["ru-RU"] = {
                     CustomizeQuickAccess: "Настройка панели быстрого доступа",
                     RemoveFromQuickAccessToolbar: "Удалить из панели быстрого доступа",
@@ -1358,6 +1423,7 @@
                 };
                 break;
             case "ejKanban":
+                ej.Kanban.Locale = ej.Kanban.Locale || {};
                 ej.Kanban.Locale["ru-RU"] = {
                     EmptyCard: "Нет карт для отображения",
                     SaveButton: "Сохранить",
@@ -1388,6 +1454,7 @@
                 };
                 break;
             case "ejRTE":
+                ej.RTE.Locale = ej.RTE.Locale || {};
                 ej.RTE.Locale["ru-RU"] = {
                     bold: "Жирный",
                     italic: "курсив",
@@ -1544,6 +1611,7 @@
                 };
                 break;
             case "ejSchedule":
+                ej.Schedule.Locale = ej.Schedule.Locale || {};
                 ej.Schedule.Locale["ru-RU"] = {
                     ReminderWindowTitle: "окно Напоминание",
                     CreateAppointmentTitle: "Создать назначение",
@@ -1652,6 +1720,7 @@
                 };
                 break;
             case "ejSpreadsheet":
+                ej.Spreadsheet.Locale = ej.Spreadsheet.Locale || {};
                 ej.Spreadsheet.Locale["ru-RU"] = {
                     Cut: "Порез",
                     Copy: "копия",
@@ -1766,6 +1835,8 @@
                     ThickBoxBorder: "Толстые Box Пограничный",
                     ThickBottomBorder: "Толстая нижняя граница",
                     TopandThickBottomBorder: "Верхняя и нижняя граница Толстые",
+                    BottomDoubleBorder: "Нижняя двойная граница",
+                    TopandBottomDoubleBorder: "Верхняя и нижняя двойная граница",
                     DrawBorderGrid: "Draw Border сетки",
                     DrawBorder: "Draw Border",
                     TopandBottomBorder: "Верхняя и нижняя граница",
@@ -2223,7 +2294,7 @@
                     HugeDataAlert: "Файл имеет слишком большой, чтобы открыть.",
                     ImportExportUrl: "Дайте импорта / экспорта, URL и повторите попытку.",
                     BetweenAlert: "Максимальная должен быть больше или равен минимальному.",
-                    BorderStyles: "Твердая / пунктирная / пунктирный",
+                    BorderStyles: "Твердая / пунктирная / пунктирный/Дважды",
                     FPaneAlert: "Замораживание Панель не применяется для первой ячейки",
                     ReplaceNotFound: "Электронная таблица не может найти соответствие.",
                     BlankWorkbook: "Пустая рабочая тетрадь",
@@ -2371,14 +2442,55 @@
                     AnalyzePivotTable:"Сводная таблица",
                     DataSource:"Источник данных",
                     FATTitlePrefix:"Стиль стола",
+                    HighPoint: "Высокая точка",
+                    LowPoint: "Низкая точка",
+                    FirstPoint: "Первая точка",
+                    LastPoint: "Последний пункт",
+                    NegativePoint: "Отрицательные баллы",
+                    Markers: "Маркеры",
+                    NegativePoints: "Отрицательные баллы",
+                    LineSparklineTitle: "Вставить линию Sparkline",
+                    LineSparklineContent: "Sparklines - это мини-диаграммы, размещенные в одной ячейке, каждая из которых представляет собой строку данных в вашем выборе",
+                    ColumnSparklineTitle: "Вставить колонную свечу",
+                    ColumnSparklineContent: "Sparklines - это мини-диаграммы, размещенные в одной ячейке, каждая из которых представляет собой строку данных в вашем выборе",
+                    WinLossSparklineTitle: "Вставить выигрыш / потерю свечи",
+                    WinLossSparklineContent: "Sparklines - это мини-диаграммы, помещенные в одну ячейку, каждая из которых представляет собой строку данных в вашем выборе,",
+                    Line: "Линия",
+                    SparklineColor: "Цвет свечи",
+                    SparklineColorTitle: "Цвет свечи",
+                    SparklineColorContent: "Укажите цвет искровых линий в выбранной группе искры.",
+                    MarkerColor: "Цвет маркера",
+                    MarkerColorContent: "Измените цвет для отрицательных точек, маркеров и всех других точек для выбранной группы искры",
+                    ChooseDataRange: "Выберите диапазон данных",
+                    ChooseLocationRange: "Выберите диапазон местоположения",
+                    DataRange: "Диапазон данных",
+                    LocationRange: "Диапазон местоположения",
+                    EmptyDLRnge: "Ссылка источника данных или места недействительна",
+                    SourceDataRange: "Выберите диапазон исходных данных для искровой линии",
+                    SparklineAlert: "Ссылка местоположения недействительна, поскольку ячейки не все в одном столбце или в той же строке. Выбрать ячейки, которые находятся в одной строке или в одном столбце",
+                    SparklineDataAlert: "Введите правильный формат данных",
+                    SparklineLocAlert: "Ссылка на местоположение или диапазон данных недействительна",
+                    SDataRangeAlert: "Ссылка источника данных недействительна",
+                    LineAlert: "Невозможно создать линейную диаграмму для одного значения",
+                    EditData: "Редактировать данные",
+                    EditDataContent: "Изменить местоположение и данные группы",
+                    EditSingleSparklineData: "Редактировать отдельные данные Sparkline",
+                    EditSparklineData: "Изменить данные Sparkline",
+                    HiddenEmptyCells: "Скрытые и пустые ячейки",
+                    SwitchRowCol: "Переключатель строки / столбца",
+                    CreateSparkline: "Создать Sparkline",
+                    SelectDataSource: "Выберите диапазон исходных данных для искровой линии",
+                    SPARKLINEDESIGN: "Дизайн Sparkline",
                 };
                 break;
 			case "ejTimePicker":
+                ej.TimePicker.Locale = ej.TimePicker.Locale || {};
                 ej.TimePicker.Locale["ru-RU"] = {
                     watermarkText: "выберите время",
                 };
                 break;		
             case "ejTreeGrid":
+                ej.TreeGrid.Locale = ej.TreeGrid.Locale || {};
                 ej.TreeGrid.Locale["ru-RU"] = {
                     toolboxTooltipTexts: {
                         addTool: "добавлять",
@@ -2391,6 +2503,7 @@
                         pdfExportTool: "Экспорт в PDF",
                         excelExportTool: "Excel Экспорт",
                         printTool: "Распечатать",
+                        searchTool: "поиск"
                     },
                     contextMenuTexts: {
                         addRowText: "Добавить строку",
@@ -2496,6 +2609,7 @@
                 };
                 break;
             case "ejUploadbox":
+                ej.Uploadbox.Locale = ej.Uploadbox.Locale || {};
                 ej.Uploadbox.Locale["ru-RU"] = {
                     buttonText: {
                         upload: "Загрузить",
@@ -2522,17 +2636,20 @@
                 };
                 break;
             case "ejTile":
+                ej.Tile.Locale = ej.Tile.Locale || {};
                 ej.Tile.Locale["ru-RU"] = {
                     captionText: "текст"
                 };
                 break;
             case "ejListView":
+                ej.ListView.Locale = ej.ListView.Locale || {};
                 ej.ListView.Locale["ru-RU"] = {
                     headerTitle: "Название",
                     headerBackButtonText: "Назад"
                 };
                 break;
             case "ejSpellCheck":
+                ej.SpellCheck.Locale = ej.SpellCheck.Locale || {};
                 ej.SpellCheck.Locale["ru-RU"] = {
                     SpellCheckButtonText: "орфография",
                     NotInDictionary: "Не в словаре",

@@ -1,11 +1,3 @@
-/*!
-*  filename: ej.localetexts.es-ES.js
-*  Copyright Syncfusion Inc. 2001 - 2016. All rights reserved.
-*  Use of this code is subject to the terms of our license.
-*  A copy of the current license can be obtained at any time by e-mailing
-*  licensing@syncfusion.com. Any infringement will be prosecuted under
-*  applicable laws. 
-*/
 (function ($, ej, undefined) {
     var name, widgets;
     if (ej.locales.indexOf("esES") < 0)
@@ -13,6 +5,7 @@
     $.fn.Locale_esES = function (pluginName) {
         switch (pluginName) {
             case "ejAutocomplete":
+                ej.Autocomplete.Locale = ej.Autocomplete.Locale || {};
                 ej.Autocomplete.Locale["es-ES"] = {
                     addNewText: "Agregar nuevo",
                     emptyResultText: "No hay sugerencias",
@@ -21,6 +14,7 @@
                 };
                 break;
             case "ejColorPicker":
+                ej.ColorPicker.Locale = ej.ColorPicker.Locale || {};
                 ej.ColorPicker.Locale["es-ES"] = {
                     buttonText: {
                         apply: "Aplicar",
@@ -48,17 +42,20 @@
                 };
                 break;
             case "ejCurrencyTextbox":
+                ej.CurrencyTextbox.Locale = ej.CurrencyTextbox.Locale || {};
                 ej.CurrencyTextbox.Locale["es-ES"] = {
                     watermarkText: "introducir el valor",
                 };
                 break;
             case "ejDatePicker":
+                ej.DatePicker.Locale = ej.DatePicker.Locale || {};
                 ej.DatePicker.Locale["es-ES"] = {
                     watermarkText: "Seleccione fecha",
                     buttonText: "Hoy",
                 };
                 break;
             case "ejDateRangePicker":
+                ej.DateRangePicker.Locale = ej.DateRangePicker.Locale || {};
                 ej.DateRangePicker.Locale["es-ES"] = {
                     ButtonText: {
                         apply: "aplicar",
@@ -70,6 +67,7 @@
                 };
                 break;
             case "ejDateTimePicker":
+                ej.DateTimePicker.Locale = ej.DateTimePicker.Locale || {};
                 ej.DateTimePicker.Locale["es-ES"] = {
                     watermarkText: "seleccione fecha y hora",
                     buttonText: {
@@ -81,6 +79,7 @@
                 };
                 break;
             case "ejDialog":
+                ej.Dialog.Locale = ej.Dialog.Locale || {};
                 ej.Dialog.Locale["es-ES"] = {
                     tooltip: {
                         close: "Cerca",
@@ -96,12 +95,31 @@
                 };
                 break;
             case "ejDropDownList":
+                ej.DropDownList.Locale = ej.DropDownList.Locale || {};
                 ej.DropDownList.Locale["es-ES"] = {
                     emptyResultText: "No hay sugerencias,",
                     watermarkText: " ",
                 };
                 break;
+			case "ejComboBox":
+                ej.ComboBox.Locale["es-ES"] = {
+                    noRecordsTemplate: "No se encontrarón archivos",
+					actionFailureTemplate: "La solicitud falló"
+                };
+                break;
+			case "ejMenu":
+                ej.Menu.Locale["es-ES"] = {
+                    titleText: "menú"
+                };
+                break;
+			case "ejCaptcha":
+                ej.Captcha.Locale["es-ES"] = {
+					placeHolderText: "Escribe el código mostrado",
+					CustomErrorMessage: "Captcha inválido"
+                };
+                break;
             case "ejExcelFilter":
+                ej.ExcelFilter.Locale = ej.ExcelFilter.Locale || {};
                 ej.ExcelFilter.Locale["es-ES"] = {
                     SortNoSmaller: "Ordenar de menor a mayor",
                     SortNoLarger: "Ordenar de mayor a menor",
@@ -149,6 +167,7 @@
                 };
                 break;
             case "ejFileExplorer":
+                ej.FileExplorer.Locale = ej.FileExplorer.Locale || {};
                 ej.FileExplorer.Locale["es-ES"] = {
                     Folder: "Carpeta",
                     EmptyResult: "Ningun articulo concuerda con su busqueda",
@@ -252,6 +271,7 @@
                 };
                 break;
             case "ejGantt":
+                ej.Gantt.Locale = ej.Gantt.Locale || {};
                 ej.Gantt.Locale["es-ES"] = {
                     emptyRecord: "No hay registros que mostrar",
                     unassignedTask: "Tarea no asignada",
@@ -436,9 +456,31 @@
                             { id: "FS", text: "Terminar-comienzo", value: "Terminar-comienzo" },
                             { id: "FF", text: "Terminar-Terminar", value: "Terminar-Terminar" }
                     ],
+
+                    linkValidationRuleText: {
+                        taskBeforePredecessor: "Has movido '{0}' para comenzar antes de que '{1}' termine y las dos tareas estén vinculadas. Como resultado, los enlaces no pueden ser respetados. Seleccione una acción a continuación para realizar",
+                        taskAfterPredecessor: "Has movido '{0}' fuera de '{1}' y las dos tareas están vinculadas. Como resultado, los enlaces no pueden ser respetados. Seleccione una acción a continuación para realizar",
+                    },
+                    linkValidationDialogTitle: "Validar la edición",
+                    linkValidationRuleOptions: {
+                        cancel: "Cancelar, mantener el enlace existente",
+                        removeLink: "Elimina el enlace y mueve '{0}' para comenzar en '{1}'.",
+                        preserveLink: "Mueva el '{0}' para comenzar en '{1}' y mantenga el enlace."
+                    },
+                    connectorLineDialogText: {
+                        from: "De",
+                        to: "A",
+                        taskLink: "Enlace de tareas",
+                        lag: "retrasarse",
+                        okButtonText: "DE ACUERDO",
+                        cancelButtonText: "Cancelar",
+                        deleteButtonText: "Borrar",
+                        title: "Dependencia de tareas"
+                    }
                 };
                 break;
             case "ejGrid":
+                ej.Grid.Locale = ej.Grid.Locale || {};
                 ej.Grid.Locale["es-ES"] = {
                     EmptyRecord: "No hay registros que mostrar",
                     GroupDropArea: "Arrastre un encabezado de columna aquí para agrupar su columna",
@@ -509,6 +551,7 @@
                 break;
             case "ejmobile":
                 if (ej.mobile.Grid) {
+                    ej.mobile.Grid.Locale = ej.mobile.Grid.Locale || {};
                     ej.mobile.Grid.Locale["es-ES"] = {
                         emptyResult: "No hay registros que mostrar",
                         filterValidation: "Introduzca los datos de filtros válida",
@@ -525,6 +568,7 @@
                     };
                 }
                 if (ej.mobile.DatePicker) {
+                    ej.mobile.DatePicker.Locale =  ej.mobile.DatePicker.Locale || {};
                     ej.mobile.DatePicker.Locale["es-ES"] = {
                         confirmText: "Hecho",
                         Windows: {
@@ -536,6 +580,7 @@
                     };
                 }
                 if (ej.mobile.TimePicker) {
+                    ej.mobile.TimePicker.Locale = ej.mobile.TimePicker.Locale || {};
                     ej.mobile.TimePicker.Locale["es-ES"] = {
                         confirmText: "Hecho",
                         AM: "A.M",
@@ -554,11 +599,13 @@
                 }
                 break;
             case "ejNumericTextbox":
+                ej.NumericTextbox.Locale = ej.NumericTextbox.Locale || {};
                 ej.NumericTextbox.Locale["es-ES"] = {
                     watermarkText: "introducir el valor",
                 };
                 break;
             case "ejPivotChart":
+                ej.PivotChart.Locale = ej.PivotChart.Locale || {};
                 ej.PivotChart.Locale["es-ES"] = {
                     Measure: "Medida",
                     Row: "Fila",
@@ -605,6 +652,7 @@
                 };
                 break;
             case "ejPivotClient":
+                ej.PivotClient.Locale = ej.PivotClient.Locale || {};
                 ej.PivotClient.Locale["es-ES"] = {
                     ClearSorting: "Eliminar orden",
                     ClearFilterFrom: "Borrar filtro de",
@@ -762,16 +810,21 @@
                     RenameMsg: "Se ha cambiado el nombre de informe!!!",
                     RemoveMsg: "Informe eliminado correctamente!!!",
                     Success: "Éxito",
-                    KpiAlertMsg: "El campo que está moviendo no se puede colocar en esa área del informe"
+                    KpiAlertMsg: "El campo que está moviendo no se puede colocar en esa área del informe",
+                    NotAllItemsShowing: "No todos los nodos secundarios se muestran",
+                    EditorLinkPanelAlert: "Los miembros tiene más de 1000 elementos en virtud de uno o más padres. Sólo los primeros 1000 elementos se muestran debajo de cada progenitor.",
+                    NamedSetAlert: "Un conjunto con nombre no se puede agregar a un informe de tabla dinámica al mismo tiempo que otro conjunto con nombre se basa en el mismo campo. Haga clic en Aceptar para eliminar ' <Set 1> ' conjunto con nombre y agregar ' <Set 2> ' conjunto con nombre."
                 };
                 break;
             case "ejPivotGauge":
+                ej.PivotGauge.Locale = ej.PivotGauge.Locale || {};
                 ej.PivotGauge.Locale["es-ES"] = {
                     RevenueGoal: "ingresos Meta",
                     RevenueValue: "Valor de ingresos",
                 };
                 break;
             case "ejPager":
+                ej.Pager.Locale = ej.Pager.Locale || {};
                 ej.Pager.Locale["es-ES"] = {
                     pagerInfo: "{0} de {1} Páginas ({2} artículos)",
                     firstPageTooltip: "Ir a la primera página",
@@ -783,6 +836,7 @@
                 };
                 break;
             case "ejPdfViewer":
+                ej.PdfViewer.Locale = ej.PdfViewer.Locale || {};
                 ej.PdfViewer.Locale["es-ES"] = {
                     toolbar: {
                         print: {
@@ -946,11 +1000,13 @@
                 };
                 break;
             case "ejPercentageTextbox":
+                ej.PercentageTextbox.Locale = ej.PercentageTextbox.Locale || {};
                 ej.PercentageTextbox.Locale["es-ES"] = {
                     watermarkText: "introducir el valor",
                 };
                 break;
             case "ejPivotGrid":
+                ej.PivotGrid.Locale = ej.PivotGrid.Locale || {};
                 ej.PivotGrid.Locale["es-ES"] = {
                     Total: "Total",
                     GrandTotal: "Gran Total",
@@ -1150,10 +1206,13 @@
                     FormatName: "El nombre de formato",
                     RemoveFormat: "Quitar formato",
                     Edit: "Editar",
-                    DuplicateFormatName: "Nombre de formato duplicado"
+                    DuplicateFormatName: "Nombre de formato duplicado",
+                    NotAllItemsShowing: "No todos los nodos secundarios se muestran",
+                    EditorLinkPanelAlert: "Los miembros tiene más de 1000 elementos en virtud de uno o más padres. Sólo los primeros 1000 elementos se muestran debajo de cada progenitor."
                 };
                 break;
             case "ejPivotPager":
+                ej.PivotPager.Locale = ej.PivotPager.Locale || {};
                 ej.PivotPager.Locale["es-ES"] = {
                     SeriesPage: "series Page",
                     CategoricalPage: "categórica página",
@@ -1164,6 +1223,7 @@
                 };
                 break;
             case "ejPivotSchemaDesigner":
+                ej.PivotSchemaDesigner.Locale = ej.PivotSchemaDesigner.Locale || {};
                 ej.PivotSchemaDesigner.Locale["es-ES"] = {
                     DoesNotBeginsWith: "No comienza con",
                     DoesNotEndsWith: "No termina con",
@@ -1225,64 +1285,70 @@
                     Cancel: "Cancelar",
                     Close: "Cerrar",
                     Search: "Buscar",
-                    AddCurrentSelectionToFilter: "Añadir la selección actual al filtro"
+                    AddCurrentSelectionToFilter: "Añadir la selección actual al filtro",
+                    NotAllItemsShowing: "No todos los nodos secundarios se muestran",
+                    EditorLinkPanelAlert: "Los miembros tiene más de 1000 elementos en virtud de uno o más padres. Sólo los primeros 1000 elementos se muestran debajo de cada progenitor.",
+                    NamedSetAlert: "Un conjunto con nombre no se puede agregar a un informe de tabla dinámica al mismo tiempo que otro conjunto con nombre se basa en el mismo campo. Haga clic en Aceptar para eliminar ' <Set 1> ' conjunto con nombre y agregar ' <Set 2> ' conjunto con nombre."
                 };
                 break;
-            case "ejdatavisualization":
-                if (ej.datavisualization.Diagram) {
-                    ej.datavisualization.Diagram.Locale["es-ES"] = {
-                        cut: "Cortar",
-                        copy: "Copia",
-                        paste: "Pegar",
-                        undo: "Deshacer",
-                        redo: "Rehacer",
-                        selectAll: "Seleccionar todo",
-                        grouping: "Agrupamiento",
-                        group: "Grupo",
-                        ungroup: "Desagrupar",
-                        order: "Orden",
-                        bringToFront: "Traer al frente",
-                        moveForward: "Se desplaza hacia adelante",
-                        sendBackward: "Enviar atrás",
-                        sendToBack: "Enviar al fondo",
-                    };
-                }
-                if (ej.datavisualization.RangeNavigator) {
-                    ej.datavisualization.RangeNavigator.Locale["es-ES"] = {
-                        intervals: {
-                            quarter: {
-                                longQuarters: "Trimestre,",
-                                shortQuarters: "Q"
-                            },
-                            week: {
-                                longWeeks: "Semana,",
-                                shortWeeks: "W"
-                            },
+            case "ejDiagram":
+                ej.datavisualization.Diagram.Locale = ej.datavisualization.Diagram.Locale || {};
+                ej.datavisualization.Diagram.Locale["es-ES"] = {
+                    cut: "Cortar",
+                    copy: "Copia",
+                    paste: "Pegar",
+                    undo: "Deshacer",
+                    redo: "Rehacer",
+                    selectAll: "Seleccionar todo",
+                    grouping: "Agrupamiento",
+                    group: "Grupo",
+                    ungroup: "Desagrupar",
+                    order: "Orden",
+                    bringToFront: "Traer al frente",
+                    moveForward: "Se desplaza hacia adelante",
+                    sendBackward: "Enviar atrás",
+                    sendToBack: "Enviar al fondo",
+                };
+                break;
+            case "ejChart":
+                ej.datavisualization.Chart.Locale = ej.datavisualization.Chart.Locale = {};
+                ej.datavisualization.Chart.Locale["es-ES"] = {
+                    zoomIn: "Acercarse",
+                    zoomOut: "Disminuir el zoom",
+                    zoom: "Enfocar",
+                    pan: "Pan",
+                    reset: "Reiniciar"
+                };
+                break;
+            case "ejRangeNavigator":
+                ej.datavisualization.RangeNavigator.Locale = ej.datavisualization.RangeNavigator.Locale || {};
+                ej.datavisualization.RangeNavigator.Locale["es-ES"] = {
+                    intervals: {
+                        quarter: {
+                            longQuarters: "Trimestre,",
+                            shortQuarters: "Q"
                         },
-                    };
-                }
-                if (ej.datavisualization.Chart) {
-                    ej.datavisualization.Chart.Locale["es-ES"] = {
-                        zoomIn: "Acercarse",
-                        zoomOut: "Disminuir el zoom",
-                        zoom: "Enfocar",
-                        pan: "Pan",
-                        reset: "Reiniciar"
-                    };
-                }
-                if (ej.datavisualization.Map) {
-                    ej.datavisualization.Map.Locale["es-ES"] = {
-                        zoomIn: "Acercarse",
-                        zoomOut: "Disminuir el zoom",
-                        panTop: "Pan Top",
-                        panBottom: "pan fondo",
-                        panLeft: "Pan izquierda",
-                        panRight: "Pan derecha",
-                        home: "Casa"
-                    };
-                }
+                        week: {
+                            longWeeks: "Semana,",
+                            shortWeeks: "W"
+                        },
+                    },
+                };
+                break;
+            case "ejMap":
+                ej.datavisualization.Map.Locale = ej.datavisualization.Map.Locale || {};
+                ej.datavisualization.Map.Locale["es-ES"] = {
+                    zoomIn: "Acercarse",
+                    zoomOut: "Disminuir el zoom",
+                    panTop: "Pan Top",
+                    panBottom: "pan fondo",
+                    panLeft: "Pan izquierda",
+                    panRight: "Pan derecha",
+                    home: "Casa"
+                };
                 break;
             case "ejReportViewer":
+                ej.ReportViewer.Locale = ej.ReportViewer.Locale || {};
                 ej.ReportViewer.Locale["es-ES"] = {
                     toolbar: {
                         print: {
@@ -1297,7 +1363,7 @@
                             Word: "Palabra",
                             Html: "html",
                             PPT: "PPT",
-                            CSV: "CSV"
+                            CSV: 'CSV'
                         },
                         first: {
                             headerText: "primero",
@@ -1382,6 +1448,7 @@
                 };
                 break;
             case "ejRibbon":
+                ej.Ribbon.Locale = ej.Ribbon.Locale || {};
                 ej.Ribbon.Locale["es-ES"] = {
                     CustomizeQuickAccess: "Personalizar barra de acceso rápido",
                     RemoveFromQuickAccessToolbar: "Eliminar de la barra de herramientas de acceso rápido",
@@ -1392,6 +1459,7 @@
                 };
                 break;
             case "ejKanban":
+                ej.Kanban.Locale = ej.Kanban.Locale || {};
                 ej.Kanban.Locale["es-ES"] = {
                     EmptyCard: "No hay tarjetas para mostrar",
                     SaveButton: "guardar",
@@ -1422,6 +1490,7 @@
                 };
                 break;
             case "ejRTE":
+                ej.RTE.Locale = ej.RTE.Locale || {};
                 ej.RTE.Locale["es-ES"] = {
                     bold: "Negrita",
                     italic: "Itálico",
@@ -1578,6 +1647,7 @@
                 };
                 break;
             case "ejRecurrenceEditor":
+                ej.RecurrenceEditor.Locale = ej.RecurrenceEditor.Locale || {};
                 ej.RecurrenceEditor.Locale["es-ES"] = {
                     Repeat: "Repetir",
                     Never: "Nunca",
@@ -1611,6 +1681,7 @@
                 };
                 break;
             case "ejSchedule":
+                ej.Schedule.Locale = ej.Schedule.Locale || {};
                 ej.Schedule.Locale["es-ES"] = {
                     ReminderWindowTitle: "ventana de aviso",
                     CreateAppointmentTitle: "crear cita",
@@ -1721,6 +1792,7 @@
                 };
                 break;
             case "ejSpreadsheet":
+                ej.Spreadsheet.Locale = ej.Spreadsheet.Locale || {};
                 ej.Spreadsheet.Locale["es-ES"] = {
                     Cut: "Cortar",
                     Copy: "Copia",
@@ -1841,6 +1913,8 @@
                     ThickBoxBorder: "Gruesa borde de cuadro",
                     ThickBottomBorder: "Borde inferior grueso",
                     TopandThickBottomBorder: "Superior e inferior grueso de la frontera",
+                    BottomDoubleBorder: "Borde doble inferior",
+                    TopandBottomDoubleBorder: "Borde doble superior e inferior",
                     DrawBorderGrid: "Dibujar borde de cuadrícula",
                     DrawBorder: "dibujar borde",
                     TopandBottomBorder: "Superior e inferior de la frontera",
@@ -2299,7 +2373,7 @@
                     HugeDataAlert: "El archivo es demasiado grande para abrir.",
                     ImportExportUrl: "Dar dirección URL de importación / exportación y vuelve a intentarlo.",
                     BetweenAlert: "El máximo debe ser mayor o igual que el mínimo.",
-                    BorderStyles: "Sólido / La / punteada",
+                    BorderStyles: "Sólido / La / punteada/Doble",
                     FPaneAlert: "Panel de congelación no se aplica para la primera celda",
                     ReplaceNotFound: "Hoja de cálculo no puede encontrar una coincidencia.",
                     BlankWorkbook: "libro en blanco",
@@ -2439,6 +2513,45 @@
                     AnalyzePivotTable: "Tabla dinámica",
                     DataSource: "DataSource",
                     FATTitlePrefix: "Estilo de mesa",
+                    HighPoint: "Punto álgido",
+                    LowPoint: "Punto bajo",
+                    FirstPoint: "Primer punto",
+                    LastPoint: "Ultimo punto",
+                    NegativePoint: "Puntos negativos",
+                    Markers: "Marcadores",
+                    NegativePoints: "Puntos negativos",
+                    LineSparklineTitle: "Insertar Line Sparkline",
+                    LineSparklineContent: "Las líneas de chispa son mini tablas ubicadas en una sola celda, cada una representa una fila de datos en su selección",
+                    ColumnSparklineTitle: "Insertar columna Sparkline",
+                    ColumnSparklineContent: "Las líneas de chispa son mini tablas ubicadas en una sola celda, cada una representa una fila de datos en su selección",
+                    WinLossSparklineTitle: "Insertar chispa de ganancia / pérdida",
+                    WinLossSparklineContent: "Las líneas de chispas son mini tablas ubicadas en una sola celda, cada una representa una fila de datos en su selección,",
+                    Line: "Línea",
+                    SparklineColor: "Sparkline Color",
+                    SparklineColorTitle: "Sparkline Color",
+                    SparklineColorContent: "Especifique el color de las líneas de chispa en el grupo de líneas seleccionadas",
+                    MarkerColor: "Marcador de color",
+                    MarkerColorContent: "Cambie el color de los puntos negativos, marcadores y todos los demás puntos para el grupo de chispa seleccionado",
+                    ChooseDataRange: "Elija el rango de datos",
+                    ChooseLocationRange: "Elija el rango de ubicación",
+                    DataRange: "Rango de datos",
+                    LocationRange: "Rango de ubicación",
+                    EmptyDLRnge: "La fuente de datos o la referencia de ubicación no son válidas",
+                    SourceDataRange: "Seleccione un rango de datos fuente para el sparkline",
+                    SparklineAlert: "La referencia de ubicación no es válida porque las celdas no están todas en la misma columna o fila. Seleccionar celdas que están todas en una sola fila o en una sola columna",
+                    SparklineDataAlert: "Ingrese el formato de datos correcto",
+                    SparklineLocAlert: "La referencia para la ubicación o el rango de datos no es válida",
+                    SDataRangeAlert: "La referencia del origen de datos no es válida",
+                    LineAlert: "No se puede crear el gráfico de líneas para un solo valor",
+                    EditData: "Editar datos",
+                    EditDataContent: "Editar ubicación de grupo y datos",
+                    EditSingleSparklineData: "Editar datos de Sparkline únicos",
+                    EditSparklineData: "Editar datos de Sparkline",
+                    HiddenEmptyCells: "Celdas ocultas y vacías",
+                    SwitchRowCol: "Cambiar fila / columna",
+                    CreateSparkline: "Crear Sparkline",
+                    SelectDataSource: "Seleccione un rango de datos fuente para el sparkline",
+                    SPARKLINEDESIGN: "Diseño Sparkline",
                 };
                 break;
             case "ejTimePicker":
@@ -2448,6 +2561,7 @@
                 };
                 break;
             case "ejTreeGrid":
+                ej.TreeGrid.Locale = ej.TreeGrid.Locale || {};
                 ej.TreeGrid.Locale["es-ES"] = {
                     toolboxTooltipTexts: {
                         addTool: "Añadir",
@@ -2459,7 +2573,8 @@
                         collapseAllTool: "Desplegar todo",
                         pdfExportTool: "exportación PDF",
                         excelExportTool: "exportación Excel",
-                        printTool: "Impresión"
+                        printTool: "Impresión",
+                        searchTool: "Buscar",
                     },
                     contextMenuTexts: {
                         addRowText: "Añadir fila",
@@ -2565,6 +2680,7 @@
                 };
                 break;
             case "ejUploadbox":
+                ej.Uploadbox.Locale = ej.Uploadbox.Locale || {};
                 ej.Uploadbox.Locale["es-ES"] = {
                     buttonText: {
                         upload: "Subir",
@@ -2591,6 +2707,7 @@
                 };
                 break;
             case "ejSpellCheck":
+                ej.SpellCheck.Locale = ej.SpellCheck.Locale || {};
                 ej.SpellCheck.Locale["es-ES"] = {
                     SpellCheckButtonText: "Ortografía",
                     NotInDictionary: "No en el diccionario",
@@ -2638,11 +2755,13 @@
                 };
                 break;
             case "ejTile":
+                ej.Tile.Locale = ej.Tile.Locale || {};
                 ej.Tile.Locale["es-ES"] = {
                     captionText: "Texto"
                 };
                 break;
             case "ejListView":
+                ej.ListView.Locale = ej.ListView.Locale || {};
                 ej.ListView.Locale["es-ES"] = {
                     headerTitle: "Título",
                     headerBackButtonText: "Espalda"

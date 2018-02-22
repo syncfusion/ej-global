@@ -1,11 +1,3 @@
-/*!
-*  filename: ej.localetexts.fi-FI.js
-*  Copyright Syncfusion Inc. 2001 - 2014. All rights reserved.
-*  Use of this code is subject to the terms of our license.
-*  A copy of the current license can be obtained at any time by e-mailing
-*  licensing@syncfusion.com. Any infringement will be prosecuted under
-*  applicable laws. 
-*/
 (function ($, ej, undefined) {
     var name, widgets;
     if (ej.locales.indexOf("fiFI") < 0)
@@ -13,6 +5,7 @@
     $.fn.Locale_fiFI = function (pluginName) {
         switch (pluginName) {
             case "ejAutocomplete":
+                ej.Autocomplete.Locale = ej.Autocomplete.Locale || {};
                 ej.Autocomplete.Locale["fi-FI"] = {
                     addNewText: "Lisää uusi",
                     emptyResultText: "ei ehdotuksia",
@@ -21,6 +14,7 @@
                 };
                 break;
             case "ejColorPicker":
+                ej.ColorPicker.Locale = ej.ColorPicker.Locale || {};
                 ej.ColorPicker.Locale["fi-FI"] = {
                     buttonText: {
                         apply: "Käyttää",
@@ -48,17 +42,20 @@
                 };
                 break;
             case "ejCurrencyTextbox":
+                ej.CurrencyTextbox.Locale = ej.CurrencyTextbox.Locale || {};
                 ej.CurrencyTextbox.Locale["fi-FI"] = {
                     watermarkText: "Anna arvo",
                 };
                 break;
             case "ejDatePicker":
+                ej.DatePicker.Locale = ej.DatePicker.Locale || {};
                 ej.DatePicker.Locale["fi-FI"] = {
                     watermarkText: "Valitse päivämäärä",
                     buttonText: "Tänään",
                 };
                 break;
             case "ejDateRangePicker":
+                ej.DateRangePicker.Locale = ej.DateRangePicker.Locale || {};
                 ej.DateRangePicker.Locale["fi-FI"] = {
                     ButtonText: {
                         apply: "Käyttää",
@@ -69,6 +66,7 @@
                     customPicker: "Custom Picker",
                 }; break;
             case "ejDateTimePicker":
+                ej.DateTimePicker.Locale = ej.DateTimePicker.Locale || {};
                 ej.DateTimePicker.Locale["fi-FI"] = {
                     watermarkText: "Valitse päivämäärä aika",
                     buttonText: {
@@ -80,6 +78,7 @@
                 };
                 break;
             case "ejDialog":
+                ej.Dialog.Locale = ej.Dialog.Locale || {};
                 ej.Dialog.Locale["fi-FI"] = {
                     tooltip: {
                         close: "Lähellä",
@@ -95,12 +94,31 @@
                 };
                 break;
             case "ejDropDownList":
+                ej.DropDownList.Locale = ej.DropDownList.Locale || {};
                 ej.DropDownList.Locale["fi-FI"] = {
                     emptyResultText: "Ei ehdotuksia,",
                     watermarkText: " ",
                 };
                 break;
+			case "ejComboBox":
+                ej.ComboBox.Locale["fi-FI"] = {
+                    noRecordsTemplate: "Merkintöjä ei löydy",
+					actionFailureTemplate: "Pyyntö epäonnistui"
+                };
+                break;
+			case "ejMenu":
+                ej.Menu.Locale["fi-FI"] = {
+                    titleText: "valikko"
+                };
+                break;
+			case "ejCaptcha":
+                ej.Captcha.Locale["fi-FI"] = {
+					placeHolderText: "Kirjoita näkyvä koodi",
+					CustomErrorMessage: "Virheellinen Captcha"
+                };
+                break;
             case "ejExcelFilter":
+                ej.ExcelFilter.Locale = ej.ExcelFilter.Locale || {};
                 ej.ExcelFilter.Locale["fi-FI"] = {
                     SortNoSmaller: "Lajittelu pienimmästä suurimpaan",
                     SortNoLarger: "Lajittelu suurimmasta pienimpään",
@@ -148,6 +166,7 @@
                 };
                 break;
             case "ejFileExplorer":
+                ej.FileExplorer.Locale = ej.FileExplorer.Locale || {};
                 ej.FileExplorer.Locale["fi-FI"] = {
                     Folder: "Kansio",
                     EmptyFolder: "Tämä kansio on tyhjä",
@@ -246,6 +265,7 @@
                 };
                 break;
             case "ejGantt":
+                ej.Gantt.Locale = ej.Gantt.Locale || {};
                 ej.Gantt.Locale["fi-FI"] = {
                     emptyRecord: "Ei näytettäviä tietueita",
                     unassignedTask: "Määrittämätön tehtävä",
@@ -430,9 +450,31 @@
                             { id: "FS", text: "Suorittaa loppuun-alku", value: "Suorittaa loppuun-alku" },
                             { id: "FF", text: "Suorittaa loppuun-Suorittaa loppuun", value: "Suorittaa loppuun-Suorittaa loppuun" }
                     ],
+
+                    linkValidationRuleText: {
+                        taskBeforePredecessor: "Olet siirtänyt '{0}' aloittamaan ennen kuin '{1}' 'päättyy ja kaksi tehtävää yhdistetään. Tämän seurauksena linkkejä ei voida kunnioittaa. Suorita yksi toiminto alla",
+                        taskAfterPredecessor: "Olet siirtänyt '{0}' pois '{1}' ja kaksi tehtävää on linkitetty. Tämän seurauksena linkkejä ei voida kunnioittaa. Suorita yksi toiminto alla",
+                    },
+                    linkValidationDialogTitle: "Vahvista muokkaus",
+                    linkValidationRuleOptions: {
+                        cancel: "Peruuta, pidä olemassa olevaa linkkiä",
+                        removeLink: "Poista linkki ja siirrä '{0}' aloittaaksesi '{1}'.",
+                        preserveLink: "Siirrä '{0}' aloittaaksesi '{1}' ja pidä linkkiä."
+                    },
+                    connectorLineDialogText: {
+                        from: "Mistä",
+                        to: "jotta",
+                        taskLink: "Task Link",
+                        lag: "kuhnailla",
+                        okButtonText: "kunnossa",
+                        cancelButtonText: "Peruuttaa",
+                        deleteButtonText: "Poistaa",
+                        title: "Tehtävien riippuvuus"
+                    }
                 };
                 break;
             case "ejGrid":
+                ej.Grid.Locale = ej.Grid.Locale || {};
                 ej.Grid.Locale["fi-FI"] = {
                     EmptyRecord: "Ei näytettäviä tietueita",
                     GroupDropArea: "Vedä sarakeotsikkoa tästä ryhmään se sarake",
@@ -502,6 +544,7 @@
                 break;
             case "ejmobile":
                 if (ej.mobile.DatePicker) {
+                    ej.mobile.DatePicker.Locale =  ej.mobile.DatePicker.Locale || {};
                     ej.mobile.DatePicker.Locale["fi-FI"] = {
                         confirmText: "Tehty",
                         Windows: {
@@ -514,6 +557,7 @@
                     ;
                 }
                 if (ej.mobile.Grid) {
+                    ej.mobile.Grid.Locale = ej.mobile.Grid.Locale || {};
                     ej.mobile.Grid.Locale["fi-FI"] = {
                         emptyResult: "Ei näytettäviä tietueita",
                         filterValidation: "Anna kelvollinen suodatin data",
@@ -531,6 +575,7 @@
                     ;
                 }
                 if (ej.mobile.TimePicker) {
+                    ej.mobile.TimePicker.Locale = ej.mobile.TimePicker.Locale || {};
                     ej.mobile.TimePicker.Locale["fi-FI"] = {
                         confirmText: "Tehty",
                         AM: "AM",
@@ -549,11 +594,13 @@
                 }
                 break;
             case "ejNumericTextbox":
+                ej.NumericTextbox.Locale = ej.NumericTextbox.Locale || {};
                 ej.NumericTextbox.Locale["fi-FI"] = {
                     watermarkText: "Anna arvo",
                 };
                 break;
             case "ejPivotChart":
+                ej.PivotChart.Locale = ej.PivotChart.Locale || {};
                 ej.PivotChart.Locale["fi-FI"] = {
                     Measure: "Mitata",
                     Row: "Rivi",
@@ -599,6 +646,7 @@
                 };
                 break;
             case "ejPivotClient":
+                ej.PivotClient.Locale = ej.PivotClient.Locale || {};
                 ej.PivotClient.Locale["fi-FI"] = {
                     DoesNotBeginsWith: "Ei alkaa",
                     DoesNotEndsWith: "Ei lopu",
@@ -749,16 +797,21 @@
                     RenameMsg: "Raportti nimettiin uudelleen!",
                     RemoveMsg: "Mietintö poistettiin onnistuneesti!",
                     Success: "Menestystä",
-                    KpiAlertMsg: "Kentässä siirrät ei voi asettaa, raportin alue"
+                    KpiAlertMsg: "Kentässä siirrät ei voi asettaa, raportin alue",
+                    NotAllItemsShowing: "Kaikki alempien solmujen näkyvät",
+                    EditorLinkPanelAlert: "Kollegani ovat yli 1000 tuotetta yhden tai useamman vanhemman. Vain ensimmäiset 1000 näkyvät kohdassa kutakin ylempää.",
+                    NamedSetAlert: "Nimettyä sarjaa ei voi lisätä PivotTable mietintö samanaikaisesti toisen nimeltä perustua samasta kentästä. Valitsemalla OK voit poistaa ' <Set 1> ' nimetyn joukon ja lisää ' <Set 2> ' nimeltä."
                 };
                 break;
             case "ejPivotGauge":
+                ej.PivotGauge.Locale = ej.PivotGauge.Locale || {};
                 ej.PivotGauge.Locale["fi-FI"] = {
                     RevenueGoal: "tulot Tavoite",
                     RevenueValue: "tulot Arvo",
                 };
                 break;
             case "ejPager":
+                ej.Pager.Locale = ej.Pager.Locale || {};
                 ej.Pager.Locale["fi-FI"] = {
                     pagerInfo: "{0} on {1} sivua ({2} tuotetta)",
                     firstPageTooltip: "Mene ensimmäiselle sivulle",
@@ -770,6 +823,7 @@
                 };
                 break;
             case "ejPdfViewer":
+                ej.PdfViewer.Locale = ej.PdfViewer.Locale || {};
                 ej.PdfViewer.Locale["fi-FI"] = {
                     toolbar: {
                         print: {
@@ -933,11 +987,13 @@
                 };
                 break;
             case "ejPercentageTextbox":
+                ej.PercentageTextbox.Locale = ej.PercentageTextbox.Locale || {};
                 ej.PercentageTextbox.Locale["fi-FI"] = {
                     watermarkText: "Anna arvo",
                 };
                 break;
             case "ejPivotGrid":
+                ej.PivotGrid.Locale = ej.PivotGrid.Locale || {};
                 ej.PivotGrid.Locale["fi-FI"] = {
                     Total: "Yhteensä",
                     GrandTotal: "Kaikki yhteensä",
@@ -1139,10 +1195,13 @@
                     FormatName: "Tiedostomuodon nimestä",
                     RemoveFormat: "Irrota muoto",
                     Edit: "Muokkaa",
-                    DuplicateFormatName: "Sama nimi"
+                    DuplicateFormatName: "Sama nimi",
+                    NotAllItemsShowing: "Kaikki alempien solmujen näkyvät",
+                    EditorLinkPanelAlert: "Kollegani ovat yli 1000 tuotetta yhden tai useamman vanhemman. Vain ensimmäiset 1000 näkyvät kohdassa kutakin ylempää."
                 };
                 break;
             case "ejPivotPager":
+                ej.PivotPager.Locale = ej.PivotPager.Locale || {};
                 ej.PivotPager.Locale["fi-FI"] = {
                     SeriesPage: "Sarja Sivu",
                     CategoricalPage: "kategorinen Sivu",
@@ -1153,6 +1212,7 @@
                 };
                 break;
             case "ejPivotSchemaDesigner":
+                ej.PivotSchemaDesigner.Locale = ej.PivotSchemaDesigner.Locale || {};
                 ej.PivotSchemaDesigner.Locale["fi-FI"] = {
                     DoesNotBeginsWith: "Ei alkaa",
                     DoesNotEndsWith: "Ei lopu",
@@ -1213,44 +1273,48 @@
                     OK: "OK",
                     Cancel: "Peruuta",
                     Search: "Haku",
-                    AddCurrentSelectionToFilter: "Lisää nykyinen valinta suodatukseen"
+                    AddCurrentSelectionToFilter: "Lisää nykyinen valinta suodatukseen",
+                    NotAllItemsShowing: "Kaikki alempien solmujen näkyvät",
+                    EditorLinkPanelAlert: "Kollegani ovat yli 1000 tuotetta yhden tai useamman vanhemman. Vain ensimmäiset 1000 näkyvät kohdassa kutakin ylempää.",
+                    NamedSetAlert: "Nimettyä sarjaa ei voi lisätä PivotTable mietintö samanaikaisesti toisen nimeltä perustua samasta kentästä. Valitsemalla OK voit poistaa ' <Set 1> ' nimetyn joukon ja lisää ' <Set 2> ' nimeltä."
                 };
                 break;
-            case "ejdatavisualization":
-                if (ej.datavisualization.Diagram) {
-                    ej.datavisualization.Diagram.Locale["fi-FI"] = {
-                        cut: "Leikata",
-                        copy: "Kopioida",
-                        paste: "tahna",
-                        undo: "purkaa",
-                        redo: "tehdä uudelleen",
-                        selectAll: "Valitse kaikki",
-                        grouping: "ryhmittymä",
-                        group: "Ryhmä",
-                        ungroup: "Pura",
-                        order: "Tilata",
-                        bringToFront: "Tuo eteen",
-                        moveForward: "Liiku eteenpäin",
-                        sendBackward: "Siirrä taaksepäin",
-                        sendToBack: "SendToBack",
-                    };
-                }
-                if (ej.datavisualization.RangeNavigator) {
-                    ej.datavisualization.RangeNavigator.Locale["fi-FI"] = {
-                        intervals: {
-                            quarter: {
-                                longQuarters: "Quarter,",
-                                shortQuarters: "Q"
-                            },
-                            week: {
-                                longWeeks: "Viikko,",
-                                shortWeeks: "W"
-                            },
+            case "ejDiagram":
+                ej.datavisualization.Diagram.Locale = ej.datavisualization.Diagram.Locale || {};
+                ej.datavisualization.Diagram.Locale["fi-FI"] = {
+                    cut: "Leikata",
+                    copy: "Kopioida",
+                    paste: "tahna",
+                    undo: "purkaa",
+                    redo: "tehdä uudelleen",
+                    selectAll: "Valitse kaikki",
+                    grouping: "ryhmittymä",
+                    group: "Ryhmä",
+                    ungroup: "Pura",
+                    order: "Tilata",
+                    bringToFront: "Tuo eteen",
+                    moveForward: "Liiku eteenpäin",
+                    sendBackward: "Siirrä taaksepäin",
+                    sendToBack: "SendToBack",
+                };
+                break;
+            case "ejRangeNavigator":
+                ej.datavisualization.RangeNavigator.Locale = ej.datavisualization.RangeNavigator.Locale || {};
+                ej.datavisualization.RangeNavigator.Locale["fi-FI"] = {
+                    intervals: {
+                        quarter: {
+                            longQuarters: "Quarter,",
+                            shortQuarters: "Q"
                         },
-                    };
-                }
+                        week: {
+                            longWeeks: "Viikko,",
+                            shortWeeks: "W"
+                        },
+                    },
+                };
                 break;
             case "ejReportViewer":
+                ej.ReportViewer.Locale = ej.ReportViewer.Locale || {};
                 ej.ReportViewer.Locale["fi-FI"] = {
                     toolbar: {
                         print: {
@@ -1350,6 +1414,7 @@
                 };
                 break;
             case "ejRibbon":
+                ej.Ribbon.Locale = ej.Ribbon.Locale || {};
                 ej.Ribbon.Locale["fi-FI"] = {
                     CustomizeQuickAccess: "Muokata Pikatyökalurivi",
                     RemoveFromQuickAccessToolbar: "Poista Pikatyökalurivi",
@@ -1360,6 +1425,7 @@
                 };
                 break;
             case "ejKanban":
+                ej.Kanban.Locale = ej.Kanban.Locale || {};
                 ej.Kanban.Locale["fi-FI"] = {
                     EmptyCard: "Ei korttia näytettäviä",
                     SaveButton: "Tallentaa",
@@ -1390,6 +1456,7 @@
                 };
                 break;
             case "ejRTE":
+                ej.RTE.Locale = ej.RTE.Locale || {};
                 ej.RTE.Locale["fi-FI"] = {
                     bold: "rohkea",
                     italic: "kursivoitu",
@@ -1546,6 +1613,7 @@
                 };
                 break;
             case "ejSchedule":
+                ej.Schedule.Locale = ej.Schedule.Locale || {};
                 ej.Schedule.Locale["fi-FI"] = {
                     ReminderWindowTitle: "muistutus ikkuna",
                     CreateAppointmentTitle: "Luo nimittäminen",
@@ -1654,6 +1722,7 @@
                 };
                 break;
             case "ejSpreadsheet":
+                ej.Spreadsheet.Locale = ej.Spreadsheet.Locale || {};
                 ej.Spreadsheet.Locale["fi-FI"] = {
                     Cut: "Leikata",
                     Copy: "Kopio",
@@ -1774,6 +1843,8 @@
                     ThickBoxBorder: "Paksu Box Border",
                     ThickBottomBorder: "Paksu Bottom Border",
                     TopandThickBottomBorder: "Top ja Paksu Bottom Border",
+                    BottomDoubleBorder: "Bottom Double Border",
+                    TopandBottomDoubleBorder: "Yläosa ja alaosa Double Border",
                     DrawBorderGrid: "Draw reunaruudukko",
                     DrawBorder: "Draw Border",
                     TopandBottomBorder: "Top ja Bottom Border",
@@ -2232,7 +2303,7 @@
                     HugeDataAlert: "Tiedosto liian suuri avattavaksi.",
                     ImportExportUrl: "Anna tuonti / vienti URL ja yritä uudelleen.",
                     BetweenAlert: "Maximum on oltava suurempi tai yhtä suuri kuin pienin.",
-                    BorderStyles: "Solid / Katkoviiva / pilkullinen",
+                    BorderStyles: "Solid / Katkoviiva / pilkullinen/Kaksinkertainen",
                     FPaneAlert: "Freeze Pane ei vaatinut ensimmäisen Cell",
                     ReplaceNotFound: "Taulukkolaskenta ei löydä ottelussa.",
                     BlankWorkbook: "tyhjä työkirja",
@@ -2372,6 +2443,45 @@
                     AnalyzePivotTable: "PivotTable",
                     DataSource: "DataSource",
                     FATTitlePrefix: "Pöytästyyli",
+                    HighPoint: "Kohokohta",
+                    LowPoint: "Matala kohta",
+                    FirstPoint: "Ensimmäinen kohta",
+                    LastPoint: "Viimeinen kohta",
+                    NegativePoint: "Negatiiviset pistemäärät",
+                    Markers: "markkereita",
+                    NegativePoints: "Negatiiviset pistemäärät",
+                    LineSparklineTitle: "Lisää viiva sytytystulppa",
+                    LineSparklineContent: "Sparklinkit ovat pienikuvioita, jotka on sijoitettu yksittäisiin soluihin, joista kukin edustaa valintasi tietorivin",
+                    ColumnSparklineTitle: "Lisää sarakkeen Sparkline",
+                    ColumnSparklineContent: "Sparklinkit ovat pienikuvioita, jotka on sijoitettu yksittäisiin soluihin, joista kukin edustaa valintasi tietorivin",
+                    WinLossSparklineTitle: "Lisää Win / Loss Sparkline",
+                    WinLossSparklineContent: "Sparklinkit ovat pienikuvioita sijoitettuina yksittäisiin soluihin, joista kukin edustaa valintasi tietorivin,",
+                    Line: "Linja",
+                    SparklineColor: "Sparkline-väri",
+                    SparklineColorTitle: "Sparkline-väri",
+                    SparklineColorContent: "Määritä sparkline-värit valitussa sparkline-ryhmässä",
+                    MarkerColor: "Merkin väri",
+                    MarkerColorContent: "Muuta negatiivisten pisteiden, merkkien ja kaikkien muiden pistemäärien valittua sparkline-ryhmää",
+                    ChooseDataRange: "Valitse tietoluku",
+                    ChooseLocationRange: "Valitse sijaintialue",
+                    DataRange: "Dataväli",
+                    LocationRange: "Sijaintialue",
+                    EmptyDLRnge: "Tietolähde tai sijainti viittaus ei ole kelvollinen",
+                    SourceDataRange: "Valitse sparkline-lähdealue",
+                    SparklineAlert: "Sijaintitunnus ei kelpaa, koska solut eivät ole samassa sarakkeessa tai samassa rivissä. Valitse solut, jotka ovat kaikki yhtä rivissä tai yksittäisessä sarakkeessa",
+                    SparklineDataAlert: "Anna oikea datamuoto",
+                    SparklineLocAlert: "Sijainnin tai datavälin vertailu ei ole kelvollinen",
+                    SDataRangeAlert: "Tietolähteen viite ei kelpaa",
+                    LineAlert: "Yhden arvon viivakaaviota ei voi luoda",
+                    EditData: "Muokkaa tietoja",
+                    EditDataContent: "Muokkaa sijaintia ja dataa",
+                    EditSingleSparklineData: "Muokkaa yksittäisiä sparkline-tietoja",
+                    EditSparklineData: "Muokkaa sparkline-tietoja",
+                    HiddenEmptyCells: "Piilotetut ja tyhjät solut",
+                    SwitchRowCol: "Vaihda rivi / sarake",
+                    CreateSparkline: "Luo Sparkline",
+                    SelectDataSource: "Valitse sparkline-lähdealue",
+                    SPARKLINEDESIGN: "Sparkline Design",
                 };
                 break;
             case "ejTimePicker":
@@ -2381,6 +2491,7 @@
                 };
                 break;
             case "ejTreeGrid":
+                ej.TreeGrid.Locale = ej.TreeGrid.Locale || {};
                 ej.TreeGrid.Locale["fi-FI"] = {
                     toolboxTooltipTexts: {
                         addTool: "Lisätä",
@@ -2393,6 +2504,7 @@
                         pdfExportTool: "PDF Export",
                         excelExportTool: "Excel Vie",
                         printTool: "Tulosta",
+                        searchTool: "Haku"
                     },
                     contextMenuTexts: {
                         addRowText: "Lisää rivi",
@@ -2498,6 +2610,7 @@
                 };
                 break;
             case "ejUploadbox":
+                ej.Uploadbox.Locale = ej.Uploadbox.Locale || {};
                 ej.Uploadbox.Locale["fi-FI"] = {
                     buttonText: {
                         upload: "Lataa",
@@ -2524,17 +2637,20 @@
                 };
                 break;
             case "ejTile":
+                ej.Tile.Locale = ej.Tile.Locale || {};
                 ej.Tile.Locale["fi-FI"] = {
                     captionText: "teksti"
                 };
                 break;
             case "ejListView":
+                ej.ListView.Locale = ej.ListView.Locale || {};
                 if (ej.ListView) ej.ListView.Locale["fi-FI"] = {
                     headerTitle: "otsikko",
                     headerBackButtonText: "Takaisin"
                 };
                 break;
             case "ejSpellCheck":
+                ej.SpellCheck.Locale = ej.SpellCheck.Locale || {};
                 ej.SpellCheck.Locale["fi-FI"] = {
                     SpellCheckButtonText: "Oikeinkirjoitus",
                     NotInDictionary: "Ei Sanakirja",

@@ -1,12 +1,3 @@
-
-/*!
-*  filename: ej.localetexts.nl-NL.js
-*  Copyright Syncfusion Inc. 2001 - 2016. All rights reserved.
-*  Use of this code is subject to the terms of our license.
-*  A copy of the current license can be obtained at any time by e-mailing
-*  licensing@syncfusion.com. Any infringement will be prosecuted under
-*  applicable laws. 
-*/
 (function ($, ej, undefined) {
     var name, widgets;
     if (ej.locales.indexOf("nlNL") < 0)
@@ -14,6 +5,7 @@
     $.fn.Locale_nlNL = function (pluginName) {
         switch (pluginName) {
             case "ejAutocomplete":
+                ej.Autocomplete.Locale = ej.Autocomplete.Locale || {};
                 ej.Autocomplete.Locale["nl-NL"] = {
                     addNewText: "Nieuwe toevoegen",
                     emptyResultText: "geen suggesties",
@@ -22,6 +14,7 @@
                 };
                 break;
             case "ejColorPicker":
+                ej.ColorPicker.Locale = ej.ColorPicker.Locale || {};
                 ej.ColorPicker.Locale["nl-NL"] = {
                     buttonText: {
                         apply: "Van toepassing zijn",
@@ -49,17 +42,20 @@
                 };
                 break;
             case "ejCurrencyTextbox":
+                ej.CurrencyTextbox.Locale = ej.CurrencyTextbox.Locale || {};
                 if (ej.CurrencyTextbox) ej.CurrencyTextbox.Locale["nl-NL"] = {
                     watermarkText: "Voer waarde",
                 };
                 break;
             case "ejDatePicker":
+                ej.DatePicker.Locale = ej.DatePicker.Locale || {};
                 ej.DatePicker.Locale["nl-NL"] = {
                     watermarkText: "Selecteer een datum",
                     buttonText: "Vandaag",
                 };
                 break;
             case "ejDateRangePicker":
+                ej.DateRangePicker.Locale = ej.DateRangePicker.Locale || {};
                 ej.DateRangePicker.Locale["nl-NL"] = {
                     ButtonText: {
                         apply: "Van toepassing zijn",
@@ -71,6 +67,7 @@
                 };
                 break;
             case "ejDateTimePicker":
+                ej.DateTimePicker.Locale = ej.DateTimePicker.Locale || {};
                 ej.DateTimePicker.Locale["nl-NL"] = {
                     watermarkText: "Selecteer een datum tijd",
                     buttonText: {
@@ -82,6 +79,7 @@
                 };
                 break;
             case "ejDialog":
+                ej.Dialog.Locale = ej.Dialog.Locale || {};
                 ej.Dialog.Locale["nl-NL"] = {
                     tooltip: {
                         close: "Dichtbij",
@@ -97,12 +95,31 @@
                 };
                 break;
             case "ejDropDownList":
+                ej.DropDownList.Locale = ej.DropDownList.Locale || {};
                 ej.DropDownList.Locale["nl-NL"] = {
                     emptyResultText: "Geen suggesties,",
                     watermarkText: " ",
                 };
                 break;
+			case "ejComboBox":
+                ej.ComboBox.Locale["nl-NL"] = {
+                    noRecordsTemplate: "Geen verslagen gevonden",
+					actionFailureTemplate: "Het verzoek is mislukt"
+                };
+                break;
+			case "ejMenu":
+                ej.Menu.Locale["nl-NL"] = {
+                    titleText: "Menu"
+                };
+                break;
+			case "ejCaptcha":
+                ej.Captcha.Locale["nl-NL"] = {
+					placeHolderText: "Typ de afgebeelde code",
+					CustomErrorMessage: "Onjuiste captcha"
+                };
+                break;
             case "ejExcelFilter":
+                ej.ExcelFilter.Locale = ej.ExcelFilter.Locale || {};
                 ej.ExcelFilter.Locale["nl-NL"] = {
                     SortNoSmaller: "Sorteer klein naar groot",
                     SortNoLarger: "Sorteer grootste naar de kleinste",
@@ -150,6 +167,7 @@
                 };
                 break;
             case "ejFileExplorer":
+                ej.FileExplorer.Locale = ej.FileExplorer.Locale || {};
                 ej.FileExplorer.Locale["nl-NL"] = {
                     Folder: "Map",
                     EmptyFolder: "Deze map is leeg",
@@ -248,6 +266,7 @@
                 };
                 break;
             case "ejGantt":
+                ej.Gantt.Locale = ej.Gantt.Locale || {};
                 ej.Gantt.Locale["nl-NL"] = {
                     emptyRecord: "Geen records om te laten zien",
                     unassignedTask: "Niet toegewezen taak",
@@ -432,9 +451,31 @@
                             { id: "FS", text: "Afwerking-Begin", value: "Afwerking-Begin" },
                             { id: "FF", text: "Afwerking-Afwerking", value: "Afwerking-Afwerking" }
                     ],
+
+                    linkValidationRuleText: {
+                        taskBeforePredecessor: "U heeft '{0}' verplaatst om te beginnen vóór '{1}' afwerkingen en de twee taken zijn gekoppeld. Als gevolg hiervan kunnen de koppelingen niet worden geëerbiedigd. Selecteer een actie hieronder om uit te voeren",
+                        taskAfterPredecessor: "U heeft '{0}' verwijderd van '{1}' en de twee taken zijn gekoppeld. Als gevolg hiervan kunnen de koppelingen niet worden geëerbiedigd. Selecteer een actie hieronder om uit te voeren",
+                    },
+                    linkValidationDialogTitle: "Valideer bewerken",
+                    linkValidationRuleOptions: {
+                        cancel: "Annuleren, Houd de bestaande link",
+                        removeLink: "Verwijder de link en beweeg '{0}' om te beginnen op '{1}'.",
+                        preserveLink: "Verplaats de '{0}' om te beginnen op '{1}' en houd de link."
+                    },
+                    connectorLineDialogText: {
+                        from: "Van",
+                        to: "Naar",
+                        taskLink: "Taaklink",
+                        lag: "achterblijven",
+                        okButtonText: "OK",
+                        cancelButtonText: "Annuleer",
+                        deleteButtonText: "Verwijder",
+                        title: "Taakafhankelijkheid"
+                    }
                 };
                 break;
             case "ejGrid":
+                ej.Grid.Locale = ej.Grid.Locale || {};
                 ej.Grid.Locale["nl-NL"] = {
                     EmptyRecord: "Geen records om te laten zien",
                     GroupDropArea: "Sleep een kolomkop hier om de groep haar column",
@@ -504,6 +545,7 @@
                 break;
             case "ejmobile":
                 if (ej.mobile.Grid) {
+                    ej.mobile.Grid.Locale = ej.mobile.Grid.Locale || {};
                     ej.mobile.Grid.Locale["nl-NL"] = {
                         emptyResult: "Geen records om te laten zien",
                         filterValidation: "Voer geldige filter data",
@@ -521,6 +563,7 @@
                     ;
                 }
                 if (ej.mobile.DatePicker) {
+                    ej.mobile.DatePicker.Locale =  ej.mobile.DatePicker.Locale || {};
                     ej.mobile.DatePicker.Locale["nl-NL"] = {
                         confirmText: "Gedaan",
                         Windows: {
@@ -533,6 +576,7 @@
                     ;
                 }
                 if (ej.mobile.TimePicker) {
+                    ej.mobile.TimePicker.Locale = ej.mobile.TimePicker.Locale || {};
                     ej.mobile.TimePicker.Locale["nl-NL"] = {
                         confirmText: "Gedaan",
                         AM: "AM",
@@ -549,12 +593,14 @@
                     };
                 }
                 break;
-            case "eNumericTextbox":
+            case "ejNumericTextbox":
+                ej.NumericTextbox.Locale = ej.NumericTextbox.Locale || {};
                 ej.NumericTextbox.Locale["nl-NL"] = {
                     watermarkText: "Voer waarde",
                 };
                 break;
             case "ejPivotChart":
+                ej.PivotChart.Locale = ej.PivotChart.Locale || {};
                 ej.PivotChart.Locale["nl-NL"] = {
                     Measure: "Maatregel",
                     Row: "Rij",
@@ -602,6 +648,7 @@
                 };
                 break;
             case "ejPivotClient":
+                ej.PivotClient.Locale = ej.PivotClient.Locale || {};
                 ej.PivotClient.Locale["nl-NL"] = {
                     DoesNotBeginsWith: "Niet Begint met",
                     DoesNotEndsWith: "Niet Eindigt met",
@@ -752,16 +799,21 @@
                     RenameMsg: "Verslag is met succes gewijzigd!",
                     RemoveMsg: "Verslag verwijderd!",
                     Success: "Succes",
-                    KpiAlertMsg: "Het gebied waar u naartoe gaat niet in dat gedeelte van het rapport"
+                    KpiAlertMsg: "Het gebied waar u naartoe gaat niet in dat gedeelte van het rapport",
+                    NotAllItemsShowing: "Niet alle onderliggende knooppunten worden weergegeven",
+                    EditorLinkPanelAlert: "De leden heeft meer dan 1000 items onder één of meer moederondernemingen. Alleen de eerste 1000 items worden weergegeven onder elke moederonderneming.",
+                    NamedSetAlert: "Een benoemde set kan niet worden toegevoegd aan de draaitabel verslag tegelijkertijd met een andere naam die is gebaseerd op hetzelfde veld. Klik op OK om ' <Set 1> ' en ' <Set 2> ' genaamd."
                 };
                 break;
             case "ejPivotGauge":
+                ej.PivotGauge.Locale = ej.PivotGauge.Locale || {};
                 ej.PivotGauge.Locale["nl-NL"] = {
                     RevenueGoal: "inkomsten Goal",
                     RevenueValue: "inkomsten Waarde",
                 };
                 break;
             case "ejPager":
+                ej.Pager.Locale = ej.Pager.Locale || {};
                 ej.Pager.Locale["nl-NL"] = {
                     pagerInfo: "{0} van {1} pagina ({2} items)",
                     firstPageTooltip: "Ga naar de eerste pagina",
@@ -773,6 +825,7 @@
                 };
                 break;
             case "ejPdfViewer":
+                ej.PdfViewer.Locale = ej.PdfViewer.Locale || {};
                 ej.PdfViewer.Locale["nl-NL"] = {
                     toolbar: {
                         print: {
@@ -936,11 +989,13 @@
                 };
                 break;
             case "ejPercentageTextbox":
+                ej.PercentageTextbox.Locale = ej.PercentageTextbox.Locale || {};
                 ej.PercentageTextbox.Locale["nl-NL"] = {
                     watermarkText: "Voer waarde",
                 };
                 break;
             case "ejPivotGrid":
+                ej.PivotGrid.Locale = ej.PivotGrid.Locale || {};
                 ej.PivotGrid.Locale["nl-NL"] = {
                     Total: "Totaal",
                     GrandTotal: "Algemeen totaal",
@@ -1142,10 +1197,13 @@
 					FormatName: "Formaatnaam",
 					RemoveFormat: "Verwijder formaat",
 					Edit: "Bewerken",
-					DuplicateFormatName: "Dubbele Formaatnaam"
+					DuplicateFormatName: "Dubbele Formaatnaam",
+					NotAllItemsShowing: "Niet alle onderliggende knooppunten worden weergegeven",
+					EditorLinkPanelAlert: "De leden heeft meer dan 1000 items onder één of meer moederondernemingen. Alleen de eerste 1000 items worden weergegeven onder elke moederonderneming."
                 };
                 break;
             case "ejPivotPager":
+                ej.PivotPager.Locale = ej.PivotPager.Locale || {};
                 ej.PivotPager.Locale["nl-NL"] = {
                     SeriesPage: "serie Pagina",
                     CategoricalPage: "categorische Pagina",
@@ -1156,6 +1214,7 @@
                 };
                 break;
             case "ejPivotSchemaDesigner":
+                ej.PivotSchemaDesigner.Locale = ej.PivotSchemaDesigner.Locale || {};
                 ej.PivotSchemaDesigner.Locale["nl-NL"] = {
                     DoesNotBeginsWith: "Niet Begint met",
                     DoesNotEndsWith: "Niet Eindigt met",
@@ -1216,44 +1275,48 @@
                     OK: "OK",
                     Cancel: "Annuleren",
                     Search: "Zoeken",
-                    AddCurrentSelectionToFilter: "Voeg huidige selectie toe om te filteren"
+                    AddCurrentSelectionToFilter: "Voeg huidige selectie toe om te filteren",
+                    NotAllItemsShowing: "Niet alle onderliggende knooppunten worden weergegeven",
+                    EditorLinkPanelAlert: "De leden heeft meer dan 1000 items onder één of meer moederondernemingen. Alleen de eerste 1000 items worden weergegeven onder elke moederonderneming.",
+                    NamedSetAlert: "Een benoemde set kan niet worden toegevoegd aan de draaitabel verslag tegelijkertijd met een andere naam die is gebaseerd op hetzelfde veld. Klik op OK om ' <Set 1> ' en ' <Set 2> ' genaamd."
                 };
                 break;
-            case "ejdatavisualization":
-                if (ej.datavisualization.Diagram) {
-                    ej.datavisualization.Diagram.Locale["nl-NL"] = {
-                        cut: "Besnoeiing",
-                        copy: "Kopiëren",
-                        paste: "Plakken",
-                        undo: "ongedaan maken",
-                        redo: "opnieuw",
-                        selectAll: "Selecteer alles",
-                        grouping: "Groepering",
-                        group: "Groep",
-                        ungroup: "degroeperen",
-                        order: "Bestellen",
-                        bringToFront: "Naar voren brengen",
-                        moveForward: "Move Forward",
-                        sendBackward: "Terug sturen",
-                        sendToBack: "SendToBack",
-                    };
-                }
-                if (ej.datavisualization.RangeNavigator) {
-                    ej.datavisualization.RangeNavigator.Locale["nl-NL"] = {
-                        intervals: {
-                            quarter: {
-                                longQuarters: "Kwartaal,",
-                                shortQuarters: "Q"
-                            },
-                            week: {
-                                longWeeks: "Week,",
-                                shortWeeks: "w"
-                            },
+            case "ejDiagram":
+                ej.datavisualization.Diagram.Locale = ej.datavisualization.Diagram.Locale || {};
+                ej.datavisualization.Diagram.Locale["nl-NL"] = {
+                    cut: "Besnoeiing",
+                    copy: "Kopiëren",
+                    paste: "Plakken",
+                    undo: "ongedaan maken",
+                    redo: "opnieuw",
+                    selectAll: "Selecteer alles",
+                    grouping: "Groepering",
+                    group: "Groep",
+                    ungroup: "degroeperen",
+                    order: "Bestellen",
+                    bringToFront: "Naar voren brengen",
+                    moveForward: "Move Forward",
+                    sendBackward: "Terug sturen",
+                    sendToBack: "SendToBack",
+                };
+                break;
+            case "ejRangeNavigator":
+                ej.datavisualization.RangeNavigator.Locale = ej.datavisualization.RangeNavigator.Locale || {};
+                ej.datavisualization.RangeNavigator.Locale["nl-NL"] = {
+                    intervals: {
+                        quarter: {
+                            longQuarters: "Kwartaal,",
+                            shortQuarters: "Q"
                         },
-                    };
-                }
+                        week: {
+                            longWeeks: "Week,",
+                            shortWeeks: "w"
+                        },
+                    },
+                };
                 break;
             case "ejReportViewer":
+                ej.ReportViewer.Locale = ej.ReportViewer.Locale || {};
                 ej.ReportViewer.Locale["nl-NL"] = {
                     toolbar: {
                         print: {
@@ -1353,6 +1416,7 @@
                 };
                 break;
             case "ejRibbon":
+                ej.Ribbon.Locale = ej.Ribbon.Locale || {};
                 ej.Ribbon.Locale["nl-NL"] = {
                     CustomizeQuickAccess: "Pas werkbalk Snelle toegang",
                     RemoveFromQuickAccessToolbar: "Verwijderen uit werkbalk Snelle toegang",
@@ -1363,6 +1427,7 @@
                 };
                 break;
             case "ejKanban":
+                ej.Kanban.Locale = ej.Kanban.Locale || {};
                 ej.Kanban.Locale["nl-NL"] = {
                     EmptyCard: "Geen kaarten om te laten zien",
                     SaveButton: "Save",
@@ -1393,6 +1458,7 @@
                 };
                 break;
             case "ejRTE":
+                ej.RTE.Locale = ej.RTE.Locale || {};
                 ej.RTE.Locale["nl-NL"] = {
                     bold: "Stoutmoedig",
                     italic: "Cursief",
@@ -1550,6 +1616,7 @@
                 };
                 break;
             case "ejSchedule":
+                ej.Schedule.Locale = ej.Schedule.Locale || {};
                 ej.Schedule.Locale["nl-NL"] = {
                     ReminderWindowTitle: "herinneringsvenster",
                     CreateAppointmentTitle: "Maak een Afspraak",
@@ -1658,6 +1725,7 @@
                 };
                 break;
             case "ejSpreadsheet":
+                ej.Spreadsheet.Locale = ej.Spreadsheet.Locale || {};
                 ej.Spreadsheet.Locale["nl-NL"] = {
                     Cut: "Besnoeiing",
                     Copy: "Kopiëren",
@@ -1772,6 +1840,8 @@
                     ThickBoxBorder: "Dik Box Border",
                     ThickBottomBorder: "Dikke bodem Border",
                     TopandThickBottomBorder: "Top en dikke bodem Border",
+                    BottomDoubleBorder: "Onderste dubbele rand",
+                    TopandBottomDoubleBorder: "Top en Bottom Double Borde",
                     DrawBorderGrid: "Draw Border Grid",
                     DrawBorder: "Rand tekenen",
                     TopandBottomBorder: "Bovenste en onderste rand",
@@ -2229,7 +2299,7 @@
                     HugeDataAlert: "Bestand te groot om te openen.",
                     ImportExportUrl: "Geef import / export URL en probeer het opnieuw.",
                     BetweenAlert: "De maximale moet groter of gelijk zijn aan het minimum.",
-                    BorderStyles: "Solid / Binnen / gestippelde",
+                    BorderStyles: "Solid / Binnen / gestippelde/Pers",
                     FPaneAlert: "Freeze Pane wordt niet toegepast voor de eerste cel",
                     ReplaceNotFound: "Spreadsheet kan een wedstrijd niet te vinden.",
                     BlankWorkbook: "lege werkmap",
@@ -2376,14 +2446,55 @@
                     AnalyzePivotTable:"draaitabel",
                     DataSource:"Gegevensbron",
                     FATTitlePrefix:"Tafelstijl",
+                    HighPoint: "Hoog punt",
+                    LowPoint: "Laag punt",
+                    FirstPoint: "Eerste punt",
+                    LastPoint: "Laatste punt",
+                    NegativePoint: "Negatieve punten",
+                    Markers: "markers",
+                    NegativePoints: "Negatieve punten",
+                    LineSparklineTitle: "Voeg lijnvonklijn in",
+                    LineSparklineContent: "Sparklines zijn minigrafieken die in een enkele cel worden geplaatst, die elk een rij met gegevens in uw selectie vertegenwoordigen",
+                    ColumnSparklineTitle: "Voeg kolomvonklijn in",
+                    ColumnSparklineContent: "Sparklines zijn minigrafieken die in een enkele cel worden geplaatst, die elk een rij met gegevens in uw selectie vertegenwoordigen",
+                    WinLossSparklineTitle: "Win / verlies-sparkline invoegen",
+                    WinLossSparklineContent: "Sparklines zijn minigrafieken die in een enkele cel worden geplaatst, die elk een rij met gegevens in uw selectie vertegenwoordigen,",
+                    Line: "Lijn",
+                    SparklineColor: "Sparkline Color",
+                    SparklineColorTitle: "Sparkline Color",
+                    SparklineColorContent: "Specificeer de kleur van de sparklines in de geselecteerde sparklinegroep",
+                    MarkerColor: "Markeer kleur",
+                    MarkerColorContent: "Wijzig de kleur voor negatieve punten, markeringen en alle andere punten voor de geselecteerde sparklinegroep",
+                    ChooseDataRange: "Kies het gegevensbereik",
+                    ChooseLocationRange: "Kies het locatiebereik",
+                    DataRange: "Data bereik",
+                    LocationRange: "Locatie bereik",
+                    EmptyDLRnge: "Gegevensbron of locatiereferentie is niet geldig",
+                    SourceDataRange: "Selecteer een brongegevensbereik voor de sparkline",
+                    SparklineAlert: "Locatiereferentie is niet geldig omdat de cellen zich niet allemaal in dezelfde kolom of dezelfde rij bevinden. Selecteer cellen die allemaal in één rij of één kolom staan",
+                    SparklineDataAlert: "Voer het juiste gegevensformaat in",
+                    SparklineLocAlert: "De referentie voor de locatie of het gegevensbereik is niet geldig",
+                    SDataRangeAlert: "Gegevensbronreferentie is niet geldig",
+                    LineAlert: "Kan het lijndiagram voor één waarde niet maken",
+                    EditData: "Gegevens bewerken",
+                    EditDataContent: "Groepslocatie en gegevens bewerken",
+                    EditSingleSparklineData: "Bewerk enkele Sparkline-gegevens",
+                    EditSparklineData: "Bewerk Sparkline-gegevens",
+                    HiddenEmptyCells: "Verborgen en lege cellen",
+                    SwitchRowCol: "Wissel rij / kolom",
+                    CreateSparkline: "Maak een Sparkline",
+                    SelectDataSource: "Selecteer een brongegevensbereik voor de sparkline",
+                    SPARKLINEDESIGN: "Sparkline Design",
                 };
                 break;
 			case "ejTimePicker":
+                ej.TimePicker.Locale = ej.TimePicker.Locale || {};
                 ej.TimePicker.Locale["nl-NL"] = {
                     watermarkText: "kies een tijd",
                 };
                 break;	
             case "ejTreeGrid":
+                ej.TreeGrid.Locale = ej.TreeGrid.Locale || {};
                 ej.TreeGrid.Locale["nl-NL"] = {
                     toolboxTooltipTexts: {
                         addTool: "Toevoegen",
@@ -2396,6 +2507,7 @@
                         pdfExportTool: "PDF exporteren",
                         excelExportTool: "Excel exporteren",
                         printTool: "Afdrukken",
+                        searchTool: "Zoeken"
                     },
                     contextMenuTexts: {
                         addRowText: "Voeg rij",
@@ -2501,6 +2613,7 @@
                 };
                 break;
             case "ejUploadbox":
+                ej.Uploadbox.Locale = ej.Uploadbox.Locale || {};
                 ej.Uploadbox.Locale["nl-NL"] = {
                     buttonText: {
                         upload: "Uploaden",
@@ -2527,17 +2640,20 @@
                 };
                 break;
             case "ejTile":
+                ej.Tile.Locale = ej.Tile.Locale || {};
                 ej.Tile.Locale["nl-NL"] = {
                     captionText: "tekst"
                 };
                 break;
             case "ejListView":
+                ej.ListView.Locale = ej.ListView.Locale || {};
                 ej.ListView.Locale["nl-NL"] = {
                     headerTitle: "Titel",
                     headerBackButtonText: "Terug"
                 };
                 break;
             case "ejSpellCheck":
+                ej.SpellCheck.Locale = ej.SpellCheck.Locale || {};
                 ej.SpellCheck.Locale["nl-NL"] = {
                     SpellCheckButtonText: "Spelling",
                     NotInDictionary: "Niet in Woordenboek",

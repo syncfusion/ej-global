@@ -1,11 +1,3 @@
-/*!
-*  filename: ej.localetexts.ko-KR.js
-*  Copyright Syncfusion Inc. 2001 - 2016. All rights reserved.
-*  Use of this code is subject to the terms of our license.
-*  A copy of the current license can be obtained at any time by e-mailing
-*  licensing@syncfusion.com. Any infringement will be prosecuted under
-*  applicable laws. 
-*/
 (function ($, ej, undefined) {
     var name, widgets;
     if (ej.locales.indexOf("koKR") < 0)
@@ -13,6 +5,7 @@
     $.fn.Locale_koKR = function (pluginName) {
         switch (pluginName) {
             case "ejAutocomplete":
+                ej.Autocomplete.Locale = ej.Autocomplete.Locale || {};
                 ej.Autocomplete.Locale["ko-KR"] = {
                     addNewText: "새로운 걸 더하다",
                     emptyResultText: "제안 사항이 없습니다",
@@ -21,6 +14,7 @@
                 };
                 break;
             case "ejColorPicker":
+                ej.ColorPicker.Locale = ej.ColorPicker.Locale || {};
                 ej.ColorPicker.Locale["ko-KR"] = {
                     buttonText: {
                         apply: "대다",
@@ -48,17 +42,20 @@
                 };
                 break;
             case "ejCurrencyTextbox":
+                ej.CurrencyTextbox.Locale = ej.CurrencyTextbox.Locale || {};
                 ej.CurrencyTextbox.Locale["ko-KR"] = {
                     watermarkText: "값을 입력",
                 };
                 break;
             case "ejDatePicker":
+                ej.DatePicker.Locale = ej.DatePicker.Locale || {};
                 ej.DatePicker.Locale["ko-KR"] = {
                     watermarkText: "날짜 선택",
                     buttonText: "오늘",
                 };
                 break;
             case "ejDateRangePicker":
+                ej.DateRangePicker.Locale = ej.DateRangePicker.Locale || {};
                 ej.DateRangePicker.Locale["ko-KR"] = {
                     ButtonText: {
                         apply: "대다",
@@ -70,6 +67,7 @@
                 };
                 break;
             case "ejDateTimePicker":
+                ej.DateTimePicker.Locale = ej.DateTimePicker.Locale || {};
                 ej.DateTimePicker.Locale["ko-KR"] = {
                     watermarkText: "선택 날짜 시간",
                     buttonText: {
@@ -81,6 +79,7 @@
                 };
                 break;
             case "ejDialog":
+                ej.Dialog.Locale = ej.Dialog.Locale || {};
                 ej.Dialog.Locale["ko-KR"] = {
                     tooltip: {
                         close: "닫기",
@@ -96,12 +95,31 @@
                 };
                 break;
             case "ejDropDownList":
+                ej.DropDownList.Locale = ej.DropDownList.Locale || {};
                 ej.DropDownList.Locale["ko-KR"] = {
                     emptyResultText: "제안 사항이 없습니다,",
                     watermarkText: " ",
                 };
                 break;
+			case "ejComboBox":
+                ej.ComboBox.Locale["ko-KR"] = {
+                    noRecordsTemplate: "기록 없음",
+					actionFailureTemplate: "요청 실패"
+                };
+                break;
+			case "ejMenu":
+                ej.Menu.Locale["ko-KR"] = {
+                    titleText: "메뉴"
+                };
+                break;
+			case "ejCaptcha":
+                ej.Captcha.Locale["ko-KR"] = {
+					placeHolderText: "표시된 코드 입력",
+					CustomErrorMessage: "잘못된 보안 문자"
+                };
+                break;
             case "ejExcelFilter":
+                ej.ExcelFilter.Locale = ej.ExcelFilter.Locale || {};
                 ej.ExcelFilter.Locale["ko-KR"] = {
                     SortNoSmaller: "정렬 작은 최대로",
                     SortNoLarger: "정렬 가장 큰 작은에",
@@ -149,6 +167,7 @@
                 };
                 break;
             case "ejFileExplorer":
+                ej.FileExplorer.Locale = ej.FileExplorer.Locale || {};
                 ej.FileExplorer.Locale["ko-KR"] = {
                     Folder: "폴더",
                     EmptyFolder: "이 폴더는 비어 있습니다",
@@ -247,6 +266,7 @@
                 };
                 break;
             case "ejGantt":
+                ej.Gantt.Locale = ej.Gantt.Locale || {};
                 ej.Gantt.Locale["ko-KR"] = {
                     emptyRecord: "레코드 표시 없습니다",
                     unassignedTask: "할당되지 않은 작업",
@@ -431,9 +451,31 @@
                             { id: "FS", text: "끝-스타트", value: "끝-스타트" },
                             { id: "FF", text: "끝-끝", value: "끝-끝" }
                     ],
+
+                    linkValidationRuleText: {
+                        taskBeforePredecessor: "'{1}'이 (가) 완료되고 두 작업이 연결되기 전에 '{0}'을 (를) 이동했습니다. 결과적으로 링크를 존중할 수 없습니다. 수행 할 작업을 하나 선택하십시오.",
+                        taskAfterPredecessor: "'{1}'에서 '{0}'을 (를) 이동하고 두 작업이 연결되었습니다. 결과적으로 링크를 존중할 수 없습니다. 수행 할 작업을 하나 선택하십시오.",
+                    },
+                    linkValidationDialogTitle: "수정 확인",
+                    linkValidationRuleOptions: {
+                        cancel: "취소, 기존 링크 유지",
+                        removeLink: "링크를 제거하고 '{0}'을 (를) '{1}'에서 시작하도록 이동하십시오.",
+                        preserveLink: "'{0}'을 (를) '{1}'에서 시작하여 링크를 유지하도록 이동하십시오."
+                    },
+                    connectorLineDialogText: {
+                        from: "에서",
+                        to: "에",
+                        taskLink: "작업 링크",
+                        lag: "더디다",
+                        okButtonText: "그래",
+                        cancelButtonText: "취소",
+                        deleteButtonText: "지우다",
+                        title: "작업 종속성"
+                    }
                 };
                 break;
             case "ejGrid":
+                ej.Grid.Locale = ej.Grid.Locale || {};
                 ej.Grid.Locale["ko-KR"] = {
                     EmptyRecord: "레코드 표시 없습니다",
                     GroupDropArea: "그룹의 컬럼에 여기에 열 머리글을 드래그",
@@ -503,6 +545,7 @@
                 break;
             case "ejmobile":
                 if (ej.mobile.Grid) {
+                    ej.mobile.Grid.Locale = ej.mobile.Grid.Locale || {};
                     ej.mobile.Grid.Locale["ko-KR"] = {
                         emptyResult: "레코드 표시 없습니다",
                         filterValidation: "유효한 필터 데이터를 입력",
@@ -520,6 +563,7 @@
                     ;
                 }
                 if (ej.mobile.DatePicker) {
+                    ej.mobile.DatePicker.Locale =  ej.mobile.DatePicker.Locale || {};
                     ej.mobile.DatePicker.Locale["ko-KR"] = {
                         confirmText: "끝난",
                         Windows: {
@@ -532,6 +576,7 @@
                     ;
                 }
                 if (ej.mobile.TimePicker) {
+                    ej.mobile.TimePicker.Locale = ej.mobile.TimePicker.Locale || {};
                     ej.mobile.TimePicker.Locale["ko-KR"] = {
                         confirmText: "끝난",
                         AM: "오전",
@@ -549,11 +594,13 @@
                 }
                 break;
             case "ejNumericTextbox":
+                ej.NumericTextbox.Locale = ej.NumericTextbox.Locale || {};
                 ej.NumericTextbox.Locale["ko-KR"] = {
                     watermarkText: "값을 입력",
                 };
                 break;
             case "ejPivotChart":
+                ej.PivotChart.Locale = ej.PivotChart.Locale || {};
                 ej.PivotChart.Locale["ko-KR"] = {
                     Measure: "법안",
                     Row: "열",
@@ -600,6 +647,7 @@
                 };
                 break;
             case "ejPivotClient":
+                ej.PivotClient.Locale = ej.PivotClient.Locale || {};
                 ej.PivotClient.Locale["ko-KR"] = {
                     DoesNotBeginsWith: "다른 영역들과 나란히 않습니다.",
                     DoesNotEndsWith: "로 끝나지 않는",
@@ -750,16 +798,21 @@
                     RenameMsg: "성공적으로 보고서 이름이 변경되었습니다!!!",
                     RemoveMsg: "성공적으로 제거된 보고서!!!",
                     Success: "성공",
-                    KpiAlertMsg: "이동 보고서의 해당 구역에 배치할 수 없는 필드"
+                    KpiAlertMsg: "이동 보고서의 해당 구역에 배치할 수 없는 필드",
+                    NotAllItemsShowing: "모든 자식 노드에 표시되는 것은 아닙니다.",
+                    EditorLinkPanelAlert: "멤버 하나 이상의 부모 밑에서 1000개 이상의 항목. 첫 번째 항목은 1000각 부모 아래에 표시됩니다.",
+                    NamedSetAlert: "동일한 이름의 필드를 바탕으로 한 세트를 동시에 설정할 수 없습니다 라는 PivotTable 보고서를 추가할 수 없습니다. 확인을 클릭하여'라는 ' <Set 1> ' 및 ' <Set 2> '이라는 추가 세트를 분리합니다."
                 };
                 break;
             case "ejPivotGauge":
+                ej.PivotGauge.Locale = ej.PivotGauge.Locale || {};
                 ej.PivotGauge.Locale["ko-KR"] = {
                     RevenueGoal: "수익 목표",
                     RevenueValue: "수익 가치",
                 };
                 break;
             case "ejPager":
+                ej.Pager.Locale = ej.Pager.Locale || {};
                 ej.Pager.Locale["ko-KR"] = {
                     pagerInfo: "{0} {1} 페이지 ({2} 항목)의",
                     firstPageTooltip: "첫 페이지로 이동",
@@ -771,6 +824,7 @@
                 };
                 break;
             case "ejPdfViewer":
+                ej.PdfViewer.Locale = ej.PdfViewer.Locale || {};
                 ej.PdfViewer.Locale["ko-KR"] = {
                     toolbar: {
                         print: {
@@ -934,11 +988,13 @@
                 };
                 break;
             case "ejPercentageTextbox":
+                ej.PercentageTextbox.Locale = ej.PercentageTextbox.Locale || {};
                 ej.PercentageTextbox.Locale["ko-KR"] = {
                     watermarkText: "값을 입력",
                 };
                 break;
             case "ejPivotGrid":
+                ej.PivotGrid.Locale = ej.PivotGrid.Locale || {};
                 ej.PivotGrid.Locale["ko-KR"] = {
                     Total: "총",
                     GrandTotal: "총계",
@@ -1140,10 +1196,13 @@
 					FormatName: "형식 이름",
 					RemoveFormat: "서식을 제거합니다",
 					Edit: "편집",
-					DuplicateFormatName: "중복 형식 이름"
+					DuplicateFormatName: "중복 형식 이름",
+					NotAllItemsShowing: "모든 자식 노드에 표시되는 것은 아닙니다.",
+					EditorLinkPanelAlert: "멤버 하나 이상의 부모 밑에서 1000개 이상의 항목. 첫 번째 항목은 1000각 부모 아래에 표시됩니다."
                 };
                 break;
             case "ejPivotPager":
+                ej.PivotPager.Locale = ej.PivotPager.Locale || {};
                 ej.PivotPager.Locale["ko-KR"] = {
                     SeriesPage: "시리즈 페이지",
                     CategoricalPage: "범주 형 페이지",
@@ -1154,6 +1213,7 @@
                 };
                 break;
             case "ejPivotSchemaDesigner":
+                ej.PivotSchemaDesigner.Locale = ej.PivotSchemaDesigner.Locale || {};
                 ej.PivotSchemaDesigner.Locale["ko-KR"] = {
                     DoesNotBeginsWith: "다른 영역들과 나란히 않습니다.",
                     DoesNotEndsWith: "로 끝나지 않는",
@@ -1213,44 +1273,48 @@
                     OK: "확인",
                     Cancel: "취소",
                     Search: "검색",
-                    AddCurrentSelectionToFilter: "현재 선택 항목을 필터에 추가"
+                    AddCurrentSelectionToFilter: "현재 선택 항목을 필터에 추가",
+                    NotAllItemsShowing: "모든 자식 노드에 표시되는 것은 아닙니다.",
+                    EditorLinkPanelAlert: "멤버 하나 이상의 부모 밑에서 1000개 이상의 항목. 첫 번째 항목은 1000각 부모 아래에 표시됩니다.",
+                    NamedSetAlert: "동일한 이름의 필드를 바탕으로 한 세트를 동시에 설정할 수 없습니다 라는 PivotTable 보고서를 추가할 수 없습니다. 확인을 클릭하여'라는 ' <Set 1> ' 및 ' <Set 2> '이라는 추가 세트를 분리합니다."
                 };
                 break;
-            case "ejdatavisualization":
-                if (ej.datavisualization.Diagram) {
-                    ej.datavisualization.Diagram.Locale["ko-KR"] = {
-                        cut: "절단",
-                        copy: "부",
-                        paste: "풀",
-                        undo: "끄르다",
-                        redo: "다시 하다",
-                        selectAll: "모두 선택",
-                        grouping: "그룹화",
-                        group: "그룹",
-                        ungroup: "그룹 해제",
-                        order: "주문",
-                        bringToFront: "BringToFront",
-                        moveForward: "앞으로가",
-                        sendBackward: "뒤로 보내기",
-                        sendToBack: "SendToBack",
-                    };
-                }
-                if (ej.datavisualization.RangeNavigator) {
-                    ej.datavisualization.RangeNavigator.Locale["ko-KR"] = {
-                        intervals: {
-                            quarter: {
-                                longQuarters: "쿼터,",
-                                shortQuarters: "큐"
-                            },
-                            week: {
-                                longWeeks: "주,",
-                                shortWeeks: "W"
-                            },
+            case "ejDiagram":
+                ej.datavisualization.Diagram.Locale = ej.datavisualization.Diagram.Locale || {};
+                ej.datavisualization.Diagram.Locale["ko-KR"] = {
+                    cut: "절단",
+                    copy: "부",
+                    paste: "풀",
+                    undo: "끄르다",
+                    redo: "다시 하다",
+                    selectAll: "모두 선택",
+                    grouping: "그룹화",
+                    group: "그룹",
+                    ungroup: "그룹 해제",
+                    order: "주문",
+                    bringToFront: "BringToFront",
+                    moveForward: "앞으로가",
+                    sendBackward: "뒤로 보내기",
+                    sendToBack: "SendToBack",
+                };
+                break;
+            case "ejRangeNavigator":
+                ej.datavisualization.RangeNavigator.Locale = ej.datavisualization.RangeNavigator.Locale || {};
+                ej.datavisualization.RangeNavigator.Locale["ko-KR"] = {
+                    intervals: {
+                        quarter: {
+                            longQuarters: "쿼터,",
+                            shortQuarters: "큐"
                         },
-                    };
-                }
+                        week: {
+                            longWeeks: "주,",
+                            shortWeeks: "W"
+                        },
+                    },
+                };
                 break;
             case "ejReportViewer":
+                ej.ReportViewer.Locale = ej.ReportViewer.Locale || {};
                 ej.ReportViewer.Locale["ko-KR"] = {
                     toolbar: {
                         print: {
@@ -1350,6 +1414,7 @@
                 };
                 break;
             case "ejRibbon":
+                ej.Ribbon.Locale = ej.Ribbon.Locale || {};
                 ej.Ribbon.Locale["ko-KR"] = {
                     CustomizeQuickAccess: "빠른 실행 도구 모음 사용자 정의",
                     RemoveFromQuickAccessToolbar: "빠른 실행 도구 모음에서 제거",
@@ -1360,6 +1425,7 @@
                 };
                 break;
             case "ejKanban":
+                ej.Kanban.Locale = ej.Kanban.Locale || {};
                 ej.Kanban.Locale["ko-KR"] = {
                     EmptyCard: "표시 할 카드가 없습니다.",
                     SaveButton: "구하다",
@@ -1390,6 +1456,7 @@
                 };
                 break;
             case "ejRTE":
+                ej.RTE.Locale = ej.RTE.Locale || {};
                 ej.RTE.Locale["ko-KR"] = {
                     bold: "대담한",
                     italic: "이탤릭체",
@@ -1547,6 +1614,7 @@
                 };
                 break;
             case "ejSchedule":
+                ej.Schedule.Locale = ej.Schedule.Locale || {};
                 ej.Schedule.Locale["ko-KR"] = {
                     ReminderWindowTitle: "알림 창",
                     CreateAppointmentTitle: "약속 만들기",
@@ -1655,6 +1723,7 @@
                 };
                 break;
             case "ejSpreadsheet":
+                ej.Spreadsheet.Locale = ej.Spreadsheet.Locale || {};
                 ej.Spreadsheet.Locale["ko-KR"] = {
                     Cut: "절단",
                     Copy: "부",
@@ -1769,6 +1838,8 @@
                     ThickBoxBorder: "두꺼운 박스 테두리",
                     ThickBottomBorder: "두꺼운 하단 테두리",
                     TopandThickBottomBorder: "위쪽 및 두꺼운 바닥 테두리",
+                    BottomDoubleBorder: "하단 이중 테두리",
+                    TopandBottomDoubleBorder: "상단 및 하단 이중 테두리",
                     DrawBorderGrid: "국경 그리드 그리기",
                     DrawBorder: "테두리 그리기",
                     TopandBottomBorder: "위쪽 및 아래쪽 테두리",
@@ -2226,7 +2297,7 @@
                     HugeDataAlert: "열이 너무 커서 파일.",
                     ImportExportUrl: "가져 오기 / 내보내기 URL을 지정하고 다시 시도하십시오.",
                     BetweenAlert: "최대가 크거나 최소한 같아야합니다.",
-                    BorderStyles: "고체 / 대시 / 점선",
+                    BorderStyles: "고체 / 대시 / 점선/두 번",
                     FPaneAlert: "고정 창은 첫 번째 셀에 적용되지 않습니다",
                     ReplaceNotFound: "스프레드 시트는 일치를 찾을 수 없습니다.",
                     BlankWorkbook: "빈 통합 문서",
@@ -2373,14 +2444,55 @@
                     AnalyzePivotTable:"피벗 테이블",
                     DataSource:"데이터 소스",
                     FATTitlePrefix:"표 스타일",
+                    HighPoint: "하이 포인트",
+                    LowPoint: "낮은 점수",
+                    FirstPoint: "첫 번째 포인트",
+                    LastPoint: "마지막 지점",
+                    NegativePoint: "제외 포인트",
+                    Markers: "마커",
+                    NegativePoints: "제외 포인트",
+                    LineSparklineTitle: "선 스파크 라인 삽입",
+                    LineSparklineContent: "스파크 라인은 하나의 셀에 배치 된 미니 차트로 각 셀은 선택한 데이터 행을 나타냅니다.",
+                    ColumnSparklineTitle: "열 삽입 스파크 라인",
+                    ColumnSparklineContent: "스파크 라인은 하나의 셀에 배치 된 미니 차트로 각 셀은 선택한 데이터 행을 나타냅니다.",
+                    WinLossSparklineTitle: "승 / 분실 스파크 라인 삽입",
+                    WinLossSparklineContent: "스파크 라인은 하나의 셀에 배치 된 미니 차트로 각 셀은 선택한 데이터 행을 나타내며,",
+                    Line: "선",
+                    SparklineColor: "스파크 라인 색상",
+                    SparklineColorTitle: "스파크 라인 색상",
+                    SparklineColorContent: "선택한 스파크 라인 그룹에서 스파크 라인의 색상을 지정하십시오",
+                    MarkerColor: "마커 색상",
+                    MarkerColorContent: "선택한 스파크 라인 그룹에 대해 음수 포인트, 마커 및 다른 모든 포인트의 색상 변경",
+                    ChooseDataRange: "데이터 범위 선택",
+                    ChooseLocationRange: "위치 범위 선택",
+                    DataRange: "데이터 범위",
+                    LocationRange: "위치 범위",
+                    EmptyDLRnge: "데이터 소스 또는 위치 참조가 유효하지 않습니다.",
+                    SourceDataRange: "스파크 라인의 소스 데이터 범위 선택",
+                    SparklineAlert: "셀이 모두 동일한 열 또는 동일한 행에 있지 않기 때문에 위치 참조가 유효하지 않습니다. 모두 단일 행 또는 단일 열에있는 셀 선택",
+                    SparklineDataAlert: "올바른 데이터 형식 입력",
+                    SparklineLocAlert: "위치 또는 데이터 범위에 대한 참조가 유효하지 않습니다.",
+                    SDataRangeAlert: "데이터 소스 참조가 유효하지 않습니다.",
+                    LineAlert: "단일 값에 대한 꺾은 선형 차트를 만들 수 없습니다.",
+                    EditData: "데이터 수정",
+                    EditDataContent: "그룹 위치 및 데이터 수정",
+                    EditSingleSparklineData: "단일 스파크 라인 데이터 수정",
+                    EditSparklineData: "스파크 라인 데이터 수정",
+                    HiddenEmptyCells: "숨겨진 셀 및 빈 셀",
+                    SwitchRowCol: "행 / 열 전환",
+                    CreateSparkline: "스파크 라인 만들기",
+                    SelectDataSource: "스파크 라인의 소스 데이터 범위 선택",
+                    SPARKLINEDESIGN: "스파크 라인 디자인",
                 };
                 break;
 			case "ejTimePicker":
+                ej.TimePicker.Locale = ej.TimePicker.Locale || {};
                 ej.TimePicker.Locale["ko-KR"] = {
                     watermarkText: "시간을 선택하십시오.",
                 };
                 break;		
             case "ejTreeGrid":
+                ej.TreeGrid.Locale = ej.TreeGrid.Locale || {};
                 ej.TreeGrid.Locale["ko-KR"] = {
                     toolboxTooltipTexts: {
                         addTool: "더하다",
@@ -2393,6 +2505,7 @@
                         pdfExportTool: "PDF 내보내기",
                         excelExportTool: "엑셀 내보내기",
                         printTool: "인쇄",
+                        searchTool: "수색"
                     },
                     contextMenuTexts: {
                         addRowText: "행 추가",
@@ -2498,6 +2611,7 @@
                 };
                 break;
             case "ejUploadbox":
+                ej.Uploadbox.Locale = ej.Uploadbox.Locale || {};
                 ej.Uploadbox.Locale["ko-KR"] = {
                     buttonText: {
                         upload: "업로드",
@@ -2524,17 +2638,20 @@
                 };
                 break;
             case "ejTile":
+                ej.Tile.Locale = ej.Tile.Locale || {};
                 ej.Tile.Locale["ko-KR"] = {
                     captionText: "본문"
                 };
                 break;
             case "ejListView":
+                ej.ListView.Locale = ej.ListView.Locale || {};
                 ej.ListView.Locale["ko-KR"] = {
                     headerTitle: "표제",
                     headerBackButtonText: "뒤로"
                 };
                 break;
             case "ejSpellCheck":
+                ej.SpellCheck.Locale = ej.SpellCheck.Locale || {};
                 ej.SpellCheck.Locale["ko-KR"] = {
                     SpellCheckButtonText: "철자",
                     NotInDictionary: "사전에 없습니다.",

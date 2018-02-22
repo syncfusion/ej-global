@@ -1,11 +1,3 @@
-/*!
-*  filename: ej.localetexts.sk-SK.js
-*  Copyright Syncfusion Inc. 2001 - 2014. All rights reserved.
-*  Use of this code is subject to the terms of our license.
-*  A copy of the current license can be obtained at any time by e-mailing
-*  licensing@syncfusion.com. Any infringement will be prosecuted under
-*  applicable laws. 
-*/
 (function ($, ej, undefined) {
     var name, widgets;
     if (ej.locales.indexOf("skSK") < 0)
@@ -13,6 +5,7 @@
     $.fn.Locale_skSK = function (pluginName) {
         switch (pluginName) {
             case "ejAutocomplete":
+                ej.Autocomplete.Locale = ej.Autocomplete.Locale || {};
                 ej.Autocomplete.Locale["sk-SK"] = {
                     addNewText: "Pridať nové",
                     emptyResultText: "žiadne návrhy",
@@ -21,6 +14,7 @@
                 };
                 break;
             case "ejColorPicker":
+                ej.ColorPicker.Locale = ej.ColorPicker.Locale || {};
                 ej.ColorPicker.Locale["sk-SK"] = {
                     buttonText: {
                         apply: "aplikovať",
@@ -48,17 +42,20 @@
                 };
                 break;
             case "ejCurrencyTextbox":
+                ej.CurrencyTextbox.Locale = ej.CurrencyTextbox.Locale || {};
                 ej.CurrencyTextbox.Locale["sk-SK"] = {
                     watermarkText: "zadajte hodnotu",
                 };
                 break;
             case "ejDatePicker":
+                ej.DatePicker.Locale = ej.DatePicker.Locale || {};
                 ej.DatePicker.Locale["sk-SK"] = {
                     watermarkText: "vyberte dátum",
                     buttonText: "dnes",
                 };
                 break;
             case "ejDateRangePicker":
+                ej.DateRangePicker.Locale = ej.DateRangePicker.Locale || {};
                 ej.DateRangePicker.Locale["sk-SK"] = {
                     ButtonText: {
                         apply: "aplikovať",
@@ -70,6 +67,7 @@
                 };
                 break;
             case "ejDateTimePicker":
+                ej.DateTimePicker.Locale = ej.DateTimePicker.Locale || {};
                 ej.DateTimePicker.Locale["sk-SK"] = {
                     watermarkText: "Vybrať dátum a čas",
                     buttonText: {
@@ -81,6 +79,7 @@
                 };
                 break;
             case "ejDialog":
+                ej.Dialog.Locale = ej.Dialog.Locale || {};
                 ej.Dialog.Locale["sk-SK"] = {
                     tooltip: {
                         close: "Blízky",
@@ -96,12 +95,31 @@
                 };
                 break;
             case "ejDropDownList":
+                ej.DropDownList.Locale = ej.DropDownList.Locale || {};
                 ej.DropDownList.Locale["sk-SK"] = {
                     emptyResultText: "Žiadne návrhy,",
                     watermarkText: " ",
                 };
                 break;
+			case "ejComboBox":
+                ej.ComboBox.Locale["sk-SK"] = {
+                    noRecordsTemplate: "Záznam nenalezol",
+					actionFailureTemplate: "Žiadosť zlyhala"
+                };
+                break;
+			case "ejMenu":
+                ej.Menu.Locale["sk-SK"] = {
+                    titleText: "Ponuka"
+                };
+                break;
+			case "ejCaptcha":
+                ej.Captcha.Locale["sk-SK"] = {
+					placeHolderText: "Opíš zobrazený kód",
+					CustomErrorMessage: "Neplatná captcha"
+                };
+                break;
             case "ejExcelFilter":
+                ej.ExcelFilter.Locale = ej.ExcelFilter.Locale || {};
                 ej.ExcelFilter.Locale["sk-SK"] = {
                     SortNoSmaller: "Usporiadať najmenšie k najväčšej",
                     SortNoLarger: "Usporiadať najväčšieho k najmenšiemu",
@@ -149,6 +167,7 @@
                 };
                 break;
             case "ejFileExplorer":
+                ej.FileExplorer.Locale = ej.FileExplorer.Locale || {};
                 ej.FileExplorer.Locale["sk-SK"] = {
                     Folder: "zložka",
                     EmptyFolder: "Tento priečinok je prázdny",
@@ -247,6 +266,7 @@
                 };
                 break;
             case "ejGantt":
+                ej.Gantt.Locale = ej.Gantt.Locale || {};
                 ej.Gantt.Locale["sk-SK"] = {
                     emptyRecord: "žiadne záznamy na zobrazenie",
                     unassignedTask: "Nespísaná úloha",
@@ -431,9 +451,31 @@
                             { id: "FS", text: "Skončiť-štart", value: "Skončiť-štart" },
                             { id: "FF", text: "Skončiť-Skončiť", value: "Skončiť-Skončiť" }
                     ],
+
+                    linkValidationRuleText: {
+                        taskBeforePredecessor: "Presunuli ste sa '{0}' ', aby ste začali pred tým, ako' '{1}' 'skončí a obe úlohy sú prepojené. Výsledkom je, že odkazy nemôžu byť splnené. Vyberte jednu z nižšie uvedených krokov",
+                        taskAfterPredecessor: "Presunuli ste '{0}' od '{1}' a tieto dve úlohy sú prepojené. Výsledkom je, že odkazy nemôžu byť splnené. Vyberte jednu z nižšie uvedených krokov",
+                    },
+                    linkValidationDialogTitle: "Overenie úpravy",
+                    linkValidationRuleOptions: {
+                        cancel: "Zrušiť, zachovať existujúci odkaz",
+                        removeLink: "Odstráňte odkaz a presuňte '{0}' a začnite na '{1}'.",
+                        preserveLink: "Presuňte '{0}' a začnite na '{1}' a ponechajte odkaz."
+                    },
+                    connectorLineDialogText: {
+                        from: "z",
+                        to: "na",
+                        taskLink: "Odkaz na úlohu",
+                        lag: "meškať",
+                        okButtonText: "odsúhlasiť",
+                        cancelButtonText: "Zrušiť",
+                        deleteButtonText: "vymazať",
+                        title: "Závislosť úloh"
+                    }
                 };
                 break;
             case "ejGrid":
+                ej.Grid.Locale = ej.Grid.Locale || {};
                 ej.Grid.Locale["sk-SK"] = {
                     EmptyRecord: "žiadne záznamy na zobrazenie",
                     GroupDropArea: "Pretiahnuť záhlavie stĺpca tu skupine je to stĺpec",
@@ -503,6 +545,7 @@
                 break;
             case "ejmobile":
                 if (ej.mobile.Grid) {
+                    ej.mobile.Grid.Locale = ej.mobile.Grid.Locale || {};
                     ej.mobile.Grid.Locale["sk-SK"] = {
                         emptyResult: "žiadne záznamy na zobrazenie",
                         filterValidation: "Zadajte platné dáta filtra",
@@ -520,6 +563,7 @@
                     ;
                 }
                 if ( ej.mobile.DatePicker) {
+                    ej.mobile.DatePicker.Locale =  ej.mobile.DatePicker.Locale || {};
                     ej.mobile.DatePicker.Locale["sk-SK"] = {
                         confirmText: "hotový",
                         Windows: {
@@ -532,6 +576,7 @@
                     ;
                 }
                 if (ej.mobile.TimePicker) {
+                    ej.mobile.TimePicker.Locale = ej.mobile.TimePicker.Locale || {};
                     ej.mobile.TimePicker.Locale["sk-SK"] = {
                         confirmText: "hotový",
                         AM: "AM",
@@ -549,11 +594,13 @@
                 }
                 break;
             case "ejNumericTextbox":
+                ej.NumericTextbox.Locale = ej.NumericTextbox.Locale || {};
                 ej.NumericTextbox.Locale["sk-SK"] = {
                     watermarkText: "zadajte hodnotu",
                 };
                 break;
             case "ejPivotChart":
+                ej.PivotChart.Locale = ej.PivotChart.Locale || {};
                 ej.PivotChart.Locale["sk-SK"] = {
                     Measure: "opatrenia",
                     Row: "riadok",
@@ -600,6 +647,7 @@
                 };
                 break;
             case "ejPivotClient":
+                ej.PivotClient.Locale = ej.PivotClient.Locale || {};
                 ej.PivotClient.Locale["sk-SK"] = {
                     DoesNotBeginsWith: "Sa začína",
                     DoesNotEndsWith: "Nekončí",
@@ -750,16 +798,21 @@
                     RenameMsg: "Správa premenovaný úspešne!!!",
                     RemoveMsg: "Správy odstrániť úspešne!!!",
                     Success: "Úspech",
-                    KpiAlertMsg: "Pole, na ktoré sa nemôžu byť umiestnené v oblasti správy"
+                    KpiAlertMsg: "Pole, na ktoré sa nemôžu byť umiestnené v oblasti správy",
+                    NotAllItemsShowing: "Nie všetky detské uzly sú znázornené",
+                    EditorLinkPanelAlert: "Členmi je viac ako 1000 položiek v rámci jedného alebo viacerých rodičov. Len prvých 1000 položky sa zobrazia v rámci každého rodiča.",
+                    NamedSetAlert:"Pomenovaný súbor nie je možné pridať do zostavy kontingenčnej tabuľky v rovnakom čase ako ďalší s názvom vychádzajú z rovnakej oblasti. Kliknite na tlačidlo OK a vyberte ' <Set 1'> s názvom súboru a ' <Set 2> ' pod názvom."
                 };
                 break;
             case "ejPivotGauge":
+                ej.PivotGauge.Locale = ej.PivotGauge.Locale || {};
                 ej.PivotGauge.Locale["sk-SK"] = {
                     RevenueGoal: "výnosy Cieľ",
                     RevenueValue: "hodnota tržieb",
                 };
                 break;
             case "ejPager":
+                ej.Pager.Locale = ej.Pager.Locale || {};
                 ej.Pager.Locale["sk-SK"] = {
                     pagerInfo: "{0} z {1} strán ({2} položiek)",
                     firstPageTooltip: "Ísť na prvú stránku",
@@ -771,6 +824,7 @@
                 };
                 break;
             case "ejPdfViewer":
+                ej.PdfViewer.Locale = ej.PdfViewer.Locale || {};
                 ej.PdfViewer.Locale["sk-SK"] = {
                     toolbar: {
                         print: {
@@ -935,11 +989,13 @@
                 };
                 break;
             case "ejPercentageTextbox":
+                ej.PercentageTextbox.Locale = ej.PercentageTextbox.Locale || {};
                 ej.PercentageTextbox.Locale["sk-SK"] = {
                     watermarkText: "zadajte hodnotu",
                 };
                 break;
             case "ejPivotGrid":
+                ej.PivotGrid.Locale = ej.PivotGrid.Locale || {};
                 ej.PivotGrid.Locale["sk-SK"] = {
                     Total: "Celková",
                     GrandTotal:"Celkový súčet",
@@ -1144,10 +1200,13 @@
 					FormatName: "Formát mena",
 					RemoveFormat: "Vyberte formát",
 					Edit: "Úprava",
-					DuplicateFormatName: "Kopírovať formát Mena"
+					DuplicateFormatName: "Kopírovať formát Mena",
+					NotAllItemsShowing: "Nie všetky detské uzly sú znázornené",
+					EditorLinkPanelAlert: "Členmi je viac ako 1000 položiek v rámci jedného alebo viacerých rodičov. Len prvých 1000 položky sa zobrazia v rámci každého rodiča."
                 };
                 break;
             case "ejPivotPager":
+                ej.PivotPager.Locale = ej.PivotPager.Locale || {};
                 ej.PivotPager.Locale["sk-SK"] = {
                     SeriesPage: "Séria s",
                     CategoricalPage: "Kategorické stránka",
@@ -1158,6 +1217,7 @@
                 };
                 break;
             case "ejPivotSchemaDesigner":
+                ej.PivotSchemaDesigner.Locale = ej.PivotSchemaDesigner.Locale || {};
                 ej.PivotSchemaDesigner.Locale["sk-SK"] = {
                     DoesNotBeginsWith: "Sa začína",
                     DoesNotEndsWith: "Nekončí",
@@ -1217,44 +1277,48 @@
                     OK: "Tlačidlo OK",
                     Cancel: "Zrušenie",
                     Search: "Vyhľadávanie",
-                    AddCurrentSelectionToFilter: "Pridajte aktuálny výber na filtrovanie"
+                    AddCurrentSelectionToFilter: "Pridajte aktuálny výber na filtrovanie",
+                    NotAllItemsShowing: "Nie všetky detské uzly sú znázornené",
+                    EditorLinkPanelAlert: "Členmi je viac ako 1000 položiek v rámci jedného alebo viacerých rodičov. Len prvých 1000 položky sa zobrazia v rámci každého rodiča.",
+                    NamedSetAlert: "Pomenovaný súbor nie je možné pridať do zostavy kontingenčnej tabuľky v rovnakom čase ako ďalší s názvom vychádzajú z rovnakej oblasti. Kliknite na tlačidlo OK a vyberte ' <Set 1'> s názvom súboru a ' <Set 2> ' pod názvom."
                 };
                 break;
-            case "ejdatavisualization":
-                if (ej.datavisualization.Diagram){
-                    ej.datavisualization.Diagram.Locale["sk-SK"] = {
-                        cut: "rez",
-                        copy: "kópie",
-                        paste: "pasta",
-                        undo: "rozopnúť",
-                        redo: "prerobiť",
-                        selectAll: "Vybrať všetko",
-                        grouping: "zoskupenia",
-                        group: "skupina",
-                        ungroup: "oddeliť",
-                        order: "objednávka",
-                        bringToFront: "BringToFront",
-                        moveForward: "Pohnúť sa vpred",
-                        sendBackward: "preniesť ďalej",
-                        sendToBack: "SendToBack",
-                    };
-                }
-                if (ej.datavisualization.RangeNavigator){
-                    ej.datavisualization.RangeNavigator.Locale["sk-SK"] = {
-                        intervals: {
-                            quarter: {
-                                longQuarters: "Quarter,",
-                                shortQuarters: "Q"
-                            },
-                            week: {
-                                longWeeks: "týždeň,",
-                                shortWeeks: "W"
-                            },
+            case "ejDiagram":
+                ej.datavisualization.Diagram.Locale = ej.datavisualization.Diagram.Locale || {};
+                ej.datavisualization.Diagram.Locale["sk-SK"] = {
+                    cut: "rez",
+                    copy: "kópie",
+                    paste: "pasta",
+                    undo: "rozopnúť",
+                    redo: "prerobiť",
+                    selectAll: "Vybrať všetko",
+                    grouping: "zoskupenia",
+                    group: "skupina",
+                    ungroup: "oddeliť",
+                    order: "objednávka",
+                    bringToFront: "BringToFront",
+                    moveForward: "Pohnúť sa vpred",
+                    sendBackward: "preniesť ďalej",
+                    sendToBack: "SendToBack",
+                };
+                break;
+            case "ejRangeNavigator":
+                ej.datavisualization.RangeNavigator.Locale = ej.datavisualization.RangeNavigator.Locale || {};
+                ej.datavisualization.RangeNavigator.Locale["sk-SK"] = {
+                    intervals: {
+                        quarter: {
+                            longQuarters: "Quarter,",
+                            shortQuarters: "Q"
                         },
-                    };
-                }
+                        week: {
+                            longWeeks: "týždeň,",
+                            shortWeeks: "W"
+                        },
+                    },
+                };
                 break;
             case "ejReportViewer":
+                ej.ReportViewer.Locale = ej.ReportViewer.Locale || {};
                 ej.ReportViewer.Locale["sk-SK"] = {
                     toolbar: {
                         print: {
@@ -1354,6 +1418,7 @@
                 };
                 break;
             case "ejRibbon":
+                ej.Ribbon.Locale = ej.Ribbon.Locale || {};
                 ej.Ribbon.Locale["sk-SK"] = {
                     CustomizeQuickAccess: "Prispôsobenie Panel s nástrojmi Rýchly prístup",
                     RemoveFromQuickAccessToolbar: "Odstrániť z panela nástrojov Rýchly prístup",
@@ -1364,6 +1429,7 @@
                 };
                 break;
             case "ejKanban":
+                ej.Kanban.Locale = ej.Kanban.Locale || {};
                 ej.Kanban.Locale["sk-SK"] = {
                     EmptyCard: "Žiadne karty na zobrazenie",
                     SaveButton: "uložiť",
@@ -1394,6 +1460,7 @@
                 };
                 break;
             case "ejRTE":
+                ej.RTE.Locale = ej.RTE.Locale || {};
                 ej.RTE.Locale["sk-SK"] = {
                     bold: "tučný",
                     italic: "kurzíva",
@@ -1550,6 +1617,7 @@
                 };
                 break;
             case "ejSchedule":
+                ej.Schedule.Locale = ej.Schedule.Locale || {};
                 ej.Schedule.Locale["sk-SK"] = {
                     ReminderWindowTitle: "okno pripomienka",
                     CreateAppointmentTitle: "Vytvoriť udalosť",
@@ -1658,6 +1726,7 @@
                 };
                 break;
             case "ejSpreadsheet":
+                ej.Spreadsheet.Locale = ej.Spreadsheet.Locale || {};
                 ej.Spreadsheet.Locale["sk-SK"] = {
                     Cut: "rez",
                     Copy: "kópie",
@@ -1772,6 +1841,8 @@
                     ThickBoxBorder: "Silný Box Border",
                     ThickBottomBorder: "Silný Dolné ohraničenie",
                     TopandThickBottomBorder: "Horné a Dolné ohraničenie Thick",
+                    BottomDoubleBorder: "Spodná dvojitá hranica",
+                    TopandBottomDoubleBorder: "Horná a dolná dvojnásobná hranica",
                     DrawBorderGrid: "Nakresliť mriežku orámovania",
                     DrawBorder: "nakresliť ohraničenie",
                     TopandBottomBorder: "Horné a Dolné ohraničenie",
@@ -2229,7 +2300,7 @@
                     HugeDataAlert: "Súbor je príliš veľké otvoriť.",
                     ImportExportUrl: "Dajte import / export URL a skúste to znova.",
                     BetweenAlert: "Maximálna musí byť väčšia alebo rovná minimálne.",
-                    BorderStyles: "Solid / Prerušované / bodkovaného",
+                    BorderStyles: "Solid / Prerušované / bodkovaného/Dvojité",
                     FPaneAlert: "Freeze Pane nie je použitá pre prvú bunku",
                     ReplaceNotFound: "Tabuľkový procesor nemôže nájsť zhodu.",
                     BlankWorkbook: "prázdny zošit",
@@ -2376,14 +2447,55 @@
                     AnalyzePivotTable:"kontingenčnej",
                     DataSource:"Zdroj údajov",
                     FATTitlePrefix:"Štýl stola",
+                    HighPoint: "Vysoký bod",
+                    LowPoint: "Nízky bod",
+                    FirstPoint: "Prvý bod",
+                    LastPoint: "Posledný bod",
+                    NegativePoint: "Negatívne body",
+                    Markers: "markery",
+                    NegativePoints: "Negatívne body",
+                    LineSparklineTitle: "Vložiť linku Sparkline",
+                    LineSparklineContent: "Sparklines sú mini grafy umiestnené v jednotlivých bunkách, z ktorých každý reprezentuje rad dát vo vašom výbere",
+                    ColumnSparklineTitle: "Vložiť stĺpec Sparkline",
+                    ColumnSparklineContent: "Sparklines sú mini grafy umiestnené v jednotlivých bunkách, z ktorých každý reprezentuje rad dát vo vašom výbere",
+                    WinLossSparklineTitle: "Vložte Sparkline Win / Loss",
+                    WinLossSparklineContent: "Sparklines sú mini grafy umiestnené v jednej bunke, z ktorých každá predstavuje rad dát vo vašom výbere,",
+                    Line: "riadok",
+                    SparklineColor: "Sparkline Color",
+                    SparklineColorTitle: "Sparkline Color",
+                    SparklineColorContent: "Určite farbu jiskrových značiek vo zvolenej skupine zapaľovania",
+                    MarkerColor: "Farba značky",
+                    MarkerColorContent: "Zmena farby negatívnych bodov, značiek a všetkých ostatných bodov pre vybranú skupinu sparkline",
+                    ChooseDataRange: "Vyberte rozsah údajov",
+                    ChooseLocationRange: "Zvoľte Rozsah umiestnenia",
+                    DataRange: "Rozsah údajov",
+                    LocationRange: "Rozsah umiestnení",
+                    EmptyDLRnge: "Zdroj údajov alebo odkaz na umiestnenie nie je platný",
+                    SourceDataRange: "Zvoľte rozsah zdrojov dát pre sparkline",
+                    SparklineAlert: "Odkaz na umiestnenie nie je platný, pretože bunky nie sú všetky v rovnakom stĺpci alebo rovnakom riadku. Vyberte bunky, ktoré sú všetky v jednom riadku alebo v jednom stĺpci",
+                    SparklineDataAlert: "Zadajte formát správnych údajov",
+                    SparklineLocAlert: "Odkaz na umiestnenie alebo rozsah údajov nie je platný",
+                    SDataRangeAlert: "Odkaz zdroja údajov nie je platný",
+                    LineAlert: "Nie je možné vytvoriť riadok pre jednotlivé hodnoty",
+                    EditData: "Úprava údajov",
+                    EditDataContent: "Upraviť umiestnenie a údaje skupiny",
+                    EditSingleSparklineData: "Úprava údajov o jednotlivom sparkline",
+                    EditSparklineData: "Upraviť údaje o sparkline",
+                    HiddenEmptyCells: "Skryté a prázdne bunky",
+                    SwitchRowCol: "Prepnúť riadok / stĺpec",
+                    CreateSparkline: "Vytvoriť Sparkline",
+                    SelectDataSource: "Zvoľte rozsah zdrojov dát pre sparkline",
+                    SPARKLINEDESIGN: "Sparkline Design",
                 };
                 break;
 			case "ejTimePicker":
+                ej.TimePicker.Locale = ej.TimePicker.Locale || {};
                 ej.TimePicker.Locale["sk-SK"] = {
                     watermarkText: "vyberte čas",
                 };
                 break;		
             case "ejTreeGrid":
+                ej.TreeGrid.Locale = ej.TreeGrid.Locale || {};
                 ej.TreeGrid.Locale["sk-SK"] = {
                     toolboxTooltipTexts: {
                         addTool: "pridať",
@@ -2396,6 +2508,7 @@
                         pdfExportTool: "Export do formátu PDF",
                         excelExportTool: "export excel",
                         printTool: "vytlačiť",
+                        searchTool: "Vyhľadanie"
                     },
                     contextMenuTexts: {
                         addRowText: "Pridať riadok",
@@ -2501,6 +2614,7 @@
                 };
                 break;
             case "ejUploadbox":
+                ej.Uploadbox.Locale = ej.Uploadbox.Locale || {};
                 ej.Uploadbox.Locale["sk-SK"] = {
                     buttonText: {
                         upload: "nahrať",
@@ -2527,17 +2641,20 @@
                 };
                 break;
             case "ejTile":
+                ej.Tile.Locale = ej.Tile.Locale || {};
                 ej.Tile.Locale["sk-SK"] = {
                     captionText: "textu"
                 };
                 break;
             case "ejListView":
+                ej.ListView.Locale = ej.ListView.Locale || {};
                 ej.ListView.Locale["sk-SK"] = {
                     headerTitle: "Titul",
                     headerBackButtonText: "Back"
                 };
                 break;
             case "ejSpellCheck":
+                ej.SpellCheck.Locale = ej.SpellCheck.Locale || {};
                 ej.SpellCheck.Locale["sk-SK"] = {
                     SpellCheckButtonText: "pravopis",
                     NotInDictionary: "Nie je v slovníku",

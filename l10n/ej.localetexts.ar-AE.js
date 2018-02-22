@@ -1,12 +1,3 @@
-/*!
-*  filename: ej.localetexts.ar-AE.js
-*  Copyright Syncfusion Inc. 2001 - 2016. All rights reserved.
-*  Use of this code is subject to the terms of our license.
-*  A copy of the current license can be obtained at any time by e-mailing
-*  licensing@syncfusion.com. Any infringement will be prosecuted under
-*  applicable laws. 
-*/
-
 (function ($, ej, undefined) {
     var name, widgets;
     if (ej.locales.indexOf("arAE") < 0)
@@ -109,6 +100,26 @@
                 ej.DropDownList.Locale["ar-AE"] = {
                     emptyResultText: "لا اقتراحات،",
                     watermarkText: " ",
+                };
+                break;
+			case "ejComboBox":
+                ej.ComboBox.Locale = ej.ComboBox.Locale || {};
+                ej.ComboBox.Locale["ar-AE"] = {
+                    noRecordsTemplate: "لا توجد سجلات",
+					actionFailureTemplate: "أخفق الطلب"
+                };
+                break;
+			case "ejMenu":
+                ej.Menu.Locale = ej.Menu.Locale || {};
+                ej.Menu.Locale["ar-AE"] = {
+                    titleText: "قائمة طعام"
+                };
+                break;
+			case "ejCaptcha":
+                ej.Captcha.Locale = ej.Captcha.Locale || {};
+                ej.Captcha.Locale["ar-AE"] = {
+					placeHolderText: "اكتب الرمز المعروض",
+					CustomErrorMessage: "كلمة التحقق غير صالحة"
                 };
                 break;
             case "ejExcelFilter":
@@ -444,6 +455,31 @@
                             { id: "FS", text: "بداية- نهاية", value: "بداية- نهاية" },
                             { id: "FF", text: "نهاية-نهاية", value: "نهاية-نهاية" }
                     ],
+
+                   
+                    linkValidationRuleText: {
+                        taskBeforePredecessor: "قمت بنقل '{0}' لبدء قبل '{1}' إنهاء والمهمتين مرتبطة. ونتيجة لذلك، لا يمكن الوفاء بالروابط. حدد إجراء واحدا أدناه لإجراءه",
+                        taskAfterPredecessor: "قمت بنقل '{0}' بعيدا عن '{1}' والمهمتين مرتبطة. ونتيجة لذلك، لا يمكن الوفاء بالروابط. حدد إجراء واحدا أدناه لإجراءه",
+                    },
+
+                    linkValidationDialogTitle: "التحقق من صحة التعديل",
+
+                    
+                    linkValidationRuleOptions: {
+                        cancel: "إلغاء، حافظ على الرابط الموجود",
+                        removeLink: ".'{أزل الرابط وانقل '{0}' لبدء تشغيل '{1",
+                        preserveLink: "حرك '{0}' لبدء تشغيل '{1}' واحتفظ بالرابط."
+                    },
+                    connectorLineDialogText: {
+                        from: "من عند",
+                        to: "إلى",
+                        taskLink: "رابط المهام",
+                        lag: "تأخر",
+                        okButtonText: "حسنا",
+                        cancelButtonText: "إلغاء",
+                        deleteButtonText: "حذف",
+						title: "الاعتماد على المهام"
+                    }
                 };
                 break;
             case "ejGrid":
@@ -774,7 +810,10 @@
                     RenameMsg: "اعادة تسمية تقرير بنجاح!!!",
                     RemoveMsg: "التقرير على ازالة بنجاح!!!",
                     Success: "النجاح",
-                    KpiAlertMsg: "مجال التحرك يمكن ان توضع فى هذا التقرير"
+                    KpiAlertMsg: "مجال التحرك يمكن ان توضع فى هذا التقرير",
+                    NotAllItemsShowing: "لا يتم عرض جميع الاطفال العقد",
+                    EditorLinkPanelAlert: "للاعضاء اكثر من 1000 بند او اكثر من الابوين. فقط 1000 البنود يتم عرضها فى اطار كل من الابوين.",
+                    NamedSetAlert: "مجموعة مسماة لا يمكن اضافتها الى اداة PivotTable التقرير فى نفس الوقت اخر يدعى المبنية على نفس المجال. انقر فوق موافق لازالة مجموعة ' <Set 1> ' و ' <Set 2> '."
                 };
                 break;
             case "ejPivotGauge":
@@ -1172,7 +1211,9 @@
                     FormatName: "شكل الاسم",
                     RemoveFormat: "قم بازالة الشكل",
                     Edit: "تحرير",
-                    DuplicateFormatName: "الشكل المكرر الاسم"
+                    DuplicateFormatName: "الشكل المكرر الاسم",
+                    NotAllItemsShowing: "لا يتم عرض جميع الاطفال العقد",
+                    EditorLinkPanelAlert: "للاعضاء اكثر من 1000 بند او اكثر من الابوين. فقط 1000 البنود يتم عرضها فى اطار كل من الابوين."
                 };
                 break;
             case "ejPivotPager":
@@ -1250,66 +1291,67 @@
                     Cancel: "الغاء",
                     Close: "قريب",
                     Search: "البحث",
-                    AddCurrentSelectionToFilter: "أضف التحديد الحالي للتصفية"
+                    AddCurrentSelectionToFilter: "أضف التحديد الحالي للتصفية",
+                    NotAllItemsShowing: "لا يتم عرض جميع الاطفال العقد",
+                    EditorLinkPanelAlert: "للاعضاء اكثر من 1000 بند او اكثر من الابوين. فقط 1000 البنود يتم عرضها فى اطار كل من الابوين.",
+                    NamedSetAlert: "مجموعة مسماة لا يمكن اضافتها الى اداة PivotTable التقرير فى نفس الوقت اخر يدعى المبنية على نفس المجال. انقر فوق موافق لازالة مجموعة ' <Set 1> ' و ' <Set 2> '."
                 };
                 break;
-            case "ejdatavisualization":
-                if (ej.datavisualization.Map) {
-                    ej.datavisualization.Map.Locale = ej.datavisualization.Map.Locale || {};
-                    ej.datavisualization.Map.Locale["ar-AE"] = {
-                        zoomIn: "تكبير",
-                        zoomOut: "تصغير",
-                        panTop: "عموم الأعلى",
-                        panBottom: "أسفل عموم",
-                        panLeft: "عموم اليسار",
-                        panRight: "عموم اليمين",
-                        home: "الصفحة الرئيسية"
-                    };
-                }
-                if (ej.datavisualization.RangeNavigator) {
-                    ej.datavisualization.RangeNavigator.Locale = ej.datavisualization.RangeNavigator.Locale || {};
-                    ej.datavisualization.RangeNavigator.Locale["ar-AE"] = {
-                        intervals: {
-                            quarter: {
-                                longQuarters: "ربع،",
-                                shortQuarters: "س"
-                            },
-                            week: {
-                                longWeeks: "أسبوع،",
-                                shortWeeks: "W"
-                            },
+            case "ejDiagram":
+                ej.datavisualization.Diagram.Locale = ej.datavisualization.Diagram.Locale || {};
+                ej.datavisualization.Diagram.Locale["ar-AE"] = {
+                    cut: "قطع",
+                    copy: "نسخ",
+                    paste: "معجون",
+                    undo: "فك",
+                    redo: "فعل ثانية",
+                    selectAll: "اختر الكل",
+                    grouping: "تجمع",
+                    group: "مجموعة",
+                    ungroup: "فك التجميع",
+                    order: "طلب",
+                    bringToFront: "اجلب للمقدمة",
+                    moveForward: "التحرك إلى الأمام",
+                    sendBackward: "إرسال إلى الخلف",
+                    sendToBack: "إرسال إلى الخلف",
+                };
+                break;
+            case "ejChart":
+                ej.datavisualization.Chart.Locale = ej.datavisualization.Chart.Locale || {};
+                ej.datavisualization.Chart.Locale["ar-AE"] = {
+                    zoomIn: "زومٍي",
+                    zoomOut: "ذوموت",
+                    zoom: "زوم",
+                    pan: "بان",
+                    reset: "رست"
+                };
+                break;
+            case "ejMap":
+                ej.datavisualization.Map.Locale = ej.datavisualization.Map.Locale || {};
+                ej.datavisualization.Map.Locale["ar-AE"] = {
+                    zoomIn: "زومٍي",
+                    zoomOut: "ذوموت",
+                    panTop: "بانتوب",
+                    panBottom: "بان بتم",
+                    panLeft: "بانلفت",
+                    panRight: "بان رغت",
+                    home: "هم"
+                };
+                break;
+            case "ejRangeNavigator":
+                ej.datavisualization.RangeNavigator.Locale = ej.datavisualization.RangeNavigator.Locale || {};
+                ej.datavisualization.RangeNavigator.Locale["ar-AE"] = {
+                    intervals: {
+                        quarter: {
+                            longQuarters: "ربع،",
+                            shortQuarters: "س"
                         },
-                    };
-                }
-                if (ej.datavisualization.Chart) {
-                    ej.datavisualization.Chart.Locale = ej.datavisualization.Chart.Locale || {};
-                    ej.datavisualization.Chart.Locale["ar-AE"] = {
-                        zoomIn: "تكبير",
-                        zoomOut: "تصغير",
-                        zoom: "زوم",
-                        pan: "مقلاة",
-                        reset: "إعادة تعيين"
-                    };
-                }
-                if (ej.datavisualization.Diagram) {
-                    ej.datavisualization.Diagram.Locale = ej.datavisualization.Diagram.Locale || {};
-                    ej.datavisualization.Diagram.Locale["ar-AE"] = {
-                        cut: "قطع",
-                        copy: "نسخ",
-                        paste: "معجون",
-                        undo: "فك",
-                        redo: "فعل ثانية",
-                        selectAll: "اختر الكل",
-                        grouping: "تجمع",
-                        group: "مجموعة",
-                        ungroup: "فك التجميع",
-                        order: "طلب",
-                        bringToFront: "اجلب للمقدمة",
-                        moveForward: "التحرك إلى الأمام",
-                        sendBackward: "إرسال إلى الخلف",
-                        sendToBack: "إرسال إلى الخلف",
-                    };
-                }
+                        week: {
+                            longWeeks: "أسبوع،",
+                            shortWeeks: "W"
+                        },
+                    },
+                };
                 break;
             case "ejReportViewer":
                 ej.ReportViewer.Locale = ej.ReportViewer.Locale || {};
@@ -1877,6 +1919,8 @@
                     ThickBoxBorder: "سميكة صندوق الحدود",
                     ThickBottomBorder: "الحدود سميك أسفل",
                     TopandThickBottomBorder: "العلوي وسميكة الحدود أسفل",
+                    BottomDoubleBorder: "أسفل الحدود المزدوجة",
+                    TopandBottomDoubleBorder: "أعلى وأسفل الحدود المزدوجة",
                     DrawBorderGrid: "رسم الشبكة الحدود",
                     DrawBorder: "رسم الحدود",
                     TopandBottomBorder: "أعلى وأسفل الحدود",
@@ -2336,7 +2380,7 @@
                     HugeDataAlert: "ملف كبير جدا لفتح.",
                     ImportExportUrl: "إعطاء استيراد عنوان / تصدير وحاول مرة أخرى.",
                     BetweenAlert: "يجب أن يكون الحد الأقصى أكبر أو يساوي الحد الأدنى.",
-                    BorderStyles: "الصلبة / متقطع / منقط",
+                    BorderStyles: "الصلبة / متقطع / منقط/غرفة مزدوجة",
                     FPaneAlert: "لم يتم تطبيق تجميد جزء للخلية الأولى",
                     ReplaceNotFound: "جدول لا يمكن العثور على المباراة.",
                     BlankWorkbook: "مصنف فارغ",
@@ -2477,6 +2521,45 @@
                     DataSource: "مصدر البيانات",
                     Actions: "أفعال",
                     FATTitlePrefix: "نمط الجدول",
+                    HighPoint: "نقطة عالية",
+                    LowPoint: "نقطة منخفضة",
+                    FirstPoint: "النقطة الأولى",
+                    LastPoint: "النقطة الأخيرة",
+                    NegativePoint: "نقاط سلبية",
+                    Markers: "علامات",
+                    NegativePoints: "نقاط سلبية",
+                    LineSparklineTitle: "إدراج خط سباركلين",
+                    LineSparklineContent: "خطوط الإشارة هي مخططات مصغرة وضعت في خلايا واحدة، يمثل كل منها صف بيانات في اختيارك",
+                    ColumnSparklineTitle: "إدراج عمود التألق",
+                    ColumnSparklineContent: "خطوط الإشارة هي مخططات مصغرة وضعت في خلايا واحدة، يمثل كل منها صف بيانات في اختيارك",
+                    WinLossSparklineTitle: "إدراج فوز / خسارة التألق",
+                    WinLossSparklineContent: "خطوط سباركلينس هي مخططات مصغرة وضعت في خلايا واحدة، تمثل كل صف من البيانات في اختيارك،",
+                    Line: "خط",
+                    SparklineColor: "سباركلين اللون",
+                    SparklineColorTitle: "سباركلين اللون",
+                    SparklineColorContent: "حدد لون خطوط التألق في مجموعة التألق المحددة",
+                    MarkerColor: "علامة اللون",
+                    MarkerColorContent: "تغيير اللون للنقاط السلبية، وعلامات، وجميع النقاط الأخرى لمجموعة مختارة التألق",
+                    ChooseDataRange: "اختر نطاق البيانات",
+                    ChooseLocationRange: "اختر نطاق الموقع",
+                    DataRange: "نطاق البيانات",
+                    LocationRange: "نطاق الموقع",
+                    EmptyDLRnge: "مصدر البيانات أو مرجع الموقع غير صالح",
+                    SourceDataRange: "حدد نطاق بيانات مصدر للسطوع",
+                    SparklineAlert: "مرجع الموقع غير صالح لأن الخلايا ليست كلها في نفس العمود أو الصف نفسه. حدد الخلايا كلها في صف واحد أو عمود واحد",
+                    SparklineDataAlert: "أدخل تنسيق البيانات الصحيح",
+                    SparklineLocAlert: "مرجع الموقع أو نطاق البيانات غير صالح",
+                    SDataRangeAlert: "مرجع مصدر البيانات غير صالح",
+                    LineAlert: "لا يمكن إنشاء المخطط الخطي للقيمة المفردة",
+                    EditData: "تحرير البيانات",
+                    EditDataContent: "تحرير موقع المجموعة والبيانات",
+                    EditSingleSparklineData: "تحرير البيانات سباركلين واحدة",
+                    EditSparklineData: "تحرير بيانات التألق",
+                    HiddenEmptyCells: "خلايا خفية و فارغة",
+                    SwitchRowCol: "تبديل الصف / العمود",
+                    CreateSparkline: "إنشاء التألق",
+                    SelectDataSource: "حدد نطاق بيانات مصدر للسطوع",
+                    SPARKLINEDESIGN: "تصميم سباركلين",
                 };
                 break;
             case "ejTimePicker":
@@ -2498,7 +2581,8 @@
                         collapseAllTool: "انهيار جميع",
                         pdfExportTool: "تصدير بدف",
                         excelExportTool: "تصدير إكسل",
-                        printTool: "طباعة"
+                        printTool: "طباعة",
+                        searchTool: "بحث"
                     },
                     contextMenuTexts: {
                         addRowText: "اضف سطر",
