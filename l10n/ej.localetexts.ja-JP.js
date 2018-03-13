@@ -1,11 +1,3 @@
-/*!
-*  filename: ej.localetexts.ja-JP.js
-*  Copyright Syncfusion Inc. 2001 - 2016. All rights reserved.
-*  Use of this code is subject to the terms of our license.
-*  A copy of the current license can be obtained at any time by e-mailing
-*  licensing@syncfusion.com. Any infringement will be prosecuted under
-*  applicable laws. 
-*/
 (function ($, ej, undefined) {
     var name, widgets;
     if (ej.locales.indexOf("jaJP") < 0)
@@ -13,6 +5,7 @@
     $.fn.Locale_jaJP = function (pluginName) {
         switch (pluginName) {
             case "ejAutocomplete":
+                ej.Autocomplete.Locale = ej.Autocomplete.Locale || {};
                 ej.Autocomplete.Locale["ja-JP"] = {
                     addNewText: "新しく追加する",
                     emptyResultText: "提案なし",
@@ -21,6 +14,7 @@
                 };
                 break;
             case "ejColorPicker":
+                ej.ColorPicker.Locale = ej.ColorPicker.Locale || {};
                 ej.ColorPicker.Locale["ja-JP"] = {
                     buttonText: {
                         apply: "適用します",
@@ -48,17 +42,20 @@
                 };
                 break;
             case "ejCurrencyTextbox":
+                ej.CurrencyTextbox.Locale = ej.CurrencyTextbox.Locale || {};
                 ej.CurrencyTextbox.Locale["ja-JP"] = {
                     watermarkText: "値を入力します。",
                 };
                 break;
             case "ejDatePicker":
+                ej.DatePicker.Locale = ej.DatePicker.Locale || {};
                 ej.DatePicker.Locale["ja-JP"] = {
                     watermarkText: "日付を選択",
                     buttonText: "今日",
                 };
                 break;
             case "ejDateRangePicker":
+                ej.DateRangePicker.Locale = ej.DateRangePicker.Locale || {};
                 ej.DateRangePicker.Locale["ja-JP"] = {
                     ButtonText: {
                         apply: "適用します",
@@ -70,6 +67,7 @@
                 };
                 break;
             case "ejDateTimePicker":
+                ej.DateTimePicker.Locale = ej.DateTimePicker.Locale || {};
                 ej.DateTimePicker.Locale["ja-JP"] = {
                     watermarkText: "選択した日付時刻",
                     buttonText: {
@@ -81,6 +79,7 @@
                 };
                 break;
             case "ejDialog":
+                ej.Dialog.Locale = ej.Dialog.Locale || {};
                 ej.Dialog.Locale["ja-JP"] = {
                     tooltip: {
                         close: "閉じる",
@@ -96,12 +95,31 @@
                 };
                 break;
             case "ejDropDownList":
+                ej.DropDownList.Locale = ej.DropDownList.Locale || {};
                 ej.DropDownList.Locale["ja-JP"] = {
                     emptyResultText: "提案なし、",
                     watermarkText: " ",
                 };
                 break;
+			case "ejComboBox":
+                ej.ComboBox.Locale["ja-JP"] = {
+                    noRecordsTemplate: "レコードが見つかりません",
+					actionFailureTemplate: "リクエストが失敗しました"
+                };
+                break;
+			case "ejMenu":
+                ej.Menu.Locale["ja-JP"] = {
+                    titleText: "メニュー"
+                };
+                break;
+			case "ejCaptcha":
+                ej.Captcha.Locale["ja-JP"] = {
+					placeHolderText: "表示されたコードを入力してください",
+					CustomErrorMessage: "が無効です キャプチャ"
+                };
+                break;
             case "ejExcelFilter":
+                ej.ExcelFilter.Locale = ej.ExcelFilter.Locale || {};
                 ej.ExcelFilter.Locale["ja-JP"] = {
                     SortNoSmaller: "ソート最小最大に",
                     SortNoLarger: "並び替え最大最小に",
@@ -149,6 +167,7 @@
                 };
                 break;
             case "ejFileExplorer":
+                ej.FileExplorer.Locale = ej.FileExplorer.Locale || {};
                 ej.FileExplorer.Locale["ja-JP"] = {
                     Folder: "フォルダ",
                     EmptyFolder: "このフォルダは空だ",
@@ -247,6 +266,7 @@
                 };
                 break;
             case "ejGantt":
+                ej.Gantt.Locale = ej.Gantt.Locale || {};
                 ej.Gantt.Locale["ja-JP"] = {
                     emptyRecord: "レコードは表示されませんします",
                     unassignedTask: "割り当てられていないタスク",
@@ -431,9 +451,31 @@
                             { id: "FS", text: "フィニッシュ-開始", value: "フィニッシュ-開始" },
                             { id: "FF", text: "フィニッシュ-フィニッシュ", value: "フィニッシュ-フィニッシュ" }
                     ],
+
+                    linkValidationRuleText: {
+                        taskBeforePredecessor: "「'{1}'」が終了して2つのタスクがリンクされる前に、「'{0}'」を移動して開始しました。 その結果、リンクを尊重することはできません。 以下のアクションを1つ選択して実行してください",
+                        taskAfterPredecessor: "「'{0}'」を「'{1}'」から移動し、2つのタスクがリンクされています。 その結果、リンクを尊重することはできません。 以下のアクションを1つ選択して実行してください",
+                    },
+                    linkValidationDialogTitle: "編集の検証",
+                    linkValidationRuleOptions: {
+                        cancel: "キャンセル、既存のリンクを維持する",
+                        removeLink: "リンクを削除し、 '{0}'を '{1}'から開始するように移動してください。",
+                        preserveLink: "'{0}'を '{1}'で開始してリンクを維持してください。"
+                    },
+                    connectorLineDialogText: {
+                        from: "から",
+                        to: "に",
+                        taskLink: "タスクリンクs",
+                        lag: "後れ",
+                        okButtonText: "オーケーをする",
+                        cancelButtonText: "キャンセル",
+                        deleteButtonText: "削除",
+                        title: "タスクの依存関係"
+                    }
                 };
                 break;
             case "ejGrid":
+                ej.Grid.Locale = ej.Grid.Locale || {};
                 ej.Grid.Locale["ja-JP"] = {
                     EmptyRecord: "レコードは表示されませんします",
                     GroupDropArea: "グループの列に、ここで列ヘッダをドラッグします",
@@ -503,6 +545,7 @@
                 break;
             case "ejmobile":
                 if (ej.mobile.Grid) {
+                    ej.mobile.Grid.Locale = ej.mobile.Grid.Locale || {};
                     ej.mobile.Grid.Locale["ja-JP"] = {
                         emptyResult: "レコードは表示されませんします",
                         filterValidation: "有効なフィルタデータを入力します。",
@@ -521,6 +564,7 @@
                 }
 
                 if (ej.mobile.DatePicker) {
+                    ej.mobile.DatePicker.Locale =  ej.mobile.DatePicker.Locale || {};
                     ej.mobile.DatePicker.Locale["ja-JP"] = {
                         confirmText: "終わりました",
                         Windows: {
@@ -533,6 +577,7 @@
                     ;
                 }
                 if (ej.mobile.TimePicker) {
+                    ej.mobile.TimePicker.Locale = ej.mobile.TimePicker.Locale || {};
                     ej.mobile.TimePicker.Locale["ja-JP"] = {
                         confirmText: "終わりました",
                         AM: "AM",
@@ -550,11 +595,13 @@
                 }
                 break;
             case "ejNumericTextbox":
+                ej.NumericTextbox.Locale = ej.NumericTextbox.Locale || {};
                 ej.NumericTextbox.Locale["ja-JP"] = {
                     watermarkText: "値を入力します。",
                 };
                 break;
             case "ejPivotChart":
+                ej.PivotChart.Locale = ej.PivotChart.Locale || {};
                 ej.PivotChart.Locale["ja-JP"] = {
                     Measure: "メジャー",
                     Row: "行",
@@ -601,6 +648,7 @@
                 };
                 break;
             case "ejPivotClient":
+                ej.PivotClient.Locale = ej.PivotClient.Locale || {};
                 ej.PivotClient.Locale["ja-JP"] = {
                     DoesNotBeginsWith: "が開始されません",
                     DoesNotEndsWith: "終了しません",
@@ -751,16 +799,21 @@
                     RenameMsg: "名前が変更されましたレポート！",
                     RemoveMsg: "正常に削除されましたレポート！",
                     Success: "成功",
-                    KpiAlertMsg: "移動するには、レポートのそのエリアに配置することはできません、フィールド"
+                    KpiAlertMsg: "移動するには、レポートのそのエリアに配置することはできません、フィールド",
+                    NotAllItemsShowing: "すべての子ノードが表示されます。",
+                    EditorLinkPanelAlert: "メンバーには、 1 つまたは複数の親の下に 1000 以上の項目があります。 最初の 1000 アイテムのみがそれぞれの親の下に表示されています。",
+                    NamedSetAlert: "同じフィールドに基づいて別の名前のセットと同じ時間では、ピボットテーブルレポートに名前を設定することはできませんが追加されます。 「 OK 」をクリックして「 ' <Set 1> ' 」という名前のセットと ' <Set 2> ' 「追加」という名前の設定を削除します。"
                 };
                 break;
             case "ejPivotGauge":
+                ej.PivotGauge.Locale = ej.PivotGauge.Locale || {};
                 ej.PivotGauge.Locale["ja-JP"] = {
                     RevenueGoal: "収益目標",
                     RevenueValue: "収益値",
                 };
                 break;
             case "ejPager":
+                ej.Pager.Locale = ej.Pager.Locale || {};
                 ej.Pager.Locale["ja-JP"] = {
                     pagerInfo: "{0}{1}ページ（{2}の項目）の",
                     firstPageTooltip: "最初のページに移動します",
@@ -772,6 +825,7 @@
                 };
                 break;
             case "ejPdfViewer":
+                ej.PdfViewer.Locale = ej.PdfViewer.Locale || {};
                 ej.PdfViewer.Locale["ja-JP"] = {
                     toolbar: {
                         print: {
@@ -935,11 +989,13 @@
                 };
                 break;
             case "ejPercentageTextbox":
+                ej.PercentageTextbox.Locale = ej.PercentageTextbox.Locale || {};
                 ej.PercentageTextbox.Locale["ja-JP"] = {
                     watermarkText: "値を入力します。",
                 };
                 break;
             case "ejPivotGrid":
+                ej.PivotGrid.Locale = ej.PivotGrid.Locale || {};
                 ej.PivotGrid.Locale["ja-JP"] = {
                     Total: "合計",
                     GrandTotal: "合計",
@@ -1141,10 +1197,13 @@
 					FormatName: "形式名",
 					RemoveFormat: "フォーマットを削除",
 					Edit: "編集",
-					DuplicateFormatName: "重複した形式名"
+					DuplicateFormatName: "重複した形式名",
+					NotAllItemsShowing: "すべての子ノードが表示されます。",
+					EditorLinkPanelAlert: "メンバーには、 1 つまたは複数の親の下に 1000 以上の項目があります。 最初の 1000 アイテムのみがそれぞれの親の下に表示されています。"
                 };
                 break;
             case "ejPivotPager":
+                ej.PivotPager.Locale = ej.PivotPager.Locale || {};
                 ej.PivotPager.Locale["ja-JP"] = {
                     SeriesPage: "シリーズページ",
                     CategoricalPage: "カテゴリカルページ",
@@ -1155,6 +1214,7 @@
                 };
                 break;
             case "ejPivotSchemaDesigner":
+                ej.PivotSchemaDesigner.Locale = ej.PivotSchemaDesigner.Locale || {};
                 ej.PivotSchemaDesigner.Locale["ja-JP"] = {
                     DoesNotBeginsWith: "が開始されません",
                     DoesNotEndsWith: "終了しません",
@@ -1215,44 +1275,48 @@
                     OK: "OK をクリック",
                     Cancel: "キャンセル",
                     Search: "検索",
-                    AddCurrentSelectionToFilter: "フィルタに現在の選択範囲を追加する"
+                    AddCurrentSelectionToFilter: "フィルタに現在の選択範囲を追加する",
+                    NotAllItemsShowing: "すべての子ノードが表示されます。",
+                    EditorLinkPanelAlert: "メンバーには、 1 つまたは複数の親の下に 1000 以上の項目があります。 最初の 1000 アイテムのみがそれぞれの親の下に表示されています。",
+                    NamedSetAlert: "同じフィールドに基づいて別の名前のセットと同じ時間では、ピボットテーブルレポートに名前を設定することはできませんが追加されます。 「 OK 」をクリックして「 ' <Set 1> ' 」という名前のセットと ' <Set 2> ' 「追加」という名前の設定を削除します。"
                 };
                 break;
-            case "ejdatavisualization":
-                if (ej.datavisualization.Diagram) {
-                    ej.datavisualization.Diagram.Locale["ja-JP"] = {
-                        cut: "カット",
-                        copy: "コピー",
-                        paste: "ペースト",
-                        undo: "アンドゥ",
-                        redo: "やり直します",
-                        selectAll: "すべて選択",
-                        grouping: "グルーピング",
-                        group: "グループ",
-                        ungroup: "グループ解除",
-                        order: "注文",
-                        bringToFront: "前に持ってくる",
-                        moveForward: "前進します",
-                        sendBackward: "背面へ",
-                        sendToBack: "SendToBack",
-                    };
-                }
-                if (ej.datavisualization.RangeNavigator) {
-                    ej.datavisualization.RangeNavigator.Locale["ja-JP"] = {
-                        intervals: {
-                            quarter: {
-                                longQuarters: "四半期、",
-                                shortQuarters: "Q"
-                            },
-                            week: {
-                                longWeeks: "週間、",
-                                shortWeeks: "W"
-                            },
+            case "ejDiagram":
+                ej.datavisualization.Diagram.Locale = ej.datavisualization.Diagram.Locale || {};
+                ej.datavisualization.Diagram.Locale["ja-JP"] = {
+                    cut: "カット",
+                    copy: "コピー",
+                    paste: "ペースト",
+                    undo: "アンドゥ",
+                    redo: "やり直します",
+                    selectAll: "すべて選択",
+                    grouping: "グルーピング",
+                    group: "グループ",
+                    ungroup: "グループ解除",
+                    order: "注文",
+                    bringToFront: "前に持ってくる",
+                    moveForward: "前進します",
+                    sendBackward: "背面へ",
+                    sendToBack: "SendToBack",
+                };
+                break;
+            case "ejRangeNavigator":
+                ej.datavisualization.RangeNavigator.Locale = ej.datavisualization.RangeNavigator.Locale || {};
+                ej.datavisualization.RangeNavigator.Locale["ja-JP"] = {
+                    intervals: {
+                        quarter: {
+                            longQuarters: "四半期、",
+                            shortQuarters: "Q"
                         },
-                    };
-                }
+                        week: {
+                            longWeeks: "週間、",
+                            shortWeeks: "W"
+                        },
+                    },
+                };
                 break;
             case "ejReportViewer":
+                ej.ReportViewer.Locale = ej.ReportViewer.Locale || {};
                 ej.ReportViewer.Locale["ja-JP"] = {
                     toolbar: {
                         print: {
@@ -1352,6 +1416,7 @@
                 };
                 break;
             case "ejRibbon":
+                ej.Ribbon.Locale = ej.Ribbon.Locale || {};
                 ej.Ribbon.Locale["ja-JP"] = {
                     CustomizeQuickAccess: "クイックアクセスツールバーをカスタマイズします",
                     RemoveFromQuickAccessToolbar: "クイックアクセスツールバーから削除",
@@ -1362,6 +1427,7 @@
                 };
                 break;
             case "ejKanban":
+                ej.Kanban.Locale = ej.Kanban.Locale || {};
                 ej.Kanban.Locale["ja-JP"] = {
                     EmptyCard: "表示するカードがありません",
                     SaveButton: "セーブ",
@@ -1392,6 +1458,7 @@
                 };
                 break;
             case "ejRTE":
+                ej.RTE.Locale = ej.RTE.Locale || {};
                 ej.RTE.Locale["ja-JP"] = {
                     bold: "大胆な",
                     italic: "イタリック",
@@ -1548,6 +1615,7 @@
                 };
                 break;
             case "ejSchedule":
+                ej.Schedule.Locale = ej.Schedule.Locale || {};
                 ej.Schedule.Locale["ja-JP"] = {
                     ReminderWindowTitle: "リマインダーウィンドウ",
                     CreateAppointmentTitle: "予定を作成します。",
@@ -1656,6 +1724,7 @@
                 };
                 break;
             case "ejSpreadsheet":
+                ej.Spreadsheet.Locale = ej.Spreadsheet.Locale || {};
                 ej.Spreadsheet.Locale["ja-JP"] = {
                     Cut: "カット",
                     Copy: "コピー",
@@ -1770,6 +1839,8 @@
                     ThickBoxBorder: "太いボックスボーダー",
                     ThickBottomBorder: "太いボトムボーダー",
                     TopandThickBottomBorder: "トップと厚い底部ボーダー",
+                    BottomDoubleBorder: "ボトムダブルボーダー",
+                    TopandBottomDoubleBorder: "上部と下部の2つの境界線",
                     DrawBorderGrid: "ボーダーグリッドを描きます",
                     DrawBorder: "ボーダーを描きます",
                     TopandBottomBorder: "トップとボトムボーダー",
@@ -2227,7 +2298,7 @@
                     HugeDataAlert: "オープンするファイルが大きすぎます。",
                     ImportExportUrl: "インポート/エクスポートのURLを付けて、再試行してください。",
                     BetweenAlert: "最大値より大きいまたは最小値に等しくなければなりません。",
-                    BorderStyles: "ソリッド/破線/点線",
+                    BorderStyles: "ソリッド/破線/点線/ダブル",
                     FPaneAlert: "フリーズペインは、最初のセルに適用されていません",
                     ReplaceNotFound: "スプレッドシートは、一致を見つけることができません。",
                     BlankWorkbook: "空白のブック",
@@ -2374,14 +2445,55 @@
                     AnalyzePivotTable:"ピボットテーブル",
                     DataSource:"データソース",
                     FATTitlePrefix:"テーブルスタイル",
+                    HighPoint: "ハイポイント",
+                    LowPoint: "最下点",
+                    FirstPoint: "ファーストポイント",
+                    LastPoint: "最後のポイント",
+                    NegativePoint: "負のポイント",
+                    Markers: "マーカー",
+                    NegativePoints: "負のポイント",
+                    LineSparklineTitle: "インラインラインスパークライン",
+                    LineSparklineContent: "スパークラインは1つのセルに配置されたミニグラフであり、それぞれが選択した行のデータを表します",
+                    ColumnSparklineTitle: "列スパークラインを挿入する",
+                    ColumnSparklineContent: "スパークラインは1つのセルに配置されたミニグラフであり、それぞれが選択した行のデータを表します",
+                    WinLossSparklineTitle: "Win / Loss Sparklineを挿入する",
+                    WinLossSparklineContent: "Sparklinesは、単一のセルに配置されたミニグラフで、それぞれ選択した行のデータを表します。",
+                    Line: "ライン",
+                    SparklineColor: "スパークラインカラー",
+                    SparklineColorTitle: "スパークラインカラー",
+                    SparklineColorContent: "選択したスパークライングループのスパークラインの色を指定します",
+                    MarkerColor: "マーカーの色",
+                    MarkerColorContent: "選択したスパークライングループのマイナスポイント、マーカー、およびその他すべてのポイントの色を変更する",
+                    ChooseDataRange: "データ範囲の選択",
+                    ChooseLocationRange: "場所の範囲を選択する",
+                    DataRange: "データ範囲",
+                    LocationRange: "場所の範囲",
+                    EmptyDLRnge: "データソースまたは場所の参照が無効です",
+                    SourceDataRange: "スパークラインのソースデータ範囲を選択する",
+                    SparklineAlert: "セルがすべて同じ列または同じ行にないため、ロケーション参照は無効です。 すべてが単一行または単一列にあるセルを選択する",
+                    SparklineDataAlert: "正しいデータ形式を入力してください",
+                    SparklineLocAlert: "場所またはデータ範囲の参照が無効です",
+                    SDataRangeAlert: "データソース参照が無効です",
+                    LineAlert: "単一値の折れ線グラフを作成できません",
+                    EditData: "データの編集",
+                    EditDataContent: "グループの場所とデータを編集する",
+                    EditSingleSparklineData: "単一のスパークラインデータを編集する",
+                    EditSparklineData: "スパークラインデータの編集",
+                    HiddenEmptyCells: "隠しセルと空セル",
+                    SwitchRowCol: "行/列の切り替え",
+                    CreateSparkline: "スパークラインの作成",
+                    SelectDataSource: "スパークラインのソースデータ範囲を選択する",
+                    SPARKLINEDESIGN: "スパークラインデザイン",
                 };
                 break;
 			case "ejTimePicker":
+                ej.TimePicker.Locale = ej.TimePicker.Locale || {};
                 ej.TimePicker.Locale["ja-JP"] = {
                     watermarkText: "時間を選択する",
                 };
                 break;		
             case "ejTreeGrid":
+                ej.TreeGrid.Locale = ej.TreeGrid.Locale || {};
                 ej.TreeGrid.Locale["ja-JP"] = {
                     toolboxTooltipTexts: {
                         addTool: "加えます",
@@ -2394,6 +2506,7 @@
                         pdfExportTool: "PDFエクスポート",
                         excelExportTool: "Excelのエクスポート",
                         printTool: "印刷",
+                        searchTool: "サーチ"
                     },
                     contextMenuTexts: {
                         addRowText: "行の追加",
@@ -2499,6 +2612,7 @@
                 };
                 break;
             case "ejUploadbox":
+                ej.Uploadbox.Locale = ej.Uploadbox.Locale || {};
                 ej.Uploadbox.Locale["ja-JP"] = {
                     buttonText: {
                         upload: "アップロード",
@@ -2524,18 +2638,21 @@
                     closeToolTip: "閉じる",
                 };
                 break;
-            case "ej":
+           case "ejTile":
+                ej.Tile.Locale = ej.Tile.Locale || {};
                 ej.Tile.Locale["ja-JP"] = {
                     captionText: "テキスト"
                 };
                 break;
-            case "ej":
+            case "ejListView":
+                ej.ListView.Locale = ej.ListView.Locale || {};
                 ej.ListView.Locale["ja-JP"] = {
                     headerTitle: "タイトル",
                     headerBackButtonText: "バック"
                 };
                 break;
             case "ejSpellCheck":
+                ej.SpellCheck.Locale = ej.SpellCheck.Locale || {};
                 ej.SpellCheck.Locale["ja-JP"] = {
                     SpellCheckButtonText: "つづり",
                     NotInDictionary: "辞書にない",

@@ -1,11 +1,3 @@
-/*!
-*  filename: ej.localetexts.ro-RO.js
-*  Copyright Syncfusion Inc. 2001 - 2016. All rights reserved.
-*  Use of this code is subject to the terms of our license.
-*  A copy of the current license can be obtained at any time by e-mailing
-*  licensing@syncfusion.com. Any infringement will be prosecuted under
-*  applicable laws. 
-*/
 (function ($, ej, undefined) {
     var name, widgets;
     if (ej.locales.indexOf("roRO") < 0)
@@ -13,6 +5,7 @@
     $.fn.Locale_roRO = function (pluginName) {
         switch (pluginName) {
             case "ejAutocomplete":
+                ej.Autocomplete.Locale = ej.Autocomplete.Locale || {};
                 ej.Autocomplete.Locale["ro-RO"] = {
                     addNewText: "Adăuga nou",
                     emptyResultText: "Nu există sugestii",
@@ -21,6 +14,7 @@
                 };
                 break;
             case "ejColorPicker":
+                ej.ColorPicker.Locale = ej.ColorPicker.Locale || {};
                 ej.ColorPicker.Locale["ro-RO"] = {
                     buttonText: {
                         apply: "aplica",
@@ -48,17 +42,20 @@
                 };
                 break;
             case "ejCurrencyTextbox":
+                ej.CurrencyTextbox.Locale = ej.CurrencyTextbox.Locale || {};
                 ej.CurrencyTextbox.Locale["ro-RO"] = {
                     watermarkText: "Introdu o valoare",
                 };
                 break;
             case "ejDatePicker":
+                ej.DatePicker.Locale = ej.DatePicker.Locale || {};
                 ej.DatePicker.Locale["ro-RO"] = {
                     watermarkText: "Selectați data",
                     buttonText: "Astăzi",
                 };
                 break;
             case "ejDateRangePicker":
+                ej.DateRangePicker.Locale = ej.DateRangePicker.Locale || {};
                 ej.DateRangePicker.Locale["ro-RO"] = {
                     ButtonText: {
                         apply: "aplica",
@@ -70,6 +67,7 @@
                 };
                 break;
             case "ejDateTimePicker":
+                ej.DateTimePicker.Locale = ej.DateTimePicker.Locale || {};
                 ej.DateTimePicker.Locale["ro-RO"] = {
                     watermarkText: "Selectați ora dată",
                     buttonText: {
@@ -81,6 +79,7 @@
                 };
                 break;
             case "ejDialog":
+                ej.Dialog.Locale = ej.Dialog.Locale || {};
                 ej.Dialog.Locale["ro-RO"] = {
                     tooltip: {
                         close: "Închide",
@@ -96,12 +95,31 @@
                 };
                 break;
             case "ejDropDownList":
+                ej.DropDownList.Locale = ej.DropDownList.Locale || {};
                 ej.DropDownList.Locale["ro-RO"] = {
                     emptyResultText: "Nu există sugestii,",
                     watermarkText: " ",
                 };
                 break;
+			case "ejComboBox":
+                ej.ComboBox.Locale["ro-RO"] = {
+                    noRecordsTemplate: "Nu au fost găsite",
+					actionFailureTemplate: "Cererea a eșuat"
+                };
+                break;
+			case "ejMenu":
+                ej.Menu.Locale["ro-RO"] = {
+                    titleText: "Meniul"
+                };
+                break;
+			case "ejCaptcha":
+                ej.Captcha.Locale["ro-RO"] = {
+					placeHolderText: "Introduceti codul din imagine",
+					CustomErrorMessage: "Captcha nevalidă"
+                };
+                break;
             case "ejExcelFilter":
+                ej.ExcelFilter.Locale = ej.ExcelFilter.Locale || {};
                 ej.ExcelFilter.Locale["ro-RO"] = {
                     SortNoSmaller: "Sortare Cea mai mică la cea mai mare",
                     SortNoLarger: "Sortare Cel mai mare la cea mai mica",
@@ -149,6 +167,7 @@
                 };
                 break;
             case "ejFileExplorer":
+                ej.FileExplorer.Locale = ej.FileExplorer.Locale || {};
                 ej.FileExplorer.Locale["ro-RO"] = {
                     Folder : "Pliant",
                     EmptyFolder: "Acest dosar este gol",
@@ -247,6 +266,7 @@
                 };
                 break;
             case "ejGantt":
+                ej.Gantt.Locale = ej.Gantt.Locale || {};
                 ej.Gantt.Locale["ro-RO"] = {
                     emptyRecord: "Nu exista inregistrari pentru a afișa",
                     unassignedTask: "Sarcină nesignificată",
@@ -431,9 +451,31 @@
                             { id: "FS", text: "finalizarea-start", value: "finalizarea-start" },
                             { id: "FF", text: "finalizarea-finalizarea", value: "finalizarea-finalizarea" }
                     ],
+
+                    linkValidationRuleText: {
+                        taskBeforePredecessor: "Ați mutat '{0}' pentru a începe înainte ca '{1}' să se termine și cele două sarcini să fie legate. Ca rezultat, legăturile nu pot fi onorate. Selectați o acțiune de mai jos pentru a efectua",
+                        taskAfterPredecessor: "Ați mutat '{0}' 'departe de' '{1}' 'și cele două sarcini sunt legate. Ca rezultat, legăturile nu pot fi onorate. Selectați o acțiune de mai jos pentru a efectua",
+                    },
+                    linkValidationDialogTitle: "Validați editarea",
+                    linkValidationRuleOptions: {
+                        cancel: "Anulați, păstrați legătura existentă",
+                        removeLink: "Eliminați linkul și mutați '{0}' pentru a porni pe '{1}'.",
+                        preserveLink: "Mutați '{0}' pentru a porni pe '{1}' și păstrați linkul."
+                    },
+                    connectorLineDialogText: {
+                        from: "Din",
+                        to: "La",
+                        taskLink: "Sarcină Link",
+                        lag: "rămâne în urmă",
+                        okButtonText: "bine",
+                        cancelButtonText: "Anulare",
+                        deleteButtonText: "Șterge",
+                        title: "Dependența de activități"
+                    }
                 };
                 break;
             case "ejGrid":
+                ej.Grid.Locale = ej.Grid.Locale || {};
                 ej.Grid.Locale["ro-RO"] = {
                     EmptyRecord: "Nu exista inregistrari pentru a afișa",
                     GroupDropArea: "Trageți o coloană antet aici pentru grup este o coloană",
@@ -503,6 +545,7 @@
                 break;
             case "ejmobile":
                 if (ej.mobile.Grid) {
+                    ej.mobile.Grid.Locale = ej.mobile.Grid.Locale || {};
                     ej.mobile.Grid.Locale["ro-RO"] = {
                         emptyResult: "Nu exista inregistrari pentru a afișa",
                         filterValidation: "Introduceți date filtru valid",
@@ -520,6 +563,7 @@
                     ;
                 }
                 if (ej.mobile.DatePicker) {
+                    ej.mobile.DatePicker.Locale =  ej.mobile.DatePicker.Locale || {};
                     ej.mobile.DatePicker.Locale["ro-RO"] = {
                         confirmText: "Terminat",
                         Windows: {
@@ -531,6 +575,7 @@
                     };
                 }
                 if (ej.mobile.TimePicker) {
+                    ej.mobile.TimePicker.Locale = ej.mobile.TimePicker.Locale || {};
                     ej.mobile.TimePicker.Locale["ro-RO"] = {
                         confirmText: "Terminat",
                         AM: "A.M",
@@ -548,11 +593,13 @@
                 }
                 break;
             case "ejNumericTextbox":
+                ej.NumericTextbox.Locale = ej.NumericTextbox.Locale || {};
                 ej.NumericTextbox.Locale["ro-RO"] = {
                     watermarkText: "Introdu o valoare",
                 };
                 break;
             case "ejPivotChart":
+                ej.PivotChart.Locale = ej.PivotChart.Locale || {};
                 ej.PivotChart.Locale["ro-RO"] = {
                     Measure: "Măsura",
                     Row: "Rând",
@@ -599,6 +646,7 @@
                 };
                 break;
             case "ejPivotClient":
+                ej.PivotClient.Locale = ej.PivotClient.Locale || {};
                 ej.PivotClient.Locale["ro-RO"] = {
                     DoesNotBeginsWith: "Nu începe cu",
                     DoesNotEndsWith: "Nu se încheie cu",
@@ -749,16 +797,21 @@
                     RenameMsg: "Raportul a fost redenumit cu succes!!!",
                     RemoveMsg: "Raport demontată cu succes!!!",
                     Success: "Succes",
-                    KpiAlertMsg: "Câmpul de mişcare nu poate fi plasat în zona de raport"
+                    KpiAlertMsg: "Câmpul de mişcare nu poate fi plasat în zona de raport",
+                    NotAllItemsShowing: "Nu toate nodurile copil sunt afișate",
+                    EditorLinkPanelAlert: "Membrii are mai mult de 1000 de obiecte sub una sau mai multe părinte. Numai primele 1000 de elemente sunt afișate sub fiecare părinte.",
+                    NamedSetAlert: "Un named setat nu poate fi adăugat la raportul PivotTable în același timp cu un alt numit set bazate pe același câmp. Faceți clic pe OK pentru a elimina ' <Set 1> ' numit set și adăugați ' <Set 2> ' numit set."
                 };
                 break;
             case "ejPivotGauge":
+                ej.PivotGauge.Locale = ej.PivotGauge.Locale || {};
                 ej.PivotGauge.Locale["ro-RO"] = {
                     RevenueGoal: "venituri Obiectiv",
                     RevenueValue: "Valoarea veniturilor",
                 };
                 break;
             case "ejPager":
+                ej.Pager.Locale = ej.Pager.Locale || {};
                 ej.Pager.Locale["ro-RO"] = {
                     pagerInfo: "{0} din {1} pagini ({2} articole)",
                     firstPageTooltip: "Du-te la prima pagină",
@@ -770,6 +823,7 @@
                 };
                 break;
             case "ejPdfViewer":
+                ej.PdfViewer.Locale = ej.PdfViewer.Locale || {};
                 ej.PdfViewer.Locale["ro-RO"] = {
                     toolbar: {
                         print: {
@@ -933,11 +987,13 @@
                 };
                 break;
             case "ejPercentageTextbox":
+                ej.PercentageTextbox.Locale = ej.PercentageTextbox.Locale || {};
                 ej.PercentageTextbox.Locale["ro-RO"] = {
                     watermarkText: "Introdu o valoare",
                 };
                 break;
             case "ejPivotGrid":
+                ej.PivotGrid.Locale = ej.PivotGrid.Locale || {};
                 ej.PivotGrid.Locale["ro-RO"] = {
                     Total: "Total",
                     GrandTotal:"Grand Total",
@@ -1139,10 +1195,13 @@
 					FormatName: "Numele de format",
 					RemoveFormat: "Demontaţi Format",
 					Edit: "Editare",
-					DuplicateFormatName: "Format de Duplicat nume"
+					DuplicateFormatName: "Format de Duplicat nume",
+					NotAllItemsShowing: "Nu toate nodurile copil sunt afișate",
+					EditorLinkPanelAlert: "Membrii are mai mult de 1000 de obiecte sub una sau mai multe părinte. Numai primele 1000 de elemente sunt afișate sub fiecare părinte."
                 };
                 break;
             case "ejPivotPager":
+                ej.PivotPager.Locale = ej.PivotPager.Locale || {};
                 ej.PivotPager.Locale["ro-RO"] = {
                     SeriesPage: "seria Pagina",
                     CategoricalPage: "categorială Pagina",
@@ -1153,6 +1212,7 @@
                 };
                 break;
             case "ejPivotSchemaDesigner":
+                ej.PivotSchemaDesigner.Locale = ej.PivotSchemaDesigner.Locale || {};
                 ej.PivotSchemaDesigner.Locale["ro-RO"] = {
                     DoesNotBeginsWith: "Nu începe cu",
                     DoesNotEndsWith: "Nu se încheie cu",
@@ -1212,44 +1272,48 @@
                     OK: "OK",
                     Cancel: "Anula",
                     Search: "Căutare",
-                    AddCurrentSelectionToFilter: "Adaugă selecția curentă pentru a filtra"
+                    AddCurrentSelectionToFilter: "Adaugă selecția curentă pentru a filtra",
+                    NotAllItemsShowing: "Nu toate nodurile copil sunt afișate",
+                    EditorLinkPanelAlert: "Membrii are mai mult de 1000 de obiecte sub una sau mai multe părinte. Numai primele 1000 de elemente sunt afișate sub fiecare părinte.",
+                    NamedSetAlert: "Un named setat nu poate fi adăugat la raportul PivotTable în același timp cu un alt numit set bazate pe același câmp. Faceți clic pe OK pentru a elimina ' <Set 1> ' numit set și adăugați ' <Set 2> ' numit set."
                 };
                 break;
-            case "ejdatavisualization":
-                if (ej.datavisualization.Diagram) {
-                    ej.datavisualization.Diagram.Locale["ro-RO"] = {
-                        cut: "A taia",
-                        copy: "Copie",
-                        paste: "Pastă",
-                        undo: "Anula",
-                        redo: "refaceţi",
-                        selectAll: "Selectează tot",
-                        grouping: "gruparea",
-                        group: "grup",
-                        ungroup: "Degrupați",
-                        order: "Ordin",
-                        bringToFront: "BringToFront",
-                        moveForward: "Mergi inainte",
-                        sendBackward: "trimiteţi în spate",
-                        sendToBack: "SendToBack",
-                    };
-                }
-                if (ej.datavisualization.RangeNavigator) {
-                    ej.datavisualization.RangeNavigator.Locale["ro-RO"] = {
-                        intervals: {
-                            quarter: {
-                                longQuarters: "Sfert,",
-                                shortQuarters: "Q"
-                            },
-                            week: {
-                                longWeeks: "Săptămână,",
-                                shortWeeks: "W"
-                            },
+            case "ejDiagram":
+                ej.datavisualization.Diagram.Locale = ej.datavisualization.Diagram.Locale || {};
+                ej.datavisualization.Diagram.Locale["ro-RO"] = {
+                    cut: "A taia",
+                    copy: "Copie",
+                    paste: "Pastă",
+                    undo: "Anula",
+                    redo: "refaceţi",
+                    selectAll: "Selectează tot",
+                    grouping: "gruparea",
+                    group: "grup",
+                    ungroup: "Degrupați",
+                    order: "Ordin",
+                    bringToFront: "BringToFront",
+                    moveForward: "Mergi inainte",
+                    sendBackward: "trimiteţi în spate",
+                    sendToBack: "SendToBack",
+                };
+                break;
+            case "ejRangeNavigator":
+                ej.datavisualization.RangeNavigator.Locale = ej.datavisualization.RangeNavigator.Locale || {};
+                ej.datavisualization.RangeNavigator.Locale["ro-RO"] = {
+                    intervals: {
+                        quarter: {
+                            longQuarters: "Sfert,",
+                            shortQuarters: "Q"
                         },
-                    };
-                }
+                        week: {
+                            longWeeks: "Săptămână,",
+                            shortWeeks: "W"
+                        },
+                    },
+                };
                 break;
             case "ejReportViewer":
+                ej.ReportViewer.Locale = ej.ReportViewer.Locale || {};
                 ej.ReportViewer.Locale["ro-RO"] = {
                     toolbar: {
                         print: {
@@ -1349,6 +1413,7 @@
                 };
                 break;
             case "ejRibbon":
+                ej.Ribbon.Locale = ej.Ribbon.Locale || {};
                 ej.Ribbon.Locale["ro-RO"] = {
                     CustomizeQuickAccess: "Personalizați Bara de instrumente Acces rapid",
                     RemoveFromQuickAccessToolbar: "Eliminați din Bara de instrumente Acces Rapid",
@@ -1359,6 +1424,7 @@
                 };
                 break;
             case "ejKanban":
+                ej.Kanban.Locale = ej.Kanban.Locale || {};
                 ej.Kanban.Locale["ro-RO"] = {
                     EmptyCard: "Nu există carduri pentru a afișa",
                     SaveButton: "Salvați",
@@ -1389,6 +1455,7 @@
                 };
                 break;
             case "ejRTE":
+                ej.RTE.Locale = ej.RTE.Locale || {};
                 ej.RTE.Locale["ro-RO"] = {
                     bold: "Îndrăzneţ",
                     italic: "Cursiv",
@@ -1545,6 +1612,7 @@
                 };
                 break;
             case "ejSchedule":
+                ej.Schedule.Locale = ej.Schedule.Locale || {};
                 ej.Schedule.Locale["ro-RO"] = {
                     ReminderWindowTitle: "fereastră memento",
                     CreateAppointmentTitle: "Creați Numirea",
@@ -1653,6 +1721,7 @@
                 };
                 break;
             case "ejSpreadsheet":
+                ej.Spreadsheet.Locale = ej.Spreadsheet.Locale || {};
                 ej.Spreadsheet.Locale["ro-RO"] = {
                     Cut: "A taia",
                     Copy: "Copie",
@@ -1767,6 +1836,8 @@
                     ThickBoxBorder: "Caseta de gros de frontieră",
                     ThickBottomBorder: "Border fund gros",
                     TopandThickBottomBorder: "Sus și Gros chenarul inferior",
+                    BottomDoubleBorder: "Frontiera dublă de jos",
+                    TopandBottomDoubleBorder: "Limita dublă de sus și de jos",
                     DrawBorderGrid: "Grila de frontieră remiză",
                     DrawBorder: "Desenați chenarul",
                     TopandBottomBorder: "Sus și chenar jos",
@@ -2224,7 +2295,7 @@
                     HugeDataAlert: "Fișierul este prea mare pentru a deschide.",
                     ImportExportUrl: "Dă-import / export, URL-ul și încercați din nou.",
                     BetweenAlert: "Valoarea maximă trebuie să fie mai mare sau egală cu minimum.",
-                    BorderStyles: "Solid / Dashed / Punctate",
+                    BorderStyles: "Solid / Dashed / Punctate/Dublu",
                     FPaneAlert: "Freeze pane nu se aplică pentru prima celulă",
                     ReplaceNotFound: "Spreadsheet nu poate găsi un meci.",
                     BlankWorkbook: "registru de lucru necompletat",
@@ -2371,14 +2442,55 @@
                     AnalyzePivotTable:"Pivot de masă",
                     DataSource:"Sursa de date",
                     FATTitlePrefix:"Stilul mesei",
+                    HighPoint: "Punct inalt",
+                    LowPoint: "Punct scăzut",
+                    FirstPoint: "Primul punct",
+                    LastPoint: "Ultimul punct",
+                    NegativePoint: "Puncte negative",
+                    Markers: "Marcatori",
+                    NegativePoints: "Puncte negative",
+                    LineSparklineTitle: "Inserați linia Sparkline",
+                    LineSparklineContent: "Ecranele miniaturi sunt mini-diagrame plasate într-o singură celulă, fiecare reprezentând un rând de date în selecția dvs.",
+                    ColumnSparklineTitle: "Inserați coloana Sparkline",
+                    ColumnSparklineContent: "Ecranele miniaturi sunt mini-diagrame plasate într-o singură celulă, fiecare reprezentând un rând de date în selecția dvs.",
+                    WinLossSparklineTitle: "Inserați Win Sparkline",
+                    WinLossSparklineContent: "Sparklines sunt mini-diagrame plasate într-o singură celulă, fiecare reprezentând un șir de date în selecția dvs.,",
+                    Line: "Linia",
+                    SparklineColor: "Sparkline Color",
+                    SparklineColorTitle: "Sparkline Color",
+                    SparklineColorContent: "Specificați culoarea sparkline în grupul de sparkline selectat",
+                    MarkerColor: "Culoarea indicatorului",
+                    MarkerColorContent: "Schimbați culoarea punctelor negative, a marcatorilor și a tuturor celorlalte puncte pentru grupul sparkline selectat",
+                    ChooseDataRange: "Alegeți intervalul de date",
+                    ChooseLocationRange: "Alegeți intervalul de locație",
+                    DataRange: "Intervalul de date",
+                    LocationRange: "Intervalul locațiilor",
+                    EmptyDLRnge: "Sursa de date sau referința de locație nu este validă",
+                    SourceDataRange: "Selectați un interval de date sursă pentru linia de declanșare",
+                    SparklineAlert: "Referința la locație nu este validă deoarece celulele nu sunt toate în aceeași coloană sau același rând. Selectați celule care sunt toate într-un singur rând sau într-o singură coloană",
+                    SparklineDataAlert: "Introduceți formatul corect de date",
+                    SparklineLocAlert: "Referința pentru locația sau intervalul de date nu este validă",
+                    SDataRangeAlert: "Referința sursei de date nu este validă",
+                    LineAlert: "Nu se poate crea graficul de linie pentru o singură valoare",
+                    EditData: "Editați datele",
+                    EditDataContent: "Editați locația și datele grupului",
+                    EditSingleSparklineData: "Modificați datele sparkline singulare",
+                    EditSparklineData: "Editați datele sparkline",
+                    HiddenEmptyCells: "Celulele ascunse și goale",
+                    SwitchRowCol: "Comutare rând / coloană",
+                    CreateSparkline: "Creați Sparkline",
+                    SelectDataSource: "Selectați un interval de date sursă pentru linia de declanșare",
+                    SPARKLINEDESIGN: "Sparkline Design",
                 };
                 break;
 			case "ejTimePicker":
+                ej.TimePicker.Locale = ej.TimePicker.Locale || {};
                 ej.TimePicker.Locale["ro-RO"] = {
                   watermarkText: "selectați ora",
                 };
                 break;	
             case "ejTreeGrid":
+                ej.TreeGrid.Locale = ej.TreeGrid.Locale || {};
                 ej.TreeGrid.Locale["ro-RO"] = {
                     toolboxTooltipTexts: {
                         addTool: "Adăuga",
@@ -2391,6 +2503,7 @@
                         pdfExportTool: "Export PDF",
                         excelExportTool: "Excel Export",
                         printTool: "Imprimare",
+                        searchTool: "Căutare"
                     },
                     contextMenuTexts: {
                         addRowText: "adăugaţi un rând",
@@ -2496,6 +2609,7 @@
                 };
                 break;
             case "ejUploadbox":
+                ej.Uploadbox.Locale = ej.Uploadbox.Locale || {};
                 ej.Uploadbox.Locale["ro-RO"] = {
                     buttonText: {
                         upload: "Încărcați",
@@ -2522,17 +2636,20 @@
                 };
                 break;
             case "ejTile":
+                ej.Tile.Locale = ej.Tile.Locale || {};
                 ej.Tile.Locale["ro-RO"] = {
                     captionText: "text"
                 };
                 break;
             case "ejListView":
+                ej.ListView.Locale = ej.ListView.Locale || {};
                 ej.ListView.Locale["ro-RO"] = {
                     headerTitle: "Din titlu",
                     headerBackButtonText: "Înapoi"
                 };
                 break;
             case "ejSpellCheck":
+                ej.SpellCheck.Locale = ej.SpellCheck.Locale || {};
                 ej.SpellCheck.Locale["ro-RO"]= {
                     SpellCheckButtonText: "Ortografie",
                     NotInDictionary: "Nu în dicționar",

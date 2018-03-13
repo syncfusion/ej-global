@@ -1,11 +1,3 @@
-/*!
-*  filename: ej.localetexts.he-IL.js
-*  Copyright Syncfusion Inc. 2001 - 2016. All rights reserved.
-*  Use of this code is subject to the terms of our license.
-*  A copy of the current license can be obtained at any time by e-mailing
-*  licensing@syncfusion.com. Any infringement will be prosecuted under
-*  applicable laws. 
-*/
 (function ($, ej, undefined) {
     var name, widgets;
     if (ej.locales.indexOf("heIL") < 0)
@@ -13,6 +5,7 @@
     $.fn.Locale_heIL = function (pluginName) {
         switch (pluginName) {
             case "ejAutocomplete":
+                ej.Autocomplete.Locale = ej.Autocomplete.Locale || {};
                 ej.Autocomplete.Locale["he-IL"] = {
                     addNewText: "הוסף חדש",
                     emptyResultText: "אין הצעות",
@@ -21,6 +14,7 @@
                 };
                 break;
             case "ejColorPicker":
+                ej.ColorPicker.Locale = ej.ColorPicker.Locale || {};
                 ej.ColorPicker.Locale["he-IL"] = {
                     buttonText: {
                         apply: "להגיש מועמדות",
@@ -48,17 +42,20 @@
                 };
                 break;
             case "ejCurrencyTextbox":
+                ej.CurrencyTextbox.Locale = ej.CurrencyTextbox.Locale || {};
                 ej.CurrencyTextbox.Locale["he-IL"] = {
                     watermarkText: "זן ערך",
                 };
                 break;
             case "ejDatePicker":
+                ej.DatePicker.Locale = ej.DatePicker.Locale || {};
                 ej.DatePicker.Locale["he-IL"] = {
                     watermarkText: "תאריך בחר",
                     buttonText: "היום",
                 };
                 break;
             case "ejDateRangePicker":
+                ej.DateRangePicker.Locale = ej.DateRangePicker.Locale || {};
                 ej.DateRangePicker.Locale["he-IL"] = {
                     ButtonText: {
                         apply: "להגיש מועמדות",
@@ -70,6 +67,7 @@
                 };
                 break;
             case "ejDateTimePicker":
+                ej.DateTimePicker.Locale = ej.DateTimePicker.Locale || {};
                 ej.DateTimePicker.Locale["he-IL"] = {
                     watermarkText: "תאריך ושעה בחר",
                     buttonText: {
@@ -83,6 +81,7 @@
 
                 break;
             case "ejDialog":
+                ej.Dialog.Locale = ej.Dialog.Locale || {};
                 ej.Dialog.Locale["he-IL"] = {
                     tooltip: {
                         close: "לִסְגוֹר",
@@ -98,12 +97,31 @@
                 };
                 break;
             case "ejDropDownList":
+                ej.DropDownList.Locale = ej.DropDownList.Locale || {};
                 ej.DropDownList.Locale["he-IL"] = {
                     emptyResultText: "אין הצעות",
                     watermarkText: " ",
                 };
                 break;
+			case "ejComboBox":
+                ej.ComboBox.Locale["he-IL"] = {
+                    noRecordsTemplate: "לא נמצאו שיאים",
+					actionFailureTemplate: "הבקשה נכשלה"
+                };
+                break;
+			case "ejMenu":
+                ej.Menu.Locale["he-IL"] = {
+                    titleText: "תַפרִיט"
+                };
+                break;
+			case "ejCaptcha":
+                ej.Captcha.Locale["he-IL"] = {
+					placeHolderText: "הקלד את הקוד המוצג",
+					CustomErrorMessage: "CAPcha לא חוקי"
+                };
+                break;
             case "ejExcelFilter":
+                ej.ExcelFilter.Locale = ej.ExcelFilter.Locale || {};
                 ej.ExcelFilter.Locale["he-IL"] = {
                     SortNoSmaller: "מיין מהנמוך לגבוה",
                     SortNoLarger: "מיין גדול לקטן",
@@ -151,6 +169,7 @@
                 };
                 break;
             case "ejFileExplorer":
+                ej.FileExplorer.Locale = ej.FileExplorer.Locale || {};
                 ej.FileExplorer.Locale["he-IL"] = {
                     Folder: "תיקייה",
                     EmptyFolder: "התיקיה הזו ריקה",
@@ -249,6 +268,7 @@
                 };
                 break;
             case "ejGantt":
+                ej.Gantt.Locale = ej.Gantt.Locale || {};
                 ej.Gantt.Locale["he-IL"] = {
                     emptyRecord: "אין רשומות לתצוגה",
                     unassignedTask: "משימה שלא הוקצתה",
@@ -433,9 +453,31 @@
                             { id: "FS", text: "הַתחָלָה-סִיוּם", value: "הַתחָלָה-סִיוּם" },
                             { id: "FF", text: "סִיוּם-סִיוּם", value: "סִיוּם-סִיוּם" }
                     ],
+
+                    linkValidationRuleText: {
+                        taskBeforePredecessor: "הזזת '{0}' כדי להתחיל לפני '{1}' מסיים את שתי המשימות מקושרים. כתוצאה מכך, הקישורים לא ניתן לכבד. בחר פעולה אחת שבהמשך כדי לבצע",
+                        taskAfterPredecessor: "הזזת את '{0}' מ '{1}' ושתי המשימות מקושרות. כתוצאה מכך, הקישורים לא ניתן לכבד. בחר פעולה אחת שבהמשך כדי לבצע",
+                    },
+                    linkValidationDialogTitle: "אמת עריכה",
+                    linkValidationRuleOptions: {
+                        cancel: "בטל, שמור על הקישור הקיים",
+                        removeLink: ".'{הסר את הקישור והזז '{0}' כדי להתחיל ב '{1",
+                        preserveLink: "הזז את '{0}' כדי להתחיל ב '{1}' ולשמור על הקישור."
+                    },
+                    connectorLineDialogText: {
+                        from: "מ",
+                        to: "ל",
+                        taskLink: "קישור משימות",
+                        lag: "לְפַגֵר",
+                        okButtonText: "בסדר",
+                        cancelButtonText: "לְבַטֵל",
+                        deleteButtonText: "לִמְחוֹק",
+                        title: "תלות המשימות"
+                    }
                 };
                 break;
             case "ejGrid":
+                ej.Grid.Locale = ej.Grid.Locale || {};
                 ej.Grid.Locale["he-IL"] = {
                     EmptyRecord: "אין רשומות לתצוגה",
                     GroupDropArea: "גרור כותרת עמודה כאן לקבוצה שזה טור",
@@ -505,6 +547,7 @@
                 break;
             case "ejmobile":
                 if (ej.mobile.Grid) {
+                    ej.mobile.Grid.Locale = ej.mobile.Grid.Locale || {};
                     ej.mobile.Grid.Locale["he-IL"] = {
                         emptyResult: "אין רשומות לתצוגה",
                         filterValidation: "זן נתונים מסננים חוקיים",
@@ -522,6 +565,7 @@
                     ;
                 }
                 if (ej.mobile.DatePicker) {
+                    ej.mobile.DatePicker.Locale =  ej.mobile.DatePicker.Locale || {};
                     ej.mobile.DatePicker.Locale["he-IL"] = {
                         confirmText: "בוצע",
                         Windows: {
@@ -534,6 +578,7 @@
                     ;
                 }
                 if (ej.mobile.TimePicker) {
+                    ej.mobile.TimePicker.Locale = ej.mobile.TimePicker.Locale || {};
                     ej.mobile.TimePicker.Locale["he-IL"] = {
                         confirmText: "בוצע",
                         AM: "AM",
@@ -551,11 +596,13 @@
                 }
                 break;
             case "ejNumericTextbox":
+                ej.NumericTextbox.Locale = ej.NumericTextbox.Locale || {};
                 ej.NumericTextbox.Locale["he-IL"] = {
                     watermarkText: "זן ערך",
                 };
                 break;
             case "ejPivotChart":
+                ej.PivotChart.Locale = ej.PivotChart.Locale || {};
                 ej.PivotChart.Locale["he-IL"] = {
                     Measure: "לִמְדוֹד",
                     Row: "שׁוּרָה",
@@ -601,6 +648,7 @@
                 };
                 break;
             case "ejPivotClient":
+                ej.PivotClient.Locale = ej.PivotClient.Locale || {};
                 ej.PivotClient.Locale["he-IL"] = {
                     DoesNotBeginsWith: "אינו מתחיל עם",
                     DoesNotEndsWith: "אינו מסתיים עם",
@@ -751,16 +799,21 @@
                     RenameMsg: "הדוח שונה בהצלחה!!!!!",
                     RemoveMsg: "הדוח הוסר בהצלחה!!!!!",
                     Success: "הצלחה",
-                    KpiAlertMsg: "אתה מעביר את השדה אינו יכול להיות ממוקם באזור זה של הדוח"
+                    KpiAlertMsg: "אתה מעביר את השדה אינו יכול להיות ממוקם באזור זה של הדוח",
+                    NotAllItemsShowing: "לא כל ילד צמתים מוצגים",
+                    EditorLinkPanelAlert: "חברי יש יותר מאלף פריטים תחת אחד או יותר אב. רק הראשונה 1000 מוצגים פריטים תחת כל אב.",
+                    NamedSetAlert: "שם הגדר לא ניתן להוסיף את דוחשם הגדר לא ניתן להוסיף את דוחשם הגדר לא ניתן להוסיף את דוח PivotTable באותו הזמן כמו בשם אחר הגדר מבוסס על אותה שדה. לחץ על אישור כדי להסיר ' <Set 1> ' בשם להגדיר ולהוסיף ' <Set 2> ' בשם."
                 };
                 break;
             case "ejPivotGauge":
+                ej.PivotGauge.Locale = ej.PivotGauge.Locale || {};
                 ej.PivotGauge.Locale["he-IL"] = {
                     RevenueGoal: "יעד הכנסה",
                     RevenueValue: "ערך הכנסה",
                 };
                 break;
             case "ejPager":
+                ej.Pager.Locale = ej.Pager.Locale || {};
                 ej.Pager.Locale["he-IL"] = {
                     pagerInfo: "{0} מתוך {1} דפים ({2} פריטים)",
                     firstPageTooltip: "עבור לדף הראשון",
@@ -772,6 +825,7 @@
                 };
                 break;
             case "ejPdfViewer":
+                ej.PdfViewer.Locale = ej.PdfViewer.Locale || {};
                 ej.PdfViewer.Locale["he-IL"] = {
                     toolbar: {
                         print: {
@@ -935,11 +989,13 @@
                 };
                 break;
             case "ejPercentageTextbox":
+                ej.PercentageTextbox.Locale = ej.PercentageTextbox.Locale || {};
                 ej.PercentageTextbox.Locale["he-IL"] = {
                     watermarkText: "זן ערך",
                 };
                 break;
             case "ejPivotGrid":
+                ej.PivotGrid.Locale = ej.PivotGrid.Locale || {};
                 ej.PivotGrid.Locale["he-IL"] = {
                     Total: "סך",
                     GrandTotal: "סכום כולל",
@@ -1141,10 +1197,13 @@
                     FormatName: "שם תבנית",
                     RemoveFormat: "הסר תבנית",
                     Edit: "ערוך",
-                    DuplicateFormatName: "שם תבנית כפולים"
+                    DuplicateFormatName: "שם תבנית כפולים",
+                    NotAllItemsShowing: "לא כל ילד צמתים מוצגים",
+                    EditorLinkPanelAlert: "חברי יש יותר מאלף פריטים תחת אחד או יותר אב. רק הראשונה 1000 מוצגים פריטים תחת כל אב."
                 };
                 break;
             case "ejPivotPager":
+                ej.PivotPager.Locale = ej.PivotPager.Locale || {};
                 ej.PivotPager.Locale["he-IL"] = {
                     SeriesPage: "עמוד סדרה",
                     CategoricalPage: "עמוד הקטגורי",
@@ -1155,6 +1214,7 @@
                 };
                 break;
             case "ejPivotSchemaDesigner":
+                ej.PivotSchemaDesigner.Locale = ej.PivotSchemaDesigner.Locale || {};
                 ej.PivotSchemaDesigner.Locale["he-IL"] = {
                     DoesNotBeginsWith: "אינו מתחיל עם",
                     DoesNotEndsWith: "אינו מסתיים עם",
@@ -1215,44 +1275,48 @@
                     OK: "אישור",
                     Cancel: "ביטול",
                     Search: "חיפוש",
-                    AddCurrentSelectionToFilter: "הוסף את הבחירה הנוכחית לסנן"
+                    AddCurrentSelectionToFilter: "הוסף את הבחירה הנוכחית לסנן",
+                    NotAllItemsShowing: "לא כל ילד צמתים מוצגים",
+                    EditorLinkPanelAlert: "חברי יש יותר מאלף פריטים תחת אחד או יותר אב. רק הראשונה 1000 מוצגים פריטים תחת כל אב.",
+                    NamedSetAlert: "שם הגדר לא ניתן להוסיף את דוחשם הגדר לא ניתן להוסיף את דוחשם הגדר לא ניתן להוסיף את דוח PivotTable באותו הזמן כמו בשם אחר הגדר מבוסס על אותה שדה. לחץ על אישור כדי להסיר ' <Set 1> ' בשם להגדיר ולהוסיף ' <Set 2> ' בשם."
                 };
                 break;
-            case "ejdatavisualization":
-                if (ej.datavisualization.Diagram) {
-                    ej.datavisualization.Diagram.Locale["he-IL"] = {
-                        cut: "גְזִירָה",
-                        copy: "עותק",
-                        paste: "לְהַדבִּיק",
-                        undo: "לבטל",
-                        redo: "לַעֲשׂוֹת שׁוּב",
-                        selectAll: "בחר הכל",
-                        grouping: "הַקבָּצָה",
-                        group: "קְבוּצָה",
-                        ungroup: "פרק קבוצה",
-                        order: "לְהַזמִין",
-                        bringToFront: "BringToFront",
-                        moveForward: "להתקדם",
-                        sendBackward: "העבר לאחור",
-                        sendToBack: "שלח אחורה",
-                    };
-                }
-                if (ej.datavisualization.RangeNavigator) {
-                    ej.datavisualization.RangeNavigator.Locale["he-IL"] = {
-                        intervals: {
-                            quarter: {
-                                longQuarters: "רוֹבַע,",
-                                shortQuarters: "ש"
-                            },
-                            week: {
-                                longWeeks: "שָׁבוּעַ,",
-                                shortWeeks: "W"
-                            },
+            case "ejDiagram":
+                ej.datavisualization.Diagram.Locale = ej.datavisualization.Diagram.Locale || {};
+                ej.datavisualization.Diagram.Locale["he-IL"] = {
+                    cut: "גְזִירָה",
+                    copy: "עותק",
+                    paste: "לְהַדבִּיק",
+                    undo: "לבטל",
+                    redo: "לַעֲשׂוֹת שׁוּב",
+                    selectAll: "בחר הכל",
+                    grouping: "הַקבָּצָה",
+                    group: "קְבוּצָה",
+                    ungroup: "פרק קבוצה",
+                    order: "לְהַזמִין",
+                    bringToFront: "BringToFront",
+                    moveForward: "להתקדם",
+                    sendBackward: "העבר לאחור",
+                    sendToBack: "שלח אחורה",
+                };
+                break;
+            case "ejRangeNavigator":
+                ej.datavisualization.RangeNavigator.Locale = ej.datavisualization.RangeNavigator.Locale || {};
+                ej.datavisualization.RangeNavigator.Locale["he-IL"] = {
+                    intervals: {
+                        quarter: {
+                            longQuarters: "רוֹבַע,",
+                            shortQuarters: "ש"
                         },
-                    };
-                }
+                        week: {
+                            longWeeks: "שָׁבוּעַ,",
+                            shortWeeks: "W"
+                        },
+                    },
+                };
                 break;
             case "ejReportViewer":
+                ej.ReportViewer.Locale = ej.ReportViewer.Locale || {};
                 ej.ReportViewer.Locale["he-IL"] = {
                     toolbar: {
                         print: {
@@ -1352,6 +1416,7 @@
                 };
                 break;
             case "ejRibbon":
+                ej.Ribbon.Locale = ej.Ribbon.Locale || {};
                 ej.Ribbon.Locale["he-IL"] = {
                     CustomizeQuickAccess: "התאמה אישית של סרגל הכלים לגישה מהירה",
                     RemoveFromQuickAccessToolbar: "הסר סרגל הכלים לגישה מהירה",
@@ -1362,6 +1427,7 @@
                 };
                 break;
             case "ejKanban":
+                ej.Kanban.Locale = ej.Kanban.Locale || {};
                 ej.Kanban.Locale["he-IL"] = {
                     EmptyCard: "לא מכבד כרטיסים לתצוגה",
                     SaveButton: "להציל",
@@ -1392,6 +1458,7 @@
                 };
                 break;
             case "ejRTE":
+                ej.RTE.Locale = ej.RTE.Locale || {};
                 ej.RTE.Locale["he-IL"] = {
                     bold: "נוֹעָז",
                     italic: "נטוי",
@@ -1542,6 +1609,7 @@
                 };
                 break;
             case "ejSchedule":
+                ej.Schedule.Locale = ej.Schedule.Locale || {};
                 ej.Schedule.Locale["he-IL"] = {
                     ReminderWindowTitle: "חלון תזכורת",
                     CreateAppointmentTitle: "צור מינוי",
@@ -1650,6 +1718,7 @@
                 };
                 break;
             case "ejSpreadsheet":
+                ej.Spreadsheet.Locale = ej.Spreadsheet.Locale || {};
                 ej.Spreadsheet.Locale["he-IL"] = {
                     Cut: "גזירה",
                     Copy: "עותק",
@@ -1770,6 +1839,8 @@
                     ThickBoxBorder: "גבול תיבת עבה",
                     ThickBottomBorder: "גבול תחתון עבה",
                     TopandThickBottomBorder: "גבול עליון ועבה",
+                    BottomDoubleBorder: "גבול תחתון כפול",
+                    TopandBottomDoubleBorder: "הגב התחתון והתחתון",
                     DrawBorderGrid: "צייר גבול הגבול",
                     DrawBorder: "צייר גבול",
                     TopandBottomBorder: "הגבול העליון והתחתון",
@@ -2227,7 +2298,7 @@
                     HugeDataAlert: "הקובץ גדול מדי לפתיחה.",
                     ImportExportUrl: "תן כתובת אתר לייבוא / ייצוא ונסה שוב.",
                     BetweenAlert: "המקסימום חייב להיות גדול או שווה ל מינימום.",
-                    BorderStyles: "מוצק / מקווקו / מנוקד",
+                    BorderStyles: "מוצק / מקווקו / מנוקד/לחץ פעמיים",
                     FPaneAlert: "חלונית ההקפאה אינה מיושמת עבור התא הראשון",
                     ReplaceNotFound: "הגיליון האלקטרוני לא יכול למצוא התאמה.",
                     BlankWorkbook: "חוברת ריקה",
@@ -2367,14 +2438,55 @@
                     AnalyzePivotTable: "טבלת ציר",
                     DataSource: "נתונים",
                     FATTitlePrefix: "סגנון טבלה",
+                    HighPoint: "נקודה גבוהה",
+                    LowPoint: "נקודת נמוכה",
+                    FirstPoint: "נקודה ראשונה",
+                    LastPoint: "נקודה אחרונה",
+                    NegativePoint: "נקודות שליליות",
+                    Markers: "סמנים",
+                    NegativePoints: "נקודות שליליות",
+                    LineSparklineTitle: "הוסף קו Sparkline",
+                    LineSparklineContent: "Sparklines הם תרשימים מיני להציב תאים בודדים, המייצג כל שורה של נתונים בבחירה שלך",
+                    ColumnSparklineTitle: "הכנס טור Sparkline",
+                    ColumnSparklineContent: "Sparklines הם תרשימים מיני להציב תאים בודדים, המייצג כל שורה של נתונים בבחירה שלך",
+                    WinLossSparklineTitle: "הכנס Win / הפסד Sparkline",
+                    WinLossSparklineContent: "Sparklines הם תרשימים מיני להציב תאים בודדים, המייצג כל שורה של נתונים בבחירה שלך,",
+                    Line: "קַו",
+                    SparklineColor: "צבע נוצץ",
+                    SparklineColorTitle: "צבע נוצץ",
+                    SparklineColorContent: "ציין את צבע הניצוצות בקבוצה הנבחרת שנבחרה",
+                    MarkerColor: "צבע סמן",
+                    MarkerColorContent: "שנה את הצבע עבור נקודות שליליות, סמנים וכל שאר הנקודות עבור קבוצת Sparkline שנבחרה",
+                    ChooseDataRange: "בחר את טווח הנתונים",
+                    ChooseLocationRange: "בחר את טווח המיקומים",
+                    DataRange: "טווח נתונים",
+                    LocationRange: "טווח מיקום",
+                    EmptyDLRnge: "מקור הנתונים או הפניה למיקום אינו חוקי",
+                    SourceDataRange: "בחר טווח נתונים מקור עבור sparkline",
+                    SparklineAlert: "הפניה למיקום אינה חוקית משום שהתאים אינם כולם באותה עמודה או באותה שורה. בחר תאים הכל בשורה אחת או בעמודה אחת",
+                    SparklineDataAlert: "הזן את פורמט הנתונים הנכון",
+                    SparklineLocAlert: "ההתייחסות למיקום או לטווח הנתונים אינה חוקית",
+                    SDataRangeAlert: "הפניה של מקור הנתונים אינה חוקית",
+                    LineAlert: "לא ניתן ליצור את תרשים הקו עבור ערך יחיד",
+                    EditData: "ערוך נתונים",
+                    EditDataContent: "ערוך מיקום קבוצה ונתונים",
+                    EditSingleSparklineData: "ערוך נתוני Sparkline יחיד",
+                    EditSparklineData: "עריכת Sparkline נתונים",
+                    HiddenEmptyCells: "תאים מוסתרים & ריקים",
+                    SwitchRowCol: "החלף שורה / עמודה",
+                    CreateSparkline: "צור Sparkline",
+                    SelectDataSource: "בחר טווח נתונים מקור עבור sparkline",
+                    SPARKLINEDESIGN: "עיצוב נוצץ",
                 };
                 break;
             case "ejTimePicker":
+                ej.TimePicker.Locale = ej.TimePicker.Locale || {};
                 ej.TimePicker.Locale["he-IL"] = {
                     watermarkText: "בחר פעם",
                 };
                 break;
             case "ejTreeGrid":
+                ej.TreeGrid.Locale = ej.TreeGrid.Locale || {};
                 ej.TreeGrid.Locale["he-IL"] = {
                     toolboxTooltipTexts: {
                         addTool: "לְהוֹסִיף",
@@ -2387,6 +2499,7 @@
                         pdfExportTool: "ייצוא PDF",
                         excelExportTool: "Excel ייצוא",
                         printTool: "הדפס",
+                        searchTool: "לְחַפֵּשׂ"
                     },
                     contextMenuTexts: {
                         addRowText: "הוסף שורה",
@@ -2492,6 +2605,7 @@
                 };
                 break;
             case "ejUploadbox":
+                ej.Uploadbox.Locale = ej.Uploadbox.Locale || {};
                 ej.Uploadbox.Locale["he-IL"] = {
                     buttonText: {
                         upload: "העלה",
@@ -2518,17 +2632,20 @@
                 };
                 break;
             case "ejTile":
+                ej.Tile.Locale = ej.Tile.Locale || {};
                 ej.Tile.Locale["he-IL"] = {
                     captionText: "טֶקסט"
                 };
                 break;
             case "ejListView":
+                ej.ListView.Locale = ej.ListView.Locale || {};
                 ej.ListView.Locale["he-IL"] = {
                     headerTitle: "כותרת",
                     headerBackButtonText: "חזור"
                 };
                 break;
             case "ejSpellCheck":
+                ej.SpellCheck.Locale = ej.SpellCheck.Locale || {};
                 ej.SpellCheck.Locale["he-IL"] = {
                     SpellCheckButtonText: "אִיוּת",
                     NotInDictionary: "לא במילון",

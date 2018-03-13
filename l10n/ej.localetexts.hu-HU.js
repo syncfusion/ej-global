@@ -1,11 +1,3 @@
-/*!
-*  filename: ej.localetexts.hu-HU.js
-*  Copyright Syncfusion Inc. 2001 - 2016. All rights reserved.
-*  Use of this code is subject to the terms of our license.
-*  A copy of the current license can be obtained at any time by e-mailing
-*  licensing@syncfusion.com. Any infringement will be prosecuted under
-*  applicable laws. 
-*/
 (function ($, ej, undefined) {
     var name, widgets;
     if (ej.locales.indexOf("huHU") < 0)
@@ -13,6 +5,7 @@
     $.fn.Locale_huHU = function (pluginName) {
         switch (pluginName) {
             case "ejAutocomplete":
+                ej.Autocomplete.Locale = ej.Autocomplete.Locale || {};
                 ej.Autocomplete.Locale["hu-HU"] = {
                     addNewText: "Új hozzáadása",
                     emptyResultText: "nincs javaslat",
@@ -21,6 +14,7 @@
                 };
                 break;
             case "ejColorPicker":
+                ej.ColorPicker.Locale = ej.ColorPicker.Locale || {};
                 ej.ColorPicker.Locale["hu-HU"] = {
                     buttonText: {
                         apply: "alkalmaz",
@@ -48,17 +42,20 @@
                 };
                 break;
             case "ejCurrencyTextbox":
+                ej.CurrencyTextbox.Locale = ej.CurrencyTextbox.Locale || {};
                 ej.CurrencyTextbox.Locale["hu-HU"] = {
                     watermarkText: "Írja érték",
                 };
                 break;
             case "ejDatePicker":
+                ej.DatePicker.Locale = ej.DatePicker.Locale || {};
                 ej.DatePicker.Locale["hu-HU"] = {
                     watermarkText: "Válassza ki a dátumot",
                     buttonText: "Ma",
                 };
                 break;
             case "ejDateRangePicker":
+                ej.DateRangePicker.Locale = ej.DateRangePicker.Locale || {};
                 ej.DateRangePicker.Locale["hu-HU"] = {
                     ButtonText: {
                         apply: "alkalmaz",
@@ -70,6 +67,7 @@
                 };
                 break;
             case "ejDateTimePicker":
+                ej.DateTimePicker.Locale = ej.DateTimePicker.Locale || {};
                 ej.DateTimePicker.Locale["hu-HU"] = {
                     watermarkText: "Válassza ki a dátumot időt",
                     buttonText: {
@@ -81,6 +79,7 @@
                 };
                 break;
             case "ejDialog":
+                ej.Dialog.Locale = ej.Dialog.Locale || {};
                 ej.Dialog.Locale["hu-HU"] = {
                     tooltip: {
                         close: "Közeli",
@@ -96,12 +95,31 @@
                 };
                 break;
             case "ejDropDownList":
+                ej.DropDownList.Locale = ej.DropDownList.Locale || {};
                 ej.DropDownList.Locale["hu-HU"] = {
                     emptyResultText: "Nem javaslatok,",
                     watermarkText: " ",
                 };
                 break;
+			case "ejComboBox":
+                ej.ComboBox.Locale["hu-HU"] = {
+                    noRecordsTemplate: "Nincs találat",
+					actionFailureTemplate: "A kérés sikertelen"
+                };
+                break;
+			case "ejMenu":
+                ej.Menu.Locale["hu-HU"] = {
+                    titleText: "Menü"
+                };
+                break;
+			case "ejCaptcha":
+                ej.Captcha.Locale["hu-HU"] = {
+					placeHolderText: "Írja be a képen látható kódot",
+					CustomErrorMessage: "Érvénytelen CAPTCHA"
+                };
+                break;
             case "ejExcelFilter":
+                ej.ExcelFilter.Locale = ej.ExcelFilter.Locale || {};
                 ej.ExcelFilter.Locale["hu-HU"] = {
                     SortNoSmaller: "Rendezés a legkisebbtől a legnagyobb",
                     SortNoLarger: "Rendezés legnagyobb a legkisebb",
@@ -149,6 +167,7 @@
                 };
                 break;
             case "ejFileExplorer":
+                ej.FileExplorer.Locale = ej.FileExplorer.Locale || {};
                 ej.FileExplorer.Locale["hu-HU"] = {
                     Folder: "Folder",
                     EmptyFolder: "Ez a mappa üres",
@@ -247,6 +266,7 @@
                 };
                 break;
             case "ejGantt":
+                ej.Gantt.Locale = ej.Gantt.Locale || {};
                 ej.Gantt.Locale["hu-HU"] = {
                     emptyRecord: "Nincs bejegyzés megjelenítéséhez",
                     unassignedTask: "Nem hozzárendelt feladat",
@@ -431,9 +451,31 @@
                             { id: "FS", text: "Befejez-indítás", value: "Befejez-indítás" },
                             { id: "FF", text: "Befejez-Befejez", value: "Befejez-Befejez" }
                     ],
+
+                    linkValidationRuleText: {
+                        taskBeforePredecessor: "A (z) '{0}' '{1}' befejezése előtt elindult, és a két feladat kapcsolódik. Ennek eredményeképpen a linkeket nem lehet megtisztelni. Válasszon ki egy műveletet az elvégzéshez",
+                        taskAfterPredecessor: "A (z) '{0}' eltávolítását a (z) {'{1}'  -től eltávolította, és a két feladat összekapcsolódik. Ennek eredményeképpen a linkeket nem lehet megtisztelni. Válasszon ki egy műveletet az elvégzéshez",
+                    },
+                    linkValidationDialogTitle: "Érvényesítse a szerkesztést",
+                    linkValidationRuleOptions: {
+                        cancel: "Mégse, Tartsa meg a meglévő linket",
+                        removeLink: "Távolítsa el a linket, és mozgassa a '{0}' elemet a '{1}' indításához.",
+                        preserveLink: "Mozgassa a '{0}' gombot a '{1}' indításához, és tartsa meg a linket."
+                    },
+                    connectorLineDialogText: {
+                        from: "Ból ből",
+                        to: "Nak nek",
+                        taskLink: "Feladatlista",
+                        lag: "lemarad",
+                        okButtonText: "rendben",
+                        cancelButtonText: "Törölni",
+                        deleteButtonText: "Töröl",
+                        title: "Feladatfüggőség"
+                    }
                 };
                 break;
             case "ejGrid":
+                ej.Grid.Locale = ej.Grid.Locale || {};
                 ej.Grid.Locale["hu-HU"] = {
                     EmptyRecord: "Nincs bejegyzés megjelenítéséhez",
                     GroupDropArea: "Húzza oszlopfejlécsornak ide csoport ez oszlop",
@@ -503,6 +545,7 @@
                 break;
             case "ejmobile":
                 if (ej.mobile.Grid) {
+                    ej.mobile.Grid.Locale = ej.mobile.Grid.Locale || {};
                     ej.mobile.Grid.Locale["hu-HU"] = {
                         emptyResult: "Nincs bejegyzés megjelenítéséhez",
                         filterValidation: "Adjon meg egy érvényes adatok szűrése",
@@ -520,6 +563,7 @@
                     ;
                 }
                 if (ej.mobile.DatePicker) {
+                    ej.mobile.DatePicker.Locale =  ej.mobile.DatePicker.Locale || {};
                     ej.mobile.DatePicker.Locale["hu-HU"] = {
                         confirmText: "Kész",
                         Windows: {
@@ -532,6 +576,7 @@
                     ;
                 }
                 if (ej.mobile.TimePicker) {
+                    ej.mobile.TimePicker.Locale = ej.mobile.TimePicker.Locale || {};
                     ej.mobile.TimePicker.Locale["hu-HU"] = {
                         confirmText: "Kész",
                         AM: "AM",
@@ -549,11 +594,13 @@
                 }
                 break;
             case "ejNumericTextbox":
+                ej.NumericTextbox.Locale = ej.NumericTextbox.Locale || {};
                 ej.NumericTextbox.Locale["hu-HU"] = {
                     watermarkText: "Írja érték",
                 };
                 break;
             case "ejPivotChart":
+                ej.PivotChart.Locale = ej.PivotChart.Locale || {};
                 ej.PivotChart.Locale["hu-HU"] = {
                     Measure: "Intézkedés",
                     Row: "Sor",
@@ -599,6 +646,7 @@
                 };
                 break;
             case "ejPivotClient":
+                ej.PivotClient.Locale = ej.PivotClient.Locale || {};
                 ej.PivotClient.Locale["hu-HU"] = {
                     DoesNotBeginsWith: "Nem veszi kezdetét.",
                     DoesNotEndsWith: "Nem végződik.",
@@ -749,16 +797,21 @@
                     RenameMsg: "A jelentés sikeresen átnevezve!!!",
                     RemoveMsg: "A jelentés eltávolítása sikerült!!!",
                     Success: "A siker",
-                    KpiAlertMsg: "A területen nem helyezhető el, amely nem a jelentés"
+                    KpiAlertMsg: "A területen nem helyezhető el, amely nem a jelentés",
+                    NotAllItemsShowing: "Nem minden gyermek csomópont ábrázolva",
+                    EditorLinkPanelAlert: "A tagok több, mint 1000 tételt egy vagy több szülő. Csak az első 1000 Az egyes menüpontok jelennek meg.",
+                    NamedSetAlert: "Nem nevesített, a PivotTable jelentés egy másik neve alapján ugyanazon a területen. Kattintson az OK gombra az ' <Set 1> ' és ' elnevezett ' <Set 2> ' neve."
                 };
                 break;
             case "ejPivotGauge":
+                ej.PivotGauge.Locale = ej.PivotGauge.Locale || {};
                 ej.PivotGauge.Locale["hu-HU"] = {
                     RevenueGoal: "bevétel cél",
                     RevenueValue: "bevétel értéke",
                 };
                 break;
             case "ejPager":
+                ej.Pager.Locale = ej.Pager.Locale || {};
                 ej.Pager.Locale["hu-HU"] = {
                     pagerInfo: "{0} {1} lapok ({2} elem)",
                     firstPageTooltip: "Ugrás az első oldalra",
@@ -770,6 +823,7 @@
                 };
                 break;
             case "ejPdfViewer":
+                ej.PdfViewer.Locale = ej.PdfViewer.Locale || {};
                 ej.PdfViewer.Locale["hu-HU"] = {
                     toolbar: {
                         print: {
@@ -933,11 +987,13 @@
                 };
                 break;
             case "ejPercentageTextbox":
+                ej.PercentageTextbox.Locale = ej.PercentageTextbox.Locale || {};
                 ej.PercentageTextbox.Locale["hu-HU"] = {
                     watermarkText: "Írja érték",
                 };
                 break;
             case "ejPivotGrid":
+                ej.PivotGrid.Locale = ej.PivotGrid.Locale || {};
                 ej.PivotGrid.Locale["hu-HU"] = {
                     Total: "Teljes",
                     GrandTotal: "Végösszeg",
@@ -1139,10 +1195,13 @@
                     FormatName: "Formátum neve",
                     RemoveFormat: "Szerelje le a formátum",
                     Edit: "Szerkesztés",
-                    DuplicateFormatName: "Kettős formátum neve"
+                    DuplicateFormatName: "Kettős formátum neve",
+                    NotAllItemsShowing: "Nem minden gyermek csomópont ábrázolva",
+                    EditorLinkPanelAlert: "A tagok több, mint 1000 tételt egy vagy több szülő. Csak az első 1000 Az egyes menüpontok jelennek meg."
                 };
                 break;
             case "ejPivotPager":
+                ej.PivotPager.Locale = ej.PivotPager.Locale || {};
                 ej.PivotPager.Locale["hu-HU"] = {
                     SeriesPage: "Sorozat Oldal",
                     CategoricalPage: "kategorikus oldal",
@@ -1153,6 +1212,7 @@
                 };
                 break;
             case "ejPivotSchemaDesigner":
+                ej.PivotSchemaDesigner.Locale = ej.PivotSchemaDesigner.Locale || {};
                 ej.PivotSchemaDesigner.Locale["hu-HU"] = {
                     DoesNotBeginsWith: "Nem veszi kezdetét.",
                     DoesNotEndsWith: "Nem végződik.",
@@ -1213,44 +1273,48 @@
                     OK: "OK",
                     Cancel: "Törlés",
                     Search: "Keresés",
-                    AddCurrentSelectionToFilter: "Az aktuális szűrő hozzáadása a szűrőhöz"
+                    AddCurrentSelectionToFilter: "Az aktuális szűrő hozzáadása a szűrőhöz",
+                    NotAllItemsShowing: "Nem minden gyermek csomópont ábrázolva",
+                    EditorLinkPanelAlert: "A tagok több, mint 1000 tételt egy vagy több szülő. Csak az első 1000 Az egyes menüpontok jelennek meg.",
+                    NamedSetAlert: "Nem nevesített, a PivotTable jelentés egy másik neve alapján ugyanazon a területen. Kattintson az OK gombra az ' <Set 1> ' és ' elnevezett ' <Set 2> ' neve."
                 };
                 break;
-            case "ejdatavisualization":
-                if (ej.datavisualization.Diagram) {
-                    ej.datavisualization.Diagram.Locale["hu-HU"] = {
-                        cut: "Vágott",
-                        copy: "Másolat",
-                        paste: "Paszta",
-                        undo: "kibont",
-                        redo: "Újra",
-                        selectAll: "Mindet kiválaszt",
-                        grouping: "Csoportosítás",
-                        group: "Csoport",
-                        ungroup: "Csoportbontás",
-                        order: "Rendelés",
-                        bringToFront: "Előre hoz",
-                        moveForward: "Menj tovább",
-                        sendBackward: "Hátrébb küldés",
-                        sendToBack: "Visszaküldeni",
-                    };
-                }
-                if (ej.datavisualization.RangeNavigator) {
-                    ej.datavisualization.RangeNavigator.Locale["hu-HU"] = {
-                        intervals: {
-                            quarter: {
-                                longQuarters: "Negyed,",
-                                shortQuarters: "Q"
-                            },
-                            week: {
-                                longWeeks: "Hét,",
-                                shortWeeks: "W"
-                            },
+            case "ejDiagram":
+                ej.datavisualization.Diagram.Locale = ej.datavisualization.Diagram.Locale || {};
+                ej.datavisualization.Diagram.Locale["hu-HU"] = {
+                    cut: "Vágott",
+                    copy: "Másolat",
+                    paste: "Paszta",
+                    undo: "kibont",
+                    redo: "Újra",
+                    selectAll: "Mindet kiválaszt",
+                    grouping: "Csoportosítás",
+                    group: "Csoport",
+                    ungroup: "Csoportbontás",
+                    order: "Rendelés",
+                    bringToFront: "Előre hoz",
+                    moveForward: "Menj tovább",
+                    sendBackward: "Hátrébb küldés",
+                    sendToBack: "Visszaküldeni",
+                };
+                break;
+            case "ejRangeNavigator":
+                ej.datavisualization.RangeNavigator.Locale = ej.datavisualization.RangeNavigator.Locale || {};
+                ej.datavisualization.RangeNavigator.Locale["hu-HU"] = {
+                    intervals: {
+                        quarter: {
+                            longQuarters: "Negyed,",
+                            shortQuarters: "Q"
                         },
-                    };
-                }
+                        week: {
+                            longWeeks: "Hét,",
+                            shortWeeks: "W"
+                        },
+                    },
+                };
                 break;
             case "ejReportViewer":
+                ej.ReportViewer.Locale = ej.ReportViewer.Locale || {};
                 ej.ReportViewer.Locale["hu-HU"] = {
                     toolbar: {
                         print: {
@@ -1350,6 +1414,7 @@
                 };
                 break;
             case "ejRibbon":
+                ej.Ribbon.Locale = ej.Ribbon.Locale || {};
                 ej.Ribbon.Locale["hu-HU"] = {
                     CustomizeQuickAccess: "Testreszabása gyorselérésieszköztár",
                     RemoveFromQuickAccessToolbar: "Vegyük le a gyorselérésieszköztár",
@@ -1360,6 +1425,7 @@
                 };
                 break;
             case "ejKanban":
+                ej.Kanban.Locale = ej.Kanban.Locale || {};
                 ej.Kanban.Locale["hu-HU"] = {
                     EmptyCard: "Nincs megjeleníthető kártyák",
                     SaveButton: "Mentés",
@@ -1390,6 +1456,7 @@
                 };
                 break;
             case "ejRTE":
+                ej.RTE.Locale = ej.RTE.Locale || {};
                 ej.RTE.Locale["hu-HU"] = {
                     bold: "Bátor",
                     italic: "Dőlt betű",
@@ -1547,6 +1614,7 @@
                 };
                 break;
             case "ejSchedule":
+                ej.Schedule.Locale = ej.Schedule.Locale || {};
                 ej.Schedule.Locale["hu-HU"] = {
                     ReminderWindowTitle: "emlékeztető ablak",
                     CreateAppointmentTitle: "Készítsen kijelölése",
@@ -1655,6 +1723,7 @@
                 };
                 break;
             case "ejSpreadsheet":
+                ej.Spreadsheet.Locale = ej.Spreadsheet.Locale || {};
                 ej.Spreadsheet.Locale["hu-HU"] = {
                     Cut: "Vágott",
                     Copy: "Másolat",
@@ -1775,6 +1844,8 @@
                     ThickBoxBorder: "Vastag Box Border",
                     ThickBottomBorder: "Vastag alsó szegély",
                     TopandThickBottomBorder: "Top és vastag alsó határ menti",
+                    BottomDoubleBorder: "Alsó kettős határ",
+                    TopandBottomDoubleBorder: "A felső és az alsó kettős szegély",
                     DrawBorderGrid: "Döntetlen Border Rács",
                     DrawBorder: "Döntetlen Border",
                     TopandBottomBorder: "Felső és alsó határ menti",
@@ -2233,7 +2304,7 @@
                     HugeDataAlert: "A fájl túl nagy, hogy nyissa ki.",
                     ImportExportUrl: "Adj import / export URL-t és próbálja újra.",
                     BetweenAlert: "A maximális legyen nagyobb vagy egyenlő a minimális.",
-                    BorderStyles: "Szilárd / szaggatott / pontozott",
+                    BorderStyles: "Szilárd / szaggatott / pontozott/Kettős",
                     FPaneAlert: "Freeze ablak nem alkalmazzák az első cella",
                     ReplaceNotFound: "Táblázatot nem talál egyezést.",
                     BlankWorkbook: "üres munkafüzet",
@@ -2373,14 +2444,55 @@
                     AnalyzePivotTable: "Kimutatás",
                     DataSource: "adatforrás",
                     FATTitlePrefix: "Asztali stílus",
+                    HighPoint: "Csúcspont",
+                    LowPoint: "Alacsony pont",
+                    FirstPoint: "Első pont",
+                    LastPoint: "Utolsó pont",
+                    NegativePoint: "Negatív pontok",
+                    Markers: "Markers",
+                    NegativePoints: "Negatív pontok",
+                    LineSparklineTitle: "Helyezze be a vonal sparkline-t",
+                    LineSparklineContent: "A sparklines mini-diagramok egyetlen cellába kerülnek, amelyek mindegyike egy sor adatot jelent a kiválasztásban",
+                    ColumnSparklineTitle: "Illessze be az oszlop sparkline-t",
+                    ColumnSparklineContent: "A sparklines mini-diagramok egyetlen cellába kerülnek, amelyek mindegyike egy sor adatot jelent a kiválasztásban",
+                    WinLossSparklineTitle: "Helyezd be a Win / Loss Sparkline-t",
+                    WinLossSparklineContent: "A sparklines mini diagramok egyetlen cellában, amelyek mindegyike egy sor adatot jelenít meg a kiválasztásban,",
+                    Line: "Vonal",
+                    SparklineColor: "Sparkline szín",
+                    SparklineColorTitle: "Sparkline szín",
+                    SparklineColorContent: "Adja meg a sparkline-ok színét a kiválasztott csillogó csoportban",
+                    MarkerColor: "Jelzőszín",
+                    MarkerColorContent: "Módosítsa a negatív pontok, jelölők és a kiválasztott csillogócsoport összes többi pontját",
+                    ChooseDataRange: "Válassza ki az adatsort",
+                    ChooseLocationRange: "Válassza ki a Tartományt",
+                    DataRange: "Adatsor",
+                    LocationRange: "Helyszíntartomány",
+                    EmptyDLRnge: "Az adatforrás vagy a helymeghatározás nem érvényes",
+                    SourceDataRange: "Válasszon egy forrásadat-tartományt a sparkline-nek",
+                    SparklineAlert: "A helymeghatározás nem érvényes, mert a cellák nem ugyanabban az oszlopban vagy ugyanazon sorban vannak. Válassza ki a cellákat, amelyek mindegyik sorban vagy egy oszlopban vannak",
+                    SparklineDataAlert: "Adja meg a helyes adatformátumot",
+                    SparklineLocAlert: "A hely vagy adatsor referenciája nem érvényes",
+                    SDataRangeAlert: "Az adatforrás hivatkozása nem érvényes",
+                    LineAlert: "Nem lehet létrehozni az egyértékű vonaldiagramot",
+                    EditData: "Adatok szerkesztése",
+                    EditDataContent: "Group Location & Data szerkesztése",
+                    EditSingleSparklineData: "Egyetlen sparkline adat szerkesztése",
+                    EditSparklineData: "Sparkline adatok szerkesztése",
+                    HiddenEmptyCells: "Rejtett és üres cellák",
+                    SwitchRowCol: "Sor / oszlop váltása",
+                    CreateSparkline: "Sparkline létrehozása",
+                    SelectDataSource: "Válasszon egy forrásadat-tartományt a sparkline-nek",
+                    SPARKLINEDESIGN: "Sparkline Design",
                 };
                 break;
             case "ejTimePicker":
+                ej.TimePicker.Locale = ej.TimePicker.Locale || {};
                 ej.TimePicker.Locale["hu-HU"] = {
                     watermarkText: "válasszon időt",
                 };
                 break;
             case "ejTreeGrid":
+                ej.TreeGrid.Locale = ej.TreeGrid.Locale || {};
                 ej.TreeGrid.Locale["hu-HU"] = {
                     toolboxTooltipTexts: {
                         addTool: "hozzáad",
@@ -2393,6 +2505,7 @@
                         pdfExportTool: "PDF exportálása",
                         excelExportTool: "Excel Export",
                         printTool: "Nyomtatás",
+                        searchTool: "Keresés"
                     },
                     contextMenuTexts: {
                         addRowText: "Add Row",
@@ -2498,6 +2611,7 @@
                 };
                 break;
             case "ejUploadbox":
+                ej.Uploadbox.Locale = ej.Uploadbox.Locale || {};
                 ej.Uploadbox.Locale["hu-HU"] = {
                     buttonText: {
                         upload: "Feltöltés",
@@ -2524,17 +2638,20 @@
                 };
                 break;
             case "ejTile":
+                ej.Tile.Locale = ej.Tile.Locale || {};
                 ej.Tile.Locale["hu-HU"] = {
                     captionText: "szöveg"
                 };
                 break;
             case "ejListView":
+                ej.ListView.Locale = ej.ListView.Locale || {};
                 ej.ListView.Locale["hu-HU"] = {
                     headerTitle: "Cím",
                     headerBackButtonText: "Hát"
                 };
                 break;
             case "ejSpellCheck":
+                ej.SpellCheck.Locale = ej.SpellCheck.Locale || {};
                 ej.SpellCheck.Locale["hu-HU"] = {
                     SpellCheckButtonText: "Helyesírás",
                     NotInDictionary: "Nincs szótár",

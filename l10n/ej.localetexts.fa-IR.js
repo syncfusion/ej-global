@@ -1,11 +1,3 @@
-/*!
-*  filename: ej.localetexts.fa-IR.js
-*  Copyright Syncfusion Inc. 2001 - 2016. All rights reserved.
-*  Use of this code is subject to the terms of our license.
-*  A copy of the current license can be obtained at any time by e-mailing
-*  licensing@syncfusion.com. Any infringement will be prosecuted under
-*  applicable laws. 
-*/
 (function ($, ej, undefined) {
     var name, widgets;
     if (ej.locales.indexOf("faIR") < 0)
@@ -13,6 +5,7 @@
     $.fn.Locale_faIR = function (pluginName) {
         switch (pluginName) {
             case "ejAutocomplete":
+                ej.Autocomplete.Locale = ej.Autocomplete.Locale || {};
                 ej.Autocomplete.Locale["fa-IR"] = {
                     addNewText: "اضافه کردن جدید",
                     emptyResultText: "هیچ پیشنهادی",
@@ -21,6 +14,7 @@
                 };
                 break;
             case "ejColorPicker":
+                ej.ColorPicker.Locale = ej.ColorPicker.Locale || {};
                 ej.ColorPicker.Locale["fa-IR"] = {
                     buttonText: {
                         apply: "درخواست",
@@ -48,17 +42,20 @@
                 };
                 break;
             case "ejCurrencyTextbox":
+                ej.CurrencyTextbox.Locale = ej.CurrencyTextbox.Locale || {};
                 ej.CurrencyTextbox.Locale["fa-IR"] = {
                     watermarkText: "مقدار را وارد کنید",
                 };
                 break;
             case "ejDatePicker":
+                ej.DatePicker.Locale = ej.DatePicker.Locale || {};
                 ej.DatePicker.Locale["fa-IR"] = {
                     watermarkText: "انتخاب تاریخ",
                     buttonText: "امروز",
                 };
                 break;
             case "ejDateRangePicker":
+                ej.DateRangePicker.Locale = ej.DateRangePicker.Locale || {};
                 ej.DateRangePicker.Locale["fa-IR"] = {
                     ButtonText: {
                         apply: "درخواست",
@@ -70,6 +67,7 @@
                 };
                 break;
             case "ejDateTimePicker":
+                ej.DateTimePicker.Locale = ej.DateTimePicker.Locale || {};
                 ej.DateTimePicker.Locale["fa-IR"] = {
                     watermarkText: "زمان تاریخ را انتخاب کنید",
                     buttonText: {
@@ -82,6 +80,7 @@
 
                 break;
             case "ejDialog":
+                ej.Dialog.Locale = ej.Dialog.Locale || {};
                 ej.Dialog.Locale["fa-IR"] = {
                     tooltip: {
                         close: "نزدیک",
@@ -97,12 +96,31 @@
                 };
                 break;
             case "ejDropDownList":
+                ej.DropDownList.Locale = ej.DropDownList.Locale || {};
                 ej.DropDownList.Locale["fa-IR"] = {
                     emptyResultText: "هیچ پیشنهادی،",
                     watermarkText: " ",
                 };
                 break;
+			case "ejComboBox":
+                ej.ComboBox.Locale["fa-IR"] = {
+                    noRecordsTemplate: "هیچ اسنادی یافت نشد",
+					actionFailureTemplate: "درخواست شکست خورد"
+                };
+                break;
+			case "ejMenu":
+                ej.Menu.Locale["fa-IR"] = {
+                    titleText: "فهرست"
+                };
+                break;
+			case "ejCaptcha":
+                ej.Captcha.Locale["fa-IR"] = {
+					placeHolderText: "کد نشان داده شده را وارد نمایید",
+					CustomErrorMessage: "کپچا نامعتبر است"
+                };
+                break;
             case "ejExcelFilter":
+                ej.ExcelFilter.Locale = ej.ExcelFilter.Locale || {};
                 ej.ExcelFilter.Locale["fa-IR"] = {
                     SortNoSmaller: "مرتب سازی بر کوچکترین تا بزرگترین",
                     SortNoLarger: "مرتب سازی بر بزرگ به کوچک",
@@ -150,6 +168,7 @@
                 };
                 break;
             case "ejFileExplorer":
+                ej.FileExplorer.Locale = ej.FileExplorer.Locale || {};
                 ej.FileExplorer.Locale["fa-IR"] = {
                     Folder: "پوشه",
                     EmptyFolder: 'ین پوشه خالی است',
@@ -229,6 +248,7 @@
                 };
                 break;
             case "ejGantt":
+                ej.Gantt.Locale = ej.Gantt.Locale || {};
                 ej.Gantt.Locale["fa-IR"] = {
                     emptyRecord: "هیچ پرونده برای نمایش نیست",
                     unassignedTask: "وظیفه غیر اختصاصی",
@@ -413,9 +433,31 @@
                             { id: "FS", text: "شروع-پایان", value: "شروع-پایان" },
                             { id: "FF", text: "پایان-پایان", value: "پایان-پایان" }
                     ],
+
+                    linkValidationRuleText: {
+                        taskBeforePredecessor: "شما '{0}' حرکت کردید تا قبل از شروع '{1}' 'پایان یابد و دو وظیفه مرتبط هستند. به این ترتیب پیوندهای قابل قبول نیست. یک عمل زیر را برای انجام انتخاب کنید",
+                        taskAfterPredecessor: "شما '{0}' را از '{1}' منتقل کردید و دو وظیفه مرتبط هستند. به این ترتیب پیوندهای قابل قبول نیست. یک عمل زیر را برای انجام انتخاب کنید",
+                    },
+                    linkValidationDialogTitle: "تأیید اعتبار در حال ویرایش",
+                    linkValidationRuleOptions: {
+                        cancel: "لغو، لینک موجود را نگه دارید",
+                        removeLink: "لینک را حذف کنید و '{0}' را برای شروع در '{1}' وارد کنید.",
+                        preserveLink: "حرکت '{0}' برای شروع در '{1}' 'و پیوند را نگه دارید."
+                    },
+                    connectorLineDialogText: {
+                        from: "از جانب",
+                        to: "به",
+                        taskLink: "پیوند کار",
+                        lag: "عقب ماندن",
+                        okButtonText: "خوب",
+                        cancelButtonText: "لغو کردن",
+                        deleteButtonText: "حذف کردن",
+                        title: "وابستگی به کار"
+                    }
                 };
                 break;
             case "ejGrid":
+                ej.Grid.Locale = ej.Grid.Locale || {};
                 ej.Grid.Locale["fa-IR"] = {
                     EmptyRecord: "هیچ پرونده برای نمایش نیست",
                     GroupDropArea: "کشیدن یک عنوان ستون در اینجا به گروه آن ستون",
@@ -485,6 +527,7 @@
                 break;
             case "ejmobile":
                 if (ej.mobile.Grid) {
+                    ej.mobile.Grid.Locale = ej.mobile.Grid.Locale || {};
                     ej.mobile.Grid.Locale["fa-IR"] = {
                         emptyResult: "هیچ پرونده برای نمایش نیست",
                         filterValidation: "فیلتر کردن داده ها معتبر وارد کنید",
@@ -502,6 +545,7 @@
                     ;
                 }
                 if (ej.mobile.DatePicker) {
+                    ej.mobile.DatePicker.Locale =  ej.mobile.DatePicker.Locale || {};
                     ej.mobile.DatePicker.Locale["fa-IR"] = {
                         confirmText: "انجام شده",
                         Windows: {
@@ -514,6 +558,7 @@
                     ;
                 }
                 if (ej.mobile.TimePicker) {
+                    ej.mobile.TimePicker.Locale = ej.mobile.TimePicker.Locale || {};
                     ej.mobile.TimePicker.Locale["fa-IR"] = {
                         confirmText: "انجام شده",
                         AM: "صبح",
@@ -532,11 +577,13 @@
                 }
                 break;
             case "ejNumericTextbox":
+                ej.NumericTextbox.Locale = ej.NumericTextbox.Locale || {};
                 ej.NumericTextbox.Locale["fa-IR"] = {
                     watermarkText: "مقدار را وارد کنید",
                 };
                 break;
             case "ejPivotChart":
+                ej.PivotChart.Locale = ej.PivotChart.Locale || {};
                 ej.PivotChart.Locale["fa-IR"] = {
                     Measure: "اندازه گرفتن",
                     Row: "ردیف",
@@ -582,6 +629,7 @@
                 };
                 break;
             case "ejPivotClient":
+                ej.PivotClient.Locale = ej.PivotClient.Locale || {};
                 ej.PivotClient.Locale["fa-IR"] = {
                     DoesNotBeginsWith: "آغاز نيست.",
                     DoesNotEndsWith: "با پايان ندارد.",
@@ -732,16 +780,21 @@
                     RenameMsg: "گزارش تغییر نام با موفقیت انجام شد!!!",
                     RemoveMsg: "گزارش با موفقیت حذف شد!!!",
                     Success: "موفقیت",
-                    KpiAlertMsg: "ميدان حرکت نمی تواند شما را در این قسمت قرار می گیرد به گزارش"
+                    KpiAlertMsg: "ميدان حرکت نمی تواند شما را در این قسمت قرار می گیرد به گزارش",
+                    NotAllItemsShowing: "نه همه بچه متورم نشان داده می شوند.",
+                    EditorLinkPanelAlert: "اعضای آن بیشتر از 1000 است که دارای یک یا بیشتر تحت نظر والد است. فقط اول 1000 اقلام نمایش داده شده در زير هر يك از والدين است.",
+                    NamedSetAlert: "یک مجموعه نامی را نمی توان در گزارش PivotTable در همان زمان به عنوان یک مجموعه نام دیگر بر اساس همان فیلد اضافه کرد. برای حذف ' <Set 1> ' با کلیک بر روی OK کلیک کنید و ' <Set 2> ' را اضافه کنید."
                 };
                 break;
             case "ejPivotGauge":
+                ej.PivotGauge.Locale = ej.PivotGauge.Locale || {};
                 ej.PivotGauge.Locale["fa-IR"] = {
                     RevenueGoal: "هدف درآمد",
                     RevenueValue: "ارزش درآمد",
                 };
                 break;
             case "ejPager":
+                ej.Pager.Locale = ej.Pager.Locale || {};
                 ej.Pager.Locale["fa-IR"] = {
                     pagerInfo: "{0} از {1} صفحات ({2} مورد)",
                     firstPageTooltip: "برو به صفحه اول",
@@ -753,6 +806,7 @@
                 };
                 break;
             case "ejPdfViewer":
+                ej.PdfViewer.Locale = ej.PdfViewer.Locale || {};
                 ej.PdfViewer.Locale["fa-IR"] = {
                     toolbar: {
                         print: {
@@ -916,11 +970,13 @@
                 };
                 break;
             case "ejPercentageTextbox":
+                ej.PercentageTextbox.Locale = ej.PercentageTextbox.Locale || {};
                 ej.PercentageTextbox.Locale["fa-IR"] = {
                     watermarkText: "مقدار را وارد کنید",
                 };
                 break;
             case "ejPivotGrid":
+                ej.PivotGrid.Locale = ej.PivotGrid.Locale || {};
                 ej.PivotGrid.Locale["fa-IR"] = {
                     Total: "کل",
                     GrandTotal: "کل بزرگ",
@@ -1122,10 +1178,13 @@
                     FormatName: "نام قالب",
                     RemoveFormat: "حذف قالب بندی",
                     Edit: "ویرایش",
-                    DuplicateFormatName: "نام قالب تکراری"
+                    DuplicateFormatName: "نام قالب تکراری",
+                    NotAllItemsShowing: "نه همه بچه متورم نشان داده می شوند.",
+                    EditorLinkPanelAlert: "اعضای آن بیشتر از 1000 است که دارای یک یا بیشتر تحت نظر والد است. فقط اول 1000 اقلام نمایش داده شده در زير هر يك از والدين است."
                 };
                 break;
             case "ejPivotPager":
+                ej.PivotPager.Locale = ej.PivotPager.Locale || {};
                 ej.PivotPager.Locale["fa-IR"] = {
                     SeriesPage: "سری صفحه",
                     CategoricalPage: "طبقه صفحه",
@@ -1136,6 +1195,7 @@
                 };
                 break;
             case "ejPivotSchemaDesigner":
+                ej.PivotSchemaDesigner.Locale = ej.PivotSchemaDesigner.Locale || {};
                 ej.PivotSchemaDesigner.Locale["fa-IR"] = {
                     DoesNotBeginsWith: "آغاز نيست.",
                     DoesNotEndsWith: "با پايان ندارد.",
@@ -1196,44 +1256,48 @@
                     OK: "OK",
                     Cancel: "لغو",
                     Search: "جستجو",
-                    AddCurrentSelectionToFilter: "اضافه کردن انتخاب فعلی برای فیلتر کردن"
+                    AddCurrentSelectionToFilter: "اضافه کردن انتخاب فعلی برای فیلتر کردن",
+                    NotAllItemsShowing: "نه همه بچه متورم نشان داده می شوند.",
+                    EditorLinkPanelAlert: "اعضای آن بیشتر از 1000 است که دارای یک یا بیشتر تحت نظر والد است. فقط اول 1000 اقلام نمایش داده شده در زير هر يك از والدين است.",
+                    NamedSetAlert: "یک مجموعه نامی را نمی توان در گزارش PivotTable در همان زمان به عنوان یک مجموعه نام دیگر بر اساس همان فیلد اضافه کرد. برای حذف ' <Set 1> ' با کلیک بر روی OK کلیک کنید و ' <Set 2> ' را اضافه کنید."
                 };
                 break;
-            case "ejdatavisualization":
-                if (ej.datavisualization.Diagram) {
-                    ej.datavisualization.Diagram.Locale["fa-IR"] = {
-                        cut: "برش",
-                        copy: "نسخه",
-                        paste: "خمیر",
-                        undo: "باطل کردن",
-                        redo: "ازنو",
-                        selectAll: "انتخاب همه",
-                        grouping: "گروه بندی",
-                        group: "گروه",
-                        ungroup: "حالت گروه خارج",
-                        order: "سفارش",
-                        bringToFront: "BringToFront",
-                        moveForward: "به جلو حرکت کن",
-                        sendBackward: "ارسال به سمت عقب",
-                        sendToBack: "SendToBack",
-                    };
-                }
-                if (ej.datavisualization.RangeNavigator) {
-                    ej.datavisualization.RangeNavigator.Locale["fa-IR"] = {
-                        intervals: {
-                            quarter: {
-                                longQuarters: "ربع،",
-                                shortQuarters: "Q"
-                            },
-                            week: {
-                                longWeeks: "هفته،",
-                                shortWeeks: "W"
-                            },
+            case "ejDiagram":
+                ej.datavisualization.Diagram.Locale = ej.datavisualization.Diagram.Locale || {};
+                ej.datavisualization.Diagram.Locale["fa-IR"] = {
+                    cut: "برش",
+                    copy: "نسخه",
+                    paste: "خمیر",
+                    undo: "باطل کردن",
+                    redo: "ازنو",
+                    selectAll: "انتخاب همه",
+                    grouping: "گروه بندی",
+                    group: "گروه",
+                    ungroup: "حالت گروه خارج",
+                    order: "سفارش",
+                    bringToFront: "BringToFront",
+                    moveForward: "به جلو حرکت کن",
+                    sendBackward: "ارسال به سمت عقب",
+                    sendToBack: "SendToBack",
+                };
+                break;
+            case "ejRangeNavigator":
+                ej.datavisualization.RangeNavigator.Locale = ej.datavisualization.RangeNavigator.Locale || {};
+                ej.datavisualization.RangeNavigator.Locale["fa-IR"] = {
+                    intervals: {
+                        quarter: {
+                            longQuarters: "ربع،",
+                            shortQuarters: "Q"
                         },
-                    };
-                }
+                        week: {
+                            longWeeks: "هفته،",
+                            shortWeeks: "W"
+                        },
+                    },
+                };
                 break;
             case "ejReportViewer":
+                ej.ReportViewer.Locale = ej.ReportViewer.Locale || {};
                 ej.ReportViewer.Locale["fa-IR"] = {
                     toolbar: {
                         print: {
@@ -1333,6 +1397,7 @@
                 };
                 break;
             case "ejRibbon":
+                ej.Ribbon.Locale = ej.Ribbon.Locale || {};
                 ej.Ribbon.Locale["fa-IR"] = {
                     CustomizeQuickAccess: "سفارشی کردن نوار ابزار دسترسی سریع",
                     RemoveFromQuickAccessToolbar: "حذف از نوار ابزار دسترسی سریع",
@@ -1343,6 +1408,7 @@
                 };
                 break;
             case "ejKanban":
+                ej.Kanban.Locale = ej.Kanban.Locale || {};
                 ej.Kanban.Locale["fa-IR"] = {
                     EmptyCard: "بدون کارت برای نمایش",
                     SaveButton: "صرفه جویی",
@@ -1373,6 +1439,7 @@
                 };
                 break;
             case "ejRTE":
+                ej.RTE.Locale = ej.RTE.Locale || {};
                 ej.RTE.Locale["fa-IR"] = {
                     bold: "جسور",
                     italic: "حروف کج",
@@ -1530,6 +1597,7 @@
                 };
                 break;
             case "ejSchedule":
+                ej.Schedule.Locale = ej.Schedule.Locale || {};
                 ej.Schedule.Locale["fa-IR"] = {
                     ReminderWindowTitle: "پنجره یادآوری",
                     CreateAppointmentTitle: "درست روزانه",
@@ -1638,6 +1706,7 @@
                 };
                 break;
             case "ejSpreadsheet":
+                ej.Spreadsheet.Locale = ej.Spreadsheet.Locale || {};
                 ej.Spreadsheet.Locale["fa-IR"] = {
                     Cut: "برش",
                     Copy: "نسخه",
@@ -1752,6 +1821,8 @@
                     ThickBoxBorder: "ضخیم جعبه مرزی",
                     ThickBottomBorder: "ضخیم پایین مرزی",
                     TopandThickBottomBorder: "بالا و پایین ضخیم مرزی",
+                    BottomDoubleBorder: "پایین مرز دوگانهr",
+                    TopandBottomDoubleBorder: "مرز دو وجهی بالا و پایین",
                     DrawBorderGrid: "رسم مرز شبکه",
                     DrawBorder: "رسم کادر",
                     TopandBottomBorder: "بالا و پایین مرزی",
@@ -2209,7 +2280,7 @@
                     HugeDataAlert: "فایل خیلی بزرگ برای باز کردن.",
                     ImportExportUrl: "را واردات / URL صادرات و دوباره امتحان کنید.",
                     BetweenAlert: "حداکثر باید بزرگتر یا به حداقل برابر باشد.",
-                    BorderStyles: "جامد / نقش برآب / نقطه چین",
+                    BorderStyles: "جامد / نقش برآب / نقطه چین/دوتایی",
                     FPaneAlert: "یخ پنجره برای اولین سلول اعمال نمی",
                     ReplaceNotFound: "صفحه گسترده می تواند یک مسابقه را پیدا کند.",
                     BlankWorkbook: "کارنامه خالی",
@@ -2356,6 +2427,45 @@
                     AnalyzePivotTable: "جدول محوری",
                     DataSource: "منبع داده",
                     FATTitlePrefix: "جدول جدول",
+                    HighPoint: "بالا نقطه",
+                    LowPoint: "نقطه کم",
+                    FirstPoint: "نقطه اول",
+                    LastPoint: "آخرین نقطه",
+                    NegativePoint: "امتیازات منفی",
+                    Markers: "نشانگرها",
+                    NegativePoints: "امتیازات منفی",
+                    LineSparklineTitle: "درج خط Sparkline",
+                    LineSparklineContent: "Sparklines - مینی نمودارها در یک سلول واحد قرار می گیرند که هر کدام یک ردیف از داده ها را در انتخاب شما نشان می دهند",
+                    ColumnSparklineTitle: "ستون ستاره Sparkline را وارد کنید",
+                    ColumnSparklineContent: "Sparklines - مینی نمودارها در یک سلول واحد قرار می گیرند که هر کدام یک ردیف از داده ها را در انتخاب شما نشان می دهند",
+                    WinLossSparklineTitle: "قرار دادن Win / Loss Sparkline",
+                    WinLossSparklineContent: "Sparklines - مینی نمودارها در یک سلول واحد قرار می گیرند که هر کدام یک ردیف از داده ها را در انتخاب شما نشان می دهند",
+                    Line: "خط",
+                    SparklineColor: "Sparkline Color",
+                    SparklineColorTitle: "Sparkline Color",
+                    SparklineColorContent: "رنگ اسپارک لاین را در گروه Sparkline انتخابی مشخص کنید",
+                    MarkerColor: "رنگ نشانگر",
+                    MarkerColorContent: "تغییر رنگ نقاط منفی، نشانگرها و تمام نقاط دیگر برای گروه انتخابی sparkline را تغییر دهید",
+                    ChooseDataRange: "محدوده داده را انتخاب کنید",
+                    ChooseLocationRange: "محدوده موقعیت مکانی را انتخاب کنید",
+                    DataRange: "محدوده داده ها",
+                    LocationRange: "محدوده موقعیت",
+                    EmptyDLRnge: "منبع داده یا مرجع مکان معتبر نیست",
+                    SourceDataRange: "محدوده داده منبع برای sparkline را انتخاب کنید",
+                    SparklineAlert: "مرجع موقعیت مکانی معتبر نیست زیرا سلولها همه در یک ستون یا همان ردیف نیستند. سلول هایی را انتخاب کنید که همه در یک ردیف یا ستون تک هستند",
+                    SparklineDataAlert: "فرمت داده های صحیح را وارد کنید",
+                    SparklineLocAlert: "مرجع محدوده موقعیت یا محدوده داده معتبر نیست",
+                    SDataRangeAlert: "ارجاع منبع داده معتبر نیست",
+                    LineAlert: "می توانید نمودار خط را برای یک مقدار ایجاد کنید",
+                    EditData: "ویرایش داده ها",
+                    EditDataContent: "ویرایش موقعیت و داده های گروه",
+                    EditSingleSparklineData: "ویرایش اطلاعات Sparkline تنها",
+                    EditSparklineData: "ویرایش اطلاعات Sparkline",
+                    HiddenEmptyCells: "سلول های مخفی و خالی",
+                    SwitchRowCol: "ردیف / ستون را تغییر دهید",
+                    CreateSparkline: "ایجاد Sparkline",
+                    SelectDataSource: "محدوده داده منبع برای sparkline را انتخاب کنید",
+                    SPARKLINEDESIGN: "طراح اسپارک لاین",
                 };
                 break;
             case "ejTimePicker":
@@ -2365,6 +2475,7 @@
                 };
                 break;
             case "ejTreeGrid":
+                ej.TreeGrid.Locale = ej.TreeGrid.Locale || {};
                 ej.TreeGrid.Locale["fa-IR"] = {
                     toolboxTooltipTexts: {
                         addTool: "اضافه کردن",
@@ -2377,6 +2488,7 @@
                         pdfExportTool: "PDF صادرات",
                         excelExportTool: "اکسل صادرات",
                         printTool: "چاپ",
+                        searchTool: "جستجو کردن"
                     },
                     contextMenuTexts: {
                         addRowText: "اضافه کردن ردیف",
@@ -2482,6 +2594,7 @@
                 };
                 break;
             case "ejUploadbox":
+                ej.Uploadbox.Locale = ej.Uploadbox.Locale || {};
                 ej.Uploadbox.Locale["fa-IR"] = {
                     buttonText: {
                         upload: "بارگذاری",
@@ -2538,11 +2651,13 @@
                 };
                 break;
             case "ejTile":
+                ej.Tile.Locale = ej.Tile.Locale || {};
                 ej.Tile.Locale["fa-IR"] = {
                     captionText: "متن"
                 };
                 break;
             case "ejListView":
+                ej.ListView.Locale = ej.ListView.Locale || {};
                 ej.ListView.Locale["fa-IR"] = {
                     headerTitle: "عنوان",
                     headerBackButtonText: "بازگشت"

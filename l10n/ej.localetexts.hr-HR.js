@@ -1,11 +1,3 @@
-/*!
-*  filename: ej.localetexts.hr-HR.js
-*  Copyright Syncfusion Inc. 2001 - 2016. All rights reserved.
-*  Use of this code is subject to the terms of our license.
-*  A copy of the current license can be obtained at any time by e-mailing
-*  licensing@syncfusion.com. Any infringement will be prosecuted under
-*  applicable laws. 
-*/
 (function ($, ej, undefined) {
     var name, widgets;
     if (ej.locales.indexOf("hrHR") < 0)
@@ -13,6 +5,7 @@
     $.fn.Locale_hrHR = function (pluginName) {
         switch (pluginName) {
             case "ejAutocomplete":
+                ej.Autocomplete.Locale = ej.Autocomplete.Locale || {};
                 ej.Autocomplete.Locale["hr-HR"] = {
                     addNewText: "Dodaj novi",
                     emptyResultText: "Nema prijedloga",
@@ -21,6 +14,7 @@
                 };
                 break;
             case "ejColorPicker":
+                ej.ColorPicker.Locale = ej.ColorPicker.Locale || {};
                 ej.ColorPicker.Locale["hr-HR"] = {
                     buttonText: {
                         apply: "primijeniti",
@@ -48,17 +42,20 @@
                 };
                 break;
             case "ejCurrencyTextbox":
+                ej.CurrencyTextbox.Locale = ej.CurrencyTextbox.Locale || {};
                 ej.CurrencyTextbox.Locale["hr-HR"] = {
                     watermarkText: "Unesite vrijednost",
                 };
                 break;
             case "ejDatePicker":
+                ej.DatePicker.Locale = ej.DatePicker.Locale || {};
                 ej.DatePicker.Locale["hr-HR"] = {
                     watermarkText: "Odaberite datum",
                     buttonText: "Danas",
                 };
                 break;
             case "ejDateRangePicker":
+                ej.DateRangePicker.Locale = ej.DateRangePicker.Locale || {};
                 ej.DateRangePicker.Locale["hr-HR"] = {
                     ButtonText: {
                         apply: "primijeniti",
@@ -70,6 +67,7 @@
                 };
                 break;
             case "ejDateTimePicker":
+                ej.DateTimePicker.Locale = ej.DateTimePicker.Locale || {};
                 ej.DateTimePicker.Locale["hr-HR"] = {
                     watermarkText: "Odaberite datum i vrijeme",
                     buttonText: {
@@ -82,6 +80,7 @@
                 break;
 
             case "ejDialog":
+                ej.Dialog.Locale = ej.Dialog.Locale || {};
                 ej.Dialog.Locale["hr-HR"] = {
                     tooltip: {
                         close: "Zatvoriti",
@@ -97,12 +96,31 @@
                 };
                 break;
             case "ejDropDownList":
+                ej.DropDownList.Locale = ej.DropDownList.Locale || {};
                 ej.DropDownList.Locale["hr-HR"] = {
                     emptyResultText: "Nema prijedloga,",
                     watermarkText: " ",
                 };
                 break;
+			case "ejComboBox":
+                ej.ComboBox.Locale["hr-HR"] = {
+                    noRecordsTemplate: "Nije pronađen nijedan zapis",
+					actionFailureTemplate: "Zahtjev nije uspio"
+                };
+                break;
+			case "ejMenu":
+                ej.Menu.Locale["hr-HR"] = {
+                    titleText: "izbornik"
+                };
+                break;
+			case "ejCaptcha":
+                ej.Captcha.Locale["hr-HR"] = {
+					placeHolderText: "Upišite prikazani kod",
+					CustomErrorMessage: "Nevažeća Captcha"
+                };
+                break;
             case "ejExcelFilter":
+                ej.ExcelFilter.Locale = ej.ExcelFilter.Locale || {};
                 ej.ExcelFilter.Locale["hr-HR"] = {
                     SortNoSmaller: "Sortiraj najmanjeg do najvišeg",
                     SortNoLarger: "Sortiraj najvećeg do najmanjeg",
@@ -150,6 +168,7 @@
                 };
                 break;
             case "ejFileExplorer":
+                ej.FileExplorer.Locale = ej.FileExplorer.Locale || {};
                 ej.FileExplorer.Locale["hr-HR"] = {
                     Folder: "mapa",
                     EmptyFolder: "Ova mapa je prazna",
@@ -248,6 +267,7 @@
                 };
                 break;
             case "ejGantt":
+                ej.Gantt.Locale = ej.Gantt.Locale || {};
                 ej.Gantt.Locale["hr-HR"] = {
                     emptyRecord: "Nema zapisa za prikaz",
                     unassignedTask: "Neodijeljena zadatak",
@@ -432,9 +452,31 @@
                             { id: "FS", text: "Završi-Početak", value: "Završi-Početak" },
                             { id: "FF", text: "Završi-Završi", value: "Završi-Završi" }
                     ],
+                    
+                    linkValidationRuleText: {
+                        taskBeforePredecessor: "Premjestili ste '{0}' da biste započeli prije završetka '{1}', a dva su zadatka povezana. Kao rezultat, veze ne mogu biti poštovane. Izaberite jednu radnju ispod za izvođenje",
+                        taskAfterPredecessor: "Premjestili ste '{0}' od '{1}' i dva su zadatka povezana. Kao rezultat, veze ne mogu biti poštovane. Izaberite jednu radnju ispod za izvođenje",
+                    },
+                    linkValidationDialogTitle: "Provjera valjanosti uređivanja",
+                    linkValidationRuleOptions: {
+                        cancel: "Otkaži, zadrži postojeću vezu",
+                        removeLink: "Uklonite vezu i pomaknite '{0}' da biste započeli s '{1}'.", 
+                        preserveLink: "Pomaknite '{0}' da biste započeli '{1}' i zadržali vezu." 
+                    },
+                    connectorLineDialogText: {
+                        from: "Iz",
+                        to: "Do",
+                        taskLink: "Zadatak",
+                        lag: "zaostati",
+                        okButtonText: "u redu",
+                        cancelButtonText: "Otkazati",
+                        deleteButtonText: "Izbrisati",
+                        title: "Ovisnost zadataka"
+                    }
                 };
                 break;
             case "ejGrid":
+                ej.Grid.Locale = ej.Grid.Locale || {};
                 ej.Grid.Locale["hr-HR"] = {
                     EmptyRecord: "Nema zapisa za prikaz",
                     GroupDropArea: "Povucite zaglavlje stupca ovdje za grupu je kolona",
@@ -504,6 +546,7 @@
                 break;
             case "ejmobile":
                 if (ej.mobile.Grid) {
+                    ej.mobile.Grid.Locale = ej.mobile.Grid.Locale || {};
                     ej.mobile.Grid.Locale["hr-HR"] = {
                         emptyResult: "Nema zapisa za prikaz",
                         filterValidation: "Unesite važeću podatke filter",
@@ -521,6 +564,7 @@
                     ;
                 }
                 if (ej.mobile.DatePicker) {
+                    ej.mobile.DatePicker.Locale =  ej.mobile.DatePicker.Locale || {};
                     ej.mobile.DatePicker.Locale["hr-HR"] = {
                         confirmText: "Gotovo",
                         Windows: {
@@ -533,6 +577,7 @@
                     ;
                 }
                 if (ej.mobile.TimePicker) {
+                    ej.mobile.TimePicker.Locale = ej.mobile.TimePicker.Locale || {};
                     ej.mobile.TimePicker.Locale["hr-HR"] = {
                         confirmText: "Gotovo",
                         AM: "AM",
@@ -550,11 +595,13 @@
                 }
                 break;
             case "ejNumericTextbox":
+                ej.NumericTextbox.Locale = ej.NumericTextbox.Locale || {};
                 ej.NumericTextbox.Locale["hr-HR"] = {
                     watermarkText: "Unesite vrijednost",
                 };
                 break;
             case "ejPivotChart":
+                ej.PivotChart.Locale = ej.PivotChart.Locale || {};
                 ej.PivotChart.Locale["hr-HR"] = {
                     Measure: "Mjera",
                     Row: "Red",
@@ -600,6 +647,7 @@
                 };
                 break;
             case "ejPivotClient":
+                ej.PivotClient.Locale = ej.PivotClient.Locale || {};
                 ej.PivotClient.Locale["hr-HR"] = {
                     DoesNotBeginsWith: "Ne počinje sa",
                     DoesNotEndsWith: "Ne završava sa",
@@ -750,16 +798,21 @@
                     RenameMsg: "Izvješće Uspješno preimenovano!",
                     RemoveMsg: "Izvješće uspješno uklonjen!",
                     Success: "Uspjeh",
-                    KpiAlertMsg: "Polje se ne stavljajte u tu oblast izvje"
+                    KpiAlertMsg: "Polje se ne stavljajte u tu oblast izvje",
+                    NotAllItemsShowing: "Nisu svi dijete čvorovi su pokazali",
+                    EditorLinkPanelAlert: "Članovi zapošljava više od 1000 objekata pod jedan ili više roditelja. Samo prva 1000 objekata u su prikazane ispod svakog roditelja.",
+                    NamedSetAlert:"Tip po imenu set ne može biti dodana u izvješću PivotTable u isto vrijeme kao i svako drugo ime je baziran na istom polju. Kliknite za uklanjanje ' <Set 1> ' imena i dodaj ' <Set 2> ' po imenu."
                 };
                 break;
             case "ejPivotGauge":
+                ej.PivotGauge.Locale = ej.PivotGauge.Locale || {};
                 ej.PivotGauge.Locale["hr-HR"] = {
                     RevenueGoal: "Cilj prihoda",
                     RevenueValue: "Vrijednost prihoda",
                 };
                 break;
             case "ejPager":
+                ej.Pager.Locale = ej.Pager.Locale || {};
                 ej.Pager.Locale["hr-HR"] = {
                     pagerInfo: "{0} od {1} stranica ({2} stavke)",
                     firstPageTooltip: "Idi na prvu stranicu",
@@ -771,6 +824,7 @@
                 };
                 break;
             case "ejPdfViewer":
+                ej.PdfViewer.Locale = ej.PdfViewer.Locale || {};
                 ej.PdfViewer.Locale["hr-HR"] = {
                     toolbar: {
                         print: {
@@ -934,11 +988,13 @@
                 };
                 break;
             case "ejPercentageTextbox":
+                ej.PercentageTextbox.Locale = ej.PercentageTextbox.Locale || {};
                 ej.PercentageTextbox.Locale["hr-HR"] = {
                     watermarkText: "Unesite vrijednost",
                 };
                 break;
             case "ejPivotGrid":
+                ej.PivotGrid.Locale = ej.PivotGrid.Locale || {};
                 ej.PivotGrid.Locale["hr-HR"] = {
                     Total: "Ukup",
                     GrandTotal: "Ukupno",
@@ -1140,10 +1196,13 @@
                     FormatName: "Ime format",
                     RemoveFormat: "Ukloni Format",
                     Edit: "Uredi",
-                    DuplicateFormatName: "Reproducirati Format ime"
+                    DuplicateFormatName: "Reproducirati Format ime",
+                    NotAllItemsShowing: "Nisu svi dijete čvorovi su pokazali",
+                    EditorLinkPanelAlert: "Članovi zapošljava više od 1000 objekata pod jedan ili više roditelja. Samo prva 1000 objekata u su prikazane ispod svakog roditelja."
                 };
                 break;
             case "ejPivotPager":
+                ej.PivotPager.Locale = ej.PivotPager.Locale || {};
                 ej.PivotPager.Locale["hr-HR"] = {
                     SeriesPage: "Serija stranice",
                     CategoricalPage: "kategoričan stranice",
@@ -1154,6 +1213,7 @@
                 };
                 break;
             case "ejPivotSchemaDesigner":
+                ej.PivotSchemaDesigner.Locale = ej.PivotSchemaDesigner.Locale || {};
                 ej.PivotSchemaDesigner.Locale["hr-HR"] = {
                     DoesNotBeginsWith: "Ne počinje sa",
                     DoesNotEndsWith: "Ne završava sa",
@@ -1214,44 +1274,48 @@
                     OK: "u redu",
                     Cancel: "Otkazati",
                     Search: "Pretraži",
-                    AddCurrentSelectionToFilter: "Dodaj trenutni odabir za filtriranje"
+                    AddCurrentSelectionToFilter: "Dodaj trenutni odabir za filtriranje",
+                    NotAllItemsShowing: "Nisu svi dijete čvorovi su pokazali",
+                    EditorLinkPanelAlert: "Članovi zapošljava više od 1000 objekata pod jedan ili više roditelja. Samo prva 1000 objekata u su prikazane ispod svakog roditelja.",
+                    NamedSetAlert: "Tip po imenu set ne može biti dodana u izvješću PivotTable u isto vrijeme kao i svako drugo ime je baziran na istom polju. Kliknite za uklanjanje ' <Set 1> ' imena i dodaj ' <Set 2> ' po imenu."
                 };
                 break;
-            case "ejdatavisualization":
-                if (ej.datavisualization.Diagram) {
-                    ej.datavisualization.Diagram.Locale["hr-HR"] = {
-                        cut: "Rez",
-                        copy: "Kopirati",
-                        paste: "Zalijepiti",
-                        undo: "otkopčati",
-                        redo: "preurediti",
-                        selectAll: "Odaberi sve",
-                        grouping: "Grupiranje",
-                        group: "Skupina",
-                        ungroup: "Razgrupiranje",
-                        order: "Narudžba",
-                        bringToFront: "BringToFront",
-                        moveForward: "Kreni naprijed",
-                        sendBackward: "Pošalji unazad",
-                        sendToBack: "SendToBack",
-                    };
-                }
-                if (ej.datavisualization.RangeNavigator) {
-                    ej.datavisualization.RangeNavigator.Locale["hr-HR"] = {
-                        intervals: {
-                            quarter: {
-                                longQuarters: "Četvrtina,",
-                                shortQuarters: "Q"
-                            },
-                            week: {
-                                longWeeks: "Tjedan,",
-                                shortWeeks: "W"
-                            },
+            case "ejDiagram":
+                ej.datavisualization.Diagram.Locale = ej.datavisualization.Diagram.Locale || {};
+                ej.datavisualization.Diagram.Locale["hr-HR"] = {
+                    cut: "Rez",
+                    copy: "Kopirati",
+                    paste: "Zalijepiti",
+                    undo: "otkopčati",
+                    redo: "preurediti",
+                    selectAll: "Odaberi sve",
+                    grouping: "Grupiranje",
+                    group: "Skupina",
+                    ungroup: "Razgrupiranje",
+                    order: "Narudžba",
+                    bringToFront: "BringToFront",
+                    moveForward: "Kreni naprijed",
+                    sendBackward: "Pošalji unazad",
+                    sendToBack: "SendToBack",
+                };
+                break;
+            case "ejRangeNavigator":
+                ej.datavisualization.RangeNavigator.Locale = ej.datavisualization.RangeNavigator.Locale || {};
+                ej.datavisualization.RangeNavigator.Locale["hr-HR"] = {
+                    intervals: {
+                        quarter: {
+                            longQuarters: "Četvrtina,",
+                            shortQuarters: "Q"
                         },
-                    };
-                }
+                        week: {
+                            longWeeks: "Tjedan,",
+                            shortWeeks: "W"
+                        },
+                    },
+                };
                 break;
             case "ejReportViewer":
+                ej.ReportViewer.Locale = ej.ReportViewer.Locale || {};
                 if (ej.ReportViewer) ej.ReportViewer.Locale["hr-HR"] = {
                     toolbar: {
                         print: {
@@ -1351,6 +1415,7 @@
                 };
                 break;
             case "ejRibbon":
+                ej.Ribbon.Locale = ej.Ribbon.Locale || {};
                 ej.Ribbon.Locale["hr-HR"] = {
                     CustomizeQuickAccess: "Prilagodba alatne trake za brzi pristup",
                     RemoveFromQuickAccessToolbar: "Ukloni iz alatne trake za brzi pristup",
@@ -1361,6 +1426,7 @@
                 };
                 break;
             case "ejKanban":
+                ej.Kanban.Locale = ej.Kanban.Locale || {};
                 ej.Kanban.Locale["hr-HR"] = {
                     EmptyCard: "Nema kartice za prikaz",
                     SaveButton: "Uštedjeti",
@@ -1391,6 +1457,7 @@
                 };
                 break;
             case "ejRTE":
+                ej.RTE.Locale = ej.RTE.Locale || {};
                 ej.RTE.Locale["hr-HR"] = {
                     bold: "odvažan",
                     italic: "kurzivan",
@@ -1547,6 +1614,7 @@
                 };
                 break;
             case "ejSchedule":
+                ej.Schedule.Locale = ej.Schedule.Locale || {};
                 ej.Schedule.Locale["hr-HR"] = {
                     ReminderWindowTitle: "prozor Podsjetnik",
                     CreateAppointmentTitle: "Napravite sastanak",
@@ -1655,6 +1723,7 @@
                 };
                 break;
             case "ejSpreadsheet":
+                ej.Spreadsheet.Locale = ej.Spreadsheet.Locale || {};
                 ej.Spreadsheet.Locale["hr-HR"] = {
                     Cut: "Rez",
                     Copy: "Kopirati",
@@ -1769,6 +1838,8 @@
                     ThickBoxBorder: "Debeli Box Border",
                     ThickBottomBorder: "Debeli Donja granica",
                     TopandThickBottomBorder: "Najbolje i debela donja granica",
+                    BottomDoubleBorder: "Dno dvostruko granica",
+                    TopandBottomDoubleBorder: "Dvostruka granica vrha i dna",
                     DrawBorderGrid: "Crtanje granične Grid",
                     DrawBorder: "crtanje obrub",
                     TopandBottomBorder: "Vrh i dno Border",
@@ -2226,7 +2297,7 @@
                     HugeDataAlert: "Datoteka je prevelika za otvaranje.",
                     ImportExportUrl: "Dajte uvoz / izvoz URL i pokušajte ponovno.",
                     BetweenAlert: "Maksimalna mora biti veća ili jednaka minimalnoj.",
-                    BorderStyles: "Čvrsta / Isprekidana / točkasto",
+                    BorderStyles: "Čvrsta / Isprekidana / točkasto/Dvostruko",
                     FPaneAlert: "Zamrzavanje Pane ne primjenjuje se na prvu ćeliju",
                     ReplaceNotFound: "Spreadsheet ne može pronaći utakmicu.",
                     BlankWorkbook: "Prazna radna knjiga",
@@ -2373,14 +2444,55 @@
                     AnalyzePivotTable: "zaokretne tablice",
                     DataSource: "izvoru podataka",
                     FATTitlePrefix: "Stil tablice",
+                    HighPoint: "Visoka točka",
+                    LowPoint: "Niska točka",
+                    FirstPoint: "Prva točka",
+                    LastPoint: "Zadnja točka",
+                    NegativePoint: "Negativne točke",
+                    Markers: "markeri",
+                    NegativePoints: "Negativne točke",
+                    LineSparklineTitle: "Umetni Sparkline linije",
+                    LineSparklineContent: "Sparkline su mini grafikoni smješteni u jednu ćeliju, od kojih svaki predstavlja niz podataka u vašem izboru",
+                    ColumnSparklineTitle: "Umetni Sparkline stupca",
+                    ColumnSparklineContent: "Sparkline su mini grafikoni smješteni u jednu ćeliju, od kojih svaki predstavlja niz podataka u vašem izboru",
+                    WinLossSparklineTitle: "Umetnite Sparkline Win / Loss",
+                    WinLossSparklineContent: "Sparkline su mini grafikoni smješteni u jednu ćeliju, od kojih svaki predstavlja niz podataka u vašem izboru,",
+                    Line: "Crta",
+                    SparklineColor: "Boja žarulje",
+                    SparklineColorTitle: "Boja žarulje",
+                    SparklineColorContent: "Odredite boju svjetiljki u odabranoj grupi s prugama",
+                    MarkerColor: "Boja oznake",
+                    MarkerColorContent: "Promijenite boju negativnih točaka, oznaka i svih ostalih točaka za odabranu grupu sparkline",
+                    ChooseDataRange: "Odaberite Podatkovni raspon",
+                    ChooseLocationRange: "Odaberite raspon lokacije",
+                    DataRange: "Područje podataka",
+                    LocationRange: "Raspon lokacije",
+                    EmptyDLRnge: "Izvor podataka ili lokacijska referenca nije valjana",
+                    SourceDataRange: "Odaberite raspon izvora podataka za bljeskalicu",
+                    SparklineAlert: "Referenca o lokaciji nije valjana jer stanice nisu sve u istom stupcu ili istom retku. Odaberite ćelije koje su sve u jednom retku ili pojedinačnom stupcu",
+                    SparklineDataAlert: "Unesite ispravni format podataka",
+                    SparklineLocAlert: "Referenca za lokaciju ili raspon podataka nije važeća",
+                    SDataRangeAlert: "Referentni izvor podataka nije valjan",
+                    LineAlert: "Nije moguće izraditi linijski grafikon za jednu vrijednost",
+                    EditData: "Uređivanje podataka",
+                    EditDataContent: "Uredi grupu Lokacija i podaci",
+                    EditSingleSparklineData: "Uređivanje podataka pojedinačnih srebrnih podataka",
+                    EditSparklineData: "Uređivanje podataka o Sparklineu",
+                    HiddenEmptyCells: "Skrivene i ispražnjene stanice",
+                    SwitchRowCol: "Prebaci redak / stupac",
+                    CreateSparkline: "Stvorite Sparkline",
+                    SelectDataSource: "Odaberite raspon izvora podataka za bljeskalicu",
+                    SPARKLINEDESIGN: "Dizajn Sparkline",
                 };
                 break;
             case "ejTimePicker":
+                ej.TimePicker.Locale = ej.TimePicker.Locale || {};
                 ej.TimePicker.Locale["hr-HR"] = {
                     watermarkText: "odaberite vrijeme",
                 };
                 break;
             case "ejTreeGrid":
+                ej.TreeGrid.Locale = ej.TreeGrid.Locale || {};
                 ej.TreeGrid.Locale["hr-HR"] = {
                     toolboxTooltipTexts: {
                         addTool: "Dodati",
@@ -2393,6 +2505,7 @@
                         pdfExportTool: "PDF Izvoz",
                         excelExportTool: "Excel Izvoz",
                         printTool: "otisak",
+                        searchTool: "traži"
                     },
                     contextMenuTexts: {
                         addRowText: "Dodaj Row",
@@ -2498,6 +2611,7 @@
                 };
                 break;
             case "ejUploadbox":
+                ej.Uploadbox.Locale = ej.Uploadbox.Locale || {};
                 ej.Uploadbox.Locale["hr-HR"] = {
                     buttonText: {
                         upload: "Postavi",
@@ -2524,17 +2638,20 @@
                 };
                 break;
             case "ejTile":
+                ej.Tile.Locale = ej.Tile.Locale || {};
                 ej.Tile.Locale["hr-HR"] = {
                     captionText: "tekst"
                 };
                 break;
             case "ejListView":
+                ej.ListView.Locale = ej.ListView.Locale || {};
                 ej.ListView.Locale["hr-HR"] = {
                     headerTitle: "Titula",
                     headerBackButtonText: "Nazad"
                 };
                 break;
             case "ejSpellCheck":
+                ej.SpellCheck.Locale = ej.SpellCheck.Locale || {};
                 ej.SpellCheck.Locale["hr-HR"] = {
                     SpellCheckButtonText: "Pravopis",
                     NotInDictionary: "Nije u rječniku",

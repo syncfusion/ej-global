@@ -1,11 +1,3 @@
-/*!
-*  filename: ej.localetexts.nb-NO.js
-*  Copyright Syncfusion Inc. 2001 - 2016. All rights reserved.
-*  Use of this code is subject to the terms of our license.
-*  A copy of the current license can be obtained at any time by e-mailing
-*  licensing@syncfusion.com. Any infringement will be prosecuted under
-*  applicable laws. 
-*/
 (function ($, ej, undefined) {
     var name, widgets;
     if (ej.locales.indexOf("nbNO") < 0)
@@ -13,6 +5,7 @@
     $.fn.Locale_nbNO = function (pluginName) {
         switch (pluginName) {
             case "ejAutocomplete":
+                ej.Autocomplete.Locale = ej.Autocomplete.Locale || {};
                 ej.Autocomplete.Locale["nb-NO"] = {
                     addNewText: "Legg til ny",
                     emptyResultText: "ingen forslag",
@@ -21,6 +14,7 @@
                 };
                 break;
             case "ejColorPicker":
+                ej.ColorPicker.Locale = ej.ColorPicker.Locale || {};
                 ej.ColorPicker.Locale["nb-NO"] = {
                     buttonText: {
                         apply: "Søke om",
@@ -48,17 +42,20 @@
                 };
                 break;
             case "ejCurrencyTextbox":
+                ej.CurrencyTextbox.Locale = ej.CurrencyTextbox.Locale || {};
                 ej.CurrencyTextbox.Locale["nb-NO"] = {
                     watermarkText: "Skriv inn verdi",
                 };
                 break;
             case "ejDatePicker":
+                ej.DatePicker.Locale = ej.DatePicker.Locale || {};
                 ej.DatePicker.Locale["nb-NO"] = {
                     watermarkText: "Velg dato",
                     buttonText: "I dag",
                 };
                 break;
             case "ejDateRangePicker":
+                ej.DateRangePicker.Locale = ej.DateRangePicker.Locale || {};
                 ej.DateRangePicker.Locale["nb-NO"] = {
                     ButtonText: {
                         apply: "memohon",
@@ -70,6 +67,7 @@
                 };
                 break;
             case "ejDateTimePicker":
+                ej.DateTimePicker.Locale = ej.DateTimePicker.Locale || {};
                 ej.DateTimePicker.Locale["nb-NO"] = {
                     watermarkText: "Pilih masa tarikh",
                     buttonText: {
@@ -81,6 +79,7 @@
                 };
                 break;
             case "ejDialog":
+                ej.Dialog.Locale = ej.Dialog.Locale || {};
                 ej.Dialog.Locale["nb-NO"] = {
                     tooltip: {
                         close: "Lukke",
@@ -96,12 +95,31 @@
                 };
                 break;
             case "ejDropDownList":
+                ej.DropDownList.Locale = ej.DropDownList.Locale || {};
                 ej.DropDownList.Locale["nb-NO"] = {
                     emptyResultText: "ingen forslag,",
                     watermarkText: " ",
                 };
                 break;
+			case "ejComboBox":
+                ej.ComboBox.Locale["nb-NO"] = {
+                    noRecordsTemplate: "Ingen opptak funnet",
+					actionFailureTemplate: "Forespørselen mislyktes"
+                };
+                break;
+			case "ejMenu":
+                ej.Menu.Locale["nb-NO"] = {
+                    titleText: "Meny"
+                };
+                break;
+			case "ejCaptcha":
+                ej.Captcha.Locale["nb-NO"] = {
+					placeHolderText: "Skriv koden som vises",
+					CustomErrorMessage: "Ugyldig captcha"
+                };
+                break;
             case "ejExcelFilter":
+                ej.ExcelFilter.Locale = ej.ExcelFilter.Locale || {};
                 ej.ExcelFilter.Locale["nb-NO"] = {
                     SortNoSmaller: "Sorter minst til størst",
                     SortNoLarger: "Sorter største til minste",
@@ -149,6 +167,7 @@
                 };
                 break;
             case "ejFileExplorer":
+                ej.FileExplorer.Locale = ej.FileExplorer.Locale || {};
                 ej.FileExplorer.Locale["nb-NO"] = {
                     Folder: "Mappe",
                     EmptyFolder: "Denne mappen er tom",
@@ -247,6 +266,7 @@
                 };
                 break;
             case "ejGantt":
+                ej.Gantt.Locale = ej.Gantt.Locale || {};
                 ej.Gantt.Locale["nb-NO"] = {
                     emptyRecord: "Ingen oppføringer å vise",
                     unassignedTask: "Utildelt oppgave",
@@ -430,9 +450,31 @@
                             { id: "FS", text: "Bli ferdig-Begynne", value: "Bli ferdig-Begynne" },
                             { id: "FF", text: "Bli ferdig-Bli ferdig", value: "Bli ferdig-Bli ferdig" }
                     ],
+
+                    linkValidationRuleText: {
+                        taskBeforePredecessor: "Du flyttet '{0}' for å starte før '{1}' er ferdig, og de to oppgavene er koblet sammen. Som følge av dette kan linkene ikke bli æret. Velg en handling under for å utføre",
+                        taskAfterPredecessor: "Du flyttet '{0}' bort fra '{1}' og de to oppgavene er koblet sammen. Som følge av dette kan linkene ikke bli æret. Velg en handling under for å utføre",
+                    },
+                    linkValidationDialogTitle: "Validere redigering",
+                    linkValidationRuleOptions: {
+                        cancel: "Avbryt, Hold den eksisterende linken",
+                        removeLink: "Fjern koblingen og flytt '{0}' for å starte på '{1}'.",
+                        preserveLink: "Flytt '{0}' for å starte på '{1}' og hold koblingen."
+                    },
+                    connectorLineDialogText: {
+                        from: "Fra",
+                        to: "Til",
+                        taskLink: "Oppgavekobling",
+                        lag: "lag",
+                        okButtonText: "ok",
+                        cancelButtonText: "Kansellere",
+                        deleteButtonText: "Slett",
+                        title: "Oppgaveavhengighet"
+                    }
                 };
                 break;
             case "ejGrid":
+                ej.Grid.Locale = ej.Grid.Locale || {};
                 ej.Grid.Locale["nb-NO"] = {
                     EmptyRecord: "Ingen oppføringer å vise",
                     GroupDropArea: "Dra en kolonneoverskrift her for å gruppere det er kolonne",
@@ -502,6 +544,7 @@
                 break;
             case "ejmobile":
                 if (ej.mobile.Grid) {
+                    ej.mobile.Grid.Locale = ej.mobile.Grid.Locale || {};
                     ej.mobile.Grid.Locale["nb-NO"] = {
                         emptyResult: "Ingen oppføringer å vise",
                         filterValidation: "Oppgi gyldig filter data",
@@ -519,6 +562,7 @@
                     ;
                 }
                 if (ej.mobile.DatePicker) {
+                    ej.mobile.DatePicker.Locale =  ej.mobile.DatePicker.Locale || {};
                     ej.mobile.DatePicker.Locale["nb-NO"] = {
                         confirmText: "Ferdig",
                         Windows: {
@@ -531,6 +575,7 @@
                     ;
                 }
                 if (ej.mobile.TimePicker) {
+                    ej.mobile.TimePicker.Locale = ej.mobile.TimePicker.Locale || {};
                     ej.mobile.TimePicker.Locale["nb-NO"] = {
                         confirmText: "Ferdig",
                         AM: "ER",
@@ -548,11 +593,13 @@
                 }
                 break;
             case "ejNumericTextbox":
+                ej.NumericTextbox.Locale = ej.NumericTextbox.Locale || {};
                 ej.NumericTextbox.Locale["nb-NO"] = {
                     watermarkText: "Skriv inn verdi",
                 };
                 break;
             case "ejPivotChart":
+                ej.PivotChart.Locale = ej.PivotChart.Locale || {};
                 ej.PivotChart.Locale["nb-NO"] = {
                     Measure: "Måle",
                     Row: "Rad",
@@ -598,6 +645,7 @@
                 };
                 break;
             case "ejPivotClient":
+                ej.PivotClient.Locale = ej.PivotClient.Locale || {};
                 ej.PivotClient.Locale["nb-NO"] = {
                     DoesNotBeginsWith: "Ikke begynner med",
                     DoesNotEndsWith: "Ikke slutter med",
@@ -748,16 +796,21 @@
                     RenameMsg: "Rapporten har fått nytt navn!!!",
                     RemoveMsg: "Rapporten ble fjernet!!!",
                     Success: "Suksess",
-                    KpiAlertMsg: "Feltet du flytter ikke kan plasseres i det området av rapporten"
+                    KpiAlertMsg: "Feltet du flytter ikke kan plasseres i det området av rapporten",
+                    NotAllItemsShowing: "Ikke alle underordnede noder er vist",
+                    EditorLinkPanelAlert: "Medlemmene har mer enn 1000 elementer under ett eller flere overordnede. Bare den første 1000 elementer vises under hver overordnet.",
+                    NamedSetAlert: "En navngitt sett ikke kan legges til i pivottabellen rapport samtidig som et annet navn basert på det samme feltet. Klikk på OK for å fjerne ' <Set 1> ' heter satt og legge til ' <Set 2> ' heter satt."
                 };
                 break;
             case "ejPivotGauge":
+                ej.PivotGauge.Locale = ej.PivotGauge.Locale || {};
                 ej.PivotGauge.Locale["nb-NO"] = {
                     RevenueGoal: "mål Revenue",
                     RevenueValue: "inntekter Verdi",
                 };
                 break;
             case "ejPager":
+                ej.Pager.Locale = ej.Pager.Locale || {};
                 ej.Pager.Locale["nb-NO"] = {
                     pagerInfo: "{0} av {1} sider ({2} stk)",
                     firstPageTooltip: "Gå til første side",
@@ -769,6 +822,7 @@
                 };
                 break;
             case "ejPdfViewer":
+                ej.PdfViewer.Locale = ej.PdfViewer.Locale || {};
                 ej.PdfViewer.Locale["nb-NO"] = {
                     toolbar: {
                         print: {
@@ -932,11 +986,13 @@
                 };
                 break;
             case "ejPercentageTextbox":
+                ej.PercentageTextbox.Locale = ej.PercentageTextbox.Locale || {};
                 ej.PercentageTextbox.Locale["nb-NO"] = {
                     watermarkText: "Skriv inn verdi",
                 };
                 break;
             case "ejPivotGrid":
+                ej.PivotGrid.Locale = ej.PivotGrid.Locale || {};
                 ej.PivotGrid.Locale["nb-NO"] = {
                     Total: "Totalt",
                     GrandTotal: "Grand Totalt",
@@ -1138,10 +1194,13 @@
 					FormatName: "Format navn",
 					RemoveFormat: "Fjern Format",
 					Edit: "Rediger",
-					DuplicateFormatName: "Duplisere Format navn"
+					DuplicateFormatName: "Duplisere Format navn",
+					NotAllItemsShowing: "Ikke alle underordnede noder er vist",
+					EditorLinkPanelAlert: "Medlemmene har mer enn 1000 elementer under ett eller flere overordnede. Bare den første 1000 elementer vises under hver overordnet."
                 };
                 break;
             case "ejPivotPager":
+                ej.PivotPager.Locale = ej.PivotPager.Locale || {};
                 ej.PivotPager.Locale["nb-NO"] = {
                     SeriesPage: "Serien side",
                     CategoricalPage: "kategorisk side",
@@ -1152,6 +1211,7 @@
                 };
                 break;
             case "ejPivotSchemaDesigner":
+                ej.PivotSchemaDesigner.Locale = ej.PivotSchemaDesigner.Locale || {};
                 ej.PivotSchemaDesigner.Locale["nb-NO"] = {
                     DoesNotBeginsWith: "Ikke begynner med",
                     DoesNotEndsWith: "Ikke slutter med",
@@ -1211,44 +1271,48 @@
                     OK: "OK",
                     Cancel: "Avbryt",
                     Search: "Søk",
-                    AddCurrentSelectionToFilter: "Legg til nåværende utvalg for å filtrere"
+                    AddCurrentSelectionToFilter: "Legg til nåværende utvalg for å filtrere",
+                    NotAllItemsShowing: "Ikke alle underordnede noder er vist",
+                    EditorLinkPanelAlert: "Medlemmene har mer enn 1000 elementer under ett eller flere overordnede. Bare den første 1000 elementer vises under hver overordnet.",
+                    NamedSetAlert: "En navngitt sett ikke kan legges til i pivottabellen rapport samtidig som et annet navn basert på det samme feltet. Klikk på OK for å fjerne ' <Set 1> ' heter satt og legge til ' <Set 2> ' heter satt."
                 };
                 break;
-            case "ejdatavisualization":
-                if (ej.datavisualization.Diagram) {
-                    ej.datavisualization.Diagram.Locale["nb-NO"] = {
-                        cut: "Kutt",
-                        copy: "Kopiere",
-                        paste: "lim",
-                        undo: "angre",
-                        redo: "Gjør om",
-                        selectAll: "Velg alle",
-                        grouping: "gruppering",
-                        group: "Gruppe",
-                        ungroup: "Del opp gruppe",
-                        order: "Bestille",
-                        bringToFront: "BringToFront",
-                        moveForward: "Gå fremover",
-                        sendBackward: "Flytt bakover",
-                        sendToBack: "SendToBack",
-                    };
-                }
-                if (ej.datavisualization.RangeNavigator) {
-                    ej.datavisualization.RangeNavigator.Locale["nb-NO"] = {
-                        intervals: {
-                            quarter: {
-                                longQuarters: "Fjerdedel,",
-                                shortQuarters: "Q"
-                            },
-                            week: {
-                                longWeeks: "Uke,",
-                                shortWeeks: "W"
-                            },
+            case "ejDiagram":
+                ej.datavisualization.Diagram.Locale = ej.datavisualization.Diagram.Locale || {};
+                ej.datavisualization.Diagram.Locale["nb-NO"] = {
+                    cut: "Kutt",
+                    copy: "Kopiere",
+                    paste: "lim",
+                    undo: "angre",
+                    redo: "Gjør om",
+                    selectAll: "Velg alle",
+                    grouping: "gruppering",
+                    group: "Gruppe",
+                    ungroup: "Del opp gruppe",
+                    order: "Bestille",
+                    bringToFront: "BringToFront",
+                    moveForward: "Gå fremover",
+                    sendBackward: "Flytt bakover",
+                    sendToBack: "SendToBack",
+                };
+                break;
+            case "ejRangeNavigator":
+                ej.datavisualization.RangeNavigator.Locale = ej.datavisualization.RangeNavigator.Locale || {};
+                ej.datavisualization.RangeNavigator.Locale["nb-NO"] = {
+                    intervals: {
+                        quarter: {
+                            longQuarters: "Fjerdedel,",
+                            shortQuarters: "Q"
                         },
-                    };
-                }
+                        week: {
+                            longWeeks: "Uke,",
+                            shortWeeks: "W"
+                        },
+                    },
+                };
                 break;
             case "ejReportViewer":
+                ej.ReportViewer.Locale = ej.ReportViewer.Locale || {};
                 ej.ReportViewer.Locale["nb-NO"] = {
                     toolbar: {
                         print: {
@@ -1348,6 +1412,7 @@
                 };
                 break;
             case "ejRibbon":
+                ej.Ribbon.Locale = ej.Ribbon.Locale || {};
                 ej.Ribbon.Locale["nb-NO"] = {
                     CustomizeQuickAccess: "Tilpass Quick Access Toolbar",
                     RemoveFromQuickAccessToolbar: "Fjern fra Quick Access Toolbar",
@@ -1358,6 +1423,7 @@
                 };
                 break;
             case "ejKanban":
+                ej.Kanban.Locale = ej.Kanban.Locale || {};
                 ej.Kanban.Locale["nb-NO"] = {
                     EmptyCard: "Ingen kort å vise",
                     SaveButton: "Lagre",
@@ -1388,6 +1454,7 @@
                 };
                 break;
             case "ejRTE":
+                ej.RTE.Locale = ej.RTE.Locale || {};
                 ej.RTE.Locale["nb-NO"] = {
                     bold: "Dristig",
                     italic: "kursiv",
@@ -1539,6 +1606,7 @@
                 };
                 break;
             case "ejSchedule":
+                ej.Schedule.Locale = ej.Schedule.Locale || {};
                 ej.Schedule.Locale["nb-NO"] = {
                     ReminderWindowTitle: "påminnelse vindu",
                     CreateAppointmentTitle: "Opprett avtale",
@@ -1647,6 +1715,7 @@
                 };
                 break;
             case "ejSpreadsheet":
+                ej.Spreadsheet.Locale = ej.Spreadsheet.Locale || {};
                 ej.Spreadsheet.Locale["nb-NO"] = {
                     Cut: "Kutte opp",
                     Copy: "Kopiere",
@@ -1767,6 +1836,8 @@
                     ThickBoxBorder: "Tykk Box Border",
                     ThickBottomBorder: "Tykk Bottom Border",
                     TopandThickBottomBorder: "Toppen og tykk bunn Border",
+                    BottomDoubleBorder: "Nederste dobbelkant",
+                    TopandBottomDoubleBorder: "Øverste og nederste doble bordr",
                     DrawBorderGrid: "Tegn Border Grid",
                     DrawBorder: "Tegn Border",
                     TopandBottomBorder: "Topp og bunn Border",
@@ -2224,7 +2295,7 @@
                     HugeDataAlert: "Filen er for stor til å åpne.",
                     ImportExportUrl: "Gi import / eksport URL og prøv igjen.",
                     BetweenAlert: "Maksimal må være større eller lik minste.",
-                    BorderStyles: "Faststoff / stiplet / prikket",
+                    BorderStyles: "Faststoff / stiplet / prikket/Dobbel",
                     FPaneAlert: "Freeze Pane brukes ikke for den første cellen",
                     ReplaceNotFound: "Regneark kan ikke finne en match.",
                     BlankWorkbook: "blank arbeidsbok",
@@ -2364,14 +2435,55 @@
                     AnalyzePivotTable:"pivottabell",
                     DataSource:"Datakilde",
                     FATTitlePrefix:"Tabell stil",
+                    HighPoint: "High Point",
+                    LowPoint: "Titik rendah",
+                    FirstPoint: "Titik Pertama",
+                    LastPoint: "Titik Terakhir",
+                    NegativePoint: "Mata Negatif",
+                    Markers: "Penanda",
+                    NegativePoints: "Mata Negatif",
+                    LineSparklineTitle: "Masukkan Talian Sparkline",
+                    LineSparklineContent: "Sparklines adalah carta mini yang diletakkan dalam sel tunggal, masing-masing mewakili satu baris data dalam pilihan anda",
+                    ColumnSparklineTitle: "Masukkan Ruang Sparkline",
+                    ColumnSparklineContent: "Sparklines adalah carta mini yang diletakkan dalam sel tunggal, masing-masing mewakili satu baris data dalam pilihan anda",
+                    WinLossSparklineTitle: "Masukkan Sparkline Win / Loss",
+                    WinLossSparklineContent: "Sparklines adalah carta mini diletakkan dalam satu sel tunggal, masing-masing mewakili satu baris data dalam pilihan anda,",
+                    Line: "Talian",
+                    SparklineColor: "Warna Sparkline",
+                    SparklineColorTitle: "Warna Sparkline",
+                    SparklineColorContent: "Tentukan warna garis sparkel dalam kumpulan sparkline terpilih",
+                    MarkerColor: "Warna Penanda",
+                    MarkerColorContent: "Tukar warna untuk mata negatif, penanda, dan semua mata lain untuk kumpulan sparkline terpilih",
+                    ChooseDataRange: "Pilih Julat Data",
+                    ChooseLocationRange: "Pilih Julat Lokasi",
+                    DataRange: "Julat Data",
+                    LocationRange: "Julat Lokasi",
+                    EmptyDLRnge: "Rujukan Data Sumber atau Lokasi tidak sah",
+                    SourceDataRange: "Pilih julat data sumber untuk sparkline",
+                    SparklineAlert: "Rujukan lokasi tidak sah kerana sel tidak sama dalam lajur yang sama atau baris yang sama. Pilih sel yang semuanya berada dalam baris tunggal atau lajur tunggal",
+                    SparklineDataAlert: "Masukkan Format Data yang Betul",
+                    SparklineLocAlert: "Rujukan untuk lokasi atau julat data tidak sah",
+                    SDataRangeAlert: "Rujukan Sumber Data tidak sah",
+                    LineAlert: "Tidak dapat membuat carta garisan untuk nilai tunggal",
+                    EditData: "Edit Data",
+                    EditDataContent: "Edit Lokasi & Data Kumpulan",
+                    EditSingleSparklineData: "Edit Data Sparkline Tunggal",
+                    EditSparklineData: "Edit Data Sparkline",
+                    HiddenEmptyCells: "Sel Tersembunyi & Kosong",
+                    SwitchRowCol: "Tukar Row / Column",
+                    CreateSparkline: "Buat Sparkline",
+                    SelectDataSource: "Pilih julat data sumber untuk sparkline",
+                    SPARKLINEDESIGN: "Reka bentuk Sparkline",
                 };
                 break;
 			case "ejTimePicker":
+                ej.TimePicker.Locale = ej.TimePicker.Locale || {};
                 ej.TimePicker.Locale["nb-NO"] = {
                     watermarkText: "velg en tid",
                 };
                 break;	
             case "ejTreeGrid":
+                ej.TreeGrid.Locale = ej.TreeGrid.Locale || {};
                 ej.TreeGrid.Locale["nb-NO"] = {
                     toolboxTooltipTexts: {
                         addTool: "Legg til",
@@ -2383,7 +2495,8 @@
                         collapseAllTool: "Skjul alle",
                         pdfExportTool: "PDF eksport",
                         excelExportTool: "excel eksport",
-                        printTool: "Skrive ut"
+                        printTool: "Skrive ut",
+                        searchTool: "Søke"
                     },
                     contextMenuTexts: {
                         addRowText: "Legg til rad",
@@ -2490,6 +2603,7 @@
                 };
                 break;
             case "ejUploadbox":
+                ej.Uploadbox.Locale = ej.Uploadbox.Locale || {};
                 ej.Uploadbox.Locale["nb-NO"] = {
                     buttonText: {
                         upload: "Last opp",
@@ -2516,17 +2630,20 @@
                 };
                 break;
             case "ejTile":
+                ej.Tile.Locale = ej.Tile.Locale || {};
                 ej.Tile.Locale["nb-NO"] = {
                     captionText: "tekst"
                 };
                 break;
             case "ejListView":
+                ej.ListView.Locale = ej.ListView.Locale || {};
                 ej.ListView.Locale["nb-NO"] = {
                     headerTitle: "Tittel",
                     headerBackButtonText: "Tilbake"
                 };
                 break;
             case "ejSpellCheck":
+                ej.SpellCheck.Locale = ej.SpellCheck.Locale || {};
                 ej.SpellCheck.Locale["nb-NO"] = {
                     SpellCheckButtonText: "Staving",
                     NotInDictionary: "Ikke i Dictionary",
