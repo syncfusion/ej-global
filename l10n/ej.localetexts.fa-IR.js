@@ -967,6 +967,11 @@
                             contentText: "پاک کردن"
                         },
                     },
+					waitingPopup: {
+						print: {
+							contentText: "آماده سازی سند برای چاپ ..."
+						}
+					}
                 };
                 break;
             case "ejPercentageTextbox":

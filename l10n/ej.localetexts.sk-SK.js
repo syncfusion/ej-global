@@ -986,6 +986,11 @@
                             contentText: "jasný"
                         },
                     },
+					waitingPopup: {
+						print: {
+							contentText: "Príprava dokumentu na tlač ..."
+						}
+					}
                 };
                 break;
             case "ejPercentageTextbox":

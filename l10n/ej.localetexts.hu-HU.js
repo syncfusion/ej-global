@@ -984,6 +984,11 @@
                             contentText: "Egyértelmű"
                         },
                     },
+					waitingPopup: {
+						print: {
+							contentText: "Dokumentum előkészítése nyomtatáshoz ..."
+						}
+					}
                 };
                 break;
             case "ejPercentageTextbox":

@@ -984,6 +984,11 @@
                             contentText: "Asia selvä"
                         },
                     },
+					waitingPopup: {
+						print: {
+							contentText: "Asiakirjan valmistelu tulostusta varten ..."
+						}
+					}
                 };
                 break;
             case "ejPercentageTextbox":

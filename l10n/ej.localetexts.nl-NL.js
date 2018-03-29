@@ -986,6 +986,11 @@
                             contentText: "Duidelijk"
                         },
                     },
+					waitingPopup: {
+						print: {
+							contentText: "Document voorbereiden voor afdrukken ..."
+						}
+					}
                 };
                 break;
             case "ejPercentageTextbox":

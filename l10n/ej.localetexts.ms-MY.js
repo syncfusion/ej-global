@@ -983,6 +983,11 @@
                             contentText: "Jelas"
                         },
                     },
+					waitingPopup: {
+						print: {
+							contentText: "Menyediakan dokumen untuk mencetak ..."
+						}
+					}
                 };
                 break;
             case "ejPercentageTextbox":

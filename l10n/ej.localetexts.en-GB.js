@@ -1557,6 +1557,11 @@
                             contentText: "Clear"
                         },
                     },
+					waitingPopup: {
+						print: {
+							contentText: "Preparing document for printing..."
+						}
+					}
                 };
                 break;
             case "ejDiagram":

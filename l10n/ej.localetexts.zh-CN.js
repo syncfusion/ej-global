@@ -984,6 +984,11 @@
                             contentText: "明确"
                         },
                     },
+					waitingPopup: {
+						print: {
+							contentText: "准备打印文档..."
+						}
+					}
                 };
                 break;
             case "ejPercentageTextbox":

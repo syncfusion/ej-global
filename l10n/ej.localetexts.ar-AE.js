@@ -997,6 +997,11 @@
                             contentText: "واضح"
                         },
                     },
+					waitingPopup: {
+						print: {
+							contentText: "جار إعداد مستند للطباعة ..."
+						}
+					}
                 };
                 break;
             case "ejPercentageTextbox":

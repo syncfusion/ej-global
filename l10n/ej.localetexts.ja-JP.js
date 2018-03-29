@@ -986,6 +986,11 @@
                             contentText: "クリア"
                         },
                     },
+					waitingPopup: {
+						print: {
+							contentText: "印刷のための文書の準備中..."
+						}
+					}
                 };
                 break;
             case "ejPercentageTextbox":

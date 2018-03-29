@@ -983,6 +983,11 @@
                             contentText: "Claro"
                         },
                     },
+					waitingPopup: {
+						print: {
+							contentText: "Preparando documento para impressão ..."
+						}
+					}
                 };
                 break;
             case "ejPercentageTextbox":

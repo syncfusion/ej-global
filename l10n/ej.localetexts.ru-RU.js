@@ -983,6 +983,11 @@
                             contentText: "Очистить"
                         },
                     },
+					waitingPopup: {
+						print: {
+							contentText: "Подготовка документа для печати ..."
+						}
+					}
                 };
                 break;
             case "ejPercentageTextbox":

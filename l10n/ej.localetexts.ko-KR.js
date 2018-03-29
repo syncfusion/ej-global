@@ -985,6 +985,11 @@
                             contentText: "명확한"
                         },
                     },
+					waitingPopup: {
+						print: {
+							contentText: "인쇄 할 문서 준비 중 ..."
+						}
+					}
                 };
                 break;
             case "ejPercentageTextbox":

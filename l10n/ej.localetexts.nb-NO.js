@@ -983,6 +983,11 @@
                             contentText: "Klar"
                         },
                     },
+					waitingPopup: {
+						print: {
+							contentText: "Forbereder dokument for utskrift ..."
+						}
+					}
                 };
                 break;
             case "ejPercentageTextbox":

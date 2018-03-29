@@ -986,6 +986,11 @@
                             contentText: "ברור"
                         },
                     },
+					waitingPopup: {
+						print: {
+							contentText: "מכין מסמך להדפסה ..."
+						}
+					}
                 };
                 break;
             case "ejPercentageTextbox":

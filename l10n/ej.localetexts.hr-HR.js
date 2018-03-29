@@ -985,6 +985,11 @@
                             contentText: "Čisto"
                         },
                     },
+					waitingPopup: {
+						print: {
+							contentText: "Priprema dokumenta za ispis ..."
+						}
+					}
                 };
                 break;
             case "ejPercentageTextbox":

@@ -997,6 +997,11 @@
                             contentText: "Claro"
                         },
                     },
+					waitingPopup: {
+						print: {
+							contentText: "Preparación del documento para imprimir ..."
+						}
+					}
                 };
                 break;
             case "ejPercentageTextbox":

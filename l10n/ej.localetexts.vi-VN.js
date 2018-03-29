@@ -986,6 +986,11 @@
                             contentText: "Trong sáng"
                         },
                     },
+					waitingPopup: {
+						print: {
+							contentText: "Chuẩn bị tài liệu in ấn ..."
+						}
+					}
                 };
                 break;
             case "ejPercentageTextbox":

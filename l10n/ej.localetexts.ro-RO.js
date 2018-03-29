@@ -984,6 +984,11 @@
                             contentText: "clar"
                         },
                     },
+					waitingPopup: {
+						print: {
+							contentText: "Pregătirea documentului pentru imprimare ..."
+						}
+					}
                 };
                 break;
             case "ejPercentageTextbox":

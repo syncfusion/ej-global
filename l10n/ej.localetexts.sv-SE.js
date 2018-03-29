@@ -985,6 +985,11 @@
                             contentText: "Klar"
                         },
                     },
+					waitingPopup: {
+						print: {
+							contentText: "Förbereder dokument för utskrift ..."
+						}
+					}
                 };
                 break;
             case "ejPercentageTextbox":

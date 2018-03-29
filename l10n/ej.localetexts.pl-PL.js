@@ -987,6 +987,11 @@
                             contentText: "Jasny"
                         },
                     },
+					waitingPopup: {
+						print: {
+							contentText: "Przygotowywanie dokumentu do drukowania ..."
+						}
+					}
                 };
                 break;
             case "ejPercentageTextbox":

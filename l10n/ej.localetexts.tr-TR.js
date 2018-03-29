@@ -985,6 +985,11 @@
                             contentText: "Açık"
                         },
                     },
+					waitingPopup: {
+						print: {
+							contentText: "Yazdırılacak belge hazırlanıyor ..."
+						}
+					}
                 };
                 break;
             case "ejPercentageTextbox":
