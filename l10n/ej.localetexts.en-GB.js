@@ -1283,7 +1283,7 @@
                 };
                 break;
             case "ejTimePicker":
-                ej.TimePicker.Locale = ej.DatePicker.Locale || {};
+                ej.TimePicker.Locale = ej.TimePicker.Locale || {};
                 ej.TimePicker.Locale["en-GB"] = {
                     watermarkText: "select a time",
                 };

@@ -483,7 +483,7 @@
                     SaveButton: "Spare",
                     OKButton: "ok",
                     CancelButton: "Kansellere",
-                    EditFormTitle: "detaljer om",
+                    EditFormTitle: "detaljer om ",
                     AddFormTitle: "Legg til ny Record",
                     GroupCaptionFormat: "{{:headerText}}: {{:key}} - {{:count}} {{if count == 1 }} punkt {{else}} elementer {{/if}} ",
                     BatchSaveConfirm: "Er du sikker på at du vil lagre endringene?",

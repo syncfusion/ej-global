@@ -483,7 +483,7 @@
                     SaveButton: "Tallentaa",
                     OKButton: "kunnossa",
                     CancelButton: "Peruuttaa",
-                    EditFormTitle: "tiedot",
+                    EditFormTitle: "tiedot ",
                     AddFormTitle: "Lisää uusi tieto",
                     GroupCaptionFormat: "{{:headerText}}: {{:key}} - {{:count}} {{if count == 1 }} erä {{else}} kohdetta {{/if}} ",
                     BatchSaveConfirm: "Oletko varma, että haluat tallentaa muutokset?",

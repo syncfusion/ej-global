@@ -483,7 +483,7 @@
                     SaveButton: "Сохранить",
                     OKButton: "хорошо",
                     CancelButton: "отменить",
-                    EditFormTitle: "Подробная информация о",
+                    EditFormTitle: "Подробная информация о ",
                     AddFormTitle: "Добавить запись",
                     GroupCaptionFormat: "{{:headerText}}: {{:key}} - {{:count}} {{if count == 1 }} пункт {{else}} Предметы {{/if}} ",
                     BatchSaveConfirm: "Вы уверены, что хотите сохранить изменения?",

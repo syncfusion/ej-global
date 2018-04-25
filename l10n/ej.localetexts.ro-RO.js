@@ -484,7 +484,7 @@
                     SaveButton: "Salvați",
                     OKButton: "bine",
                     CancelButton: "Anulare",
-                    EditFormTitle: "detalii de",
+                    EditFormTitle: "detalii de ",
                     AddFormTitle: "Adauga o noua înregistrare",
                     GroupCaptionFormat: "{{:headerText}}: {{:key}} - {{:count}} {{if count == 1 }} articol {{else}} articole {{/if}} ",
                     BatchSaveConfirm: "Sunteți sigur că doriți să salvați modificările?",

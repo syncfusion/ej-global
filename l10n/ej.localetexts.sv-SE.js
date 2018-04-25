@@ -484,7 +484,7 @@
                     SaveButton: "Spara",
                     OKButton: "ok",
                     CancelButton: "Annullera",
-                    EditFormTitle: "detaljer för",
+                    EditFormTitle: "detaljer för ",
                     AddFormTitle: "Lägg till ny post",
                     GroupCaptionFormat: "{{:headerText}}: {{:key}} - {{:count}} {{if count == 1 }} punkt {{else}} objekt {{/if}} ",
                     BatchSaveConfirm: "Är du säker på att du vill spara ändringarna?",

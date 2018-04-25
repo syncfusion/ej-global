@@ -485,7 +485,7 @@
                     SaveButton: "Uštedjeti",
                     OKButton: "u redu",
                     CancelButton: "Otkazati",
-                    EditFormTitle: "Detalji",
+                    EditFormTitle: "Detalji ",
                     AddFormTitle: "Dodaj novi rekord",
                     GroupCaptionFormat: "{{:headerText}}: {{:key}} - {{:count}} {{if count == 1 }} artikal {{else}} stavke {{/if}} ",
                     BatchSaveConfirm: "Jeste li sigurni da želite spremiti promjene?",

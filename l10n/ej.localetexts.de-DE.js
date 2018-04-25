@@ -498,7 +498,7 @@
                     SaveButton: "sparen",
                     OKButton: "OK",
                     CancelButton: "Stornieren",
-                    EditFormTitle: "Informationen von",
+                    EditFormTitle: "Informationen von ",
                     AddFormTitle: "Fügen Sie einen neuen Datensatz hinzu",
                     GroupCaptionFormat: "{{:headerText}}: {{:key}} - {{:count}} {{if count == 1 }} Artikel {{else}} Artikel {{/if}} ",
                     BatchSaveConfirm: "Sind Sie sicher Sie wollen das Speichern?",

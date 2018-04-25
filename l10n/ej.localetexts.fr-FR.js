@@ -483,7 +483,7 @@
                     SaveButton: "sauvegarder",
                     OKButton: "D'accord",
                     CancelButton: "Annuler",
-                    EditFormTitle: "Les détails de",
+                    EditFormTitle: "Les détails de ",
                     AddFormTitle: "Ajouter un nouvel enregistrement",
                     GroupCaptionFormat: "{{:headerText}}: {{:key}} - {{:count}} {{if count == 1 }} article {{else}} articles {{/if}} ",
                     BatchSaveConfirm: "Etes-vous sûr que vous voulez enregistrer les modifications?",

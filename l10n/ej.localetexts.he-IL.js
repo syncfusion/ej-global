@@ -486,7 +486,7 @@
                     SaveButton: "להציל",
                     OKButton: "בסדר",
                     CancelButton: "לְבַטֵל",
-                    EditFormTitle: "פרטים של",
+                    EditFormTitle: "פרטים של ",
                     AddFormTitle: "להוסיף שיא חדש",
                     GroupCaptionFormat: "{{:headerText}}: {{:key}} - {{:count}} {{if count == 1 }} פריט {{else}} פריטים {{/if}} ",
                     BatchSaveConfirm: "האם אתה בטוח שאתה רוצה לשמור את השינויים?",

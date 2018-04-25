@@ -484,7 +484,7 @@
                     SaveButton: "Kaydet",
                     OKButton: "tamam",
                     CancelButton: "İptal",
-                    EditFormTitle: "Ayrıntıları",
+                    EditFormTitle: "Ayrıntıları ",
                     AddFormTitle: "Yeni Kayıt Ekle",
                     GroupCaptionFormat: "{{:headerText}}: {{:key}} - {{:count}} {{if count == 1 }} madde {{else}} ürün {{/if}} ",
                     BatchSaveConfirm: "Değişiklikleri kaydetmek istediğinizden emin misiniz?",

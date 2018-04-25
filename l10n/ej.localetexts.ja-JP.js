@@ -484,7 +484,7 @@
                     SaveButton: "セーブ",
                     OKButton: "[OK]",
                     CancelButton: "キャンセル",
-                    EditFormTitle: "の詳細",
+                    EditFormTitle: "の詳細 ",
                     AddFormTitle: "新しいレコードを追加",
                     GroupCaptionFormat: "{{:headerText}}: {{:key}} - {{:count}} {{if count == 1 }} 項目 {{else}} アイテム {{/if}} ",
                     BatchSaveConfirm: "変更を保存してもよろしいですか？",

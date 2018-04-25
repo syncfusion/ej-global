@@ -466,7 +466,7 @@
                     SaveButton: "صرفه جویی",
                     OKButton: "خوب",
                     CancelButton: "لغو کردن",
-                    EditFormTitle: "جزئیات",
+                    EditFormTitle: "جزئیات ",
                     AddFormTitle: "اضافه کردن رکورد جدید",
                     GroupCaptionFormat: "{{:headerText}}: {{:key}} - {{:count}} {{if count == 1 }} مورد {{else}} موارد {{/if}} ",
                     BatchSaveConfirm: "آیا شما مطمئن هستید که میخواهید تغییرات را ذخیره؟",

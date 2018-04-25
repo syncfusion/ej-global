@@ -492,7 +492,7 @@
                     SaveButton: "حفظ",
                     OKButton: "حسنا",
                     CancelButton: "إلغاء",
-                    EditFormTitle: "تفاصيل",
+                    EditFormTitle: "تفاصيل ",
                     AddFormTitle: "إضافة سجل جديد",
                     GroupCaptionFormat: "{{:headerText}}: {{:key}} - {{:count}} {{if count == 1 }} بند {{else}} العناصر {{/if}} ",
                     BatchSaveConfirm: "هل أنت متأكد أنك تريد حفظ التغييرات؟",

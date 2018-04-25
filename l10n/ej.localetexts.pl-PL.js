@@ -486,7 +486,7 @@
                     SaveButton: "Zapisać",
                     OKButton: "ok",
                     CancelButton: "Anuluj",
-                    EditFormTitle: "Szczegóły",
+                    EditFormTitle: "Szczegóły ",
                     AddFormTitle: "Dodaj nowy rekord",
                     GroupCaptionFormat: "{{:headerText}}: {{:key}} - {{:count}} {{if count == 1 }} pozycja {{else}} przedmiotów {{/if}} ",
                     BatchSaveConfirm: "Czy na pewno chcesz zapisać zmiany?",

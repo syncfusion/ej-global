@@ -484,7 +484,7 @@
                     SaveButton: "Simpan",
                     OKButton: "okey",
                     CancelButton: "Batal",
-                    EditFormTitle: "butiran",
+                    EditFormTitle: "butiran ",
                     AddFormTitle: "Tambah Rekod Baru",
                     GroupCaptionFormat: "{{:headerText}}: {{:key}} - {{:count}} {{if count == 1 }} item {{else}} barangan {{/if}} ",
                     BatchSaveConfirm: "Adakah anda pasti anda mahu menyimpan perubahan?",

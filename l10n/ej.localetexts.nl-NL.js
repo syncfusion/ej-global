@@ -484,7 +484,7 @@
                     SaveButton: "Save",
                     OKButton: "OK",
                     CancelButton: "Annuleer",
-                    EditFormTitle: "Details van",
+                    EditFormTitle: "Details van ",
                     AddFormTitle: "Nieuw record toevoegen",
                     GroupCaptionFormat: "{{:headerText}}: {{:key}} - {{:count}} {{if count == 1 }} item {{else}} items {{/if}} ",
                     BatchSaveConfirm: "Bent u zeker dat u de wijzigingen opslaan?",

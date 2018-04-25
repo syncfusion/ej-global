@@ -489,7 +489,7 @@
                     SaveButton: "Salvar",
                     OKButton: "DE ACUERDO",
                     CancelButton: "Cancelar",
-                    EditFormTitle: "Detalles de",
+                    EditFormTitle: "Detalles de ",
                     AddFormTitle: "Añadir nuevo registro",
                     GroupCaptionFormat: "{{:headerText}}: {{:key}} - {{:count}} {{if count == 1 }} ítem {{else}} artículos {{/if}} ",
                     BatchSaveConfirm: "¿Está seguro de que desea guardar los cambios?",

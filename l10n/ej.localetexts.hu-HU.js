@@ -484,7 +484,7 @@
                     SaveButton: "Mentés",
                     OKButton: "rendben",
                     CancelButton: "Törölni",
-                    EditFormTitle: "Részletek az",
+                    EditFormTitle: "Részletek az ",
                     AddFormTitle: "Új Record",
                     GroupCaptionFormat: "{{:headerText}}: {{:key}} - {{:count}} {{if count == 1 }} tétel {{else}} tételek {{/if}} ",
                     BatchSaveConfirm: "Biztosan el szeretné menteni a változásokat?",

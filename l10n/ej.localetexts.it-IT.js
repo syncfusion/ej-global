@@ -484,7 +484,7 @@
                     SaveButton: "Salvare",
                     OKButton: "ok",
                     CancelButton: "Annulla",
-                    EditFormTitle: "Dettagli di",
+                    EditFormTitle: "Dettagli di ",
                     AddFormTitle: "Aggiungi nuovo record",
                     GroupCaptionFormat: "{{:headerText}}: {{:key}} - {{:count}} {{if count == 1 }} articolo {{else}} elementi {{/if}} ",
                     BatchSaveConfirm: "Sei sicuro di voler salvare le modifiche?",

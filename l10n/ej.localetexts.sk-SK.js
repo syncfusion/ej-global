@@ -484,7 +484,7 @@
                     SaveButton: "uložiť",
                     OKButton: "OK",
                     CancelButton: "Zrušiť",
-                    EditFormTitle: "podrobnosti o",
+                    EditFormTitle: "podrobnosti o ",
                     AddFormTitle: "Pridať nový záznam",
                     GroupCaptionFormat: "{{:headerText}}: {{:key}} - {{:count}} {{if count == 1 }} položka {{else}} položky {{/if}} ",
                     BatchSaveConfirm: "Ste si istí, že chcete uložiť zmeny?",

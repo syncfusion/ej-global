@@ -486,7 +486,7 @@
                     SaveButton: "保存",
                     OKButton: "好",
                     CancelButton: "取消",
-                    EditFormTitle: "详情",
+                    EditFormTitle: "详情 ",
                     AddFormTitle: "添加新记录",
                     GroupCaptionFormat: "{{:headerText}}: {{:key}} - {{:count}} {{if count == 1 }} 项目 {{else}} 项目 {{/if}} ",
                     BatchSaveConfirm: "你确定你要保存更改？",

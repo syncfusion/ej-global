@@ -484,7 +484,7 @@
                     SaveButton: "Tiết kiệm",
                     OKButton: "được",
                     CancelButton: "hủy bỏ",
-                    EditFormTitle: "Chi tiết của",
+                    EditFormTitle: "Chi tiết của ",
                     AddFormTitle: "Thêm các ghi nhận mới",
                     GroupCaptionFormat: "{{:headerText}}: {{:key}} - {{:count}} {{if count == 1 }} mục {{else}} mặt hàng {{/if}} ",
                     BatchSaveConfirm: "Bạn có chắc chắn muốn lưu các thay đổi?",

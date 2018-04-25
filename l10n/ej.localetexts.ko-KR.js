@@ -484,7 +484,7 @@
                     SaveButton: "구하다",
                     OKButton: "그래",
                     CancelButton: "취소",
-                    EditFormTitle: "의 세부 사항",
+                    EditFormTitle: "의 세부 사항 ",
                     AddFormTitle: "새 레코드 추가",
                     GroupCaptionFormat: "{{:headerText}}: {{:key}} - {{:count}} {{if count == 1 }} 목 {{else}} 항목 {{/if}} ",
                     BatchSaveConfirm: "당신은 변경 사항을 저장 하시겠습니까?",

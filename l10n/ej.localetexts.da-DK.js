@@ -487,7 +487,7 @@
                     SaveButton: "Spare",
                     OKButton: "Okay",
                     CancelButton: "Ophæve",
-                    EditFormTitle: "Nærmere oplysninger om",
+                    EditFormTitle: "Nærmere oplysninger om ",
                     AddFormTitle: "Tilføj ny post",
                     GroupCaptionFormat: "{{:headerText}}: {{:key}} - {{:count}} {{if count == 1 }} vare {{else}} emner {{/if}} ",
                     BatchSaveConfirm: "Er du sikker på du vil gemme ændringer?",
