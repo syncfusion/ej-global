@@ -643,7 +643,26 @@
                     EMF: "EMF",
                     GIF: "GIF",
                     JPG: "JPG",
-                    BMF: "BMF"
+                    BMP: "BMP",
+                    ZoomIn: "phóng to",
+                    ZoomOut: "Thu nhỏ",
+                    Legend: "Huyền thoại",
+                    SmartLabels: "Nhãn thông minh",
+                    Interactions: "Tương tác",
+                    Zooming: "Thu phóng",
+                    Rotate45: "Xoay45",
+                    Rotate90: "Xoay90",
+                    Trim: "Cắt",
+                    MultipleRows: "Nhiều hàng",
+                    Wrap: "Wrap",
+                    Hide: "Ẩn giấu",
+                    WrapByWord: "Gói tin đồn",
+                    CrossHair: "Cross tóc",
+                    TrackBall: "Theo dõi bóng",
+                    DisableTD: "Vô hiệu hóa biểu đồ 3D",
+                    None: "không ai",
+                    Exception: "Ngoại lệ",
+                    OK: "được"
                 };
                 break;
             case "ejPivotClient":
@@ -802,7 +821,8 @@
                     KpiAlertMsg: "Cái này, bạn đang di chuyển không thể được đặt vào trong khu vực này của báo cáo",
                     NotAllItemsShowing: "Không phải tất cả các nút đứa trẻ được hiển thị",
                     EditorLinkPanelAlert: "Các thành viên có hơn 1000 mục dưới một hay nhiều phụ huynh. Chỉ có 1000 mục hiển thị dưới mỗi bố mẹ.",
-                    NamedSetAlert: "Một tên là đặt không thể được thêm vào PivotTable báo cáo vào cùng thời điểm khác tên là đặt dựa trên cùng một lĩnh vực. Nhấn OK để gỡ bỏ ' <Set 1> ' tên là đặt và thêm ' <Set 2> ' tên là đặt."
+                    NamedSetAlert: "Một tên là đặt không thể được thêm vào PivotTable báo cáo vào cùng thời điểm khác tên là đặt dựa trên cùng một lĩnh vực. Nhấn OK để gỡ bỏ ' <Set 1> ' tên là đặt và thêm ' <Set 2> ' tên là đặt.",
+                    Exception: "Ngoại lệ"
                 };
                 break;
             case "ejPivotGauge":
@@ -810,6 +830,7 @@
                 ej.PivotGauge.Locale["vi-VN"] = {
                     RevenueGoal: "Mục tiêu doanh thu",
                     RevenueValue: "Giá trị doanh thu",
+                    Exception: "Ngoại lệ"
                 };
                 break;
             case "ejPager":
@@ -1204,7 +1225,8 @@
 					Edit: "Sửa",
 					DuplicateFormatName: "Định dạng trùng tên",
 					NotAllItemsShowing: "Không phải tất cả các nút đứa trẻ được hiển thị",
-					EditorLinkPanelAlert: "Các thành viên có hơn 1000 mục dưới một hay nhiều phụ huynh. Chỉ có 1000 mục hiển thị dưới mỗi bố mẹ."
+					EditorLinkPanelAlert: "Các thành viên có hơn 1000 mục dưới một hay nhiều phụ huynh. Chỉ có 1000 mục hiển thị dưới mỗi bố mẹ.",
+					Exception: "Ngoại lệ"
                 };
                 break;
             case "ejPivotPager":
@@ -1278,6 +1300,7 @@
                     OK: "OK",
                     Cancel: "Thã'i",
                     Search: "Tìm kiếm",
+                    Remove: "Gỡ bỏ",
                     AddCurrentSelectionToFilter: "Thêm lựa chọn hiện tại để lọc",
                     NotAllItemsShowing: "Không phải tất cả các nút đứa trẻ được hiển thị",
                     EditorLinkPanelAlert: "Các thành viên có hơn 1000 mục dưới một hay nhiều phụ huynh. Chỉ có 1000 mục hiển thị dưới mỗi bố mẹ.",
@@ -1422,6 +1445,7 @@
                         },
                     },
                     pagesetupDialog: {
+                        close: 'Gần',
                         paperSize: 'Khổ giấy',
                         height: 'Chiều cao',
                         width: 'Chiều rộng',
@@ -1437,6 +1461,41 @@
                         doneButton: 'Làm xong',
                         cancelButton: 'hủy bỏ'
                     },
+                    credential: {
+                        userName: 'Tên đăng nhập',
+                        password: 'Mật khẩu'
+                    },
+                    waterMark: {
+                        selectOption: 'Chọn tùy chọn',
+                        selectValue: 'Chọn một giá trị'
+                    },
+                    errorMessage: {
+                        startMessage: 'Trình xem Báo cáo đã gặp một số vấn đề khi tải báo cáo này. Xin vui lòng',
+                        middleMessage: ' Bấm vào đây',
+                        endMessage: 'để xem chi tiết lỗi',
+                        closeMessage: 'Đóng tin nhắn này'
+                    },
+                    alertMessage: {
+                        close: 'Gần',
+                        title: 'ReportViewer',
+                        done: 'được',
+                        showDetails: 'Hiển thị chi tiết',
+                        hideDetails: 'Ẩn chi tiết',
+                        reportLoad: 'Đã tải báo cáo:',
+                        RVERR0001: 'ReportViewer không tải được Báo cáo',
+                        RVERR0002: 'ReportViewer không thể hiển thị Báo cáo',
+                        RVERR0003: 'Đã xảy ra lỗi trong postback ajax',
+                        RVERR0004: 'Vui lòng chọn giá trị cho tham số',
+                        RVERR0005: 'Tham số {parametername} thiếu giá trị',
+                        RVERR0006: 'Vui lòng cung cấp kiểu nhập dữ liệu kiểu thả nổi',
+                        RVERR0007: 'Vui lòng nhập kiểu dữ liệu số nguyên',
+                        RVERR0008: 'ReportViewer không xác thực được thông tin đăng nhập Datasource',
+                        RVERR0009: 'Các lề được chồng lên nhau hoặc chúng bị loại bỏ khỏi giấy. Nhập kích thước lề khác.',
+                        RVERR0010: 'Vui lòng nhập giá trị cho tham số',
+                        RVERR0011: 'Tham số không được để trống',
+                        RVERR0012: 'Giá trị được cung cấp cho tham số báo cáo {parameterprompt} không hợp lệ cho loại của nó.'
+                    },
+                    selectAll: 'Chọn tất cả',
                     viewButton: "Xem báo cáo",
                 };
                 break;

@@ -644,7 +644,26 @@
                     EMF: "EMF",
                     GIF: "GIF",
                     JPG: "JPG",
-                    BMF: "BMF"
+                    BMP: "BMP",
+                    ZoomIn: "ingrandire",
+                    ZoomOut: "Zoom indietro",
+                    Legend: "Leggenda",
+                    SmartLabels: "Etichette intelligenti",
+                    Interactions: "interazioni",
+                    Zooming: "Zoom",
+                    Rotate45: "Ruotare45",
+                    Rotate90: "Ruotare90",
+                    Trim: "tagliare",
+                    MultipleRows: "Righe multiple",
+                    Wrap: "avvolgere",
+                    Hide: "Nascondere",
+                    WrapByWord: "Avvolgere a parole",
+                    CrossHair: "Croce di capelli",
+                    TrackBall: "Via Sfera",
+                    DisableTD: "Disabilita grafici 3D",
+                    None: "Nessuna",
+                    Exception: "Eccezione",
+                    OK: "ok"
                 };
                 break;
             case "ejPivotClient":
@@ -802,7 +821,8 @@
                     KpiAlertMsg: "Il campo che si sta spostando non può essere collocato in quella zona della relazione",
                     NotAllItemsShowing: "Non tutti i nodi figlio sono mostrati",
                     EditorLinkPanelAlert: "I membri ha più di mille voci sotto uno o più genitore. Solo i primi 1000 voci vengono visualizzate sotto ciascuna società madre.",
-                    NamedSetAlert: "Il nome di un insieme non possono essere aggiunti al report PivotTable allo stesso tempo come un altro set denominato basato sullo stesso campo. Fare clic su OK per rimuovere ' <Set 1> ' denominato set e aggiungere ' <Set 2> ' set denominato."
+                    NamedSetAlert: "Il nome di un insieme non possono essere aggiunti al report PivotTable allo stesso tempo come un altro set denominato basato sullo stesso campo. Fare clic su OK per rimuovere ' <Set 1> ' denominato set e aggiungere ' <Set 2> ' set denominato.",
+                    Exception: "Eccezione"
                 };
                 break;
             case "ejPivotGauge":
@@ -810,6 +830,7 @@
                 ej.PivotGauge.Locale["it-IT"] = {
                     RevenueGoal: "entrate Goal",
                     RevenueValue: "entrate Valore",
+                    Exception: "Eccezione"
                 };
                 break;
             case "ejPager":
@@ -1204,7 +1225,8 @@
                     Edit: "Modifica",
                     DuplicateFormatName: "Duplica nome formato",
                     NotAllItemsShowing: "Non tutti i nodi figlio sono mostrati",
-                    EditorLinkPanelAlert: "I membri ha più di mille voci sotto uno o più genitore. Solo i primi 1000 voci vengono visualizzate sotto ciascuna società madre."
+                    EditorLinkPanelAlert: "I membri ha più di mille voci sotto uno o più genitore. Solo i primi 1000 voci vengono visualizzate sotto ciascuna società madre.",
+                    Exception: "Eccezione"
                 };
                 break;
 
@@ -1278,6 +1300,7 @@
                     OK: "OK",
                     Cancel: "Annulla",
                     Search: "Ricerca",
+                    Remove: "Staccare",
                     NotAllItemsShowing: "Non tutti i nodi figlio sono mostrati",
                     EditorLinkPanelAlert: "I membri ha più di mille voci sotto uno o più genitore. Solo i primi 1000 voci vengono visualizzate sotto ciascuna società madre.",
                     NamedSetAlert: "Il nome di un insieme non possono essere aggiunti al report PivotTable allo stesso tempo come un altro set denominato basato sullo stesso campo. Fare clic su OK per rimuovere ' <Set 1> ' denominato set e aggiungere ' <Set 2> ' set denominato."
@@ -1399,6 +1422,7 @@
                         },
                     },
                     pagesetupDialog: {
+                        close: 'Vicino',
                         paperSize: 'Misura del foglio',
                         height: 'Altezza',
                         width: 'Larghezza',
@@ -1414,6 +1438,41 @@
                         doneButton: 'Fatto',
                         cancelButton: 'Annulla'
                     },
+                    credential: {
+                        userName: 'Nome utente',
+                        password: "Parola d'ordine"
+                    },
+                    waterMark: {
+                        selectOption: "Selezionare l'opzione",
+                        selectValue: 'Selezionare un valore'
+                    },
+                    errorMessage: {
+                        startMessage: 'Report Viewer ha riscontrato alcuni problemi durante il caricamento di questo report. per favore',
+                        middleMessage: ' Clicca qui',
+                        endMessage: "per vedere i dettagli dell'errore",
+                        closeMessage: 'Chiudi questo messaggio'
+                    },
+                    alertMessage: {
+                        close: 'Vicino',
+                        title: 'ReportViewer',
+                        done: 'OK',
+                        showDetails: 'Mostra dettagli',
+                        hideDetails: 'Nascondere dettagli',
+                        reportLoad: 'Rapporto caricato:',
+                        RVERR0001: 'ReportViewer non è riuscito a caricare il report',
+                        RVERR0002: 'ReportViewer non è riuscito a rendere il report',
+                        RVERR0003: 'Si è verificato un errore nel postback ajax',
+                        RVERR0004: 'Si prega di selezionare un valore per il parametro',
+                        RVERR0005: 'Il parametro {parametername} non ha un valore',
+                        RVERR0006: 'Si prega di fornire il tipo di dati float di input',
+                        RVERR0007: 'Si prega di dare il tipo di dati interi di input',
+                        RVERR0008: "ReportViewer non è riuscito a convalidare le credenziali dell'origine dati",
+                        RVERR0009: 'I margini sono sovrapposti o sono fuori carta. Inserisci una dimensione di margine diversa.',
+                        RVERR0010: 'Si prega di inserire un valore per il parametro',
+                        RVERR0011: 'Il parametro non può essere vuoto',
+                        RVERR0012: 'Il valore fornito per il parametro del report {parameterprompt} non è valido per il suo tipo.'
+                    },
+                    selectAll: 'Seleziona tutto',
                     viewButton: "Visualizza rapporto",
                 };
                 break;

@@ -642,7 +642,26 @@
                     EMF: "EMF",
                     GIF: "GIF",
                     JPG: "JPG",
-                    BMF: "BMF"
+                    BMP: "BMP",
+                    ZoomIn: "Yakınlaştır",
+                    ZoomOut: "Uzaklaştır",
+                    Legend: "Efsane",
+                    SmartLabels: "Akıllı Etiketler",
+                    Interactions: "Etkileşimler",
+                    Zooming: "Yakınlaştırma",
+                    Rotate45: "Döndür45",
+                    Rotate90: "Döndür90",
+                    Trim: "Kırpma",
+                    MultipleRows: "Birden Çok Satır",
+                    Wrap: "Sarın",
+                    Hide: "Gizle",
+                    WrapByWord: "Kelime ile sar",
+                    CrossHair: "Çapraz Saç",
+                    TrackBall: "Topu",
+                    DisableTD: "3D Grafikleri Devre Dışı Bırak",
+                    None: "Yok",
+                    Exception: "Istisna",
+                    OK: "tamam"
                 };
                 break;
             case "ejPivotClient":
@@ -800,7 +819,8 @@
                     KpiAlertMsg: "Alan, hareketli yerleştirilemez, alan raporu",
                     NotAllItemsShowing: "Tüm çocuk düğümleri gösterilmektedir",
                     EditorLinkPanelAlert: "Üyeleri, 1000'den fazla öğe, bir veya daha fazla ana. Sadece ilk 1000 öğeler görüntülenir her ana.",
-                    NamedSetAlert: "Adlı bir set eklenemez, özet tablo raporu ve aynı zamanda başka bir adı set, aynı alan. Tamam'ı çıkarın ' <Set 1> ' isimli ve add ' <Set 2> ' isimli."
+                    NamedSetAlert: "Adlı bir set eklenemez, özet tablo raporu ve aynı zamanda başka bir adı set, aynı alan. Tamam'ı çıkarın ' <Set 1> ' isimli ve add ' <Set 2> ' isimli.",
+                    Exception: "Istisna"
                 };
                 break;
             case "ejPivotGauge":
@@ -808,6 +828,7 @@
                 ej.PivotGauge.Locale["tr-TR"] = {
                     RevenueGoal: "Gelir Gol",
                     RevenueValue: "Gelir Değeri",
+                    Exception: "Istisna"
                 };
                 break;
             case "ejPager":
@@ -1203,7 +1224,8 @@
 					Edit: "Düzenle",
 					DuplicateFormatName: "Çift Format Adı",
 					NotAllItemsShowing: "Tüm çocuk düğümleri gösterilmektedir",
-					EditorLinkPanelAlert: "Üyeleri, 1000'den fazla öğe, bir veya daha fazla ana. Sadece ilk 1000 öğeler görüntülenir her ana."
+					EditorLinkPanelAlert: "Üyeleri, 1000'den fazla öğe, bir veya daha fazla ana. Sadece ilk 1000 öğeler görüntülenir her ana.",
+					Exception: "Istisna"
                 };
                 break;
             case "ejPivotPager":
@@ -1278,6 +1300,7 @@
                     OK: "OK",
                     Cancel: "İptal",
                     Search: "Arama",
+                    Remove: "Kaldır",
                     AddCurrentSelectionToFilter: "Geçerli seçimi filtrelere ekle",
                     NotAllItemsShowing: "Tüm çocuk düğümleri gösterilmektedir",
                     EditorLinkPanelAlert: "Üyeleri, 1000'den fazla öğe, bir veya daha fazla ana. Sadece ilk 1000 öğeler görüntülenir her ana.",
@@ -1400,6 +1423,7 @@
                         },
                     },
                     pagesetupDialog: {
+                        close: 'Kapat',
                         paperSize: 'Kağıt boyutu',
                         height: 'Yükseklik',
                         width: 'genişlik',
@@ -1415,6 +1439,41 @@
                         doneButton: 'tamam',
                         cancelButton: 'İptal etmek'
                     },
+                    credential: {
+                        userName: 'Kullanıcı adı',
+                        password: 'Parola'
+                    },
+                    waterMark: {
+                        selectOption: 'Seçeneği Seç',
+                        selectValue: 'Bir değer seçin'
+                    },
+                    errorMessage: {
+                        startMessage: 'Rapor Görüntüleyici bu raporu yükleyen bazı sorunlarla karşılaştı. Lütfen',
+                        middleMessage: ' Buraya TIKLAYIN',
+                        endMessage: 'hata ayrıntılarını görmek için',
+                        closeMessage: 'Bu mesajı kapat'
+                    },
+                    alertMessage: {
+                        close: 'Kapat',
+                        title: 'ReportViewer',
+                        done: 'tamam',
+                        showDetails: 'Detayları göster',
+                        hideDetails: 'Detayları gizle',
+                        reportLoad: 'Raporu Yüklendi:',
+                        RVERR0001: 'ReportViewer Raporu yüklenemedi',
+                        RVERR0002: 'ReportViewer Raporu oluşturmayı başaramadı',
+                        RVERR0003: 'Ajax geri dönüşünde bir hata oluştu',
+                        RVERR0004: 'Lütfen parametre için bir değer seçin',
+                        RVERR0005: '{Parameterername} parametresinin bir değeri eksik',
+                        RVERR0006: 'Lütfen şamandıra veri tipi girişi verin',
+                        RVERR0007: 'Lütfen tamsayı veri tipi girişi verin',
+                        RVERR0008: 'ReportViewer Veri kaynağı kimlik bilgilerini doğrulayamadı',
+                        RVERR0009: 'Kenar boşlukları çakışıyor veya kağıttan çıkıyorlar. Farklı bir kenar boşluğu boyutu girin.',
+                        RVERR0010: 'Lütfen parametre için bir değer girin',
+                        RVERR0011: 'Parametre boş bırakılamaz',
+                        RVERR0012: 'Rapor parametresi {parameterprompt} için verilen değer, türü için geçerli değil.'
+                    },
+                    selectAll: 'Hepsini seç',
                     viewButton: "Raporu görüntüle",
                 };
                 break;

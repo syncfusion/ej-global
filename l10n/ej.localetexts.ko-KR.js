@@ -643,7 +643,26 @@
                     EMF: "EMF",
                     GIF: "GIF",
                     JPG: "JPG",
-                    BMF: "BMF"
+                    BMP: "BMP",
+                    ZoomIn: "확대",
+                    ZoomOut: "축소",
+                    Legend: "전설",
+                    SmartLabels: "스마트 라벨",
+                    Interactions: "상호 작용",
+                    Zooming: "확대 / 축소",
+                    Rotate45: "45회전",
+                    Rotate90: "90회전",
+                    Trim: "손질",
+                    MultipleRows: "여러 행",
+                    Wrap: "덮개",
+                    Hide: "숨는 장소",
+                    WrapByWord: "단어로 감싸기",
+                    CrossHair: "십자형 머리",
+                    TrackBall: "트랙볼",
+                    DisableTD: "3D 차트 비활성화",
+                    None: "없음",
+                    Exception: "예외",
+                    OK: "그래"
                 };
                 break;
             case "ejPivotClient":
@@ -801,7 +820,8 @@
                     KpiAlertMsg: "이동 보고서의 해당 구역에 배치할 수 없는 필드",
                     NotAllItemsShowing: "모든 자식 노드에 표시되는 것은 아닙니다.",
                     EditorLinkPanelAlert: "멤버 하나 이상의 부모 밑에서 1000개 이상의 항목. 첫 번째 항목은 1000각 부모 아래에 표시됩니다.",
-                    NamedSetAlert: "동일한 이름의 필드를 바탕으로 한 세트를 동시에 설정할 수 없습니다 라는 PivotTable 보고서를 추가할 수 없습니다. 확인을 클릭하여'라는 ' <Set 1> ' 및 ' <Set 2> '이라는 추가 세트를 분리합니다."
+                    NamedSetAlert: "동일한 이름의 필드를 바탕으로 한 세트를 동시에 설정할 수 없습니다 라는 PivotTable 보고서를 추가할 수 없습니다. 확인을 클릭하여'라는 ' <Set 1> ' 및 ' <Set 2> '이라는 추가 세트를 분리합니다.",
+                    Exception: "예외"
                 };
                 break;
             case "ejPivotGauge":
@@ -809,6 +829,7 @@
                 ej.PivotGauge.Locale["ko-KR"] = {
                     RevenueGoal: "수익 목표",
                     RevenueValue: "수익 가치",
+                    Exception: "예외"
                 };
                 break;
             case "ejPager":
@@ -1203,7 +1224,8 @@
 					Edit: "편집",
 					DuplicateFormatName: "중복 형식 이름",
 					NotAllItemsShowing: "모든 자식 노드에 표시되는 것은 아닙니다.",
-					EditorLinkPanelAlert: "멤버 하나 이상의 부모 밑에서 1000개 이상의 항목. 첫 번째 항목은 1000각 부모 아래에 표시됩니다."
+					EditorLinkPanelAlert: "멤버 하나 이상의 부모 밑에서 1000개 이상의 항목. 첫 번째 항목은 1000각 부모 아래에 표시됩니다.",
+					Exception: "예외"
                 };
                 break;
             case "ejPivotPager":
@@ -1278,6 +1300,7 @@
                     OK: "확인",
                     Cancel: "취소",
                     Search: "검색",
+                    Remove: "제거",
                     AddCurrentSelectionToFilter: "현재 선택 항목을 필터에 추가",
                     NotAllItemsShowing: "모든 자식 노드에 표시되는 것은 아닙니다.",
                     EditorLinkPanelAlert: "멤버 하나 이상의 부모 밑에서 1000개 이상의 항목. 첫 번째 항목은 1000각 부모 아래에 표시됩니다.",
@@ -1400,6 +1423,7 @@
                         },
                     },
                     pagesetupDialog: {
+                        close: '닫기',
                         paperSize: '용지 크기',
                         height: '신장',
                         width: '폭',
@@ -1415,6 +1439,41 @@
                         doneButton: '끝난',
                         cancelButton: '취소하다'
                     },
+                    credential: {
+                        userName: '사용자 이름',
+                        password: '암호'
+                    },
+                    waterMark: {
+                        selectOption: '선택 옵션',
+                        selectValue: '값 선택'
+                    },
+                    errorMessage: {
+                        startMessage: '보고서 뷰어에서이 보고서를로드하는 중 일부 문제가 발생했습니다. 부디',
+                        middleMessage: ' 여기를 클릭하십시오.',
+                        endMessage: '오류 세부 정보를 보려면',
+                        closeMessage: '이 메시지를 닫습니다.'
+                    },
+                    alertMessage: {
+                        close: '닫기',
+                        title: 'ReportViewer',
+                        done: '승인',
+                        showDetails: '세부 정보 표시',
+                        hideDetails: '세부 정보 숨기기',
+                        reportLoad: '로드 된 보고서:',
+                        RVERR0001: 'ReportViewer가 보고서를로드하지 못했습니다.',
+                        RVERR0002: 'ReportViewer가 보고서 렌더링에 실패했습니다.',
+                        RVERR0003: 'ajax 포스트 백에서 오류가 발생했습니다.',
+                        RVERR0004: '매개 변수의 값을 선택하십시오.',
+                        RVERR0005: '{parametername} 매개 변수에 값이 없습니다.',
+                        RVERR0006: 'float 데이터 형식 입력을 제공하십시오.',
+                        RVERR0007: '정수 데이터 형식을 입력하십시오.',
+                        RVERR0008: 'ReportViewer가 데이터 원본 자격 증명의 유효성을 검사하지 못했습니다.',
+                        RVERR0009: '여백이 겹치거나 용지에서 벗어납니다. 다른 여백 크기 입력.',
+                        RVERR0010: '매개 변수의 값을 입력하십시오.',
+                        RVERR0011: '매개 변수는 비워 둘 수 없습니다.',
+                        RVERR0012: '보고서 매개 변수 {parameterprompt}에 제공된 값이 해당 유형에 유효하지 않습니다..'
+                    },
+                    selectAll: '모두 선택',
                     viewButton: "보고서보기",
                 };
                 break;

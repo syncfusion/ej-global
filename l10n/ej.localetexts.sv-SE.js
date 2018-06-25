@@ -643,7 +643,26 @@
                     EMF: "EMF",
                     GIF: "GIF",
                     JPG: "JPG",
-                    BMF: "BMF"
+                    BMP: "BMP",
+                    ZoomIn: "Zooma in",
+                    ZoomOut: "Zooma ut",
+                    Legend: "Förklaring",
+                    SmartLabels: "Smarta etiketter",
+                    Interactions: "Interaktioner",
+                    Zooming: "Zoomning",
+                    Rotate45: "Vrid45",
+                    Rotate90: "Vrid90",
+                    Trim: "Klädsel",
+                    MultipleRows: "Multipla Rows",
+                    Wrap: "Linda",
+                    Hide: "Dölj",
+                    WrapByWord: "Linda av ord",
+                    CrossHair: "Hårkors",
+                    TrackBall: "Styrkula",
+                    DisableTD: "Inaktivera 3D-diagram",
+                    None: "Ingen",
+                    Exception: "Undantag",
+                    OK: "ok"
                 };
                 break;
             case "ejPivotClient":
@@ -801,7 +820,8 @@
                     KpiAlertMsg: "De fält du flyttar kan placeras i det område av rapporten",
                     NotAllItemsShowing: "Inte alla underordnade noder visas",
                     EditorLinkPanelAlert: "Medlemmarna har mer än 1000 kurser under en eller flera moderföretag. Endast de första 1000 objekten visas under varje förälder.",
-                    NamedSetAlert:"En namngiven uppsättning kan läggas till PivotTable rapport samtidigt som en annan namngiven uppsättning baserad på samma fält. Klicka på OK för att ta bort ' <Set 1> ' heter och lägga till ' <Set 2> ' under named set."
+                    NamedSetAlert:"En namngiven uppsättning kan läggas till PivotTable rapport samtidigt som en annan namngiven uppsättning baserad på samma fält. Klicka på OK för att ta bort ' <Set 1> ' heter och lägga till ' <Set 2> ' under named set.",
+                    Exception: "Undantag"
                 };
                 break;
             case "ejPivotGauge":
@@ -809,6 +829,7 @@
                 ej.PivotGauge.Locale["sv-SE"] = {
                     RevenueGoal: "intäkts mål",
                     RevenueValue: "intäktsvärde",
+                    Exception: "Undantag"
                 };
                 break;
             case "ejPager":
@@ -1203,7 +1224,8 @@
 					Edit: "Redigera",
 					DuplicateFormatName: "Duplicera formatet namn",
 					NotAllItemsShowing: "Inte alla underordnade noder visas",
-					EditorLinkPanelAlert: "Medlemmarna har mer än 1000 kurser under en eller flera moderföretag. Endast de första 1000 objekten visas under varje förälder."
+					EditorLinkPanelAlert: "Medlemmarna har mer än 1000 kurser under en eller flera moderföretag. Endast de första 1000 objekten visas under varje förälder.",
+					Exception: "Undantag"
                 };
                 break;
             case "ejPivotPager":
@@ -1278,6 +1300,7 @@
                     OK: "OK",
                     Cancel: "Avbryt",
                     Search: "Sök",
+                    Remove: "Ta bort",
                     AddCurrentSelectionToFilter: "Lägg till aktuellt urval för att filtrera",
                     NotAllItemsShowing: "Inte alla underordnade noder visas",
                     EditorLinkPanelAlert: "Medlemmarna har mer än 1000 kurser under en eller flera moderföretag. Endast de första 1000 objekten visas under varje förälder.",
@@ -1400,6 +1423,7 @@
                         },
                     },
                     pagesetupDialog: {
+                        close: 'Stänga',
                         paperSize: 'Pappersformat',
                         height: 'Höjd',
                         width: 'Bredd',
@@ -1415,6 +1439,41 @@
                         doneButton: 'Klart',
                         cancelButton: 'Annullera'
                     },
+                    credential: {
+                        userName: 'Användarnamn',
+                        password: 'Lösenord'
+                    },
+                    waterMark: {
+                        selectOption: 'Välj alternativ',
+                        selectValue: 'Välj ett värde'
+                    },
+                    errorMessage: {
+                        startMessage: 'Report Viewer stötte på några problem med att läsa in denna rapport. Snälla du',
+                        middleMessage: ' Klicka här',
+                        endMessage: 'för att se felinformationen',
+                        closeMessage: 'Stäng det här meddelandet'
+                    },
+                    alertMessage: {
+                        close: 'Stänga',
+                        title: 'Report',
+                        done: 'OK',
+                        showDetails: 'Visa detaljer',
+                        hideDetails: 'Gömma detaljer',
+                        reportLoad: 'Rapporten laddas:',
+                        RVERR0001: 'ReportViewer lyckades inte ladda rapporten',
+                        RVERR0002: 'ReportViewer lyckades inte göra rapporten',
+                        RVERR0003: 'Ett fel uppstod i ajax postback',
+                        RVERR0004: 'Var god välj ett värde för parametern',
+                        RVERR0005: 'Parametern {parametername} saknar ett värde',
+                        RVERR0006: 'Vänligen ge inmatning av floatdatatypen',
+                        RVERR0007: 'Vänligen ange integerdatatypingången',
+                        RVERR0008: 'ReportViewer misslyckades med att validera datakällans behörighetsuppgifter',
+                        RVERR0009: 'Marginalerna överlappas eller de är av papperet. Ange en annan marginalstorlek.',
+                        RVERR0010: 'Ange ett värde för parametern',
+                        RVERR0011: 'Parametern kan inte vara tom',
+                        RVERR0012: 'Värdet för rapportparametern {parameterprompt} är inte giltigt för dess typ.'
+                    },
+                    selectAll: 'Välj alla',
                     viewButton: "Visa rapport",
                 };
                 break;

@@ -643,7 +643,26 @@
                     EMF: "EMF",
                     GIF: "GIF",
                     JPG: "JPG",
-                    BMF: "BMF"
+                    BMP: "BMP",
+                    ZoomIn: "Priblížiť",
+                    ZoomOut: "Oddialiť",
+                    Legend: "Legenda",
+                    SmartLabels: "Smart štítky",
+                    Interactions: "Interakcie",
+                    Zooming: "Priblíženie",
+                    Rotate45: "Otáčajte45",
+                    Rotate90: "Otáčajte90",
+                    Trim: "Obloženia",
+                    MultipleRows: "Viacnásobné riadky",
+                    Wrap: "Obal",
+                    Hide: "Skryť",
+                    WrapByWord: "Zabaľte do programu Word",
+                    CrossHair: "Nitkovým",
+                    TrackBall: "Guľový ovládač",
+                    DisableTD: "Zakázať 3D grafy",
+                    None: "Žiadne",
+                    Exception: "Výnimkou",
+                    OK: "OK"
                 };
                 break;
             case "ejPivotClient":
@@ -801,7 +820,8 @@
                     KpiAlertMsg: "Pole, na ktoré sa nemôžu byť umiestnené v oblasti správy",
                     NotAllItemsShowing: "Nie všetky detské uzly sú znázornené",
                     EditorLinkPanelAlert: "Členmi je viac ako 1000 položiek v rámci jedného alebo viacerých rodičov. Len prvých 1000 položky sa zobrazia v rámci každého rodiča.",
-                    NamedSetAlert:"Pomenovaný súbor nie je možné pridať do zostavy kontingenčnej tabuľky v rovnakom čase ako ďalší s názvom vychádzajú z rovnakej oblasti. Kliknite na tlačidlo OK a vyberte ' <Set 1'> s názvom súboru a ' <Set 2> ' pod názvom."
+                    NamedSetAlert: "Pomenovaný súbor nie je možné pridať do zostavy kontingenčnej tabuľky v rovnakom čase ako ďalší s názvom vychádzajú z rovnakej oblasti. Kliknite na tlačidlo OK a vyberte ' <Set 1'> s názvom súboru a ' <Set 2> ' pod názvom.",
+                    Exception: "Výnimkou"
                 };
                 break;
             case "ejPivotGauge":
@@ -809,6 +829,7 @@
                 ej.PivotGauge.Locale["sk-SK"] = {
                     RevenueGoal: "výnosy Cieľ",
                     RevenueValue: "hodnota tržieb",
+                    Exception: "Výnimkou"
                 };
                 break;
             case "ejPager":
@@ -1207,7 +1228,8 @@
 					Edit: "Úprava",
 					DuplicateFormatName: "Kopírovať formát Mena",
 					NotAllItemsShowing: "Nie všetky detské uzly sú znázornené",
-					EditorLinkPanelAlert: "Členmi je viac ako 1000 položiek v rámci jedného alebo viacerých rodičov. Len prvých 1000 položky sa zobrazia v rámci každého rodiča."
+					EditorLinkPanelAlert: "Členmi je viac ako 1000 položiek v rámci jedného alebo viacerých rodičov. Len prvých 1000 položky sa zobrazia v rámci každého rodiča.",
+					Exception: "Výnimkou"
                 };
                 break;
             case "ejPivotPager":
@@ -1282,6 +1304,7 @@
                     OK: "Tlačidlo OK",
                     Cancel: "Zrušenie",
                     Search: "Vyhľadávanie",
+                    Remove: "Odmontujte",
                     AddCurrentSelectionToFilter: "Pridajte aktuálny výber na filtrovanie",
                     NotAllItemsShowing: "Nie všetky detské uzly sú znázornené",
                     EditorLinkPanelAlert: "Členmi je viac ako 1000 položiek v rámci jedného alebo viacerých rodičov. Len prvých 1000 položky sa zobrazia v rámci každého rodiča.",
@@ -1404,6 +1427,7 @@
                         },
                     },
                     pagesetupDialog: {
+                        close: 'Zavrieť',
                         paperSize: 'veľkosť papiera',
                         height: 'výška',
                         width: 'šírka',
@@ -1419,7 +1443,42 @@
                         doneButton: 'hotový',
                         cancelButton: 'Zrušiť'
                     },
-                    viewButton: "view Report",
+                    credential: {
+                        userName: 'užívateľské meno',
+                        password: 'heslo'
+                    },
+                    waterMark: {
+                        selectOption: 'Vyberte možnosť',
+                        selectValue: 'Vyberte hodnotu'
+                    },
+                    errorMessage: {
+                        startMessage: 'Program Report Viewer narazil na niektoré problémy s načítaním tohto prehľadu. prosím',
+                        middleMessage: ' Kliknite tu',
+                        endMessage: 'zobrazíte detaily chýb',
+                        closeMessage: 'Zatvorte túto správu'
+                    },
+                    alertMessage: {
+                        close: 'Zavrieť',
+                        title: 'ReportViewer',
+                        done: 'OK',
+                        showDetails: 'Zobraziť podrobnosti',
+                        hideDetails: 'Skryť detaily',
+                        reportLoad: 'Nahlásiť prehľad:',
+                        RVERR0001: 'Služba ReportViewer sa nepodarilo načítať hlásenie',
+                        RVERR0002: 'ReportViewer sa nepodarilo zobraziť prehľad',
+                        RVERR0003: 'Vyskytla sa chyba ajax postback',
+                        RVERR0004: 'Vyberte parameter pre parameter',
+                        RVERR0005: 'Parameter {paramettername} chýba hodnota',
+                        RVERR0006: 'Zadajte dátový typ typu float',
+                        RVERR0007: 'Zadajte celý typ dátového vstupu',
+                        RVERR0008: 'Služba ReportViewer zlyhala pri overovaní údajov poverenia Datasource',
+                        RVERR0009: 'Okraje sa prekrývajú alebo sú mimo papiera. Zadajte inú veľkosť marže.',
+                        RVERR0010: 'Zadajte hodnotu parametra',
+                        RVERR0011: 'Parameter nemôže byť prázdny',
+                        RVERR0012: 'Hodnota poskytnutá pre parameter parametra {parameterprompt} nie je platná pre jeho typ.'
+                    },
+                    selectAll: 'Vybrať všetko',
+                    viewButton: "pozrieť si správu",
                 };
                 break;
             case "ejRibbon":

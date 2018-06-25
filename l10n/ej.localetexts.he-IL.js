@@ -644,7 +644,26 @@
                     EMF: "EMF",
                     GIF: "GIF",
                     JPG: "JPG",
-                    BMF: "BMF"
+                    BMP: "BMP",
+                    ZoomIn: "להגדיל",
+                    ZoomOut: "להקטין את התצוגה",
+                    Legend: "אגדה",
+                    SmartLabels: "תוויות חכמות",
+                    Interactions: "אינטראקציות",
+                    Zooming: "זום",
+                    Rotate45: "סובב",
+                    Rotate90: "סובב90",
+                    Trim: "מְטוּפָּח",
+                    MultipleRows: "שורות מרובות",
+                    Wrap: "לַעֲטוֹף",
+                    Hide: "להתחבא",
+                    WrapByWord: "לעטוף במילה",
+                    CrossHair: "שיער",
+                    TrackBall: "מסלול כדור",
+                    DisableTD: "השבת תרשימים תלת ממדיים",
+                    None: "אף אחד",
+                    Exception: "חריג",
+                    OK: "בסדר"
                 };
                 break;
             case "ejPivotClient":
@@ -802,7 +821,8 @@
                     KpiAlertMsg: "אתה מעביר את השדה אינו יכול להיות ממוקם באזור זה של הדוח",
                     NotAllItemsShowing: "לא כל ילד צמתים מוצגים",
                     EditorLinkPanelAlert: "חברי יש יותר מאלף פריטים תחת אחד או יותר אב. רק הראשונה 1000 מוצגים פריטים תחת כל אב.",
-                    NamedSetAlert: "שם הגדר לא ניתן להוסיף את דוחשם הגדר לא ניתן להוסיף את דוחשם הגדר לא ניתן להוסיף את דוח PivotTable באותו הזמן כמו בשם אחר הגדר מבוסס על אותה שדה. לחץ על אישור כדי להסיר ' <Set 1> ' בשם להגדיר ולהוסיף ' <Set 2> ' בשם."
+                    NamedSetAlert: "שם הגדר לא ניתן להוסיף את דוחשם הגדר לא ניתן להוסיף את דוחשם הגדר לא ניתן להוסיף את דוח PivotTable באותו הזמן כמו בשם אחר הגדר מבוסס על אותה שדה. לחץ על אישור כדי להסיר ' <Set 1> ' בשם להגדיר ולהוסיף ' <Set 2> ' בשם.",
+                    Exception: "חריג"
                 };
                 break;
             case "ejPivotGauge":
@@ -810,6 +830,7 @@
                 ej.PivotGauge.Locale["he-IL"] = {
                     RevenueGoal: "יעד הכנסה",
                     RevenueValue: "ערך הכנסה",
+                    Exception: "חריג"
                 };
                 break;
             case "ejPager":
@@ -1204,7 +1225,8 @@
                     Edit: "ערוך",
                     DuplicateFormatName: "שם תבנית כפולים",
                     NotAllItemsShowing: "לא כל ילד צמתים מוצגים",
-                    EditorLinkPanelAlert: "חברי יש יותר מאלף פריטים תחת אחד או יותר אב. רק הראשונה 1000 מוצגים פריטים תחת כל אב."
+                    EditorLinkPanelAlert: "חברי יש יותר מאלף פריטים תחת אחד או יותר אב. רק הראשונה 1000 מוצגים פריטים תחת כל אב.",
+                    Exception: "חריג"
                 };
                 break;
             case "ejPivotPager":
@@ -1280,6 +1302,7 @@
                     OK: "אישור",
                     Cancel: "ביטול",
                     Search: "חיפוש",
+                    Remove: "הסר",
                     AddCurrentSelectionToFilter: "הוסף את הבחירה הנוכחית לסנן",
                     NotAllItemsShowing: "לא כל ילד צמתים מוצגים",
                     EditorLinkPanelAlert: "חברי יש יותר מאלף פריטים תחת אחד או יותר אב. רק הראשונה 1000 מוצגים פריטים תחת כל אב.",
@@ -1402,6 +1425,7 @@
                         },
                     },
                     pagesetupDialog: {
+                        close: 'לִסְגוֹר',
                         paperSize: 'גודל נייר',
                         height: 'גוֹבַה',
                         width: 'רוֹחַב',
@@ -1417,6 +1441,41 @@
                         doneButton: 'בוצע',
                         cancelButton: 'לְבַטֵל'
                     },
+                    credential: {
+                        userName: 'שם משתמש',
+                        password: 'סיסמה'
+                    },
+                    waterMark: {
+                        selectOption: 'בחר אפשרות',
+                        selectValue: 'בחר ערך'
+                    },
+                    errorMessage: {
+                        startMessage: 'דוח Viewer נתקל בבעיות מסוימות בטעינת דוח זה. אנא',
+                        middleMessage: ' לחץ כאן',
+                        endMessage: 'כדי לראות את פרטי השגיאה',
+                        closeMessage: 'סגור הודעה זו'
+                    },
+                    alertMessage: {
+                        close: 'לִסְגוֹר',
+                        title: 'דווח על',
+                        done: 'בסדר',
+                        showDetails: 'הראה פרטים',
+                        hideDetails: 'הסתר פרטים',
+                        reportLoad: 'דווח על טעינה:',
+                        RVERR0001: 'ReportViewer נכשל בטעינת הדוח',
+                        RVERR0002: 'ReportViewer נכשל בהפקת הדוח',
+                        RVERR0003: 'אירעה שגיאה בהודעה חוזרת של ajax',
+                        RVERR0004: 'בחר ערך עבור הפרמטר',
+                        RVERR0005: 'הפרמטר {parametername} חסר ערך',
+                        RVERR0006: 'הזן את סוג הזנת נתוני הצף',
+                        RVERR0007: 'אנא הכנס את סוג הנתונים של סוג הנתונים השלם',
+                        RVERR0008: 'ReportViewer נכשל באימות אישורי Datasource',
+                        RVERR0009: 'השוליים חופפים או שהם מחוץ לנייר. הזן גודל שולי אחר.',
+                        RVERR0010: 'הזן ערך עבור הפרמטר',
+                        RVERR0011: 'הפרמטר אינו יכול להיות ריק',
+                        RVERR0012: 'הערך הנתון לפרמטר הדוח {parameterprompt} אינו תקף עבור הסוג שלו.'
+                    },
+                    selectAll: 'בחר הכל',
                     viewButton: "צפה בדוח",
                 };
                 break;

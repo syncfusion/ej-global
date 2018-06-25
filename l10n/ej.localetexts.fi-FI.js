@@ -642,7 +642,26 @@
                     EMF: "EMF",
                     GIF: "GIF",
                     JPG: "JPG",
-                    BMF: "BMF"
+                    BMP: "BMP",
+                    ZoomIn: "lähennä",
+                    ZoomOut: "Loitontaa",
+                    Legend: "Legenda",
+                    SmartLabels: "Smart nimet",
+                    Interactions: "vuorovaikutukset",
+                    Zooming: "zoomaus",
+                    Rotate45: "Käännä45",
+                    Rotate90: "Käännä90",
+                    Trim: "Trimmata",
+                    MultipleRows: "Useita rivejä",
+                    Wrap: "Kiedo",
+                    Hide: "Piilottaa",
+                    WrapByWord: "Wrap By sana",
+                    CrossHair: "Ristikko",
+                    TrackBall: "Napa kuula",
+                    DisableTD: "Poista 3D-kaaviot käytöstä",
+                    None: "Ei mitään",
+                    Exception: "Poikkeus",
+                    OK: "kunnossa"
                 };
                 break;
             case "ejPivotClient":
@@ -800,7 +819,8 @@
                     KpiAlertMsg: "Kentässä siirrät ei voi asettaa, raportin alue",
                     NotAllItemsShowing: "Kaikki alempien solmujen näkyvät",
                     EditorLinkPanelAlert: "Kollegani ovat yli 1000 tuotetta yhden tai useamman vanhemman. Vain ensimmäiset 1000 näkyvät kohdassa kutakin ylempää.",
-                    NamedSetAlert: "Nimettyä sarjaa ei voi lisätä PivotTable mietintö samanaikaisesti toisen nimeltä perustua samasta kentästä. Valitsemalla OK voit poistaa ' <Set 1> ' nimetyn joukon ja lisää ' <Set 2> ' nimeltä."
+                    NamedSetAlert: "Nimettyä sarjaa ei voi lisätä PivotTable mietintö samanaikaisesti toisen nimeltä perustua samasta kentästä. Valitsemalla OK voit poistaa ' <Set 1> ' nimetyn joukon ja lisää ' <Set 2> ' nimeltä.",
+                    Exception: "Poikkeus"
                 };
                 break;
             case "ejPivotGauge":
@@ -808,6 +828,7 @@
                 ej.PivotGauge.Locale["fi-FI"] = {
                     RevenueGoal: "tulot Tavoite",
                     RevenueValue: "tulot Arvo",
+                    Exception: "Poikkeus"
                 };
                 break;
             case "ejPager":
@@ -1202,7 +1223,8 @@
                     Edit: "Muokkaa",
                     DuplicateFormatName: "Sama nimi",
                     NotAllItemsShowing: "Kaikki alempien solmujen näkyvät",
-                    EditorLinkPanelAlert: "Kollegani ovat yli 1000 tuotetta yhden tai useamman vanhemman. Vain ensimmäiset 1000 näkyvät kohdassa kutakin ylempää."
+                    EditorLinkPanelAlert: "Kollegani ovat yli 1000 tuotetta yhden tai useamman vanhemman. Vain ensimmäiset 1000 näkyvät kohdassa kutakin ylempää.",
+                    Exception: "Poikkeus"
                 };
                 break;
             case "ejPivotPager":
@@ -1278,6 +1300,7 @@
                     OK: "OK",
                     Cancel: "Peruuta",
                     Search: "Haku",
+                    Remove: "Irrota",
                     AddCurrentSelectionToFilter: "Lisää nykyinen valinta suodatukseen",
                     NotAllItemsShowing: "Kaikki alempien solmujen näkyvät",
                     EditorLinkPanelAlert: "Kollegani ovat yli 1000 tuotetta yhden tai useamman vanhemman. Vain ensimmäiset 1000 näkyvät kohdassa kutakin ylempää.",
@@ -1400,6 +1423,7 @@
                         },
                     },
                     pagesetupDialog: {
+                        close: 'kiinni',
                         paperSize: 'Paperin koko',
                         height: 'Korkeus',
                         width: 'Leveys',
@@ -1415,6 +1439,41 @@
                         doneButton: 'Tehty',
                         cancelButton: 'Peruuttaa'
                     },
+                    credential: {
+                        userName: 'Käyttäjätunnus',
+                        password: 'Salasana'
+                    },
+                    waterMark: {
+                        selectOption: 'Valitse vaihtoehto',
+                        selectValue: 'Valitse arvo'
+                    },
+                    errorMessage: {
+                        startMessage: 'Raportin Viewer kohtasi joitakin ongelmia tämän raportin lataamisessa. Ole kiltti',
+                        middleMessage: ' Klikkaa tästä',
+                        endMessage: 'nähdä virheen tiedot',
+                        closeMessage: 'Sulje tämä viesti'
+                    },
+                    alertMessage: {
+                        close: 'kiinni',
+                        title: 'ReportViewer',
+                        done: 'kunnossa',
+                        showDetails: 'Näytä yksityiskohdat',
+                        hideDetails: 'Piilota tiedot',
+                        reportLoad: 'Raportti ladattu:',
+                        RVERR0001: 'ReportViewer ei ladannut raporttia',
+                        RVERR0002: 'ReportViewer ei tuottanut raporttia',
+                        RVERR0003: 'Ajax-palautuksessa tapahtui virhe',
+                        RVERR0004: 'Valitse parametrin arvo',
+                        RVERR0005: 'Parametrin {parametri} puuttuu arvo',
+                        RVERR0006: 'Anna float-tietotyypin syöttö',
+                        RVERR0007: 'Anna kokonaisluvutyypin syöttö',
+                        RVERR0008: 'ReportViewer ei hyväksynyt Tietolähteen tunnistetietoja',
+                        RVERR0009: 'Marginaalit ovat päällekkäin tai ne ovat pois paperista. Anna eri marginaalikoko.',
+                        RVERR0010: 'Anna parametrin arvo',
+                        RVERR0011: 'Parametri ei voi olla tyhjä',
+                        RVERR0012: 'Raporttiparametrille {parameterprompt} annettu arvo ei ole sen tyypin mukainen.'
+                    },
+                    selectAll: 'Valitse kaikki',
                     viewButton: "Näytä raportti",
                 };
                 break;

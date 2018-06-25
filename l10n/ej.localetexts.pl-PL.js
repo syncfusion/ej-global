@@ -645,7 +645,26 @@
                     EMF: "EMF",
                     GIF: "GIF",
                     JPG: "JPG",
-                    BMF: "BMF"
+                    BMP: "BMP",
+                    ZoomIn: "zbliżenie",
+                    ZoomOut: "Pomniejsz",
+                    Legend: "Legenda",
+                    SmartLabels: "Inteligentne etykiety",
+                    Interactions: "Interakcje",
+                    Zooming: "Powiększanie",
+                    Rotate45: "Obrócić45",
+                    Rotate90: "Obrócić90",
+                    Trim: "Trym",
+                    MultipleRows: "Wiele wierszy",
+                    Wrap: "Owinąć",
+                    Hide: "Ukryć",
+                    WrapByWord: "Wrap By słowo",
+                    CrossHair: "Krzyż włosy",
+                    TrackBall: "Śledź piłkę",
+                    DisableTD: "Wyłącz wykresy 3D",
+                    None: "Żaden",
+                    Exception: "Wyjątek",
+                    OK: "ok"
                 };
                 break;
             case "ejPivotClient":
@@ -803,7 +822,8 @@
                     KpiAlertMsg: "Pole, w którym porusza się użytkownik nie może być umieszczony na tym obszarze raportu",
                     NotAllItemsShowing: "Nie wszystkie dzieci węzły zostają pokazane",
                     EditorLinkPanelAlert: "Członków liczy ponad 1000 pozycji w ramach jednej lub większej ilości rodziców. Jedynie pierwsze 1000 elementy są wyświetlane w ramach każdego rodzica.",
-                    NamedSetAlert: "Nazwa nie może być dodana do raportu tabeli przestawnej w tym samym czasie, co inny o nazwie set oparty na tym samym polu. Kliknij przycisk OK, aby usunąć ' <Set 1> ' o nazwie set i dodać ' <Set 2> ' o nazwie set."
+                    NamedSetAlert: "Nazwa nie może być dodana do raportu tabeli przestawnej w tym samym czasie, co inny o nazwie set oparty na tym samym polu. Kliknij przycisk OK, aby usunąć ' <Set 1> ' o nazwie set i dodać ' <Set 2> ' o nazwie set.",
+                    Exception: "Wyjątek"
                 };
                 break;
             case "ejPivotGauge":
@@ -811,6 +831,7 @@
                 ej.PivotGauge.Locale["pl-PL"] = {
                     RevenueGoal: "przychody Goal",
                     RevenueValue: "przychody Wartość",
+                    Exception: "Wyjątek"
                 };
                 break;
             case "ejPager":
@@ -1205,7 +1226,8 @@
 					Edit: "Edytuj",
 					DuplicateFormatName: "Duplikat format nazwy",
 					NotAllItemsShowing: "Nie wszystkie dzieci węzły zostają pokazane",
-					EditorLinkPanelAlert: "Członków liczy ponad 1000 pozycji w ramach jednej lub większej ilości rodziców. Jedynie pierwsze 1000 elementy są wyświetlane w ramach każdego rodzica."
+					EditorLinkPanelAlert: "Członków liczy ponad 1000 pozycji w ramach jednej lub większej ilości rodziców. Jedynie pierwsze 1000 elementy są wyświetlane w ramach każdego rodzica.",
+					Exception: "Wyjątek"
                 };
                 break;
             case "ejPivotPager":
@@ -1280,6 +1302,7 @@
                     OK: "OK",
                     Cancel: "Anuluj",
                     Search: "Wyszukiwanie",
+                    Remove: "Usuń",
                     AddCurrentSelectionToFilter: "Dodaj bieżący wybór do filtrowania",
                     NotAllItemsShowing: "Nie wszystkie dzieci węzły zostają pokazane",
                     EditorLinkPanelAlert: "Członków liczy ponad 1000 pozycji w ramach jednej lub większej ilości rodziców. Jedynie pierwsze 1000 elementy są wyświetlane w ramach każdego rodzica.",
@@ -1402,6 +1425,7 @@
                         },
                     },
                     pagesetupDialog: {
+                        close: 'Blisko',
                         paperSize: 'Rozmiar papieru',
                         height: 'Wysokość',
                         width: 'Szerokość',
@@ -1417,6 +1441,41 @@
                         doneButton: 'Gotowe',
                         cancelButton: 'Anuluj'
                     },
+                    credential: {
+                        userName: 'Nazwa Użytkownika',
+                        password: 'Hasło'
+                    },
+                    waterMark: {
+                        selectOption: 'Wybierz opcję',
+                        selectValue: 'Wybierz wartość'
+                    },
+                    errorMessage: {
+                        startMessage: 'Report Viewer napotkał problemy podczas ładowania tego raportu. Proszę',
+                        middleMessage: ' Kliknij tutaj',
+                        endMessage: 'aby zobaczyć szczegóły błędu',
+                        closeMessage: 'Zamknij tę wiadomość'
+                    },
+                    alertMessage: {
+                        close: 'Blisko',
+                        title: 'ReportViewer',
+                        done: 'OK',
+                        showDetails: 'Pokaż szczegóły',
+                        hideDetails: 'Ukryj szczegóły',
+                        reportLoad: 'Raport został załadowany:',
+                        RVERR0001: 'ReportViewer nie załadował raportu',
+                        RVERR0002: 'ReportViewer nie wyrenderował raportu',
+                        RVERR0003: 'Wystąpił błąd w poczcie zwrotnej ajax',
+                        RVERR0004: 'Wybierz wartość parametru',
+                        RVERR0005: 'W parametrze {parametrName} brakuje wartości',
+                        RVERR0006: 'Wprowadź dane wejściowe typu float',
+                        RVERR0007: 'Podaj wejściowy typ danych liczbowych',
+                        RVERR0008: 'ReportViewer nie mógł sprawdzić danych uwierzytelniających Datasource',
+                        RVERR0009: 'Marginesy zachodzą na siebie lub są wyłączone z papieru. Wprowadź inny rozmiar marginesu.',
+                        RVERR0010: 'Wprowadź wartość parametru',
+                        RVERR0011: 'Parametr nie może być pusty',
+                        RVERR0012: 'Wartość podana dla parametru raportu {parameterprompt} jest niepoprawna dla jego typu.'
+                    },
+                    selectAll: 'Zaznacz wszystko',
                     viewButton: "Zobacz raport",
                 };
                 break;

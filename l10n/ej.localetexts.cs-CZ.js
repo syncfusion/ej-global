@@ -641,7 +641,26 @@
                     EMF: "EMF",
                     GIF: "GIF",
                     JPG: "JPG",
-                    BMF: "BMF"
+                    BMP: "BMP",
+                    ZoomIn: "přiblížit",
+                    ZoomOut: "Oddálit",
+                    Legend: "Legenda",
+                    SmartLabels: "Inteligentní štítky",
+                    Interactions: "Interakce",
+                    Zooming: "Zvětšení",
+                    Rotate45: "Otočte45",
+                    Rotate90: "Otočte90",
+                    Trim: "Trim",
+                    MultipleRows: "Více řádků",
+                    Wrap: "Zabalit",
+                    Hide: "Skrýt",
+                    WrapByWord: "Wrap podle slova",
+                    CrossHair: "Křížové vlasy",
+                    TrackBall: "Track Ball",
+                    DisableTD: "Zakázat 3D grafy",
+                    None: "Žádný",
+                    Exception: "Výjimka",
+                    OK: "OK"
                 };
                 break;
             case "ejPivotClient":
@@ -799,7 +818,8 @@
                     KpiAlertMsg: "V oblasti pohybu nesmí být umístěny v oblasti zpráva",
                     NotAllItemsShowing: "Ne všechny děti jsou uzly na obrázku",
                     EditorLinkPanelAlert: "Členové má více než tisíc položek v rámci jednoho nebo více mateřských. Pouze první 1000 položky jsou zobrazeny v rámci každého rodiče.",
-                    NamedSetAlert:"Pojmenovaný nemohou být přidány do obsahujícího kontingenční tabulku se zobrazí zpráva ve stejné době jako další s názvem založené na stejném poli. Klepnutím na tlačítko OK odeberte ' <Set 1> ' pojmenovanou množinu a přidejte ' <Set 2> ' s názvem."
+                    NamedSetAlert:"Pojmenovaný nemohou být přidány do obsahujícího kontingenční tabulku se zobrazí zpráva ve stejné době jako další s názvem založené na stejném poli. Klepnutím na tlačítko OK odeberte ' <Set 1> ' pojmenovanou množinu a přidejte ' <Set 2> ' s názvem.",
+                    Exception: "Výjimka"
                 };
                 break;
             case "ejPivotGauge":
@@ -807,6 +827,7 @@
                 ej.PivotGauge.Locale["cs-CZ"] = {
                     RevenueGoal: "výnosy Cíl",
                     RevenueValue: "Hodnota tržeb",
+                    Exception: "Výjimka"
                 };
                 break;
             case "ejPager":
@@ -1203,7 +1224,8 @@
                     Edit: "Upravit",
                     DuplicateFormatName: "Duplicitní název formátu",
                     NotAllItemsShowing: "Ne všechny děti jsou uzly na obrázku",
-                    EditorLinkPanelAlert: "Členové má více než tisíc položek v rámci jednoho nebo více mateřských. Pouze první 1000 položky jsou zobrazeny v rámci každého rodiče."
+                    EditorLinkPanelAlert: "Členové má více než tisíc položek v rámci jednoho nebo více mateřských. Pouze první 1000 položky jsou zobrazeny v rámci každého rodiče.",
+                    Exception: "Výjimka"
                 };
                 break;
             case "ejPivotPager":
@@ -1277,6 +1299,7 @@
                     Cancel: "Zrušit",
                     Close: "Zavřete",
                     Search: "Vyhledávání",
+                    Remove: "Demontujte",
                     AddCurrentSelectionToFilter: "Přidat aktuální výběr k filtrování",
                     NotAllItemsShowing: "Ne všechny děti jsou uzly na obrázku",
                     EditorLinkPanelAlert: "Členové má více než tisíc položek v rámci jednoho nebo více mateřských. Pouze první 1000 položky jsou zobrazeny v rámci každého rodiče.",
@@ -1399,6 +1422,7 @@
                         },
                     },
                     pagesetupDialog: {
+                        close: 'Zavřít',
                         paperSize: 'Velikost papíru',
                         height: 'Výška',
                         width: 'Šířka',
@@ -1414,6 +1438,41 @@
                         doneButton: 'hotový',
                         cancelButton: 'Zrušit'
                     },
+                    credential: {
+                        userName: 'Uživatelské jméno',
+                        password: 'Heslo'
+                    },
+                    waterMark: {
+                        selectOption: 'Vyberte volbu',
+                        selectValue: 'Vyberte hodnotu'
+                    },
+                    errorMessage: {
+                        startMessage: 'Prohlížeč zpráv zaznamenal některé problémy při načítání tohoto přehledu. Prosím',
+                        middleMessage: ' Klikněte zde',
+                        endMessage: 'zobrazit podrobnosti o chybě',
+                        closeMessage: 'Zavřete tuto zprávu'
+                    },
+                    alertMessage: {
+                        close: 'Zavřít',
+                        title: 'ReportViewer',
+                        done: 'OK',
+                        showDetails: 'Ukázat detaily',
+                        hideDetails: 'Skrýt detaily',
+                        reportLoad: 'Nahlásit hlášení:',
+                        RVERR0001: 'Zpráva ReportViewer se nepodařilo načíst',
+                        RVERR0002: 'Zpráva ReportViewer se nezdařila',
+                        RVERR0003: 'Došlo k chybě v ajax postback',
+                        RVERR0004: 'Zvolte prosím hodnotu parametru',
+                        RVERR0005: 'Parametr {paramettername} chybí hodnotu',
+                        RVERR0006: 'Vložte typ datového typu pro float',
+                        RVERR0007: 'Zadejte prosím celý typ datového vstupu',
+                        RVERR0008: 'Zadejte prosím celý typ datového vstupu',
+                        RVERR0009: 'Okraje se překrývají nebo jsou mimo papír. Zadejte jinou velikost okraje.',
+                        RVERR0010: 'Zadejte hodnotu parametru',
+                        RVERR0011: 'Parametr nesmí být prázdný',
+                        RVERR0012: 'Hodnota poskytnutá pro parametr report {parametrprompt} není pro svůj typ platná.'
+                    },
+                    selectAll: 'Vybrat vše',
                     viewButton: "Zobrazit hlášení",
                 };
                 break;

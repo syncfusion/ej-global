@@ -641,7 +641,26 @@
                     EMF: "EMF",
                     GIF: "GIF",
                     JPG: "JPG",
-                    BMF: "BMF"
+                    BMP: "BMP",
+                    ZoomIn: "mais Zoom",
+                    ZoomOut: "Reduzir o zoom",
+                    Legend: "lenda",
+                    SmartLabels: "rótulos inteligentes",
+                    Interactions: "Interações",
+                    Zooming: "Zoom",
+                    Rotate45: "Gire45",
+                    Rotate90: "Gire90",
+                    Trim: "aparar",
+                    MultipleRows: "várias linhas",
+                    Wrap: "Embrulho",
+                    Hide: "Ocultar",
+                    WrapByWord: "Envolva por palavra",
+                    CrossHair: "Cabelo cruz",
+                    TrackBall: "Bola de pista",
+                    DisableTD: "Desativar gráficos em 3D",
+                    None: "Nenhum",
+                    Exception: "Excepção",
+                    OK: "Está bem"
                 };
                 break;
             case "ejPivotClient":
@@ -799,7 +818,8 @@
                     KpiAlertMsg: "O campo que você está movendo não podem ser colocados em que área do relatório",
                     NotAllItemsShowing: "Nem todos os nós filho são mostrados",
                     EditorLinkPanelAlert: "Os membros tem mais de 1000 itens em um ou mais dos pais. Somente os primeiros 1000 itens são exibidos sob cada um dos pais.",
-                    NamedSetAlert: "Um conjunto nomeado não pode ser adicionado ao relatório de tabela dinâmica ao mesmo tempo que outro nome definido com base no mesmo campo. Clique em OK para remover o ' <Set 1> ' chamado definir e adicionar ' <Set 2> ' nome definido."
+                    NamedSetAlert: "Um conjunto nomeado não pode ser adicionado ao relatório de tabela dinâmica ao mesmo tempo que outro nome definido com base no mesmo campo. Clique em OK para remover o ' <Set 1> ' chamado definir e adicionar ' <Set 2> ' nome definido.",
+                    Exception: "Excepção"
                 };
                 break;
             case "ejPivotGauge":
@@ -807,6 +827,7 @@
                 ej.PivotGauge.Locale["pt-PT"] = {
                     RevenueGoal: "meta de receita",
                     RevenueValue: "Valor de receita",
+                    Exception: "Excepção"
                 };
                 break;
             case "ejPager":
@@ -1194,7 +1215,8 @@
                     Edit: "Editar",
                     DuplicateFormatName: "Nome do formato duplicados",
                     NotAllItemsShowing: "Nem todos os nós filho são mostrados",
-                    EditorLinkPanelAlert: "Os membros tem mais de 1000 itens em um ou mais dos pais. Somente os primeiros 1000 itens são exibidos sob cada um dos pais."
+                    EditorLinkPanelAlert: "Os membros tem mais de 1000 itens em um ou mais dos pais. Somente os primeiros 1000 itens são exibidos sob cada um dos pais.",
+                    Exception: "Excepção"
                 };
                 break;
             case "ejPivotPager":
@@ -1276,6 +1298,7 @@
 					Years: "Anos",
 					Qtr: "Trim",
 					Quarter: "Trimestre",
+					Remove: "Remova",
 					NoRecordsToDisplay: "Não há registros para exibir.",
 					NotAllItemsShowing: "Nem todos os nós filho são mostrados",
 					EditorLinkPanelAlert: "Os membros tem mais de 1000 itens em um ou mais dos pais. Somente os primeiros 1000 itens são exibidos sob cada um dos pais.",
@@ -1398,6 +1421,7 @@
                         },
                     },
                     pagesetupDialog: {
+                        close: 'Fechar',
                         paperSize: 'Tamanho do papel',
                         height: 'Altura',
                         width: 'Largura',
@@ -1413,6 +1437,41 @@
                         doneButton: 'Feito',
                         cancelButton: 'Cancelar'
                     },
+                    credential: {
+                        userName: 'Nome de usuário',
+                        password: 'Senha'
+                    },
+                    waterMark: {
+                        selectOption: 'Selecione a opção',
+                        selectValue: 'Selecione um valor'
+                    },
+                    errorMessage: {
+                        startMessage: 'O Report Viewer encontrou alguns problemas ao carregar este relatório. Por favor',
+                        middleMessage: ' Clique aqui',
+                        endMessage: 'para ver os detalhes do erro',
+                        closeMessage: 'Fechar esta mensagem'
+                    },
+                    alertMessage: {
+                        close: 'Fechar',
+                        title: 'ReportViewer',
+                        done: 'Está bem',
+                        showDetails: 'Mostrar detalhes',
+                        hideDetails: 'Detalhes ocultos',
+                        reportLoad: 'Relatório carregado:',
+                        RVERR0001: 'ReportViewer não conseguiu carregar o relatório',
+                        RVERR0002: 'ReportViewer não conseguiu processar o relatório',
+                        RVERR0003: 'Ocorreu um erro no postback do ajax',
+                        RVERR0004: 'Por favor, selecione um valor para o parâmetro',
+                        RVERR0005: 'O parâmetro {parametername} está sem um valor',
+                        RVERR0006: 'Por favor, indique a entrada do tipo de dado float',
+                        RVERR0007: 'Por favor, indique a entrada do tipo de dados inteiro',
+                        RVERR0008: 'ReportViewer não conseguiu validar as credenciais da fonte de dados',
+                        RVERR0009: 'As margens estão sobrepostas ou estão fora do papel. Insira um tamanho de margem diferente.',
+                        RVERR0010: 'Por favor insira um valor para o parâmetro',
+                        RVERR0011: 'O parâmetro não pode ficar em branco',
+                        RVERR0012: 'O valor fornecido para o parâmetro de relatório {parameterprompt} não é válido para seu tipo.'
+                    },
+                    selectAll: 'Selecionar tudo',
                     viewButton: "vista do relatório",
                 };
                 break;
