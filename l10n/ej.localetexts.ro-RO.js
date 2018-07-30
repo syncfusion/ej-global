@@ -642,26 +642,7 @@
                     EMF: "EMF",
                     GIF: "GIF",
                     JPG: "JPG",
-                    BMP: "BMP",
-                    ZoomIn: "Zoom În",
-                    ZoomOut: "Zoom Afară",
-                    Legend: "Legenda",
-                    SmartLabels: "Etichete inteligente",
-                    Interactions: "Interacțiuni",
-                    Zooming: "Zoom",
-                    Rotate45: "Rotiți45",
-                    Rotate90: "Rotiți90",
-                    Trim: "Caroserie",
-                    MultipleRows: "Rânduri multiple",
-                    Wrap: "Înfășurați",
-                    Hide: "Ascunde",
-                    WrapByWord: "Înfășurați prin cuvânt",
-                    CrossHair: "Părul transversal",
-                    TrackBall: "Pin bila",
-                    DisableTD: "Dezactivați diagramele 3D",
-                    None: "Nici unul",
-                    Exception: "Exceptia",
-                    OK: "bine"
+                    BMF: "BMF"
                 };
                 break;
             case "ejPivotClient":
@@ -819,8 +800,7 @@
                     KpiAlertMsg: "Câmpul de mişcare nu poate fi plasat în zona de raport",
                     NotAllItemsShowing: "Nu toate nodurile copil sunt afișate",
                     EditorLinkPanelAlert: "Membrii are mai mult de 1000 de obiecte sub una sau mai multe părinte. Numai primele 1000 de elemente sunt afișate sub fiecare părinte.",
-                    NamedSetAlert: "Un named setat nu poate fi adăugat la raportul PivotTable în același timp cu un alt numit set bazate pe același câmp. Faceți clic pe OK pentru a elimina ' <Set 1> ' numit set și adăugați ' <Set 2> ' numit set.",
-                    Exception: "Exceptia"
+                    NamedSetAlert: "Un named setat nu poate fi adăugat la raportul PivotTable în același timp cu un alt numit set bazate pe același câmp. Faceți clic pe OK pentru a elimina ' <Set 1> ' numit set și adăugați ' <Set 2> ' numit set."
                 };
                 break;
             case "ejPivotGauge":
@@ -828,7 +808,6 @@
                 ej.PivotGauge.Locale["ro-RO"] = {
                     RevenueGoal: "venituri Obiectiv",
                     RevenueValue: "Valoarea veniturilor",
-                    Exception: "Exceptia"
                 };
                 break;
             case "ejPager":
@@ -1223,8 +1202,7 @@
 					Edit: "Editare",
 					DuplicateFormatName: "Format de Duplicat nume",
 					NotAllItemsShowing: "Nu toate nodurile copil sunt afișate",
-					EditorLinkPanelAlert: "Membrii are mai mult de 1000 de obiecte sub una sau mai multe părinte. Numai primele 1000 de elemente sunt afișate sub fiecare părinte.",
-					Exception: "Exceptia"
+					EditorLinkPanelAlert: "Membrii are mai mult de 1000 de obiecte sub una sau mai multe părinte. Numai primele 1000 de elemente sunt afișate sub fiecare părinte."
                 };
                 break;
             case "ejPivotPager":
@@ -1299,7 +1277,6 @@
                     OK: "OK",
                     Cancel: "Anula",
                     Search: "Căutare",
-                    Remove: "Demontaţi",
                     AddCurrentSelectionToFilter: "Adaugă selecția curentă pentru a filtra",
                     NotAllItemsShowing: "Nu toate nodurile copil sunt afișate",
                     EditorLinkPanelAlert: "Membrii are mai mult de 1000 de obiecte sub una sau mai multe părinte. Numai primele 1000 de elemente sunt afișate sub fiecare părinte.",
@@ -1422,7 +1399,6 @@
                         },
                     },
                     pagesetupDialog: {
-                        close: 'Închide',
                         paperSize: 'Dimensiunea hartie',
                         height: 'Înălţime',
                         width: 'Lăţime',
@@ -1438,41 +1414,6 @@
                         doneButton: 'Terminat',
                         cancelButton: 'Anulare'
                     },
-                    credential: {
-                        userName: 'Nume de utilizator',
-                        password: 'Parola'
-                    },
-                    waterMark: {
-                        selectOption: 'Selectați opțiunea',
-                        selectValue: 'Selectați o valoare'
-                    },
-                    errorMessage: {
-                        startMessage: 'Report Viewer a întâmpinat unele probleme legate de încărcarea acestui raport. Vă rog',
-                        middleMessage: ' Click aici',
-                        endMessage: 'pentru a vedea detaliile de eroare',
-                        closeMessage: 'Închideți acest mesaj'
-                    },
-                    alertMessage: {
-                        close: 'Închide',
-                        title: 'ReportViewer',
-                        done: 'O.K',
-                        showDetails: 'Arata detaliile',
-                        hideDetails: 'Ascunde detaliile',
-                        reportLoad: 'Raportați încărcate:',
-                        RVERR0001: 'ReportViewer nu a reușit să încarce raportul',
-                        RVERR0002: 'ReportViewer nu a reda raportul',
-                        RVERR0003: 'A apărut o eroare la ajax postback',
-                        RVERR0004: 'Selectați o valoare pentru parametru',
-                        RVERR0005: 'Parametrul {parameturname} lipsește o valoare',
-                        RVERR0006: 'Introduceți tipul de date de tip float',
-                        RVERR0007: 'Indicați intrarea tipului de date întreg',
-                        RVERR0008: 'ReportViewer nu a reușit să valideze datele de acreditare Datasource',
-                        RVERR0009: 'Marginile sunt suprapuse sau sunt în afara hârtiei. Introduceți o altă marjă de marjă.',
-                        RVERR0010: 'Introduceți o valoare pentru parametru',
-                        RVERR0011: 'Parametrul nu poate fi gol',
-                        RVERR0012: 'Valoarea furnizată pentru parametrul de raport {parameterprompt} nu este validă pentru tipul său.'
-                    },
-                    selectAll: 'Selectează tot',
                     viewButton: "Vizualizează raportul",
                 };
                 break;

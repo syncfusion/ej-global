@@ -643,26 +643,7 @@
                     EMF: "EMF",
                     GIF: "GIF",
                     JPG: "JPG",
-                    BMP: "BMP",
-                    ZoomIn: "zoom.in",
-                    ZoomOut: "Umanji",
-                    Legend: "Legenda",
-                    SmartLabels: "Pametne oznake",
-                    Interactions: "interakcije",
-                    Zooming: "zumiranje",
-                    Rotate45: "Rotiraj45",
-                    Rotate90: "Rotiraj90",
-                    Trim: "dotjerati",
-                    MultipleRows: "Više redaka",
-                    Wrap: "Zamotajte",
-                    Hide: "Sakriti",
-                    WrapByWord: "Zamotajte riječ",
-                    CrossHair: "Križna kosa",
-                    TrackBall: "Prati loptu",
-                    DisableTD: "Onemogući 3D grafikone",
-                    None: "nijedan",
-                    Exception: "Iznimke",
-                    OK: "u redu"
+                    BMF: "BMF"
                 };
                 break;
             case "ejPivotClient":
@@ -820,8 +801,7 @@
                     KpiAlertMsg: "Polje se ne stavljajte u tu oblast izvje",
                     NotAllItemsShowing: "Nisu svi dijete čvorovi su pokazali",
                     EditorLinkPanelAlert: "Članovi zapošljava više od 1000 objekata pod jedan ili više roditelja. Samo prva 1000 objekata u su prikazane ispod svakog roditelja.",
-                    NamedSetAlert:"Tip po imenu set ne može biti dodana u izvješću PivotTable u isto vrijeme kao i svako drugo ime je baziran na istom polju. Kliknite za uklanjanje ' <Set 1> ' imena i dodaj ' <Set 2> ' po imenu.",
-                    Exception: "Iznimke"
+                    NamedSetAlert:"Tip po imenu set ne može biti dodana u izvješću PivotTable u isto vrijeme kao i svako drugo ime je baziran na istom polju. Kliknite za uklanjanje ' <Set 1> ' imena i dodaj ' <Set 2> ' po imenu."
                 };
                 break;
             case "ejPivotGauge":
@@ -829,7 +809,6 @@
                 ej.PivotGauge.Locale["hr-HR"] = {
                     RevenueGoal: "Cilj prihoda",
                     RevenueValue: "Vrijednost prihoda",
-                    Exception: "Iznimke"
                 };
                 break;
             case "ejPager":
@@ -1224,8 +1203,7 @@
                     Edit: "Uredi",
                     DuplicateFormatName: "Reproducirati Format ime",
                     NotAllItemsShowing: "Nisu svi dijete čvorovi su pokazali",
-                    EditorLinkPanelAlert: "Članovi zapošljava više od 1000 objekata pod jedan ili više roditelja. Samo prva 1000 objekata u su prikazane ispod svakog roditelja.",
-                    Exception: "Iznimke"
+                    EditorLinkPanelAlert: "Članovi zapošljava više od 1000 objekata pod jedan ili više roditelja. Samo prva 1000 objekata u su prikazane ispod svakog roditelja."
                 };
                 break;
             case "ejPivotPager":
@@ -1301,7 +1279,6 @@
                     OK: "u redu",
                     Cancel: "Otkazati",
                     Search: "Pretraži",
-                    Remove: "Ukloni",
                     AddCurrentSelectionToFilter: "Dodaj trenutni odabir za filtriranje",
                     NotAllItemsShowing: "Nisu svi dijete čvorovi su pokazali",
                     EditorLinkPanelAlert: "Članovi zapošljava više od 1000 objekata pod jedan ili više roditelja. Samo prva 1000 objekata u su prikazane ispod svakog roditelja.",
@@ -1424,7 +1401,6 @@
                         },
                     },
                     pagesetupDialog: {
-                        close: 'Zatvoriti',
                         paperSize: 'Veličina papira',
                         height: 'Visina',
                         width: 'Širina',
@@ -1440,41 +1416,6 @@
                         doneButton: 'Gotovo',
                         cancelButton: 'Otkazati'
                     },
-                    credential: {
-                        userName: 'Korisničko ime',
-                        password: 'Lozinka'
-                    },
-                    waterMark: {
-                        selectOption: 'Odaberite opciju',
-                        selectValue: 'Odaberite vrijednost'
-                    },
-                    errorMessage: {
-                        startMessage: 'Preglednik izvješća naišao je na probleme s učitavanjem ovog izvješća. Molim',
-                        middleMessage: ' Kliknite ovdje',
-                        endMessage: 'da biste vidjeli pojedinosti o pogrešci',
-                        closeMessage: 'Zatvorite ovu poruku'
-                    },
-                    alertMessage: {
-                        close: 'Zatvoriti',
-                        title: 'ReportViewer',
-                        done: 'u redu',
-                        showDetails: 'Pokaži detalje',
-                        hideDetails: 'Sakri detalje',
-                        reportLoad: 'Izvješće učitano:',
-                        RVERR0001: 'ReportViewer nije uspio učitati izvješće',
-                        RVERR0002: 'ReportViewer nije uspio prikazati izvješće',
-                        RVERR0003: 'Došlo je do pogreške u ajaxu',
-                        RVERR0004: 'Odaberite vrijednost za parametar',
-                        RVERR0005: 'Parametar {parametername} nedostaje vrijednost',
-                        RVERR0006: 'Navedite unos podataka vrste Float',
-                        RVERR0007: 'Navedite unos cijelog broja podataka',
-                        RVERR0008: 'ReportViewer nije uspio potvrditi vjerodajnice Datasourcea',
-                        RVERR0009: 'Margine su preklopljene ili su izvan papira. Unesite različitu veličinu margina.',
-                        RVERR0010: 'Unesite vrijednost za parametar',
-                        RVERR0011: 'Parametar ne može biti prazan',
-                        RVERR0012: 'Vrijednost za parametar izvješća {parameterprompt} ne vrijedi za njenu vrstu.'
-                    },
-                    selectAll: 'Odaberi sve',
                     viewButton: "Vidi izvještaj",
                 };
                 break;

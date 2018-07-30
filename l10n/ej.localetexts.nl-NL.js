@@ -644,26 +644,7 @@
                     EMF: "EMF",
                     GIF: "GIF",
                     JPG: "JPG",
-                    BMP: "BMP",
-                    ZoomIn: "in zoomen",
-                    ZoomOut: "Uitzoomen",
-                    Legend: "Legende",
-                    SmartLabels: "Slimme labels",
-                    Interactions: "interacties",
-                    Zooming: "zoomen",
-                    Rotate45: "Draai45",
-                    Rotate90: "Draai90",
-                    Trim: "trimmen",
-                    MultipleRows: "Meerdere rijen",
-                    Wrap: "Inpakken",
-                    Hide: "Verbergen",
-                    WrapByWord: "Omloop woordelijk",
-                    CrossHair: "Dradenkruis",
-                    TrackBall: "Track bol",
-                    DisableTD: "Schakel 3D-grafieken uit",
-                    None: "Geen",
-                    Exception: "Uitzondering",
-                    OK: "OK"
+                    BMF: "BMF"
                 };
                 break;
             case "ejPivotClient":
@@ -821,8 +802,7 @@
                     KpiAlertMsg: "Het gebied waar u naartoe gaat niet in dat gedeelte van het rapport",
                     NotAllItemsShowing: "Niet alle onderliggende knooppunten worden weergegeven",
                     EditorLinkPanelAlert: "De leden heeft meer dan 1000 items onder één of meer moederondernemingen. Alleen de eerste 1000 items worden weergegeven onder elke moederonderneming.",
-                    NamedSetAlert: "Een benoemde set kan niet worden toegevoegd aan de draaitabel verslag tegelijkertijd met een andere naam die is gebaseerd op hetzelfde veld. Klik op OK om ' <Set 1> ' en ' <Set 2> ' genaamd.",
-                    Exception: "Uitzondering"
+                    NamedSetAlert: "Een benoemde set kan niet worden toegevoegd aan de draaitabel verslag tegelijkertijd met een andere naam die is gebaseerd op hetzelfde veld. Klik op OK om ' <Set 1> ' en ' <Set 2> ' genaamd."
                 };
                 break;
             case "ejPivotGauge":
@@ -830,7 +810,6 @@
                 ej.PivotGauge.Locale["nl-NL"] = {
                     RevenueGoal: "inkomsten Goal",
                     RevenueValue: "inkomsten Waarde",
-                    Exception: "Uitzondering"
                 };
                 break;
             case "ejPager":
@@ -1225,8 +1204,7 @@
 					Edit: "Bewerken",
 					DuplicateFormatName: "Dubbele Formaatnaam",
 					NotAllItemsShowing: "Niet alle onderliggende knooppunten worden weergegeven",
-					EditorLinkPanelAlert: "De leden heeft meer dan 1000 items onder één of meer moederondernemingen. Alleen de eerste 1000 items worden weergegeven onder elke moederonderneming.",
-					Exception: "Uitzondering"
+					EditorLinkPanelAlert: "De leden heeft meer dan 1000 items onder één of meer moederondernemingen. Alleen de eerste 1000 items worden weergegeven onder elke moederonderneming."
                 };
                 break;
             case "ejPivotPager":
@@ -1302,7 +1280,6 @@
                     OK: "OK",
                     Cancel: "Annuleren",
                     Search: "Zoeken",
-                    Remove: "Verwijder",
                     AddCurrentSelectionToFilter: "Voeg huidige selectie toe om te filteren",
                     NotAllItemsShowing: "Niet alle onderliggende knooppunten worden weergegeven",
                     EditorLinkPanelAlert: "De leden heeft meer dan 1000 items onder één of meer moederondernemingen. Alleen de eerste 1000 items worden weergegeven onder elke moederonderneming.",
@@ -1425,7 +1402,6 @@
                         },
                     },
                     pagesetupDialog: {
-                        close: 'Dichtbij',
                         paperSize: 'Papiergrootte',
                         height: 'Hoogte',
                         width: 'Breedte',
@@ -1441,41 +1417,6 @@
                         doneButton: 'Gedaan',
                         cancelButton: 'Annuleer'
                     },
-                    credential: {
-                        userName: 'Gebruikersnaam',
-                        password: 'Wachtwoord'
-                    },
-                    waterMark: {
-                        selectOption: 'Selecteer optie',
-                        selectValue: 'Selecteer een waarde'
-                    },
-                    errorMessage: {
-                        startMessage: 'Report Viewer heeft enkele problemen ondervonden bij het laden van dit rapport. alsjeblieft',
-                        middleMessage: ' Klik hier',
-                        endMessage: 'om de foutdetails te zien',
-                        closeMessage: 'Sluit dit bericht'
-                    },
-                    alertMessage: {
-                        close: 'Dichtbij',
-                        title: 'ReportViewer',
-                        done: 'OK',
-                        showDetails: 'Toon details',
-                        hideDetails: 'Verberg details',
-                        reportLoad: 'Geladen rapport:',
-                        RVERR0001: 'ReportViewer kan het rapport niet laden',
-                        RVERR0002: 'ReportViewer kan het rapport niet weergeven',
-                        RVERR0003: 'Er is een fout opgetreden in ajax-postback',
-                        RVERR0004: 'Selecteer een waarde voor de parameter',
-                        RVERR0005: 'De parameter {parametername} ontbreekt een waarde',
-                        RVERR0006: 'Geef de invoer van het float-gegevenstype op',
-                        RVERR0007: 'Geef de integer gegevenstype invoer',
-                        RVERR0008: 'ReportViewer kan de gegevensgegevens van de Datasource niet valideren',
-                        RVERR0009: 'De marges overlappen elkaar of zijn van het papier verwijderd. Voer een andere marge in.',
-                        RVERR0010: 'Voer een waarde in voor de parameter',
-                        RVERR0011: 'De parameter kan niet leeg zijn',
-                        RVERR0012: 'De opgegeven waarde voor de rapportparameter {parameterprompt} is niet geldig voor dit type.'
-                    },
-                    selectAll: 'Selecteer alles',
                     viewButton: "Rapport weergeven",
                 };
                 break;

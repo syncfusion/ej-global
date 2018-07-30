@@ -642,26 +642,7 @@
                     EMF: "EMF",
                     GIF: "GIF",
                     JPG: "JPG",
-                    BMP: "BMP",
-                    ZoomIn: "Nagyítás",
-                    ZoomOut: "Kicsinyítés",
-                    Legend: "Legenda",
-                    SmartLabels: "Intelligens címkék",
-                    Interactions: "interakciók",
-                    Zooming: "Nagyítás",
-                    Rotate45: "Forgassa el45",
-                    Rotate90: "Forgassa el90",
-                    Trim: "állapot",
-                    MultipleRows: "Több sor",
-                    Wrap: "Betakar",
-                    Hide: "Elrejt",
-                    WrapByWord: "Wrap by szó",
-                    CrossHair: "Haj kereszt",
-                    TrackBall: "Görgetőgolyó",
-                    DisableTD: "A 3D-s diagramok letiltása",
-                    None: "Egyik sem",
-                    Exception: "Kivétel",
-                    OK: "rendben"
+                    BMF: "BMF"
                 };
                 break;
             case "ejPivotClient":
@@ -819,8 +800,7 @@
                     KpiAlertMsg: "A területen nem helyezhető el, amely nem a jelentés",
                     NotAllItemsShowing: "Nem minden gyermek csomópont ábrázolva",
                     EditorLinkPanelAlert: "A tagok több, mint 1000 tételt egy vagy több szülő. Csak az első 1000 Az egyes menüpontok jelennek meg.",
-                    NamedSetAlert: "Nem nevesített, a PivotTable jelentés egy másik neve alapján ugyanazon a területen. Kattintson az OK gombra az ' <Set 1> ' és ' elnevezett ' <Set 2> ' neve.",
-                    Exception: "Kivétel"
+                    NamedSetAlert: "Nem nevesített, a PivotTable jelentés egy másik neve alapján ugyanazon a területen. Kattintson az OK gombra az ' <Set 1> ' és ' elnevezett ' <Set 2> ' neve."
                 };
                 break;
             case "ejPivotGauge":
@@ -828,7 +808,6 @@
                 ej.PivotGauge.Locale["hu-HU"] = {
                     RevenueGoal: "bevétel cél",
                     RevenueValue: "bevétel értéke",
-                    Exception: "Kivétel"
                 };
                 break;
             case "ejPager":
@@ -1223,8 +1202,7 @@
                     Edit: "Szerkesztés",
                     DuplicateFormatName: "Kettős formátum neve",
                     NotAllItemsShowing: "Nem minden gyermek csomópont ábrázolva",
-                    EditorLinkPanelAlert: "A tagok több, mint 1000 tételt egy vagy több szülő. Csak az első 1000 Az egyes menüpontok jelennek meg.",
-                    Exception: "Kivétel"
+                    EditorLinkPanelAlert: "A tagok több, mint 1000 tételt egy vagy több szülő. Csak az első 1000 Az egyes menüpontok jelennek meg."
                 };
                 break;
             case "ejPivotPager":
@@ -1300,7 +1278,6 @@
                     OK: "OK",
                     Cancel: "Törlés",
                     Search: "Keresés",
-                    Remove: "Távolítsa el a",
                     AddCurrentSelectionToFilter: "Az aktuális szűrő hozzáadása a szűrőhöz",
                     NotAllItemsShowing: "Nem minden gyermek csomópont ábrázolva",
                     EditorLinkPanelAlert: "A tagok több, mint 1000 tételt egy vagy több szülő. Csak az első 1000 Az egyes menüpontok jelennek meg.",
@@ -1423,7 +1400,6 @@
                         },
                     },
                     pagesetupDialog: {
-                        close: 'Bezárás',
                         paperSize: 'Papírméret',
                         height: 'Magasság',
                         width: 'Szélesség',
@@ -1439,41 +1415,6 @@
                         doneButton: 'Kész',
                         cancelButton: 'Megszünteti'
                     },
-                    credential: {
-                        userName: 'Felhasználónév',
-                        password: 'Jelszó'
-                    },
-                    waterMark: {
-                        selectOption: 'Válassza az Opciót',
-                        selectValue: 'Válasszon ki egy értéket'
-                    },
-                    errorMessage: {
-                        startMessage: 'A Jelentésmegjelenítő némi problémát észlelt a jelentést betöltve. Kérem',
-                        middleMessage: ' Kattints ide',
-                        endMessage: 'a hiba részletei megtekintéséhez',
-                        closeMessage: 'Zárja be ezt az üzenetet'
-                    },
-                    alertMessage: {
-                        close: 'Bezárás',
-                        title: 'ReportViewer',
-                        done: 'rendben',
-                        showDetails: 'Mutasd a részleteket',
-                        hideDetails: 'Rejtett részletek',
-                        reportLoad: 'Jelentés betöltve:',
-                        RVERR0001: 'A ReportViewer nem sikerült betölteni a jelentést',
-                        RVERR0002: 'A ReportViewer nem tudta megjeleníteni a jelentést',
-                        RVERR0003: 'Hiba történt az ajax visszaszállításban',
-                        RVERR0004: 'Kérjük, válasszon ki egy paraméter értékét',
-                        RVERR0005: 'A {parameterername} paraméter hiányzik egy értéket',
-                        RVERR0006: 'Adja meg az úszó adat típusát',
-                        RVERR0007: 'Adja meg az egész típusú adattípust',
-                        RVERR0008: 'A ReportViewer nem tudta hitelesíteni a Datasource hitelesítő adatait',
-                        RVERR0009: 'A margók átfedik egymást, vagy le vannak zárva a papírról. Adjon meg egy másik margóméretet.',
-                        RVERR0010: 'Adja meg a paraméterhez tartozó értéket',
-                        RVERR0011: 'A paraméter nem lehet üres',
-                        RVERR0012: 'A {parameterprompt} jelentésparaméterhez megadott érték nem érvényes a típusára.'
-                    },
-                    selectAll: 'Mindet kiválaszt',
                     viewButton: "jelentés megtekintése",
                 };
                 break;

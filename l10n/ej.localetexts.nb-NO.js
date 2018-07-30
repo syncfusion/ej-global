@@ -641,26 +641,7 @@
                     EMF: "EMF",
                     GIF: "GIF",
                     JPG: "JPG",
-                    BMP: "BMP",
-                    ZoomIn: "zoom inn",
-                    ZoomOut: "Zoome ut",
-                    Legend: "Legende",
-                    SmartLabels: "Smarte etiketter",
-                    Interactions: "interaksjoner",
-                    Zooming: "zooming",
-                    Rotate45: "Drei45",
-                    Rotate90: "Drei90",
-                    Trim: "trim",
-                    MultipleRows: "Flere rader",
-                    Wrap: "Pakke inn",
-                    Hide: "Gjemme seg",
-                    WrapByWord: "Binding av ord",
-                    CrossHair: "Kors hår",
-                    TrackBall: "Sporball",
-                    DisableTD: "Deaktiver 3D-diagrammer",
-                    None: "Ingen",
-                    Exception: "Unntak",
-                    OK: "ok"
+                    BMF: "BMF"
                 };
                 break;
             case "ejPivotClient":
@@ -818,8 +799,7 @@
                     KpiAlertMsg: "Feltet du flytter ikke kan plasseres i det området av rapporten",
                     NotAllItemsShowing: "Ikke alle underordnede noder er vist",
                     EditorLinkPanelAlert: "Medlemmene har mer enn 1000 elementer under ett eller flere overordnede. Bare den første 1000 elementer vises under hver overordnet.",
-                    NamedSetAlert: "En navngitt sett ikke kan legges til i pivottabellen rapport samtidig som et annet navn basert på det samme feltet. Klikk på OK for å fjerne ' <Set 1> ' heter satt og legge til ' <Set 2> ' heter satt.",
-                    Exception: "Unntak"
+                    NamedSetAlert: "En navngitt sett ikke kan legges til i pivottabellen rapport samtidig som et annet navn basert på det samme feltet. Klikk på OK for å fjerne ' <Set 1> ' heter satt og legge til ' <Set 2> ' heter satt."
                 };
                 break;
             case "ejPivotGauge":
@@ -827,7 +807,6 @@
                 ej.PivotGauge.Locale["nb-NO"] = {
                     RevenueGoal: "mål Revenue",
                     RevenueValue: "inntekter Verdi",
-                    Exception: "Unntak"
                 };
                 break;
             case "ejPager":
@@ -1222,8 +1201,7 @@
 					Edit: "Rediger",
 					DuplicateFormatName: "Duplisere Format navn",
 					NotAllItemsShowing: "Ikke alle underordnede noder er vist",
-					EditorLinkPanelAlert: "Medlemmene har mer enn 1000 elementer under ett eller flere overordnede. Bare den første 1000 elementer vises under hver overordnet.",
-					Exception: "Unntak"
+					EditorLinkPanelAlert: "Medlemmene har mer enn 1000 elementer under ett eller flere overordnede. Bare den første 1000 elementer vises under hver overordnet."
                 };
                 break;
             case "ejPivotPager":
@@ -1298,7 +1276,6 @@
                     OK: "OK",
                     Cancel: "Avbryt",
                     Search: "Søk",
-                    Remove: "Fjern",
                     AddCurrentSelectionToFilter: "Legg til nåværende utvalg for å filtrere",
                     NotAllItemsShowing: "Ikke alle underordnede noder er vist",
                     EditorLinkPanelAlert: "Medlemmene har mer enn 1000 elementer under ett eller flere overordnede. Bare den første 1000 elementer vises under hver overordnet.",
@@ -1421,7 +1398,6 @@
                         },
                     },
                     pagesetupDialog: {
-                        close: 'Lukk',
                         paperSize: 'Papirstørrelse',
                         height: 'Høyde',
                         width: 'Bredde',
@@ -1437,41 +1413,6 @@
                         doneButton: 'Ferdig',
                         cancelButton: 'Kansellere'
                     },
-                    credential: {
-                        userName: 'Brukernavn',
-                        password: 'Passord'
-                    },
-                    waterMark: {
-                        selectOption: 'PassSelect Optionword',
-                        selectValue: 'Velg en verdi'
-                    },
-                    errorMessage: {
-                        startMessage: 'Report Viewer oppstod i noen problemer med å laste inn denne rapporten. Vær så snill',
-                        middleMessage: ' Klikk her',
-                        endMessage: 'for å se feildetaljer',
-                        closeMessage: 'Lukk denne meldingen'
-                    },
-                    alertMessage: {
-                        close: 'Lukk',
-                        title: 'Report',
-                        done: 'OK',
-                        showDetails: 'Vis detaljer',
-                        hideDetails: 'Skjul detaljer',
-                        reportLoad: 'Rapporter lastet inn:',
-                        RVERR0001: 'ReportViewer klarte ikke å laste rapporten',
-                        RVERR0002: 'ReportViewer klarte ikke å gjøre rapporten',
-                        RVERR0003: 'Det oppstod en feil i ajax-postback',
-                        RVERR0004: 'Vennligst velg en verdi for parameteren',
-                        RVERR0005: 'Parameteren {parametername} mangler en verdi',
-                        RVERR0006: 'Vennligst gi inntastingsdata for flytdata',
-                        RVERR0007: 'Vennligst oppgi hele datatypeinngangen',
-                        RVERR0008: 'ReportViewer klarte ikke å validere datakildens legitimasjon',
-                        RVERR0009: 'Marginene overlappes, eller de er utenfor papiret. Angi en annen marginalstørrelse.',
-                        RVERR0010: 'Vennligst skriv inn en verdi for parameteren',
-                        RVERR0011: 'Parameteren kan ikke være tom',
-                        RVERR0012: 'Verdien som er oppgitt for rapportparameteren {parameterprompt}, er ikke gyldig for sin type.'
-                    },
-                    selectAll: 'Velg alle',
                     viewButton: "Vis rapport",
                 };
                 break;

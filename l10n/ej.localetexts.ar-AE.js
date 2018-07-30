@@ -648,26 +648,7 @@
                     EMF: "EMF",
                     GIF: "GIF",
                     JPG: "JPG",
-                    BMP: "BMP",
-                    ZoomIn: "تكبير وتصغير",
-                    ZoomOut: "تصغير",
-                    Legend: "عنوان تفسيري",
-                    SmartLabels: "التسميات الذكية",
-                    Interactions: "التفاعلات",
-                    Zooming: "التكبير",
-                    Rotate45: "قم بتدوير45",
-                    Rotate90: "قم بتدوير90",
-                    Trim: "تقليم",
-                    MultipleRows: "صفوف متعددة",
-                    Wrap: "لف",
-                    Hide: "إخفاء",
-                    WrapByWord: "التفاف بالكلمة",
-                    CrossHair: "عبر الشعر",
-                    TrackBall: "مسار الكرة",
-                    DisableTD: "تعطيل الرسوم ثلاثية الأبعاد",
-                    None: "لا شيء",
-                    Exception: "استثناء",
-                    OK: "حسنا",
+                    BMF: "BMF"
                 };
                 break;
             case "ejPivotClient":
@@ -832,16 +813,14 @@
                     KpiAlertMsg: "مجال التحرك يمكن ان توضع فى هذا التقرير",
                     NotAllItemsShowing: "لا يتم عرض جميع الاطفال العقد",
                     EditorLinkPanelAlert: "للاعضاء اكثر من 1000 بند او اكثر من الابوين. فقط 1000 البنود يتم عرضها فى اطار كل من الابوين.",
-                    NamedSetAlert: "مجموعة مسماة لا يمكن اضافتها الى اداة PivotTable التقرير فى نفس الوقت اخر يدعى المبنية على نفس المجال. انقر فوق موافق لازالة مجموعة ' <Set 1> ' و ' <Set 2> '.",
-                    Exception: "استثناء",
+                    NamedSetAlert: "مجموعة مسماة لا يمكن اضافتها الى اداة PivotTable التقرير فى نفس الوقت اخر يدعى المبنية على نفس المجال. انقر فوق موافق لازالة مجموعة ' <Set 1> ' و ' <Set 2> '."
                 };
                 break;
             case "ejPivotGauge":
                 ej.PivotGauge.Locale = ej.PivotGauge.Locale || {};
                 ej.PivotGauge.Locale["ar-AE"] = {
                     RevenueGoal: "دخل هدف",
-                    RevenueValue: "قيمة الإيرادات",
-                    Exception: "استثناء",
+                    RevenueValue: "قيمة الإيرادات"
                 };
                 break;
             case "ejPager":
@@ -1239,8 +1218,7 @@
                     Edit: "تحرير",
                     DuplicateFormatName: "الشكل المكرر الاسم",
                     NotAllItemsShowing: "لا يتم عرض جميع الاطفال العقد",
-                    EditorLinkPanelAlert: "للاعضاء اكثر من 1000 بند او اكثر من الابوين. فقط 1000 البنود يتم عرضها فى اطار كل من الابوين.",
-                    Exception: "استثناء",
+                    EditorLinkPanelAlert: "للاعضاء اكثر من 1000 بند او اكثر من الابوين. فقط 1000 البنود يتم عرضها فى اطار كل من الابوين."
                 };
                 break;
             case "ejPivotPager":
@@ -1318,7 +1296,6 @@
                     Cancel: "الغاء",
                     Close: "قريب",
                     Search: "البحث",
-                    Remove: "قم بازالة",
                     AddCurrentSelectionToFilter: "أضف التحديد الحالي للتصفية",
                     NotAllItemsShowing: "لا يتم عرض جميع الاطفال العقد",
                     EditorLinkPanelAlert: "للاعضاء اكثر من 1000 بند او اكثر من الابوين. فقط 1000 البنود يتم عرضها فى اطار كل من الابوين.",
@@ -1463,7 +1440,6 @@
                         },
                     },
                     pagesetupDialog: {
-                        close: 'قريب',
                         paperSize: 'حجم الورق',
                         height: 'ارتفاع',
                         width: 'عرض',
@@ -1479,41 +1455,6 @@
                         doneButton: 'فعله',
                         cancelButton: 'إلغاء'
                     },
-                    credential: {
-                        userName: 'اسم المستخدم',
-                        password: 'كلمه السر'
-                    },
-                    waterMark: {
-                        selectOption: 'حدد الخيار',
-                        selectValue: 'تحديد قيمة',
-                    },
-                    errorMessage: {
-                        startMessage: 'واجه عارض التقرير بعض المشكلات التي تحمل هذا التقرير. رجاء',
-                        middleMessage: ' انقر هنا',
-                        endMessage: 'لمشاهدة تفاصيل الخطأ',
-                        closeMessage: 'أغلق هذه الرسالة'
-                    },
-                    alertMessage: {
-                        close: 'قريب',
-                        title: 'ReportViewer',
-                        done: 'حسنا',
-                        showDetails: 'اظهر التفاصيل',
-                        hideDetails: 'أخف التفاصيل',
-                        reportLoad: 'تقرير تحميل:',
-                        RVERR0001: 'فشل ReportViewer في تحميل التقرير',
-                        RVERR0002: 'فشل ReportViewer في تقديم التقرير',
-                        RVERR0003: 'حدث خطأ في ajax postback',
-                        RVERR0004: 'يرجى تحديد قيمة للمعلمة',
-                        RVERR0005: 'يفتقد المعلمة {parametername} قيمة',
-                        RVERR0006: 'يرجى إعطاء إدخال نوع البيانات عائم',
-                        RVERR0007: 'يرجى إعطاء إدخال نوع البيانات الصحيح',
-                        RVERR0008: 'فشل ReportViewer في التحقق من صحة بيانات اعتماد Datasource',
-                        RVERR0009: 'تتداخل الهوامش أو تكون خارج الورقة. أدخل حجم هامش مختلف.',
-                        RVERR0010: 'يرجى إدخال قيمة للمعلمة',
-                        RVERR0011: 'لا يمكن أن تكون المعلمة فارغة',
-                        RVERR0012: 'القيمة المتوفرة لمعلمة التقرير {parameterprompt} غير صالحة لنوعها.'
-                    },
-                    selectAll: 'اختر الكل',
                     viewButton: "عرض التقرير",
                 };
                 break;

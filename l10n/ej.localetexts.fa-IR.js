@@ -625,26 +625,7 @@
                     EMF: "EMF",
                     GIF: "GIF",
                     JPG: "JPG",
-                    BMP: "BMP",
-                    ZoomIn: "بزرگنمایی",
-                    ZoomOut: "کوچک نمایی",
-                    Legend: "افسانه",
-                    SmartLabels: "برچسبهای هوشمند",
-                    Interactions: "فعل و انفعالات",
-                    Zooming: "زوم کردن",
-                    Rotate45: "چرخاندن45",
-                    Rotate90: "چرخاندن90",
-                    Trim: "اصلاح کردن",
-                    MultipleRows: "چند ردیف",
-                    Wrap: "بسته بندی کردن",
-                    Hide: "پنهان شدن",
-                    WrapByWord: "بسته شدن با کلمه",
-                    CrossHair: "مو صاف",
-                    TrackBall: "توپ را دنبال کنید",
-                    DisableTD: "غیرفعال کردن نمودارهای 3D",
-                    None: "هیچ یک",
-                    Exception: "استثنا",
-                    OK: "خوب"
+                    BMF: "BMF"
                 };
                 break;
             case "ejPivotClient":
@@ -802,8 +783,7 @@
                     KpiAlertMsg: "ميدان حرکت نمی تواند شما را در این قسمت قرار می گیرد به گزارش",
                     NotAllItemsShowing: "نه همه بچه متورم نشان داده می شوند.",
                     EditorLinkPanelAlert: "اعضای آن بیشتر از 1000 است که دارای یک یا بیشتر تحت نظر والد است. فقط اول 1000 اقلام نمایش داده شده در زير هر يك از والدين است.",
-                    NamedSetAlert: "یک مجموعه نامی را نمی توان در گزارش PivotTable در همان زمان به عنوان یک مجموعه نام دیگر بر اساس همان فیلد اضافه کرد. برای حذف ' <Set 1> ' با کلیک بر روی OK کلیک کنید و ' <Set 2> ' را اضافه کنید.",
-                    Exception: "استثنا"
+                    NamedSetAlert: "یک مجموعه نامی را نمی توان در گزارش PivotTable در همان زمان به عنوان یک مجموعه نام دیگر بر اساس همان فیلد اضافه کرد. برای حذف ' <Set 1> ' با کلیک بر روی OK کلیک کنید و ' <Set 2> ' را اضافه کنید."
                 };
                 break;
             case "ejPivotGauge":
@@ -811,7 +791,6 @@
                 ej.PivotGauge.Locale["fa-IR"] = {
                     RevenueGoal: "هدف درآمد",
                     RevenueValue: "ارزش درآمد",
-                    Exception: "استثنا"
                 };
                 break;
             case "ejPager":
@@ -1206,8 +1185,7 @@
                     Edit: "ویرایش",
                     DuplicateFormatName: "نام قالب تکراری",
                     NotAllItemsShowing: "نه همه بچه متورم نشان داده می شوند.",
-                    EditorLinkPanelAlert: "اعضای آن بیشتر از 1000 است که دارای یک یا بیشتر تحت نظر والد است. فقط اول 1000 اقلام نمایش داده شده در زير هر يك از والدين است.",
-                    Exception: "استثنا"
+                    EditorLinkPanelAlert: "اعضای آن بیشتر از 1000 است که دارای یک یا بیشتر تحت نظر والد است. فقط اول 1000 اقلام نمایش داده شده در زير هر يك از والدين است."
                 };
                 break;
             case "ejPivotPager":
@@ -1283,7 +1261,6 @@
                     OK: "OK",
                     Cancel: "لغو",
                     Search: "جستجو",
-                    Remove: "حذف کنید",
                     AddCurrentSelectionToFilter: "اضافه کردن انتخاب فعلی برای فیلتر کردن",
                     NotAllItemsShowing: "نه همه بچه متورم نشان داده می شوند.",
                     EditorLinkPanelAlert: "اعضای آن بیشتر از 1000 است که دارای یک یا بیشتر تحت نظر والد است. فقط اول 1000 اقلام نمایش داده شده در زير هر يك از والدين است.",
@@ -1406,7 +1383,6 @@
                         },
                     },
                     pagesetupDialog: {
-                        close: 'نزدیک',
                         paperSize: 'اندازه کاغذ',
                         height: 'ارتفاع',
                         width: 'عرض',
@@ -1422,41 +1398,6 @@
                         doneButton: 'انجام شده',
                         cancelButton: 'لغو کردن'
                     },
-                    credential: {
-                        userName: 'نام کاربری',
-                        password: 'کلمه عبور'
-                    },
-                    waterMark: {
-                        selectOption: 'انتخاب گزینه',
-                        selectValue: 'یک مقدار را انتخاب کنید'
-                    },
-                    errorMessage: {
-                        startMessage: 'گزارش دهنده مشاهده برخی از مسائل را بارگیری این گزارش مواجه شد. لطفا',
-                        middleMessage: ' اینجا کلیک کنید',
-                        endMessage: 'برای دیدن جزئیات خطا',
-                        closeMessage: 'بستن این پیام'
-                    },
-                    alertMessage: {
-                        close: 'نزدیک',
-                        title: 'ReportViewer',
-                        done: 'خوب',
-                        showDetails: 'نمایش جزئیات',
-                        hideDetails: 'مخفی کردن جزئیات',
-                        reportLoad: 'گزارش بارگذاری شده:',
-                        RVERR0001: 'ReportViewer بارگیری گزارش را نپذیرفت',
-                        RVERR0002: 'ReportViewer موفق به ارائه گزارش نشد',
-                        RVERR0003: 'یک خطا در پست بعد ajax رخ داد',
-                        RVERR0004: 'لطفا یک مقدار برای پارامتر انتخاب کنید',
-                        RVERR0005: 'پارامتر {parametername} یک مقدار را از دست می دهد',
-                        RVERR0006: 'لطفا ورودی نوع داده شناور را وارد کنید',
-                        RVERR0007: 'لطفا ورودی نوع داده اعداد را وارد کنید',
-                        RVERR0008: 'ReportViewer موفق به اعتبار مجوزهای Datasource نشد',
-                        RVERR0009: 'حاشیه ها همپوشانی دارند یا از کاغذ خارج می شوند. اندازه حاشیه دیگری را وارد کنید.',
-                        RVERR0010: 'لطفا یک مقدار برای پارامتر وارد کنید',
-                        RVERR0011: 'پارامتر نمیتواند خالی باشد',
-                        RVERR0012: 'مقدار ارائه شده برای پارامتر گزارش {parameterprompt} برای نوع آن معتبر نیست.'
-                    },
-                    selectAll: 'انتخاب همه',
                     viewButton: "نمایش گزارش",
                 };
                 break;

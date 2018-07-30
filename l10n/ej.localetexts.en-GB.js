@@ -384,34 +384,14 @@
                     EMF: "EMF",
                     GIF: "GIF",
                     JPG: "JPG",
-                    BMP: "BMP",
-                    ZoomIn: "Zoom In",
-                    ZoomOut: "Zoom Out",
-                    Legend: "Legend",
-                    SmartLabels: "Smart Labels",
-                    Interactions: "Interactions",
-                    Zooming: "Zooming",
-                    Rotate45: "Rotate45",
-                    Rotate90: "Rotate90",
-                    Trim: "Trim",
-                    MultipleRows: "Multiple Rows",
-                    Wrap: "Wrap",
-                    Hide: "Hide",
-                    WrapByWord: "Wrap By word",
-                    CrossHair: "Cross Hair",
-                    TrackBall: "Track Ball",
-                    DisableTD: "Disable 3D Charts",
-                    None: "None",
-                    Exception: "Exception",
-                    OK: "OK"
+                    BMF: "BMF"
                 };
                 break;
             case "ejPivotGauge":
                 ej.PivotGauge.Locale = ej.PivotGauge.Locale || {};
                 ej.PivotGauge.Locale["en-GB"] = {
                     RevenueGoal: "Revenue Goal",
-                    RevenueValue: "Revenue Value",
-                    Exception: "Exception"
+                    RevenueValue: "Revenue Value"
                 };
                 break;
             case "ejPivotSchemaDesigner":
@@ -478,7 +458,6 @@
                     Cancel: "Cancel",
                     Close: "Close",
                     Search: "Search",
-                    Remove: "Remove",
                     AddCurrentSelectionToFilter: "Ychwanegwch y dewis cyfredol i hidlo",
                     NotAllItemsShowing: "Not all child nodes are shown",
                     EditorLinkPanelAlert: "The members has more than 1000 items under one or more parent. Only the first 1000 items are displayed under each parent.",
@@ -909,8 +888,7 @@
                     Edit: "Edit",
                     DuplicateFormatName: "Duplicate Format Name",
                     NotAllItemsShowing: "Not all child nodes are shown",
-                    EditorLinkPanelAlert: "The members has more than 1000 items under one or more parent. Only the first 1000 items are displayed under each parent.",
-                    Exception: "Exception"
+                    EditorLinkPanelAlert: "The members has more than 1000 items under one or more parent. Only the first 1000 items are displayed under each parent."
                 };
                 break;
             case "ejPivotClient":
@@ -1077,8 +1055,7 @@
                     KpiAlertMsg: "The field you are moving cannot be placed in that area of the report",
                     NotAllItemsShowing: "Not all child nodes are shown",
                     EditorLinkPanelAlert: "The members has more than 1000 items under one or more parent. Only the first 1000 items are displayed under each parent.",
-                    NamedSetAlert: "A named set cannot be added to the PivotTable report at the same time as another named set based on the same field. Click OK to remove ' <Set 1> ' named set and add ' <Set 2> ' named set.",
-                    Exception: "Exception"
+                    NamedSetAlert: "A named set cannot be added to the PivotTable report at the same time as another named set based on the same field. Click OK to remove ' <Set 1> ' named set and add ' <Set 2> ' named set."
                 };
                 break;
             case "ejAutocomplete":
@@ -1725,7 +1702,6 @@
                         }
                     },
                     pagesetupDialog: {
-                        close: 'Close',
                         paperSize: 'Paper Sise',
                         height: 'Height',
                         width: 'Width',
@@ -1741,41 +1717,6 @@
                         doneButton: 'Done',
                         cancelButton: 'Cancel'
                     },
-                    credential: {
-                        userName: 'Username',
-                        password: 'Password'
-                    },
-                    waterMark: {
-                        selectOption: 'Select Option',
-                        selectValue: 'Select a value'
-                    },
-                    errorMessage: {
-                        startMessage: 'Report Viewer encountered some issues loading this report. Please',
-                        middleMessage: ' Click here',
-                        endMessage: 'to see the error details',
-                        closeMessage: 'Close this message'
-                    },
-                    alertMessage: {
-                        close: 'Close',
-                        title: 'ReportViewer',
-                        done: 'OK',
-                        showDetails: 'Show details',
-                        hideDetails: 'Hide Details',
-                        reportLoad: 'Report Loaded:',
-                        RVERR0001: 'ReportViewer failed to load the Report',
-                        RVERR0002: 'ReportViewer failed to render the Report',
-                        RVERR0003: 'An error occurred in ajax postback',
-                        RVERR0004: 'Please select a value for the parameter',
-                        RVERR0005: 'The {parametername} parameter is missing a value',
-                        RVERR0006: 'Please give the float data type input',
-                        RVERR0007: 'Please give the integer data type input',
-                        RVERR0008: 'ReportViewer failed to validate the Datasource credentials',
-                        RVERR0009: 'The margins are overlapped or they are off the paper. Enter a different margin size.',
-                        RVERR0010: 'Please enter a value for the parameter',
-                        RVERR0011: 'The parameter cannot be blank',
-                        RVERR0012: 'The value provided for the report parameter {parameterprompt} is not valid for its type.'
-                    },
-                    selectAll: 'Select All',
                     viewButton: 'View Report'
                 };
                 break;

@@ -644,26 +644,7 @@
                     EMF: "EMF",
                     GIF: "GIF",
                     JPG: "JPG",
-                    BMP: "BMP",
-                    ZoomIn: "ズームイン",
-                    ZoomOut: "ズームアウトする",
-                    Legend: "伝説",
-                    SmartLabels: "スマートラベル",
-                    Interactions: "インタラクション",
-                    Zooming: "ズーミング",
-                    Rotate45: "45 回転",
-                    Rotate90: "90 回転",
-                    Trim: "トリム",
-                    MultipleRows: "複数の行",
-                    Wrap: "ラップ",
-                    Hide: "隠す",
-                    WrapByWord: "単語で囲む",
-                    CrossHair: "クロスヘア",
-                    TrackBall: "トラックボール",
-                    DisableTD: "3Dチャートを無効にする",
-                    None: "なし",
-                    Exception: "例外",
-                    OK: "[OK]",
+                    BMF: "BMF"
                 };
                 break;
             case "ejPivotClient":
@@ -821,8 +802,7 @@
                     KpiAlertMsg: "移動するには、レポートのそのエリアに配置することはできません、フィールド",
                     NotAllItemsShowing: "すべての子ノードが表示されます。",
                     EditorLinkPanelAlert: "メンバーには、 1 つまたは複数の親の下に 1000 以上の項目があります。 最初の 1000 アイテムのみがそれぞれの親の下に表示されています。",
-                    NamedSetAlert: "同じフィールドに基づいて別の名前のセットと同じ時間では、ピボットテーブルレポートに名前を設定することはできませんが追加されます。 「 OK 」をクリックして「 ' <Set 1> ' 」という名前のセットと ' <Set 2> ' 「追加」という名前の設定を削除します。",
-                    Exception: "例外"
+                    NamedSetAlert: "同じフィールドに基づいて別の名前のセットと同じ時間では、ピボットテーブルレポートに名前を設定することはできませんが追加されます。 「 OK 」をクリックして「 ' <Set 1> ' 」という名前のセットと ' <Set 2> ' 「追加」という名前の設定を削除します。"
                 };
                 break;
             case "ejPivotGauge":
@@ -830,7 +810,6 @@
                 ej.PivotGauge.Locale["ja-JP"] = {
                     RevenueGoal: "収益目標",
                     RevenueValue: "収益値",
-                    Exception: "例外"
                 };
                 break;
             case "ejPager":
@@ -1225,8 +1204,7 @@
 					Edit: "編集",
 					DuplicateFormatName: "重複した形式名",
 					NotAllItemsShowing: "すべての子ノードが表示されます。",
-					EditorLinkPanelAlert: "メンバーには、 1 つまたは複数の親の下に 1000 以上の項目があります。 最初の 1000 アイテムのみがそれぞれの親の下に表示されています。",
-					Exception: "例外"
+					EditorLinkPanelAlert: "メンバーには、 1 つまたは複数の親の下に 1000 以上の項目があります。 最初の 1000 アイテムのみがそれぞれの親の下に表示されています。"
                 };
                 break;
             case "ejPivotPager":
@@ -1302,7 +1280,6 @@
                     OK: "OK をクリック",
                     Cancel: "キャンセル",
                     Search: "検索",
-                    Remove: "削除",
                     AddCurrentSelectionToFilter: "フィルタに現在の選択範囲を追加する",
                     NotAllItemsShowing: "すべての子ノードが表示されます。",
                     EditorLinkPanelAlert: "メンバーには、 1 つまたは複数の親の下に 1000 以上の項目があります。 最初の 1000 アイテムのみがそれぞれの親の下に表示されています。",
@@ -1425,7 +1402,6 @@
                         },
                     },
                     pagesetupDialog: {
-                        close: '閉じる',
                         paperSize: '用紙サイズ',
                         height: '高さ',
                         width: '幅',
@@ -1441,41 +1417,6 @@
                         doneButton: '終わりました',
                         cancelButton: 'キャンセル'
                     },
-                    credential: {
-                        userName: 'ユーザー名',
-                        password: 'パスワード'
-                    },
-                    waterMark: {
-                        selectOption: '選択肢を選択',
-                        selectValue: '値を選択'
-                    },
-                    errorMessage: {
-                        startMessage: 'レポートビューアでこのレポートを読み込む際に問題が発生しました。お願いします',
-                        middleMessage: ' ここをクリック',
-                        endMessage: 'エラーの詳細を表示する',
-                        closeMessage: 'このメッセージを閉じる'
-                    },
-                    alertMessage: {
-                        close: '閉じる',
-                        title: 'ReportViewer',
-                        done: 'Ok',
-                        showDetails: '詳細を表示',
-                        hideDetails: '詳細を隠す',
-                        reportLoad: '読み込まれたレポート:',
-                        RVERR0001: 'ReportViewerがレポートの読み込みに失敗しました',
-                        RVERR0002: 'ReportViewerがレポートのレンダリングに失敗しました',
-                        RVERR0003: 'ajaxポストバックでエラーが発生しました',
-                        RVERR0004: 'パラメータの値を選択してください',
-                        RVERR0005: '{parametername}パラメータに値がありません',
-                        RVERR0006: '浮動小数点型のデータ型を入力してください',
-                        RVERR0007: '整数型のデータ型を入力してください',
-                        RVERR0008: 'ReportViewerでデータソースの資格情報を検証できませんでした',
-                        RVERR0009: 'マージンは重複しているか、用紙から外れています。別の余白サイズを入力してください.',
-                        RVERR0010: 'パラメータの値を入力してください',
-                        RVERR0011: 'パラメータは空白にすることはできません',
-                        RVERR0012: 'レポートパラメータ{parameterprompt}に指定された値がその型に対して無効です.'
-                    },
-                    selectAll: 'すべて選択',
                     viewButton: "[レポートの表示",
                 };
                 break;

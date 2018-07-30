@@ -641,26 +641,7 @@
                     EMF: "EMF",
                     GIF: "GIF",
                     JPG: "JPG",
-                    BMP: "BMP",
-                    ZoomIn: "mengezum masuk",
-                    ZoomOut: "Zum keluar",
-                    Legend: "Legenda",
-                    SmartLabels: "Label Pintar",
-                    Interactions: "Interaksi",
-                    Zooming: "Zum",
-                    Rotate45: "Putar45",
-                    Rotate90: "Putar90",
-                    Trim: "Potong",
-                    MultipleRows: "Barisan berbilang",
-                    Wrap: "Bungkus",
-                    Hide: "Sembunyikan",
-                    WrapByWord: "Bungkus Kata",
-                    CrossHair: "Rambut salib",
-                    TrackBall: "Track Ball",
-                    DisableTD: "Lumpuhkan Carta 3D",
-                    None: "Tiada",
-                    Exception: "Pengecualian",
-                    OK: "okey"
+                    BMF: "BMF"
                 };
                 break;
             case "ejPivotClient":
@@ -818,8 +799,7 @@
                     KpiAlertMsg: "Medan anda bergerak tidak dapat ditempatkan di kawasan itu dari laporan",
                     NotAllItemsShowing: "Tidak semua anak nod dipaparkan",
                     EditorLinkPanelAlert: "Ahli mempunyai lebih daripada 1000 item di bawah satu atau lebih induk. Hanya pertama 1000 item dipaparkan di bawah setiap induk.",
-                    NamedSetAlert: "Yang bernama set tidak boleh ditambah ke PivotTable melaporkan pada masa yang sama sebagai lain bernama set berdasarkan sama medan. Klik OK untuk membuang ' <Set 1> ' bernama set dan tambah ' <Set 2> ' bernama set.",
-                    Exception: "Pengecualian"
+                    NamedSetAlert: "Yang bernama set tidak boleh ditambah ke PivotTable melaporkan pada masa yang sama sebagai lain bernama set berdasarkan sama medan. Klik OK untuk membuang ' <Set 1> ' bernama set dan tambah ' <Set 2> ' bernama set."
                 };
                 break;
             case "ejPivotGauge":
@@ -827,7 +807,6 @@
                 ej.PivotGauge.Locale["ms-MY"] = {
                     RevenueGoal: "Matlamat hasil",
                     RevenueValue: "Nilai hasil",
-                    Exception: "Pengecualian"
                 };
                 break;
             case "ejPager":
@@ -1222,8 +1201,7 @@
 					Edit: "Edit",
 					DuplicateFormatName: "Duplikat Format Nama",
 					NotAllItemsShowing: "Tidak semua anak nod dipaparkan",
-					EditorLinkPanelAlert: "Ahli mempunyai lebih daripada 1000 item di bawah satu atau lebih induk. Hanya pertama 1000 item dipaparkan di bawah setiap induk.",
-					Exception: "Pengecualian"
+					EditorLinkPanelAlert: "Ahli mempunyai lebih daripada 1000 item di bawah satu atau lebih induk. Hanya pertama 1000 item dipaparkan di bawah setiap induk."
                 };
                 break;
             case "ejPivotPager":
@@ -1298,7 +1276,6 @@
                     OK: "OK",
                     Cancel: "Batalkan",
                     Search: "Carian",
-                    Remove: "Buang",
                     AddCurrentSelectionToFilter: "Tambah pemilihan semasa ke penapis",
                     NotAllItemsShowing: "Tidak semua anak nod dipaparkan",
                     EditorLinkPanelAlert: "Ahli mempunyai lebih daripada 1000 item di bawah satu atau lebih induk. Hanya pertama 1000 item dipaparkan di bawah setiap induk.",
@@ -1421,7 +1398,6 @@
                         },
                     },
                     pagesetupDialog: {
-                        close: 'Tutup',
                         paperSize: 'Saiz kertas',
                         height: 'Tinggi',
                         width: 'lebar',
@@ -1437,41 +1413,6 @@
                         doneButton: 'Selesai',
                         cancelButton: 'Batal'
                     },
-                    credential: {
-                        userName: 'Nama pengguna',
-                        password: 'Kata laluan'
-                    },
-                    waterMark: {
-                        selectOption: 'Pilih Pilihan',
-                        selectValue: 'Pilih nilai'
-                    },
-                    errorMessage: {
-                        startMessage: 'Peninjau Laporan menghadapi beberapa isu memuatkan laporan ini. Tolong',
-                        middleMessage: ' Tekan di sini',
-                        endMessage: 'untuk melihat butiran ralat',
-                        closeMessage: 'Tutup mesej ini'
-                    },
-                    alertMessage: {
-                        close: 'Tutup',
-                        title: 'ReportViewer',
-                        done: 'okey',
-                        showDetails: 'Tunjukkan butiran',
-                        hideDetails: 'Sembunyikan butiran',
-                        reportLoad: 'Laporan dimuatkan:',
-                        RVERR0001: 'ReportViewer gagal memuat Laporan',
-                        RVERR0002: 'ReportViewer gagal membuat Laporan',
-                        RVERR0003: 'Ralat berlaku dalam postback ajax',
-                        RVERR0004: 'Sila pilih nilai untuk parameter',
-                        RVERR0005: 'Parameter {parametername} tiada nilai',
-                        RVERR0006: 'Sila berikan input jenis data terapung',
-                        RVERR0007: 'Sila berikan input jenis data integer',
-                        RVERR0008: 'ReportViewer gagal untuk mengesahkan kelayakan Datasource',
-                        RVERR0009: 'Margin adalah bertindih atau mereka berada di luar kertas. Masukkan saiz margin yang berbeza.',
-                        RVERR0010: 'Sila masukkan nilai untuk parameter',
-                        RVERR0011: 'Parameter itu tidak boleh kosong',
-                        RVERR0012: 'Nilai yang disediakan untuk parameter laporan {parameterprompt} tidak sah untuk jenisnya.'
-                    },
-                    selectAll: 'Pilih semua',
                     viewButton: "Laporan Lihat",
                 };
                 break;

@@ -643,26 +643,7 @@
                     EMF: "EMF",
                     GIF: "GIF",
                     JPG: "JPG",
-                    BMP: "BMP",
-                    ZoomIn: "Zoom ind",
-                    ZoomOut: "Zoome ud",
-                    Legend: "Legende",
-                    SmartLabels: "Smarte Etiketter",
-                    Interactions: "Interaktioner",
-                    Zooming: "Zoome",
-                    Rotate45: "Drej45",
-                    Rotate90: "Drej90",
-                    Trim: "Trimme",
-                    MultipleRows: "Flere rækker",
-                    Wrap: "Wrap",
-                    Hide: "Skjule",
-                    WrapByWord: "Wrap By word",
-                    CrossHair: "Korshår",
-                    TrackBall: "Track Ball",
-                    DisableTD: "Deaktiver 3D-diagrammer",
-                    None: "Ingen",
-                    Exception: "Undtagelse",
-                    OK: "Okay",
+                    BMF: "BMF"
                 };
                 break;
             case "ejPivotClient":
@@ -820,8 +801,7 @@
                     KpiAlertMsg: "Inden du bevæger dig kan placeres i dette område i rapporten",
                     NotAllItemsShowing: "Ikke alle underordnede knudepunkter er vist",
                     EditorLinkPanelAlert: "Medlemmerne er mere end 1000 genstande under et eller flere moderselskaber. Kun de første 1000 emner vises under hver forælder.",
-                    NamedSetAlert: "En navngivet sæt kan ikke tilføjes til pivottabeller rapport samtidig med et andet navn, der er baseret på den samme mark. Klik på OK for at fjerne ' <Set 1> ' navngivet sæt og tilføje ' <Set 2> ' navngivet sæt.",
-                    Exception: "Undtagelse"
+                    NamedSetAlert: "En navngivet sæt kan ikke tilføjes til pivottabeller rapport samtidig med et andet navn, der er baseret på den samme mark. Klik på OK for at fjerne ' <Set 1> ' navngivet sæt og tilføje ' <Set 2> ' navngivet sæt."
                 };
                 break;
             case "ejPivotGauge":
@@ -829,7 +809,6 @@
                 ej.PivotGauge.Locale["da-DK"] = {
                     RevenueGoal: "Omsætning Goal",
                     RevenueValue: "Omsætning Værdi",
-                    Exception: "Undtagelse"
                 };
                 break;
             case "ejPager":
@@ -1224,8 +1203,7 @@
                     Edit: "Rediger",
                     DuplicateFormatName: "Duplikér Formatnavn",
                     NotAllItemsShowing: "Ikke alle underordnede knudepunkter er vist",
-                    EditorLinkPanelAlert: "Medlemmerne er mere end 1000 genstande under et eller flere moderselskaber. Kun de første 1000 emner vises under hver forælder.",
-                    Exception: "Undtagelse"
+                    EditorLinkPanelAlert: "Medlemmerne er mere end 1000 genstande under et eller flere moderselskaber. Kun de første 1000 emner vises under hver forælder."
                 };
                 break;
             case "ejPivotPager":
@@ -1301,7 +1279,6 @@
                     OK: "OK",
                     Cancel: "Annuller",
                     Search: "Søg",
-                    Remove: "Fjern",
                     AddCurrentSelectionToFilter: "Tilføj nuværende valg for at filtrere",
                     NotAllItemsShowing: "Ikke alle underordnede knudepunkter er vist",
                     EditorLinkPanelAlert: "Medlemmerne er mere end 1000 genstande under et eller flere moderselskaber. Kun de første 1000 emner vises under hver forælder.",
@@ -1424,7 +1401,6 @@
                         },
                     },
                     pagesetupDialog: {
-                        close: 'Tæt',
                         paperSize: 'Papirstørrelse',
                         height: 'Højde',
                         width: 'Bredde',
@@ -1440,42 +1416,7 @@
                         doneButton: 'Færdig',
                         cancelButton: 'Ophæve'
                     },
-                    credential: {
-                        userName: 'Brugernavn',
-                        password: 'Adgangskode'
-                    },
-                    waterMark: {
-                        selectOption: 'Vælg Valg',
-                        selectValue: 'Vælg en værdi'
-                    },
-                    errorMessage: {
-                        startMessage: 'Report Viewer havde nogle problemer med at indlæse denne rapport. Vær venlig',
-                        middleMessage: ' Klik her',
-                        endMessage: 'for at se fejloplysningerne',
-                        closeMessage: 'Luk denne meddelelse'
-                    },
-                    alertMessage: {
-                        close: 'Tæt',
-                        title: 'ReportViewer',
-                        done: 'Okay',
-                        showDetails: 'Vis detaljer',
-                        hideDetails: 'Gem detaljer',
-                        reportLoad: 'Report Loaded:',
-                        RVERR0001: 'ReportViewer kunne ikke indlæse rapporten',
-                        RVERR0002: 'ReportViewer mislykkedes med at gøre rapporten',
-                        RVERR0003: 'Der opstod en fejl i ajax-postback',
-                        RVERR0004: 'Vælg venligst en værdi for parameteren',
-                        RVERR0005: 'Parameteren {parametername} mangler en værdi',
-                        RVERR0006: 'Giv venligst indtastning af float data type',
-                        RVERR0007: 'Indtast venligst integer data type input',
-                        RVERR0008: 'ReportViewer mislykkedes at validere datakildens legitimationsoplysninger',
-                        RVERR0009: 'Marginerne er overlappede, eller de er ude af papiret. Indtast en anden margen størrelse.',
-                        RVERR0010: 'Indtast venligst en værdi for parameteren',
-                        RVERR0011: 'Parameteren kan ikke være tom',
-                        RVERR0012: 'Værdien for rapportparameteren {parameterprompt} er ikke gyldig for dens type.'
-                    },
-                    selectAll: 'Vælg alle',
-                    viewButton: 'Se rapport',
+                    viewButton: "View Report",
                 };
                 break;
             case "ejRibbon":
