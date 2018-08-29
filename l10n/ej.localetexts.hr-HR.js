@@ -522,6 +522,7 @@
                     ResponsiveFilter: "Filter",
                     ResponsiveSorting: "Vrsta",
                     Search: "traži",
+					NumericTextBoxWaterMark: "Unesite vrijednost",
                     DatePickerWaterMark: "Odaberite datum",
                     EmptyDataSource: "Izvoru podataka ne smije biti prazna, na početnom opterećenju, jer su stupovi generiraju iz izvora podataka u generirani Column Grid",
                     ForeignKeyAlert: "Ažurirani vrijednost bi trebala biti valjana strani ključ vrijednost",
@@ -643,7 +644,26 @@
                     EMF: "EMF",
                     GIF: "GIF",
                     JPG: "JPG",
-                    BMF: "BMF"
+                    BMP: "BMP",
+                    ZoomIn: "zoom.in",
+                    ZoomOut: "Umanji",
+                    Legend: "Legenda",
+                    SmartLabels: "Pametne oznake",
+                    Interactions: "interakcije",
+                    Zooming: "zumiranje",
+                    Rotate45: "Rotiraj45",
+                    Rotate90: "Rotiraj90",
+                    Trim: "dotjerati",
+                    MultipleRows: "Više redaka",
+                    Wrap: "Zamotajte",
+                    Hide: "Sakriti",
+                    WrapByWord: "Zamotajte riječ",
+                    CrossHair: "Križna kosa",
+                    TrackBall: "Prati loptu",
+                    DisableTD: "Onemogući 3D grafikone",
+                    None: "nijedan",
+                    Exception: "Iznimke",
+                    OK: "u redu"
                 };
                 break;
             case "ejPivotClient":
@@ -750,11 +770,11 @@
                     ReportList: "Lista izvješće",
                     Alert: "uzbuna",
                     MDXAlertMsg: "Dodajte mjeri, dimenziju ili hijerarhiju u odgovarajućoj osi za pregled MDX upita.",
-                    FilterSortRowAlertMsg: "Dimenzija nije pronađena u nizu osi. Molimo dodajte dimenzija elementa u osi redu za sortiranje / filtriranje.",
-                    FilterSortColumnAlertMsg: "Dimenzija nije pronađen u osi stupca. Molimo dodajte dimenzija elementa u osi stupca za sortiranje / filtriranje.",
+                    FilterSortRowAlertMsg: "Dimenzija nije pronađena u osi retka. Dodajte element Dimenzije u os o redoslijedu za sortiranje / filtriranje.",
+                    FilterSortColumnAlertMsg: "Dimenzija nije pronađena u osi stupca. Dodajte dimenzijski element u os stupca za sortiranje / filtriranje.",
                     FilterSortcolMeasureAlertMsg: "Molimo dodajte mjere na kolonu osi",
                     FilterSortrowMeasureAlertMsg: "Molimo dodajte mjeru do retka osi",
-                    FilterSortElementAlertMsg: "Element nije pronađen u osi stupca. Molimo dodajte element u osi stupca za sortiranje / filtriranje.",
+                    FilterSortElementAlertMsg: "Element se ne nalazi u osi stupca. Dodajte element u os stupca za sortiranje / filtriranje.",
                     FilterMeasureSelectionAlertMsg: "Odaberite valjanu mjeru.",
                     FilterConditionAlertMsg: "Molimo postavite važeći stanje.",
                     FilterStartValueAlertMsg: "Postavite početnu vrijednost.",
@@ -785,11 +805,11 @@
                     MemberType: "Član grupe:",
                     FormatString: "Format String:",
                     MultipleMeasure: "Više ne možemo izmjeriti.",
-                    DuplicateCalcMeasure: "Kalkuliran članica sa istim imenom već postoji.",
-                    EmptyField: "Član izračunao ime ili opis ne može biti prazno.",
+                    DuplicateCalcMeasure: "Izračunat član s istim nazivom već postoji.",
+                    EmptyField: "Izračunato ime člana ili izraz ne smije biti prazan.",
                     EmptyFormat: "Format string postignuta je prazna.",
                     Warning: "Upozorenje",
-                    Confirm: "Kalkuliran članica sa istim imenom već postoji. Zbog želim zamijeniti?",
+                    Confirm: "Izračunata članica s istim imenom već postoji. Želite li zamijeniti?",
                     KPIs: "KPI",
 					Collection: "Zbirka",
 					Report: "izvještaj",
@@ -801,7 +821,8 @@
                     KpiAlertMsg: "Polje se ne stavljajte u tu oblast izvje",
                     NotAllItemsShowing: "Nisu svi dijete čvorovi su pokazali",
                     EditorLinkPanelAlert: "Članovi zapošljava više od 1000 objekata pod jedan ili više roditelja. Samo prva 1000 objekata u su prikazane ispod svakog roditelja.",
-                    NamedSetAlert:"Tip po imenu set ne može biti dodana u izvješću PivotTable u isto vrijeme kao i svako drugo ime je baziran na istom polju. Kliknite za uklanjanje ' <Set 1> ' imena i dodaj ' <Set 2> ' po imenu."
+                    NamedSetAlert:"Istovremeno se ne mogu dodati skupovi s istim poljem koji se nazivaju skupovima izvješća zaobilazeće tablice. Kliknite U redu da biste uklonili '<Set 1>' nazvani skup i dodali '<Set 2>' imenovani skup.",
+                    Exception: "Iznimke"
                 };
                 break;
             case "ejPivotGauge":
@@ -809,6 +830,7 @@
                 ej.PivotGauge.Locale["hr-HR"] = {
                     RevenueGoal: "Cilj prihoda",
                     RevenueValue: "Vrijednost prihoda",
+                    Exception: "Iznimke"
                 };
                 break;
             case "ejPager":
@@ -1178,7 +1200,7 @@
                     EmptyField: "Unesite Izračunato polje naziv ili formula",
                     NotValid: "S obzirom formula ne vrijedi",
                     NotPresent: "Vrijednost polje koje se koristi u bilo kojem od Izračunato polje Formula nije prisutan u PivotGrid",
-                    Confirm: "Izračunato polje s istim nazivom već postoji. Zbog želite zamijeniti?",
+                    Confirm: "Izračunata članica s istim imenom već postoji. Želite li zamijeniti?",
                     CalcValue: "Izračunato polje može se umetnuti samo u vrijednosti polja području",
                     MultipleItems: "Više stavki",
                     All: "Sve",
@@ -1203,7 +1225,8 @@
                     Edit: "Uredi",
                     DuplicateFormatName: "Reproducirati Format ime",
                     NotAllItemsShowing: "Nisu svi dijete čvorovi su pokazali",
-                    EditorLinkPanelAlert: "Članovi zapošljava više od 1000 objekata pod jedan ili više roditelja. Samo prva 1000 objekata u su prikazane ispod svakog roditelja."
+                    EditorLinkPanelAlert: "Članovi zapošljava više od 1000 objekata pod jedan ili više roditelja. Samo prva 1000 objekata u su prikazane ispod svakog roditelja.",
+                    Exception: "Iznimke"
                 };
                 break;
             case "ejPivotPager":
@@ -1279,10 +1302,11 @@
                     OK: "u redu",
                     Cancel: "Otkazati",
                     Search: "Pretraži",
+                    Remove: "Ukloni",
                     AddCurrentSelectionToFilter: "Dodaj trenutni odabir za filtriranje",
                     NotAllItemsShowing: "Nisu svi dijete čvorovi su pokazali",
                     EditorLinkPanelAlert: "Članovi zapošljava više od 1000 objekata pod jedan ili više roditelja. Samo prva 1000 objekata u su prikazane ispod svakog roditelja.",
-                    NamedSetAlert: "Tip po imenu set ne može biti dodana u izvješću PivotTable u isto vrijeme kao i svako drugo ime je baziran na istom polju. Kliknite za uklanjanje ' <Set 1> ' imena i dodaj ' <Set 2> ' po imenu."
+                    NamedSetAlert: "Istovremeno se ne mogu dodati skupovi s istim poljem koji se nazivaju skupovima izvješća zaobilazeće tablice. Kliknite U redu da biste uklonili '<Set 1>' nazvani skup i dodali '<Set 2>' imenovani skup."
                 };
                 break;
             case "ejDiagram":
@@ -1401,6 +1425,7 @@
                         },
                     },
                     pagesetupDialog: {
+                        close: 'Zatvoriti',
                         paperSize: 'Veličina papira',
                         height: 'Visina',
                         width: 'Širina',
@@ -1416,6 +1441,41 @@
                         doneButton: 'Gotovo',
                         cancelButton: 'Otkazati'
                     },
+                    credential: {
+                        userName: 'Korisničko ime',
+                        password: 'Lozinka'
+                    },
+                    waterMark: {
+                        selectOption: 'Odaberite opciju',
+                        selectValue: 'Odaberite vrijednost'
+                    },
+                    errorMessage: {
+                        startMessage: 'Preglednik izvješća naišao je na probleme s učitavanjem ovog izvješća. Molim',
+                        middleMessage: ' Kliknite ovdje',
+                        endMessage: 'da biste vidjeli pojedinosti o pogrešci',
+                        closeMessage: 'Zatvorite ovu poruku'
+                    },
+                    alertMessage: {
+                        close: 'Zatvoriti',
+                        title: 'ReportViewer',
+                        done: 'u redu',
+                        showDetails: 'Pokaži detalje',
+                        hideDetails: 'Sakri detalje',
+                        reportLoad: 'Izvješće učitano:',
+                        RVERR0001: 'ReportViewer nije uspio učitati izvješće',
+                        RVERR0002: 'ReportViewer nije uspio prikazati izvješće',
+                        RVERR0003: 'Došlo je do pogreške u ajaxu',
+                        RVERR0004: 'Odaberite vrijednost za parametar',
+                        RVERR0005: 'Parametar {parametername} nedostaje vrijednost',
+                        RVERR0006: 'Navedite unos podataka vrste Float',
+                        RVERR0007: 'Navedite unos cijelog broja podataka',
+                        RVERR0008: 'ReportViewer nije uspio potvrditi vjerodajnice Datasourcea',
+                        RVERR0009: 'Margine su preklopljene ili su izvan papira. Unesite različitu veličinu margina.',
+                        RVERR0010: 'Unesite vrijednost za parametar',
+                        RVERR0011: 'Parametar ne može biti prazan',
+                        RVERR0012: 'Vrijednost za parametar izvješća {parameterprompt} ne vrijedi za njenu vrstu.'
+                    },
+                    selectAll: 'Odaberi sve',
                     viewButton: "Vidi izvještaj",
                 };
                 break;
@@ -2488,6 +2548,16 @@
                     CreateSparkline: "Stvorite Sparkline",
                     SelectDataSource: "Odaberite raspon izvora podataka za bljeskalicu",
                     SPARKLINEDESIGN: "Dizajn Sparkline",
+                    CancellationRequested: "Ne mogu se otvoriti unutar specificiranog vremenskog ograničenja",
+                    ImportPreventedOnUnknownFormula: "Ta se datoteka ne može učitati jer sadrži nepodržane formule.",
+                    PivotTableName: "Naziv pivot tablice",
+                    ArrayaFormula: "Ne možete promijeniti dio polja",
+                    ArrayaFormulaTableAlert: "Formule višestalih polja nisu dopuštene u tablicama",
+                    ValueFieldSettings: "Vrijednosti polja vrijednosti",
+                    FieldTab: "Sažeti vrijednosti po",
+                    SummarizeValue: "Sažmi vrijednost polja",
+                    SummarizeChooseType: "Odaberite vrstu izračuna koju želite upotrijebiti za sumiranje podataka iz odabranog polja",
+                    FieldValue: "Naziv izvora:",
                 };
                 break;
             case "ejTimePicker":

@@ -524,6 +524,7 @@
                     ResponsiveFilter: "Filter",
                     ResponsiveSorting: "Sortere",
                     Search: "Søge",
+					NumericTextBoxWaterMark: "Indtast værdi",
                     DatePickerWaterMark: "Vælg dato",
                     EmptyDataSource: "DataSource må ikke være tomme ved første belastning, da kolonner genereres fra datakilde i Genereret automatisk Column Grid",
                     ForeignKeyAlert: "Den opdaterede værdi skal være en gyldig fremmed nøgle værdi",
@@ -643,13 +644,32 @@
                     EMF: "EMF",
                     GIF: "GIF",
                     JPG: "JPG",
-                    BMF: "BMF"
+                    BMP: "BMP",
+                    ZoomIn: "Zoom ind",
+                    ZoomOut: "Zoome ud",
+                    Legend: "Legende",
+                    SmartLabels: "Smarte Etiketter",
+                    Interactions: "Interaktioner",
+                    Zooming: "Zoome",
+                    Rotate45: "Drej45",
+                    Rotate90: "Drej90",
+                    Trim: "Trimme",
+                    MultipleRows: "Flere rækker",
+                    Wrap: "Wrap",
+                    Hide: "Skjule",
+                    WrapByWord: "Wrap By word",
+                    CrossHair: "Korshår",
+                    TrackBall: "Track Ball",
+                    DisableTD: "Deaktiver 3D-diagrammer",
+                    None: "Ingen",
+                    Exception: "Undtagelse",
+                    OK: "Okay",
                 };
                 break;
             case "ejPivotClient":
                 ej.PivotClient.Locale = ej.PivotClient.Locale || {};
                 ej.PivotClient.Locale["da-DK"] = {
-                    DoesNotBeginsWith: "Ikke begynder med",
+                    DoesNotBeginsWith: "Begynder ikke med",
                     DoesNotEndsWith: "Ikke ender med",
                     DoesNotContains: "Ikke indeholder",
                     DoesNotEquals: "Ikke lig med",
@@ -750,11 +770,11 @@
                     ReportList: "Rapportliste",
                     Alert: "Alert",
                     MDXAlertMsg: "Please add a mål, dimensioner og hierarki i en passende akse for at se MDX Query.",
-                    FilterSortRowAlertMsg: "Dimension findes ikke i rækken. Please add Dimension element i række akse for sortering/filtrering.",
-                    FilterSortColumnAlertMsg: "Dimension blev ikke fundet i kolonne-aksen. Please add Dimension elementet i kolonnen akse for sortering/filtrering.",
+                    FilterSortRowAlertMsg: "Dimension findes ikke i rækkeaksen. Tilføj venligst Dimension element i rækkeaksen for sortering / filtrering.",
+                    FilterSortColumnAlertMsg: "Dimension findes ikke i kolonneaksen. Tilføj venligst Dimension element i kolonneaksen for sortering / filtrering.",
                     FilterSortcolMeasureAlertMsg: "Tilføj til kolonne akse",
                     FilterSortrowMeasureAlertMsg: "Tilføj til rækkeakse",
-                    FilterSortElementAlertMsg: "Enhed ikke fundet i kolonne-aksen. Du kan tilføje et element i kolonnen akse for sortering/filtrering.",
+                    FilterSortElementAlertMsg: "Element findes ikke i kolonneaksen. Tilføj venligst et element i kolonneakse for sortering / filtrering.",
                     FilterMeasureSelectionAlertMsg: "Vælg et gyldigt mål.",
                     FilterConditionAlertMsg: "Angiv en gyldig betingelse.",
                     FilterStartValueAlertMsg: "Angiv en startværdi.",
@@ -789,7 +809,7 @@
                     EmptyField: "Beregnede medlem navn eller udtryk må ikke være tom.",
                     EmptyFormat: "Formatstrengen for beregnede medlem er tom.",
                     Warning: "Advarsel",
-                    Confirm: "Beregnede medlem med samme navn eksisterer allerede. Pga vil erstatte?",
+                    Confirm: "Beregnet medlem med samme navn eksisterer allerede. Ønsker du at erstatte?",
                     KPIs: "KPI'er",
 					Collection: "Collection",
 					Report: "Rapport",
@@ -801,7 +821,8 @@
                     KpiAlertMsg: "Inden du bevæger dig kan placeres i dette område i rapporten",
                     NotAllItemsShowing: "Ikke alle underordnede knudepunkter er vist",
                     EditorLinkPanelAlert: "Medlemmerne er mere end 1000 genstande under et eller flere moderselskaber. Kun de første 1000 emner vises under hver forælder.",
-                    NamedSetAlert: "En navngivet sæt kan ikke tilføjes til pivottabeller rapport samtidig med et andet navn, der er baseret på den samme mark. Klik på OK for at fjerne ' <Set 1> ' navngivet sæt og tilføje ' <Set 2> ' navngivet sæt."
+                    NamedSetAlert: "Navngivne sæt af samme felt kan ikke føjes til pivottabelrapporten samtidig. Klik på OK for at fjerne '<Set 1>' navngivet sæt og tilføj '<Set 2>' navngivet sæt.",
+                    Exception: "Undtagelse"
                 };
                 break;
             case "ejPivotGauge":
@@ -809,6 +830,7 @@
                 ej.PivotGauge.Locale["da-DK"] = {
                     RevenueGoal: "Omsætning Goal",
                     RevenueValue: "Omsætning Værdi",
+                    Exception: "Undtagelse"
                 };
                 break;
             case "ejPager":
@@ -1178,7 +1200,7 @@
                     EmptyField: "Indtast beregnet felt navn eller formel",
                     NotValid: "Da formlen er ikke gyldig",
                     NotPresent: "Feltet værdi benyttes i nogen af de beregnede felt formel ikke findes i PivotGrid",
-                    Confirm: "Beregnet felt med samme navn findes allerede. Pga vil erstatte ?",
+                    Confirm: "Beregnet medlem med samme navn eksisterer allerede. Ønsker du at erstatte?",
                     CalcValue: "Beregnet felt kan indsættes kun i værdi feltet område",
                     MultipleItems: "Flere emner",
                     All: "Alle",
@@ -1203,7 +1225,8 @@
                     Edit: "Rediger",
                     DuplicateFormatName: "Duplikér Formatnavn",
                     NotAllItemsShowing: "Ikke alle underordnede knudepunkter er vist",
-                    EditorLinkPanelAlert: "Medlemmerne er mere end 1000 genstande under et eller flere moderselskaber. Kun de første 1000 emner vises under hver forælder."
+                    EditorLinkPanelAlert: "Medlemmerne er mere end 1000 genstande under et eller flere moderselskaber. Kun de første 1000 emner vises under hver forælder.",
+                    Exception: "Undtagelse"
                 };
                 break;
             case "ejPivotPager":
@@ -1279,10 +1302,11 @@
                     OK: "OK",
                     Cancel: "Annuller",
                     Search: "Søg",
+                    Remove: "Fjern",
                     AddCurrentSelectionToFilter: "Tilføj nuværende valg for at filtrere",
                     NotAllItemsShowing: "Ikke alle underordnede knudepunkter er vist",
                     EditorLinkPanelAlert: "Medlemmerne er mere end 1000 genstande under et eller flere moderselskaber. Kun de første 1000 emner vises under hver forælder.",
-                    NamedSetAlert: "En navngivet sæt kan ikke tilføjes til pivottabeller rapport samtidig med et andet navn, der er baseret på den samme mark. Klik på OK for at fjerne ' <Set 1> ' navngivet sæt og tilføje ' <Set 2> ' navngivet sæt."
+                    NamedSetAlert: "Navngivne sæt af samme felt kan ikke føjes til pivottabelrapporten samtidig. Klik på OK for at fjerne '<Set 1>' navngivet sæt og tilføj '<Set 2>' navngivet sæt."
                 };
                 break;
             case "ejRangeNavigator":
@@ -1401,6 +1425,7 @@
                         },
                     },
                     pagesetupDialog: {
+                        close: 'Tæt',
                         paperSize: 'Papirstørrelse',
                         height: 'Højde',
                         width: 'Bredde',
@@ -1416,7 +1441,42 @@
                         doneButton: 'Færdig',
                         cancelButton: 'Ophæve'
                     },
-                    viewButton: "View Report",
+                    credential: {
+                        userName: 'Brugernavn',
+                        password: 'Adgangskode'
+                    },
+                    waterMark: {
+                        selectOption: 'Vælg Valg',
+                        selectValue: 'Vælg en værdi'
+                    },
+                    errorMessage: {
+                        startMessage: 'Report Viewer havde nogle problemer med at indlæse denne rapport. Vær venlig',
+                        middleMessage: ' Klik her',
+                        endMessage: 'for at se fejloplysningerne',
+                        closeMessage: 'Luk denne meddelelse'
+                    },
+                    alertMessage: {
+                        close: 'Tæt',
+                        title: 'ReportViewer',
+                        done: 'Okay',
+                        showDetails: 'Vis detaljer',
+                        hideDetails: 'Gem detaljer',
+                        reportLoad: 'Report Loaded:',
+                        RVERR0001: 'ReportViewer kunne ikke indlæse rapporten',
+                        RVERR0002: 'ReportViewer mislykkedes med at gøre rapporten',
+                        RVERR0003: 'Der opstod en fejl i ajax-postback',
+                        RVERR0004: 'Vælg venligst en værdi for parameteren',
+                        RVERR0005: 'Parameteren {parametername} mangler en værdi',
+                        RVERR0006: 'Giv venligst indtastning af float data type',
+                        RVERR0007: 'Indtast venligst integer data type input',
+                        RVERR0008: 'ReportViewer mislykkedes at validere datakildens legitimationsoplysninger',
+                        RVERR0009: 'Marginerne er overlappede, eller de er ude af papiret. Indtast en anden margen størrelse.',
+                        RVERR0010: 'Indtast venligst en værdi for parameteren',
+                        RVERR0011: 'Parameteren kan ikke være tom',
+                        RVERR0012: 'Værdien for rapportparameteren {parameterprompt} er ikke gyldig for dens type.'
+                    },
+                    selectAll: 'Vælg alle',
+                    viewButton: 'Se rapport',
                 };
                 break;
             case "ejRibbon":
@@ -2489,6 +2549,16 @@
                     CreateSparkline: "Opret Sparkline",
                     SelectDataSource: "Vælg et kildedataområde for sparkline",
                     SPARKLINEDESIGN: "Sparkline Design",
+                    CancellationRequested: "Kunne ikke åbnes inden for den angivne timeout",
+                    ImportPreventedOnUnknownFormula: "Denne fil kan ikke indlæses, da den indeholder ikke understøttede formler.",
+                    PivotTableName: "PivotTable Name",
+                    ArrayaFormula: "Du kan ikke ændre en del af et array",
+                    ArrayaFormulaTableAlert: "Multicelle matrixformler er ikke tilladt i tabeller",
+                    ValueFieldSettings: "Værdifeltindstillinger",
+                    FieldTab: "Opsummer værdier ved",
+                    SummarizeValue: "Opsummer værdiværdien ved",
+                    SummarizeChooseType: "Vælg den type beregning, du vil bruge til at opsummere data fra det valgte felt",
+                    FieldValue: "Kilde navn:",
                 };
                 break;
             case "ejTimePicker":

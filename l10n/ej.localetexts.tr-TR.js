@@ -521,6 +521,7 @@
                     ResponsiveFilter: "filtre",
                     ResponsiveSorting: "çequal",
                     Search: "Arama",
+					NumericTextBoxWaterMark: "değeri girin",
                     DatePickerWaterMark: "seçin tarih",
                     EmptyDataSource: "sütunlar OtomatikOluşturuldu Sütun Grid dataSource üretilir beri DataSource ilk yükte boş olmamalıdır",
                     ForeignKeyAlert: "güncelleştirilmiş değeri geçerli bir yabancı anahtar değeri olmalıdır",
@@ -642,7 +643,26 @@
                     EMF: "EMF",
                     GIF: "GIF",
                     JPG: "JPG",
-                    BMF: "BMF"
+                    BMP: "BMP",
+                    ZoomIn: "Yakınlaştır",
+                    ZoomOut: "Uzaklaştır",
+                    Legend: "Efsane",
+                    SmartLabels: "Akıllı Etiketler",
+                    Interactions: "Etkileşimler",
+                    Zooming: "Yakınlaştırma",
+                    Rotate45: "Döndür45",
+                    Rotate90: "Döndür90",
+                    Trim: "Kırpma",
+                    MultipleRows: "Birden Çok Satır",
+                    Wrap: "Sarın",
+                    Hide: "Gizle",
+                    WrapByWord: "Kelime ile sar",
+                    CrossHair: "Çapraz Saç",
+                    TrackBall: "Topu",
+                    DisableTD: "3D Grafikleri Devre Dışı Bırak",
+                    None: "Yok",
+                    Exception: "Istisna",
+                    OK: "tamam"
                 };
                 break;
             case "ejPivotClient":
@@ -749,11 +769,11 @@
                     TreeMap: "Ağaç Harita",
                     Alert: "Uyarı",
                     MDXAlertMsg: "Lütfen bir ölçün, boyut veya hiyerarşi uygun bir eksen, MDX Query.",
-                    FilterSortRowAlertMsg: "Boyut bulunamadı sıra ekseni. Lütfen Ölçü elemanı sıra eksenini sıralama/filtreleme.",
-                    FilterSortColumnAlertMsg: "Boyut bulunamadı sütun ekseni. Lütfen Ölçü elemanı sütun ekseni sıralama/filtreleme.",
+                    FilterSortRowAlertMsg: "Boyut, satır ekseninde bulunamadı. Sıralama / filtreleme için lütfen Boyut satırını satır eksenine ekleyin.",
+                    FilterSortColumnAlertMsg: "Sütun ekseninde boyut bulunamadı. Lütfen sıralama / filtreleme için sütun eksenine Boyut öğesini ekleyin.",
                     FilterSortcolMeasureAlertMsg: "Lütfen ölçüm Sütun ekseni",
                     FilterSortrowMeasureAlertMsg: "Lütfen ölçmek için sıra ekseni",
-                    FilterSortElementAlertMsg: "Öğe bulunamadı sütun ekseni. Lütfen bir öğe eklemek sütun ekseni sıralama/filtreleme.",
+                    FilterSortElementAlertMsg: "Öğe, sütun ekseninde bulunmaz. Lütfen sıralama / filtreleme için sütun eksenine bir öğe ekleyin.",
                     FilterMeasureSelectionAlertMsg: "Lütfen geçerli bir ölçün.",
                     FilterConditionAlertMsg: "Lütfen geçerli bir durumda.",
                     FilterStartValueAlertMsg: "Lütfen başlangıç değeri.",
@@ -785,10 +805,10 @@
                     FormatString: "Format String:",
                     MultipleMeasure: "Daha fazla ölçüm yapılamaz. Dilimlenmiş.",
                     DuplicateCalcMeasure: "Hesaplanan Üye aynı adı zaten var.",
-                    EmptyField: "Hesaplanan Üye adı veya Expression boş olamaz.",
+                    EmptyField: "Hesaplanan Üye adı veya İfadesi boş bırakılmamalıdır.",
                     EmptyFormat: "Format String, Hesaplanan Üye boş.",
                     Warning: "Uyarı",
-                    Confirm: "Hesaplanan Üye ile aynı adı zaten mevcut. Dolayı değiştirmek istiyor?",
+                    Confirm: "Aynı ada sahip Hesaplanmış Üye zaten mevcut. Değiştirmek ister misin?",
                     KPIs: "APG",
 					Collection: "Toplama",
 					Report: "Rapor",
@@ -799,8 +819,9 @@
                     Success: "Başarı",
                     KpiAlertMsg: "Alan, hareketli yerleştirilemez, alan raporu",
                     NotAllItemsShowing: "Tüm çocuk düğümleri gösterilmektedir",
-                    EditorLinkPanelAlert: "Üyeleri, 1000'den fazla öğe, bir veya daha fazla ana. Sadece ilk 1000 öğeler görüntülenir her ana.",
-                    NamedSetAlert: "Adlı bir set eklenemez, özet tablo raporu ve aynı zamanda başka bir adı set, aynı alan. Tamam'ı çıkarın ' <Set 1> ' isimli ve add ' <Set 2> ' isimli."
+                    EditorLinkPanelAlert: "Üyelerin bir veya daha fazla ebeveyn altında 1000'den fazla ürün var. Her ebeveynin altında sadece ilk 1000 öğe görüntülenir.",
+                    NamedSetAlert: "Aynı alana ait adlandırılmış kümeler, aynı zamanda Özet Tablo raporuna eklenemez. '<Set 1>' set adındaki grubu kaldırmak ve set olarak '<Set 2>' öğesini eklemek için Tamam'a tıklayın.",
+                    Exception: "Istisna"
                 };
                 break;
             case "ejPivotGauge":
@@ -808,6 +829,7 @@
                 ej.PivotGauge.Locale["tr-TR"] = {
                     RevenueGoal: "Gelir Gol",
                     RevenueValue: "Gelir Değeri",
+                    Exception: "Istisna"
                 };
                 break;
             case "ejPager":
@@ -1178,7 +1200,7 @@
                     EmptyField: "Lütfen Hesaplanan alan adı veya formül",
                     NotValid: "Belirli bir formül geçerli değil.",
                     NotPresent: "Değer alanı herhangi bir hesaplanan alan formül mevcut değildir PivotGrid",
-                    Confirm: "Hesaplanan alan ile aynı adı zaten mevcut. Dolayı Değiştirmek istiyor mu?",
+                    Confirm: "Aynı ada sahip Hesaplanmış Üye zaten mevcut. Değiştirmek ister misin?",
                     CalcValue: "Hesaplanan alan eklenebilir sadece değer alan alan",
                     MultipleItems: "Birden fazla öğe",
                     All: "Tüm",
@@ -1203,7 +1225,8 @@
 					Edit: "Düzenle",
 					DuplicateFormatName: "Çift Format Adı",
 					NotAllItemsShowing: "Tüm çocuk düğümleri gösterilmektedir",
-					EditorLinkPanelAlert: "Üyeleri, 1000'den fazla öğe, bir veya daha fazla ana. Sadece ilk 1000 öğeler görüntülenir her ana."
+					EditorLinkPanelAlert: "Üyelerin bir veya daha fazla ebeveyn altında 1000'den fazla ürün var. Her ebeveynin altında sadece ilk 1000 öğe görüntülenir.",
+					Exception: "Istisna"
                 };
                 break;
             case "ejPivotPager":
@@ -1278,10 +1301,11 @@
                     OK: "OK",
                     Cancel: "İptal",
                     Search: "Arama",
+                    Remove: "Kaldır",
                     AddCurrentSelectionToFilter: "Geçerli seçimi filtrelere ekle",
                     NotAllItemsShowing: "Tüm çocuk düğümleri gösterilmektedir",
-                    EditorLinkPanelAlert: "Üyeleri, 1000'den fazla öğe, bir veya daha fazla ana. Sadece ilk 1000 öğeler görüntülenir her ana.",
-                    NamedSetAlert: "Adlı bir set eklenemez, özet tablo raporu ve aynı zamanda başka bir adı set, aynı alan. Tamam'ı çıkarın ' <Set 1> ' isimli ve add ' <Set 2> ' isimli."
+                    EditorLinkPanelAlert: "Üyelerin bir veya daha fazla ebeveyn altında 1000'den fazla ürün var. Her ebeveynin altında sadece ilk 1000 öğe görüntülenir.",
+                    NamedSetAlert: "Aynı alana ait adlandırılmış kümeler, aynı zamanda Özet Tablo raporuna eklenemez. '<Set 1>' set adındaki grubu kaldırmak ve set olarak '<Set 2>' öğesini eklemek için Tamam'a tıklayın."
                 };
                 break;
             case "ejDiagram":
@@ -1400,6 +1424,7 @@
                         },
                     },
                     pagesetupDialog: {
+                        close: 'Kapat',
                         paperSize: 'Kağıt boyutu',
                         height: 'Yükseklik',
                         width: 'genişlik',
@@ -1415,6 +1440,41 @@
                         doneButton: 'tamam',
                         cancelButton: 'İptal etmek'
                     },
+                    credential: {
+                        userName: 'Kullanıcı adı',
+                        password: 'Parola'
+                    },
+                    waterMark: {
+                        selectOption: 'Seçeneği Seç',
+                        selectValue: 'Bir değer seçin'
+                    },
+                    errorMessage: {
+                        startMessage: 'Rapor Görüntüleyici bu raporu yükleyen bazı sorunlarla karşılaştı. Lütfen',
+                        middleMessage: ' Buraya TIKLAYIN',
+                        endMessage: 'hata ayrıntılarını görmek için',
+                        closeMessage: 'Bu mesajı kapat'
+                    },
+                    alertMessage: {
+                        close: 'Kapat',
+                        title: 'ReportViewer',
+                        done: 'tamam',
+                        showDetails: 'Detayları göster',
+                        hideDetails: 'Detayları gizle',
+                        reportLoad: 'Raporu Yüklendi:',
+                        RVERR0001: 'ReportViewer Raporu yüklenemedi',
+                        RVERR0002: 'ReportViewer Raporu oluşturmayı başaramadı',
+                        RVERR0003: 'Ajax geri dönüşünde bir hata oluştu',
+                        RVERR0004: 'Lütfen parametre için bir değer seçin',
+                        RVERR0005: '{Parameterername} parametresinin bir değeri eksik',
+                        RVERR0006: 'Lütfen şamandıra veri tipi girişi verin',
+                        RVERR0007: 'Lütfen tamsayı veri tipi girişi verin',
+                        RVERR0008: 'ReportViewer Veri kaynağı kimlik bilgilerini doğrulayamadı',
+                        RVERR0009: 'Kenar boşlukları çakışıyor veya kağıttan çıkıyorlar. Farklı bir kenar boşluğu boyutu girin.',
+                        RVERR0010: 'Lütfen parametre için bir değer girin',
+                        RVERR0011: 'Parametre boş bırakılamaz',
+                        RVERR0012: 'Rapor parametresi {parameterprompt} için verilen değer, türü için geçerli değil.'
+                    },
+                    selectAll: 'Hepsini seç',
                     viewButton: "Raporu görüntüle",
                 };
                 break;
@@ -2487,6 +2547,16 @@
                     CreateSparkline: "Sparkline'ı Oluştur",
                     SelectDataSource: "Kıvılcım hattı için bir kaynak veri aralığı seçin",
                     SPARKLINEDESIGN: "Sparkline Tasarım",
+                    CancellationRequested: "Belirtilen zaman aşımı içinde açılamadı",
+                    ImportPreventedOnUnknownFormula: "Desteklenmeyen formüller içerdiğinden bu dosya yüklenemiyor.",
+                    PivotTableName: "PivotTable Adı",
+                    ArrayaFormula: "Bir dizinin bir bölümünü değiştiremezsiniz",
+                    ArrayaFormulaTableAlert: "Çok hücreli dizi formülleri tablolarda kullanılamaz",
+                    ValueFieldSettings: "Değer Alanı Ayarları",
+                    FieldTab: "Değerleri Özetle",
+                    SummarizeValue: "Değer alanını özetle",
+                    SummarizeChooseType: "Seçili alandaki verileri özetlemek için kullanmak istediğiniz hesaplama türünü seçin.",
+                    FieldValue: "Kaynak adı:",
                 };
                 break;
 			case "ejTimePicker":

@@ -520,6 +520,7 @@
                     ResponsiveFilter: "Filter",
                     ResponsiveSorting: "Sortere",
                     Search: "Søke",
+					NumericTextBoxWaterMark: "Masukkan nilai",
                     DatePickerWaterMark: "Velg dato",
                     EmptyDataSource: "Datasource må ikke være tom ved første last siden kolonner genereres fra datakilden i Autogenerert kolonne Grid",
                     ForeignKeyAlert: "Nilai dikemaskini harus nilai kunci asing yang sah",
@@ -641,7 +642,26 @@
                     EMF: "EMF",
                     GIF: "GIF",
                     JPG: "JPG",
-                    BMF: "BMF"
+                    BMP: "BMP",
+                    ZoomIn: "zoom inn",
+                    ZoomOut: "Zoome ut",
+                    Legend: "Legende",
+                    SmartLabels: "Smarte etiketter",
+                    Interactions: "interaksjoner",
+                    Zooming: "zooming",
+                    Rotate45: "Drei45",
+                    Rotate90: "Drei90",
+                    Trim: "trim",
+                    MultipleRows: "Flere rader",
+                    Wrap: "Pakke inn",
+                    Hide: "Gjemme seg",
+                    WrapByWord: "Binding av ord",
+                    CrossHair: "Kors hår",
+                    TrackBall: "Sporball",
+                    DisableTD: "Deaktiver 3D-diagrammer",
+                    None: "Ingen",
+                    Exception: "Unntak",
+                    OK: "ok"
                 };
                 break;
             case "ejPivotClient":
@@ -748,11 +768,11 @@
                     TreeMap: "Treoversikt",
                     Alert: "Varsel",
                     MDXAlertMsg: "Legg til et mål, mål eller hierarkiet i en passende akse for å vise MDX spørring.",
-                    FilterSortRowAlertMsg: "Mål er ikke funnet i rad akse. Legg dimensjon element i rad aksen for sortering/filtrering.",
-                    FilterSortColumnAlertMsg: "Mål er ikke funnet i kolonnen akse. Legg dimensjon elementet i kolonnen aksen for sortering/filtrering.",
+                    FilterSortRowAlertMsg: "Dimensjonen er ikke funnet i radaksen. Vennligst legg til Dimensjonselement i radaksen for sortering / filtrering.",
+                    FilterSortColumnAlertMsg: "Dimensjonen er ikke funnet i kolonneaksen. Vennligst legg til Dimensjonselement i kolonneaksen for sortering / filtrering.",
                     FilterSortcolMeasureAlertMsg: "Legg til mål til kolonnen akse",
                     FilterSortrowMeasureAlertMsg: "Legg til mål til rad-akse",
-                    FilterSortElementAlertMsg: "Element ble ikke funnet i kolonnen akse. Du kan legge til et element i kolonnen aksen for sortering/filtrering.",
+                    FilterSortElementAlertMsg: "Element er ikke funnet i kolonneaksen. Vennligst legg til et element i kolonneakse for sortering / filtrering.",
                     FilterMeasureSelectionAlertMsg: "Velg en gyldig mål.",
                     FilterConditionAlertMsg: "Vennligst angi en gyldig tilstand.",
                     FilterStartValueAlertMsg: "Angi en startverdi.",
@@ -783,11 +803,11 @@
                     MemberType: "Medlem Type:",
                     FormatString: "Format streng:",
                     MultipleMeasure: "Mer enn ett mål kan være i skiver.",
-                    DuplicateCalcMeasure: "Beregnet medlem med samme navn finnes allerede.",
-                    EmptyField: "Kalkulert medlem navn eller uttrykk kan ikke være tomt.",
+                    DuplicateCalcMeasure: "Beregnet medlem med samme navn eksisterer allerede.",
+                    EmptyField: "Beregnet medlemsnavn eller uttrykk skal ikke være tomt.",
                     EmptyFormat: "Format streng for kalkulerte medlemmet er tom.",
                     Warning: "Advarsel",
-                    Confirm: "Kalkulert medlem med samme navn finnes allerede. På grunn av vil erstatte?",
+                    Confirm: "Beregnet medlem med samme navn eksisterer allerede. Vil du erstatte?",
                     KPIs: "KPIer",
 					Collection: "Samling",
 					Report: "rapport",
@@ -798,8 +818,9 @@
                     Success: "Suksess",
                     KpiAlertMsg: "Feltet du flytter ikke kan plasseres i det området av rapporten",
                     NotAllItemsShowing: "Ikke alle underordnede noder er vist",
-                    EditorLinkPanelAlert: "Medlemmene har mer enn 1000 elementer under ett eller flere overordnede. Bare den første 1000 elementer vises under hver overordnet.",
-                    NamedSetAlert: "En navngitt sett ikke kan legges til i pivottabellen rapport samtidig som et annet navn basert på det samme feltet. Klikk på OK for å fjerne ' <Set 1> ' heter satt og legge til ' <Set 2> ' heter satt."
+                    EditorLinkPanelAlert: "Medlemmene har mer enn 1000 elementer under en eller flere foreldre. Bare de første 1000 elementene vises under hver forelder.",
+                    NamedSetAlert: "Navngitte sett med samme felt kan ikke legges til PivotTable-rapporten samtidig. Klikk OK for å fjerne '<Set 1>' navngitt sett og legg til '<Set 2>' navngitt sett.",
+                    Exception: "Unntak"
                 };
                 break;
             case "ejPivotGauge":
@@ -807,6 +828,7 @@
                 ej.PivotGauge.Locale["nb-NO"] = {
                     RevenueGoal: "mål Revenue",
                     RevenueValue: "inntekter Verdi",
+                    Exception: "Unntak"
                 };
                 break;
             case "ejPager":
@@ -1176,7 +1198,7 @@
                     EmptyField: "Vennligst oppgi beregnet felt navn eller formel",
                     NotValid: "Gitt formelen er ikke gyldig",
                     NotPresent: "Feltet brukes i noen av feltet beregnes formelen er ikke tilstede i PivotGrid",
-                    Confirm: "Beregnet felt med samme navn finnes allerede. På grunn av vil erstatte ?",
+                    Confirm: "Beregnet medlem med samme navn eksisterer allerede. Vil du erstatte?",
                     CalcValue: "Beregnet felt kan settes bare i verdi området feltet",
                     MultipleItems: "Flere elementer",
                     All: "Alle",
@@ -1201,7 +1223,8 @@
 					Edit: "Rediger",
 					DuplicateFormatName: "Duplisere Format navn",
 					NotAllItemsShowing: "Ikke alle underordnede noder er vist",
-					EditorLinkPanelAlert: "Medlemmene har mer enn 1000 elementer under ett eller flere overordnede. Bare den første 1000 elementer vises under hver overordnet."
+					EditorLinkPanelAlert: "Medlemmene har mer enn 1000 elementer under en eller flere foreldre. Bare de første 1000 elementene vises under hver forelder.",
+					Exception: "Unntak"
                 };
                 break;
             case "ejPivotPager":
@@ -1276,10 +1299,11 @@
                     OK: "OK",
                     Cancel: "Avbryt",
                     Search: "Søk",
+                    Remove: "Fjern",
                     AddCurrentSelectionToFilter: "Legg til nåværende utvalg for å filtrere",
                     NotAllItemsShowing: "Ikke alle underordnede noder er vist",
-                    EditorLinkPanelAlert: "Medlemmene har mer enn 1000 elementer under ett eller flere overordnede. Bare den første 1000 elementer vises under hver overordnet.",
-                    NamedSetAlert: "En navngitt sett ikke kan legges til i pivottabellen rapport samtidig som et annet navn basert på det samme feltet. Klikk på OK for å fjerne ' <Set 1> ' heter satt og legge til ' <Set 2> ' heter satt."
+                    EditorLinkPanelAlert: "Medlemmene har mer enn 1000 elementer under en eller flere foreldre. Bare de første 1000 elementene vises under hver forelder.",
+                    NamedSetAlert: "Navngitte sett med samme felt kan ikke legges til PivotTable-rapporten samtidig. Klikk OK for å fjerne '<Set 1>' navngitt sett og legg til '<Set 2>' navngitt sett."
                 };
                 break;
             case "ejDiagram":
@@ -1398,6 +1422,7 @@
                         },
                     },
                     pagesetupDialog: {
+                        close: 'Lukk',
                         paperSize: 'Papirstørrelse',
                         height: 'Høyde',
                         width: 'Bredde',
@@ -1413,6 +1438,41 @@
                         doneButton: 'Ferdig',
                         cancelButton: 'Kansellere'
                     },
+                    credential: {
+                        userName: 'Brukernavn',
+                        password: 'Passord'
+                    },
+                    waterMark: {
+                        selectOption: 'PassSelect Optionword',
+                        selectValue: 'Velg en verdi'
+                    },
+                    errorMessage: {
+                        startMessage: 'Report Viewer oppstod i noen problemer med å laste inn denne rapporten. Vær så snill',
+                        middleMessage: ' Klikk her',
+                        endMessage: 'for å se feildetaljer',
+                        closeMessage: 'Lukk denne meldingen'
+                    },
+                    alertMessage: {
+                        close: 'Lukk',
+                        title: 'Report',
+                        done: 'OK',
+                        showDetails: 'Vis detaljer',
+                        hideDetails: 'Skjul detaljer',
+                        reportLoad: 'Rapporter lastet inn:',
+                        RVERR0001: 'ReportViewer klarte ikke å laste rapporten',
+                        RVERR0002: 'ReportViewer klarte ikke å gjøre rapporten',
+                        RVERR0003: 'Det oppstod en feil i ajax-postback',
+                        RVERR0004: 'Vennligst velg en verdi for parameteren',
+                        RVERR0005: 'Parameteren {parametername} mangler en verdi',
+                        RVERR0006: 'Vennligst gi inntastingsdata for flytdata',
+                        RVERR0007: 'Vennligst oppgi hele datatypeinngangen',
+                        RVERR0008: 'ReportViewer klarte ikke å validere datakildens legitimasjon',
+                        RVERR0009: 'Marginene overlappes, eller de er utenfor papiret. Angi en annen marginalstørrelse.',
+                        RVERR0010: 'Vennligst skriv inn en verdi for parameteren',
+                        RVERR0011: 'Parameteren kan ikke være tom',
+                        RVERR0012: 'Verdien som er oppgitt for rapportparameteren {parameterprompt}, er ikke gyldig for sin type.'
+                    },
+                    selectAll: 'Velg alle',
                     viewButton: "Vis rapport",
                 };
                 break;
@@ -2479,6 +2539,16 @@
                     CreateSparkline: "Buat Sparkline",
                     SelectDataSource: "Pilih julat data sumber untuk sparkline",
                     SPARKLINEDESIGN: "Reka bentuk Sparkline",
+                    CancellationRequested: "Tidak dapat dibuka dalam masa tamat yang ditetapkan",
+                    ImportPreventedOnUnknownFormula: "Fail ini tidak dapat dimuat kerana ia mengandungi formula yang tidak disokong.",
+                    PivotTableName: "Nama PivotTable",
+                    ArrayaFormula: "Anda tidak boleh menukar sebahagian daripada array",
+                    ArrayaFormulaTableAlert: "Rumusan pelbagai sel sel tidak dibenarkan dalam jadual",
+                    ValueFieldSettings: "Tetapan Medan Nilai",
+                    FieldTab: "Nyatakan Nilai Oleh",
+                    SummarizeValue: "Nyatakan Nilai Nilai Oleh",
+                    SummarizeChooseType: "Pilih jenis pengiraan yang anda ingin gunakan untuk meringkaskan data dari medan yang dipilih",
+                    FieldValue: "Nama Sumber:",
                 };
                 break;
 			case "ejTimePicker":

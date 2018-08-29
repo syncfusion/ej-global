@@ -521,6 +521,7 @@
                     ResponsiveFilter: "フィルタ",
                     ResponsiveSorting: "ソート",
                     Search: "サーチ",
+					NumericTextBoxWaterMark: "値を入力します。",
                     DatePickerWaterMark: "日付を選択",
                     EmptyDataSource: "列が自動生成された列のグリッド内のデータソースから生成されるので、データソースは、初期負荷時に空にすることはできません",
                     ForeignKeyAlert: "更新された値は、有効な外部キーの値でなければなりません",
@@ -644,7 +645,26 @@
                     EMF: "EMF",
                     GIF: "GIF",
                     JPG: "JPG",
-                    BMF: "BMF"
+                    BMP: "BMP",
+                    ZoomIn: "ズームイン",
+                    ZoomOut: "ズームアウトする",
+                    Legend: "伝説",
+                    SmartLabels: "スマートラベル",
+                    Interactions: "インタラクション",
+                    Zooming: "ズーミング",
+                    Rotate45: "45 回転",
+                    Rotate90: "90 回転",
+                    Trim: "トリム",
+                    MultipleRows: "複数の行",
+                    Wrap: "ラップ",
+                    Hide: "隠す",
+                    WrapByWord: "単語で囲む",
+                    CrossHair: "クロスヘア",
+                    TrackBall: "トラックボール",
+                    DisableTD: "3Dチャートを無効にする",
+                    None: "なし",
+                    Exception: "例外",
+                    OK: "[OK]",
                 };
                 break;
             case "ejPivotClient":
@@ -751,11 +771,11 @@
                     TreeMap: "ツリーマップ",
                     Alert: "アラート",
                     MDXAlertMsg: "適切な軸の測定、寸法または階層は、 MDX クエリを表示するにはを追加してください。",
-                    FilterSortRowAlertMsg: "寸法行を軸に見つかりませんでした。 ソート / フィルタリング用の行の軸の寸法要素を追加してください。",
-                    FilterSortColumnAlertMsg: "列の軸の寸法が見つかりませんでした。 ソート / フィルタリングするための列の軸の寸法要素を追加してください。",
+                    FilterSortRowAlertMsg: "次元が行軸に見つかりません。並べ替え/フィルタリングのために行軸に寸法要素を追加してください。",
+                    FilterSortColumnAlertMsg: "ディメンションが列軸に見つかりません。並べ替え/フィルタリングのために列軸に寸法要素を追加してください。",
                     FilterSortcolMeasureAlertMsg: "列の軸にメジャーを追加してください。",
                     FilterSortrowMeasureAlertMsg: "行軸にメジャーを追加してください。",
-                    FilterSortElementAlertMsg: "列の軸の要素が見つかりませんでした。 ソート / フィルタリングするための列軸の要素を追加してください。",
+                    FilterSortElementAlertMsg: "要素が列軸に見つかりません。並べ替え/フィルタリングのために列軸に要素を追加してください。",
                     FilterMeasureSelectionAlertMsg: "有効な測定値を選択してください。",
                     FilterConditionAlertMsg: "有効な条件を設定してください。",
                     FilterStartValueAlertMsg: "開始値を設定してください。",
@@ -786,11 +806,11 @@
                     MemberType: "メンバータイプ:",
                     FormatString: "形式文字列:",
                     MultipleMeasure: "1 つ以上の測定はできませんがスライスされています。",
-                    DuplicateCalcMeasure: "同じ名前の計算されたメンバが既に存在している。",
-                    EmptyField: "計算されたメンバー名または式は空にできません。",
+                    DuplicateCalcMeasure: "同じ名前の計算されたメンバーは既に存在します。",
+                    EmptyField: "計算されたメンバー名または式は空であってはなりません。",
                     EmptyFormat: "計算されたメンバの形式の文字列が空になっています。",
                     Warning: "警告",
-                    Confirm: "計算されたメンバが同じ名前ですでに存在しています。 を交換するためにしますか？",
+                    Confirm: "同じ名前の計算されたメンバーはすでに存在します。交換したいですか？",
                     KPIs: "KPI",
 					Collection: "コレクション",
 					Report: "レポート",
@@ -801,8 +821,9 @@
                     Success: "成功",
                     KpiAlertMsg: "移動するには、レポートのそのエリアに配置することはできません、フィールド",
                     NotAllItemsShowing: "すべての子ノードが表示されます。",
-                    EditorLinkPanelAlert: "メンバーには、 1 つまたは複数の親の下に 1000 以上の項目があります。 最初の 1000 アイテムのみがそれぞれの親の下に表示されています。",
-                    NamedSetAlert: "同じフィールドに基づいて別の名前のセットと同じ時間では、ピボットテーブルレポートに名前を設定することはできませんが追加されます。 「 OK 」をクリックして「 ' <Set 1> ' 」という名前のセットと ' <Set 2> ' 「追加」という名前の設定を削除します。"
+                    EditorLinkPanelAlert: "メンバーは、1つまたは複数の親の下に1000を超えるアイテムを持っています。各親の下に最初の1000項目のみが表示されます。",
+                    NamedSetAlert: "同じフィールドの名前付きセットを同時にピボットテーブルレポートに追加することはできません。 OKをクリックしてセットという名前の '<Set 1>'を削除し、セットという名前の '<Set 2>'を追加します。",
+                    Exception: "例外"
                 };
                 break;
             case "ejPivotGauge":
@@ -810,6 +831,7 @@
                 ej.PivotGauge.Locale["ja-JP"] = {
                     RevenueGoal: "収益目標",
                     RevenueValue: "収益値",
+                    Exception: "例外"
                 };
                 break;
             case "ejPager":
@@ -1179,7 +1201,7 @@
                     EmptyField: "計算されたフィールド名または式を入力してください。",
                     NotValid: "指定された式が有効ではありません",
                     NotPresent: "計算されたフィールドの式のいずれかで使用されて値フィールドは、 PivotGrid に存在しません",
-                    Confirm: "計算したのと同じフィールド名はすでに存在します。 を交換するためにしますか？",
+                    Confirm: "同じ名前の計算されたメンバーはすでに存在します。交換したいですか？",
                     CalcValue: "計算されたフィールドの値の領域のフィールドだけを挿入することができます",
                     MultipleItems: "複数のアイテム",
                     All: "すべての",
@@ -1204,7 +1226,8 @@
 					Edit: "編集",
 					DuplicateFormatName: "重複した形式名",
 					NotAllItemsShowing: "すべての子ノードが表示されます。",
-					EditorLinkPanelAlert: "メンバーには、 1 つまたは複数の親の下に 1000 以上の項目があります。 最初の 1000 アイテムのみがそれぞれの親の下に表示されています。"
+					EditorLinkPanelAlert: "メンバーは、1つまたは複数の親の下に1000を超えるアイテムを持っています。各親の下に最初の1000項目のみが表示されます。",
+					Exception: "例外"
                 };
                 break;
             case "ejPivotPager":
@@ -1280,10 +1303,11 @@
                     OK: "OK をクリック",
                     Cancel: "キャンセル",
                     Search: "検索",
+                    Remove: "削除",
                     AddCurrentSelectionToFilter: "フィルタに現在の選択範囲を追加する",
                     NotAllItemsShowing: "すべての子ノードが表示されます。",
-                    EditorLinkPanelAlert: "メンバーには、 1 つまたは複数の親の下に 1000 以上の項目があります。 最初の 1000 アイテムのみがそれぞれの親の下に表示されています。",
-                    NamedSetAlert: "同じフィールドに基づいて別の名前のセットと同じ時間では、ピボットテーブルレポートに名前を設定することはできませんが追加されます。 「 OK 」をクリックして「 ' <Set 1> ' 」という名前のセットと ' <Set 2> ' 「追加」という名前の設定を削除します。"
+                    EditorLinkPanelAlert: "メンバーは、1つまたは複数の親の下に1000を超えるアイテムを持っています。各親の下に最初の1000項目のみが表示されます。",
+                    NamedSetAlert: "同じフィールドの名前付きセットを同時にピボットテーブルレポートに追加することはできません。 OKをクリックしてセットという名前の '<Set 1>'を削除し、セットという名前の '<Set 2>'を追加します。"
                 };
                 break;
             case "ejDiagram":
@@ -1402,6 +1426,7 @@
                         },
                     },
                     pagesetupDialog: {
+                        close: '閉じる',
                         paperSize: '用紙サイズ',
                         height: '高さ',
                         width: '幅',
@@ -1417,6 +1442,41 @@
                         doneButton: '終わりました',
                         cancelButton: 'キャンセル'
                     },
+                    credential: {
+                        userName: 'ユーザー名',
+                        password: 'パスワード'
+                    },
+                    waterMark: {
+                        selectOption: '選択肢を選択',
+                        selectValue: '値を選択'
+                    },
+                    errorMessage: {
+                        startMessage: 'レポートビューアでこのレポートを読み込む際に問題が発生しました。お願いします',
+                        middleMessage: ' ここをクリック',
+                        endMessage: 'エラーの詳細を表示する',
+                        closeMessage: 'このメッセージを閉じる'
+                    },
+                    alertMessage: {
+                        close: '閉じる',
+                        title: 'ReportViewer',
+                        done: 'Ok',
+                        showDetails: '詳細を表示',
+                        hideDetails: '詳細を隠す',
+                        reportLoad: '読み込まれたレポート:',
+                        RVERR0001: 'ReportViewerがレポートの読み込みに失敗しました',
+                        RVERR0002: 'ReportViewerがレポートのレンダリングに失敗しました',
+                        RVERR0003: 'ajaxポストバックでエラーが発生しました',
+                        RVERR0004: 'パラメータの値を選択してください',
+                        RVERR0005: '{parametername}パラメータに値がありません',
+                        RVERR0006: '浮動小数点型のデータ型を入力してください',
+                        RVERR0007: '整数型のデータ型を入力してください',
+                        RVERR0008: 'ReportViewerでデータソースの資格情報を検証できませんでした',
+                        RVERR0009: 'マージンは重複しているか、用紙から外れています。別の余白サイズを入力してください.',
+                        RVERR0010: 'パラメータの値を入力してください',
+                        RVERR0011: 'パラメータは空白にすることはできません',
+                        RVERR0012: 'レポートパラメータ{parameterprompt}に指定された値がその型に対して無効です.'
+                    },
+                    selectAll: 'すべて選択',
                     viewButton: "[レポートの表示",
                 };
                 break;
@@ -2489,6 +2549,16 @@
                     CreateSparkline: "スパークラインの作成",
                     SelectDataSource: "スパークラインのソースデータ範囲を選択する",
                     SPARKLINEDESIGN: "スパークラインデザイン",
+                    CancellationRequested: "指定したタイムアウト内で開くことができませんでした",
+                    ImportPreventedOnUnknownFormula: "サポートされていない数式が含まれているため、このファイルを読み込むことはできません。",
+                    PivotTableName: "ピボットテーブル名",
+                    ArrayaFormula: "あなたは配列の一部を変更することはできません",
+                    ArrayaFormulaTableAlert: "複数のセル配列の式はテーブルでは使用できません",
+                    ValueFieldSettings: "値フィールドの設定",
+                    FieldTab: "値を要約する",
+                    SummarizeValue: "値フィールドを要約する",
+                    SummarizeChooseType: "選択したフィールドのデータを要約するために使用する計算タイプを選択します",
+                    FieldValue: "ソース名：",
                 };
                 break;
 			case "ejTimePicker":

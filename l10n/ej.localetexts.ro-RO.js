@@ -521,6 +521,7 @@
                     ResponsiveFilter: "Filtru",
                     ResponsiveSorting: "Fel",
                     Search: "Căutare",
+					NumericTextBoxWaterMark: "Introdu o valoare",
                     DatePickerWaterMark: "Selectați data",
                     EmptyDataSource: "DataSource nu trebuie să fie gol la sarcină inițială, deoarece coloanele sunt generate de DATASOURCE în AutoGenerat Coloana grilă",
                     ForeignKeyAlert: "Valoarea actualizată ar trebui să fie o valoare cheie externă validă",
@@ -642,7 +643,26 @@
                     EMF: "EMF",
                     GIF: "GIF",
                     JPG: "JPG",
-                    BMF: "BMF"
+                    BMP: "BMP",
+                    ZoomIn: "Zoom În",
+                    ZoomOut: "Zoom Afară",
+                    Legend: "Legenda",
+                    SmartLabels: "Etichete inteligente",
+                    Interactions: "Interacțiuni",
+                    Zooming: "Zoom",
+                    Rotate45: "Rotiți45",
+                    Rotate90: "Rotiți90",
+                    Trim: "Caroserie",
+                    MultipleRows: "Rânduri multiple",
+                    Wrap: "Înfășurați",
+                    Hide: "Ascunde",
+                    WrapByWord: "Înfășurați prin cuvânt",
+                    CrossHair: "Părul transversal",
+                    TrackBall: "Pin bila",
+                    DisableTD: "Dezactivați diagramele 3D",
+                    None: "Nici unul",
+                    Exception: "Exceptia",
+                    OK: "bine"
                 };
                 break;
             case "ejPivotClient":
@@ -749,11 +769,11 @@
                     TreeMap: "Copac hartă",
                     Alert: "Alertă",
                     MDXAlertMsg: "Vă rugăm să adăugaţi o măsură, cota sau ierarhie în axa corespunzătoare pentru a vizualiza MDX Query.",
-                    FilterSortRowAlertMsg: "Cota nu este găsit în axa de rând. Vă rugăm să adăugaţi cota element în axa de rând pentru sortarea/de filtrare.",
-                    FilterSortColumnAlertMsg: "Cota nu este găsit în coloana axa. Vă rugăm să adăugaţi cota axa element în coloana pentru sortarea/de filtrare.",
+                    FilterSortRowAlertMsg: "Dimensiunea nu se găsește în axa rândului. Adăugați elementul Dimensiune în axa rândului pentru sortare / filtrare.",
+                    FilterSortColumnAlertMsg: "Dimensiunea nu se găsește în axa coloanei. Adăugați elementul dimensional în axa coloanei pentru sortare / filtrare.",
                     FilterSortcolMeasureAlertMsg: "Vă rugăm să adăugaţi măsuraţi la axa coloanei",
                     FilterSortrowMeasureAlertMsg: "Vă rugăm să adăugaţi măsuraţi la axa de rând",
-                    FilterSortElementAlertMsg: "Elementul nu a găsit în coloana axa. Vă rugăm să adăugaţi un element în coloana pentru axa sortarea/de filtrare.",
+                    FilterSortElementAlertMsg: "Elementul nu se găsește în axa coloanei. Adăugați un element în axa coloanei pentru sortare / filtrare.",
                     FilterMeasureSelectionAlertMsg: "Vă rugăm să selectaţi o măsură validă.",
                     FilterConditionAlertMsg: "Vă rugăm să setaţi o stare validă.",
                     FilterStartValueAlertMsg: "Vă rugăm să setaţi o valoare de pornire.",
@@ -785,10 +805,10 @@
                     FormatString: "Şirul de format:",
                     MultipleMeasure: "Mai mult de o masura nu poate fi feliată.",
                     DuplicateCalcMeasure: "Calculează Membru cu acelaşi nume există deja.",
-                    EmptyField: "Calculează numele de membru sau de exprimare nu poate fi gol.",
+                    EmptyField: "Numele de membru sau Expresia calculată nu trebuie să fie goale.",
                     EmptyFormat: "Şirul de format pentru statele calculată este gol.",
                     Warning: "Avertisment",
-                    Confirm: "Calculează Statele cu acelaşi nume există deja. Datorită doriţi să ÎNLOCUIŢI?",
+                    Confirm: "Membru calificat cu același nume există deja. Vrei sa inlocuiesti?",
                     KPIs: "KPI-uri",
 					Collection: "Colectarea",
 					Report: "Raport",
@@ -799,8 +819,9 @@
                     Success: "Succes",
                     KpiAlertMsg: "Câmpul de mişcare nu poate fi plasat în zona de raport",
                     NotAllItemsShowing: "Nu toate nodurile copil sunt afișate",
-                    EditorLinkPanelAlert: "Membrii are mai mult de 1000 de obiecte sub una sau mai multe părinte. Numai primele 1000 de elemente sunt afișate sub fiecare părinte.",
-                    NamedSetAlert: "Un named setat nu poate fi adăugat la raportul PivotTable în același timp cu un alt numit set bazate pe același câmp. Faceți clic pe OK pentru a elimina ' <Set 1> ' numit set și adăugați ' <Set 2> ' numit set."
+                    EditorLinkPanelAlert: "Membrii au mai mult de 1000 de articole sub unul sau mai mulți părinți. Numai primele 1000 de elemente sunt afișate sub fiecare părinte.",
+                    NamedSetAlert: "Seturi de același câmp numite nu pot fi adăugate în raportul PivotTable în același timp. Faceți clic pe OK pentru a elimina setul numit <Set 1> și adăugați setul numit <Set 2>.",
+                    Exception: "Exceptia"
                 };
                 break;
             case "ejPivotGauge":
@@ -808,6 +829,7 @@
                 ej.PivotGauge.Locale["ro-RO"] = {
                     RevenueGoal: "venituri Obiectiv",
                     RevenueValue: "Valoarea veniturilor",
+                    Exception: "Exceptia"
                 };
                 break;
             case "ejPager":
@@ -1177,7 +1199,7 @@
                     EmptyField: "Vă rugăm să introduceţi numele câmpului de calculat sau formula",
                     NotValid: "Formula dat nu este validă",
                     NotPresent: "Câmpul Valoare utilizate în orice formula de calculat câmp nu este prezent în PivotGrid",
-                    Confirm: "Calculat câmp cu acelaşi nume există deja. Datorită doriţi să înlocuiţi ?",
+                    Confirm: "Membru calificat cu același nume există deja. Vrei sa inlocuiesti?",
                     CalcValue: "Calculat câmp poate fi introdusă numai în zona de valoare de câmp",
                     MultipleItems: "Mai multe elemente",
                     All: "Toate",
@@ -1202,7 +1224,8 @@
 					Edit: "Editare",
 					DuplicateFormatName: "Format de Duplicat nume",
 					NotAllItemsShowing: "Nu toate nodurile copil sunt afișate",
-					EditorLinkPanelAlert: "Membrii are mai mult de 1000 de obiecte sub una sau mai multe părinte. Numai primele 1000 de elemente sunt afișate sub fiecare părinte."
+					EditorLinkPanelAlert: "Membrii au mai mult de 1000 de articole sub unul sau mai mulți părinți. Numai primele 1000 de elemente sunt afișate sub fiecare părinte.",
+					Exception: "Exceptia"
                 };
                 break;
             case "ejPivotPager":
@@ -1277,10 +1300,11 @@
                     OK: "OK",
                     Cancel: "Anula",
                     Search: "Căutare",
+                    Remove: "Demontaţi",
                     AddCurrentSelectionToFilter: "Adaugă selecția curentă pentru a filtra",
                     NotAllItemsShowing: "Nu toate nodurile copil sunt afișate",
                     EditorLinkPanelAlert: "Membrii are mai mult de 1000 de obiecte sub una sau mai multe părinte. Numai primele 1000 de elemente sunt afișate sub fiecare părinte.",
-                    NamedSetAlert: "Un named setat nu poate fi adăugat la raportul PivotTable în același timp cu un alt numit set bazate pe același câmp. Faceți clic pe OK pentru a elimina ' <Set 1> ' numit set și adăugați ' <Set 2> ' numit set."
+                    NamedSetAlert: "Seturi de același câmp numite nu pot fi adăugate în raportul PivotTable în același timp. Faceți clic pe OK pentru a elimina setul numit <Set 1> și adăugați setul numit <Set 2>."
                 };
                 break;
             case "ejDiagram":
@@ -1399,6 +1423,7 @@
                         },
                     },
                     pagesetupDialog: {
+                        close: 'Închide',
                         paperSize: 'Dimensiunea hartie',
                         height: 'Înălţime',
                         width: 'Lăţime',
@@ -1414,6 +1439,41 @@
                         doneButton: 'Terminat',
                         cancelButton: 'Anulare'
                     },
+                    credential: {
+                        userName: 'Nume de utilizator',
+                        password: 'Parola'
+                    },
+                    waterMark: {
+                        selectOption: 'Selectați opțiunea',
+                        selectValue: 'Selectați o valoare'
+                    },
+                    errorMessage: {
+                        startMessage: 'Report Viewer a întâmpinat unele probleme legate de încărcarea acestui raport. Vă rog',
+                        middleMessage: ' Click aici',
+                        endMessage: 'pentru a vedea detaliile de eroare',
+                        closeMessage: 'Închideți acest mesaj'
+                    },
+                    alertMessage: {
+                        close: 'Închide',
+                        title: 'ReportViewer',
+                        done: 'O.K',
+                        showDetails: 'Arata detaliile',
+                        hideDetails: 'Ascunde detaliile',
+                        reportLoad: 'Raportați încărcate:',
+                        RVERR0001: 'ReportViewer nu a reușit să încarce raportul',
+                        RVERR0002: 'ReportViewer nu a reda raportul',
+                        RVERR0003: 'A apărut o eroare la ajax postback',
+                        RVERR0004: 'Selectați o valoare pentru parametru',
+                        RVERR0005: 'Parametrul {parameturname} lipsește o valoare',
+                        RVERR0006: 'Introduceți tipul de date de tip float',
+                        RVERR0007: 'Indicați intrarea tipului de date întreg',
+                        RVERR0008: 'ReportViewer nu a reușit să valideze datele de acreditare Datasource',
+                        RVERR0009: 'Marginile sunt suprapuse sau sunt în afara hârtiei. Introduceți o altă marjă de marjă.',
+                        RVERR0010: 'Introduceți o valoare pentru parametru',
+                        RVERR0011: 'Parametrul nu poate fi gol',
+                        RVERR0012: 'Valoarea furnizată pentru parametrul de raport {parameterprompt} nu este validă pentru tipul său.'
+                    },
+                    selectAll: 'Selectează tot',
                     viewButton: "Vizualizează raportul",
                 };
                 break;
@@ -2486,6 +2546,16 @@
                     CreateSparkline: "Creați Sparkline",
                     SelectDataSource: "Selectați un interval de date sursă pentru linia de declanșare",
                     SPARKLINEDESIGN: "Sparkline Design",
+                    CancellationRequested: "Nu s-ar putea deschide în intervalul de timp specificat",
+                    ImportPreventedOnUnknownFormula: "Acest fișier nu poate fi încărcat, deoarece conține formule neacceptate.",
+                    PivotTableName: "Nume pivot",
+                    ArrayaFormula: "Nu puteți schimba o parte dintr-o matrice",
+                    ArrayaFormulaTableAlert: "Formulele de matrice cu mai multe celule nu sunt permise în tabele",
+                    ValueFieldSettings: "Setări câmp valoare",
+                    FieldTab: "Rezumați valorile prin",
+                    SummarizeValue: "Rezumați câmpul de valoare prin",
+                    SummarizeChooseType: "Alegeți tipul de calcul pe care doriți să îl utilizați pentru a rezuma datele din câmpul selectat",
+                    FieldValue: "Numele sursei:",
                 };
                 break;
 			case "ejTimePicker":

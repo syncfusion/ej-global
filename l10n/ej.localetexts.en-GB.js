@@ -384,14 +384,34 @@
                     EMF: "EMF",
                     GIF: "GIF",
                     JPG: "JPG",
-                    BMF: "BMF"
+                    BMP: "BMP",
+                    ZoomIn: "Zoom In",
+                    ZoomOut: "Zoom Out",
+                    Legend: "Legend",
+                    SmartLabels: "Smart Labels",
+                    Interactions: "Interactions",
+                    Zooming: "Zooming",
+                    Rotate45: "Rotate45",
+                    Rotate90: "Rotate90",
+                    Trim: "Trim",
+                    MultipleRows: "Multiple Rows",
+                    Wrap: "Wrap",
+                    Hide: "Hide",
+                    WrapByWord: "Wrap By word",
+                    CrossHair: "Cross Hair",
+                    TrackBall: "Track Ball",
+                    DisableTD: "Disable 3D Charts",
+                    None: "None",
+                    Exception: "Exception",
+                    OK: "OK"
                 };
                 break;
             case "ejPivotGauge":
                 ej.PivotGauge.Locale = ej.PivotGauge.Locale || {};
                 ej.PivotGauge.Locale["en-GB"] = {
                     RevenueGoal: "Revenue Goal",
-                    RevenueValue: "Revenue Value"
+                    RevenueValue: "Revenue Value",
+                    Exception: "Exception"
                 };
                 break;
             case "ejPivotSchemaDesigner":
@@ -458,10 +478,11 @@
                     Cancel: "Cancel",
                     Close: "Close",
                     Search: "Search",
+                    Remove: "Remove",
                     AddCurrentSelectionToFilter: "Ychwanegwch y dewis cyfredol i hidlo",
                     NotAllItemsShowing: "Not all child nodes are shown",
-                    EditorLinkPanelAlert: "The members has more than 1000 items under one or more parent. Only the first 1000 items are displayed under each parent.",
-                    NamedSetAlert: "A named set cannot be added to the PivotTable report at the same time as another named set based on the same field. Click OK to remove ' <Set 1> ' named set and add ' <Set 2> ' named set."
+                    EditorLinkPanelAlert: "The members have more than 1000 items under one or more parent. Only the first 1000 items are displayed under each parent.",
+                    NamedSetAlert: "Named sets of same field cannot be added to the PivotTable report at the same time. Click OK to remove ' <Set 1> ' named set and add ' <Set 2> ' named set."
                 };
                 break;
             case "ejPivotPager":
@@ -484,13 +505,13 @@
                     emptyRecord: "No records to display",
                     unassignedTask: "Unassigned Task",
                     alertTexts: {
-                        indentAlert: "There is no gantt record is selected to perform the Indent",
-                        outdentAlert: "There is no gantt record is selected to perform the Outdent",
-                        predecessorEditingValidationAlert: "Cyclic Dependency Occured, Please Check The Predecessor",
+                        indentAlert: "There is no Gantt record is selected to perform the indent",
+                        outdentAlert: "There is no Gantt record is selected to perform the outdent",
+                        predecessorEditingValidationAlert: "Cyclic dependency occurred, please check the predecessor",
                         predecessorAddingValidationAlert: "Fill all the columns in predecessor table",
                         idValidationAlert: "Duplicate ID",
-                        dateValidationAlert: "Invalid End date",
-                        dialogResourceAlert: "Fill All the columns in resource table"
+                        dateValidationAlert: "Invalid end date",
+                        dialogResourceAlert: "Fill all the columns in resource table"
                     },
 
                     //headerText to be displayed in treegrid
@@ -668,7 +689,7 @@
 
                    
                     linkValidationRuleOptions: {
-                        cancel: "Cancel, Keep the existing link",
+                        cancel: "Cancel, keep the existing link",
                         removeLink: "Remove the link and move '{0}' to start on '{1}'.",
                         preserveLink: "Move the '{0}' to start on '{1}' and keep the link." 
                     },
@@ -863,7 +884,7 @@
                     EmptyField: "Please enter Calculated field name or formula",
                     NotValid: "Given formula is not valid",
                     NotPresent: "Value field used in any of the Calculated Field formula is not present in the PivotGrid",
-                    Confirm: "Calculated field with the same name already exists. Due to want to Replace ?",
+                    Confirm: "Calculated Member with the same name already exists. Do you want to replace?",
                     CalcValue: "Calculated field can be inserted only in value area field",
                     MultipleItems: "Multiple items",
                     All: "All",
@@ -888,16 +909,17 @@
                     Edit: "Edit",
                     DuplicateFormatName: "Duplicate Format Name",
                     NotAllItemsShowing: "Not all child nodes are shown",
-                    EditorLinkPanelAlert: "The members has more than 1000 items under one or more parent. Only the first 1000 items are displayed under each parent."
+                    EditorLinkPanelAlert: "The members have more than 1000 items under one or more parent. Only the first 1000 items are displayed under each parent.",
+                    Exception: "Exception"
                 };
                 break;
             case "ejPivotClient":
                 ej.PivotClient.Locale = ej.PivotClient.Locale || {};
                 ej.PivotClient.Locale["en-GB"] = {
-                    DoesNotBeginsWith: "Does Not Begins With",
-                    DoesNotEndsWith: "Does Not Ends With",
-                    DoesNotContains: "Does Not Contains",
-                    DoesNotEquals: "Does Not Equals",
+                    DoesNotBeginsWith: "Does Not Begin With",
+                    DoesNotEndsWith: "Does Not End With",
+                    DoesNotContains: "Does Not Contain",
+                    DoesNotEquals: "Does Not Equal",
                     IsGreaterThan: "Is Greater Than",
                     IsGreaterThanOrEqualTo: "Is Greater Than Or Equal To",
                     IsLessThan: "Is Less Than",
@@ -939,7 +961,7 @@
                     CubeDimensionBrowser: "Cube Dimension Browser",
                     AddReport: "Add Report",
                     RemoveReport: "Remove Report",
-                    CannotRemoveSingleReport: "Can not remove single report",
+                    CannotRemoveSingleReport: "Cannot remove single report",
                     AreYouSureToDeleteTheReport: "Are you sure to delete the Report",
                     RenameReport: "Rename Report",
                     ChartTypes: "Chart Types",
@@ -1003,12 +1025,12 @@
                     WaterFall: "WaterFall",
                     TreeMap: "TreeMap",
                     Alert: "Alert",
-                    MDXAlertMsg: "Please add a measure, dimension or hierarchy in an appropriate axis to view the MDX Query.",
-                    FilterSortRowAlertMsg: "Dimension not found in row axis. Please add Dimension element in row axis for sorting/filtering.",
-                    FilterSortColumnAlertMsg: "Dimension not found in column axis. Please add Dimension element in column axis for sorting/filtering.",
-                    FilterSortcolMeasureAlertMsg: "Please add measure to the Column axis",
-                    FilterSortrowMeasureAlertMsg: "Please add measure to the Row axis",
-                    FilterSortElementAlertMsg: "Element not found in column axis. Please add an element in column axis for sorting/filtering.",
+                    MDXAlertMsg: "Please add a measure, dimension, or hierarchy in an appropriate axis to view the MDX Query.",
+                    FilterSortRowAlertMsg: "Dimension is not found in the row axis. Please add Dimension element in the row axis for sorting/filtering.",
+                    FilterSortColumnAlertMsg: "Dimension is not found in the column axis. Please add Dimension element in the column axis for sorting/filtering.",
+                    FilterSortcolMeasureAlertMsg: "Please add measure to the column axis",
+                    FilterSortrowMeasureAlertMsg: "Please add measure to the row axis",
+                    FilterSortElementAlertMsg: "Element is not found in the column axis. Please add an element in column axis for sorting/filtering.",
                     FilterMeasureSelectionAlertMsg: "Please select a valid measure.",
                     FilterConditionAlertMsg: "Please set a valid condition.",
                     FilterStartValueAlertMsg: "Please set a start value.",
@@ -1039,11 +1061,11 @@
                     MemberType: "MemberType:",
                     FormatString: "Format String:",
                     MultipleMeasure: "More than one measure cannot be sliced.",
-                    DuplicateCalcMeasure: "Calculated Member with same name already exist.",
-                    EmptyField: "Calculated Member name or Expression cannot be empty.",
+                    DuplicateCalcMeasure: "Calculated Member with same name already exists.",
+                    EmptyField: "Calculated Member name or Expression should not be empty.",
                     EmptyFormat: "Format String for Calculated Member is empty.",
                     Warning: "Warning",
-                    Confirm: "Calculated Member with the same name already exists. Due to want to Replace?",
+                    Confirm: "Calculated Member with the same name already exists. Do you want to replace?",
                     KPIs: "KPIs",
 					Collection: "Collection",
 					Report: "Report",
@@ -1054,8 +1076,9 @@
                     Success: "Success",
                     KpiAlertMsg: "The field you are moving cannot be placed in that area of the report",
                     NotAllItemsShowing: "Not all child nodes are shown",
-                    EditorLinkPanelAlert: "The members has more than 1000 items under one or more parent. Only the first 1000 items are displayed under each parent.",
-                    NamedSetAlert: "A named set cannot be added to the PivotTable report at the same time as another named set based on the same field. Click OK to remove ' <Set 1> ' named set and add ' <Set 2> ' named set."
+                    EditorLinkPanelAlert: "The members have more than 1000 items under one or more parent. Only the first 1000 items are displayed under each parent.",
+                    NamedSetAlert: "Named sets of same field cannot be added to the PivotTable report at the same time. Click OK to remove ' <Set 1> ' named set and add ' <Set 2> ' named set.",
+                    Exception: "Exception"
                 };
                 break;
             case "ejAutocomplete":
@@ -1577,10 +1600,10 @@
                     group: "Group",
                     ungroup: "UnGroup",
                     order: "Order",
-                    bringToFront: "BringToFront",
-                    moveForward: "MoveForward",
-                    sendToBack: "SendToBack",
-                    sendBackward: "SendBackward"
+                    bringToFront: "Bring To Front",
+                    moveForward: "Move Forward",
+                    sendToBack: "Send To Back",
+                    sendBackward: "Send Backward"
                 };
                 break;
             case "ejChart":
@@ -1702,6 +1725,7 @@
                         }
                     },
                     pagesetupDialog: {
+                        close: 'Close',
                         paperSize: 'Paper Sise',
                         height: 'Height',
                         width: 'Width',
@@ -1717,6 +1741,41 @@
                         doneButton: 'Done',
                         cancelButton: 'Cancel'
                     },
+                    credential: {
+                        userName: 'Username',
+                        password: 'Password'
+                    },
+                    waterMark: {
+                        selectOption: 'Select Option',
+                        selectValue: 'Select a value'
+                    },
+                    errorMessage: {
+                        startMessage: 'Report Viewer encountered some issues loading this report. Please',
+                        middleMessage: ' Click here',
+                        endMessage: 'to see the error details',
+                        closeMessage: 'Close this message'
+                    },
+                    alertMessage: {
+                        close: 'Close',
+                        title: 'ReportViewer',
+                        done: 'OK',
+                        showDetails: 'Show details',
+                        hideDetails: 'Hide Details',
+                        reportLoad: 'Report Loaded:',
+                        RVERR0001: 'ReportViewer failed to load the Report',
+                        RVERR0002: 'ReportViewer failed to render the Report',
+                        RVERR0003: 'An error occurred in ajax postback',
+                        RVERR0004: 'Please select a value for the parameter',
+                        RVERR0005: 'The {parametername} parameter is missing a value',
+                        RVERR0006: 'Please give the float data type input',
+                        RVERR0007: 'Please give the integer data type input',
+                        RVERR0008: 'ReportViewer failed to validate the Datasource credentials',
+                        RVERR0009: 'The margins are overlapped or they are off the paper. Enter a different margin size.',
+                        RVERR0010: 'Please enter a value for the parameter',
+                        RVERR0011: 'The parameter cannot be blank',
+                        RVERR0012: 'The value provided for the report parameter {parameterprompt} is not valid for its type.'
+                    },
+                    selectAll: 'Select All',
                     viewButton: 'View Report'
                 };
                 break;
@@ -2639,6 +2698,16 @@
                     CreateSparkline: "Create Sparkline",
                     SelectDataSource: "Select a source data range for the sparkline",
                     SPARKLINEDESIGN: "Sparkline Design",
+                    CancellationRequested: "Could Not open within the timeout specified",
+                    ImportPreventedOnUnknownFormula: "This file cannot be loaded since it contains unsupported formulas.",
+                    PivotTableName: "PivotTable Name",
+                    ArrayaFormula: "You cant change part of an array",
+                    ArrayaFormulaTableAlert: "Multi-cell array formulas are not allowed in tables",
+                    ValueFieldSettings: "Value Field Settings",
+                    FieldTab: "Summarize Values By",
+                    SummarizeValue: "Summarize Value Field By",
+                    SummarizeChooseType: "Choose the type of calculation that you want to use to summarize data from the selected field",
+                    FieldValue: "Source Name:",
                 };
                 break;
             case "ejUploadbox":

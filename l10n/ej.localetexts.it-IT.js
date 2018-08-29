@@ -521,6 +521,7 @@
                     ResponsiveFilter: "Filtro",
                     ResponsiveSorting: "Ordinare",
                     Search: "Ricerca",
+					NumericTextBoxWaterMark: "Inserire il valore",
                     DatePickerWaterMark: "Seleziona la data",
                     EmptyDataSource: "DataSource non deve essere vuoto al carico iniziale poiché le colonne sono generate da dataSource in Generazione automatica griglia Colonna",
                     ForeignKeyAlert: "Il valore aggiornato deve essere un valore chiave esterna valido",
@@ -644,7 +645,26 @@
                     EMF: "EMF",
                     GIF: "GIF",
                     JPG: "JPG",
-                    BMF: "BMF"
+                    BMP: "BMP",
+                    ZoomIn: "ingrandire",
+                    ZoomOut: "Zoom indietro",
+                    Legend: "Leggenda",
+                    SmartLabels: "Etichette intelligenti",
+                    Interactions: "interazioni",
+                    Zooming: "Zoom",
+                    Rotate45: "Ruotare45",
+                    Rotate90: "Ruotare90",
+                    Trim: "tagliare",
+                    MultipleRows: "Righe multiple",
+                    Wrap: "avvolgere",
+                    Hide: "Nascondere",
+                    WrapByWord: "Avvolgere a parole",
+                    CrossHair: "Croce di capelli",
+                    TrackBall: "Via Sfera",
+                    DisableTD: "Disabilita grafici 3D",
+                    None: "Nessuna",
+                    Exception: "Eccezione",
+                    OK: "ok"
                 };
                 break;
             case "ejPivotClient":
@@ -751,11 +771,11 @@
                     TreeMap: "TreeMap",
                     Alert: "Avviso",
                     MDXAlertMsg: "Si prega di aggiungere una misura, di dimensione o di gerarchia in un asse appropriato per visualizzare la query MDX.",
-                    FilterSortRowAlertMsg: "Dimensione non è stato trovato nella riga asse. Si prega di aggiungere la Dimensione elemento di asse di riga per ordinamento/filtraggio.",
-                    FilterSortColumnAlertMsg: "La dimensione non trovato nella colonna asse. Si prega di aggiungere la Dimensione elemento di asse di colonna per ordinare/filtraggio.",
+                    FilterSortRowAlertMsg: "La quota non è stata trovata nell'asse delle righe. Aggiungi elemento dimensione nell'asse delle righe per ordinare / filtrare.",
+                    FilterSortColumnAlertMsg: "La dimensione non è stata trovata nell'asse della colonna. Aggiungi elemento dimensione nell'asse della colonna per ordinare / filtrare.",
                     FilterSortcolMeasureAlertMsg: "Si prega di aggiungere misurare all'asse della colonna",
                     FilterSortrowMeasureAlertMsg: "Si prega di aggiungere misurare per l'asse di riga",
-                    FilterSortElementAlertMsg: "Elemento non trovato nella colonna asse. Si prega di aggiungere un elemento nella colonna asse per ordinamento/filtraggio.",
+                    FilterSortElementAlertMsg: "L'elemento non si trova nell'asse della colonna. Si prega di aggiungere un elemento nell'asse delle colonne per l'ordinamento / il filtrare.",
                     FilterMeasureSelectionAlertMsg: "Si prega di selezionare una misura valida.",
                     FilterConditionAlertMsg: "Vi preghiamo di impostare una condizione valida.",
                     FilterStartValueAlertMsg: "Vi preghiamo di impostare un valore iniziale.",
@@ -787,10 +807,10 @@
                     FormatString: "Stringa di formato:",
                     MultipleMeasure: "Più di una misura non può essere tagliato a fette.",
                     DuplicateCalcMeasure: "Membro calcolato con lo stesso nome già esiste.",
-                    EmptyField: "Calcolate il nome membro o di espressione non può essere vuoto.",
+                    EmptyField: "Il nome del membro calcolato o espressione deve essere vuoto.",
                     EmptyFormat: "Stringa di formato per membro calcolato è vuota.",
                     Warning: "Avvertenza",
-                    Confirm: "Membro calcolato con lo stesso nome esiste già. A causa desidera sostituire?",
+                    Confirm: "Il membro calcolato con lo stesso nome esiste già. Vuoi sostituire?",
                     KPIs: "KPI",
 					Collection: "Raccolta",
 					Report: "rapporto",
@@ -802,7 +822,8 @@
                     KpiAlertMsg: "Il campo che si sta spostando non può essere collocato in quella zona della relazione",
                     NotAllItemsShowing: "Non tutti i nodi figlio sono mostrati",
                     EditorLinkPanelAlert: "I membri ha più di mille voci sotto uno o più genitore. Solo i primi 1000 voci vengono visualizzate sotto ciascuna società madre.",
-                    NamedSetAlert: "Il nome di un insieme non possono essere aggiunti al report PivotTable allo stesso tempo come un altro set denominato basato sullo stesso campo. Fare clic su OK per rimuovere ' <Set 1> ' denominato set e aggiungere ' <Set 2> ' set denominato."
+                    NamedSetAlert: "Gli insiemi con nome dello stesso campo non possono essere aggiunti contemporaneamente al rapporto di tabella pivot. Fare clic su OK per rimuovere '<Set 1>' denominato set e aggiungere '<Set 2>' named set.",
+                    Exception: "Eccezione"
                 };
                 break;
             case "ejPivotGauge":
@@ -810,6 +831,7 @@
                 ej.PivotGauge.Locale["it-IT"] = {
                     RevenueGoal: "entrate Goal",
                     RevenueValue: "entrate Valore",
+                    Exception: "Eccezione"
                 };
                 break;
             case "ejPager":
@@ -1179,7 +1201,7 @@
                     EmptyField: "Immettere campo calcolato nome o formula",
                     NotValid: "Data la formula non è valida",
                     NotPresent: "Campo valore usato in qualsiasi campo calcolato formula non è presente nell'PivotGrid",
-                    Confirm: "Campo calcolato con lo stesso nome esiste già. A causa desidera sostituire ?",
+                    Confirm: "Il membro calcolato con lo stesso nome esiste già. Vuoi sostituire?",
                     CalcValue: "Campo calcolato può essere inserita solo in valore campo area",
                     MultipleItems: "Più elementi",
                     All: "Tutti",
@@ -1204,7 +1226,8 @@
                     Edit: "Modifica",
                     DuplicateFormatName: "Duplica nome formato",
                     NotAllItemsShowing: "Non tutti i nodi figlio sono mostrati",
-                    EditorLinkPanelAlert: "I membri ha più di mille voci sotto uno o più genitore. Solo i primi 1000 voci vengono visualizzate sotto ciascuna società madre."
+                    EditorLinkPanelAlert: "I membri ha più di mille voci sotto uno o più genitore. Solo i primi 1000 voci vengono visualizzate sotto ciascuna società madre.",
+                    Exception: "Eccezione"
                 };
                 break;
 
@@ -1278,9 +1301,10 @@
                     OK: "OK",
                     Cancel: "Annulla",
                     Search: "Ricerca",
+                    Remove: "Staccare",
                     NotAllItemsShowing: "Non tutti i nodi figlio sono mostrati",
                     EditorLinkPanelAlert: "I membri ha più di mille voci sotto uno o più genitore. Solo i primi 1000 voci vengono visualizzate sotto ciascuna società madre.",
-                    NamedSetAlert: "Il nome di un insieme non possono essere aggiunti al report PivotTable allo stesso tempo come un altro set denominato basato sullo stesso campo. Fare clic su OK per rimuovere ' <Set 1> ' denominato set e aggiungere ' <Set 2> ' set denominato."
+                    NamedSetAlert: "Gli insiemi con nome dello stesso campo non possono essere aggiunti contemporaneamente al rapporto di tabella pivot. Fare clic su OK per rimuovere '<Set 1>' denominato set e aggiungere '<Set 2>' named set."
                 };
                 break;
             case "ejDiagram":
@@ -1399,6 +1423,7 @@
                         },
                     },
                     pagesetupDialog: {
+                        close: 'Vicino',
                         paperSize: 'Misura del foglio',
                         height: 'Altezza',
                         width: 'Larghezza',
@@ -1414,6 +1439,41 @@
                         doneButton: 'Fatto',
                         cancelButton: 'Annulla'
                     },
+                    credential: {
+                        userName: 'Nome utente',
+                        password: "Parola d'ordine"
+                    },
+                    waterMark: {
+                        selectOption: "Selezionare l'opzione",
+                        selectValue: 'Selezionare un valore'
+                    },
+                    errorMessage: {
+                        startMessage: 'Report Viewer ha riscontrato alcuni problemi durante il caricamento di questo report. per favore',
+                        middleMessage: ' Clicca qui',
+                        endMessage: "per vedere i dettagli dell'errore",
+                        closeMessage: 'Chiudi questo messaggio'
+                    },
+                    alertMessage: {
+                        close: 'Vicino',
+                        title: 'ReportViewer',
+                        done: 'OK',
+                        showDetails: 'Mostra dettagli',
+                        hideDetails: 'Nascondere dettagli',
+                        reportLoad: 'Rapporto caricato:',
+                        RVERR0001: 'ReportViewer non è riuscito a caricare il report',
+                        RVERR0002: 'ReportViewer non è riuscito a rendere il report',
+                        RVERR0003: 'Si è verificato un errore nel postback ajax',
+                        RVERR0004: 'Si prega di selezionare un valore per il parametro',
+                        RVERR0005: 'Il parametro {parametername} non ha un valore',
+                        RVERR0006: 'Si prega di fornire il tipo di dati float di input',
+                        RVERR0007: 'Si prega di dare il tipo di dati interi di input',
+                        RVERR0008: "ReportViewer non è riuscito a convalidare le credenziali dell'origine dati",
+                        RVERR0009: 'I margini sono sovrapposti o sono fuori carta. Inserisci una dimensione di margine diversa.',
+                        RVERR0010: 'Si prega di inserire un valore per il parametro',
+                        RVERR0011: 'Il parametro non può essere vuoto',
+                        RVERR0012: 'Il valore fornito per il parametro del report {parameterprompt} non è valido per il suo tipo.'
+                    },
+                    selectAll: 'Seleziona tutto',
                     viewButton: "Visualizza rapporto",
                 };
                 break;
@@ -2482,6 +2542,16 @@
                     CreateSparkline: "Crea Sparkline",
                     SelectDataSource: "Seleziona un intervallo di dati di origine per la sparkline",
                     SPARKLINEDESIGN: "Sparkline Design",
+                    CancellationRequested: "Impossibile aprire entro il timeout specificato",
+                    ImportPreventedOnUnknownFormula: "Questo file non può essere caricato poiché contiene formule non supportate.",
+                    PivotTableName: "Nome tabella pivot",
+                    ArrayaFormula: "Non puoi cambiare parte di un array",
+                    ArrayaFormulaTableAlert: "Le formule di matrice multicellulare non sono consentite nelle tabelle",
+                    ValueFieldSettings: "Impostazioni del campo valore",
+                    FieldTab: "Riassumi i valori di",
+                    SummarizeValue: "Riepiloga valore campo di",
+                    SummarizeChooseType: "Scegliere il tipo di calcolo che si desidera utilizzare per riepilogare i dati dal campo selezionato",
+                    FieldValue: "Nome sorgente:",
                 };
                 break;
             case "ejTimePicker":

@@ -521,6 +521,7 @@
                     ResponsiveFilter: "Filtrera",
                     ResponsiveSorting: "Sortera",
                     Search: "Sök",
+					NumericTextBoxWaterMark: "Ange värde",
                     DatePickerWaterMark: "Välj datum",
                     EmptyDataSource: "Datasource får inte vara tom vid första belastning eftersom kolumner genereras från datakälla i Autogenererad Kolumn Grid",
                     ForeignKeyAlert: "Det uppdaterade värdet bör vara ett giltigt främmande nyckel värde",
@@ -643,7 +644,26 @@
                     EMF: "EMF",
                     GIF: "GIF",
                     JPG: "JPG",
-                    BMF: "BMF"
+                    BMP: "BMP",
+                    ZoomIn: "Zooma in",
+                    ZoomOut: "Zooma ut",
+                    Legend: "Förklaring",
+                    SmartLabels: "Smarta etiketter",
+                    Interactions: "Interaktioner",
+                    Zooming: "Zoomning",
+                    Rotate45: "Vrid45",
+                    Rotate90: "Vrid90",
+                    Trim: "Klädsel",
+                    MultipleRows: "Multipla Rows",
+                    Wrap: "Linda",
+                    Hide: "Dölj",
+                    WrapByWord: "Linda av ord",
+                    CrossHair: "Hårkors",
+                    TrackBall: "Styrkula",
+                    DisableTD: "Inaktivera 3D-diagram",
+                    None: "Ingen",
+                    Exception: "Undantag",
+                    OK: "ok"
                 };
                 break;
             case "ejPivotClient":
@@ -750,11 +770,11 @@
                     TreeMap: "Trädmappen får",
                     Alert: "Varning",
                     MDXAlertMsg: "Lägg till en åtgärd, dimension eller hierarki i en lämplig axel för att visa MDX urval.",
-                    FilterSortRowAlertMsg: "Dimensionen inte finns i raden axel. Lägg Dimension element i raden axel för att sortera/som filtering.",
-                    FilterSortColumnAlertMsg: "Dimensionen inte finns i kolumnen axel. Lägg Dimension element i kolumn axel för att sortera/som filtering.",
+                    FilterSortRowAlertMsg: "Dimension hittas inte i radaxeln. Lägg till Dimensionselement i radaxeln för sortering / filtrering.",
+                    FilterSortColumnAlertMsg: "Dimension hittas inte i kolumnaxeln. Lägg till Dimensionselement i kolumnaxeln för sortering / filtrering.",
                     FilterSortcolMeasureAlertMsg: "Lägg till kolumnen axel",
                     FilterSortrowMeasureAlertMsg: "Lägg till raden axel",
-                    FilterSortElementAlertMsg: "Element som inte finns i kolumnen axel. Lägg till ett element i kolumn axel för att sortera/som filtering.",
+                    FilterSortElementAlertMsg: "Element finns inte i kolumnaxeln. Lägg till ett element i kolumnaxeln för sortering / filtrering.",
                     FilterMeasureSelectionAlertMsg: "Välj en giltig.",
                     FilterConditionAlertMsg: "Ange ett giltigt tillstånd.",
                     FilterStartValueAlertMsg: "Ange ett startvärde.",
@@ -786,10 +806,10 @@
                     FormatString: "Formatsträngen:",
                     MultipleMeasure: "Mer än en åtgärd kan skivas.",
                     DuplicateCalcMeasure: "Beräknad medlem med samma namn existerar redan.",
-                    EmptyField: "Beräknad medlem namn eller uttryck får inte vara tomt.",
+                    EmptyField: "Beräknat medlemsnamn eller uttryck ska inte vara tomma.",
                     EmptyFormat: "Formatsträngen för beräknade medlemmen är tom.",
                     Warning: "Varning",
-                    Confirm: "Beräknad medlem med samma namn finns redan. På grund vill ersätta?",
+                    Confirm: "Beräknad medlem med samma namn finns redan. Vill du ersätta?",
                     KPIs: "KPIs",
 					Collection: "Insamling",
 					Report: "rapport",
@@ -800,8 +820,9 @@
                     Success: "Framgång",
                     KpiAlertMsg: "De fält du flyttar kan placeras i det område av rapporten",
                     NotAllItemsShowing: "Inte alla underordnade noder visas",
-                    EditorLinkPanelAlert: "Medlemmarna har mer än 1000 kurser under en eller flera moderföretag. Endast de första 1000 objekten visas under varje förälder.",
-                    NamedSetAlert:"En namngiven uppsättning kan läggas till PivotTable rapport samtidigt som en annan namngiven uppsättning baserad på samma fält. Klicka på OK för att ta bort ' <Set 1> ' heter och lägga till ' <Set 2> ' under named set."
+                    EditorLinkPanelAlert: "Medlemmarna har mer än 1000 objekt under en eller flera förälder. Endast de första 1000 artiklarna visas under varje förälder.",
+                    NamedSetAlert:"Namngivna uppsättningar av samma fält kan inte läggas till PivotTable-rapporten samtidigt. Klicka på OK för att ta bort '<Set 1>' named set och lägg till '<Set 2>' named set.",
+                    Exception: "Undantag"
                 };
                 break;
             case "ejPivotGauge":
@@ -809,6 +830,7 @@
                 ej.PivotGauge.Locale["sv-SE"] = {
                     RevenueGoal: "intäkts mål",
                     RevenueValue: "intäktsvärde",
+                    Exception: "Undantag"
                 };
                 break;
             case "ejPager":
@@ -1178,7 +1200,7 @@
                     EmptyField: "Ange beräknat fält namn eller formel",
                     NotValid: "Eftersom formeln är inte giltig",
                     NotPresent: "Värdet används i någon av beräknat fält formel är inte närvarande i PivotGrid",
-                    Confirm: "Beräknat fält med samma namn finns redan. På grund vill byta ?",
+                    Confirm: "Beräknad medlem med samma namn finns redan. Vill du ersätta?",
                     CalcValue: "Beräknat fält kan införas endast i värde i fältet.",
                     MultipleItems: "Flera objekt",
                     All: "Alla",
@@ -1203,7 +1225,8 @@
 					Edit: "Redigera",
 					DuplicateFormatName: "Duplicera formatet namn",
 					NotAllItemsShowing: "Inte alla underordnade noder visas",
-					EditorLinkPanelAlert: "Medlemmarna har mer än 1000 kurser under en eller flera moderföretag. Endast de första 1000 objekten visas under varje förälder."
+					EditorLinkPanelAlert: "Medlemmarna har mer än 1000 objekt under en eller flera förälder. Endast de första 1000 artiklarna visas under varje förälder.",
+					Exception: "Undantag"
                 };
                 break;
             case "ejPivotPager":
@@ -1278,10 +1301,11 @@
                     OK: "OK",
                     Cancel: "Avbryt",
                     Search: "Sök",
+                    Remove: "Ta bort",
                     AddCurrentSelectionToFilter: "Lägg till aktuellt urval för att filtrera",
                     NotAllItemsShowing: "Inte alla underordnade noder visas",
                     EditorLinkPanelAlert: "Medlemmarna har mer än 1000 kurser under en eller flera moderföretag. Endast de första 1000 objekten visas under varje förälder.",
-                    NamedSetAlert:"En namngiven uppsättning kan läggas till PivotTable rapport samtidigt som en annan namngiven uppsättning baserad på samma fält. Klicka på OK för att ta bort ' <Set 1> ' heter och lägga till ' <Set 2> ' under named set."
+                    NamedSetAlert:"Namngivna uppsättningar av samma fält kan inte läggas till PivotTable-rapporten samtidigt. Klicka på OK för att ta bort '<Set 1>' named set och lägg till '<Set 2>' named set."
                 };
                 break;
             case "ejDiagram":
@@ -1400,6 +1424,7 @@
                         },
                     },
                     pagesetupDialog: {
+                        close: 'Stänga',
                         paperSize: 'Pappersformat',
                         height: 'Höjd',
                         width: 'Bredd',
@@ -1415,6 +1440,41 @@
                         doneButton: 'Klart',
                         cancelButton: 'Annullera'
                     },
+                    credential: {
+                        userName: 'Användarnamn',
+                        password: 'Lösenord'
+                    },
+                    waterMark: {
+                        selectOption: 'Välj alternativ',
+                        selectValue: 'Välj ett värde'
+                    },
+                    errorMessage: {
+                        startMessage: 'Report Viewer stötte på några problem med att läsa in denna rapport. Snälla du',
+                        middleMessage: ' Klicka här',
+                        endMessage: 'för att se felinformationen',
+                        closeMessage: 'Stäng det här meddelandet'
+                    },
+                    alertMessage: {
+                        close: 'Stänga',
+                        title: 'Report',
+                        done: 'OK',
+                        showDetails: 'Visa detaljer',
+                        hideDetails: 'Gömma detaljer',
+                        reportLoad: 'Rapporten laddas:',
+                        RVERR0001: 'ReportViewer lyckades inte ladda rapporten',
+                        RVERR0002: 'ReportViewer lyckades inte göra rapporten',
+                        RVERR0003: 'Ett fel uppstod i ajax postback',
+                        RVERR0004: 'Var god välj ett värde för parametern',
+                        RVERR0005: 'Parametern {parametername} saknar ett värde',
+                        RVERR0006: 'Vänligen ge inmatning av floatdatatypen',
+                        RVERR0007: 'Vänligen ange integerdatatypingången',
+                        RVERR0008: 'ReportViewer misslyckades med att validera datakällans behörighetsuppgifter',
+                        RVERR0009: 'Marginalerna överlappas eller de är av papperet. Ange en annan marginalstorlek.',
+                        RVERR0010: 'Ange ett värde för parametern',
+                        RVERR0011: 'Parametern kan inte vara tom',
+                        RVERR0012: 'Värdet för rapportparametern {parameterprompt} är inte giltigt för dess typ.'
+                    },
+                    selectAll: 'Välj alla',
                     viewButton: "Visa rapport",
                 };
                 break;
@@ -2487,6 +2547,16 @@
                     CreateSparkline: "Skapa Sparkline",
                     SelectDataSource: "Välj ett källa dataområde för sparkline",
                     SPARKLINEDESIGN: "Sparkline Design",
+                    CancellationRequested: "Kunde inte öppnas inom den angivna timeouten",
+                    ImportPreventedOnUnknownFormula: "Den här filen kan inte laddas eftersom den innehåller formater som inte stöds.",
+                    PivotTableName: "PivotTable Name",
+                    ArrayaFormula: "Du kan inte byta del av en matris",
+                    ArrayaFormulaTableAlert: "Multicellformatformler är inte tillåtna i tabeller",
+                    ValueFieldSettings: "Värdefältinställningar",
+                    FieldTab: "Summera värden av",
+                    SummarizeValue: "Summera värdefältet vid",
+                    SummarizeChooseType: "Välj vilken typ av beräkning du vill använda för att sammanfatta data från det valda fältet",
+                    FieldValue: "KÄLLNAMN:",
                 };
                 break;
 			case "ejTimePicker":

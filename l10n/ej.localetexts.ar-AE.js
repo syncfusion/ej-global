@@ -529,6 +529,7 @@
                     ResponsiveFilter: "فلتر",
                     ResponsiveSorting: "فرز",
                     Search: "بحث",
+					NumericTextBoxWaterMark: "أدخل قيمة",
                     DatePickerWaterMark: "حدد تاريخ",
                     EmptyDataSource: "لا يجب أن يكون مصدر البيانات فارغة في الحمل الأولي منذ يتم إنشاء الأعمدة من مصدر البيانات في العمود يتم أنشاؤه تلقائيا الشبكة",
                     ForeignKeyAlert: "يجب أن تكون القيمة بتحديث قيمة المفتاح الخارجي صالحة",
@@ -648,7 +649,26 @@
                     EMF: "EMF",
                     GIF: "GIF",
                     JPG: "JPG",
-                    BMF: "BMF"
+                    BMP: "BMP",
+                    ZoomIn: "تكبير وتصغير",
+                    ZoomOut: "تصغير",
+                    Legend: "عنوان تفسيري",
+                    SmartLabels: "التسميات الذكية",
+                    Interactions: "التفاعلات",
+                    Zooming: "التكبير",
+                    Rotate45: "قم بتدوير45",
+                    Rotate90: "قم بتدوير90",
+                    Trim: "تقليم",
+                    MultipleRows: "صفوف متعددة",
+                    Wrap: "لف",
+                    Hide: "إخفاء",
+                    WrapByWord: "التفاف بالكلمة",
+                    CrossHair: "عبر الشعر",
+                    TrackBall: "مسار الكرة",
+                    DisableTD: "تعطيل الرسوم ثلاثية الأبعاد",
+                    None: "لا شيء",
+                    Exception: "استثناء",
+                    OK: "حسنا",
                 };
                 break;
             case "ejPivotClient":
@@ -761,12 +781,12 @@
                     NotBetween: "وليس بين",
                     ReportList: "لائحة التقارير",
                     Alert: "حالة تاهب قصوى",
-                    MDXAlertMsg: "يرجى اضافة التدبير للبعد او تسلسل محور مناسبة لعرض MDX الاخرين الاستعلام.",
+                    MDXAlertMsg: "الرجاء إضافة مقياس أو بُعد أو تسلسل هرمي في محور مناسب لعرض MDX سؤال.",
                     FilterSortRowAlertMsg: "لا توجد فى الصف البعد المحور. يرجى اضافة البعد الانسانى عنصرا اساسيا فى محور الصف لفرز/تصفية.",
-                    FilterSortColumnAlertMsg: "لا توجد فى عمود البعد المحور. يرجى اضافة عنصر محور البعد العمود لفرز/تصفية.",
+                    FilterSortColumnAlertMsg: "لم يتم العثور على البعد في محور العمود. يرجى إضافة عنصر البعد في محور العمود للفرز / التصفية.",
                     FilterSortcolMeasureAlertMsg: "يرجى اضافة الى عمود المحور",
                     FilterSortrowMeasureAlertMsg: "يرجى اضافة الى محور الصف",
-                    FilterSortElementAlertMsg: "لم يتم العثور على عنصر فى عمود المحور. يرجى اضافة عنصر فى العمود محور فرز/تصفية.",
+                    FilterSortElementAlertMsg: "لم يتم العثور على البعد في محور الصف. الرجاء إضافة عنصر البعد في محور الصف لفرز / التصفية",
                     FilterMeasureSelectionAlertMsg: "يرجى تحديد الاجراء سليما.",
                     FilterConditionAlertMsg: "يرجى تحديد حالة صالحة.",
                     FilterStartValueAlertMsg: "يرجى تحديد قيمة البدء.",
@@ -798,10 +818,10 @@
                     FormatString: "سلسلة التنسيق",
                     MultipleMeasure: "اكثر من التدبير لا يمكن مقطعة",
                     DuplicateCalcMeasure: "حساب العضو بنفس الاسم موجود مسبقا",
-                    EmptyField: "تحسب اسم العضو او التعبير لا يمكن ان يكون فارغا",
+                    EmptyField: "يجب ألا يكون اسم العضو المحسوب أو التعبير فارغًا.",
                     EmptyFormat: "شكل سلسلة محسوبة عضو فارغ",
                     Warning: "تحذير",
-                    Confirm: "حساب العضو الذى يحمل نفس الاسم موجود مسبقا. بسبب تريد استبدال?",
+                    Confirm: "عضو محسوب يحمل نفس الاسم موجود بالفعل. هل تريد استبدال؟",
                     KPIs: "مؤشرات الأداء الرئيسية",
 					Collection: "وجمع",
 					Report: "التقرير",
@@ -813,14 +833,16 @@
                     KpiAlertMsg: "مجال التحرك يمكن ان توضع فى هذا التقرير",
                     NotAllItemsShowing: "لا يتم عرض جميع الاطفال العقد",
                     EditorLinkPanelAlert: "للاعضاء اكثر من 1000 بند او اكثر من الابوين. فقط 1000 البنود يتم عرضها فى اطار كل من الابوين.",
-                    NamedSetAlert: "مجموعة مسماة لا يمكن اضافتها الى اداة PivotTable التقرير فى نفس الوقت اخر يدعى المبنية على نفس المجال. انقر فوق موافق لازالة مجموعة ' <Set 1> ' و ' <Set 2> '."
+                    NamedSetAlert: "مجموعة مسماة لا يمكن اضافتها الى اداة PivotTable التقرير فى نفس الوقت اخر يدعى المبنية على نفس المجال. انقر فوق موافق لازالة مجموعة ' <Set 1> ' و ' <Set 2> '.",
+                    Exception: "استثناء",
                 };
                 break;
             case "ejPivotGauge":
                 ej.PivotGauge.Locale = ej.PivotGauge.Locale || {};
                 ej.PivotGauge.Locale["ar-AE"] = {
                     RevenueGoal: "دخل هدف",
-                    RevenueValue: "قيمة الإيرادات"
+                    RevenueValue: "قيمة الإيرادات",
+                    Exception: "استثناء",
                 };
                 break;
             case "ejPager":
@@ -1193,7 +1215,7 @@
                     EmptyField: "يرجى ادخال اسم او صيغة حساب الحقل",
                     NotValid: "صيغة معينة غير صالح",
                     NotPresent: "قيمة الحقل فى اى صيغة من حقل محسوب غير موجود فى شبكة المحور",
-                    Confirm: "الحقل المحسوب بنفس الاسم موجود مسبقا. بسبب تريد استبدال?",
+                    Confirm: "عضو محسوب يحمل نفس الاسم موجود بالفعل. هل تريد استبدال؟",
                     CalcValue: "حقل محسوب يمكن ادخال قيمة حقل فقط فى منطقة",
                     MultipleItems: "عناصر متعددة",
                     All: "جميع",
@@ -1218,7 +1240,8 @@
                     Edit: "تحرير",
                     DuplicateFormatName: "الشكل المكرر الاسم",
                     NotAllItemsShowing: "لا يتم عرض جميع الاطفال العقد",
-                    EditorLinkPanelAlert: "للاعضاء اكثر من 1000 بند او اكثر من الابوين. فقط 1000 البنود يتم عرضها فى اطار كل من الابوين."
+                    EditorLinkPanelAlert: "للاعضاء اكثر من 1000 بند او اكثر من الابوين. فقط 1000 البنود يتم عرضها فى اطار كل من الابوين.",
+                    Exception: "استثناء",
                 };
                 break;
             case "ejPivotPager":
@@ -1296,10 +1319,11 @@
                     Cancel: "الغاء",
                     Close: "قريب",
                     Search: "البحث",
+                    Remove: "قم بازالة",
                     AddCurrentSelectionToFilter: "أضف التحديد الحالي للتصفية",
                     NotAllItemsShowing: "لا يتم عرض جميع الاطفال العقد",
                     EditorLinkPanelAlert: "للاعضاء اكثر من 1000 بند او اكثر من الابوين. فقط 1000 البنود يتم عرضها فى اطار كل من الابوين.",
-                    NamedSetAlert: "مجموعة مسماة لا يمكن اضافتها الى اداة PivotTable التقرير فى نفس الوقت اخر يدعى المبنية على نفس المجال. انقر فوق موافق لازالة مجموعة ' <Set 1> ' و ' <Set 2> '."
+                    NamedSetAlert: "مجموعة مسماة لا يمكن اضافتها الى اداةمجموعة مسماة لا يمكن اضافتها الى اداة PivotTable التقرير فى نفس الوقت اخر يدعى المبنية على نفس المجال. انقر فوق موافق لازالة مجموعة ' <Set 1> ' و ' <Set 2> '."
                 };
                 break;
             case "ejDiagram":
@@ -1440,6 +1464,7 @@
                         },
                     },
                     pagesetupDialog: {
+                        close: 'قريب',
                         paperSize: 'حجم الورق',
                         height: 'ارتفاع',
                         width: 'عرض',
@@ -1455,6 +1480,41 @@
                         doneButton: 'فعله',
                         cancelButton: 'إلغاء'
                     },
+                    credential: {
+                        userName: 'اسم المستخدم',
+                        password: 'كلمه السر'
+                    },
+                    waterMark: {
+                        selectOption: 'حدد الخيار',
+                        selectValue: 'تحديد قيمة',
+                    },
+                    errorMessage: {
+                        startMessage: 'واجه عارض التقرير بعض المشكلات التي تحمل هذا التقرير. رجاء',
+                        middleMessage: ' انقر هنا',
+                        endMessage: 'لمشاهدة تفاصيل الخطأ',
+                        closeMessage: 'أغلق هذه الرسالة'
+                    },
+                    alertMessage: {
+                        close: 'قريب',
+                        title: 'ReportViewer',
+                        done: 'حسنا',
+                        showDetails: 'اظهر التفاصيل',
+                        hideDetails: 'أخف التفاصيل',
+                        reportLoad: 'تقرير تحميل:',
+                        RVERR0001: 'فشل ReportViewer في تحميل التقرير',
+                        RVERR0002: 'فشل ReportViewer في تقديم التقرير',
+                        RVERR0003: 'حدث خطأ في ajax postback',
+                        RVERR0004: 'يرجى تحديد قيمة للمعلمة',
+                        RVERR0005: 'يفتقد المعلمة {parametername} قيمة',
+                        RVERR0006: 'يرجى إعطاء إدخال نوع البيانات عائم',
+                        RVERR0007: 'يرجى إعطاء إدخال نوع البيانات الصحيح',
+                        RVERR0008: 'فشل ReportViewer في التحقق من صحة بيانات اعتماد Datasource',
+                        RVERR0009: 'تتداخل الهوامش أو تكون خارج الورقة. أدخل حجم هامش مختلف.',
+                        RVERR0010: 'يرجى إدخال قيمة للمعلمة',
+                        RVERR0011: 'لا يمكن أن تكون المعلمة فارغة',
+                        RVERR0012: 'القيمة المتوفرة لمعلمة التقرير {parameterprompt} غير صالحة لنوعها.'
+                    },
+                    selectAll: 'اختر الكل',
                     viewButton: "عرض التقرير",
                 };
                 break;
@@ -2565,6 +2625,16 @@
                     CreateSparkline: "إنشاء التألق",
                     SelectDataSource: "حدد نطاق بيانات مصدر للسطوع",
                     SPARKLINEDESIGN: "تصميم سباركلين",
+                    CancellationRequested: "لا يمكن فتحها في المهلة المحددة",
+                    ImportPreventedOnUnknownFormula: "لا يمكن تحميل هذا الملف لأنه يحتوي على صيغ غير مدعومة.",
+                    PivotTableName: "اسم PivotTable",
+                    ArrayaFormula: "لا يمكنك تغيير جزء من صفيف",
+                    ArrayaFormulaTableAlert: "غير مسموح باستخدام صيغ الصفيف متعددة الخلايا في الجداول",
+                    ValueFieldSettings: "إعدادات حقل القيمة",
+                    FieldTab: "تلخيص القيم بواسطة",
+                    SummarizeValue: "تلخيص حقل القيمة",
+                    SummarizeChooseType: "اختر نوع الحساب الذي تريد استخدامه لتلخيص البيانات من الحقل المحدد",
+                    FieldValue: "اسم المصدر:",
                 };
                 break;
             case "ejTimePicker":

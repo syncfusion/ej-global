@@ -521,6 +521,7 @@
                     ResponsiveFilter: "Lọc",
                     ResponsiveSorting: "loại",
                     Search: "Tìm kiếm",
+					NumericTextBoxWaterMark: "nhập giá trị",
                     DatePickerWaterMark: "Chọn ngày",
                     EmptyDataSource: "DataSource không được bỏ trống tại tải ban đầu từ cột được tạo ra từ nguồn dữ liệu trong Tự Ðộng Cột lưới",
                     ForeignKeyAlert: "Các giá trị được cập nhật phải là một giá trị quan trọng nước ngoài hợp lệ",
@@ -643,7 +644,26 @@
                     EMF: "EMF",
                     GIF: "GIF",
                     JPG: "JPG",
-                    BMF: "BMF"
+                    BMP: "BMP",
+                    ZoomIn: "phóng to",
+                    ZoomOut: "Thu nhỏ",
+                    Legend: "Huyền thoại",
+                    SmartLabels: "Nhãn thông minh",
+                    Interactions: "Tương tác",
+                    Zooming: "Thu phóng",
+                    Rotate45: "Xoay45",
+                    Rotate90: "Xoay90",
+                    Trim: "Cắt",
+                    MultipleRows: "Nhiều hàng",
+                    Wrap: "Wrap",
+                    Hide: "Ẩn giấu",
+                    WrapByWord: "Gói tin đồn",
+                    CrossHair: "Cross tóc",
+                    TrackBall: "Theo dõi bóng",
+                    DisableTD: "Vô hiệu hóa biểu đồ 3D",
+                    None: "không ai",
+                    Exception: "Ngoại lệ",
+                    OK: "được"
                 };
                 break;
             case "ejPivotClient":
@@ -751,11 +771,11 @@
                     TreeMap: "Sơ đồ cây",
                     Alert: "Báo động",
                     MDXAlertMsg: "Xin thêm một dự luật này, hoặc đẳng cấp chiều ở trục thích hợp để nhìn nhận MDX truy vấn.",
-                    FilterSortRowAlertMsg: "Không tìm thấy chiều ở trục liên tiếp. Làm ơn chiều không gian thêm hàng vanh đai trục cho xếp/lọc.",
-                    FilterSortColumnAlertMsg: "Không tìm thấy chiều ở trục cột. Làm ơn chiều không gian thêm vanh đai trục cột cho xếp/lọc.",
+                    FilterSortRowAlertMsg: "Không tìm thấy thứ nguyên trong trục hàng. Vui lòng thêm yếu tố Thứ nguyên trong trục hàng để sắp xếp / lọc.",
+                    FilterSortColumnAlertMsg: "Không tìm thấy thứ nguyên trong trục cột. Vui lòng thêm yếu tố Thứ nguyên trong trục cột để sắp xếp / lọc.",
                     FilterSortcolMeasureAlertMsg: "Làm ơn thêm pháp để các trục cột",
                     FilterSortrowMeasureAlertMsg: "Làm ơn thêm pháp để hàng trục",
-                    FilterSortElementAlertMsg: "Không tìm thấy phần tử ở trục cột. Xin thêm một phần tử ở trục cột cho xếp/lọc.",
+                    FilterSortElementAlertMsg: "Element is not found in the column axis. Please add an element in column axis for sorting/filtering.",
                     FilterMeasureSelectionAlertMsg: "Xin hãy chọn một thước đo hợp lệ.",
                     FilterConditionAlertMsg: "Hãy đặt một điều kiện hợp lệ.",
                     FilterStartValueAlertMsg: "Hãy đặt giá trị bắt đầu.",
@@ -786,11 +806,11 @@
                     MemberType: "Kiểu thành viên:",
                     FormatString: "Chuỗi định dạng:",
                     MultipleMeasure: "Nhiều hơn một dự luật này không thể bị cắt mất.",
-                    DuplicateCalcMeasure: "Tính toán thành viên với cùng tên đã tồn tại.",
-                    EmptyField: "Tính toán tên thành viên hoặc biểu thức không thể là rỗng.",
+                    DuplicateCalcMeasure: "Thành viên được tính toán có cùng tên đã tồn tại.",
+                    EmptyField: "Tên thành viên hoặc Biểu thức được tính không được để trống.",
                     EmptyFormat: "Chuỗi định dạng cho tính toán thành viên là rỗng.",
                     Warning: "Cảnh báo",
-                    Confirm: "Tính toán thành viên cùng tên đã có. Do muốn thay thế?",
+                    Confirm: "Thành viên được tính toán có cùng tên đã tồn tại. Bạn có muốn thay thế?",
                     KPIs: "KPIs",
 					Collection: "Bộ sưu tập",
 					Report: "báo cáo",
@@ -801,8 +821,9 @@
                     Success: "Thành công",
                     KpiAlertMsg: "Cái này, bạn đang di chuyển không thể được đặt vào trong khu vực này của báo cáo",
                     NotAllItemsShowing: "Không phải tất cả các nút đứa trẻ được hiển thị",
-                    EditorLinkPanelAlert: "Các thành viên có hơn 1000 mục dưới một hay nhiều phụ huynh. Chỉ có 1000 mục hiển thị dưới mỗi bố mẹ.",
-                    NamedSetAlert: "Một tên là đặt không thể được thêm vào PivotTable báo cáo vào cùng thời điểm khác tên là đặt dựa trên cùng một lĩnh vực. Nhấn OK để gỡ bỏ ' <Set 1> ' tên là đặt và thêm ' <Set 2> ' tên là đặt."
+                    EditorLinkPanelAlert: "Các thành viên có hơn 1000 mục theo một hoặc nhiều phụ huynh. Chỉ 1000 mục đầu tiên được hiển thị dưới mỗi phụ huynh.",
+                    NamedSetAlert: "Các bộ tên đã đặt tên của cùng một trường không thể được thêm vào báo cáo PivotTable cùng một lúc. Nhấp vào OK để xóa '<Set 1>' có tên là set và thêm '<Set 2>' có tên là set.",
+                    Exception: "Ngoại lệ"
                 };
                 break;
             case "ejPivotGauge":
@@ -810,6 +831,7 @@
                 ej.PivotGauge.Locale["vi-VN"] = {
                     RevenueGoal: "Mục tiêu doanh thu",
                     RevenueValue: "Giá trị doanh thu",
+                    Exception: "Ngoại lệ"
                 };
                 break;
             case "ejPager":
@@ -1179,7 +1201,7 @@
                     EmptyField: "Hãy nhập vào lĩnh vực tính toán tên hay công thức",
                     NotValid: "Công thức cho không hợp lệ",
                     NotPresent: "Giá trị được dùng trong các lĩnh vực trong những lĩnh vực công thức tính toán không hiển thị trong PivotGrid",
-                    Confirm: "Tính toán lĩnh vực cùng tên đã có. Do muốn thay thế ?",
+                    Confirm: "Thành viên được tính toán có cùng tên đã tồn tại. Bạn có muốn thay thế?",
                     CalcValue: "Tính toán lĩnh vực này chỉ có thể được gắn trong lĩnh vực khu vực giá trị",
                     MultipleItems: "Nhiều mục",
                     All: "Tất cả",
@@ -1204,7 +1226,8 @@
 					Edit: "Sửa",
 					DuplicateFormatName: "Định dạng trùng tên",
 					NotAllItemsShowing: "Không phải tất cả các nút đứa trẻ được hiển thị",
-					EditorLinkPanelAlert: "Các thành viên có hơn 1000 mục dưới một hay nhiều phụ huynh. Chỉ có 1000 mục hiển thị dưới mỗi bố mẹ."
+					EditorLinkPanelAlert: "Các thành viên có hơn 1000 mục theo một hoặc nhiều phụ huynh. Chỉ 1000 mục đầu tiên được hiển thị dưới mỗi phụ huynh.",
+					Exception: "Ngoại lệ"
                 };
                 break;
             case "ejPivotPager":
@@ -1278,10 +1301,11 @@
                     OK: "OK",
                     Cancel: "Thã'i",
                     Search: "Tìm kiếm",
+                    Remove: "Gỡ bỏ",
                     AddCurrentSelectionToFilter: "Thêm lựa chọn hiện tại để lọc",
                     NotAllItemsShowing: "Không phải tất cả các nút đứa trẻ được hiển thị",
-                    EditorLinkPanelAlert: "Các thành viên có hơn 1000 mục dưới một hay nhiều phụ huynh. Chỉ có 1000 mục hiển thị dưới mỗi bố mẹ.",
-                    NamedSetAlert: "Một tên là đặt không thể được thêm vào PivotTable báo cáo vào cùng thời điểm khác tên là đặt dựa trên cùng một lĩnh vực. Nhấn OK để gỡ bỏ ' <Set 1> ' tên là đặt và thêm ' <Set 2> ' tên là đặt."
+                    EditorLinkPanelAlert: "Các thành viên có hơn 1000 mục theo một hoặc nhiều phụ huynh. Chỉ 1000 mục đầu tiên được hiển thị dưới mỗi phụ huynh.",
+                    NamedSetAlert: "Các bộ tên đã đặt tên của cùng một trường không thể được thêm vào báo cáo PivotTable cùng một lúc. Nhấp vào OK để xóa '<Set 1>' có tên là set và thêm '<Set 2>' có tên là set."
                 };
                 break;
             case "ejDiagram":
@@ -1422,6 +1446,7 @@
                         },
                     },
                     pagesetupDialog: {
+                        close: 'Gần',
                         paperSize: 'Khổ giấy',
                         height: 'Chiều cao',
                         width: 'Chiều rộng',
@@ -1437,6 +1462,41 @@
                         doneButton: 'Làm xong',
                         cancelButton: 'hủy bỏ'
                     },
+                    credential: {
+                        userName: 'Tên đăng nhập',
+                        password: 'Mật khẩu'
+                    },
+                    waterMark: {
+                        selectOption: 'Chọn tùy chọn',
+                        selectValue: 'Chọn một giá trị'
+                    },
+                    errorMessage: {
+                        startMessage: 'Trình xem Báo cáo đã gặp một số vấn đề khi tải báo cáo này. Xin vui lòng',
+                        middleMessage: ' Bấm vào đây',
+                        endMessage: 'để xem chi tiết lỗi',
+                        closeMessage: 'Đóng tin nhắn này'
+                    },
+                    alertMessage: {
+                        close: 'Gần',
+                        title: 'ReportViewer',
+                        done: 'được',
+                        showDetails: 'Hiển thị chi tiết',
+                        hideDetails: 'Ẩn chi tiết',
+                        reportLoad: 'Đã tải báo cáo:',
+                        RVERR0001: 'ReportViewer không tải được Báo cáo',
+                        RVERR0002: 'ReportViewer không thể hiển thị Báo cáo',
+                        RVERR0003: 'Đã xảy ra lỗi trong postback ajax',
+                        RVERR0004: 'Vui lòng chọn giá trị cho tham số',
+                        RVERR0005: 'Tham số {parametername} thiếu giá trị',
+                        RVERR0006: 'Vui lòng cung cấp kiểu nhập dữ liệu kiểu thả nổi',
+                        RVERR0007: 'Vui lòng nhập kiểu dữ liệu số nguyên',
+                        RVERR0008: 'ReportViewer không xác thực được thông tin đăng nhập Datasource',
+                        RVERR0009: 'Các lề được chồng lên nhau hoặc chúng bị loại bỏ khỏi giấy. Nhập kích thước lề khác.',
+                        RVERR0010: 'Vui lòng nhập giá trị cho tham số',
+                        RVERR0011: 'Tham số không được để trống',
+                        RVERR0012: 'Giá trị được cung cấp cho tham số báo cáo {parameterprompt} không hợp lệ cho loại của nó.'
+                    },
+                    selectAll: 'Chọn tất cả',
                     viewButton: "Xem báo cáo",
                 };
                 break;
@@ -2543,6 +2603,16 @@
                     CreateSparkline: "Tạo Sparkline",
                     SelectDataSource: "Chọn một phạm vi dữ liệu nguồn cho đường kính lượn sóng",
                     SPARKLINEDESIGN: "Thiết kế Sparkline",
+                    CancellationRequested: "Không thể mở trong thời gian chờ được chỉ định",
+                    ImportPreventedOnUnknownFormula: "Không thể tải tệp này vì tệp có chứa các công thức không được hỗ trợ.",
+                    PivotTableName: "Tên PivotTable",
+                    ArrayaFormula: "Bạn không thể thay đổi một phần của mảng",
+                    ArrayaFormulaTableAlert: "Công thức mảng đa ô không được phép trong bảng",
+                    ValueFieldSettings: "Cài đặt trường giá trị",
+                    FieldTab: "Tóm tắt các giá trị theo",
+                    SummarizeValue: "Tóm tắt trường giá trị theo",
+                    SummarizeChooseType: "Chọn loại phép tính mà bạn muốn sử dụng để tóm tắt dữ liệu từ trường đã chọn",
+                    FieldValue: "Tên nguồn:",
                 };
                 break;
 			case "ejTimePicker":

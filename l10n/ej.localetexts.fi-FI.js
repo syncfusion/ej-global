@@ -520,6 +520,7 @@
                     ResponsiveFilter: "Suodattaa",
                     ResponsiveSorting: "Järjestellä",
                     Search: "Haku",
+					NumericTextBoxWaterMark: "Anna arvo",
                     DatePickerWaterMark: "Valitse päivämäärä",
                     EmptyDataSource: "DataSource saa olla tyhjiä alkukuormitukseen koska sarakkeet syntyvät DataSource in Automaattisesti luotu sarake Grid",
                     ForeignKeyAlert: "Päivitetyn arvon tulisi olla kelvollinen viiteavaimen arvo",
@@ -642,7 +643,26 @@
                     EMF: "EMF",
                     GIF: "GIF",
                     JPG: "JPG",
-                    BMF: "BMF"
+                    BMP: "BMP",
+                    ZoomIn: "lähennä",
+                    ZoomOut: "Loitontaa",
+                    Legend: "Legenda",
+                    SmartLabels: "Smart nimet",
+                    Interactions: "vuorovaikutukset",
+                    Zooming: "zoomaus",
+                    Rotate45: "Käännä45",
+                    Rotate90: "Käännä90",
+                    Trim: "Trimmata",
+                    MultipleRows: "Useita rivejä",
+                    Wrap: "Kiedo",
+                    Hide: "Piilottaa",
+                    WrapByWord: "Wrap By sana",
+                    CrossHair: "Ristikko",
+                    TrackBall: "Napa kuula",
+                    DisableTD: "Poista 3D-kaaviot käytöstä",
+                    None: "Ei mitään",
+                    Exception: "Poikkeus",
+                    OK: "kunnossa"
                 };
                 break;
             case "ejPivotClient":
@@ -749,11 +769,11 @@
                     TreeMap: "Solmujen otsikointia",
                     Alert: "Hälytys",
                     MDXAlertMsg: "Lisäisittekö mittaa, mitoiltaan tai hierarkia asianmukaisella akseli voidaan tarkastella MDX kyselyn.",
-                    FilterSortRowAlertMsg: "Mitta ei löytynyt rivillä akselilla. Lisää ulottuvuutta elementti rivillä akseli lajitteluun ja suodatuksen.",
-                    FilterSortColumnAlertMsg: "Mitta ei löydy saraketta akselilla. Lisää ulottuvuutta tekijä sarakkeessa akseli lajitteluun ja suodatuksen.",
+                    FilterSortRowAlertMsg: "Mittaa ei löydy riviakselista. Lisää rivitysakselin Dimension elementti lajitteluun / suodatukseen.",
+                    FilterSortColumnAlertMsg: "Mittaa ei ole sarakkeen akselilla. Lisää mitta-elementti sarakeakselilla lajitteluun / suodatukseen.",
                     FilterSortcolMeasureAlertMsg: "Lisää toimenpide-sarakkeeseen akseli",
                     FilterSortrowMeasureAlertMsg: "Lisätkää mittaa rivin akseli",
-                    FilterSortElementAlertMsg: "Elementti ei löydy saraketta akselilla. Ota maksuvälineeseen ennaltaehkäisevän sarakkeessa akseli lajitteluun ja suodatuksen.",
+                    FilterSortElementAlertMsg: "Elementtiä ei löydy sarakkeen akselista. Lisää elementti sarakeakselille lajitteluun / suodatukseen.",
                     FilterMeasureSelectionAlertMsg: "Valitse kelvollinen mittayksikkö.",
                     FilterConditionAlertMsg: "Määritä kelvollinen kunnossa.",
                     FilterStartValueAlertMsg: "Määritä aloitusarvo.",
@@ -785,10 +805,10 @@
                     FormatString: "Muotoilumerkkiosio:",
                     MultipleMeasure: "Useamman kuin yhden toimenpidettä ei voida viipaleina.",
                     DuplicateCalcMeasure: "Laskettu arvioija, jolla on sama nimi on jo olemassa.",
-                    EmptyField: "Laskettu jäsenen nimen tai lauseke ei voi olla tyhjä.",
+                    EmptyField: "Lasketun jäsenen nimen tai lausekkeen ei pitäisi olla tyhjä.",
                     EmptyFormat: "Muodonmääritys on laskettu jäsenvaltioiden on tyhjä.",
                     Warning: "Varoitus",
-                    Confirm: "Laskettu jäsenvaltioiden on jo olemassa. Koska haluat korvata?",
+                    Confirm: "Laskettu jäsen, jolla on sama nimi, on jo olemassa. Haluatko korvata?",
                     KPIs: "KPI",
 					Collection: "Kokoelma",
 					Report: "raportin",
@@ -800,7 +820,8 @@
                     KpiAlertMsg: "Kentässä siirrät ei voi asettaa, raportin alue",
                     NotAllItemsShowing: "Kaikki alempien solmujen näkyvät",
                     EditorLinkPanelAlert: "Kollegani ovat yli 1000 tuotetta yhden tai useamman vanhemman. Vain ensimmäiset 1000 näkyvät kohdassa kutakin ylempää.",
-                    NamedSetAlert: "Nimettyä sarjaa ei voi lisätä PivotTable mietintö samanaikaisesti toisen nimeltä perustua samasta kentästä. Valitsemalla OK voit poistaa ' <Set 1> ' nimetyn joukon ja lisää ' <Set 2> ' nimeltä."
+                    NamedSetAlert: "Saman kentän nimettyjä sarjoja ei voi lisätä samanaikaisesti PivotTable-raporttiin. Napsauta OK poistaaksesi '<Set 1>' nimetty joukko ja lisää '<Set 2>' nimetty joukko.",
+                    Exception: "Poikkeus"
                 };
                 break;
             case "ejPivotGauge":
@@ -808,6 +829,7 @@
                 ej.PivotGauge.Locale["fi-FI"] = {
                     RevenueGoal: "tulot Tavoite",
                     RevenueValue: "tulot Arvo",
+                    Exception: "Poikkeus"
                 };
                 break;
             case "ejPager":
@@ -1177,7 +1199,7 @@
                     EmptyField: "Syötä laskettu kenttä nimi tai koostumus",
                     NotValid: "Koska kaava ei kelpaa",
                     NotPresent: "Kentän arvo käyttää missä tahansa Laskentakenttä kaavaa ei ole PivotGrid",
-                    Confirm: "Laskettu kenttä on jo olemassa. Koska haluat korvata?",
+                    Confirm: "Laskettu jäsen, jolla on sama nimi, on jo olemassa. Haluatko korvata?",
                     CalcValue: "Laskettu kenttä voidaan lisätä vain arvon alue -kentässä",
                     MultipleItems: "Useita kohteita.",
                     All: "Kaikki",
@@ -1202,7 +1224,8 @@
                     Edit: "Muokkaa",
                     DuplicateFormatName: "Sama nimi",
                     NotAllItemsShowing: "Kaikki alempien solmujen näkyvät",
-                    EditorLinkPanelAlert: "Kollegani ovat yli 1000 tuotetta yhden tai useamman vanhemman. Vain ensimmäiset 1000 näkyvät kohdassa kutakin ylempää."
+                    EditorLinkPanelAlert: "Kollegani ovat yli 1000 tuotetta yhden tai useamman vanhemman. Vain ensimmäiset 1000 näkyvät kohdassa kutakin ylempää.",
+                    Exception: "Poikkeus"
                 };
                 break;
             case "ejPivotPager":
@@ -1278,10 +1301,11 @@
                     OK: "OK",
                     Cancel: "Peruuta",
                     Search: "Haku",
+                    Remove: "Irrota",
                     AddCurrentSelectionToFilter: "Lisää nykyinen valinta suodatukseen",
                     NotAllItemsShowing: "Kaikki alempien solmujen näkyvät",
                     EditorLinkPanelAlert: "Kollegani ovat yli 1000 tuotetta yhden tai useamman vanhemman. Vain ensimmäiset 1000 näkyvät kohdassa kutakin ylempää.",
-                    NamedSetAlert: "Nimettyä sarjaa ei voi lisätä PivotTable mietintö samanaikaisesti toisen nimeltä perustua samasta kentästä. Valitsemalla OK voit poistaa ' <Set 1> ' nimetyn joukon ja lisää ' <Set 2> ' nimeltä."
+                    NamedSetAlert: "Saman kentän nimettyjä sarjoja ei voi lisätä samanaikaisesti PivotTable-raporttiin. Napsauta OK poistaaksesi '<Set 1>' nimetty joukko ja lisää '<Set 2>' nimetty joukko."
                 };
                 break;
             case "ejDiagram":
@@ -1400,6 +1424,7 @@
                         },
                     },
                     pagesetupDialog: {
+                        close: 'kiinni',
                         paperSize: 'Paperin koko',
                         height: 'Korkeus',
                         width: 'Leveys',
@@ -1415,6 +1440,41 @@
                         doneButton: 'Tehty',
                         cancelButton: 'Peruuttaa'
                     },
+                    credential: {
+                        userName: 'Käyttäjätunnus',
+                        password: 'Salasana'
+                    },
+                    waterMark: {
+                        selectOption: 'Valitse vaihtoehto',
+                        selectValue: 'Valitse arvo'
+                    },
+                    errorMessage: {
+                        startMessage: 'Raportin Viewer kohtasi joitakin ongelmia tämän raportin lataamisessa. Ole kiltti',
+                        middleMessage: ' Klikkaa tästä',
+                        endMessage: 'nähdä virheen tiedot',
+                        closeMessage: 'Sulje tämä viesti'
+                    },
+                    alertMessage: {
+                        close: 'kiinni',
+                        title: 'ReportViewer',
+                        done: 'kunnossa',
+                        showDetails: 'Näytä yksityiskohdat',
+                        hideDetails: 'Piilota tiedot',
+                        reportLoad: 'Raportti ladattu:',
+                        RVERR0001: 'ReportViewer ei ladannut raporttia',
+                        RVERR0002: 'ReportViewer ei tuottanut raporttia',
+                        RVERR0003: 'Ajax-palautuksessa tapahtui virhe',
+                        RVERR0004: 'Valitse parametrin arvo',
+                        RVERR0005: 'Parametrin {parametri} puuttuu arvo',
+                        RVERR0006: 'Anna float-tietotyypin syöttö',
+                        RVERR0007: 'Anna kokonaisluvutyypin syöttö',
+                        RVERR0008: 'ReportViewer ei hyväksynyt Tietolähteen tunnistetietoja',
+                        RVERR0009: 'Marginaalit ovat päällekkäin tai ne ovat pois paperista. Anna eri marginaalikoko.',
+                        RVERR0010: 'Anna parametrin arvo',
+                        RVERR0011: 'Parametri ei voi olla tyhjä',
+                        RVERR0012: 'Raporttiparametrille {parameterprompt} annettu arvo ei ole sen tyypin mukainen.'
+                    },
+                    selectAll: 'Valitse kaikki',
                     viewButton: "Näytä raportti",
                 };
                 break;
@@ -2487,6 +2547,16 @@
                     CreateSparkline: "Luo Sparkline",
                     SelectDataSource: "Valitse sparkline-lähdealue",
                     SPARKLINEDESIGN: "Sparkline Design",
+                    CancellationRequested: "Ei voitu avata määritetyn aikakatkaisun aikana",
+                    ImportPreventedOnUnknownFormula: "Tätä tiedostoa ei voi ladata, koska siinä ei ole tuettuja kaavoja.",
+                    PivotTableName: "PivotTable Name",
+                    ArrayaFormula: "Et voi muuttaa osaa taulukosta",
+                    ArrayaFormulaTableAlert: "Monisolu-taulukkojen kaavat eivät ole sallittuja taulukoissa",
+                    ValueFieldSettings: "Arvokenttäasetukset",
+                    FieldTab: "Yhteenveto arvoista",
+                    SummarizeValue: "Yhteenveto arvon kentästä",
+                    SummarizeChooseType: "Valitse laskentatyyppi, jonka haluat kerätä yhteenvedon valitusta kenttään",
+                    FieldValue: "Lähde Nimi:",
                 };
                 break;
             case "ejTimePicker":

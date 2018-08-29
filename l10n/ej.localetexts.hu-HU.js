@@ -521,6 +521,7 @@
                     ResponsiveFilter: "Szűrő",
                     ResponsiveSorting: "Fajta",
                     Search: "Keresés",
+					NumericTextBoxWaterMark: "Írja érték",
                     DatePickerWaterMark: "Válassza ki a dátumot",
                     EmptyDataSource: "Adatforrás nem lehet üres kezdeti terhelést, miután oszlopok képződnek DATASOURCE a AutomatikusanLétrehozott oszlop rács",
                     ForeignKeyAlert: "A frissített érték legyen érvényes idegen kulcs érték",
@@ -642,7 +643,26 @@
                     EMF: "EMF",
                     GIF: "GIF",
                     JPG: "JPG",
-                    BMF: "BMF"
+                    BMP: "BMP",
+                    ZoomIn: "Nagyítás",
+                    ZoomOut: "Kicsinyítés",
+                    Legend: "Legenda",
+                    SmartLabels: "Intelligens címkék",
+                    Interactions: "interakciók",
+                    Zooming: "Nagyítás",
+                    Rotate45: "Forgassa el45",
+                    Rotate90: "Forgassa el90",
+                    Trim: "állapot",
+                    MultipleRows: "Több sor",
+                    Wrap: "Betakar",
+                    Hide: "Elrejt",
+                    WrapByWord: "Wrap by szó",
+                    CrossHair: "Haj kereszt",
+                    TrackBall: "Görgetőgolyó",
+                    DisableTD: "A 3D-s diagramok letiltása",
+                    None: "Egyik sem",
+                    Exception: "Kivétel",
+                    OK: "rendben"
                 };
                 break;
             case "ejPivotClient":
@@ -749,11 +769,11 @@
                     ReportList: "A jelentés lista",
                     Alert: "Figyelmeztetés",
                     MDXAlertMsg: "Kérjük, adja meg vagy a hierarchia, a megfelelő tengely MDX lekérdezést megtekintéséhez.",
-                    FilterSortRowAlertMsg: "A méret nem található a sor. Adja meg a méretet a tengely a válogató sort/szűrés.",
-                    FilterSortColumnAlertMsg: "Az oszlop tengelye nem található. Adja meg a méretet a tengely az oszlop rendezés/szűrés.",
+                    FilterSortRowAlertMsg: "A méret tengelye nem található a sor tengelyén. Adjon hozzá Dimension elemet a sort tengelyhez a rendezéshez / szűréshez.",
+                    FilterSortColumnAlertMsg: "A méret nem található az oszlop tengelyén. Adja hozzá a Dimension elemet az oszlop tengelyéhez a rendezéshez / szűréshez.",
                     FilterSortcolMeasureAlertMsg: "Kérjük, adja meg az oszlop tengelye.",
                     FilterSortrowMeasureAlertMsg: "Kérjük, adja meg a sor tengelyen",
-                    FilterSortElementAlertMsg: "Az elem nem található oszlop tengelye. Kérjük, adja meg az oszlop tengelye egy válogató/szűrés.",
+                    FilterSortElementAlertMsg: "Az oszlop tengelyén nem található elem. Adjon hozzá egy elemet az oszlop tengelyéhez a rendezéshez / szűréshez.",
                     FilterMeasureSelectionAlertMsg: "Válasszon ki egy érvényes.",
                     FilterConditionAlertMsg: "Adjon meg egy érvényes.",
                     FilterStartValueAlertMsg: "Állítsa be az értéket.",
@@ -784,11 +804,11 @@
                     MemberType: "A típus:",
                     FormatString: "Formátum:",
                     MultipleMeasure: "Több intézkedés nem lehet szeletelni.",
-                    DuplicateCalcMeasure: "A kiszámított már létezik.",
-                    EmptyField: "A név, vagy kifejezés számított mező nem lehet üres.",
+                    DuplicateCalcMeasure: "Már ugyanazt a számlált azonos nevű tag már létezik.",
+                    EmptyField: "A kiszámított tagnév vagy a kifejezés nem lehet üres.",
                     EmptyFormat: "A formátumot az üres.",
                     Warning: "Figyelmeztetés",
-                    Confirm: "A kiszámított már létezik. Mert ki akarja cserélni?",
+                    Confirm: "Az azonos nevű elszámolt tag már létezik. Ki akarod cserélni?",
                     KPIs: "KPI",
 					Collection: "Adatgyűjtési",
 					Report: "jelentést",
@@ -799,8 +819,9 @@
                     Success: "A siker",
                     KpiAlertMsg: "A területen nem helyezhető el, amely nem a jelentés",
                     NotAllItemsShowing: "Nem minden gyermek csomópont ábrázolva",
-                    EditorLinkPanelAlert: "A tagok több, mint 1000 tételt egy vagy több szülő. Csak az első 1000 Az egyes menüpontok jelennek meg.",
-                    NamedSetAlert: "Nem nevesített, a PivotTable jelentés egy másik neve alapján ugyanazon a területen. Kattintson az OK gombra az ' <Set 1> ' és ' elnevezett ' <Set 2> ' neve."
+                    EditorLinkPanelAlert: "A tagoknak több mint 1000 tétel van egy vagy több szülő alatt. Csak az első 1000 elem jelenik meg az egyes szülők alatt.",
+                    NamedSetAlert: "Ugyanazt a mezőt elnevezett készleteket nem lehet egyszerre hozzáadni a PivotTable jelentéshez. Kattintson az OK gombra a '<Set 1>' nevű nevű készlet eltávolításához, és adja hozzá a '<Set 2>' nevű nevű készletet.",
+                    Exception: "Kivétel"
                 };
                 break;
             case "ejPivotGauge":
@@ -808,6 +829,7 @@
                 ej.PivotGauge.Locale["hu-HU"] = {
                     RevenueGoal: "bevétel cél",
                     RevenueValue: "bevétel értéke",
+                    Exception: "Kivétel"
                 };
                 break;
             case "ejPager":
@@ -1177,7 +1199,7 @@
                     EmptyField: "Adja meg a mező nevét vagy képlet alapján kiszámított",
                     NotValid: "Adott a képlet nem érvényes",
                     NotPresent: "A mező értékét a következő képlettel számított mező nincs a PivotGrid",
-                    Confirm: "A Számított mező már létezik. Mert ki akarja cserélni?",
+                    Confirm: "Az azonos nevű elszámolt tag már létezik. Ki akarod cserélni?",
                     CalcValue: "Számított mező csak akkor lehet behelyezni a szántóföldi terület",
                     MultipleItems: "Több elem",
                     All: "Minden",
@@ -1202,7 +1224,8 @@
                     Edit: "Szerkesztés",
                     DuplicateFormatName: "Kettős formátum neve",
                     NotAllItemsShowing: "Nem minden gyermek csomópont ábrázolva",
-                    EditorLinkPanelAlert: "A tagok több, mint 1000 tételt egy vagy több szülő. Csak az első 1000 Az egyes menüpontok jelennek meg."
+                    EditorLinkPanelAlert: "A tagoknak több mint 1000 tétel van egy vagy több szülő alatt. Csak az első 1000 elem jelenik meg az egyes szülők alatt.",
+                    Exception: "Kivétel"
                 };
                 break;
             case "ejPivotPager":
@@ -1278,10 +1301,11 @@
                     OK: "OK",
                     Cancel: "Törlés",
                     Search: "Keresés",
+                    Remove: "Távolítsa el a",
                     AddCurrentSelectionToFilter: "Az aktuális szűrő hozzáadása a szűrőhöz",
                     NotAllItemsShowing: "Nem minden gyermek csomópont ábrázolva",
-                    EditorLinkPanelAlert: "A tagok több, mint 1000 tételt egy vagy több szülő. Csak az első 1000 Az egyes menüpontok jelennek meg.",
-                    NamedSetAlert: "Nem nevesített, a PivotTable jelentés egy másik neve alapján ugyanazon a területen. Kattintson az OK gombra az ' <Set 1> ' és ' elnevezett ' <Set 2> ' neve."
+                    EditorLinkPanelAlert: "A tagoknak több mint 1000 tétel van egy vagy több szülő alatt. Csak az első 1000 elem jelenik meg az egyes szülők alatt.",
+                    NamedSetAlert: "Ugyanazt a mezőt elnevezett készleteket nem lehet egyszerre hozzáadni a PivotTable jelentéshez. Kattintson az OK gombra a '<Set 1>' nevű nevű készlet eltávolításához, és adja hozzá a '<Set 2>' nevű nevű készletet."
                 };
                 break;
             case "ejDiagram":
@@ -1400,6 +1424,7 @@
                         },
                     },
                     pagesetupDialog: {
+                        close: 'Bezárás',
                         paperSize: 'Papírméret',
                         height: 'Magasság',
                         width: 'Szélesség',
@@ -1415,6 +1440,41 @@
                         doneButton: 'Kész',
                         cancelButton: 'Megszünteti'
                     },
+                    credential: {
+                        userName: 'Felhasználónév',
+                        password: 'Jelszó'
+                    },
+                    waterMark: {
+                        selectOption: 'Válassza az Opciót',
+                        selectValue: 'Válasszon ki egy értéket'
+                    },
+                    errorMessage: {
+                        startMessage: 'A Jelentésmegjelenítő némi problémát észlelt a jelentést betöltve. Kérem',
+                        middleMessage: ' Kattints ide',
+                        endMessage: 'a hiba részletei megtekintéséhez',
+                        closeMessage: 'Zárja be ezt az üzenetet'
+                    },
+                    alertMessage: {
+                        close: 'Bezárás',
+                        title: 'ReportViewer',
+                        done: 'rendben',
+                        showDetails: 'Mutasd a részleteket',
+                        hideDetails: 'Rejtett részletek',
+                        reportLoad: 'Jelentés betöltve:',
+                        RVERR0001: 'A ReportViewer nem sikerült betölteni a jelentést',
+                        RVERR0002: 'A ReportViewer nem tudta megjeleníteni a jelentést',
+                        RVERR0003: 'Hiba történt az ajax visszaszállításban',
+                        RVERR0004: 'Kérjük, válasszon ki egy paraméter értékét',
+                        RVERR0005: 'A {parameterername} paraméter hiányzik egy értéket',
+                        RVERR0006: 'Adja meg az úszó adat típusát',
+                        RVERR0007: 'Adja meg az egész típusú adattípust',
+                        RVERR0008: 'A ReportViewer nem tudta hitelesíteni a Datasource hitelesítő adatait',
+                        RVERR0009: 'A margók átfedik egymást, vagy le vannak zárva a papírról. Adjon meg egy másik margóméretet.',
+                        RVERR0010: 'Adja meg a paraméterhez tartozó értéket',
+                        RVERR0011: 'A paraméter nem lehet üres',
+                        RVERR0012: 'A {parameterprompt} jelentésparaméterhez megadott érték nem érvényes a típusára.'
+                    },
+                    selectAll: 'Mindet kiválaszt',
                     viewButton: "jelentés megtekintése",
                 };
                 break;
@@ -2488,6 +2548,16 @@
                     CreateSparkline: "Sparkline létrehozása",
                     SelectDataSource: "Válasszon egy forrásadat-tartományt a sparkline-nek",
                     SPARKLINEDESIGN: "Sparkline Design",
+                    CancellationRequested: "A megadott időtúllépésben nem lehet megnyitni",
+                    ImportPreventedOnUnknownFormula: "Ez a fájl nem tölthető be, mivel nem támogatott képleteket tartalmaz.",
+                    PivotTableName: "PivotTable név",
+                    ArrayaFormula: "Nem tudod megváltoztatni egy tömb egy részét",
+                    ArrayaFormulaTableAlert: "A többcellás tömbök képletei nem megengedettek a táblázatokban",
+                    ValueFieldSettings: "Érték mezőbeállítások",
+                    FieldTab: "Értékek összegzése",
+                    SummarizeValue: "Összegezze érték mezőjét",
+                    SummarizeChooseType: "Válassza ki a használni kívánt számítás típusát a kiválasztott mezőből származó adatok összegzéséhez",
+                    FieldValue: "Forrás neve:",
                 };
                 break;
             case "ejTimePicker":

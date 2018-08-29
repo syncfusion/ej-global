@@ -521,6 +521,7 @@
                     ResponsiveFilter: "필터",
                     ResponsiveSorting: "종류",
                     Search: "수색",
+					NumericTextBoxWaterMark: "값을 입력",
                     DatePickerWaterMark: "날짜 선택",
                     EmptyDataSource: "열 자동 생성 된 열 그리드에서은 dataSource에서 생성되기 때문에 데이터 소스는 초기로드에서 비워 둘 수 없습니다",
                     ForeignKeyAlert: "업데이트 된 값은 유효한 외부 키 값이어야합니다",
@@ -643,7 +644,26 @@
                     EMF: "EMF",
                     GIF: "GIF",
                     JPG: "JPG",
-                    BMF: "BMF"
+                    BMP: "BMP",
+                    ZoomIn: "확대",
+                    ZoomOut: "축소",
+                    Legend: "전설",
+                    SmartLabels: "스마트 라벨",
+                    Interactions: "상호 작용",
+                    Zooming: "확대 / 축소",
+                    Rotate45: "45회전",
+                    Rotate90: "90회전",
+                    Trim: "손질",
+                    MultipleRows: "여러 행",
+                    Wrap: "덮개",
+                    Hide: "숨는 장소",
+                    WrapByWord: "단어로 감싸기",
+                    CrossHair: "십자형 머리",
+                    TrackBall: "트랙볼",
+                    DisableTD: "3D 차트 비활성화",
+                    None: "없음",
+                    Exception: "예외",
+                    OK: "그래"
                 };
                 break;
             case "ejPivotClient":
@@ -750,11 +770,11 @@
                     ReportList: "보고서 목록",
                     Alert: "경고",
                     MDXAlertMsg: "해당 축의 측정 Dimension 또는 계층 MDX 쿼리를 보려면 추가하십시오.",
-                    FilterSortRowAlertMsg: "Dimension 행 축 에 없습니다. 정렬/필터링 대한 행 축 차원 요소를 추가합니다.",
-                    FilterSortColumnAlertMsg: "열 축 Dimension 찾을 수 없습니다. 정렬/필터링 열 축 차원 요소를 추가합니다.",
+                    FilterSortRowAlertMsg: "행 축에서 차원을 찾을 수 없습니다. 정렬 / 필터링을 위해 행 축에 치수 요소를 추가하십시오.",
+                    FilterSortColumnAlertMsg: "열 축에서 차원을 찾을 수 없습니다. 정렬 / 필터링을 위해 열 축에 치수 요소를 추가하십시오.",
                     FilterSortcolMeasureAlertMsg: "제발 열 축 측정 추가",
                     FilterSortrowMeasureAlertMsg: "제발 행 축 측정 추가",
-                    FilterSortElementAlertMsg: "요소의 열 축 찾을 수 없습니다. 정렬/필터링 칼럼 악의 요소를 추가합니다.",
+                    FilterSortElementAlertMsg: "요소가 열 축에 없습니다. 정렬 / 필터링을 위해 열 축에 요소를 추가하십시오.",
                     FilterMeasureSelectionAlertMsg: "올바른 값을 선택합니다.",
                     FilterConditionAlertMsg: "유효한 상태로 설정하십시오.",
                     FilterStartValueAlertMsg: "시작 값을 설정하십시오.",
@@ -786,10 +806,10 @@
                     FormatString: "형식 문자열:",
                     MultipleMeasure: "둘 이상의 측정할 수 없습니다 썬..",
                     DuplicateCalcMeasure: "같은 이름의 계산 멤버 이미 존재합니다.",
-                    EmptyField: "계산 멤버 이름 또는 식을 비워 둘 수 없음.",
+                    EmptyField: "계산 된 구성원 이름 또는 표현식은 비워 둘 수 없습니다.",
                     EmptyFormat: "계산 멤버 형식 문자열이 비어 있습니다.",
                     Warning: "경고",
-                    Confirm: "계산 멤버 같은 이름이 이미 존재합니다. 그것들을 대체하기 위해 남편의 손에서 인해?",
+                    Confirm: "동일한 이름을 가진 계산 된 멤버가 이미 있습니다. 당신은 바꾸시겠습니까?",
                     KPIs: "KPI",
 					Collection: "컬렉션",
 					Report: "보고서",
@@ -800,8 +820,9 @@
                     Success: "성공",
                     KpiAlertMsg: "이동 보고서의 해당 구역에 배치할 수 없는 필드",
                     NotAllItemsShowing: "모든 자식 노드에 표시되는 것은 아닙니다.",
-                    EditorLinkPanelAlert: "멤버 하나 이상의 부모 밑에서 1000개 이상의 항목. 첫 번째 항목은 1000각 부모 아래에 표시됩니다.",
-                    NamedSetAlert: "동일한 이름의 필드를 바탕으로 한 세트를 동시에 설정할 수 없습니다 라는 PivotTable 보고서를 추가할 수 없습니다. 확인을 클릭하여'라는 ' <Set 1> ' 및 ' <Set 2> '이라는 추가 세트를 분리합니다."
+                    EditorLinkPanelAlert: "회원은 하나 이상의 부모 아래에 1000 개 이상의 항목이 있습니다. 각 상위 아래에는 처음 1000 개의 항목 만 표시됩니다.",
+                    NamedSetAlert: "동일한 필드의 명명 된 집합을 피벗 테이블 보고서에 동시에 추가 할 수 없습니다. 확인을 클릭하여 '<세트 1>'이라는 이름의 세트를 제거하고 '<세트 2>'라는 세트를 추가하십시오.",
+                    Exception: "예외"
                 };
                 break;
             case "ejPivotGauge":
@@ -809,6 +830,7 @@
                 ej.PivotGauge.Locale["ko-KR"] = {
                     RevenueGoal: "수익 목표",
                     RevenueValue: "수익 가치",
+                    Exception: "예외"
                 };
                 break;
             case "ejPager":
@@ -1178,7 +1200,7 @@
                     EmptyField: "계산된 필드 이름 또는 수식을 입력해 주십시오.",
                     NotValid: "주어진 수식은 올바르지 않습니다.",
                     NotPresent: "계산된 필드 공식을 사용할 값 필드는 pivotgrid 존재하지 않습니다",
-                    Confirm: "이미 같은 이름을 가진 계산된 필드입니다. 그것들을 대체하기 위해 남편의 손에서 인해?",
+                    Confirm: "동일한 이름을 가진 계산 된 멤버가 이미 있습니다. 당신은 바꾸시겠습니까?",
                     CalcValue: "계산된 필드 값은 영역 필드에 삽입할 수 있습니다.",
                     MultipleItems: "여러 항목",
                     All: "모든",
@@ -1203,7 +1225,8 @@
 					Edit: "편집",
 					DuplicateFormatName: "중복 형식 이름",
 					NotAllItemsShowing: "모든 자식 노드에 표시되는 것은 아닙니다.",
-					EditorLinkPanelAlert: "멤버 하나 이상의 부모 밑에서 1000개 이상의 항목. 첫 번째 항목은 1000각 부모 아래에 표시됩니다."
+					EditorLinkPanelAlert: "회원은 하나 이상의 부모 아래에 1000 개 이상의 항목이 있습니다. 각 상위 아래에는 처음 1000 개의 항목 만 표시됩니다.",
+					Exception: "예외"
                 };
                 break;
             case "ejPivotPager":
@@ -1278,10 +1301,11 @@
                     OK: "확인",
                     Cancel: "취소",
                     Search: "검색",
+                    Remove: "제거",
                     AddCurrentSelectionToFilter: "현재 선택 항목을 필터에 추가",
                     NotAllItemsShowing: "모든 자식 노드에 표시되는 것은 아닙니다.",
-                    EditorLinkPanelAlert: "멤버 하나 이상의 부모 밑에서 1000개 이상의 항목. 첫 번째 항목은 1000각 부모 아래에 표시됩니다.",
-                    NamedSetAlert: "동일한 이름의 필드를 바탕으로 한 세트를 동시에 설정할 수 없습니다 라는 PivotTable 보고서를 추가할 수 없습니다. 확인을 클릭하여'라는 ' <Set 1> ' 및 ' <Set 2> '이라는 추가 세트를 분리합니다."
+                    EditorLinkPanelAlert: "회원은 하나 이상의 부모 아래에 1000 개 이상의 항목이 있습니다. 각 상위 아래에는 처음 1000 개의 항목 만 표시됩니다.",
+                    NamedSetAlert: "동일한 필드의 명명 된 집합을 피벗 테이블 보고서에 동시에 추가 할 수 없습니다. 확인을 클릭하여 '<세트 1>'이라는 이름의 세트를 제거하고 '<세트 2>'라는 세트를 추가하십시오."
                 };
                 break;
             case "ejDiagram":
@@ -1400,6 +1424,7 @@
                         },
                     },
                     pagesetupDialog: {
+                        close: '닫기',
                         paperSize: '용지 크기',
                         height: '신장',
                         width: '폭',
@@ -1415,6 +1440,41 @@
                         doneButton: '끝난',
                         cancelButton: '취소하다'
                     },
+                    credential: {
+                        userName: '사용자 이름',
+                        password: '암호'
+                    },
+                    waterMark: {
+                        selectOption: '선택 옵션',
+                        selectValue: '값 선택'
+                    },
+                    errorMessage: {
+                        startMessage: '보고서 뷰어에서이 보고서를로드하는 중 일부 문제가 발생했습니다. 부디',
+                        middleMessage: ' 여기를 클릭하십시오.',
+                        endMessage: '오류 세부 정보를 보려면',
+                        closeMessage: '이 메시지를 닫습니다.'
+                    },
+                    alertMessage: {
+                        close: '닫기',
+                        title: 'ReportViewer',
+                        done: '승인',
+                        showDetails: '세부 정보 표시',
+                        hideDetails: '세부 정보 숨기기',
+                        reportLoad: '로드 된 보고서:',
+                        RVERR0001: 'ReportViewer가 보고서를로드하지 못했습니다.',
+                        RVERR0002: 'ReportViewer가 보고서 렌더링에 실패했습니다.',
+                        RVERR0003: 'ajax 포스트 백에서 오류가 발생했습니다.',
+                        RVERR0004: '매개 변수의 값을 선택하십시오.',
+                        RVERR0005: '{parametername} 매개 변수에 값이 없습니다.',
+                        RVERR0006: 'float 데이터 형식 입력을 제공하십시오.',
+                        RVERR0007: '정수 데이터 형식을 입력하십시오.',
+                        RVERR0008: 'ReportViewer가 데이터 원본 자격 증명의 유효성을 검사하지 못했습니다.',
+                        RVERR0009: '여백이 겹치거나 용지에서 벗어납니다. 다른 여백 크기 입력.',
+                        RVERR0010: '매개 변수의 값을 입력하십시오.',
+                        RVERR0011: '매개 변수는 비워 둘 수 없습니다.',
+                        RVERR0012: '보고서 매개 변수 {parameterprompt}에 제공된 값이 해당 유형에 유효하지 않습니다..'
+                    },
+                    selectAll: '모두 선택',
                     viewButton: "보고서보기",
                 };
                 break;
@@ -2488,6 +2548,16 @@
                     CreateSparkline: "스파크 라인 만들기",
                     SelectDataSource: "스파크 라인의 소스 데이터 범위 선택",
                     SPARKLINEDESIGN: "스파크 라인 디자인",
+                    CancellationRequested: "지정된 제한 시간 내에 열 수 없습니다.",
+                    ImportPreventedOnUnknownFormula: "이 파일에는 지원되지 않는 공식이 들어 있으므로로드 할 수 없습니다.",
+                    PivotTableName: "피벗 테이블 이름",
+                    ArrayaFormula: "배열의 일부를 변경할 수 없습니다.",
+                    ArrayaFormulaTableAlert: "다중 셀 배열 수식은 테이블에 허용되지 않습니다.",
+                    ValueFieldSettings: "값 필드 설정",
+                    FieldTab: "값을 기준으로 요약",
+                    SummarizeValue: "값 필드 요약",
+                    SummarizeChooseType: "선택한 필드에서 데이터를 요약하는 데 사용할 계산 유형을 선택하십시오.",
+                    FieldValue: "출처 이름 :",
                 };
                 break;
 			case "ejTimePicker":
