@@ -52,7 +52,7 @@ In case of any questions regarding the use of Syncfusion EJ Global, please [cont
 
 ## Release Notes
 
-Refer the Syncfusion JavaScript Product Release Notes in [online Release Notes at Syncfusion](http://help.syncfusion.com/js/release-notes/v16.2.0.50 "").
+Refer the Syncfusion JavaScript Product Release Notes in [online Release Notes at Syncfusion](http://help.syncfusion.com/js/release-notes/v16.3.0.17 "").
 
 ## License Information
 
