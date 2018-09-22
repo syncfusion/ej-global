@@ -474,7 +474,8 @@
                         cancelButtonText: "Ophæve",
                         deleteButtonText: "Slet",
 						title: "Opgaveafhængighed"
-                    }
+                    },
+                    nullText: "Nul"
                 };
                 break;
             case "ejGrid":

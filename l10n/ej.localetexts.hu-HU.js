@@ -471,7 +471,8 @@
                         cancelButtonText: "Törölni",
                         deleteButtonText: "Töröl",
                         title: "Feladatfüggőség"
-                    }
+                    },
+                    nullText: "Nulla"
                 };
                 break;
             case "ejGrid":

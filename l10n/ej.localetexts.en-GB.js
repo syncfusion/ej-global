@@ -702,7 +702,8 @@
                         cancelButtonText: "Cancel",
                         deleteButtonText: "Delete",
                         title: "Task Dependency"
-                    }
+                    },
+                    nullText: "Null"
                 };
                 break;
             case "ejPivotGrid":

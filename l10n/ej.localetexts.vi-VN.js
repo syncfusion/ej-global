@@ -471,7 +471,8 @@
                         cancelButtonText: "hủy bỏ",
                         deleteButtonText: "Xóa bỏ",
                         title: "Nhiệm vụ phụ thuộc"
-                    }
+                    },
+                    nullText:"Vô giá trị"
                 };
                 break;
             case "ejGrid":

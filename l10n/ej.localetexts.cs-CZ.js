@@ -474,7 +474,8 @@
                         cancelButtonText: "Zrušit",
                         deleteButtonText: "Vymazat",
 						title: "Závislost úkolů"
-                    }
+                    },
+                    nullText: "neplatný"
                 };
                 break;
             case "ejGrid":

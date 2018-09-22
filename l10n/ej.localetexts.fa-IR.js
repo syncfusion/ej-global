@@ -453,7 +453,8 @@
                         cancelButtonText: "لغو کردن",
                         deleteButtonText: "حذف کردن",
                         title: "وابستگی به کار"
-                    }
+                    },
+                    nullText:"صفر"
                 };
                 break;
             case "ejGrid":

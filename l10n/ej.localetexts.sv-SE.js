@@ -471,7 +471,8 @@
                         cancelButtonText: "Annullera",
                         deleteButtonText: "Radera",
                         title: "Uppgift beroende"
-                    }
+                    },
+                    nullText:"Null"
                 };
                 break;
             case "ejGrid":

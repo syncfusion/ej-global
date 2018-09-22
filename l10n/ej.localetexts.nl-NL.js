@@ -471,7 +471,8 @@
                         cancelButtonText: "Annuleer",
                         deleteButtonText: "Verwijder",
                         title: "Taakafhankelijkheid"
-                    }
+                    },
+                    nullText: "Nul"
                 };
                 break;
             case "ejGrid":

@@ -471,7 +471,8 @@
                         cancelButtonText: "Annulla",
                         deleteButtonText: "cancellare",
                         title: "Dipendenza da attività"
-                    }
+                    },
+                    nullText: "Nullo"
                 };
                 break;
             case "ejGrid":

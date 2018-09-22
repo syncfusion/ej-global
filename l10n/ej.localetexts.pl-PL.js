@@ -473,7 +473,8 @@
                         cancelButtonText: "Anuluj",
                         deleteButtonText: "Kasować",
                         title: "Zależność zadań"
-                    }
+                    },
+                    nullText: "Zero"
                 };
                 break;
             case "ejGrid":

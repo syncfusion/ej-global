@@ -471,7 +471,8 @@
                         cancelButtonText: "Anulare",
                         deleteButtonText: "Șterge",
                         title: "Dependența de activități"
-                    }
+                    },
+                    nullText:"Nul"
                 };
                 break;
             case "ejGrid":

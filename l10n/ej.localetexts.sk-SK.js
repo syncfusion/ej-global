@@ -471,7 +471,8 @@
                         cancelButtonText: "Zrušiť",
                         deleteButtonText: "vymazať",
                         title: "Závislosť úloh"
-                    }
+                    },
+                    nullText:"Nulový"
                 };
                 break;
             case "ejGrid":

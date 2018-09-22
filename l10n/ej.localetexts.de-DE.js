@@ -485,7 +485,8 @@
                         cancelButtonText: "Stornieren",
                         deleteButtonText: "Löschen",
                         title: "Aufgabenabhängigkeit"
-                    }
+                    },
+                    nullText: "Null"
                 };
                 break;
             case "ejGrid":

@@ -470,7 +470,8 @@
                         cancelButtonText: "Kansellere",
                         deleteButtonText: "Slett",
                         title: "Oppgaveavhengighet"
-                    }
+                    },
+                    nullText: "Null"
                 };
                 break;
             case "ejGrid":

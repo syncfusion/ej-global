@@ -472,7 +472,8 @@
                         cancelButtonText: "Otkazati",
                         deleteButtonText: "Izbrisati",
                         title: "Ovisnost zadataka"
-                    }
+                    },
+                    nullText: "nula"
                 };
                 break;
             case "ejGrid":

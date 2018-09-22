@@ -473,7 +473,8 @@
                         cancelButtonText: "取消",
                         deleteButtonText: "删除",
                         title: "任务依赖"
-                    }
+                    },
+                    nullText:"空值"
                 };
                 break;
             case "ejGrid":

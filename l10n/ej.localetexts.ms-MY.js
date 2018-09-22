@@ -471,7 +471,8 @@
                         cancelButtonText: "Batal",
                         deleteButtonText: "Padam",
                         title: "Ketergantungan Tugas"
-                    }
+                    },
+                    nullText: "Null"
                 };
                 break;
             case "ejGrid":

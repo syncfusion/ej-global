@@ -470,7 +470,8 @@
                         cancelButtonText: "Peruuttaa",
                         deleteButtonText: "Poistaa",
                         title: "Tehtävien riippuvuus"
-                    }
+                    },
+                    nullText: "Tyhjä"
                 };
                 break;
             case "ejGrid":

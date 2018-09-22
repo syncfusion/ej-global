@@ -476,7 +476,8 @@
                         cancelButtonText: "Cancelar",
                         deleteButtonText: "Borrar",
                         title: "Dependencia de tareas"
-                    }
+                    },
+                    nullText: "Nulo"
                 };
                 break;
             case "ejGrid":

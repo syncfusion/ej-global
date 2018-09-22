@@ -479,7 +479,8 @@
                         cancelButtonText: "إلغاء",
                         deleteButtonText: "حذف",
 						title: "الاعتماد على المهام"
-                    }
+                    },
+                    nullText: "لاغ"
                 };
                 break;
             case "ejGrid":

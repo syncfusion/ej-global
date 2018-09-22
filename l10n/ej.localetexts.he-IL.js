@@ -473,7 +473,8 @@
                         cancelButtonText: "לְבַטֵל",
                         deleteButtonText: "לִמְחוֹק",
                         title: "תלות המשימות"
-                    }
+                    },
+                    nullText:"ריק"
                 };
                 break;
             case "ejGrid":

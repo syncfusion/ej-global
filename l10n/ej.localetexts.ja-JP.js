@@ -471,7 +471,8 @@
                         cancelButtonText: "キャンセル",
                         deleteButtonText: "削除",
                         title: "タスクの依存関係"
-                    }
+                    },
+                    nullText:"ヌル"
                 };
                 break;
             case "ejGrid":

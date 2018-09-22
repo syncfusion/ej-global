@@ -470,7 +470,8 @@
                         cancelButtonText: "отменить",
                         deleteButtonText: "удалять",
                         title: "Зависимость задач"
-                    }
+                    },
+                    nullText:"Ноль"
                 };
                 break;
             case "ejGrid":

@@ -471,7 +471,8 @@
                         cancelButtonText: "İptal",
                         deleteButtonText: "silmek",
                         title: "Göreve Bağımlılık"
-                    }
+                    },
+                    nullText:"Boş"
                 };
                 break;
             case "ejGrid":

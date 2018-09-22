@@ -471,7 +471,8 @@
                         cancelButtonText: "취소",
                         deleteButtonText: "지우다",
                         title: "작업 종속성"
-                    }
+                    },
+                    nullText: "없는"
                 };
                 break;
             case "ejGrid":
