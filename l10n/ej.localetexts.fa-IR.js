@@ -1326,9 +1326,9 @@
                             Pdf: "PDF",
                             Excel: "اکسل",
                             Word: "کلمه",
-                            Html: "اچ تی ام ال",
-                            PPT: 'PPT',
-                            CSV: 'CSV'
+                            Html: "HTML",
+                            PPT: "پاورپوینت",
+                            CSV: "CSV"
                         },
                         first: {
                             headerText: "اولین",

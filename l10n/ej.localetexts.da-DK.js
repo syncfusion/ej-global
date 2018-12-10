@@ -1344,9 +1344,9 @@
                             Pdf: "PDF",
                             Excel: "Excel",
                             Word: "Ord",
-                            Html: "Html",
-                            PPT: 'PPT',
-                            CSV: 'CSV'
+                            Html: "HTML",
+                            PPT: "PowerPoint",
+                            CSV: "CSV"
                         },
                         first: {
                             headerText: "Først",

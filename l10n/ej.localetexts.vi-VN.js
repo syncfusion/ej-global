@@ -1365,9 +1365,9 @@
                             Pdf: "PDF",
                             Excel: "Excel",
                             Word: "lời",
-                            Html: "html",
-                            PPT: 'PPT',
-                            CSV: 'CSV'
+                            Html: "HTML",
+                            PPT: "PowerPoint",
+                            CSV: "CSV"
                         },
                         first: {
                             headerText: "Đầu tiên",

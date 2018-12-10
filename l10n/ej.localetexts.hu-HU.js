@@ -1343,9 +1343,9 @@
                             Pdf: "PDF",
                             Excel: "Excel",
                             Word: "Szó",
-                            Html: "html",
-                            PPT: 'PPT',
-                            CSV: 'CSV'
+                            Html: "HTML",
+                            PPT: "PowerPoint",
+                            CSV: "CSV"
                         },
                         first: {
                             headerText: "Első",

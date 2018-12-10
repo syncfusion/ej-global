@@ -1343,9 +1343,9 @@
                             Pdf: "PDF",
                             Excel: "kunnostautua",
                             Word: "Sana",
-                            Html: "html",
-                            PPT: 'PPT',
-                            CSV: 'CSV'
+                            Html: "HTML",
+                            PPT: "PowerPoint",
+                            CSV: "CSV"
                         },
                         first: {
                             headerText: "Ensimmäinen",

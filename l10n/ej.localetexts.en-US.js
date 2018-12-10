@@ -1403,8 +1403,8 @@
                             Pdf: 'PDF',
                             Excel: 'Excel',
                             Word: 'Word',
-                            Html: 'Html',
-                            PPT: 'PPT',
+                            Html: 'HTML',
+                            PPT: 'PowerPoint',
                             CSV: 'CSV'
                         },
                         first: {

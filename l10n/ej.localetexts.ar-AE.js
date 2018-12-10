@@ -1383,9 +1383,9 @@
                             Pdf: "PDF",
                             Excel: "تفوق",
                             Word: "كلمة",
-                            Html: "أتش تي أم أل",
-                            PPT: 'PPT',
-                            CSV: 'CSV'
+                            Html: "HTML",
+                            PPT: "عرض تقديمي",
+                            CSV: "CSV"
                         },
                         first: {
                             headerText: "الأول",

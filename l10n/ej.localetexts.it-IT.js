@@ -1342,9 +1342,9 @@
                             Pdf: "PDF",
                             Excel: "Eccellere",
                             Word: "parola",
-                            Html: "html",
-                            PPT: 'PPT',
-                            CSV: 'CSV'
+                            Html: "HTML",
+                            PPT: "Presa della corrente",
+                            CSV: "CSV"
                         },
                         first: {
                             headerText: "Primo",

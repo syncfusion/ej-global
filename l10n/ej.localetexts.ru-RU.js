@@ -1341,9 +1341,9 @@
                             Pdf: "PDF",
                             Excel: "превосходить",
                             Word: "слово",
-                            Html: "Html",
-                            PPT: 'PPT',
-                            CSV: 'CSV'
+                            Html: "HTML",
+                            PPT: "Силовая установка",
+                            CSV: "CSV"
                         },
                         first: {
                             headerText: "первый",

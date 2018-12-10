@@ -1345,8 +1345,8 @@
                             Excel: "nadmašiti",
                             Word: "Riječ",
                             Html: "HTML",
-                            PPT: 'PPT',
-                            CSV: 'CSV'
+                            PPT: "PowerPoint",
+                            CSV: "CSV"
                         },
                         first: {
                             headerText: "Prvi",

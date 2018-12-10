@@ -1341,9 +1341,9 @@
                             Pdf: "PDF",
                             Excel: "Excel",
                             Word: "Word",
-                            Html: "Html",
-                            PPT: 'PPT',
-                            CSV: 'CSV'
+                            Html: "HTML",
+                            PPT: "PowerPoint",
+                            CSV: "CSV"
                         },
                         first: {
                             headerText: "pertama",

@@ -1343,9 +1343,9 @@
                             Pdf: "PDF",
                             Excel: "Excel",
                             Word: "sözcük",
-                            Html: "html",
-                            PPT: 'PPT',
-                            CSV: 'CSV'
+                            Html: "HTML",
+                            PPT: "Priz",
+                            CSV: "CSV"
                         },
                         first: {
                             headerText: "İlk",

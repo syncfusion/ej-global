@@ -1341,9 +1341,9 @@
                             Pdf: "PDF",
                             Excel: "sobressair",
                             Word: "Palavra",
-                            Html: "html",
-                            PPT: 'PPT',
-                            CSV: 'CSV'
+                            Html: "HTML",
+                            PPT: "Power Point",
+                            CSV: "CSV"
                         },
                         first: {
                             headerText: "Primeiro",

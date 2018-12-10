@@ -1347,9 +1347,9 @@
                             Pdf: "PDF",
                             Excel: "vynikať",
                             Word: "slovo",
-                            Html: "html",
-                            PPT: 'PPT',
-                            CSV: 'CSV'
+                            Html: "HTML",
+                            PPT: "Power Point",
+                            CSV: "CSV"
                         },
                         first: {
                             headerText: "prvý",

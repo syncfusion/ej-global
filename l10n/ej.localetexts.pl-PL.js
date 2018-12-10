@@ -1345,9 +1345,9 @@
                             Pdf: "PDF",
                             Excel: "Przewyższać",
                             Word: "Słowo",
-                            Html: "html",
-                            PPT: 'PPT',
-                            CSV: 'CSV'
+                            Html: "HTML",
+                            PPT: "PowerPoint",
+                            CSV: "CSV"
                         },
                         first: {
                             headerText: "Pierwszy",

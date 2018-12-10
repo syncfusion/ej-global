@@ -1343,9 +1343,9 @@
                             Pdf: "PDF",
                             Excel: "뛰어나다",
                             Word: "워드",
-                            Html: "html로",
-                            PPT: 'PPT',
-                            CSV: 'CSV'
+                            Html: "HTML",
+                            PPT: "파워 포인트",
+                            CSV: "CSV"
                         },
                         first: {
                             headerText: "먼저",

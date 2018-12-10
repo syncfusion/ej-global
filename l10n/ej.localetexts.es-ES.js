@@ -1376,9 +1376,9 @@
                             Pdf: "PDF",
                             Excel: "Sobresalir",
                             Word: "Palabra",
-                            Html: "html",
-                            PPT: "PPT",
-                            CSV: 'CSV'
+                            Html: "HTML",
+                            PPT: "PowerPoint",
+                            CSV: "CSV"
                         },
                         first: {
                             headerText: "primero",

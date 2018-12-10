@@ -1366,8 +1366,8 @@
                             Excel: "高强",
                             Word: "字",
                             Html: "HTML",
-                            PPT: 'PPT',
-                            CSV: 'CSV'
+                            PPT: "幻灯片",
+                            CSV: "CSV"
                         },
                         first: {
                             headerText: "第一",

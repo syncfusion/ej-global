@@ -1342,9 +1342,9 @@
                             Pdf: "PDF",
                             Excel: "Vynikat",
                             Word: "Slovo",
-                            Html: "html",
-                            PPT: 'PPT',
-                            CSV: 'CSV'
+                            Html: "HTML",
+                            PPT: "PowerPoint",
+                            CSV: "CSV"
                         },
                         first: {
                             headerText: "První",
