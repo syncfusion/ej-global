@@ -101,18 +101,21 @@
                     watermarkText: " ",
                 };
                 break;
-			case "ejComboBox":
+            case "ejComboBox":
+                ej.ComboBox.Locale = ej.ComboBox.Locale || {};
                 ej.ComboBox.Locale["tr-TR"] = {
                     noRecordsTemplate: "Kayıt bulunamadı",
 					actionFailureTemplate: "Talep Başarısız Oldu"
                 };
                 break;
-			case "ejMenu":
+            case "ejMenu":
+                ej.Menu.Locale = ej.Menu.Locale || {};
                 ej.Menu.Locale["tr-TR"] = {
                     titleText: "Menü"
                 };
                 break;
-			case "ejCaptcha":
+            case "ejCaptcha":
+                ej.Captcha.Locale = ej.Captcha.Locale || {};
                 ej.Captcha.Locale["tr-TR"] = {
 					placeHolderText: "Gösterilen kodu yazın",
 					CustomErrorMessage: "Yanlış kodlama"

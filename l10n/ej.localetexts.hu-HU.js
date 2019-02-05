@@ -101,18 +101,21 @@
                     watermarkText: " ",
                 };
                 break;
-			case "ejComboBox":
+            case "ejComboBox":
+                ej.ComboBox.Locale = ej.ComboBox.Locale || {};
                 ej.ComboBox.Locale["hu-HU"] = {
                     noRecordsTemplate: "Nincs találat",
 					actionFailureTemplate: "A kérés sikertelen"
                 };
                 break;
-			case "ejMenu":
+            case "ejMenu":
+                ej.Menu.Locale = ej.Menu.Locale || {};
                 ej.Menu.Locale["hu-HU"] = {
                     titleText: "Menü"
                 };
                 break;
-			case "ejCaptcha":
+            case "ejCaptcha":
+                ej.Captcha.Locale = ej.Captcha.Locale || {};
                 ej.Captcha.Locale["hu-HU"] = {
 					placeHolderText: "Írja be a képen látható kódot",
 					CustomErrorMessage: "Érvénytelen CAPTCHA"

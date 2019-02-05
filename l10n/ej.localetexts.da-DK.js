@@ -101,18 +101,21 @@
                     watermarkText: " ",
                 };
                 break;
-			case "ejComboBox":
+            case "ejComboBox":
+                ej.ComboBox.Locale = ej.ComboBox.Locale || {};
                 ej.ComboBox.Locale["da-DK"] = {
                     noRecordsTemplate: "Ingen resultater fundet",
 					actionFailureTemplate: "Forespørgslen mislykkedes"
                 };
                 break;
-			case "ejMenu":
+            case "ejMenu":
+                ej.Menu.Locale = ej.Menu.Locale || {};
                 ej.Menu.Locale["da-DK"] = {
                     titleText: "menu"
                 };
                 break;
-			case "ejCaptcha":
+            case "ejCaptcha":
+                ej.Captcha.Locale = ej.Captcha.Locale || {};
                 ej.Captcha.Locale["da-DK"] = {
 					placeHolderText: "Skriv den viste kode",
 					CustomErrorMessage: "Ugyldig captcha"

@@ -102,17 +102,20 @@
                 };
                 break;
             case "ejComboBox":
+                ej.ComboBox.Locale = ej.ComboBox.Locale || {};
                 ej.ComboBox.Locale["es-ES"] = {
                     noRecordsTemplate: "No se encontrarón archivos",
                     actionFailureTemplate: "La solicitud falló"
                 };
                 break;
             case "ejMenu":
+                ej.Menu.Locale = ej.Menu.Locale || {};
                 ej.Menu.Locale["es-ES"] = {
                     titleText: "menú"
                 };
                 break;
             case "ejCaptcha":
+                ej.Captcha.Locale = ej.Captcha.Locale || {};
                 ej.Captcha.Locale["es-ES"] = {
                     placeHolderText: "Escribe el código mostrado",
                     CustomErrorMessage: "Captcha inválido"

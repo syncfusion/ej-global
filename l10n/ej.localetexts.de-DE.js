@@ -102,18 +102,21 @@
                     watermarkText: " ",
                 };
                 break;
-			case "ejComboBox":
+            case "ejComboBox":
+                ej.ComboBox.Locale = ej.ComboBox.Locale || {};
                 ej.ComboBox.Locale["de-DE"] = {
                     noRecordsTemplate: "Keine Aufzeichnungen gefunden",
 					actionFailureTemplate: "Die Anforderung ist fehlgeschlagen"
                 };
                 break;
-			case "ejMenu":
+            case "ejMenu":
+                ej.Menu.Locale = ej.Menu.Locale || {};
                 ej.Menu.Locale["de-DE"] = {
                     titleText: "Speisekarte"
                 };
                 break;
-			case "ejCaptcha":
+            case "ejCaptcha":
+                ej.Captcha.Locale = ej.Captcha.Locale || {};
                 ej.Captcha.Locale["de-DE"] = {
 					placeHolderText: "Geben Sie den angezeigten Code ein",
 					CustomErrorMessage: "Ungültiges Captcha"

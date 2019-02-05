@@ -100,18 +100,21 @@
                     watermarkText: " ",
                 };
                 break;
-			case "ejComboBox":
+            case "ejComboBox":
+                ej.ComboBox.Locale = ej.ComboBox.Locale || {};
                 ej.ComboBox.Locale["fi-FI"] = {
                     noRecordsTemplate: "Merkintöjä ei löydy",
 					actionFailureTemplate: "Pyyntö epäonnistui"
                 };
                 break;
-			case "ejMenu":
+            case "ejMenu":
+                ej.Menu.Locale = ej.Menu.Locale || {};
                 ej.Menu.Locale["fi-FI"] = {
                     titleText: "valikko"
                 };
                 break;
-			case "ejCaptcha":
+            case "ejCaptcha":
+                ej.Captcha.Locale = ej.Captcha.Locale || {};
                 ej.Captcha.Locale["fi-FI"] = {
 					placeHolderText: "Kirjoita näkyvä koodi",
 					CustomErrorMessage: "Virheellinen Captcha"

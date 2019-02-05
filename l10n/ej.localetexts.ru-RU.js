@@ -101,18 +101,21 @@
                     watermarkText: " ",
                 };
                 break;
-			case "ejComboBox":
+            case "ejComboBox":
+                ej.ComboBox.Locale = ej.ComboBox.Locale || {};
                 ej.ComboBox.Locale["ru-RU"] = {
                     noRecordsTemplate: "Записей не найдено",
 					actionFailureTemplate: "Ошибка запроса"
                 };
                 break;
-			case "ejMenu":
+            case "ejMenu":
+                ej.Menu.Locale = ej.Menu.Locale || {};
                 ej.Menu.Locale["ru-RU"] = {
                     titleText: "Меню"
                 };
                 break;
-			case "ejCaptcha":
+            case "ejCaptcha":
+                ej.Captcha.Locale = ej.Captcha.Locale || {};
                 ej.Captcha.Locale["ru-RU"] = {
 					placeHolderText: "Введите указанный код",
 					CustomErrorMessage: "Неверная капча"

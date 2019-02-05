@@ -101,18 +101,21 @@
                     watermarkText: " ",
                 };
                 break;
-			case "ejComboBox":
+            case "ejComboBox":
+                ej.ComboBox.Locale = ej.ComboBox.Locale || {};
                 ej.ComboBox.Locale["sk-SK"] = {
                     noRecordsTemplate: "Záznam nenalezol",
 					actionFailureTemplate: "Žiadosť zlyhala"
                 };
                 break;
-			case "ejMenu":
+            case "ejMenu":
+                ej.Menu.Locale = ej.Menu.Locale || {};
                 ej.Menu.Locale["sk-SK"] = {
                     titleText: "Ponuka"
                 };
                 break;
-			case "ejCaptcha":
+            case "ejCaptcha":
+                ej.Captcha.Locale = ej.Captcha.Locale || {};
                 ej.Captcha.Locale["sk-SK"] = {
 					placeHolderText: "Opíš zobrazený kód",
 					CustomErrorMessage: "Neplatná captcha"

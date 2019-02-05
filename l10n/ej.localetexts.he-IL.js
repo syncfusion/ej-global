@@ -103,18 +103,21 @@
                     watermarkText: " ",
                 };
                 break;
-			case "ejComboBox":
+            case "ejComboBox":
+                ej.ComboBox.Locale = ej.ComboBox.Locale || {};
                 ej.ComboBox.Locale["he-IL"] = {
                     noRecordsTemplate: "לא נמצאו שיאים",
 					actionFailureTemplate: "הבקשה נכשלה"
                 };
                 break;
-			case "ejMenu":
+            case "ejMenu":
+                ej.Menu.Locale = ej.Menu.Locale || {};
                 ej.Menu.Locale["he-IL"] = {
                     titleText: "תַפרִיט"
                 };
                 break;
-			case "ejCaptcha":
+            case "ejCaptcha":
+                ej.Captcha.Locale = ej.Captcha.Locale || {};
                 ej.Captcha.Locale["he-IL"] = {
 					placeHolderText: "הקלד את הקוד המוצג",
 					CustomErrorMessage: "CAPcha לא חוקי"

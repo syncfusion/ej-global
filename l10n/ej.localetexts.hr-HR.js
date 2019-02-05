@@ -102,18 +102,21 @@
                     watermarkText: " ",
                 };
                 break;
-			case "ejComboBox":
+            case "ejComboBox":
+                ej.ComboBox.Locale = ej.ComboBox.Locale || {};
                 ej.ComboBox.Locale["hr-HR"] = {
                     noRecordsTemplate: "Nije pronađen nijedan zapis",
 					actionFailureTemplate: "Zahtjev nije uspio"
                 };
                 break;
-			case "ejMenu":
+            case "ejMenu":
+                ej.Menu.Locale = ej.Menu.Locale || {};
                 ej.Menu.Locale["hr-HR"] = {
                     titleText: "izbornik"
                 };
                 break;
-			case "ejCaptcha":
+            case "ejCaptcha":
+                ej.Captcha.Locale = ej.Captcha.Locale || {};
                 ej.Captcha.Locale["hr-HR"] = {
 					placeHolderText: "Upišite prikazani kod",
 					CustomErrorMessage: "Nevažeća Captcha"

@@ -101,18 +101,21 @@
                     watermarkText: " ",
                 };
                 break;
-			case "ejComboBox":
+            case "ejComboBox":
+                ej.ComboBox.Locale = ej.ComboBox.Locale || {};
                 ej.ComboBox.Locale["sv-SE"] = {
                     noRecordsTemplate: "Inga uppgifter funna",
 					actionFailureTemplate: "Förfrågan misslyckades"
                 };
                 break;
-			case "ejMenu":
+            case "ejMenu":
+                ej.Menu.Locale = ej.Menu.Locale || {};
                 ej.Menu.Locale["sv-SE"] = {
                     titleText: "Meny"
                 };
                 break;
-			case "ejCaptcha":
+            case "ejCaptcha":
+                ej.Captcha.Locale = ej.Captcha.Locale || {};
                 ej.Captcha.Locale["sv-SE"] = {
 					placeHolderText: "Ange koden som visas",
 					CustomErrorMessage: "Ogiltigt captcha"

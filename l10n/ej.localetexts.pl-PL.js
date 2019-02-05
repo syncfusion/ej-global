@@ -101,18 +101,21 @@
                     watermarkText: " ",
                 };
                 break;
-			case "ejComboBox":
+            case "ejComboBox":
+                ej.ComboBox.Locale = ej.ComboBox.Locale || {};
                 ej.ComboBox.Locale["pl-PL"] = {
                     noRecordsTemplate: "Nic nie znaleziono",
 					actionFailureTemplate: "Żądanie nie powiodło się"
                 };
                 break;
-			case "ejMenu":
+            case "ejMenu":
+                ej.Menu.Locale = ej.Menu.Locale || {};
                 ej.Menu.Locale["pl-PL"] = {
                     titleText: "Menu"
                 };
                 break;
-			case "ejCaptcha":
+            case "ejCaptcha":
+                ej.Captcha.Locale = ej.Captcha.Locale || {};
                 ej.Captcha.Locale["pl-PL"] = {
 					placeHolderText: "Wpisz wyświetlony kod",
 					CustomErrorMessage: "Niepoprawna CAPTCHA"

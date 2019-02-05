@@ -102,17 +102,20 @@
                 };
                 break;
             case "ejComboBox":
+                ej.ComboBox.Locale = ej.ComboBox.Locale || {};
                 ej.ComboBox.Locale["fr-FR"] = {
                     noRecordsTemplate: "Aucun enregistrement trouvé",
                     actionFailureTemplate: "La demande a échoué"
                 };
                 break;
             case "ejMenu":
+                ej.Menu.Locale = ej.Menu.Locale || {};
                 ej.Menu.Locale["fr-FR"] = {
                     titleText: "Menu"
                 };
                 break;
             case "ejCaptcha":
+                ej.Captcha.Locale = ej.Captcha.Locale || {};
                 ej.Captcha.Locale["fr-FR"] = {
                     placeHolderText: "Entrer le code indiqué",
                     CustomErrorMessage: "Captcha invalide"

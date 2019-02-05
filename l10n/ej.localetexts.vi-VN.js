@@ -101,18 +101,21 @@
                     watermarkText: " ",
                 };
                 break;
-			case "ejComboBox":
+            case "ejComboBox":
+                ej.ComboBox.Locale = ej.ComboBox.Locale || {};
                 ej.ComboBox.Locale["vi-VN"] = {
                     noRecordsTemplate: "Không có dữ liệu được tìm thấy",
 					actionFailureTemplate: "Yêu cầu Không thành công"
                 };
                 break;
-			case "ejMenu":
+            case "ejMenu":
+                ej.Menu.Locale = ej.Menu.Locale || {};
                 ej.Menu.Locale["vi-VN"] = {
                     titleText: "Thực đơn"
                 };
                 break;
-			case "ejCaptcha":
+            case "ejCaptcha":
+                ej.Captcha.Locale = ej.Captcha.Locale || {};
                 ej.Captcha.Locale["vi-VN"] = {
 					placeHolderText: "Nhập mã được hiển thị",
 					CustomErrorMessage: "Captcha không hợp lệ"

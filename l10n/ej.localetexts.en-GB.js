@@ -71,18 +71,21 @@
                     watermarkText: " ",
                 };
                 break;
-			case "ejComboBox":
+            case "ejComboBox":
+                ej.ComboBox.Locale = ej.ComboBox.Locale || {};
                 ej.ComboBox.Locale["en-GB"] = {
                     noRecordsTemplate: "No Records Found",
 					actionFailureTemplate: "The Request Failed"
                 };
                 break;
-			case "ejMenu":
+            case "ejMenu":
+                ej.Menu.Locale = ej.Menu.Locale || {};
                 ej.Menu.Locale["en-GB"] = {
                     titleText: "Menu"
                 };
                 break;
-			case "ejCaptcha":
+            case "ejCaptcha":
+                ej.Captcha.Locale = ej.Captcha.Locale || {};
                 ej.Captcha.Locale["en-GB"] = {
 					placeHolderText: "Type the code shown",
 					CustomErrorMessage: "Invalid Captcha"

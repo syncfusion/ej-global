@@ -101,18 +101,21 @@
                     watermarkText: " ",
                 };
                 break;
-			case "ejComboBox":
+            case "ejComboBox":
+                ej.ComboBox.Locale = ej.ComboBox.Locale || {};
                 ej.ComboBox.Locale["ro-RO"] = {
                     noRecordsTemplate: "Nu au fost găsite",
 					actionFailureTemplate: "Cererea a eșuat"
                 };
                 break;
-			case "ejMenu":
+            case "ejMenu":
+                ej.Menu.Locale = ej.Menu.Locale || {};
                 ej.Menu.Locale["ro-RO"] = {
                     titleText: "Meniul"
                 };
                 break;
-			case "ejCaptcha":
+            case "ejCaptcha":
+                ej.Captcha.Locale = ej.Captcha.Locale || {};
                 ej.Captcha.Locale["ro-RO"] = {
 					placeHolderText: "Introduceti codul din imagine",
 					CustomErrorMessage: "Captcha nevalidă"

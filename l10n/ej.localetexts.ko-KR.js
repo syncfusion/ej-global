@@ -101,18 +101,21 @@
                     watermarkText: " ",
                 };
                 break;
-			case "ejComboBox":
+            case "ejComboBox":
+                ej.ComboBox.Locale = ej.ComboBox.Locale || {};
                 ej.ComboBox.Locale["ko-KR"] = {
                     noRecordsTemplate: "기록 없음",
 					actionFailureTemplate: "요청 실패"
                 };
                 break;
-			case "ejMenu":
+            case "ejMenu":
+                ej.Menu.Locale = ej.Menu.Locale || {};
                 ej.Menu.Locale["ko-KR"] = {
                     titleText: "메뉴"
                 };
                 break;
-			case "ejCaptcha":
+            case "ejCaptcha":
+            ej.Captcha.Locale = ej.Captcha.Locale || {};
                 ej.Captcha.Locale["ko-KR"] = {
 					placeHolderText: "표시된 코드 입력",
 					CustomErrorMessage: "잘못된 보안 문자"

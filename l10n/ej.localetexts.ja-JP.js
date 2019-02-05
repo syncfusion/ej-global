@@ -101,18 +101,21 @@
                     watermarkText: " ",
                 };
                 break;
-			case "ejComboBox":
+            case "ejComboBox":
+                ej.ComboBox.Locale = ej.ComboBox.Locale || {};
                 ej.ComboBox.Locale["ja-JP"] = {
                     noRecordsTemplate: "レコードが見つかりません",
 					actionFailureTemplate: "リクエストが失敗しました"
                 };
                 break;
-			case "ejMenu":
+            case "ejMenu":
+                ej.Menu.Locale = ej.Menu.Locale || {};
                 ej.Menu.Locale["ja-JP"] = {
                     titleText: "メニュー"
                 };
                 break;
-			case "ejCaptcha":
+            case "ejCaptcha":
+                ej.Captcha.Locale = ej.Captcha.Locale || {};
                 ej.Captcha.Locale["ja-JP"] = {
 					placeHolderText: "表示されたコードを入力してください",
 					CustomErrorMessage: "が無効です キャプチャ"

@@ -102,18 +102,21 @@
                     watermarkText: " ",
                 };
                 break;
-			case "ejComboBox":
+            case "ejComboBox":
+                ej.ComboBox.Locale = ej.ComboBox.Locale || {};
                 ej.ComboBox.Locale["fa-IR"] = {
                     noRecordsTemplate: "هیچ اسنادی یافت نشد",
 					actionFailureTemplate: "درخواست شکست خورد"
                 };
                 break;
-			case "ejMenu":
+            case "ejMenu":
+                ej.Menu.Locale = ej.Menu.Locale || {};
                 ej.Menu.Locale["fa-IR"] = {
                     titleText: "فهرست"
                 };
                 break;
-			case "ejCaptcha":
+            case "ejCaptcha":
+                ej.Captcha.Locale = ej.Captcha.Locale || {};
                 ej.Captcha.Locale["fa-IR"] = {
 					placeHolderText: "کد نشان داده شده را وارد نمایید",
 					CustomErrorMessage: "کپچا نامعتبر است"

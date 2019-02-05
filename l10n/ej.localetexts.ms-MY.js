@@ -101,18 +101,21 @@
                     watermarkText: " ",
                 };
                 break;
-			case "ejComboBox":
+            case "ejComboBox":
+                ej.ComboBox.Locale = ej.ComboBox.Locale || {};
                 ej.ComboBox.Locale["ms-MY"] = {
                     noRecordsTemplate: "Tiada rekod dijumpai",
 					actionFailureTemplate: "Permintaan Gagal"
                 };
                 break;
-			case "ejMenu":
+            case "ejMenu":
+                ej.Menu.Locale = ej.Menu.Locale || {};
                 ej.Menu.Locale["ms-MY"] = {
                     titleText: "Menu"
                 };
                 break;
-			case "ejCaptcha":
+            case "ejCaptcha":
+                ej.Captcha.Locale = ej.Captcha.Locale || {};
                 ej.Captcha.Locale["ms-MY"] = {
 					placeHolderText: "taip kod yang ditunjukkan",
 					CustomErrorMessage: "Captcha tidak sah"
