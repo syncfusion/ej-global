@@ -18,7 +18,7 @@
                 ej.ColorPicker.Locale["de-DE"] = {
                     buttonText: {
                         apply: "Anwenden",
-                        cancel: "Stornieren",
+                        cancel: "Abbrechen",
                         swatches: "Farbfelder"
                     },
                     tooltipText: {
@@ -59,7 +59,7 @@
                 ej.DateRangePicker.Locale["de-DE"] = {
                     ButtonText: {
                         apply: "Übernehmen",
-                        cancel: "Stornieren",
+                        cancel: "Abbrechen",
                         reset: "Zurücksetzen"
                     },
                     watermarkText: "Wählen Sie Bereich",
@@ -160,7 +160,7 @@
                     PredicateOr: "ODER",
                     OK: "OK",
                     MatchCase: "Groß-/Kleinschreibung beachten",
-                    Cancel: "Stornieren",
+                    Cancel: "Abbrechen",
                     NoResult: "Keine Übereinstimmungen gefunden",
                     CheckBoxStatusMsg: "Nicht alle Objekte werden angezeigt",
                     DatePickerWaterMark: "Zeit auswählen",
@@ -270,7 +270,7 @@
                         filedetail: "Die ausgewählte Dateigröße ist zu groß. Bitte wählen Sie eine Datei in der gültigen Größe aus.",
                         denyError: "Dateien mit #Extension erweiterung sind nicht erlaubt",
                         allowError: "Nur Dateien mit #Extension erweiterung sind erlaubt",
-                        cancelToolTip: "stornieren",
+                        cancelToolTip: "Abbrechen",
                         removeToolTip: "Entfernen",
                         retryToolTip: "Wiederholen",
                         completedToolTip: "Fertiggestellt",
@@ -323,7 +323,7 @@
                         editFormTitle: "Aufgabe bearbeiten",
                         saveButton: "Speichern",
                         deleteButton: "Löschen",
-                        cancelButton: "Stornieren",
+                        cancelButton: "Abbrechen",
                         addPredecessor: "Neue hinzufügen",
                         removePredecessor: "Entfernen",
                         addButton: "Hinzufügen"
@@ -374,7 +374,7 @@
                         editTool: "Bearbeiten",
                         saveTool: "Aktualisieren",
                         deleteTool: "Löschen",
-                        cancelTool: "Stornieren",
+                        cancelTool: "Abbrechen",
                         searchTool: "Suche",
                         indentTool: "Einzug",
                         outdentTool: "ausrücken",
@@ -446,7 +446,7 @@
                     },
                     deleteColumnText: "Sind Sie sicher sie wollen diese Spalte löschen?",
                     okButtonText: "OK",
-                    cancelButtonText: "Stornieren",
+                    cancelButtonText: "Abbrechen",
                     confirmDeleteText: "Löschen bestätigen",
                     predecessorEditingTexts: {
                         fromText: "Von",
@@ -485,7 +485,7 @@
                         taskLink: "Aufgabenverknüpfung",
                         lag: "zurückbleiben",
                         okButtonText: "OK",
-                        cancelButtonText: "Stornieren",
+                        cancelButtonText: "Abbrechen",
                         deleteButtonText: "Löschen",
                         title: "Aufgabenabhängigkeit"
                     },
@@ -501,7 +501,7 @@
                     EditOperationAlert: "Für den Bearbeitungsvorgang wurden keine Datensätze ausgewählt",
                     SaveButton: "sparen",
                     OKButton: "OK",
-                    CancelButton: "Stornieren",
+                    CancelButton: "Abbrechen",
                     EditFormTitle: "Informationen von ",
                     AddFormTitle: "Fügen Sie einen neuen Datensatz hinzu",
                     GroupCaptionFormat: "{{:headerText}}: {{:key}} - {{:count}} {{if count == 1 }} Artikel {{else}} Artikel {{/if}} ",
@@ -517,7 +517,7 @@
                     Edit: "Bearbeiten",
                     Delete: "Löschen",
                     Update: "Aktualisieren",
-                    Cancel: "Stornieren",
+                    Cancel: "Abbrechen",
                     Done: "Erledigt",
                     Columns: "Columns",
                     SelectAll: "(Alles auswählen)",
@@ -574,7 +574,7 @@
                         HideColumnAlert: "Zumindestens eine Spalte muss im Gitternetz angezeigt werden",
                         columnSelectorText: "Spalte verbergen",
                         columnSelectorDone: "OK",
-                        columnSelectorCancel: "Stornieren",
+                        columnSelectorCancel: "Abbrechen",
                         columnSelectorWarning: "Warnung",
                         filterOk: "OK",
                         filterWarning: "Warnung"
@@ -585,7 +585,7 @@
                     ej.mobile.DatePicker.Locale["de-DE"] = {
                         confirmText: "Erledigt",
                         Windows: {
-                            cancelText: "Stornieren",
+                            cancelText: "Abbrechen",
                             headerText: "WAHL DATUM",
                             toolbarConfirmText: "erledigt",
                             toolbarCancelText: "schließen"
@@ -603,7 +603,7 @@
                             headerText: "Zeit einstellen"
                         },
                         Windows: {
-                            cancelText: "Stornieren",
+                            cancelText: "Abbrechen",
                             headerText: "WAHL ZEIT",
                             toolbarCancelText: "schließen",
                             toolbarConfirmText: "erledigt"
@@ -1008,7 +1008,7 @@
                             contentText: "OK"
                         },
                         cancel: {
-                            contentText: "stornieren"
+                            contentText: "Abbrechen"
                         },
                         locked: {
                             contentText: "Gesperrt"
@@ -1109,7 +1109,7 @@
                     RowArea: "Zeile hier ablegen",
                     ValueArea: "Werte hier ablegen",
                     OK: "OK",
-                    Cancel: "Stornieren",
+                    Cancel: "Abbrechen",
                     Remove: "Entfernen",
                     ConditionalFormatting: "Bedingte Formatierung",
                     Condition: "Konditionaler Typ",
@@ -1470,7 +1470,7 @@
                         portrait: "Hochformat",
                         landscape: "Querformat",
                         doneButton: "Erledigt",
-                        cancelButton: "Stornieren"
+                        cancelButton: "Abbrechen"
                     },
                     credential: {
                         userName: 'Nutzername',
@@ -1526,7 +1526,7 @@
                 ej.Kanban.Locale["de-DE"] = {
                     EmptyCard: "Keine Karten zum anzeigen",
                     SaveButton: "Speichern",
-                    CancelButton: "stornieren",
+                    CancelButton: "Abbrechen",
                     EditFormTitle: "Details von ",
                     AddFormTitle: "Neue Karte hinzufügen",
                     SwimlaneCaptionFormat: "- {{:count}}{{if count == 1 }} Artikel {{else}} Artikel {{/if}}",
@@ -1627,7 +1627,7 @@
                     textAlign: "Textausrichtung",
                     dialogUpdate: "Aktualisieren",
                     dialogInsert: "Einfügen",
-                    dialogCancel: "Stornieren",
+                    dialogCancel: "Abbrechen",
                     dialogApply: "Übernehmen",
                     dialogOk: "OK",
                     createTable: "Tabelle einfügen",
@@ -1756,7 +1756,7 @@
                     RecurrenceEditSeries: "Ganze Serie",
                     PreviousAppointment: "Vorheriger Termin",
                     NextAppointment: "Nächster Termin",
-                    AppointmentSubject: "Fach",
+                    AppointmentSubject: "Betreff",
                     StartTime: "Startzeit",
                     EndTime: "Endzeit",
                     AllDay: "Ganzen Tag",
@@ -1765,7 +1765,7 @@
                     Today: "Heute",
                     Recurrence: "Wiederholen",
                     Done: "Erledigt",
-                    Cancel: "Stornieren",
+                    Cancel: "Abbrechen",
                     Ok: "OK",
                     Repeat: "Wiederholen",
                     RepeatBy: "Wiederholen bei",
@@ -1798,7 +1798,7 @@
                     Last: "Letzte",
                     WeekDay: "Wochentag",
                     WeekEndDay: "Wochenendtag",
-                    Subject: "Fach",
+                    Subject: "Betreff",
                     Categorize: "Kategorien",
                     DueIn: "Fällig in",
                     DismissAll: "Alle Verwerfen",
@@ -1904,7 +1904,7 @@
                     Title: "Spreadsheet",
                     ColorPicker: "Farbwähler",
                     Ok: "OK",
-                    Cancel: "Stornieren",
+                    Cancel: "Abbrechen",
                     Alert: "Wir konnten diese Funktion nicht auf die ausgewählten Zellen anwenden. Wählen Sie eine einzelne Zelle innerhalb des Datenbereichs aus und versuchen Sie es erneut.",
                     HeaderAlert: "Der Befehl konnte nicht abgeschlossen werden, da Sie versuchten mit dem Filterkopf zu filtern. Wählen Sie eine einzelne Zelle im Filterbereich und versuchen Sie es nocheinmal.",
                     FlashFillAlert: "Alle Daten neben Ihrer Auswahl wurden überprüft und es gab kein Muster zum Ausfüllen von Werten.",
@@ -2644,7 +2644,7 @@
                         editTool: "Bearbeiten",
                         updateTool: "Aktualisieren",
                         deleteTool: "Löschen",
-                        cancelTool: "Stornieren",
+                        cancelTool: "Abbrechen",
                         expandAllTool: "Alle erweitern",
                         collapseAllTool: "Alles reduzieren",
                         pdfExportTool: "PDF exportieren",
@@ -2657,7 +2657,7 @@
                         editText: "Bearbeiten",
                         deleteText: "Löschen",
                         saveText: "sparen",
-                        cancelText: "Stornieren",
+                        cancelText: "Abbrechen",
                         aboveText: "Über",
                         belowText: "Unten"
                     },
@@ -2746,7 +2746,7 @@
                     deleteColumnText: "Sind Sie sicher, dass Sie diese Spalte zu löschen?",
                     deleteRecordText: "Möchten Sie den Datensatz wirklich löschen?",
                     okButtonText: "OK",
-                    cancelButtonText: "Stornieren",
+                    cancelButtonText: "Abbrechen",
                     confirmDeleteText: "Löschen bestätigen",
                     batchSaveConfirmText: "Sind Sie sicher Sie wollen das Speichern?",
                     batchSaveLostChangesText: "Ungespeicherte Änderungen gehen verloren. Wollen Sie fortfahren?",
@@ -2764,7 +2764,7 @@
                     buttonText: {
                         upload: "Hochladen",
                         browse: "blättern",
-                        cancel: "Stornieren",
+                        cancel: "Abbrechen",
                         close: "Schließen"
                     },
                     dialogText: {
@@ -2777,7 +2777,7 @@
                     filedetail: "Die ausgewählte Datei ist zu groß. Bitte wählen Sie eine Datei innerhalb der gültigen Größe.",
                     denyError: "Dateien mit #Extension Erweiterungen sind nicht erlaubt.",
                     allowError: "Nur Dateien mit #Extension Erweiterungen sind erlaubt.",
-                    cancelToolTip: "Stornieren",
+                    cancelToolTip: "Abbrechen",
                     removeToolTip: "Entfernen",
                     retryToolTip: "Wiederholen",
                     completedToolTip: "vollendet",
