@@ -1477,10 +1477,19 @@
                         selectValue: "S閘ectionnez une valeur"
                     },
                     errorMessage: {
-                        startMessage: "Report Viewer a rencontr?des probl鑝es lors du chargement de ce rapport. S'il vous plait",
+                        startMessage: "Report Viewer a rencontré des problèmes lors du chargement de ce rapport. S'il vous plaît",
                         middleMessage: " Cliquez ici",
-                        endMessage: "pour voir les d閠ails de l'erreur",
-                        closeMessage: "Fermez ce message"
+                        endMessage: "pour voir les détails de l'erreur",
+                        closeMessage: "Fermer ce message",
+                        exportAjaxFailureMsg: "Impossible d'exporter le document car la connexion au service de rapport a échoué.",
+                        printAjaxFailureMsg: "Impossible d'imprimer le document en raison de l'échec de la connexion à Report Service.",
+                        reportLoadAjaxFailureMsg: "Impossible de faire avancer l'action Report en raison de l'échec de la connexion du service de rapport.",
+                    },
+                    progressMessage: {
+                        exportLoadingMessage: "Préparation du document d'exportation ... Veuillez patienter ...",
+                        printLoadingMessage: "Préparation des données d'impression… Veuillez patienter…",
+                        printPreparationMessage: "Préparation des données d'impression ... {0}% terminé ... Veuillez patienter ...",
+                        exportPreparationMessage: "Préparation du document d'exportation ... {0}% terminé ... Veuillez patienter ...",
                     },
                     alertMessage: {
                         close: 'Fermer',
@@ -1503,7 +1512,8 @@
                         RVERR0012: 'La valeur fournie pour le param鑤re de rapport {invite de param鑤re} n\'est pas valide pour son type.'
                     },
                     selectAll: "Tout s閘ectionner",
-                    viewButton: "Voir le rapport"
+                    viewButton: "Voir le rapport",
+                    parameterProcessingMessage: 'Chargement des paramètres dépendants ...'
                 };
                 break;
             case "ejRibbon":

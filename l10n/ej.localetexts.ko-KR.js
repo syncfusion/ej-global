@@ -1462,7 +1462,16 @@
                         startMessage: '보고서 뷰어에서이 보고서를로드하는 중 일부 문제가 발생했습니다. 부디',
                         middleMessage: ' 여기를 클릭하십시오.',
                         endMessage: '오류 세부 정보를 보려면',
-                        closeMessage: '이 메시지를 닫습니다.'
+                        closeMessage: '이 메시지를 닫습니다.',
+                        exportAjaxFailureMsg: '보고서 서비스 연결 실패로 인해 문서를 내보낼 수 없습니다.',
+                        printAjaxFailureMsg: '보고서 서비스 연결 실패로 인해 문서를 인쇄 할 수 없습니다.',
+                        reportLoadAjaxFailureMsg: '보고서 서비스 연결 실패로 인해 보고서 작업을 진행할 수 없습니다.',
+                    },
+                    progressMessage: {
+                        exportLoadingMessage: '문서 내보내기 준비 중 ... 잠시 기다려주십시오 ...',
+                        printLoadingMessage: '인쇄 데이터 준비 중입니다 ... 기다려주십시오 ...',
+                        printPreparationMessage: '인쇄 데이터 준비 중 ... {0}% 완료 ... 잠시 기다려주십시오 ...',
+                        exportPreparationMessage: '내보내기중인 문서 준비 중 ... {0}% 완료 됨 ... 잠시 기다려주십시오 ...',
                     },
                     alertMessage: {
                         close: '닫기',
@@ -1486,6 +1495,7 @@
                     },
                     selectAll: '모두 선택',
                     viewButton: "보고서보기",
+                    parameterProcessingMessage: '종속 매개 변수로드 중 ...',
                 };
                 break;
             case "ejRibbon":

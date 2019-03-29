@@ -1484,7 +1484,16 @@
                         startMessage: 'Trình xem Báo cáo đã gặp một số vấn đề khi tải báo cáo này. Xin vui lòng',
                         middleMessage: ' Bấm vào đây',
                         endMessage: 'để xem chi tiết lỗi',
-                        closeMessage: 'Đóng tin nhắn này'
+                        closeMessage: 'Đóng tin nhắn này',
+                        exportAjaxFailureMsg: 'Không thể xuất tài liệu do không kết nối được Dịch vụ báo cáo.',
+                        printAjaxFailureMsg: 'Không thể in tài liệu do không kết nối được Dịch vụ báo cáo.',
+                        reportLoadAjaxFailureMsg: 'Không thể tiến hành hành động Báo cáo do không kết nối được Dịch vụ báo cáo.',
+                    },
+                    progressMessage: {
+                        exportLoadingMessage: 'Chuẩn bị xuất tài liệu ... Xin vui lòng chờ ...',
+                        printLoadingMessage: 'Chuẩn bị dữ liệu in ấn Xin vui lòng chờ ...',
+                        printPreparationMessage: 'Chuẩn bị dữ liệu in ... {0}% đã hoàn thành ... Vui lòng đợi ...',
+                        exportPreparationMessage: 'Đang chuẩn bị xuất tài liệu ... {0}% đã hoàn tất ... Vui lòng đợi ...',
                     },
                     alertMessage: {
                         close: 'Gần',
@@ -1508,6 +1517,7 @@
                     },
                     selectAll: 'Chọn tất cả',
                     viewButton: "Xem báo cáo",
+                    parameterProcessingMessage: 'Đang tải các tham số phụ thuộc ...',
                 };
                 break;
             case "ejRibbon":

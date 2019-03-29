@@ -1492,10 +1492,19 @@
                         selectValue: "Seleccione un valor"
                     },
                     errorMessage: {
-                        startMessage: "Report Viewer encontró algunos problemas al cargar este informe. Por favor",
-                        middleMessage: " haga clic aquí",
-                        endMessage: "para ver los detalles del error",
-                        closeMessage: "Cerrar este mensaje"
+                        startMessage: 'Report Viewer encontró algunos problemas al cargar este informe. Por favor',
+                        middleMessage: 'Haga clic aquí',
+                        endMessage: 'para ver los detalles del error',
+                        closeMessage: 'Cerrar este mensaje',
+                        exportAjaxFailureMsg: 'No se puede exportar el documento debido a una falla en la conexión del servicio de informes.',
+                        printAjaxFailureMsg: 'No se puede imprimir el documento debido a una falla en la conexión del servicio de informes.',
+                        reportLoadAjaxFailureMsg: 'No se puede avanzar la acción de Informe debido a una falla en la conexión del Servicio de Reportes'
+                    },
+                    progressMessage: {
+                        exportLoadingMessage: 'Preparando el documento de exportación ... Por favor espere ...',
+                        printLoadingMessage: 'Preparando datos de impresión ... Por favor espere ...',
+                        printPreparationMessage: 'Preparando datos de impresión ... {0}% completado ... Por favor espere ...',
+                        exportPreparationMessage: 'Preparando el documento de exportación ... {0}% completado ... Por favor espere ...'
                     },
                     alertMessage: {
                         close: "Cerca",
@@ -1518,7 +1527,8 @@
                         RVERR0012: "El valor proporcionado para el parámetro de informe {parameterprompt} no es válido para su tipo."
                     },
                     selectAll: "Seleccionar todo",
-                    viewButton: "Vista del informe"
+                    viewButton: "Vista del informe",
+                    parameterProcessingMessage: 'Cargando parámetros dependientes ...'
                 };
                 break;
             case "ejRibbon":

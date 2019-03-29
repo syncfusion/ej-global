@@ -1459,10 +1459,19 @@
                         selectValue: 'Válasszon ki egy értéket'
                     },
                     errorMessage: {
-                        startMessage: 'A Jelentésmegjelenítő némi problémát észlelt a jelentést betöltve. Kérem',
+                        startMessage: 'A Jelentésmegjelenítő néhány problémát észlelt a jelentés betöltésekor. Kérem',
                         middleMessage: ' Kattints ide',
-                        endMessage: 'a hiba részletei megtekintéséhez',
-                        closeMessage: 'Zárja be ezt az üzenetet'
+                        endMessage: 'a hiba részletei',
+                        closeMessage: 'Zárja be ezt az üzenetet',
+                        exportAjaxFailureMsg: 'Nem sikerült exportálni a dokumentumot a Report Service összekapcsolása miatt.',
+                        printAjaxFailureMsg: 'Nem sikerült kinyomtatni a dokumentumot a Report Service összekapcsolása miatt.',
+                        reportLoadAjaxFailureMsg: 'A Jelentés szolgáltatás sikertelensége miatt a Jelentés művelet nem sikerült.',
+                    },
+                    progressMessage: {
+                        exportLoadingMessage: 'Az exportáló dokumentum előkészítése ... Kérjük, várjon ...',
+                        printLoadingMessage: 'Nyomtatási adatok előkészítése… Kérjük, várjon ...',
+                        printPreparationMessage: 'Nyomtatási adatok előkészítése ... {0}% befejeződött ... Kérjük, várjon ...',
+                        exportPreparationMessage: 'Az exportáló dokumentum előkészítése ... {0}% befejeződött ... Kérjük, várjon ...',
                     },
                     alertMessage: {
                         close: 'Bezárás',
@@ -1486,6 +1495,7 @@
                     },
                     selectAll: 'Mindet kiválaszt',
                     viewButton: "jelentés megtekintése",
+                    parameterProcessingMessage: 'Függő paraméterek betöltése ...'
                 };
                 break;
             case "ejRibbon":

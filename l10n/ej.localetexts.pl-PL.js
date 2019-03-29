@@ -1464,7 +1464,16 @@
                         startMessage: 'Report Viewer napotkał problemy podczas ładowania tego raportu. Proszę',
                         middleMessage: ' Kliknij tutaj',
                         endMessage: 'aby zobaczyć szczegóły błędu',
-                        closeMessage: 'Zamknij tę wiadomość'
+                        closeMessage: 'Zamknij tę wiadomość',
+                        exportAjaxFailureMsg: 'Nie można wyeksportować dokumentu z powodu braku połączenia z usługą raportów.',
+                        printAjaxFailureMsg: 'Nie można wydrukować dokumentu z powodu braku połączenia z usługą raportowania.',
+                        reportLoadAjaxFailureMsg: 'Nie można przejść do działania raportu z powodu niepowodzenia połączenia z usługą raportów.',
+                    },
+                    progressMessage: {
+                        exportLoadingMessage: 'Przygotowywanie dokumentu eksportującego ... Proszę czekać ...',
+                        printLoadingMessage: 'Przygotowywanie danych do druku… Proszę czekać…',
+                        printPreparationMessage: 'Przygotowywanie danych drukowania ... {0}% zakończone ... Proszę czekać ...',
+                        exportPreparationMessage: 'Przygotowywanie dokumentu eksportującego ... {0}% zakończone ... Proszę czekać ...',
                     },
                     alertMessage: {
                         close: 'Blisko',
@@ -1488,6 +1497,7 @@
                     },
                     selectAll: 'Zaznacz wszystko',
                     viewButton: "Zobacz raport",
+                    parameterProcessingMessage: 'Ładowanie zależnych parametrów ...',
                 };
                 break;
             case "ejRibbon":

@@ -1460,7 +1460,16 @@
                         startMessage: 'Report Viewer oppstod i noen problemer med å laste inn denne rapporten. Vær så snill',
                         middleMessage: ' Klikk her',
                         endMessage: 'for å se feildetaljer',
-                        closeMessage: 'Lukk denne meldingen'
+                        closeMessage: 'Lukk denne meldingen',
+                        exportAjaxFailureMsg: 'Kan ikke eksportere dokumentet på grunn av feil i forbindelse med Report Service.',
+                        printAjaxFailureMsg: 'Kan ikke skrive ut dokumentet på grunn av feil i forbindelse med Report Service.',
+                        reportLoadAjaxFailureMsg: 'Kan ikke utvikle rapporthandlingen på grunn av feil i forbindelse med Report Service.',
+                    },
+                    progressMessage: {
+                        exportLoadingMessage: 'Forbereder eksportdokument ... Vennligst vent ...',
+                        printLoadingMessage: 'Forbereder utskriftsdata ... Vennligst vent ...',
+                        printPreparationMessage: 'Forbereder utskriftsdata ... {0}% fullført ... Vennligst vent ...',
+                        exportPreparationMessage: 'Forbereder eksportdokument ... {0}% fullført ... Vennligst vent ...',
                     },
                     alertMessage: {
                         close: 'Lukk',
@@ -1484,6 +1493,7 @@
                     },
                     selectAll: 'Velg alle',
                     viewButton: "Vis rapport",
+                    parameterProcessingMessage: 'Laster avhengige parametere ...',
                 };
                 break;
             case "ejRibbon":

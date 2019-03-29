@@ -1464,7 +1464,16 @@
                         startMessage: 'Report Viewer heeft enkele problemen ondervonden bij het laden van dit rapport. alsjeblieft',
                         middleMessage: ' Klik hier',
                         endMessage: 'om de foutdetails te zien',
-                        closeMessage: 'Sluit dit bericht'
+                        closeMessage: 'Sluit dit bericht',
+                        exportAjaxFailureMsg: 'Kan het document niet exporteren vanwege het niet kunnen aansluiten van Report Service.',
+                        printAjaxFailureMsg: 'Het document kan niet worden afgedrukt vanwege het niet kunnen aansluiten van Report Service.',
+                        reportLoadAjaxFailureMsg: 'Kan de actie Rapport niet uitvoeren omdat de Report Service niet is gekoppeld.',
+                    },
+                    progressMessage: {
+                        exportLoadingMessage: 'Het exporteren van document voorbereiden ... Even geduld aub ...',
+                        printLoadingMessage: 'Afdrukgegevens voorbereiden ... Even geduld ...',
+                        printPreparationMessage: 'Afdrukgegevens voorbereiden ... {0}% voltooid ... Even geduld ...',
+                        exportPreparationMessage: 'Het exporteren van document voorbereiden ... {0}% voltooid ... Even geduld aub ...',
                     },
                     alertMessage: {
                         close: 'Dichtbij',
@@ -1488,6 +1497,7 @@
                     },
                     selectAll: 'Selecteer alles',
                     viewButton: "Rapport weergeven",
+                    parameterProcessingMessage: 'Laden van afhankelijke parameters ...',
                 };
                 break;
             case "ejRibbon":

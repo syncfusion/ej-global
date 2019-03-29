@@ -1462,7 +1462,16 @@
                         startMessage: 'Report Viewer stötte på några problem med att läsa in denna rapport. Snälla du',
                         middleMessage: ' Klicka här',
                         endMessage: 'för att se felinformationen',
-                        closeMessage: 'Stäng det här meddelandet'
+                        closeMessage: 'Stäng det här meddelandet',
+                        exportAjaxFailureMsg: 'Det gick inte att exportera dokumentet på grund av att det inte gick att ansluta Report Service.',
+                        printAjaxFailureMsg: 'Det gick inte att skriva ut dokumentet på grund av att det inte gick att ansluta Report Service.',
+                        reportLoadAjaxFailureMsg: 'Det gick inte att göra rapporteringsåtgärden på grund av misslyckande att ansluta Report Service.',
+                    },
+                    progressMessage: {
+                        exportLoadingMessage: 'Förbereder exporterande dokument ... Vänligen vänta ...',
+                        printLoadingMessage: 'Förbereder utskriftsdata ... Vänligen vänta ...',
+                        printPreparationMessage: 'Förbereder utskriftsdata ... {0}% slutfört ... Vänligen vänta ...',
+                        exportPreparationMessage: 'Förbereder exportdokument ... {0}% slutfört ... Vänligen vänta ...',
                     },
                     alertMessage: {
                         close: 'Stänga',
@@ -1486,6 +1495,7 @@
                     },
                     selectAll: 'Välj alla',
                     viewButton: "Visa rapport",
+                    parameterProcessingMessage: 'Laddar beroende parametrar ...'
                 };
                 break;
             case "ejRibbon":

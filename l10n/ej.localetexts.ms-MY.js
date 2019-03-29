@@ -1460,7 +1460,16 @@
                         startMessage: 'Peninjau Laporan menghadapi beberapa isu memuatkan laporan ini. Tolong',
                         middleMessage: ' Tekan di sini',
                         endMessage: 'untuk melihat butiran ralat',
-                        closeMessage: 'Tutup mesej ini'
+                        closeMessage: 'Tutup mesej ini',
+                        exportAjaxFailureMsg: 'Tidak dapat mengeksport dokumen kerana kegagalan menyambungkan Perkhidmatan Laporan.',
+                        printAjaxFailureMsg: 'Tidak dapat mencetak dokumen disebabkan kegagalan menyambungkan Perkhidmatan Laporan.',
+                        reportLoadAjaxFailureMsg: 'Tidak dapat memajukan tindakan Laporan disebabkan kegagalan menyambungkan Perkhidmatan Laporan.',
+                    },
+                    progressMessage: {
+                        exportLoadingMessage: 'Menyediakan dokumen pengeksport ... Sila tunggu ...',
+                        printLoadingMessage: 'Menyediakan data cetak ... Sila tunggu ...',
+                        printPreparationMessage: 'Menyediakan data cetak ... {0}% selesai ... Sila tunggu ...',
+                        exportPreparationMessage: 'Menyediakan dokumen pengeksport ... {0}% selesai ... Sila tunggu ...',
                     },
                     alertMessage: {
                         close: 'Tutup',
@@ -1484,6 +1493,7 @@
                     },
                     selectAll: 'Pilih semua',
                     viewButton: "Laporan Lihat",
+                    parameterProcessingMessage: 'Memuatkan parameter bergantung ...'
                 };
                 break;
             case "ejRibbon":

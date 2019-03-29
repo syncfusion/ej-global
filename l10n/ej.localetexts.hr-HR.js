@@ -1460,10 +1460,19 @@
                         selectValue: 'Odaberite vrijednost'
                     },
                     errorMessage: {
-                        startMessage: 'Preglednik izvješća naišao je na probleme s učitavanjem ovog izvješća. Molim',
+                        startMessage: 'Preglednik izvješća naišao je na neke probleme prilikom učitavanja tog izvješća. Molim',
                         middleMessage: ' Kliknite ovdje',
                         endMessage: 'da biste vidjeli pojedinosti o pogrešci',
-                        closeMessage: 'Zatvorite ovu poruku'
+                        closeMessage: 'Zatvorite ovu poruku',
+                        exportAjaxFailureMsg: 'Nije moguće izvesti dokument zbog neuspjelog povezivanja usluge izvješća.',
+                        printAjaxFailureMsg: 'Nije moguće ispisati dokument zbog neuspjelog povezivanja usluge izvješća.',
+                        reportLoadAjaxFailureMsg: 'Nije moguće izvršiti radnju izvješća zbog neuspjelog povezivanja usluge izvješća.',
+                    },
+                    progressMessage: {
+                        exportLoadingMessage: 'Priprema dokumenta za izvoz ... Pričekajte ...',
+                        printLoadingMessage: 'Priprema podataka za ispis ... Pričekajte ...',
+                        printPreparationMessage: 'Priprema podataka za ispis ... {0}% dovršeno ... Pričekajte ...',
+                        exportPreparationMessage: 'Priprema dokumenta za izvoz ... {0}% dovršeno ... Pričekajte ...',
                     },
                     alertMessage: {
                         close: 'Zatvoriti',
@@ -1487,6 +1496,7 @@
                     },
                     selectAll: 'Odaberi sve',
                     viewButton: "Vidi izvještaj",
+                    parameterProcessingMessage: 'Učitavanje ovisnih parametara ...',
                 };
                 break;
             case "ejRibbon":

@@ -1460,10 +1460,19 @@
                         selectValue: 'Vælg en værdi'
                     },
                     errorMessage: {
-                        startMessage: 'Report Viewer havde nogle problemer med at indlæse denne rapport. Vær venlig',
-                        middleMessage: ' Klik her',
+                        startMessage: 'Rapport Viewer havde nogle problemer med at indlæse denne rapport. Vær venlig',
+                        middleMessage: 'Klik her',
                         endMessage: 'for at se fejloplysningerne',
-                        closeMessage: 'Luk denne meddelelse'
+                        closeMessage: 'Luk denne besked',
+                        exportAjaxFailureMsg: 'Kunne ikke eksportere dokumentet på grund af manglende forbindelse til Report Service.',
+                        printAjaxFailureMsg: 'Kunne ikke udskrive dokumentet på grund af manglende forbindelse til Report Service.',
+                        reportLoadAjaxFailureMsg: 'Kunne ikke fortsætte rapportens handling på grund af manglende tilknytning af Rapport Service.',
+                    },
+                    progressMessage: {
+                        exportLoadingMessage: 'Forbereder eksportdokument ... Vent venligst ...',
+                        printLoadingMessage: 'Forberedelse af udskriftsdata ... Vent venligst ...',
+                        printPreparationMessage: 'Forbereder udskrivningsdata ... {0}% gennemført ... Vent venligst ...',
+                        exportPreparationMessage: 'Forbereder eksportdokument ... {0}% gennemført ... Vent venligst ...',
                     },
                     alertMessage: {
                         close: 'Tæt',
@@ -1487,6 +1496,7 @@
                     },
                     selectAll: 'Vælg alle',
                     viewButton: 'Se rapport',
+                    parameterProcessingMessage: 'Indlæser afhængige parametre ...'
                 };
                 break;
             case "ejRibbon":

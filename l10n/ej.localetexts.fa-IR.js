@@ -1445,7 +1445,16 @@
                         startMessage: 'گزارش دهنده مشاهده برخی از مسائل را بارگیری این گزارش مواجه شد. لطفا',
                         middleMessage: ' اینجا کلیک کنید',
                         endMessage: 'برای دیدن جزئیات خطا',
-                        closeMessage: 'بستن این پیام'
+                        closeMessage: 'بستن این پیام',
+                        exportAjaxFailureMsg: 'عدم امکان صادرات این سند به دلیل عدم اتصال سرویس گزارش',
+                        printAjaxFailureMsg: 'ممکن است سند را بخاطر شکست سرویس گزارش گزارش نکنید.',
+                        reportLoadAjaxFailureMsg: 'قادر به پیشرفت عملکرد گزارش به دلیل عدم اتصال خدمات گزارش.',
+                    },
+                    progressMessage: {
+                        exportLoadingMessage: 'آماده سازی سند صادرات ... لطفا صبر کنید ...',
+                        printLoadingMessage: 'آماده سازی داده های چاپ ... لطفا صبر کنید ...',
+                        printPreparationMessage: 'آماده سازی دادههای چاپ ... {0}٪ تکمیل شده ... لطفا صبر کنید ...',
+                        exportPreparationMessage: 'آماده سازی سند صادرات ... {0}٪ تکمیل شده ... لطفا صبر کنید ...',
                     },
                     alertMessage: {
                         close: 'نزدیک',
@@ -1469,6 +1478,7 @@
                     },
                     selectAll: 'انتخاب همه',
                     viewButton: "نمایش گزارش",
+                    parameterProcessingMessage: 'بارگذاری پارامترهای وابسته ...'
                 };
                 break;
             case "ejRibbon":

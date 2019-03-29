@@ -1499,7 +1499,16 @@
                         startMessage: 'واجه عارض التقرير بعض المشكلات التي تحمل هذا التقرير. رجاء',
                         middleMessage: ' انقر هنا',
                         endMessage: 'لمشاهدة تفاصيل الخطأ',
-                        closeMessage: 'أغلق هذه الرسالة'
+                        closeMessage: 'أغلق هذه الرسالة',
+                        exportAjaxFailureMsg: 'يتعذر تصدير المستند بسبب فشل ربط خدمة التقارير.',
+                        printAjaxFailureMsg: 'غير قادر على طباعة المستند بسبب فشل الاتصال بخدمة التقارير.',
+                        reportLoadAjaxFailureMsg: 'يتعذر تقديم إجراء التقرير بسبب فشل ربط خدمة التقارير.',
+                    },
+                    progressMessage: {
+                        exportLoadingMessage: 'جارٍ تحضير مستند التصدير ... يرجى الانتظار ...',
+                        printLoadingMessage: 'جارٍ تحضير بيانات الطباعة ... يرجى الانتظار ...',
+                        printPreparationMessage: 'جارٍ تحضير بيانات الطباعة ... %{0} مكتمل ... يرجى الانتظار ...',
+                        exportPreparationMessage: 'جارٍ إعداد مستند التصدير ... %{0} مكتمل ... يرجى الانتظار ...',
                     },
                     alertMessage: {
                         close: 'قريب',
@@ -1523,6 +1532,7 @@
                     },
                     selectAll: 'اختر الكل',
                     viewButton: "عرض التقرير",
+                    parameterProcessingMessage: 'جارٍ تحميل المعلمات التابعة ...',
                 };
                 break;
             case "ejRibbon":

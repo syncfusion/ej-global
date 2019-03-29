@@ -1447,7 +1447,16 @@
                         startMessage: 'O Report Viewer encontrou alguns problemas ao carregar este relatório. Por favor',
                         middleMessage: ' Clique aqui',
                         endMessage: 'para ver os detalhes do erro',
-                        closeMessage: 'Fechar esta mensagem'
+                        closeMessage: 'Fechar esta mensagem',
+                        exportAjaxFailureMsg: 'Não é possível exportar o documento devido à falha na conexão do Serviço de Relatório.',
+                        printAjaxFailureMsg: 'Não é possível imprimir o documento devido à falha na conexão do Serviço de Relatório.',
+                        reportLoadAjaxFailureMsg: 'Não é possível progredir a ação Relatório devido à falha na conexão do Serviço de Relatório.',
+                    },
+                    progressMessage: {
+                        exportLoadingMessage: 'Preparando o documento de exportação ... Por favor, aguarde ...',
+                        printLoadingMessage: 'Preparando dados de impressão ... Por favor, aguarde ...',
+                        printPreparationMessage: 'Preparando os dados de impressão ... {0}% completed ... Please wait ...',
+                        exportPreparationMessage: 'Preparando o documento de exportação ... {0}% completed ... Please wait ...',
                     },
                     alertMessage: {
                         close: 'Fechar',
@@ -1471,6 +1480,7 @@
                     },
                     selectAll: 'Selecionar tudo',
                     viewButton: "Exibir relatório",
+                    parameterProcessingMessage: 'Carregando parâmetros dependentes ...'
                 };
                 break;
             case "ejRibbon":

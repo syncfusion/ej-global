@@ -1455,10 +1455,19 @@
                         selectValue: 'Vyberte hodnotu'
                     },
                     errorMessage: {
-                        startMessage: 'Prohlížeč zpráv zaznamenal některé problémy při načítání tohoto přehledu. Prosím',
+                        startMessage: 'Report Viewer zaznamenal některé problémy při načítání tohoto přehledu. Prosím',
                         middleMessage: ' Klikněte zde',
                         endMessage: 'zobrazit podrobnosti o chybě',
-                        closeMessage: 'Zavřete tuto zprávu'
+                        closeMessage: 'Zavřít tuto zprávu',
+                        exportAjaxFailureMsg: 'Nelze exportovat dokument kvůli selhání propojení služby Report.',
+                        printAjaxFailureMsg: 'Nelze vytisknout dokument kvůli selhání propojení služby Report.',
+                        reportLoadAjaxFailureMsg: 'Nelze pokročit v akci zprávy kvůli selhání připojení služby Report.',
+                    },
+                    progressMessage: {
+                        exportLoadingMessage: 'Příprava exportu dokumentu ... Čekejte prosím ...',
+                        printLoadingMessage: 'Příprava dat tisku ... Čekejte prosím ...',
+                        printPreparationMessage: 'Příprava tiskových dat ... {0}% dokončeno ... Prosím, počkejte ...',
+                        exportPreparationMessage: 'Příprava exportu dokumentu ... {0}% dokončeno ... Prosím, počkejte ...',
                     },
                     alertMessage: {
                         close: 'Zavřít',
@@ -1482,6 +1491,7 @@
                     },
                     selectAll: 'Vybrat vše',
                     viewButton: "Zobrazit hlášení",
+                    parameterProcessingMessage: 'Načítání závislých parametrů ...',
                 };
                 break;
             case "ejRibbon":

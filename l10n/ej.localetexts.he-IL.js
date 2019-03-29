@@ -1464,7 +1464,16 @@
                         startMessage: 'דוח Viewer נתקל בבעיות מסוימות בטעינת דוח זה. אנא',
                         middleMessage: ' לחץ כאן',
                         endMessage: 'כדי לראות את פרטי השגיאה',
-                        closeMessage: 'סגור הודעה זו'
+                        closeMessage: 'סגור הודעה זו',
+                        exportAjaxFailureMsg: 'לא ניתן לייצא את המסמך עקב כשל בחיבור שירות דיווח.',
+                        printAjaxFailureMsg: 'לא ניתן להדפיס את המסמך עקב כשל בחיבור שירות דיווח.',
+                        reportLoadAjaxFailureMsg: 'לא ניתן לקדם את פעולת הדוח עקב כשל בחיבור שירות דיווח.',
+                    },
+                    progressMessage: {
+                        exportLoadingMessage: 'מכין מסמך ייצוא ... המתן ...',
+                        printLoadingMessage: 'מכין נתוני הדפסה ... המתן ...',
+                        printPreparationMessage: 'מכין נתוני הדפסה ... {0}% הושלם ... המתן ...',
+                        exportPreparationMessage: 'מכין מסמך ייצוא ... {0}% הושלם ... המתן ...',
                     },
                     alertMessage: {
                         close: 'לִסְגוֹר',
@@ -1488,6 +1497,7 @@
                     },
                     selectAll: 'בחר הכל',
                     viewButton: "צפה בדוח",
+                    parameterProcessingMessage: 'טוען פרמטרים תלויים ....'
                 };
                 break;
             case "ejRibbon":

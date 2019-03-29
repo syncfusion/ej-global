@@ -1462,7 +1462,16 @@
                         startMessage: 'Rapor Görüntüleyici bu raporu yükleyen bazı sorunlarla karşılaştı. Lütfen',
                         middleMessage: ' Buraya TIKLAYIN',
                         endMessage: 'hata ayrıntılarını görmek için',
-                        closeMessage: 'Bu mesajı kapat'
+                        closeMessage: 'Bu mesajı kapat',
+                        exportAjaxFailureMsg: 'Det gick inte att exportera dokumentet på grund av att det inte gick att ansluta Report Service.',
+                        printAjaxFailureMsg: 'Det gick inte att skriva ut dokumentet på grund av att det inte gick att ansluta Report Service.',
+                        reportLoadAjaxFailureMsg: 'Det gick inte att göra rapporteringsåtgärden på grund av misslyckande att ansluta Report Service.',
+                    },
+                    progressMessage: {
+                        exportLoadingMessage: 'Förbereder exporterande dokument ... Vänligen vänta ...',
+                        printLoadingMessage: 'Preparing print data… Please wait...',
+                        printPreparationMessage: 'Preparing print data... {0}% completed... Please wait...',
+                        exportPreparationMessage: 'Preparing exporting document... {0}% completed... Please wait...',
                     },
                     alertMessage: {
                         close: 'Kapat',
@@ -1486,6 +1495,7 @@
                     },
                     selectAll: 'Hepsini seç',
                     viewButton: "Raporu görüntüle",
+                    parameterProcessingMessage: 'Laddar beroende parametrar ...'
                 };
                 break;
             case "ejRibbon":

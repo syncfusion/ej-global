@@ -1464,7 +1464,16 @@
                         startMessage: 'レポートビューアでこのレポートを読み込む際に問題が発生しました。お願いします',
                         middleMessage: ' ここをクリック',
                         endMessage: 'エラーの詳細を表示する',
-                        closeMessage: 'このメッセージを閉じる'
+                        closeMessage: 'このメッセージを閉じる',
+                        exportAjaxFailureMsg: 'Report Serviceへの接続に失敗したため、ドキュメントをエクスポートできません。',
+                        printAjaxFailureMsg: 'Report Serviceへの接続に失敗したため、ドキュメントを印刷できません。',
+                        reportLoadAjaxFailureMsg: 'Report Serviceへの接続に失敗したため、Reportアクションを進めることができません。',
+                    },
+                    progressMessage: {
+                        exportLoadingMessage: 'ドキュメントのエクスポートを準備しています...お待ちください...',
+                        printLoadingMessage: '印刷データを準備しています…お待ちください...',
+                        printPreparationMessage: '印刷データの準備中... {0}％完了...お待ちください...',
+                        exportPreparationMessage: 'ドキュメントのエクスポートを準備しています... {0}％完了しました...お待ちください...',
                     },
                     alertMessage: {
                         close: '閉じる',
@@ -1488,6 +1497,7 @@
                     },
                     selectAll: 'すべて選択',
                     viewButton: "[レポートの表示",
+                    parameterProcessingMessage: '依存パラメータを読み込んでいます...',
                 };
                 break;
             case "ejRibbon":

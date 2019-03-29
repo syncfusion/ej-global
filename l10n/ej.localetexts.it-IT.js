@@ -1461,7 +1461,16 @@
                         startMessage: 'Report Viewer ha riscontrato alcuni problemi durante il caricamento di questo report. per favore',
                         middleMessage: ' Clicca qui',
                         endMessage: "per vedere i dettagli dell'errore",
-                        closeMessage: 'Chiudi questo messaggio'
+                        closeMessage: 'Chiudi questo messaggio',
+                        exportAjaxFailureMsg: 'Impossibile esportare il documento a causa di un errore nel collegamento del servizio report.',
+                        printAjaxFailureMsg: 'Impossibile stampare il documento a causa di un errore nel collegamento del servizio report.',
+                        reportLoadAjaxFailureMsg: "Impossibile eseguire l'azione di report a causa di un errore nel collegamento del servizio report.",
+                    },
+                    progressMessage: {
+                        exportLoadingMessage: 'Preparazione del documento di esportazione ... attendere ...',
+                        printLoadingMessage: 'Preparazione dei dati di stampa ... attendere ...',
+                        printPreparationMessage: 'Preparazione dei dati di stampa ... {0}% completato ... Attendere ...',
+                        exportPreparationMessage: 'Preparazione del documento di esportazione ... {0}% completato ... Attendere ...',
                     },
                     alertMessage: {
                         close: 'Vicino',
@@ -1485,6 +1494,7 @@
                     },
                     selectAll: 'Seleziona tutto',
                     viewButton: "Visualizza rapporto",
+                    parameterProcessingMessage: 'Caricamento dei parametri dipendenti ...',
                 };
                 break;
             case "ejRibbon":

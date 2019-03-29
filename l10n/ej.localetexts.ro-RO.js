@@ -1461,7 +1461,16 @@
                         startMessage: 'Report Viewer a întâmpinat unele probleme legate de încărcarea acestui raport. Vă rog',
                         middleMessage: ' Click aici',
                         endMessage: 'pentru a vedea detaliile de eroare',
-                        closeMessage: 'Închideți acest mesaj'
+                        closeMessage: 'Închideți acest mesaj',
+                        exportAjaxFailureMsg: 'Imposibil de exportat documentul din cauza nereușitei conectării serviciului de raport.',
+                        printAjaxFailureMsg: 'Imprimanta nu a putut fi imprimată din cauza nereușitei serviciului Report Service.',
+                        reportLoadAjaxFailureMsg: 'Prognoza nu a putut fi efectuată din cauza nereușitei conectării serviciului de raport.',
+                    },
+                    progressMessage: {
+                        exportLoadingMessage: 'Pregătirea exportului documentului ... Vă rugăm să așteptați ...',
+                        printLoadingMessage: 'Pregătirea datelor de imprimare ... Vă rugăm să așteptați ...',
+                        printPreparationMessage: 'Pregătirea datelor de imprimare ... {0}% terminată ... Vă rugăm să așteptați ...',
+                        exportPreparationMessage: 'Se pregătește exportul documentului ... {0}% terminat ... Vă rugăm să așteptați ...',
                     },
                     alertMessage: {
                         close: 'Închide',
@@ -1485,6 +1494,7 @@
                     },
                     selectAll: 'Selectează tot',
                     viewButton: "Vizualizează raportul",
+                    parameterProcessingMessage: 'Se încarcă parametrii dependenți ...'
                 };
                 break;
             case "ejRibbon":

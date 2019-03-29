@@ -1462,7 +1462,17 @@
                         startMessage: 'Raportin Viewer kohtasi joitakin ongelmia tämän raportin lataamisessa. Ole kiltti',
                         middleMessage: ' Klikkaa tästä',
                         endMessage: 'nähdä virheen tiedot',
-                        closeMessage: 'Sulje tämä viesti'
+                        endMessage: 'nähdäksesi virheen tiedot',
+                        closeMessage: 'Sulje tämä viesti',
+                        exportAjaxFailureMsg: 'Asiakirjaa ei voi viedä, koska raporttipalvelun liittäminen epäonnistui.',
+                        printAjaxFailureMsg: 'Asiakirjaa ei voi tulostaa raporttipalvelun yhdistämisen epäonnistumisen vuoksi.',
+                        reportLoadAjaxFailureMsg: 'Raporttitoimintoa ei voi edetä, koska raporttipalvelun liittäminen epäonnistui.',
+                    },
+                    progressMessage: {
+                        exportLoadingMessage: 'Vientiasiakirjan valmistelu ... Odota ...',
+                        printLoadingMessage: 'Tulostustietojen valmistelu… Odota ...',
+                        printPreparationMessage: 'Tulostustietojen valmistelu ... {0}% valmis ... Odota ...',
+                        exportPreparationMessage: 'Vientiasiakirjan valmistelu ... {0}% valmis ... Odota ...',
                     },
                     alertMessage: {
                         close: 'kiinni',
@@ -1486,6 +1496,7 @@
                     },
                     selectAll: 'Valitse kaikki',
                     viewButton: "Näytä raportti",
+                    parameterProcessingMessage: 'Riippuvien parametrien lataaminen ...',
                 };
                 break;
             case "ejRibbon":

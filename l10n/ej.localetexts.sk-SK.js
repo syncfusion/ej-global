@@ -1466,7 +1466,16 @@
                         startMessage: 'Program Report Viewer narazil na niektoré problémy s načítaním tohto prehľadu. prosím',
                         middleMessage: ' Kliknite tu',
                         endMessage: 'zobrazíte detaily chýb',
-                        closeMessage: 'Zatvorte túto správu'
+                        closeMessage: 'Zatvorte túto správu',
+                        exportAjaxFailureMsg: 'Nepodarilo sa exportovať dokument kvôli zlyhaniu služby Report Report Service.',
+                        printAjaxFailureMsg: 'Nepodarilo sa vytlačiť dokument z dôvodu zlyhania pripojenia Report Service.',
+                        reportLoadAjaxFailureMsg: 'Nepodarilo sa spustiť akciu Report kvôli zlyhaniu služby Report Report Service.',
+                    },
+                    progressMessage: {
+                        exportLoadingMessage: 'Príprava exportovaného dokumentu ... Čakajte prosím ...',
+                        printLoadingMessage: 'Príprava tlačových údajov… Čakajte prosím ...',
+                        printPreparationMessage: 'Príprava tlačových údajov ... {0}% dokončených ... Čakajte prosím ...',
+                        exportPreparationMessage: 'Príprava exportného dokumentu ... {0}% dokončených ... Čakajte prosím ...',
                     },
                     alertMessage: {
                         close: 'Zavrieť',
@@ -1490,6 +1499,7 @@
                     },
                     selectAll: 'Vybrať všetko',
                     viewButton: "pozrieť si správu",
+                    parameterProcessingMessage: 'Načítavajú sa závislé parametre ...'
                 };
                 break;
             case "ejRibbon":

@@ -1768,7 +1768,16 @@
                         startMessage: 'Report Viewer encountered some issues loading this report. Please',
                         middleMessage: ' Click here',
                         endMessage: 'to see the error details',
-                        closeMessage: 'Close this message'
+                        closeMessage: 'Close this message',
+                        exportAjaxFailureMsg: 'Unable to export the document due to failure of connecting Report Service.',
+                        printAjaxFailureMsg: 'Unable to print the document due to failure of connecting Report Service.',
+                        reportLoadAjaxFailureMsg: 'Unable to progress the Report action due to failure of connecting Report Service.',
+                    },
+                    progressMessage: {
+                        exportLoadingMessage: 'Preparing exporting document... Please wait...',
+                        printLoadingMessage: 'Preparing print data... Please wait...',
+                        printPreparationMessage: 'Preparing print data... {0}% completed... Please wait...',
+                        exportPreparationMessage: 'Preparing exporting document... {0}% completed... Please wait...',
                     },
                     alertMessage: {
                         close: 'Close',
@@ -1791,7 +1800,8 @@
                         RVERR0012: 'The value provided for the report parameter {parameterprompt} is not valid for its type.'
                     },
                     selectAll: 'Select All',
-                    viewButton: 'View Report'
+                    viewButton: 'View Report',
+                    parameterProcessingMessage: 'Loading dependent parameters...'
                 };
                 break;
             case "ejRTE":
