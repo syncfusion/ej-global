@@ -314,6 +314,11 @@
                         duration: "Duration",
                         status: "Progress",
                         taskMode: "Task Mode",
+                        serialNumber: "S.No",
+                        subTasksStartDate: "SubTasks Start Date",
+                        subTasksEndDate: "SubTasks End Date",
+                        scheduleStartDate: "Schedule Start Date",
+                        scheduleEndDate: "Schedule End Date",
                         predecessor: "Predecessors",
                         type: "Type",
                         offset: "Offset",
@@ -1521,9 +1526,9 @@
                         selectValue: 'Select a value'
                     },
                     errorMessage: {
-                        startMessage: 'Report Viewer encountered some problems loading this report. Please',
+                        startMessage: 'Report Viewer encountered some issues loading this report. Please',
                         middleMessage: ' Click here',
-                        endMessage: 'to see the details of the error',
+                        endMessage: 'to see the error details',
                         closeMessage: 'Close this message',
                         exportAjaxFailureMsg: 'Unable to export the document due to failure of connecting Report Service.',
                         printAjaxFailureMsg: 'Unable to print the document due to failure of connecting Report Service.',

@@ -273,6 +273,11 @@
                         duration: "مدت زمان",
                         status: "پیش رفتن",
                         taskMode: "حالت وظیفه",
+                        serialNumber: "شماره سریال",
+                        subTasksStartDate: "زیر کار تاریخ شروع",   
+                        subTasksEndDate: "وظایف زیر تاریخ پایان",
+                        scheduleStartDate: "تاریخ شروع برنامه",
+                        scheduleEndDate: "تاریخ پایان برنامه",
                         predecessor: "اجداد",
                         type: "نوع",
                         offset: "انحراف",
@@ -1442,7 +1447,7 @@
                         selectValue: 'یک مقدار را انتخاب کنید'
                     },
                     errorMessage: {
-                        startMessage: 'گزارش دهنده مشاهده برخی از مسائل را بارگیری این گزارش مواجه شد. لطفا',
+                        startMessage: 'گزارش دهنده مشاهده برخی از مسائل را بارگذاری این گزارش مواجه شد. لطفا',
                         middleMessage: ' اینجا کلیک کنید',
                         endMessage: 'برای دیدن جزئیات خطا',
                         closeMessage: 'بستن این پیام',
