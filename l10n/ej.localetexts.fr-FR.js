@@ -1430,7 +1430,7 @@
                             contentText: "Actualiser le rapport."
                         },
                         printLayout: {
-                            headerText: "Print Layout",
+                            headerText: "Mise en page",
                             contentText: "Changement entre la mise en page d'impression et les modes normaux."
                         },
                         pageIndex: {
@@ -1475,14 +1475,14 @@
                     },
                     credential: {
                         userName: "Nom d'utilisateur",
-                        password: "Password"
+                        password: "mot de passe"
                     },
                     waterMark: {
                         selectOption: "S閘ectionnez l'option",
                         selectValue: "S閘ectionnez une valeur"
                     },
                     errorMessage: {
-                        startMessage: "Report Viewer a rencontré des problèmes lors du chargement de ce rapport. S'il vous plaît",
+                        startMessage: "La visionneuse de rapports a rencontré des problèmes lors du chargement de ce rapport. S'il vous plaît",
                         middleMessage: " Cliquez ici",
                         endMessage: "pour voir les détails de l'erreur",
                         closeMessage: "Fermer ce message",

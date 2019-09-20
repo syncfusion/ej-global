@@ -1462,7 +1462,7 @@
                             contentText: "Aktuelle Seitenzahl anzuzeigen."
                         },
                         zoom: {
-                            headerText: "Zoom",
+                            headerText: "Zoomen",
                             contentText: "Verkleinern oder Vergrößern des Berichtes."
                         },
                         back: {
@@ -1476,8 +1476,8 @@
                             pageHeight: "Ganze Seite"
                         },
                         pagesetup: {
-                            headerText: "Seiten Setup",
-                            contentText: "Wähle eine Seiten-Setup-Option aus um die Papierformatausrichtung und die Seitenspanne zu verändern."
+                            headerText: "Seiteneinrichtung",
+                            contentText: "Wählen Sie die Option zum Einrichten der Seite, um Papierformat, Ausrichtung und Ränder zu ändern."
                         }
                     },
                     pagesetupDialog: {
@@ -1506,12 +1506,12 @@
                         selectValue: 'Wähle einen Wert'
                     },
                     errorMessage: {
-                        startMessage: 'Im Report Viewer sind beim Laden dieses Berichts Probleme aufgetreten. Bitte',
+                        startMessage: 'Beim Laden dieses Berichts sind in der Berichtsanzeige einige Probleme aufgetreten. Bitte',
                         middleMessage: 'Hier klicken',
                         endMessage: 'um die Fehlerdetails zu sehen',
                         closeMessage: 'Schließen Sie diese Nachricht',
                         exportAjaxFailureMsg: 'Das Dokument kann nicht exportiert werden, weil der Berichtsdienst nicht verbunden wurde.',
-                        printAjaxFailureMsg: 'Das Dokument kann nicht gedruckt werden, weil der Report Service nicht verbunden wurde.',
+                        printAjaxFailureMsg: 'Das Dokument kann nicht gedruckt werden, weil der Berichtsdienst nicht verbunden wurde.',
                         reportLoadAjaxFailureMsg: 'Die Berichtsaktion kann nicht ausgeführt werden, weil der Berichtsdienst nicht verbunden werden konnte.',
                     },
                     progressMessage: {
@@ -1522,19 +1522,19 @@
                     },
                     alertMessage: {
                         close: 'Schließen',
-                        title: 'BerichtViewer',
+                        title: 'Bericht Zuschauer',
                         done: 'OK',
                         showDetails: 'Zeige Details',
                         hideDetails: 'Details ausblenden',
                         reportLoad: 'Bericht geladen:',
-                        RVERR0001: 'ReportViewer konnte den Bericht nicht laden',
-                        RVERR0002: 'ReportViewer konnte den Bericht nicht rendern',
+                        RVERR0001: 'Bericht Zuschauer konnte den Bericht nicht laden',
+                        RVERR0002: 'Bericht Zuschauer konnte den Bericht nicht rendern',
                         RVERR0003: 'Beim Ajax-Postback ist ein Fehler aufgetreten',
                         RVERR0004: 'Bitte wählen Sie einen Wert für den Parameter',
                         RVERR0005: 'Der Parameter {parametername} fehlt ein Wert',
                         RVERR0006: 'Bitte geben Sie den Datentyp float ein',
                         RVERR0007: 'Bitte geben Sie die Ganzzahl-Datentyp Eingabe',
-                        RVERR0008: 'ReportViewer konnte die Datenquellenanmeldeinformationen nicht überprüfen',
+                        RVERR0008: 'Bericht Zuschauer konnte die Datenquellenanmeldeinformationen nicht überprüfen',
                         RVERR0009: 'Die Ränder sind überlappt oder sie liegen außerhalb des Papiers. Geben Sie eine andere Randgröße ein.',
                         RVERR0010: 'Bitte geben Sie einen Wert für den Parameter ein',
                         RVERR0011: 'Der Parameter darf nicht leer sein',
