@@ -1364,33 +1364,33 @@
                 ej.ReportViewer.Locale["pl-PL"] = {
                     toolbar: {
                         print: {
-                            headerText: "Wydrukować",
-                            contentText: "Wydrukować raport."
+                            headerText: "Drukuj",
+                            contentText: "Drukuj raport."
                         },
                         exportformat: {
                             headerText: "Eksport",
-                            contentText: "Wybierz format pliku eksportowanego.",
+                            contentText: "Wybierz format pliku.",
                             Pdf: "PDF",
-                            Excel: "Przewyższać",
-                            Word: "Słowo",
+                            Excel: "Excel",
+                            Word: "Word",
                             Html: "HTML",
                             PPT: "PowerPoint",
                             CSV: "CSV"
                         },
                         first: {
-                            headerText: "Pierwszy",
+                            headerText: "Pierwsza",
                             contentText: "Idź do pierwszej strony raportu."
                         },
                         previous: {
-                            headerText: "Poprzedni",
+                            headerText: "Poprzednia",
                             contentText: "Przejdź do poprzedniej strony raportu."
                         },
                         next: {
-                            headerText: "Następny",
+                            headerText: "Następna",
                             contentText: "Przejdź do następnej strony raportu."
                         },
                         last: {
-                            headerText: "Trwać",
+                            headerText: "Ostatnia",
                             contentText: "Idź do ostatniej strony raportu."
                         },
                         documentMap: {
@@ -1402,37 +1402,37 @@
                             contentText: "Pokazywanie lub ukrywanie panelu parametrów."
                         },
                         zoomIn: {
-                            headerText: "Zbliżenie",
-                            contentText: "Powiększanie do raportu."
+                            headerText: "Zbliż",
+                            contentText: "Powiększ raport."
                         },
                         zoomOut: {
-                            headerText: "Zoom-Out",
-                            contentText: "Pomniejszyć raportu."
+                            headerText: "Oddal",
+                            contentText: "Pomniejsz raport."
                         },
                         refresh: {
-                            headerText: "Odświeżać",
+                            headerText: "Odśwież",
                             contentText: "Odśwież raport."
                         },
                         printLayout: {
                             headerText: "Układ wydruku",
-                            contentText: "Zmiana pomiędzy układzie wydruku i normalnych trybach."
+                            contentText: "Zmiana pomiędzy układem wydruku i normalnym trybie."
                         },
                         pageIndex: {
                             headerText: "Numer strony",
-                            contentText: "Aktualny numer strony, aby zobaczyć."
+                            contentText: "Aktualny numer strony."
                         },
                         zoom: {
                             headerText: "Powiększenie",
                             contentText: "Powiększanie i pomniejszanie w raporcie."
                         },
                         back: {
-                            headerText: "Plecy",
+                            headerText: "Wróć",
                             contentText: "Wróć do raportu nadrzędnego."
                         },
                         fittopage: {
                             headerText: "Dopasuj do strony",
-                            contentText: "Założyć strony raportu do pojemnika.",
-                            pageWidth: "Strona Szerokość",
+                            contentText: "Dopasuj strony raportu do ekranu.",
+                            pageWidth: "Szerokość strony",
                             pageHeight: "Cała strona"
                         },
                         pagesetup: {
@@ -1475,7 +1475,7 @@
                         reportLoadAjaxFailureMsg: 'Nie można przejść do działania raportu z powodu niepowodzenia połączenia z usługą raportów.',
                     },
                     progressMessage: {
-                        exportLoadingMessage: 'Przygotowywanie dokumentu eksportującego ... Proszę czekać ...',
+                        exportLoadingMessage: 'Przygotowywanie dokumentu ... Proszę czekać ...',
                         printLoadingMessage: 'Przygotowywanie danych do druku… Proszę czekać…',
                         printPreparationMessage: 'Przygotowywanie danych drukowania ... {0}% zakończone ... Proszę czekać ...',
                         exportPreparationMessage: 'Przygotowywanie dokumentu eksportującego ... {0}% zakończone ... Proszę czekać ...',
